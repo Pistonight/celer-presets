@@ -1,0 +1,42 @@
+tags:
+  counter-warp:
+    color: black
+    background: cyan
+
+icons:
+  warp:
+
+presets:
+  Warp3:
+    text: ".loc($(0))"
+    icon: warp
+    counter: .var(counter-warp)
+    movements:
+    - to: [$(1), $(2), $(3)]
+      warp: true
+  Warp:
+    text: ".loc($(0))"
+    icon: warp
+    counter: .var(warp)
+    movements:
+    - to: [$(1), $(2)]
+      warp: true
+  _Warp:
+    _TechLab:
+      Akkala:
+        presets: _Warp<Akkala Tech Lab,4522.01,3166.63>
+      Hateno:
+        presets: _Warp<Hateno Tech Lab,3777.71,2127.36>
+    _Beast:
+      Medoh:
+        presets: _Warp<Vah Medoh,-3614.10,-1862.06>
+      Naboris:
+        presets: _Warp<Vah Naboris,-2110.15,2616.95>
+      Rudania: 
+        presets: _Warp<Vah Rudania,2451.85,-2559.08>
+      Ruta:
+        presets: _Warp<Vah Ruta,2970.18,235.47>
+    SOR:
+      presets: _Warp<SoR,-1096.05,1879.34>
+    TravelMedallion:
+      presets: _Warp<Travel Medallion,$(0),$(1)>

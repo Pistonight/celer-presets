@@ -1,0 +1,8 @@
+includes:
+- use: ./mini.yaml
+- use: ./towers.yaml
+- use: ./tower-warps.yaml
+- use: ./memories.yaml
+- use: ./shrines.yaml
+- use: ./warps.yaml
+- use: ./bosses.yaml

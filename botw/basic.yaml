@@ -1,0 +1,127 @@
+tags:
+  item:
+    color: yellow
+  loc:
+    color: cyan
+  npc:
+    color: green
+  rune:
+    color: orange
+  boss:
+    color: orange
+  enemy:
+    color: green
+  important:
+    color: purple
+  dir:
+    color: yellow
+
+icons:
+  chest:
+  chest-special:
+  bow:
+  equipment:
+  shield:
+  shop:
+  npc:
+  npc-rito:
+  npc-goron:
+  npc-gerudo:
+  npc-sheika-female:
+  npc-sheika-male:
+  npc-zora-female:
+  npc-zora-male:
+  cook:
+  location:
+  camera:
+  material:
+  make-morning:
+  make-noon:
+  make-night:
+
+presets:
+  _Tod:
+    Morning:
+      text: Make Morning
+      icon: make-morning
+    Noon:
+      text: Make Noon
+      icon: make-noon
+    Night:
+      text: Make Night
+      icon: make-night
+  Chest:
+    text: ".item($(0))"
+    icon: chest
+  _Chest:
+    Special:
+      text: ".item($(0))"
+      icon: chest-special
+  _Equipment:
+    Bow:
+      text: ".item($(0))"
+      icon: bow
+    Weapon:
+      text: ".item($(0))"
+      icon: equipment
+    Shield:
+      text: ".item($(0))"
+      icon: shield
+  Shop:
+    text: ".item($(0))"
+    icon: shop
+  Npc:
+    text: ".npc($(0))"
+    icon: npc
+  _Npc:
+    Rito:
+      text: ".npc($(0))"
+      icon: npc-rito
+    Goron:
+      text: ".npc($(0))"
+      icon: npc-goron
+    Gerudo:
+      text: ".npc($(0))"
+      icon: npc-gerudo
+    _Sheika:
+      Female:
+        text: ".npc($(0))"
+        icon: npc-sheika-female
+      Male:
+        text: ".npc($(0))"
+        icon: npc-sheika-male
+    Sheika:
+      presets: [_Npc::Sheika::Female]
+    _Zora:
+      Female:
+        text: ".npc($(0))"
+        icon: npc-zora-female
+      Male:
+        text: ".npc($(0))"
+        icon: npc-zora-male
+    Zora:
+      presets: [_Npc::Zora::Female]
+  Cook:
+    text: ".item($(0))"
+    icon: cook
+  Discover:
+    text: ".loc($(0))"
+    icon: location
+    comment: DISCOVER
+  Snap:
+    text: ".npc($(0))"
+    icon: camera
+    comment: SNAP
+  Material:
+    text: ".item($(0))"
+    comment: ".var($(0))"
+    icon: material
+    vars:
+      "material<$(0)>": .add
+  _Material:
+    Count:
+      text: ".item($(1) $(0))"
+      comment: ".var($(0))"
+      icon: material
+      vars:
+        "material<$(0)>": .add($(1))

@@ -1,0 +1,67 @@
+icons:
+  talus:
+  talus-luminous:
+  talus-rare:
+  talus-igneo:
+  talus-frost:
+  hinox-red:
+  hinox-blue:
+  hinox-black:
+  hinox-stal:
+  molduga:
+
+tags:
+  counter-talus:
+    color: black
+    background: orange
+  counter-hinox:
+    color: black
+    background: orange
+  counter-molduga:
+    color: black
+    background: orange
+
+presets:
+  _Boss:
+    _Talus:
+      Stone:
+        text: .boss(Stone Talus)
+        icon: talus
+        counter: .var(counter-talus)
+      Luminous:
+        text: .boss(Luminous Talus)
+        icon: talus-luminous
+        counter: .var(counter-talus)
+      Rare:
+        text: .boss(Rare Talus)
+        icon: talus-rare
+        counter: .var(counter-talus)
+      Igneo:
+        text: .boss(Igneo Talus)
+        icon: talus-igneo
+        counter: .var(counter-talus)
+      Frost:
+        text: .boss(Frost Talus)
+        icon: talus-frost
+        counter: .var(counter-talus)
+    _Hinox:
+      Red:
+        text: .boss(Red Hinox)
+        icon: hinox-red
+        counter: .var(counter-hinox)
+      Blue:
+        text: .boss(Blue Hinox)
+        icon: hinox-blue
+        counter: .var(counter-hinox)
+      Black:
+        text: .boss(Black Hinox)
+        icon: hinox-black
+        counter: .var(counter-hinox)
+      Stal:
+        text: .boss(Stalnox)
+        icon: hinox-stal
+        counter: .var(counter-hinox)
+    Molduga:
+      text: .boss(Molduga)
+      icon: molduga
+      counter: .var(counter-molduga)

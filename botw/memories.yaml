@@ -1,0 +1,44 @@
+icons:
+  memory:
+  memory-final:
+
+tags:
+  counter-memory:
+    color: black
+    background: orange
+
+presets:
+  Memory:
+    text: ".loc($(0))"
+    comment: $(1)
+    icon: memory
+    counter: .var-roman-upper(counter-memory)
+    coord: [$(2), $(3), $(4)]
+  _Memory:
+    LanayruRoad:
+      presets: _Memory<Lanayru Road,Return of Calamity Ganon,3143.34,263.09,1148.49>
+    SacredGrounds:
+      presets: _Memory<Sacred Grounds,Subdued Ceremony,-254.14,127.42,-97.91>
+    LakeKolomo:
+      presets: _Memory<Lake Kolomo,Resolve and Grief,-681.08,131.59,1223.99>
+    AncientColumns:
+      presets: _Memory<Ancient Columns,Zelda's Resentment,-3501.04,383.73,-421.26>
+    KaraKaraBazaar:
+      presets: _Memory<Kara Kara Bazaar,Blades of the Yiga,-3193.41,129.51,2536.24>
+    EldinCanyon:
+      presets: _Memory<Eldin Canyon,A Premonition,1417.29,466.78,-1537.95>
+    IrchPlain:
+      presets: _Memory<Irch Plain,Silent Princess,-1091.22,232.47,-1301.68>
+    WestNecluda:
+      presets: _Memory<West Necluda,Shelter from the Storm,173.27,150.50,1935.49>
+    HyruleCastle:
+      presets: _Memory<Hyrule Castle,Father and Daughter,-364.47,269.88,-995.87>
+    SpringofPower:
+      presets: _Memory<Spring of Power,Slumbering Power,3744.00,109.06,-2655.89>
+    SanidinPark:
+      presets: _Memory<Sanidin Park,To Mount Lanayru,-1612.42,246.33,688.02>
+    HyruleField:
+      presets: _Memory<Hyrule Field,Despair,700.66,115.96,434.43>
+    AshSwamp:
+      presets: _Memory<Ash Swamp,Zelda's Awakening,1983.90,124.12,1912.69>
+      icon: memory-final

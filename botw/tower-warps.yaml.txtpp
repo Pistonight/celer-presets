@@ -1,0 +1,15 @@
+#TXTPP#include ../GENERATED
+presets:
+  _Warp:
+    _Tower:
+      # TXTPP#temp make-tower-warps.g.py
+      # import yaml
+      # with open("towers.yaml", "r") as f:
+      #   towers = yaml.load(f, Loader=yaml.FullLoader)
+      # for tower_id in towers["presets"]["_Tower"]:
+      #   preset = towers["presets"]["_Tower"][tower_id]["presets"]
+      #   preset = preset.replace("_Tower", "_Warp3", 1)
+      #   preset = preset.replace(",", " Tower,", 1)
+      #   print(f"{tower_id}:")
+      #   print(f"  presets: {preset}")
+      ## TXTPP#run python make-tower-warps.g.py

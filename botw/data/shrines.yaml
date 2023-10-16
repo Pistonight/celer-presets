@@ -1,0 +1,579 @@
+# Scheme:
+#
+# shrine types:
+# .meta.types[<TYPE>]:
+#   icon: string
+#   time: number
+#
+# main shrine data:
+# .data[<ID>]:
+#   type: string
+#   name: string
+#   coord: [x,y,z] (y is height)
+meta:
+  types:
+    Shrine:
+      icon: shrine
+      url: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      time: 8
+    Blessing:
+      icon: shrine-blessing
+      url: https://icons.pistonite.org/icon/shrine.blessing.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      time: 4
+    TosMinor:
+      icon: shrine-sword
+      url: https://icons.pistonite.org/icon/shrine.sword.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      time: 20
+    TosMajor:
+      icon: shrine-double-sword
+      url: https://icons.pistonite.org/icon/shrine.double_sword.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      time: 20
+    Dlc:
+      icon: shrine-dlc
+      url: https://icons.pistonite.org/icon/shrine.dlc_shrine.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+      time: 10
+data:
+  JaBaij:
+    type: Shrine
+    name: Ja Baij
+    coord: [-446.70, 180.02, 1990.18]
+  OmanAu:
+    type: Shrine
+    name: Oman Au
+    coord: [-673.25, 173.09, 1513.01]
+  OwaDaim:
+    type: Shrine
+    name: Owa Daim
+    coord: [-925.03, 274.17, 2321.23]
+  KehNamut:
+    type: Shrine
+    name: Keh Namut
+    coord: [-1436.35, 337.58, 1990.99]
+  AkhVaquot:
+    type: Shrine
+    name: Akh Va'quot
+    coord: [-3656.13, 321.74, -1756.70]
+  BareedaNaag:
+    type: Shrine
+    name: Bareeda Naag
+    coord: [-3609.19, 246.74, -1515.40]
+  BoshKala:
+    type: Shrine
+    name: Bosh Kala
+    coord: [87.02, 122.52, 1658.71]
+  ChaasQeta:
+    type: TosMajor
+    name: Chaas Qeta
+    coord: [4012.19, 107.18, 2990.54]
+  DaagChokah:
+    type: Blessing
+    name: Daag Chokah
+    coord: [-26.43, 280.34, -2458.63]
+  DagahKeek:
+    type: Blessing
+    name: Dagah Keek
+    coord: [3149.70, 280.00, -416.80]
+  DahHesho:
+    type: TosMinor
+    name: Dah Hesho
+    coord: [3899.52, 354.77, -1302.81]
+  DahKaso:
+    type: TosMinor
+    name: Dah Kaso
+    coord: [-1695.29, 68.84, 1700.12]
+  DakaTuss:
+    type: Shrine
+    name: Daka Tuss
+    coord: [1601.00, 117.70, 462.20]
+  DaqaKoh:
+    type: Shrine
+    name: Daqa Koh
+    coord: [2065.85, 598.01, -2328.36]
+  DaqoChisay:
+    type: Shrine
+    name: Daqo Chisay
+    coord: [-3817.03, 150.45, 2819.85]
+  DakoTah:
+    type: Shrine
+    name: Dako Tah
+    coord: [-3317.78, 146.11, 2162.48]
+  DilaMaag:
+    type: Blessing
+    name: Dila Maag
+    coord: [-1795.00, 164.18, 3465.39]
+  DowNaeh:
+    type: Shrine
+    name: Dow Na'eh
+    coord: [2697.65, 220.94, 1333.48]
+  DunbaTaag:
+    type: Shrine
+    name: Dunba Taag
+    coord: [-2832.47, 79.88, -1578.04]
+  EtsuKorima:
+    type: Dlc
+    name: Etsu Korima
+    coord: [-1216.12, 340.50, 2109.90]
+  GeeHarah:
+    type: Shrine
+    name: Gee Ha'rah
+    coord: [-2379.84, 278.11, -2254.59]
+  GomaAsaagh:
+    type: TosMajor
+    name: Goma Asaagh
+    coord: [-2792.31, 671.02, -2882.31]
+  GoraeTorr:
+    type: Blessing
+    name: Gorae Torr
+    coord: [2662.00, 470.00, -3456.50]
+  HaDahamar:
+    type: Shrine
+    name: Ha Dahamar
+    coord: [1662.36, 115.52, 1921.60]
+  HawaKoth:
+    type: Shrine
+    name: Hawa Koth
+    coord: [-4847.04, 123.74, 3772.63]
+  HiaMiu:
+    type: TosMajor
+    name: Hia Miu
+    coord: [-4446.80, 329.85, -3803.04]
+  HilaRao:
+    type: Shrine
+    name: Hila Rao
+    coord: [854.73, 116.93, 838.06]
+  IshtoSoh:
+    type: Shrine
+    name: Ishto Soh
+    coord: [-984.79, 321.22, 3564.99]
+  JeeNoh:
+    type: Shrine
+    name: Jee Noh
+    coord: [-1792.83, 112.85, 2423.39]
+  JitanSami:
+    type: Blessing
+    name: Jitan Sa'mi
+    coord: [3882.12, 572.81, 1314.94]
+  JolooNah:
+    type: Shrine
+    name: Joloo Nah
+    coord: [-2004.01, 231.65, 1674.26]
+  KaamYatak:
+    type: Shrine
+    name: Kaam Ya'tak
+    coord: [-967.80, 127.67, 715.89]
+  KahMael:
+    type: Shrine
+    name: Kah Mael
+    coord: [4709.20, 242.50, -1310.29]
+  KahOkeo:
+    type: Shrine
+    name: Kah Okeo
+    coord: [-4120.41, 184.29, -414.37]
+  KahYah:
+    type: Shrine
+    name: Kah Yah
+    coord: [3436.89, 120.68, 3316.28]
+  KamUrog:
+    type: Shrine
+    name: Kam Urog
+    coord: [2501.03, 119.17, 1494.84]
+  KamiaOmuna:
+    type: Dlc
+    name: Kamia Omuna
+    coord: [2128.36, 509.92, -3228.81]
+  KaoMakagh:
+    type: Shrine
+    name: Ka'o Makagh
+    coord: [523.29, 178.91, 3526.27]
+  KatahChuki:
+    type: TosMinor
+    name: Katah Chuki
+    coord: [-636.41, 128.87, -345.11]
+  KatosaAug:
+    type: Shrine
+    name: Katosa Aug
+    coord: [4295.79, 237.42, -2730.34]
+  KayNoh:
+    type: Shrine
+    name: Kay Noh
+    coord: [-2810.96, 172.01, 2300.08]
+  KayaWan:
+    type: Shrine
+    name: Kaya Wan
+    coord: [824.21, 132.88, 187.79]
+  KayraMah:
+    type: Shrine
+    name: Kayra Mah
+    coord: [2076.82, 520.77, -2039.77]
+  KeeDafunia:
+    type: Dlc
+    name: Kee Dafunia
+    coord: [4935.17, 106.80, -1002.40]
+  KeehaYoog:
+    type: Blessing
+    name: Keeha Yoog
+    coord: [-3853.40, 640.30, 716.70]
+  KeiveTala:
+    type: Dlc
+    name: Keive Tala
+    coord: [-2339.53, 129.50, 3901.64]
+  KemaKosassa:
+    type: TosMajor
+    name: Kema Kosassa
+    coord: [-4658.48, 619.49, 904.84]
+  KemaZoos:
+    type: Shrine
+    name: Kema Zoos
+    coord: [-4673.53, 132.12, 1967.79]
+  KenaiShakah:
+    type: TosMajor
+    name: Ke'nai Shakah
+    coord: [4194.49, 323.11, -856.88]
+  KeoRuug:
+    type: Shrine
+    name: Keo Ruug
+    coord: [470.70, 250.15, -2168.79]
+  KetohWawai:
+    type: Blessing
+    name: Ketoh Wawai
+    coord: [283.40, 285.30, -3119.60]
+  KiahToza:
+    type: Dlc
+    name: Kiah Toza
+    coord: [-2155.49, 450.40, -3188.48]
+  KihiroMoh:
+    type: Dlc
+    name: Kihiro Moh
+    coord: [-3391.23, 441.98, 1347.84]
+  KorguChideh:
+    type: Blessing
+    name: Korgu Chideh
+    coord: [4737.48, 218.00, 3772.09]
+  KorshOhu:
+    type: Blessing
+    name: Korsh O'hu
+    coord: [-2688.60, 105.01, 2811.20]
+  KuhTakkar:
+    type: Shrine
+    name: Kuh Takkar
+    coord: [-3083.00, 571.55, 1221.00]
+  KuhnSidajj:
+    type: Blessing
+    name: Kuhn Sidajj
+    coord: [17.73, 281.40, -1944.40]
+  LaknaRokee:
+    type: Blessing
+    name: Lakna Rokee
+    coord: [2040.49, 286.03, 972.22]
+  LannoKooh:
+    type: Blessing
+    name: Lanno Kooh
+    coord: [-2636.37, 446.03, -2060.36]
+  MaagHalan:
+    type: Blessing
+    name: Maag Halan
+    coord: [837.06, 282.20, -2419.72]
+  MaagNorah:
+    type: Blessing
+    name: Maag No'rah
+    coord: [-1939.90, 249.88, -1458.20]
+  MahEliya:
+    type: Dlc
+    name: Mah Eliya
+    coord: [3762.20, 547.78, -646.45]
+  MakaRah:
+    type: Shrine
+    name: Maka Rah
+    coord: [-4057.84, 94.89, -2508.37]
+  MezzaLo:
+    type: Shrine
+    name: Mezza Lo
+    coord: [2621.60, 249.39, 378.23]
+  MijahRokee:
+    type: TosMajor
+    name: Mijah Rokee
+    coord: [-2743.27, 309.39, 226.44]
+  MirroShaz:
+    type: Shrine
+    name: Mirro Shaz
+    coord: [1232.00, 127.55, -1212.75]
+  MisaeSuma:
+    type: Blessing
+    name: Misae Suma
+    coord: [-2970.30, 137.67, 3781.50]
+  MoaKeet:
+    type: Shrine
+    name: Mo'a Keet
+    coord: [2723.50, 285.41, -1166.08]
+  MoggLatan:
+    type: Shrine
+    name: Mogg Latan
+    coord: [-2297.43, 439.57, 460.73]
+  MonyaToma:
+    type: Shrine
+    name: Monya Toma
+    coord: [-1488.60, 275.22, -1473.03]
+  MozoShenno:
+    type: TosMajor
+    name: Mozo Shenno
+    coord: [-3627.71, 420.82, -3038.22]
+  MuwoJeem:
+    type: TosMajor
+    name: Muwo Jeem
+    coord: [3658.13, 350.34, 3308.26]
+  MyahmAgana:
+    type: Shrine
+    name: Myahm Agana
+    coord: [3388.41, 242.59, 2215.84]
+  NamikaOzz:
+    type: TosMajor
+    name: Namika Ozz
+    coord: [761.29, 188.72, -821.30]
+  NeezYohma:
+    type: Shrine
+    name: Ne'ez Yohma
+    coord: [3323.58, 239.28, -518.83]
+  NoeRajee:
+    type: Dlc
+    name: Noe Rajee
+    coord: [-3820.27, 89.77, -2311.20]
+  NoyaNeha:
+    type: TosMinor
+    name: Noya Neha
+    coord: [-951.18, 134.36, -623.76]
+  PumaagNitae:
+    type: TosMinor
+    name: Pumaag Nitae
+    coord: [559.53, 118.04, 2990.19]
+  QazaTokki:
+    type: Blessing
+    name: Qaza Tokki
+    coord: [-820.50, 341.30, -3535.00]
+  QuaRaym:
+    type: Shrine
+    name: Qua Raym
+    coord: [1820.74, 388.29, -1517.04]
+  QukahNata:
+    type: Blessing
+    name: Qukah Nata
+    coord: [2007.00, 301.50, 3285.00]
+  RaqaZunzo:
+    type: Blessing
+    name: Raqa Zunzo
+    coord: [-3810.50, 159.30, 3127.20]
+  ReeDahee:
+    type: Shrine
+    name: Ree Dahee
+    coord: [1271.93, 137.68, 1843.74]
+  RinOyaa:
+    type: Shrine
+    name: Rin Oyaa
+    coord: [-1721.37, 335.74, -2554.46]
+  RinuHonika:
+    type: Dlc
+    name: Rinu Honika
+    coord: [2241.35, 541.82, -1995.70]
+  RitaagZumo:
+    type: Blessing
+    name: Ritaag Zumo
+    coord: [4524.60, 107.77, -2127.50]
+  RohtaChigah:
+    type: Dlc
+    name: Rohta Chigah
+    coord: [-517.17, 173.80, 1798.40]
+  RokUwog:
+    type: Shrine
+    name: Rok Uwog
+    coord: [-2378.01, 485.91, -3224.74]
+  RonaKachta:
+    type: Blessing
+    name: Rona Kachta
+    coord: [-1088.16, 22.05, -2661.51]
+  RotaOoh:
+    type: Shrine
+    name: Rota Ooh
+    coord: [-1563.25, 186.73, 1310.07]
+  RuccoMaag:
+    type: Shrine
+    name: Rucco Maag
+    coord: [3333.50, 119.00, 401.50]
+  RuvoKorbah:
+    type: Dlc
+    name: Ruvo Korbah
+    coord: [-834.56, 189.80, 2145.07]
+  SaasKosah:
+    type: TosMajor
+    name: Saas Ko'sah
+    coord: [-147.40, 144.22, -1159.35]
+  SahDahaj:
+    type: Shrine
+    name: Sah Dahaj
+    coord: [2665.21, 247.91, -1580.75]
+  SasaKai:
+    type: TosMajor
+    name: Sasa Kai
+    coord: [-3559.80, 352.78, 1953.00]
+  SatoKoda:
+    type: Dlc
+    name: Sato Koda
+    coord: [3102.94, 542.91, -833.22]
+  ShaGehma:
+    type: Shrine
+    name: Sha Gehma
+    coord: [-1673.17, 346.57, -3758.45]
+  ShaWarvo:
+    type: Shrine
+    name: Sha Warvo
+    coord: [-3823.08, 265.12, -2206.36]
+  ShadaNaw:
+    type: Shrine
+    name: Shada Naw
+    coord: [-2998.62, 667.75, -3221.58]
+  ShaeKatha:
+    type: Blessing
+    name: Shae Katha
+    coord: [870.34, 122.99, 2328.54]
+  ShaeLoya:
+    type: Shrine
+    name: Shae Loya
+    coord: [-2930.92, 306.45, -432.05]
+  ShaeMosah:
+    type: Shrine
+    name: Shae Mo'sah
+    coord: [1757.22, 535.32, -2562.46]
+  ShaiUtoh:
+    type: Shrine
+    name: Shai Utoh
+    coord: [1586.72, 166.99, 3614.93]
+  ShaiYota:
+    type: Blessing
+    name: Shai Yota
+    coord: [4245.54, 110.92, 252.95]
+  SharoLun:
+    type: Dlc
+    name: Sharo Lun
+    coord: [2932.71, 630.51, -2418.10]
+  SheeVaneer:
+    type: Shrine
+    name: Shee Vaneer
+    coord: [1265.27, 525.87, 1938.70]
+  SheeVenath:
+    type: Shrine
+    name: Shee Venath
+    coord: [1244.13, 443.37, 1850.30]
+  SheemDagoze:
+    type: Shrine
+    name: Sheem Dagoze
+    coord: [-1893.30, 212.40, 91.50]
+  ShehRata:
+    type: Shrine
+    name: Sheh Rata
+    coord: [1510.45, 128.41, -376.96]
+  ShiraGomar:
+    type: Dlc
+    name: Shira Gomar
+    coord: [-2376.74, 264.97, -1382.98]
+  ShoDantu:
+    type: Shrine
+    name: Sho Dantu
+    coord: [-3911.26, 396.00, 1653.80]
+  ShodaSah:
+    type: Shrine
+    name: Shoda Sah
+    coord: [1790.48, 189.80, 2991.89]
+  ShoqaTatone:
+    type: TosMajor
+    name: Shoqa Tatone
+    coord: [94.00, 110.67, 3841.00]
+  ShoraHah:
+    type: Shrine
+    name: Shora Hah
+    coord: [1535.38, 507.33, -3118.03]
+  SohKofi:
+    type: TosMinor
+    name: Soh Kofi
+    coord: [2238.42, 148.48, -293.04]
+  SumaSahma:
+    type: Blessing
+    name: Suma Sahma
+    coord: [-1418.20, 545.40, 3448.30]
+  TahMuhl:
+    type: Shrine
+    name: Tah Muhl
+    coord: [2300.66, 213.35, -941.32]
+  TakamaShiri:
+    type: Dlc
+    name: Takama Shiri
+    coord: [-4895.49, 141.98, 2155.50]
+  TalohNaeg:
+    type: TosMinor
+    name: Ta'loh Naeg
+    coord: [1841.92, 260.10, 890.40]
+  TahnoOah:
+    type: Blessing
+    name: Tahno O'ah
+    coord: [4181.78, 288.15, 1686.73]
+  TawaJinn:
+    type: Blessing
+    name: Tawa Jinn
+    coord: [2637.53, 318.17, 2834.39]
+  TenaKosah:
+    type: TosMajor
+    name: Tena Ko'sah
+    coord: [-3465.47, 384.49, -447.97]
+  ThoKayu:
+    type: Blessing
+    name: Tho Kayu
+    coord: [-4799.14, 135.13, 2800.18]
+  ToQuomo:
+    type: Blessing
+    name: To Quomo
+    coord: [-4023.13, 288.09, -3711.64]
+  TohYahsa:
+    type: Shrine
+    name: Toh Yahsa
+    coord: [-2269.10, 216.58, -900.10]
+  TotoSah:
+    type: Shrine
+    name: Toto Sah
+    coord: [1845.65, 131.51, 2474.15]
+  TuKaloh:
+    type: Blessing
+    name: Tu Ka'loh
+    coord: [4655.00, 237.40, -3710.00]
+  TutsuwaNima:
+    type: TosMajor
+    name: Tutsuwa Nima
+    coord: [3777.82, 108.89, -2704.89]
+  VooLota:
+    type: Shrine
+    name: Voo Lota
+    coord: [-4016.18, 275.20, -1721.91]
+  WahgoKatta:
+    type: Shrine
+    name: Wahgo Katta
+    coord: [344.91, 123.08, 1007.03]
+  YaNaga:
+    type: Shrine
+    name: Ya Naga
+    coord: [-328.18, 68.02, 2600.29]
+  YahRin:
+    type: Shrine
+    name: Yah Rin
+    coord: [2833.36, 152.75, 3310.97]
+  YowakaIta:
+    type: Dlc
+    name: Yowaka Ita
+    coord: [-941.14, 187.70, 1672.45]
+  ZaltaWa:
+    type: Shrine
+    name: Zalta Wa
+    coord: [-1432.30, 138.32, -594.19]
+  ZeKasho:
+    type: Shrine
+    name: Ze Kasho
+    coord: [3027.31, 348.65, -1667.85]
+  ZunaKai:
+    type: Blessing
+    name: Zuna Kai
+    coord: [3324.46, 298.69, -3420.44]

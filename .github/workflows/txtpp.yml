@@ -1,0 +1,26 @@
+name: Verify
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  verify:
+    name: txtpp verify
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: arduino/setup-task@v1
+      with:
+        version: 3.x
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: dtolnay/rust-toolchain@stable
+    - uses: Swatinem/rust-cache@v2
+    - uses: baptiste0928/cargo-install@v2
+      with:
+        crate: txtpp
+        features: cli
+    - run: task verify --output group

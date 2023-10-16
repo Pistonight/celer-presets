@@ -1,0 +1,3929 @@
+# GENERATED FILE DO NOT EDIT!
+# Edit the .txtpp file in the same directory instead
+icons:
+  korok: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  korok-acorn: https://icons.pistonite.org/icon/misc.korok.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+  korok-acorn-flying: https://icons.pistonite.org/icon/misc.korok.circle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  korok-balloon: https://icons.pistonite.org/icon/misc.korok.circle.568c28.c8e6af.568c28.c8e6af.568c28.fdfdfd.png
+  korok-basketball: https://icons.pistonite.org/icon/misc.korok.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  korok-confetti: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-flower: https://icons.pistonite.org/icon/misc.korok.triangle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  korok-golf-boulder: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  korok-golf-snowball: https://icons.pistonite.org/icon/misc.korok.plus.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  korok-ice: https://icons.pistonite.org/icon/misc.korok.square.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  korok-light-chase: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-lily: https://icons.pistonite.org/icon/misc.korok.circle.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  korok-magnesis: https://icons.pistonite.org/icon/rune.magnesis.none.d57b69.fec1d3.d57b69.fec1d3.d57b69.fec1d3.png
+  korok-matching: https://icons.pistonite.org/icon/misc.korok.minus.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-minus: https://icons.pistonite.org/icon/misc.korok.minus.568c28.c8e6af.568c28.c8e6af.568c28.fdfdfd.png
+  korok-offer-apple: https://icons.pistonite.org/icon/misc.korok.plus.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+  korok-offer-banana: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  korok-offer-durian: https://icons.pistonite.org/icon/misc.korok.plus.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  korok-offer-egg: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  korok-race: https://icons.pistonite.org/icon/misc.korok.circle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-rock: https://icons.pistonite.org/icon/misc.korok.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-rock-circle: https://icons.pistonite.org/icon/misc.korok.circle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-rock-tree: https://icons.pistonite.org/icon/misc.korok.triangle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-rock-under: https://icons.pistonite.org/icon/misc.korok.minus.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-shoot: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+
+tags:
+  counter-korok:
+    color: black
+    background: green
+
+presets:
+  Korok:
+    text: $(0)
+    icon: $(1)
+    counter: .var(counter-korok)
+  _Korok:
+    A01:
+      presets: _Korok<A01 Lift Rock (Tree),korok-rock-tree>
+      coord: [3075.87,318.83,-3684.38]
+    A02:
+      presets: _Korok<A02 Rock Circle,korok-rock-circle>
+      coord: [3326.96,309.81,-3589.2]
+    A03:
+      presets: _Korok<A03 Lift Rock (Boulder),korok-rock-under>
+      coord: [3455.61,314.14,-3581.87]
+    A04:
+      presets: _Korok<A04 Flower Count,korok-flower>
+      movements:
+      - _Korok::A04::Start
+      - [3801.09,255.89,-3416.84]
+      - [3803.85,255.66,-3404.5]
+      - [3809.32,256.1,-3418.87]
+      - _Korok::A04::End
+    _A04:
+      Start:
+        coord: [3804.21,256.73,-3422.34]
+      End:
+        coord: [3813.45,255.99,-3419.22]
+    A05:
+      presets: _Korok<A05 Race,korok-race>
+      movements:
+      - _Korok::A05::Start
+      - _Korok::A05::End
+    _A05:
+      Start:
+        coord: [3170.78,136.76,-3317.52]
+      End:
+        coord: [3152.59,170.16,-3328.34]
+    A06:
+      presets: _Korok<A06 Lift Rock (Slab),korok-rock-under>
+      coord: [3496.16,255.92,-3374.29]
+    A07:
+      presets: _Korok<A07 Boulder Golf,korok-golf-boulder>
+      coord: [3779.7,275.42,-3361.51]
+    A08:
+      presets: _Korok<A08 Lift Rock (Rubble),korok-rock-under>
+      coord: [4422.96,115.15,-3340.21]
+    A09:
+      presets: _Korok<A09 Lift Rock (Slab),korok-rock-under>
+      coord: [4815.5,105.73,-3300.24]
+    A10:
+      presets: _Korok<A10 Lift Rock (Slab),korok-rock-under>
+      coord: [3178.98,176.4,-3073.66]
+    A11:
+      presets: _Korok<A11 Lift Rock (Tree),korok-rock-tree>
+      coord: [3350.1,175.02,-3079.83]
+    A12:
+      presets: _Korok<A12 Balloon,korok-balloon>
+      comment: Hanging under cliff
+      coord: [3572.84,205.91,-3046.93]
+    A13:
+      presets: _Korok<A13 Lift Rock (Leaves),korok-rock-under>
+      coord: [3995.79,292.52,-3147.58]
+    A14:
+      presets: _Korok<A14 Race,korok-race>
+      movements:
+      - _Korok::A14::Start
+      - _Korok::A14::End
+    _A14:
+      Start:
+        coord: [4252.4,344.18,-3134.47]
+      End:
+        coord: [4344.05,363.38,-3178.36]
+    A15:
+      presets: _Korok<A15 Lift Rock,korok-rock>
+      coord: [4428.83,352.26,-3182.9]
+    A16:
+      presets: _Korok<A16 Confetti,korok-confetti>
+      coord: [4503.65,379.21,-3164.38]
+    A17:
+      presets: _Korok<A17 Flower Count,korok-flower>
+      comment: Start top of guardian
+      movements:
+      - _Korok::A17::Start
+      - [4745.81,107.51,-3117.43]
+      - [4763.11,106.58,-3145.45]
+      - [4802.33,106.31,-3121.14]
+      - _Korok::A17::End
+    _A17:
+      Start:
+        coord: [4733.06,111.14,-3122.01]
+      End:
+        coord: [4817.19,106.12,-3094.21]
+    A18:
+      presets: _Korok<A18 Acorn Log,korok-acorn>
+      coord: [3736.66,147.37,-2884.98]
+    A19:
+      presets: _Korok<A19 Flower Count,korok-flower>
+      movements:
+      - _Korok::A19::Start
+      - [4107.09,232.72,-2832.1]
+      - [4097.62,230.32,-2822.57]
+      - [4097.38,232.55,-2834.17]
+      - _Korok::A19::End
+    _A19:
+      Start:
+        coord: [4101.37,233.42,-2837.74]
+      End:
+        coord: [4103.2,232.56,-2832.4]
+    A20:
+      presets: _Korok<A20 Block Puzzle,korok-magnesis>
+      coord: [3436.59,155.19,-2533.65]
+    A21:
+      presets: _Korok<A21 Lift Rock,korok-rock>
+      comment: Side of spring
+      coord: [3726.79,127.29,-2677.46]
+    A22:
+      presets: _Korok<A22 Lift Rock (Leaves),korok-rock-under>
+      coord: [4008.6,195.2,-2736.3]
+    A23:
+      presets: _Korok<A23 Rock Circle,korok-rock-circle>
+      coord: [4396.83,224.35,-2721.58]
+    A24:
+      presets: _Korok<A24 Block Puzzle,korok-magnesis>
+      coord: [4508.73,106.4,-2643.6]
+    A25:
+      presets: _Korok<A25 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [3372.04,271.94,-2315.19]
+    A26:
+      presets: _Korok<A26 Block Puzzle,korok-magnesis>
+      coord: [3732.84,139.54,-2423.21]
+    A27:
+      presets: _Korok<A27 Light Chase,korok-light-chase>
+      coord: [3877.54,178.84,-2371.86]
+    A28:
+      presets: _Korok<A28 Race,korok-race>
+      movements:
+      - _Korok::A28::Start
+      - _Korok::A28::End
+    _A28:
+      Start:
+        coord: [4069.0,180.04,-2462.26]
+      End:
+        coord: [4181.04,220.8,-2540.4]
+    A29:
+      presets: _Korok<A29 Balloon,korok-balloon>
+      coord: [4338.09,170.55,-2438.51]
+    A30:
+      presets: _Korok<A30 Light Chase,korok-light-chase>
+      coord: [3244.91,265.87,-2000.3]
+    A31:
+      presets: _Korok<A31 Lift Rock (Leaves),korok-rock-under>
+      coord: [3479.96,280.77,-2077.34]
+    A32:
+      presets: _Korok<A32 Match Tree,korok-matching>
+      coord: [3662.78,273.67,-2067.31]
+    A33:
+      presets: _Korok<A33 Lift Rock (Leaves),korok-rock-under>
+      coord: [4530.94,106.98,-2098.37]
+    A34:
+      presets: _Korok<A34 Rock Circle,korok-rock-circle>
+      coord: [4098.31,232.81,-1756.46]
+    A35:
+      presets: _Korok<A35 Flower Chase,korok-flower>
+      movements:
+      - _Korok::A35::Start
+      - [4433.26,244.77,-1577.73]
+      - [4493.91,222.85,-1609.91]
+      - [4502.12,201.48,-1654.62]
+      - [4526.4,180.32,-1695.15]
+      - [4553.33,162.86,-1724.99]
+      - [4577.97,145.97,-1756.76]
+      - [4601.99,136.32,-1791.67]
+      - [4617.25,135.83,-1812.53]
+      - _Korok::A35::End
+    _A35:
+      Start:
+        coord: [4385.6,265.3,-1548.02]
+      End:
+        coord: [4634.4,139.7,-1840.94]
+    A36:
+      presets: _Korok<A36 Block Puzzle,korok-magnesis>
+      coord: [4691.7,136.71,-1777.33]
+    A37:
+      presets: _Korok<A37 Lift Rock,korok-rock>
+      comment: Top of stone structure
+      coord: [3709.39,204.17,-1683.44]
+    A38:
+      presets: _Korok<A38 Flower Chase,korok-flower>
+      comment: On bridge
+      movements:
+      - _Korok::A38::Start
+      - [4101.66,237.03,-1635.66]
+      - [4096.97,234.5,-1637.62]
+      - [4093.97,226.66,-1634.61]
+      - _Korok::A38::End
+    _A38:
+      Start:
+        coord: [4112.67,237.17,-1634.02]
+      End:
+        coord: [4095.78,220.0,-1627.46]
+    A39:
+      presets: _Korok<A39 Lift Rock (Door),korok-magnesis>
+      coord: [3297.69,466.47,-1583.79]
+    A40:
+      presets: _Korok<A40 Lift Rock (Leaves),korok-rock-under>
+      coord: [3288.67,511.29,-1574.58]
+    A41:
+      presets: _Korok<A41 Lift Rock (Leaves),korok-rock-under>
+      coord: [3237.79,479.93,-1527.74]
+    A42:
+      presets: _Korok<A42 Lift Rock,korok-rock>
+      comment: Next to cannons
+      coord: [3292.11,530.9,-1428.61]
+    A43:
+      presets: _Korok<A43 Lift Rock (Leaves),korok-rock-under>
+      coord: [3296.23,459.86,-1421.08]
+    A44:
+      presets: _Korok<A44 Race,korok-race>
+      movements:
+      - _Korok::A44::Start
+      - _Korok::A44::End
+    _A44:
+      Start:
+        coord: [4349.08,274.71,-1496.86]
+      End:
+        coord: [4356.77,284.96,-1528.09]
+    A45:
+      presets: _Korok<A45 Rock Circle,korok-rock-circle>
+      coord: [3112.55,426.0,-1295.32]
+    A46:
+      presets: _Korok<A46 Lift Rock (Door),korok-magnesis>
+      coord: [3407.36,442.76,-1278.32]
+    A47:
+      presets: _Korok<A47 Offer Apple,korok-offer-apple>
+      coord: [3882.54,356.53,-1340.01]
+    A48:
+      presets: _Korok<A48 Flower Count,korok-flower>
+      movements:
+      - _Korok::A48::Start
+      - [4094.13,274.78,-1345.63]
+      - [4101.06,275.5,-1340.05]
+      - [4099.96,274.27,-1346.45]
+      - _Korok::A48::End
+    _A48:
+      Start:
+        coord: [4094.11,275.83,-1339.99]
+      End:
+        coord: [4104.55,282.08,-1350.66]
+    A49:
+      presets: _Korok<A49 Match Tree,korok-matching>
+      coord: [4038.2,329.62,-1254.87]
+    A50:
+      presets: _Korok<A50 Lift Rock (Slab),korok-rock-under>
+      coord: [3010.15,346.43,-1204.24]
+    A51:
+      presets: _Korok<A51 Basketball,korok-basketball>
+      coord: [3726.3,331.25,-1129.71]
+    A52:
+      presets: _Korok<A52 Lift Rock,korok-rock>
+      comment: Below bridge
+      coord: [3604.77,334.48,-1008.63]
+    A53:
+      presets: _Korok<A53 Match Tree,korok-matching>
+      coord: [4239.35,409.88,-998.25]
+    A54:
+      presets: _Korok<A54 Balloon,korok-balloon>
+      coord: [3960.61,378.52,-858.58]
+    A55:
+      presets: _Korok<A55 Lift Rock (Boulder),korok-rock-under>
+      coord: [4042.21,351.56,-661.96]
+    A56:
+      presets: _Korok<A56 Light Chase,korok-light-chase>
+      coord: [4332.91,406.96,-696.63]
+    A57:
+      presets: _Korok<A57 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [4144.26,406.69,-595.96]
+    C01:
+      presets: _Korok<C01 Lift Rock,korok-rock>
+      coord: [-753.67,151.17,-1086.79]
+    C02:
+      presets: _Korok<C02 Block Puzzle,korok-magnesis>
+      coord: [589.77,121.48,-1107.12]
+    C03:
+      presets: _Korok<C03 Block Puzzle,korok-magnesis>
+      coord: [-670.08,119.11,-932.68]
+    C04:
+      presets: _Korok<C04 Lift Rock,korok-rock>
+      comment: In fountain
+      coord: [178.54,134.04,-940.02]
+    C05:
+      presets: _Korok<C05 Acorn Tree,korok-acorn>
+      comment: In tree
+      coord: [319.65,137.19,-962.06]
+    C06:
+      presets: _Korok<C06 Lily Pads,korok-lily>
+      coord: [506.9,141.81,-882.61]
+    C07:
+      presets: _Korok<C07 Acorn Flying,korok-acorn-flying>
+      coord: [-941.41,133.35,-817.63]
+    C08:
+      presets: _Korok<C08 Offer Shield,korok-offer-apple>
+      coord: [-681.31,122.38,-860.62]
+    C09:
+      presets: _Korok<C09 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [696.3,217.99,-824.38]
+    C10:
+      presets: _Korok<C10 Basketball,korok-basketball>
+      coord: [292.18,117.21,-724.08]
+    C11:
+      presets: _Korok<C11 Lift Rock,korok-rock>
+      comment: Inside hollow tree
+      coord: [613.41,183.51,-743.37]
+    C12:
+      presets: _Korok<C12 Lift Rock,korok-rock>
+      comment: In tree stump on peak
+      coord: [840.4,236.28,-692.47]
+    C13:
+      presets: _Korok<C13 Basketball,korok-basketball>
+      coord: [1265.17,116.4,-707.25]
+    C14:
+      presets: _Korok<C14 Lift Rock,korok-rock>
+      coord: [-935.2,167.84,-641.24]
+    C15:
+      presets: _Korok<C15 Lily Pads,korok-lily>
+      coord: [-609.56,119.0,-682.3]
+    C16:
+      presets: _Korok<C16 Acorn,korok-acorn>
+      comment: Under bridge
+      coord: [-267.21,139.86,-610.18]
+    C17:
+      presets: _Korok<C17 Lift Rock (Leaves),korok-rock-under>
+      coord: [85.54,138.13,-634.97]
+    C18:
+      presets: _Korok<C18 Light Chase,korok-light-chase>
+      coord: [396.08,115.5,-625.56]
+    C19:
+      presets: _Korok<C19 Balloon,korok-balloon>
+      comment: Pinwheel on hollow tree
+      coord: [686.03,167.93,-635.1]
+    C20:
+      presets: _Korok<C20 Lift Rock (Rubble),korok-rock-under>
+      coord: [-763.77,156.04,-606.27]
+    C21:
+      presets: _Korok<C21 Rock Circle,korok-rock-circle>
+      coord: [-796.21,187.66,-558.85]
+    C22:
+      presets: _Korok<C22 Rock Circle,korok-rock-circle>
+      coord: [-666.93,128.6,-543.81]
+    C23:
+      presets: _Korok<C23 Acorn Hanging,korok-acorn>
+      comment: Below bridge
+      coord: [504.45,123.33,-493.46]
+    C24:
+      presets: _Korok<C24 Lift Rock,korok-rock>
+      comment: On small hill near bridge
+      coord: [-1035.08,150.22,-446.22]
+    C25:
+      presets: _Korok<C25 Lift Rock,korok-rock>
+      coord: [-803.95,138.07,-403.12]
+    C26:
+      presets: _Korok<C26 Balloon,korok-balloon>
+      comment: In tree
+      coord: [-663.3,146.77,-432.6]
+    C27:
+      presets: _Korok<C27 Race,korok-race>
+      movements:
+      - _Korok::C27::Start
+      - _Korok::C27::End
+    _C27:
+      Start:
+        coord: [-296.75,145.68,-261.92]
+      End:
+        coord: [-253.82,141.72,-425.72]
+    C28:
+      presets: _Korok<C28 Lift Rock (Door),korok-magnesis>
+      coord: [86.23,138.81,-412.08]
+    C29:
+      presets: _Korok<C29 Confetti,korok-confetti>
+      comment: Top of flagpole
+      coord: [97.63,181.01,-429.8]
+    C30:
+      presets: _Korok<C30 Lift Rock (Rubble),korok-rock-under>
+      comment: Next to broken house
+      coord: [-886.65,129.25,-274.04]
+    C31:
+      presets: _Korok<C31 Lift Rock,korok-rock>
+      comment: On wall
+      coord: [-548.5,140.88,-229.52]
+    C32:
+      presets: _Korok<C32 Shoot Emblem,korok-shoot>
+      comment: Castle Town Gate
+      coord: [-254.35,146.84,-264.41]
+    C33:
+      presets: _Korok<C33 Balloon,korok-balloon>
+      comment: On outer wall
+      coord: [-161.75,147.43,-262.04]
+    C34:
+      presets: _Korok<C34 Match Tree,korok-matching>
+      coord: [623.24,123.53,-194.76]
+    C35:
+      presets: _Korok<C35 Lift Rock,korok-rock>
+      comment: On pillar
+      coord: [-239.38,139.77,-112.59]
+    C36:
+      presets: _Korok<C36 Lift Rock,korok-rock>
+      coord: [-1336.88,122.55,249.66]
+    C37:
+      presets: _Korok<C37 Block Puzzle,korok-magnesis>
+      coord: [-1336.35,117.12,366.61]
+    C38:
+      presets: _Korok<C38 Flower Chase,korok-flower>
+      movements:
+      - _Korok::C38::Start
+      - [-1105.74,141.5,216.9]
+      - [-1101.07,142.38,233.77]
+      - [-1125.37,138.03,238.33]
+      - _Korok::C38::End
+    _C38:
+      Start:
+        coord: [-1094.6,147.33,196.73]
+      End:
+        coord: [-1155.96,137.33,245.12]
+    C39:
+      presets: _Korok<C39 Confetti,korok-confetti>
+      comment: Top of flag pole
+      coord: [-868.5,187.17,219.11]
+    C40:
+      presets: _Korok<C40 Light Chase,korok-light-chase>
+      coord: [-728.06,154.69,134.77]
+    C41:
+      presets: _Korok<C41 Acorn Tree,korok-acorn>
+      coord: [-710.25,158.35,99.93]
+    C42:
+      presets: _Korok<C42 Balloon,korok-balloon>
+      coord: [-516.95,154.04,97.79]
+    C43:
+      presets: _Korok<C43 Acorn Flying,korok-acorn-flying>
+      coord: [-427.28,135.84,150.92]
+    C44:
+      presets: _Korok<C44 Lift Rock,korok-rock>
+      coord: [25.66,148.47,147.48]
+    C45:
+      presets: _Korok<C45 Lift Rock,korok-rock>
+      comment: On hill
+      coord: [384.26,154.17,135.36]
+    C46:
+      presets: _Korok<C46 Lift Rock,korok-rock>
+      comment: Under bridge
+      coord: [806.57,116.89,24.09]
+    C47:
+      presets: _Korok<C47 Lily Pads,korok-lily>
+      coord: [-1127.28,145.96,414.31]
+    C48:
+      presets: _Korok<C48 Lift Rock,korok-rock>
+      comment: Between 2 rocks
+      coord: [-737.4,125.85,333.75]
+    C49:
+      presets: _Korok<C49 Acorn Hanging,korok-acorn>
+      comment: Wagon next to tree
+      coord: [-363.24,131.73,396.94]
+    C50:
+      presets: _Korok<C50 Flower Count,korok-flower>
+      comment: Chaos Ranch
+      movements:
+      - _Korok::C50::Start
+      - [150.82,128.38,299.21]
+      - [136.76,127.95,299.28]
+      - [145.5,128.06,314.29]
+      - _Korok::C50::End
+    _C50:
+      Start:
+        coord: [145.26,128.36,299.62]
+      End:
+        coord: [142.93,128.21,296.02]
+    C51:
+      presets: _Korok<C51 Boulder Circle,korok-rock-circle>
+      coord: [627.03,130.94,182.3]
+    C52:
+      presets: _Korok<C52 Lift Rock,korok-rock>
+      comment: In well
+      coord: [-1313.94,116.17,622.86]
+    C53:
+      presets: _Korok<C53 Offer Apple,korok-offer-apple>
+      coord: [-1020.38,201.02,559.81]
+    C54:
+      presets: _Korok<C54 Confetti,korok-confetti>
+      comment: Top of flagpole
+      coord: [-512.75,170.26,550.62]
+    C55:
+      presets: _Korok<C55 Light Chase,korok-light-chase>
+      coord: [-122.09,128.79,594.0]
+    C56:
+      presets: _Korok<C56 Offer Apple,korok-offer-apple>
+      coord: [322.06,127.5,525.0]
+    C57:
+      presets: _Korok<C57 Acorn Tree,korok-acorn>
+      coord: [-1249.55,125.52,730.67]
+    C58:
+      presets: _Korok<C58 Tree Stump,korok-magnesis>
+      coord: [-1439.6,125.5,846.66]
+    C59:
+      presets: _Korok<C59 Basketball,korok-basketball>
+      coord: [-1512.68,117.38,908.66]
+    C60:
+      presets: _Korok<C60 Block Puzzle,korok-magnesis>
+      coord: [-1106.93,139.42,905.26]
+    C61:
+      presets: _Korok<C61 Rock Circle,korok-rock-circle>
+      coord: [-1009.46,130.11,932.03]
+    C62:
+      presets: _Korok<C62 Light Chase,korok-light-chase>
+      coord: [-749.92,132.9,892.21]
+    C63:
+      presets: _Korok<C63 Flower Chase,korok-flower>
+      movements:
+      - _Korok::C63::Start
+      - [-601.66,143.17,860.79]
+      - [-616.98,143.78,861.43]
+      - [-632.29,144.84,873.98]
+      - _Korok::C63::End
+    _C63:
+      Start:
+        coord: [-587.14,139.42,875.57]
+      End:
+        coord: [-644.58,146.21,876.11]
+    C64:
+      presets: _Korok<C64 Light Chase,korok-light-chase>
+      coord: [-133.7,143.35,945.03]
+    C65:
+      presets: _Korok<C65 Acorn Tree,korok-acorn>
+      coord: [225.38,173.64,872.04]
+    C66:
+      presets: _Korok<C66 Rock Circle,korok-rock-circle>
+      coord: [-1356.69,140.95,1002.41]
+    C67:
+      presets: _Korok<C67 Lift Rock,korok-rock>
+      comment: On ledge (hard to see)
+      coord: [-1154.35,132.86,964.63]
+    C68:
+      presets: _Korok<C68 Acorn Hanging,korok-acorn>
+      comment: On bridge
+      coord: [-1134.46,143.84,1030.47]
+    C69:
+      presets: _Korok<C69 Acorn Hanging,korok-acorn>
+      comment: From tree
+      coord: [-599.94,138.02,1071.81]
+    C70:
+      presets: _Korok<C70 Rock Circle,korok-rock-circle>
+      coord: [-106.45,153.33,1047.96]
+    C71:
+      presets: _Korok<C71 Lift Rock (Tree),korok-rock-tree>
+      coord: [39.26,140.77,1034.49]
+    C72:
+      presets: _Korok<C72 Acorn Flying,korok-acorn-flying>
+      coord: [-1370.34,174.22,1165.82]
+    C73:
+      presets: _Korok<C73 Race,korok-race>
+      movements:
+      - _Korok::C73::Start
+      - _Korok::C73::End
+    _C73:
+      Start:
+        coord: [-1173.58,165.89,1166.04]
+      End:
+        coord: [-1190.02,174.95,1116.74]
+    C74:
+      presets: _Korok<C74 Lift Rock,korok-rock>
+      comment: Top of Coliseum
+      coord: [-1149.91,218.28,1204.1]
+    C75:
+      presets: _Korok<C75 Lily Pads,korok-lily>
+      coord: [-425.27,131.0,1189.34]
+    C76:
+      presets: _Korok<C76 Lift Rock (Leaves),korok-rock-under>
+      coord: [-466.41,137.21,1279.38]
+    C77:
+      presets: _Korok<C77 Balloon,korok-balloon>
+      coord: [295.58,135.22,1204.79]
+    C78:
+      presets: _Korok<C78 Lift Rock,korok-rock>
+      coord: [-1314.29,139.19,1257.33]
+    C79:
+      presets: _Korok<C79 Lift Rock,korok-rock>
+      coord: [-1224.68,299.79,1358.41]
+    C80:
+      presets: _Korok<C80 Acorn Log,korok-acorn>
+      coord: [-1280.39,284.68,1384.89]
+    C81:
+      presets: _Korok<C81 Light Chase,korok-light-chase>
+      comment: In ruins
+      coord: [-1057.31,167.53,1327.52]
+    C82:
+      presets: _Korok<C82 Light Chase,korok-light-chase>
+      coord: [-770.02,135.06,1380.97]
+    C83:
+      presets: _Korok<C83 Balloon,korok-balloon>
+      coord: [-653.64,159.13,1390.28]
+    C84:
+      presets: _Korok<C84 Acorn Flying,korok-acorn-flying>
+      coord: [69.3,121.17,1438.0]
+    C85:
+      presets: _Korok<C85 Lift Rock (Tree),korok-rock-tree>
+      coord: [-1666.66,249.27,1393.96]
+    C86:
+      presets: _Korok<C86 Lift Rock,korok-rock>
+      coord: [-1728.58,144.39,1478.86]
+    C87:
+      presets: _Korok<C87 Basketball,korok-basketball>
+      coord: [-1583.93,68.69,1579.69]
+    C88:
+      presets: _Korok<C88 Lily Pads,korok-lily>
+      coord: [-1746.91,71.0,1831.09]
+    C89:
+      presets: _Korok<C89 Basketball,korok-basketball>
+      coord: [-1491.53,68.49,1832.24]
+    D01:
+      presets: _Korok<D01 Lift Rock,korok-rock>
+      comment: Island below
+      coord: [954.4,116.27,942.46]
+    D02:
+      presets: _Korok<D02 Lily Pads,korok-lily>
+      comment: Next to Impa's house
+      coord: [1775.8,219.04,963.6]
+    D03:
+      presets: _Korok<D03 Offer Apple,korok-offer-apple>
+      coord: [1807.03,220.44,992.2]
+    D04:
+      presets: _Korok<D04 Lift Rock,korok-rock>
+      comment: Ledge
+      coord: [1793.89,258.89,1052.82]
+    D05:
+      presets: _Korok<D05 Shoot Emblem,korok-shoot>
+      coord: [1798.33,230.96,1078.17]
+    D06:
+      presets: _Korok<D06 Shoot Emblem,korok-shoot>
+      coord: [1957.25,248.06,1062.05]
+    D07:
+      presets: _Korok<D07 Lift Rock,korok-rock>
+      coord: [2163.89,460.62,1034.73]
+    D08:
+      presets: _Korok<D08 Lift Rock,korok-rock>
+      comment: On ledge
+      coord: [1939.51,269.11,1110.93]
+    D09:
+      presets: _Korok<D09 Match Tree,korok-matching>
+      coord: [1676.1,324.63,1157.93]
+    D10:
+      presets: _Korok<D10 Lift Rock,korok-rock>
+      coord: [1739.3,413.37,1186.67]
+    D11:
+      presets: _Korok<D11 Lift Rock,korok-rock>
+      comment: Peak
+      coord: [1933.25,376.73,1220.96]
+    D12:
+      presets: _Korok<D12 Block Puzzle,korok-magnesis>
+      coord: [2058.5,244.81,1208.55]
+    D13:
+      presets: _Korok<D13 Lift Rock (Tree),korok-rock-tree>
+      coord: [516.1,127.02,1167.1]
+    D14:
+      presets: _Korok<D14 Acorn Hanging,korok-acorn>
+      comment: From bridge
+      coord: [337.14,120.05,1271.06]
+    D15:
+      presets: _Korok<D15 Tree Stump,korok-magnesis>
+      comment: Edge of forest
+      coord: [715.11,166.34,1327.02]
+    D16:
+      presets: _Korok<D16 Lift Rock,korok-rock>
+      comment: Small island
+      coord: [1040.55,121.35,1318.15]
+    D17:
+      presets: _Korok<D17 Lift Rock (Tree),korok-rock-tree>
+      coord: [1293.44,273.69,1331.36]
+    D18:
+      presets: _Korok<D18 Lily Pads,korok-lily>
+      coord: [1553.54,119.0,1297.18]
+    D19:
+      presets: _Korok<D19 Basketball,korok-basketball>
+      coord: [1638.96,116.47,1376.28]
+    D20:
+      presets: _Korok<D20 Basketball,korok-basketball>
+      coord: [1750.43,116.39,1544.68]
+    D21:
+      presets: _Korok<D21 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [2207.28,192.59,1373.48]
+    D22:
+      presets: _Korok<D22 Lift Rock (Boulder),korok-rock-under>
+      coord: [318.15,115.38,1397.9]
+    D23:
+      presets: _Korok<D23 Acorn Flying,korok-acorn-flying>
+      coord: [518.62,131.0,1475.52]
+    D24:
+      presets: _Korok<D24 Boulder Golf,korok-golf-boulder>
+      coord: [668.64,135.47,1468.29]
+    D25:
+      presets: _Korok<D25 Jump Fence,korok>
+      coord: [788.83,145.87,1471.35]
+    D26:
+      presets: _Korok<D26 Confetti,korok-confetti>
+      comment: Top of flagpole
+      coord: [87.01,164.54,1585.09]
+    D27:
+      presets: _Korok<D27 Lift Rock,korok-rock>
+      comment: Under bridge
+      coord: [232.2,115.35,1601.41]
+    D28:
+      presets: _Korok<D28 Confetti,korok-confetti>
+      comment: Top of flagpole
+      coord: [671.09,180.86,1638.37]
+    D29:
+      presets: _Korok<D29 Lift Rock,korok-rock>
+      comment: On island
+      coord: [850.5,115.39,1623.99]
+    D30:
+      presets: _Korok<D30 Offer Apple,korok-offer-apple>
+      coord: [1376.52,327.85,1680.34]
+    D31:
+      presets: _Korok<D31 Boulder Golf,korok-golf-boulder>
+      coord: [54.98,146.9,1758.55]
+    D32:
+      presets: _Korok<D32 Basketball,korok-basketball>
+      coord: [112.31,116.67,1709.78]
+    D33:
+      presets: _Korok<D33 Block Puzzle,korok-magnesis>
+      coord: [178.96,116.68,1719.98]
+    D34:
+      presets: _Korok<D34 Lift Rock,korok-rock>
+      coord: [225.3,121.99,1705.66]
+    D35:
+      presets: _Korok<D35 Balloon,korok-balloon>
+      coord: [312.68,180.27,1766.79]
+    D36:
+      presets: _Korok<D36 Flower Chase,korok-flower>
+      movements:
+      - _Korok::D36::Start
+      - [475.17,133.83,1749.54]
+      - [499.28,150.32,1783.29]
+      - [506.46,162.74,1803.81]
+      - _Korok::D36::End
+    _D36:
+      Start:
+        coord: [468.27,123.95,1717.43]
+      End:
+        coord: [516.76,167.24,1788.16]
+    D37:
+      presets: _Korok<D37 Boulder Golf,korok-golf-boulder>
+      coord: [644.18,116.81,1763.26]
+    D38:
+      presets: _Korok<D38 Lift Rock,korok-rock>
+      comment: In cave
+      coord: [704.98,116.75,1796.56]
+    D39:
+      presets: _Korok<D39 Flower Chase,korok-flower>
+      comment: Across river
+      movements:
+      - _Korok::D39::Start
+      - [995.8,116.32,1836.55]
+      - [1006.34,115.7,1828.51]
+      - [1033.92,115.35,1807.87]
+      - _Korok::D39::End
+    _D39:
+      Start:
+        coord: [981.38,114.97,1837.23]
+      End:
+        coord: [1049.23,115.87,1783.27]
+    D40:
+      presets: _Korok<D40 Lift Rock,korok-rock>
+      coord: [1258.45,492.11,1851.12]
+    D41:
+      presets: _Korok<D41 Boulder Golf,korok-golf-boulder>
+      coord: [1517.27,400.24,1850.08]
+    D42:
+      presets: _Korok<D42 Confetti,korok-confetti>
+      comment: Top of stable
+      coord: [1748.57,140.69,1921.65]
+    D43:
+      presets: _Korok<D43 Flower Count,korok-flower>
+      comment: In cave
+      movements:
+      - _Korok::D43::Start
+      - [-183.77,122.08,1831.25]
+      - [-183.45,121.74,1841.59]
+      - [-202.26,122.09,1835.15]
+      - _Korok::D43::End
+    _D43:
+      Start:
+        coord: [-199.53,122.81,1847.93]
+      End:
+        coord: [-189.7,121.28,1835.39]
+    D44:
+      presets: _Korok<D44 Lift Rock,korok-rock>
+      coord: [5.32,207.82,1897.89]
+    D45:
+      presets: _Korok<D45 Confetti,korok-confetti>
+      coord: [160.04,150.43,1942.17]
+    D46:
+      presets: _Korok<D46 Match Tree,korok-matching>
+      coord: [551.57,182.9,1903.5]
+    D47:
+      presets: _Korok<D47 Balloon,korok-balloon>
+      coord: [868.27,142.61,1902.03]
+    D48:
+      presets: _Korok<D48 Lift Rock,korok-rock>
+      comment: Upper level
+      coord: [1101.69,224.28,1889.53]
+    D49:
+      presets: _Korok<D49 Offer Apple,korok-offer-apple>
+      coord: [1245.11,541.34,1942.17]
+    D50:
+      presets: _Korok<D50 Lift Rock (Slab),korok-rock-under>
+      coord: [815.22,202.72,2089.43]
+    D51:
+      presets: _Korok<D51 Lift Rock (Tree),korok-rock-tree>
+      comment: Big tree
+      coord: [1877.42,132.53,2051.32]
+    D52:
+      presets: _Korok<D52 Balloon,korok-balloon>
+      coord: [2054.82,153.24,2092.72]
+    D53:
+      presets: _Korok<D53 Lily Pads,korok-lily>
+      coord: [2484.82,119.0,2103.39]
+    D54:
+      presets: _Korok<D54 Light Torch,korok>
+      coord: [-115.48,186.84,2303.39]
+    D55:
+      presets: _Korok<D55 Lift Rock,korok-rock>
+      comment: On ledge high
+      coord: [1682.65,201.46,2327.61]
+    D56:
+      presets: _Korok<D56 Lift Rock,korok-rock>
+      comment: In tree stump
+      coord: [1886.18,147.4,2418.73]
+    D57:
+      presets: _Korok<D57 Lily Pads,korok-lily>
+      coord: [2303.51,281.29,2375.13]
+    D58:
+      presets: _Korok<D58 Acorn Flying,korok-acorn-flying>
+      coord: [2366.56,221.7,2303.49]
+    D59:
+      presets: _Korok<D59 Lift Rock,korok-rock>
+      comment: Bottom of waterfall
+      coord: [1936.54,134.27,2564.5]
+    E01:
+      presets: _Korok<E01 Lift Rock (Leaves),korok-rock-under>
+      coord: [1615.1,207.95,-3661.03]
+    E02:
+      presets: _Korok<E02 Block Puzzle,korok-magnesis>
+      coord: [2087.11,318.25,-3573.55]
+    E03:
+      presets: _Korok<E03 Lift Rock (Rubble),korok-rock-under>
+      coord: [2233.99,338.44,-3673.52]
+    E04:
+      presets: _Korok<E04 Lift Rock (Rubble),korok-rock-under>
+      coord: [2551.06,411.23,-3592.67]
+    E05:
+      presets: _Korok<E05 Rock Circle,korok-rock-circle>
+      comment: Pillars around shrine
+      coord: [2662.63,479.33,-3471.58]
+    E06:
+      presets: _Korok<E06 Lift Rock (Rubble),korok-rock-under>
+      coord: [2469.91,514.72,-3174.5]
+    E07:
+      presets: _Korok<E07 Lift Rock,korok-rock>
+      comment: Top of island
+      coord: [1549.11,533.4,-3108.54]
+    E08:
+      presets: _Korok<E08 Lift Rock,korok-rock>
+      comment: Top of northern mine
+      coord: [1632.01,585.55,-2939.5]
+    E09:
+      presets: _Korok<E09 Lift Rock,korok-rock>
+      comment: On hanging rock high
+      coord: [2195.5,613.21,-3007.84]
+    E10:
+      presets: _Korok<E10 Balloon,korok-balloon>
+      coord: [1885.78,513.93,-2749.1]
+    E11:
+      presets: _Korok<E11 Rock Circle,korok-rock-circle>
+      coord: [2060.97,580.31,-2757.41]
+    E12:
+      presets: _Korok<E12 Block Puzzle,korok-magnesis>
+      coord: [3322.94,379.46,-2803.06]
+    E13:
+      presets: _Korok<E13 Lift Rock,korok-rock>
+      coord: [1658.13,554.58,-2564.87]
+    E14:
+      presets: _Korok<E14 Race,korok-race>
+      movements:
+      - _Korok::E14::Start
+      - _Korok::E14::End
+    _E14:
+      Start:
+        coord: [1610.18,610.46,-2544.72]
+      End:
+        coord: [1725.34,607.05,-2553.93]
+    E15:
+      presets: _Korok<E15 Confetti,korok-confetti>
+      comment: Inside Goron's mouth
+      coord: [1593.87,543.91,-2475.24]
+    E16:
+      presets: _Korok<E16 Confetti,korok-confetti>
+      comment: Top of skeleton
+      coord: [1865.55,533.93,-2465.04]
+    E17:
+      presets: _Korok<E17 Race,korok-race>
+      movements:
+      - _Korok::E17::Start
+      - _Korok::E17::End
+    _E17:
+      Start:
+        coord: [1915.68,529.97,-2382.1]
+      End:
+        coord: [1867.81,511.0,-2400.63]
+    E18:
+      presets: _Korok<E18 Rock Circle,korok-rock-circle>
+      coord: [1647.23,521.04,-2244.46]
+    E19:
+      presets: _Korok<E19 Balloon,korok-balloon>
+      comment: High up
+      coord: [1537.85,505.38,-2091.5]
+    E20:
+      presets: _Korok<E20 Boulder Golf,korok-golf-boulder>
+      coord: [2019.41,557.72,-2172.89]
+    E21:
+      presets: _Korok<E21 Block Puzzle,korok-magnesis>
+      coord: [2170.73,547.03,-2109.55]
+    E22:
+      presets: _Korok<E22 Lift Rock,korok-rock>
+      comment: On stone above ring
+      coord: [2355.87,524.65,-2067.37]
+    E23:
+      presets: _Korok<E23 Lift Rock (Rubble),korok-rock-under>
+      coord: [2663.89,564.49,-2066.87]
+    E24:
+      presets: _Korok<E24 Boulder Golf,korok-golf-boulder>
+      coord: [1412.02,408.74,-1759.8]
+    E25:
+      presets: _Korok<E25 Race,korok-race>
+      movements:
+      - _Korok::E25::Start
+      - _Korok::E25::End
+    _E25:
+      Start:
+        coord: [1527.35,394.41,-1887.45]
+      End:
+        coord: [1544.33,394.2,-1837.21]
+    E26:
+      presets: _Korok<E26 Boulder Golf,korok-golf-boulder>
+      coord: [1687.55,427.39,-1717.08]
+    E27:
+      presets: _Korok<E27 Lift Rock (Rubble),korok-rock-under>
+      coord: [1950.85,457.49,-1832.65]
+    E28:
+      presets: _Korok<E28 Balloon,korok-balloon>
+      coord: [2273.79,431.76,-1823.22]
+    E29:
+      presets: _Korok<E29 Basketball,korok-basketball>
+      coord: [2424.33,253.68,-1738.5]
+    E30:
+      presets: _Korok<E30 Block Puzzle,korok-magnesis>
+      coord: [2703.71,225.52,-1749.27]
+    E31:
+      presets: _Korok<E31 Rock Circle,korok-rock-circle>
+      coord: [1426.89,465.03,-1544.06]
+    E32:
+      presets: _Korok<E32 Lift Rock (Rubble),korok-rock-under>
+      coord: [2266.55,347.37,-1565.48]
+    E33:
+      presets: _Korok<E33 Race,korok-race>
+      movements:
+      - _Korok::E33::Start
+      - _Korok::E33::End
+    _E33:
+      Start:
+        coord: [2330.11,322.65,-1486.41]
+      End:
+        coord: [2407.27,328.66,-1613.59]
+    E34:
+      presets: _Korok<E34 Rock Circle,korok-rock-circle>
+      coord: [2751.06,293.76,-1675.9]
+    E35:
+      presets: _Korok<E35 Rock Circle,korok-rock-circle>
+      coord: [1377.2,322.4,-1261.17]
+    E36:
+      presets: _Korok<E36 Lily Pads,korok-lily>
+      coord: [1940.14,226.01,-1217.73]
+    E37:
+      presets: _Korok<E37 Rock Circle,korok-rock-circle>
+      coord: [2179.55,226.34,-1282.03]
+    E38:
+      presets: _Korok<E38 Block Puzzle,korok-magnesis>
+      coord: [2478.57,313.41,-1391.59]
+    E39:
+      presets: _Korok<E39 Basketball,korok-basketball>
+      coord: [2752.29,233.72,-1366.33]
+    E40:
+      presets: _Korok<E40 Lift Rock (Rubble),korok-rock-under>
+      coord: [2504.47,312.2,-1304.28]
+    E41:
+      presets: _Korok<E41 Balloon,korok-balloon>
+      coord: [2408.19,262.34,-1229.95]
+    E42:
+      presets: _Korok<E42 Lift Rock,korok-rock>
+      coord: [2441.13,257.4,-1241.72]
+    E43:
+      presets: _Korok<E43 Lift Rock (Rubble),korok-rock-under>
+      coord: [2315.02,293.52,-1133.25]
+    E44:
+      presets: _Korok<E44 Lift Rock,korok-rock>
+      coord: [2655.78,261.74,-971.17]
+    E45:
+      presets: _Korok<E45 Race,korok-race>
+      movements:
+      - _Korok::E45::Start
+      - _Korok::E45::End
+    _E45:
+      Start:
+        coord: [2374.46,166.02,-807.5]
+      End:
+        coord: [2275.0,134.98,-720.14]
+    F01:
+      presets: _Korok<F01 Acorn Tree,korok-acorn>
+      coord: [1381.9,288.3,2277.44]
+    F02:
+      presets: _Korok<F02 Race,korok-race>
+      movements:
+      - _Korok::F02::Start
+      - _Korok::F02::End
+    _F02:
+      Start:
+        coord: [1131.8,341.83,2327.59]
+      End:
+        coord: [1188.64,323.43,2476.7]
+    F03:
+      presets: _Korok<F03 Balloon,korok-balloon>
+      coord: [1305.28,191.34,2434.05]
+    F04:
+      presets: _Korok<F04 Rock Circle,korok-rock-circle>
+      coord: [1323.72,194.4,2453.45]
+    F05:
+      presets: _Korok<F05 Balloon,korok-balloon>
+      coord: [1462.67,336.79,2370.84]
+    F06:
+      presets: _Korok<F06 Lift Rock,korok-rock>
+      coord: [2181.72,414.98,2534.69]
+    F07:
+      presets: _Korok<F07 Light Chase,korok-light-chase>
+      coord: [2403.83,256.6,2511.22]
+    F08:
+      presets: _Korok<F08 Lift Rock (Tree),korok-rock-tree>
+      coord: [1966.62,365.96,2634.47]
+    F09:
+      presets: _Korok<F09 Basketball,korok-basketball>
+      coord: [2099.72,363.66,2625.57]
+    F10:
+      presets: _Korok<F10 Flower Chase,korok-flower>
+      comment: In cave
+      movements:
+      - _Korok::F10::Start
+      - [1361.45,192.45,2758.8]
+      - [1370.41,203.52,2742.94]
+      - [1371.11,195.73,2743.77]
+      - _Korok::F10::End
+    _F10:
+      Start:
+        coord: [1378.68,185.35,2767.8]
+      End:
+        coord: [1373.0,220.29,2749.04]
+    F11:
+      presets: _Korok<F11 Lift Rock,korok-rock>
+      comment: Peak
+      coord: [1936.52,492.98,2778.54]
+    F12:
+      presets: _Korok<F12 Flower Chase,korok-flower>
+      movements:
+      - _Korok::F12::Start
+      - [2054.12,401.91,2705.84]
+      - [2092.84,401.36,2692.7]
+      - [2112.5,406.24,2710.14]
+      - _Korok::F12::End
+    _F12:
+      Start:
+        coord: [2043.58,413.25,2660.78]
+      End:
+        coord: [2103.91,422.5,2726.09]
+    F13:
+      presets: _Korok<F13 Lift Rock,korok-rock>
+      comment: Under tree
+      coord: [2284.27,287.53,2659.97]
+    F14:
+      presets: _Korok<F14 Lily Pads,korok-lily>
+      coord: [2874.91,299.73,2683.36]
+    F15:
+      presets: _Korok<F15 Light Chase,korok-light-chase>
+      coord: [1325.56,296.66,3008.67]
+    F16:
+      presets: _Korok<F16 Race,korok-race>
+      movements:
+      - _Korok::F16::Start
+      - _Korok::F16::End
+    _F16:
+      Start:
+        coord: [1559.28,252.03,2896.84]
+      End:
+        coord: [1562.56,298.62,2898.31]
+    F17:
+      presets: _Korok<F17 Well,korok-magnesis>
+      comment: Ball and chain
+      coord: [1773.84,346.68,2930.86]
+    F18:
+      presets: _Korok<F18 Lift Rock (Rubble),korok-rock-under>
+      comment: In cave
+      coord: [3084.93,239.77,2884.64]
+    F19:
+      presets: _Korok<F19 Race,korok-race>
+      comment: Swim up
+      movements:
+      - _Korok::F19::Start
+      - _Korok::F19::End
+    _F19:
+      Start:
+        coord: [1776.99,183.94,3057.73]
+      End:
+        coord: [1785.53,344.36,3011.07]
+    F20:
+      presets: _Korok<F20 Match Tree,korok-matching>
+      coord: [1943.74,348.58,3009.42]
+    F21:
+      presets: _Korok<F21 Offer Apple,korok-offer-apple>
+      coord: [2294.48,287.5,3028.17]
+    F22:
+      presets: _Korok<F22 Flower Chase,korok-flower>
+      movements:
+      - _Korok::F22::Start
+      - [2952.04,244.88,2989.74]
+      - [2962.11,244.79,2982.25]
+      - [2955.58,245.61,2973.68]
+      - [2950.32,245.71,2965.56]
+      - [2967.16,248.33,2948.4]
+      - [2968.22,245.1,2965.22]
+      - [2972.14,244.9,2975.83]
+      - [2974.78,245.62,2989.42]
+      - _Korok::F22::End
+    _F22:
+      Start:
+        coord: [2947.58,246.36,3003.18]
+      End:
+        coord: [2951.34,246.57,3005.96]
+    F23:
+      presets: _Korok<F23 Flower Chase,korok-flower>
+      movements:
+      - _Korok::F23::Start
+      - [1012.9,126.4,3222.67]
+      - [999.86,123.11,3234.49]
+      - [1007.53,121.54,3247.78]
+      - _Korok::F23::End
+    _F23:
+      Start:
+        coord: [1012.99,128.01,3212.9]
+      End:
+        coord: [1012.06,127.12,3258.18]
+    F24:
+      presets: _Korok<F24 Balloon,korok-balloon>
+      coord: [1055.11,167.13,3254.77]
+    F25:
+      presets: _Korok<F25 Offer Durian,korok-offer-durian>
+      coord: [1406.71,255.48,3198.75]
+    F26:
+      presets: _Korok<F26 Block Puzzle,korok-magnesis>
+      comment: Middle of waterfall
+      coord: [1660.15,252.65,3163.64]
+    F27:
+      presets: _Korok<F27 Lift Rock,korok-rock>
+      comment: Ledge
+      coord: [1799.42,224.83,3157.65]
+    F28:
+      presets: _Korok<F28 Flower Chase,korok-flower>
+      movements:
+      - _Korok::F28::Start
+      - [1754.08,183.57,3198.55]
+      - [1766.46,184.68,3195.1]
+      - [1788.81,185.22,3210.6]
+      - _Korok::F28::End
+    _F28:
+      Start:
+        coord: [1737.64,202.6,3204.04]
+      End:
+        coord: [1803.73,202.6,3221.99]
+    F29:
+      presets: _Korok<F29 Block Puzzle,korok-magnesis>
+      comment: Cube in lake
+      coord: [2032.28,292.14,3164.34]
+    F30:
+      presets: _Korok<F30 Match Tree,korok-matching>
+      coord: [2171.21,198.86,3276.9]
+    F31:
+      presets: _Korok<F31 Lift Rock (Leaves),korok-rock-under>
+      coord: [2636.23,191.58,3197.79]
+    F32:
+      presets: _Korok<F32 Light Chase,korok-light-chase>
+      coord: [3175.44,309.28,3204.02]
+    F33:
+      presets: _Korok<F33 Lift Rock,korok-rock>
+      comment: On ledge
+      coord: [3639.77,326.91,3258.22]
+    F34:
+      presets: _Korok<F34 Balloon,korok-balloon>
+      coord: [1492.11,188.12,3370.48]
+    F35:
+      presets: _Korok<F35 Luminous Stone,korok>
+      comment: Eye of statue
+      coord: [1857.43,176.84,3351.67]
+    F36:
+      presets: _Korok<F36 Rock Circle,korok-rock-circle>
+      coord: [2968.71,122.93,3380.18]
+    F37:
+      presets: _Korok<F37 Lily Pads,korok-lily>
+      coord: [3289.57,175.8,3338.79]
+    F38:
+      presets: _Korok<F38 Lift Rock,korok-rock>
+      coord: [1217.38,135.04,3524.1]
+    F39:
+      presets: _Korok<F39 Offer Durian,korok-offer-durian>
+      coord: [1378.09,256.94,3503.56]
+    F40:
+      presets: _Korok<F40 Lift Rock,korok-rock>
+      comment: Middle of mud
+      coord: [1449.47,222.69,3531.36]
+    F41:
+      presets: _Korok<F41 Beard,korok>
+      coord: [1552.48,182.81,3529.24]
+    F42:
+      presets: _Korok<F42 Balloon,korok-balloon>
+      comment: Middle of bridge
+      coord: [1733.16,168.05,3450.58]
+    F43:
+      presets: _Korok<F43 Rock Circle,korok-rock-circle>
+      coord: [2139.98,200.28,3531.93]
+    F44:
+      presets: _Korok<F44 Apple,korok>
+      coord: [2836.96,126.87,3452.76]
+    F45:
+      presets: _Korok<F45 Flower Chase,korok-flower>
+      comment: Top of house
+      movements:
+      - _Korok::F45::Start
+      - [2948.65,126.21,3435.43]
+      - [2950.21,128.55,3434.97]
+      - [2942.35,125.76,3435.77]
+      - _Korok::F45::End
+    _F45:
+      Start:
+        coord: [2947.3,123.4,3436.0]
+      End:
+        coord: [2939.43,122.43,3427.08]
+    F46:
+      presets: _Korok<F46 Block Puzzle,korok-magnesis>
+      coord: [1840.68,135.02,3595.82]
+    F47:
+      presets: _Korok<F47 Lift Rock,korok-rock>
+      comment: Peak
+      coord: [2559.24,344.0,3602.71]
+    F48:
+      presets: _Korok<F48 Offer Banana,korok-offer-banana>
+      coord: [1757.8,253.7,3685.97]
+    F49:
+      presets: _Korok<F49 Rock Circle,korok-rock-circle>
+      coord: [2856.58,113.69,3651.77]
+    F50:
+      presets: _Korok<F50 Flower Chase,korok-flower>
+      movements:
+      - _Korok::F50::Start
+      - [3079.72,112.73,3643.24]
+      - [3093.29,112.05,3659.51]
+      - [3082.66,106.32,3705.24]
+      - [3061.24,108.94,3658.99]
+      - _Korok::F50::End
+    _F50:
+      Start:
+        coord: [3079.72,112.73,3643.24]
+      End:
+        coord: [3024.4,107.61,3654.22]
+    F51:
+      presets: _Korok<F51 Lily Pads,korok-lily>
+      coord: [3367.1,109.9,3653.53]
+    F52:
+      presets: _Korok<F52 Lift Rock,korok-rock>
+      coord: [3796.61,106.29,3618.89]
+    F53:
+      presets: _Korok<F53 Rock Circle,korok-rock-circle>
+      coord: [1374.62,107.24,3751.46]
+    F54:
+      presets: _Korok<F54 Lift Rock,korok-rock>
+      comment: Ledge beach level
+      coord: [1513.74,136.27,3725.03]
+    F55:
+      presets: _Korok<F55 Lift Rock,korok-rock>
+      comment: Upper ledge
+      coord: [1821.03,272.02,3742.02]
+    F56:
+      presets: _Korok<F56 Balloon,korok-balloon>
+      comment: Under cliff
+      coord: [1625.49,143.74,3891.73]
+    F57:
+      presets: _Korok<F57 Rock Circle,korok-rock-circle>
+      coord: [2508.15,157.62,3825.9]
+    F58:
+      presets: _Korok<F58 Lily Pads,korok-lily>
+      comment: Close to beach rocks
+      coord: [3170.41,109.88,3824.31]
+    G01:
+      presets: _Korok<G01 Boulder Golf,korok-golf-boulder>
+      coord: [-4409.1,618.92,331.34]
+    G02:
+      presets: _Korok<G02 Race,korok-race>
+      movements:
+      - _Korok::G02::Start
+      - _Korok::G02::End
+    _G02:
+      Start:
+        coord: [-4207.97,471.96,266.73]
+      End:
+        coord: [-4183.67,491.75,291.06]
+    G03:
+      presets: _Korok<G03 Rock Circle,korok-rock-circle>
+      coord: [-4066.78,569.14,437.84]
+    G04:
+      presets: _Korok<G04 Block Puzzle,korok-magnesis>
+      coord: [-4355.33,716.59,709.87]
+    G05:
+      presets: _Korok<G05 Race,korok-race>
+      movements:
+      - _Korok::G05::Start
+      - _Korok::G05::End
+    _G05:
+      Start:
+        coord: [-4276.29,772.13,610.64]
+      End:
+        coord: [-4325.4,768.44,698.29]
+    G06:
+      presets: _Korok<G06 Lift Rock,korok-rock>
+      comment: On wood platform
+      coord: [-3673.78,550.79,698.3]
+    G07:
+      presets: _Korok<G07 Ice Block,korok-ice>
+      coord: [-4690.48,704.14,842.36]
+    G08:
+      presets: _Korok<G08 Flower Chase,korok-flower>
+      movements:
+      - _Korok::G08::Start
+      - _Korok::G08::End
+    _G08:
+      Start:
+        coord: [-4381.95,631.82,782.54]
+      End:
+        coord: [-4340.95,767.38,782.13]
+    G09:
+      presets: _Korok<G09 Rock Circle,korok-rock-circle>
+      coord: [-3688.84,740.47,798.72]
+    G10:
+      presets: _Korok<G10 Rock Circle,korok-rock-circle>
+      coord: [-3069.67,452.02,910.74]
+    G11:
+      presets: _Korok<G11 Race,korok-race>
+      movements:
+      - _Korok::G11::Start
+      - _Korok::G11::End
+    _G11:
+      Start:
+        coord: [-4388.92,561.06,1218.42]
+      End:
+        coord: [-4210.02,609.72,1133.5]
+    G12:
+      presets: _Korok<G12 Block Puzzle,korok-magnesis>
+      coord: [-3224.51,570.76,1022.45]
+    G13:
+      presets: _Korok<G13 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [-2867.81,518.54,1124.92]
+    G14:
+      presets: _Korok<G14 Balloon,korok-balloon>
+      coord: [-2454.27,337.82,1157.3]
+    G15:
+      presets: _Korok<G15 Lift Rock,korok-rock>
+      coord: [-4552.23,623.39,1353.15]
+    G16:
+      presets: _Korok<G16 Light Chase,korok-light-chase>
+      coord: [-4112.89,560.66,1377.53]
+    G17:
+      presets: _Korok<G17 Ice Block,korok-ice>
+      coord: [-3065.6,604.49,1287.26]
+    G18:
+      presets: _Korok<G18 Ice Block,korok-ice>
+      coord: [-2850.0,678.32,1229.0]
+    G19:
+      presets: _Korok<G19 Rock Circle,korok-rock-circle>
+      coord: [-2521.76,457.05,1318.58]
+    G20:
+      presets: _Korok<G20 Rock Circle,korok-rock-circle>
+      coord: [-4527.83,571.97,1423.32]
+    G21:
+      presets: _Korok<G21 Block Puzzle,korok-magnesis>
+      coord: [-4180.76,440.36,1482.39]
+    G22:
+      presets: _Korok<G22 Rock Circle,korok-rock-circle>
+      coord: [-3129.01,614.01,1467.15]
+    G23:
+      presets: _Korok<G23 Lift Rock,korok-rock>
+      coord: [-2646.0,688.32,1535.13]
+    G24:
+      presets: _Korok<G24 Rock Circle,korok-rock-circle>
+      coord: [-2081.09,353.63,1477.02]
+    G25:
+      presets: _Korok<G25 Offer Banana,korok-offer-banana>
+      coord: [-4075.58,298.89,1595.13]
+    G26:
+      presets: _Korok<G26 Snowball Golf,korok-golf-snowball>
+      coord: [-3715.85,570.37,1558.07]
+    G27:
+      presets: _Korok<G27 Rock Circle,korok-rock-circle>
+      comment: Platform on cliff
+      coord: [-2817.46,578.22,1652.72]
+    G28:
+      presets: _Korok<G28 Block Puzzle,korok-magnesis>
+      coord: [-2464.74,417.71,1713.47]
+    G29:
+      presets: _Korok<G29 Block Puzzle,korok-magnesis>
+      coord: [-1799.6,114.89,1625.9]
+    G30:
+      presets: _Korok<G30 Rock Circle,korok-rock-circle>
+      coord: [-4136.39,401.44,1717.95]
+    G31:
+      presets: _Korok<G31 Balloon,korok-balloon>
+      coord: [-3845.23,412.26,1897.05]
+    G32:
+      presets: _Korok<G32 Race,korok-race>
+      movements:
+      - _Korok::G32::Start
+      - _Korok::G32::End
+    _G32:
+      Start:
+        coord: [-2395.78,205.38,1915.51]
+      End:
+        coord: [-2429.13,203.48,1921.33]
+    G33:
+      presets: _Korok<G33 Rock Circle,korok-rock-circle>
+      coord: [-4170.68,193.18,1989.38]
+    G34:
+      presets: _Korok<G34 Block Puzzle,korok-magnesis>
+      coord: [-3071.38,197.78,2044.73]
+    G35:
+      presets: _Korok<G35 Race,korok-race>
+      movements:
+      - _Korok::G35::Start
+      - _Korok::G35::End
+    _G35:
+      Start:
+        coord: [-2603.74,337.62,2126.61]
+      End:
+        coord: [-2697.26,270.84,2105.06]
+    G36:
+      presets: _Korok<G36 Well,korok-magnesis>
+      coord: [-1721.22,143.19,2237.78]
+    H01:
+      presets: _Korok<H01 Block Puzzle,korok-magnesis>
+      coord: [-4397.6,332.44,-3773.91]
+    H02:
+      presets: _Korok<H02 Ice Block,korok-ice>
+      coord: [-4029.33,464.85,-3760.17]
+    H03:
+      presets: _Korok<H03 Flower Chase,korok-flower>
+      movements:
+      - _Korok::H03::Start
+      - [-4056.62,312.97,-3726.4]
+      - [-4003.97,330.62,-3693.82]
+      - _Korok::H03::End
+    _H03:
+      Start:
+        coord: [-4084.91,291.04,-3717.65]
+      End:
+        coord: [-3960.37,350.67,-3723.25]
+    H04:
+      presets: _Korok<H04 Rock Circle,korok-rock-circle>
+      coord: [-3757.12,375.46,-3848.08]
+    H05:
+      presets: _Korok<H05 Balloon,korok-balloon>
+      coord: [-1970.93,420.71,-3792.56]
+    H06:
+      presets: _Korok<H06 Rock Circle,korok-rock-circle>
+      coord: [-1375.17,361.92,-3640.94]
+    H07:
+      presets: _Korok<H07 Race,korok-race>
+      movements:
+      - _Korok::H07::Start
+      - _Korok::H07::End
+    _H07:
+      Start:
+        coord: [-4251.77,574.72,-3590.21]
+      End:
+        coord: [-4167.16,516.82,-3615.93]
+    H08:
+      presets: _Korok<H08 Balloon,korok-balloon>
+      coord: [-3999.21,632.96,-3620.06]
+    H09:
+      presets: _Korok<H09 Lift Rock (Leaves),korok-rock-under>
+      coord: [-3496.12,474.21,-3580.67]
+    H10:
+      presets: _Korok<H10 Acorn Log,korok-acorn>
+      coord: [-3610.64,561.92,-3491.99]
+    H11:
+      presets: _Korok<H11 Confetti,korok-confetti>
+      comment: Top of bare tree
+      coord: [-3414.79,542.02,-3509.61]
+    H12:
+      presets: _Korok<H12 Rock Circle,korok-rock-circle>
+      coord: [-2842.69,333.93,-3493.48]
+    H13:
+      presets: _Korok<H13 Ice Block,korok-ice>
+      coord: [-2290.1,564.25,-3407.59]
+    H14:
+      presets: _Korok<H14 Acorn Log,korok-acorn>
+      coord: [-1535.29,346.88,-3475.81]
+    H15:
+      presets: _Korok<H15 Block Puzzle,korok-magnesis>
+      coord: [-1095.98,413.97,-3399.87]
+    H16:
+      presets: _Korok<H16 Balloon,korok-balloon>
+      coord: [-872.89,335.5,-3316.1]
+    H17:
+      presets: _Korok<H17 Rock Circle,korok-rock-circle>
+      comment: Snowy platform
+      coord: [-4155.93,350.44,-3404.12]
+    H18:
+      presets: _Korok<H18 Confetti,korok-confetti>
+      comment: Forest with 5 trees
+      coord: [-3843.15,435.38,-3348.18]
+    H19:
+      presets: _Korok<H19 Balloon,korok-balloon>
+      coord: [-3574.57,494.23,-3272.38]
+    H20:
+      presets: _Korok<H20 Confetti,korok-confetti>
+      comment: Top of house
+      coord: [-2946.5,686.98,-3146.69]
+    H21:
+      presets: _Korok<H21 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [-2602.17,508.35,-3238.93]
+    H22:
+      presets: _Korok<H22 Boulder Golf,korok-golf-boulder>
+      coord: [-1110.79,438.06,-3043.85]
+    H23:
+      presets: _Korok<H23 Lift Rock,korok-rock>
+      comment: Peak far
+      coord: [-4424.15,497.16,-3215.94]
+    H24:
+      presets: _Korok<H24 Flower Chase,korok-flower>
+      comment: Below high forest
+      movements:
+      - _Korok::H24::Start
+      - [-4205.57,230.85,-3121.48]
+      - [-4230.32,253.77,-3126.51]
+      - [-4228.86,268.87,-3132.67]
+      - _Korok::H24::End
+    _H24:
+      Start:
+        coord: [-4201.37,221.08,-3117.92]
+      End:
+        coord: [-4230.89,284.85,-3134.81]
+    H25:
+      presets: _Korok<H25 Lift Rock,korok-rock>
+      comment: In corner
+      coord: [-3793.73,353.06,-3032.96]
+    H26:
+      presets: _Korok<H26 Lift Rock,korok-rock>
+      coord: [-3734.78,446.58,-2964.39]
+    H27:
+      presets: _Korok<H27 Balloon,korok-balloon>
+      coord: [-3350.52,621.95,-2994.89]
+    H28:
+      presets: _Korok<H28 Lift Rock,korok-rock>
+      coord: [-2783.55,838.53,-2895.52]
+    H29:
+      presets: _Korok<H29 Ice Block,korok-ice>
+      coord: [-2487.65,514.33,-3021.6]
+    H30:
+      presets: _Korok<H30 Acorn Flying,korok-acorn-flying>
+      coord: [-2250.21,446.8,-3092.18]
+    H31:
+      presets: _Korok<H31 Ice Block,korok-ice>
+      coord: [-2210.05,498.64,-2908.54]
+    H32:
+      presets: _Korok<H32 Light Chase,korok-light-chase>
+      comment: On flat hill
+      coord: [-4402.55,415.03,-2866.69]
+    H33:
+      presets: _Korok<H33 Ice Block,korok-ice>
+      coord: [-3115.96,496.35,-2806.23]
+    H34:
+      presets: _Korok<H34 Ice Block,korok-ice>
+      coord: [-3061.22,535.21,-2813.68]
+    H35:
+      presets: _Korok<H35 Lift Rock,korok-rock>
+      coord: [-2830.55,669.61,-2828.34]
+    H36:
+      presets: _Korok<H36 Rock Circle,korok-rock-circle>
+      coord: [-2467.77,620.8,-2765.22]
+    H37:
+      presets: _Korok<H37 Light Chase,korok-light-chase>
+      coord: [-1781.0,347.36,-2745.01]
+    H38:
+      presets: _Korok<H38 Lift Rock (Rubble),korok-rock-under>
+      coord: [-1349.37,241.7,-2734.51]
+    H39:
+      presets: _Korok<H39 Flower Chase,korok-flower>
+      movements:
+      - _Korok::H39::Start
+      - [-4216.36,231.03,-2769.79]
+      - [-4216.6,242.0,-2766.18]
+      - [-4211.13,247.84,-2755.22]
+      - [-4209.61,253.15,-2735.38]
+      - [-4201.12,270.47,-2719.52]
+      - [-4197.85,275.18,-2709.39]
+      - [-4196.75,282.51,-2699.01]
+      - [-4197.7,284.25,-2689.47]
+      - _Korok::H39::End
+    _H39:
+      Start:
+        coord: [-4204.78,218.04,-2782.24]
+      End:
+        coord: [-4192.8,288.37,-2678.94]
+    H40:
+      presets: _Korok<H40 Lift Rock,korok-rock>
+      comment: Top of hill
+      coord: [-4330.86,441.88,-2600.16]
+    H41:
+      presets: _Korok<H41 Rock Circle,korok-rock-circle>
+      coord: [-4148.75,216.39,-2616.47]
+    H42:
+      presets: _Korok<H42 Lift Rock (Rubble),korok-rock-under>
+      coord: [-4071.81,131.41,-2545.94]
+    H43:
+      presets: _Korok<H43 Acorn Log,korok-acorn>
+      coord: [-3277.42,585.32,-2618.86]
+    H44:
+      presets: _Korok<H44 Balloon,korok-balloon>
+      comment: In cave
+      coord: [-2984.89,559.2,-2693.52]
+    H45:
+      presets: _Korok<H45 Ice Block,korok-ice>
+      coord: [-2736.11,456.88,-2582.83]
+    H46:
+      presets: _Korok<H46 Ice Block,korok-ice>
+      coord: [-3041.11,430.43,-2520.18]
+    H47:
+      presets: _Korok<H47 Balloon,korok-balloon>
+      comment: End of river
+      coord: [-2900.08,498.64,-2508.78]
+    H48:
+      presets: _Korok<H48 Lift Rock,korok-rock>
+      comment: On ledge
+      coord: [-2936.53,471.2,-2412.46]
+    H49:
+      presets: _Korok<H49 Race,korok-race>
+      movements:
+      - _Korok::H49::Start
+      - _Korok::H49::End
+    _H49:
+      Start:
+        coord: [-2941.33,545.32,-2483.43]
+      End:
+        coord: [-2883.83,521.33,-2398.01]
+    H50:
+      presets: _Korok<H50 Balloon,korok-balloon>
+      comment: Middle of river
+      coord: [-2836.29,501.87,-2423.83]
+    H51:
+      presets: _Korok<H51 Lift Rock,korok-rock>
+      comment: Ledge down the camp
+      coord: [-2638.89,410.03,-2364.1]
+    H52:
+      presets: _Korok<H52 Acorn Log,korok-acorn>
+      coord: [-2015.55,347.55,-2456.0]
+    H53:
+      presets: _Korok<H53 Lift Rock,korok-rock>
+      comment: Sharp hill
+      coord: [-4340.22,301.85,-2354.1]
+    H54:
+      presets: _Korok<H54 Lift Rock,korok-rock>
+      coord: [-3677.89,426.24,-2466.75]
+    H55:
+      presets: _Korok<H55 Balloon,korok-balloon>
+      coord: [-3331.94,508.74,-2297.16]
+    H56:
+      presets: _Korok<H56 Flower Chase,korok-flower>
+      comment: Across bridge
+      movements:
+      - _Korok::H56::Start
+      - [-2729.82,456.21,-2264.78]
+      - [-2737.84,456.25,-2263.83]
+      - [-2742.96,455.52,-2258.24]
+      - _Korok::H56::End
+    _H56:
+      Start:
+        coord: [-2723.18,453.22,-2263.21]
+      End:
+        coord: [-2751.33,459.46,-2258.77]
+    H57:
+      presets: _Korok<H57 Snowball Golf,korok-golf-snowball>
+      coord: [-2297.36,424.84,-2293.14]
+    H58:
+      presets: _Korok<H58 Lift Rock (Leaves),korok-rock-under>
+      coord: [-1764.0,343.69,-2350.7]
+    H59:
+      presets: _Korok<H59 Boulder Golf,korok-golf-boulder>
+      coord: [-1414.64,228.58,-2398.59]
+    H60:
+      presets: _Korok<H60 Balloon,korok-balloon>
+      coord: [-4507.23,226.34,-2146.1]
+    H61:
+      presets: _Korok<H61 Lift Rock,korok-rock>
+      comment: Peak
+      coord: [-2382.54,498.73,-2132.67]
+    H62:
+      presets: _Korok<H62 Balloon,korok-balloon>
+      coord: [-1682.21,353.47,-2184.83]
+    H63:
+      presets: _Korok<H63 Lift Rock,korok-rock>
+      comment: Ledge
+      coord: [-1675.99,96.53,-2139.3]
+    H64:
+      presets: _Korok<H64 Lift Rock,korok-rock>
+      comment: Behind shrine
+      coord: [-2636.62,444.7,-2048.35]
+    H65:
+      presets: _Korok<H65 Confetti,korok-confetti>
+      comment: Top of tree (island)
+      coord: [-2791.12,397.69,-1945.59]
+    H66:
+      presets: _Korok<H66 Lily Pads,korok-lily>
+      coord: [-2972.81,377.29,-1878.1]
+    H67:
+      presets: _Korok<H67 Well,korok-magnesis>
+      coord: [-2358.59,385.0,-1872.8]
+    H68:
+      presets: _Korok<H68 Lift Rock,korok-rock>
+      coord: [-2012.59,127.18,-1921.69]
+    H69:
+      presets: _Korok<H69 Acorn Log,korok-acorn>
+      coord: [-2523.39,364.82,-1736.94]
+    H70:
+      presets: _Korok<H70 Flower Chase,korok-flower>
+      movements:
+      - _Korok::H70::Start
+      - [-2370.25,376.23,-1778.33]
+      - [-2370.82,373.44,-1764.25]
+      - [-2359.08,370.99,-1757.9]
+      - _Korok::H70::End
+    _H70:
+      Start:
+        coord: [-2376.8,380.85,-1790.9]
+      End:
+        coord: [-2338.22,369.24,-1726.7]
+    H71:
+      presets: _Korok<H71 Lift Rock (Rubble),korok-rock-under>
+      coord: [-2207.48,253.3,-1767.46]
+    H72:
+      presets: _Korok<H72 Confetti,korok-confetti>
+      comment: Top of windmill
+      coord: [-2836.95,348.83,-1594.78]
+    H73:
+      presets: _Korok<H73 Race,korok-race>
+      movements:
+      - _Korok::H73::Start
+      - _Korok::H73::End
+    _H73:
+      Start:
+        coord: [-2772.74,145.7,-1472.73]
+      End:
+        coord: [-2826.25,193.14,-1580.07]
+    K01:
+      presets: _Korok<K01 Lift Rock,korok-rock>
+      coord: [206.76,233.04,-3559.0]
+    K02:
+      presets: _Korok<K02 Block Puzzle,korok-magnesis>
+      coord: [603.39,249.91,-3633.77]
+    K03:
+      presets: _Korok<K03 Rock Circle,korok-rock-circle>
+      coord: [1143.4,209.96,-3742.77]
+    K04:
+      presets: _Korok<K04 Balloon,korok-balloon>
+      coord: [863.91,316.28,-3358.52]
+    K05:
+      presets: _Korok<K05 Balloon,korok-balloon>
+      coord: [-486.71,231.99,-3142.91]
+    K06:
+      presets: _Korok<K06 Acorn Log,korok-acorn>
+      coord: [-40.78,306.5,-2985.74]
+    K07:
+      presets: _Korok<K07 Balloon,korok-balloon>
+      coord: [237.43,304.06,-2943.38]
+    K08:
+      presets: _Korok<K08 Balloon,korok-balloon>
+      coord: [685.12,431.88,-2758.45]
+    K09:
+      presets: _Korok<K09 Lift Rock,korok-rock>
+      comment: Behind statue
+      coord: [-1045.91,54.66,-2707.63]
+    K10:
+      presets: _Korok<K10 Block Puzzle,korok-magnesis>
+      coord: [-1047.62,139.68,-2620.56]
+    K11:
+      presets: _Korok<K11 Lift Rock,korok-rock>
+      coord: [-567.78,489.6,-2599.2]
+    K12:
+      presets: _Korok<K12 Lift Rock (Rubble),korok-rock-under>
+      coord: [-1258.63,138.61,-2360.09]
+    K13:
+      presets: _Korok<K13 Lift Rock (Rubble),korok-rock-under>
+      coord: [-1403.11,101.02,-2312.28]
+    K14:
+      presets: _Korok<K14 Lift Rock (Door),korok-magnesis>
+      coord: [-1410.55,1.01,-2224.8]
+    K15:
+      presets: _Korok<K15 Lift Rock,korok-rock>
+      comment: On pillar
+      coord: [-1586.48,68.14,-2133.0]
+    K16:
+      presets: _Korok<K16 Acorn Log,korok-acorn>
+      coord: [-1019.51,222.85,-2077.29]
+    K17:
+      presets: _Korok<K17 Jump Fence,korok>
+      coord: [-1309.76,209.07,-1941.56]
+    K18:
+      presets: _Korok<K18 Confetti,korok-confetti>
+      comment: Top of broken hut
+      coord: [-1062.99,226.91,-1934.1]
+    K19:
+      presets: _Korok<K19 Acorn Log,korok-acorn>
+      coord: [-816.67,224.46,-1926.15]
+    K20:
+      presets: _Korok<K20 Lift Rock,korok-rock>
+      comment: End of ledge
+      coord: [-1884.49,23.98,-1813.18]
+    K21:
+      presets: _Korok<K21 Lift Rock (Rubble),korok-rock-under>
+      coord: [-1805.35,31.56,-1842.52]
+    K22:
+      presets: _Korok<K22 Lift Rock (Rubble),korok-rock-under>
+      comment: In corner
+      coord: [-2036.94,48.7,-1622.94]
+    K23:
+      presets: _Korok<K23 Acorn Log,korok-acorn>
+      coord: [-1436.28,231.0,-1668.66]
+    K24:
+      presets: _Korok<K24 Light Chase,korok-light-chase>
+      coord: [-1227.23,255.95,-1578.17]
+    K25:
+      presets: _Korok<K25 Rock Circle,korok-rock-circle>
+      coord: [-1094.13,210.87,-1731.89]
+    K26:
+      presets: _Korok<K26 Balloon,korok-balloon>
+      comment: Pinwheel
+      coord: [-911.8,219.25,-1612.79]
+    K27:
+      presets: _Korok<K27 Balloon,korok-balloon>
+      coord: [-427.4,317.62,-1734.04]
+    K28:
+      presets: _Korok<K28 Lift Rock,korok-rock>
+      coord: [-332.59,299.39,-1747.38]
+    K29:
+      presets: _Korok<K29 Acorn Log,korok-acorn>
+      coord: [-703.68,247.65,-1443.78]
+    K30:
+      presets: _Korok<K30 Lift Rock,korok-rock>
+      comment: Ledge
+      coord: [-130.54,168.77,-1379.27]
+    K31:
+      presets: _Korok<K31 Lift Rock,korok-rock>
+      comment: Top of scaffolding
+      coord: [1008.13,270.26,-1564.01]
+    K32:
+      presets: _Korok<K32 Acorn Tree,korok-acorn>
+      coord: [868.01,209.81,-1362.16]
+    K33:
+      presets: _Korok<K33 Block Puzzle,korok-magnesis>
+      coord: [1197.52,126.97,-1152.62]
+    K34:
+      presets: _Korok<K34 Lily Pads,korok-lily>
+      coord: [1282.64,129.64,-1123.44]
+    K35:
+      presets: _Korok<K35 Block Puzzle,korok-magnesis>
+      coord: [1694.87,141.95,-862.08]
+    L01:
+      presets: _Korok<L01 Well,korok-magnesis>
+      coord: [323.49,118.23,1927.42]
+    L02:
+      presets: _Korok<L02 Lift Rock,korok-rock>
+      comment: In big tree stump
+      coord: [354.38,114.56,1997.54]
+    L03:
+      presets: _Korok<L03 Block Puzzle,korok-magnesis>
+      coord: [34.27,115.55,2102.72]
+    L04:
+      presets: _Korok<L04 Tree Stump,korok-magnesis>
+      coord: [214.57,170.07,2070.05]
+    L05:
+      presets: _Korok<L05 Flower Chase,korok-flower>
+      movements:
+      - _Korok::L05::Start
+      - [334.36,177.73,2161.11]
+      - [358.6,173.35,2164.08]
+      - [376.94,160.28,2150.91]
+      - _Korok::L05::End
+    _L05:
+      Start:
+        coord: [316.09,160.77,2161.86]
+      End:
+        coord: [400.86,142.06,2150.86]
+    L06:
+      presets: _Korok<L06 Light Chase,korok-light-chase>
+      coord: [474.95,115.26,2149.12]
+    L07:
+      presets: _Korok<L07 Boulder Golf,korok-golf-boulder>
+      coord: [908.28,247.17,2193.52]
+    L08:
+      presets: _Korok<L08 Race,korok-race>
+      movements:
+      - _Korok::L08::Start
+      - _Korok::L08::End
+    _L08:
+      Start:
+        coord: [-668.85,90.53,2392.43]
+      End:
+        coord: [-609.8,95.24,2390.65]
+    L09:
+      presets: _Korok<L09 Basketball,korok-basketball>
+      coord: [-68.02,91.39,2332.61]
+    L10:
+      presets: _Korok<L10 Lily Pads,korok-lily>
+      coord: [66.22,94.0,2310.64]
+    L11:
+      presets: _Korok<L11 Tree Stump,korok-magnesis>
+      coord: [284.29,146.79,2253.37]
+    L12:
+      presets: _Korok<L12 Block Puzzle,korok-magnesis>
+      coord: [625.16,164.76,2305.9]
+    L13:
+      presets: _Korok<L13 Lift Rock (Rubble),korok-rock-under>
+      coord: [755.69,194.09,2347.6]
+    L14:
+      presets: _Korok<L14 Lift Rock (Slab),korok-rock-under>
+      coord: [-74.38,90.54,2412.87]
+    L15:
+      presets: _Korok<L15 Balloon,korok-balloon>
+      comment: In pillar
+      coord: [-66.24,124.0,2440.65]
+    L16:
+      presets: _Korok<L16 Boulder Golf,korok-golf-boulder>
+      coord: [280.42,97.65,2405.01]
+    L17:
+      presets: _Korok<L17 Light Chase,korok-light-chase>
+      coord: [604.93,177.15,2408.78]
+    L18:
+      presets: _Korok<L18 Light Chase,korok-light-chase>
+      coord: [609.28,177.23,2409.82]
+    L19:
+      presets: _Korok<L19 Lift Rock (Tree),korok-rock-tree>
+      comment: Top of big tree
+      coord: [889.61,180.86,2395.3]
+    L20:
+      presets: _Korok<L20 Block Puzzle,korok-magnesis>
+      coord: [833.75,145.33,2434.57]
+    L21:
+      presets: _Korok<L21 Block Puzzle,korok-magnesis>
+      coord: [-1379.58,215.09,2742.73]
+    L22:
+      presets: _Korok<L22 Acorn Hanging,korok-acorn>
+      comment: From tree
+      coord: [-1214.31,193.47,2701.55]
+    L23:
+      presets: _Korok<L23 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [-1011.91,330.57,2638.46]
+    L24:
+      presets: _Korok<L24 Lift Rock,korok-rock>
+      coord: [-601.95,90.3,2656.11]
+    L25:
+      presets: _Korok<L25 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [-398.39,103.86,2559.23]
+    L26:
+      presets: _Korok<L26 Tree Branch,korok>
+      coord: [-54.77,128.94,2492.43]
+    L27:
+      presets: _Korok<L27 Confetti,korok-confetti>
+      comment: Top of fountain
+      coord: [-38.98,152.95,2513.64]
+    L28:
+      presets: _Korok<L28 Flower Count,korok-flower>
+      comment: On peak
+      movements:
+      - _Korok::L28::Start
+      - [526.36,211.68,2486.59]
+      - [520.99,211.5,2480.93]
+      - [528.06,211.49,2479.4]
+      - _Korok::L28::End
+    _L28:
+      Start:
+        coord: [521.61,211.7,2487.43]
+      End:
+        coord: [515.78,211.07,2499.0]
+    L29:
+      presets: _Korok<L29 Lift Rock,korok-rock>
+      comment: Peak
+      coord: [679.19,244.79,2499.42]
+    L30:
+      presets: _Korok<L30 Flower Chase,korok-flower>
+      movements:
+      - _Korok::L30::Start
+      - [-11.36,138.67,2577.65]
+      - [-5.38,129.03,2584.1]
+      - [-10.7,130.0,2581.5]
+      - _Korok::L30::End
+    _L30:
+      Start:
+        coord: [-5.81,143.52,2580.12]
+      End:
+        coord: [-12.47,119.77,2586.32]
+    L31:
+      presets: _Korok<L31 Lift Rock,korok-rock>
+      coord: [-3.03,90.67,2614.66]
+    L32:
+      presets: _Korok<L32 Metal Box Circle,korok-magnesis>
+      coord: [200.87,92.34,2603.86]
+    L33:
+      presets: _Korok<L33 Balloon,korok-balloon>
+      coord: [370.41,92.51,2567.04]
+    L34:
+      presets: _Korok<L34 Boulder Circle,korok-rock-circle>
+      coord: [790.63,159.6,2565.13]
+    L35:
+      presets: _Korok<L35 Match Tree,korok-matching>
+      coord: [584.43,217.51,2678.33]
+    L36:
+      presets: _Korok<L36 Balloon,korok-balloon>
+      coord: [-1066.79,208.43,2910.01]
+    L37:
+      presets: _Korok<L37 Acorn Log,korok-acorn>
+      coord: [-925.24,237.01,2936.44]
+    L38:
+      presets: _Korok<L38 Block Puzzle,korok-magnesis>
+      coord: [-468.64,98.7,2908.23]
+    L39:
+      presets: _Korok<L39 Lift Rock,korok-rock>
+      coord: [163.27,90.2,2783.29]
+    L40:
+      presets: _Korok<L40 Acorn Tree,korok-acorn>
+      coord: [340.62,94.23,2830.62]
+    L41:
+      presets: _Korok<L41 Lift Rock (Rubble),korok-rock-under>
+      coord: [-1256.74,323.02,3134.15]
+    L42:
+      presets: _Korok<L42 Boulder Golf,korok-golf-boulder>
+      coord: [224.17,135.2,2868.4]
+    L43:
+      presets: _Korok<L43 Light Chase,korok-light-chase>
+      coord: [169.73,118.72,2903.41]
+    L44:
+      presets: _Korok<L44 Boulder Golf,korok-golf-boulder>
+      coord: [418.2,128.01,2873.4]
+    L45:
+      presets: _Korok<L45 Lift Rock,korok-rock>
+      coord: [610.34,206.4,2869.85]
+    L46:
+      presets: _Korok<L46 Lift Rock,korok-rock>
+      comment: Top of small waterfall
+      coord: [1173.39,192.66,2849.98]
+    L47:
+      presets: _Korok<L47 Race,korok-race>
+      movements:
+      - _Korok::L47::Start
+      - _Korok::L47::End
+    _L47:
+      Start:
+        coord: [-276.76,153.65,3316.47]
+      End:
+        coord: [-387.59,152.98,3151.55]
+    L48:
+      presets: _Korok<L48 Lift Rock,korok-rock>
+      coord: [-150.92,143.38,3067.3]
+    L49:
+      presets: _Korok<L49 Rock Circle,korok-rock-circle>
+      coord: [-95.25,144.64,3128.95]
+    L50:
+      presets: _Korok<L50 Block Puzzle,korok-magnesis>
+      coord: [-26.89,107.81,3042.68]
+    L51:
+      presets: _Korok<L51 Boulder Golf,korok-golf-boulder>
+      coord: [153.94,143.86,2981.71]
+    L52:
+      presets: _Korok<L52 Lift Rock,korok-rock>
+      comment: On pillar
+      coord: [406.11,139.9,3051.13]
+    L53:
+      presets: _Korok<L53 Tree Stump,korok-magnesis>
+      coord: [581.24,123.03,3007.6]
+    L54:
+      presets: _Korok<L54 Lily Pads,korok-lily>
+      coord: [704.03,120.0,2957.83]
+    L55:
+      presets: _Korok<L55 Flower Chase,korok-flower>
+      movements:
+      - _Korok::L55::Start
+      - [678.99,116.32,3061.2]
+      - [678.7,123.48,3088.62]
+      - [698.36,121.27,3081.73]
+      - _Korok::L55::End
+    _L55:
+      Start:
+        coord: [693.88,116.6,3059.19]
+      End:
+        coord: [695.52,119.43,3071.4]
+    L56:
+      presets: _Korok<L56 Boulder Circle,korok-rock-circle>
+      coord: [824.94,120.73,3005.3]
+    L57:
+      presets: _Korok<L57 Light Chase,korok-light-chase>
+      coord: [806.07,124.54,3112.85]
+    L58:
+      presets: _Korok<L58 Light Chase,korok-light-chase>
+      coord: [1196.09,132.03,3055.43]
+    L59:
+      presets: _Korok<L59 Lily Pads,korok-lily>
+      coord: [56.69,109.89,3150.02]
+    L60:
+      presets: _Korok<L60 Lift Rock (Rubble),korok-rock-under>
+      coord: [69.03,127.14,3221.87]
+    L61:
+      presets: _Korok<L61 Lift Rock (Slab),korok-rock-under>
+      coord: [742.89,134.01,3243.07]
+    L62:
+      presets: _Korok<L62 Lift Rock (Rubble),korok-rock-under>
+      coord: [-923.5,214.58,3436.38]
+    L63:
+      presets: _Korok<L63 Offer Apple,korok-offer-apple>
+      coord: [-420.75,141.37,3368.48]
+    L64:
+      presets: _Korok<L64 Flower Chase,korok-flower>
+      movements:
+      - _Korok::L64::Start
+      - [-210.17,145.21,3399.51]
+      - [-205.12,156.33,3370.46]
+      - [-217.37,170.2,3353.34]
+      - _Korok::L64::End
+    _L64:
+      Start:
+        coord: [-209.34,142.48,3444.94]
+      End:
+        coord: [-227.28,176.72,3342.73]
+    L65:
+      presets: _Korok<L65 Race,korok-race>
+      comment: Ordinal
+      movements:
+      - _Korok::L65::Start
+      - _Korok::L65::End
+    _L65:
+      Start:
+        coord: [546.27,231.59,3580.35]
+      End:
+        coord: [271.71,222.37,3289.58]
+    L66:
+      presets: _Korok<L66 Basketball,korok-basketball>
+      coord: [699.92,133.67,3276.86]
+    L67:
+      presets: _Korok<L67 Balloon,korok-balloon>
+      coord: [-1176.85,344.99,3578.05]
+    L68:
+      presets: _Korok<L68 Light Chase,korok-light-chase>
+      coord: [-1125.95,315.84,3624.42]
+    L69:
+      presets: _Korok<L69 Block Puzzle,korok-magnesis>
+      coord: [-878.72,245.87,3567.74]
+    L70:
+      presets: _Korok<L70 Acorn Flying,korok-acorn-flying>
+      coord: [216.32,199.14,3488.01]
+    L71:
+      presets: _Korok<L71 Rock Circle,korok-rock-circle>
+      coord: [279.02,184.63,3503.79]
+    L72:
+      presets: _Korok<L72 Race,korok-race>
+      movements:
+      - _Korok::L72::Start
+      - _Korok::L72::End
+    _L72:
+      Start:
+        coord: [894.81,185.59,3476.66]
+      End:
+        coord: [963.3,173.48,3371.1]
+    L73:
+      presets: _Korok<L73 Balloon,korok-balloon>
+      comment: On peak
+      coord: [266.1,276.46,3668.95]
+    L74:
+      presets: _Korok<L74 Boulder Golf,korok-golf-boulder>
+      coord: [367.09,176.93,3642.11]
+    L75:
+      presets: _Korok<L75 Lily Pads,korok-lily>
+      coord: [645.72,152.3,3615.12]
+    L76:
+      presets: _Korok<L76 Boulder Golf,korok-golf-boulder>
+      coord: [522.46,166.3,3680.95]
+    L77:
+      presets: _Korok<L77 Rock Circle,korok-rock-circle>
+      coord: [639.39,219.09,3710.83]
+    L78:
+      presets: _Korok<L78 Lift Rock,korok-rock>
+      comment: Peak
+      coord: [891.16,284.36,3694.82]
+    L79:
+      presets: _Korok<L79 Rock Circle,korok-rock-circle>
+      coord: [1074.54,182.09,3620.94]
+    L80:
+      presets: _Korok<L80 Race,korok-race>
+      movements:
+      - _Korok::L80::Start
+      - _Korok::L80::End
+    _L80:
+      Start:
+        coord: [-597.87,171.74,3845.34]
+      End:
+        coord: [-657.76,187.62,3851.83]
+    L81:
+      presets: _Korok<L81 Lift Rock,korok-rock>
+      coord: [-354.83,182.59,3898.78]
+    L82:
+      presets: _Korok<L82 Confetti,korok-confetti>
+      comment: Top of palm tree
+      coord: [-266.35,125.15,3888.15]
+    L83:
+      presets: _Korok<L83 Lift Rock (Rubble),korok-rock-under>
+      coord: [-248.98,130.31,3828.44]
+    L84:
+      presets: _Korok<L84 Light Chase,korok-light-chase>
+      coord: [-240.11,106.07,3882.5]
+    L85:
+      presets: _Korok<L85 Rock Circle,korok-rock-circle>
+      coord: [-135.83,105.97,3802.0]
+    L86:
+      presets: _Korok<L86 Lift Rock (Boulder),korok-rock-under>
+      coord: [13.95,106.59,3790.42]
+    L87:
+      presets: _Korok<L87 Lift Rock,korok-rock>
+      comment: Top of rock
+      coord: [97.36,145.46,3821.54]
+    L88:
+      presets: _Korok<L88 Light Chase,korok-light-chase>
+      coord: [265.62,111.81,3837.0]
+    L89:
+      presets: _Korok<L89 Lily Pads,korok-lily>
+      coord: [286.83,109.9,3899.42]
+    L90:
+      presets: _Korok<L90 Block Puzzle,korok-magnesis>
+      coord: [416.75,106.41,3848.92]
+    L91:
+      presets: _Korok<L91 Rock Circle,korok-rock-circle>
+      coord: [517.56,193.85,3765.02]
+    L92:
+      presets: _Korok<L92 Block Puzzle,korok-magnesis>
+      coord: [909.62,183.59,3837.29]
+    N01:
+      presets: _Korok<N01 Lift Rock (Tree),korok-rock-tree>
+      coord: [1980.92,174.27,451.91]
+    N02:
+      presets: _Korok<N02 Lift Rock (Tree),korok-rock-tree>
+      coord: [2378.29,231.61,373.14]
+    N03:
+      presets: _Korok<N03 Lift Rock (Tree),korok-rock-tree>
+      coord: [2635.69,269.52,370.99]
+    N04:
+      presets: _Korok<N04 Acorn Flying,korok-acorn-flying>
+      coord: [2473.88,231.46,461.69]
+    N05:
+      presets: _Korok<N05 Light Chase,korok-light-chase>
+      comment: Small pond
+      coord: [2684.85,218.51,562.78]
+    N06:
+      presets: _Korok<N06 Confetti,korok-confetti>
+      comment: Top of tall tree
+      coord: [2891.03,234.15,517.87]
+    N07:
+      presets: _Korok<N07 Match Tree,korok-matching>
+      coord: [2132.42,321.11,678.84]
+    N08:
+      presets: _Korok<N08 Block Puzzle,korok-magnesis>
+      coord: [2149.35,262.51,790.0]
+    N09:
+      presets: _Korok<N09 Offer Apple,korok-offer-apple>
+      coord: [2239.66,337.97,726.35]
+    N10:
+      presets: _Korok<N10 Flower Chase,korok-flower>
+      movements:
+      - _Korok::N10::Start
+      - [2308.8,246.27,731.38]
+      - [2306.25,232.14,715.55]
+      - [2292.73,238.9,701.58]
+      - _Korok::N10::End
+    _N10:
+      Start:
+        coord: [2308.26,246.72,750.53]
+      End:
+        coord: [2288.52,250.79,699.62]
+    N11:
+      presets: _Korok<N11 Boulder Golf,korok-golf-boulder>
+      coord: [2409.54,269.6,849.31]
+    N12:
+      presets: _Korok<N12 Rock Circle,korok-rock-circle>
+      coord: [3951.86,106.31,695.88]
+    N13:
+      presets: _Korok<N13 Boulder Circle,korok-rock-circle>
+      coord: [2728.91,342.09,904.32]
+    N14:
+      presets: _Korok<N14 Rock Circle,korok-rock-circle>
+      coord: [3383.03,118.78,982.82]
+    N15:
+      presets: _Korok<N15 Lily Pads,korok-lily>
+      coord: [2636.16,205.28,1108.99]
+    N16:
+      presets: _Korok<N16 Lift Rock,korok-rock>
+      coord: [2705.43,203.1,1164.94]
+    N17:
+      presets: _Korok<N17 Race,korok-race>
+      movements:
+      - _Korok::N17::Start
+      - _Korok::N17::End
+    _N17:
+      Start:
+        coord: [3439.15,317.13,1100.78]
+      End:
+        coord: [3432.94,342.95,1150.31]
+    N18:
+      presets: _Korok<N18 Ice Block,korok-ice>
+      coord: [3741.71,542.51,1156.12]
+    N19:
+      presets: _Korok<N19 Rock Circle,korok-rock-circle>
+      coord: [4087.93,423.3,1142.37]
+    N20:
+      presets: _Korok<N20 Rock Circle,korok-rock-circle>
+      coord: [2526.61,334.82,1257.57]
+    N21:
+      presets: _Korok<N21 Lift Rock,korok-rock>
+      coord: [2925.46,478.75,1401.57]
+    N22:
+      presets: _Korok<N22 Block Puzzle,korok-magnesis>
+      coord: [3277.77,346.34,1436.0]
+    N23:
+      presets: _Korok<N23 Light Chase,korok-light-chase>
+      comment: In forest
+      coord: [3537.01,313.54,1376.11]
+    N24:
+      presets: _Korok<N24 Ice Block,korok-ice>
+      coord: [3797.93,577.85,1269.19]
+    N25:
+      presets: _Korok<N25 Boulder Golf,korok-golf-boulder>
+      coord: [4438.9,141.72,1432.91]
+    N26:
+      presets: _Korok<N26 Boulder Golf,korok-golf-boulder>
+      coord: [2276.03,162.25,1501.62]
+    N27:
+      presets: _Korok<N27 Lift Rock (Rubble),korok-rock-under>
+      coord: [2279.31,182.42,1608.34]
+    N28:
+      presets: _Korok<N28 Offer Apple,korok-offer-apple>
+      coord: [2511.43,120.03,1571.52]
+    N29:
+      presets: _Korok<N29 Lily Pads,korok-lily>
+      coord: [3171.94,293.84,1490.93]
+    N30:
+      presets: _Korok<N30 Match Tree,korok-matching>
+      coord: [3229.03,302.83,1545.24]
+    N31:
+      presets: _Korok<N31 Ice Block,korok-ice>
+      coord: [3896.64,416.66,1556.54]
+    N32:
+      presets: _Korok<N32 Race,korok-race>
+      movements:
+      - _Korok::N32::Start
+      - _Korok::N32::End
+    _N32:
+      Start:
+        coord: [4079.84,437.28,1716.65]
+      End:
+        coord: [4282.68,289.03,1655.66]
+    N33:
+      presets: _Korok<N33 Lift Rock (Door),korok-magnesis>
+      coord: [2320.66,119.27,1726.36]
+    N34:
+      presets: _Korok<N34 Acorn Flying,korok-acorn-flying>
+      coord: [2330.77,133.96,1828.01]
+    N35:
+      presets: _Korok<N35 Block Puzzle,korok-magnesis>
+      coord: [2495.85,205.5,1804.2]
+    N36:
+      presets: _Korok<N36 Acorn Tree,korok-acorn>
+      coord: [2884.09,160.92,1765.02]
+    N37:
+      presets: _Korok<N37 Lily Pads,korok-lily>
+      coord: [3178.81,177.0,1607.3]
+    N38:
+      presets: _Korok<N38 Balloon,korok-balloon>
+      coord: [3166.32,193.83,1828.89]
+    N39:
+      presets: _Korok<N39 Race,korok-race>
+      movements:
+      - _Korok::N39::Start
+      - _Korok::N39::End
+    _N39:
+      Start:
+        coord: [3735.97,467.86,1686.96]
+      End:
+        coord: [3525.98,454.04,1710.62]
+    N40:
+      presets: _Korok<N40 Lift Rock (Slab),korok-rock-under>
+      coord: [4615.14,106.21,1915.47]
+    N41:
+      presets: _Korok<N41 Lily Pads,korok-lily>
+      coord: [3029.03,114.8,2017.67]
+    N42:
+      presets: _Korok<N42 Lift Rock (Tree),korok-rock-tree>
+      comment: Next to blue flame
+      coord: [3475.63,278.69,1916.26]
+    N43:
+      presets: _Korok<N43 Lift Rock (Tree),korok-rock-tree>
+      comment: Middle of lake
+      coord: [3709.19,301.45,1943.08]
+    N44:
+      presets: _Korok<N44 Flower Chase,korok-flower>
+      movements:
+      - _Korok::N44::Start
+      - [4142.23,383.04,2008.3]
+      - [4151.46,372.01,1992.49]
+      - [4173.42,380.74,1980.35]
+      - [4190.38,389.99,1984.68]
+      - [4200.09,396.2,1979.95]
+      - [4213.94,404.54,1979.82]
+      - [4229.49,413.2,1983.12]
+      - [4246.43,421.83,1983.63]
+      - _Korok::N44::End
+    _N44:
+      Start:
+        coord: [4131.11,392.4,2002.0]
+      End:
+        coord: [4274.36,430.79,1981.02]
+    N45:
+      presets: _Korok<N45 Balloon,korok-balloon>
+      coord: [2836.32,126.63,2120.5]
+    N46:
+      presets: _Korok<N46 Lift Rock (Door),korok-magnesis>
+      coord: [2863.86,140.26,2182.9]
+    N47:
+      presets: _Korok<N47 Confetti,korok-confetti>
+      comment: Top of lab
+      coord: [3783.72,390.72,2125.18]
+    N48:
+      presets: _Korok<N48 Lily Pads,korok-lily>
+      coord: [3901.08,235.8,2096.72]
+    N49:
+      presets: _Korok<N49 Acorn Tree,korok-acorn>
+      coord: [2714.13,225.53,2345.55]
+    N50:
+      presets: _Korok<N50 Match Tree,korok-matching>
+      coord: [2811.31,239.61,2391.92]
+    N51:
+      presets: _Korok<N51 Lift Rock,korok-rock>
+      comment: Side of lake
+      coord: [2991.39,118.1,2272.14]
+    N52:
+      presets: _Korok<N52 Acorn Tree,korok-acorn>
+      coord: [3144.46,163.4,2229.85]
+    N53:
+      presets: _Korok<N53 Lift Rock,korok-rock>
+      coord: [3347.61,209.94,2249.25]
+    N54:
+      presets: _Korok<N54 Offer Palm Fruit,korok-offer-durian>
+      comment: In cave
+      coord: [4211.83,106.38,2270.37]
+    N55:
+      presets: _Korok<N55 Balloon,korok-balloon>
+      coord: [4518.49,219.77,2316.51]
+    N56:
+      presets: _Korok<N56 Lily Pads,korok-lily>
+      coord: [4541.93,109.8,2405.63]
+    N57:
+      presets: _Korok<N57 Flower Chase,korok-flower>
+      movements:
+      - _Korok::N57::Start
+      - [4622.89,126.12,2470.21]
+      - [4632.42,145.05,2436.13]
+      - [4651.31,157.17,2412.54]
+      - _Korok::N57::End
+    _N57:
+      Start:
+        coord: [4594.88,116.42,2520.44]
+      End:
+        coord: [4662.71,169.59,2376.25]
+    N58:
+      presets: _Korok<N58 Block Puzzle,korok-magnesis>
+      coord: [3148.71,277.19,2402.78]
+    N59:
+      presets: _Korok<N59 Flower Chase,korok-flower>
+      movements:
+      - _Korok::N59::Start
+      - [3391.55,270.77,2305.14]
+      - [3420.12,276.76,2319.36]
+      - [3444.12,290.32,2342.22]
+      - [3459.52,292.68,2344.0]
+      - [3470.77,295.71,2347.6]
+      - [3468.32,305.43,2364.61]
+      - [3453.78,324.82,2384.8]
+      - [3440.93,336.75,2392.3]
+      - _Korok::N59::End
+    _N59:
+      Start:
+        coord: [3372.41,264.07,2301.17]
+      End:
+        coord: [3420.94,340.35,2390.28]
+    N60:
+      presets: _Korok<N60 Basketball,korok-basketball>
+      coord: [3687.95,107.32,2413.49]
+    N61:
+      presets: _Korok<N61 Rock Circle,korok-rock-circle>
+      coord: [3516.11,160.2,2628.38]
+    N62:
+      presets: _Korok<N62 Flower Chase,korok-flower>
+      comment: Starts on beach
+      movements:
+      - _Korok::N62::Start
+      - [4116.05,107.13,2561.58]
+      - [4132.32,106.25,2563.09]
+      - [4137.83,107.59,2575.74]
+      - _Korok::N62::End
+    _N62:
+      Start:
+        coord: [4126.2,106.25,2542.35]
+      End:
+        coord: [4110.97,111.15,2588.16]
+    N63:
+      presets: _Korok<N63 Rock Circle,korok-rock-circle>
+      coord: [4536.52,106.44,2520.27]
+    N64:
+      presets: _Korok<N64 Match Tree,korok-matching>
+      coord: [3229.81,256.54,2848.44]
+    N65:
+      presets: _Korok<N65 Rock Circle,korok-rock-circle>
+      coord: [3441.93,216.08,3121.87]
+    N66:
+      presets: _Korok<N66 Race,korok-race>
+      movements:
+      - _Korok::N66::Start
+      - _Korok::N66::End
+    _N66:
+      Start:
+        coord: [4016.93,105.98,2971.36]
+      End:
+        coord: [4083.59,109.36,2973.26]
+    P01:
+      presets: _Korok<P01 Lift Rock,korok-rock>
+      coord: [-822.63,171.23,1546.92]
+    P02:
+      presets: _Korok<P02 Tree Stump,korok-magnesis>
+      coord: [-769.88,175.22,1574.22]
+    P03:
+      presets: _Korok<P03 Block Puzzle,korok-magnesis>
+      coord: [-1334.8,232.67,1675.89]
+    P04:
+      presets: _Korok<P04 Flower Chase,korok-flower>
+      comment: Middle of log
+      movements:
+      - _Korok::P04::Start
+      - [-988.46,188.05,1650.88]
+      - [-979.8,188.84,1646.63]
+      - [-978.5,188.36,1633.33]
+      - _Korok::P04::End
+    _P04:
+      Start:
+        coord: [-997.5,187.12,1660.79]
+      End:
+        coord: [-965.48,187.2,1625.69]
+    P05:
+      presets: _Korok<P05 Lift Rock (Leaves),korok-rock-under>
+      coord: [-853.23,181.42,1671.21]
+    P06:
+      presets: _Korok<P06 Lift Rock,korok-rock>
+      comment: Top of hill
+      coord: [-953.06,201.55,1721.48]
+    P07:
+      presets: _Korok<P07 Ice Block,korok-ice>
+      coord: [-1503.42,297.22,1920.17]
+    P08:
+      presets: _Korok<P08 Confetti,korok-confetti>
+      coord: [-1382.26,249.27,1858.03]
+    P09:
+      presets: _Korok<P09 Confetti,korok-confetti>
+      comment: Inside SoR
+      coord: [-1132.6,238.22,1917.72]
+    P10:
+      presets: _Korok<P10 Lily Pads,korok-lily>
+      coord: [-887.32,208.14,1891.4]
+    P11:
+      presets: _Korok<P11 Confetti,korok-confetti>
+      comment: Spire of Temple
+      coord: [-809.22,297.75,1966.9]
+    P12:
+      presets: _Korok<P12 Lift Rock (Door),korok-magnesis>
+      coord: [-423.02,169.4,1993.36]
+    P13:
+      presets: _Korok<P13 Lift Rock (Door),korok-magnesis>
+      coord: [-423.35,125.26,2022.45]
+    P14:
+      presets: _Korok<P14 Block Puzzle,korok-magnesis>
+      coord: [-1443.11,284.25,2105.63]
+    P15:
+      presets: _Korok<P15 Rock Circle,korok-rock-circle>
+      coord: [-1363.46,335.7,2215.19]
+    P16:
+      presets: _Korok<P16 Lift Rock (Slab),korok-rock-under>
+      coord: [-1204.35,329.34,2322.77]
+    P17:
+      presets: _Korok<P17 Lift Rock,korok-rock>
+      coord: [-1171.61,342.5,2317.22]
+    P18:
+      presets: _Korok<P18 Confetti,korok-confetti>
+      comment: Top of hut
+      coord: [-792.03,201.39,2257.22]
+    R01:
+      presets: _Korok<R01 Block Puzzle,korok-magnesis>
+      coord: [-2210.59,152.82,-1621.4]
+    R02:
+      presets: _Korok<R02 Lift Rock,korok-rock>
+      coord: [-2217.82,321.18,-1565.02]
+    R03:
+      presets: _Korok<R03 Lift Rock (Rubble),korok-rock-under>
+      coord: [-2083.96,293.08,-1558.72]
+    R04:
+      presets: _Korok<R04 Rock Circle,korok-rock-circle>
+      comment: In canyon
+      coord: [-2516.12,61.96,-1436.3]
+    R05:
+      presets: _Korok<R05 Acorn Tree,korok-acorn>
+      coord: [-2636.28,300.54,-1246.99]
+    R06:
+      presets: _Korok<R06 Confetti,korok-confetti>
+      comment: Top of bare tree
+      coord: [-2022.65,390.93,-1300.63]
+    R07:
+      presets: _Korok<R07 Lift Rock (Tree),korok-rock-tree>
+      coord: [-1077.38,238.53,-1278.7]
+    R08:
+      presets: _Korok<R08 Lift Rock (Rubble),korok-rock-under>
+      coord: [-2383.52,211.84,-1150.63]
+    R09:
+      presets: _Korok<R09 Race,korok-race>
+      comment: Run
+      movements:
+      - _Korok::R09::Start
+      - _Korok::R09::End
+    _R09:
+      Start:
+        coord: [-1892.06,419.25,-1235.05]
+      End:
+        coord: [-1855.98,395.49,-1192.54]
+    R10:
+      presets: _Korok<R10 Flower Chase,korok-flower>
+      movements:
+      - _Korok::R10::Start
+      - [-1265.71,207.67,-1047.65]
+      - [-1272.4,207.67,-1035.54]
+      - [-1235.62,218.83,-1004.94]
+      - _Korok::R10::End
+    _R10:
+      Start:
+        coord: [-1234.31,207.67,-1094.26]
+      End:
+        coord: [-1230.51,207.67,-999.81]
+    R11:
+      presets: _Korok<R11 Basketball,korok-basketball>
+      coord: [-1017.85,116.95,-1066.07]
+    R12:
+      presets: _Korok<R12 Confetti,korok-confetti>
+      comment: Top of flagpole
+      coord: [-3109.25,34.17,-909.26]
+    R13:
+      presets: _Korok<R13 Lift Rock,korok-rock>
+      comment: Top of waterfall
+      coord: [-2669.55,375.56,-864.39]
+    R14:
+      presets: _Korok<R14 Light Chase,korok-light-chase>
+      coord: [-2316.8,206.68,-806.45]
+    R15:
+      presets: _Korok<R15 Rock Circle,korok-rock-circle>
+      comment: On top of tree
+      coord: [-2060.66,259.49,-775.78]
+    R16:
+      presets: _Korok<R16 Block Puzzle,korok-magnesis>
+      coord: [-1142.41,182.62,-761.94]
+    R17:
+      presets: _Korok<R17 Lift Rock,korok-rock>
+      comment: Top of mountain
+      coord: [-2698.41,414.59,-766.74]
+    R18:
+      presets: _Korok<R18 Race,korok-race>
+      comment: Run
+      movements:
+      - _Korok::R18::Start
+      - _Korok::R18::End
+    _R18:
+      Start:
+        coord: [-1984.92,206.82,-624.09]
+      End:
+        coord: [-1964.67,221.2,-584.16]
+    R19:
+      presets: _Korok<R19 Boulder Golf,korok-golf-boulder>
+      coord: [-1125.27,157.91,-675.43]
+    R20:
+      presets: _Korok<R20 Block Puzzle,korok-magnesis>
+      coord: [-3207.78,37.56,-494.89]
+    R21:
+      presets: _Korok<R21 Light Chase,korok-light-chase>
+      coord: [-2715.9,269.56,-429.86]
+    R22:
+      presets: _Korok<R22 Balloon,korok-balloon>
+      coord: [-2434.11,319.86,-491.03]
+    R23:
+      presets: _Korok<R23 Flower Chase,korok-flower>
+      movements:
+      - _Korok::R23::Start
+      - [-2052.09,244.06,-495.07]
+      - [-2055.43,228.12,-483.19]
+      - [-2031.36,219.06,-506.91]
+      - _Korok::R23::End
+    _R23:
+      Start:
+        coord: [-2052.12,243.77,-507.62]
+      End:
+        coord: [-2030.12,206.47,-547.6]
+    R24:
+      presets: _Korok<R24 Lily Pads,korok-lily>
+      coord: [-2008.68,210.31,-514.15]
+    R25:
+      presets: _Korok<R25 Race,korok-race>
+      movements:
+      - _Korok::R25::Start
+      - _Korok::R25::End
+    _R25:
+      Start:
+        coord: [-1787.71,237.45,-377.97]
+      End:
+        coord: [-1631.54,210.43,-515.19]
+    R26:
+      presets: _Korok<R26 Race,korok-race>
+      movements:
+      - _Korok::R26::Start
+      - _Korok::R26::End
+    _R26:
+      Start:
+        coord: [-989.87,116.11,-541.01]
+      End:
+        coord: [-1115.55,151.98,-528.58]
+    R27:
+      presets: _Korok<R27 Acorn Hanging,korok-acorn>
+      comment: From bridge
+      coord: [-1092.08,129.02,-497.51]
+    R28:
+      presets: _Korok<R28 Lift Rock (Slab),korok-rock-under>
+      coord: [-3327.44,3.92,-336.92]
+    R29:
+      presets: _Korok<R29 Lift Rock,korok-rock>
+      comment: In between rocks
+      coord: [-3207.55,5.91,-333.98]
+    R30:
+      presets: _Korok<R30 Race,korok-race>
+      movements:
+      - _Korok::R30::Start
+      - _Korok::R30::End
+    _R30:
+      Start:
+        coord: [-2458.83,318.98,-276.05]
+      End:
+        coord: [-2547.83,299.94,-306.3]
+    R31:
+      presets: _Korok<R31 Balloon,korok-balloon>
+      coord: [-2370.1,307.04,-345.3]
+    R32:
+      presets: _Korok<R32 Balloon,korok-balloon>
+      coord: [-4252.4,171.93,-84.01]
+    R33:
+      presets: _Korok<R33 Rock Circle,korok-rock-circle>
+      coord: [-4026.7,145.21,-232.4]
+    R34:
+      presets: _Korok<R34 Acorn Hanging,korok-acorn>
+      comment: Below tower
+      coord: [-3861.73,101.01,-147.15]
+    R35:
+      presets: _Korok<R35 Race,korok-race>
+      movements:
+      - _Korok::R35::Start
+      - _Korok::R35::End
+    _R35:
+      Start:
+        coord: [-3822.16,155.84,-170.91]
+      End:
+        coord: [-3828.83,160.15,-118.42]
+    R36:
+      presets: _Korok<R36 Lift Rock,korok-rock>
+      comment: On ledge
+      coord: [-3476.2,154.93,-69.05]
+    R37:
+      presets: _Korok<R37 Lift Rock,korok-rock>
+      comment: Ledge
+      coord: [-2312.6,262.63,24.01]
+    R38:
+      presets: _Korok<R38 Match Tree,korok-matching>
+      coord: [-1877.9,243.7,-32.18]
+    R39:
+      presets: _Korok<R39 Light Chase,korok-light-chase>
+      comment: Near 2 rocks
+      coord: [-1691.98,224.96,-175.52]
+    R40:
+      presets: _Korok<R40 Lift Rock (Slab),korok-rock-under>
+      coord: [-1590.03,210.73,-229.13]
+    R41:
+      presets: _Korok<R41 Flower Count,korok-flower>
+      movements:
+      - _Korok::R41::Start
+      - [-1650.71,224.56,-28.74]
+      - [-1660.27,223.49,-31.71]
+      - [-1643.74,225.55,-40.21]
+      - _Korok::R41::End
+    _R41:
+      Start:
+        coord: [-1660.04,223.95,-43.69]
+      End:
+        coord: [-1650.75,224.85,-46.55]
+    R42:
+      presets: _Korok<R42 Lift Rock,korok-rock>
+      comment: Riverbank
+      coord: [-1372.53,115.84,-107.98]
+    R43:
+      presets: _Korok<R43 Balloon,korok-balloon>
+      coord: [-1258.4,159.75,-240.51]
+    R44:
+      presets: _Korok<R44 Basketball,korok-basketball>
+      coord: [-1142.67,116.47,-284.33]
+    R45:
+      presets: _Korok<R45 Flower Chase,korok-flower>
+      comment: Start at pillar
+      movements:
+      - _Korok::R45::Start
+      - [-1195.48,129.41,-233.79]
+      - [-1194.82,142.55,-236.62]
+      - [-1172.15,161.74,-232.36]
+      - _Korok::R45::End
+    _R45:
+      Start:
+        coord: [-1181.3,116.69,-237.17]
+      End:
+        coord: [-1148.19,149.37,-226.68]
+    R46:
+      presets: _Korok<R46 Flower Count,korok-flower>
+      movements:
+      - _Korok::R46::Start
+      - [-3469.73,171.99,171.52]
+      - [-3455.94,172.66,168.63]
+      - [-3467.92,172.46,156.08]
+      - _Korok::R46::End
+    _R46:
+      Start:
+        coord: [-3465.07,176.55,164.86]
+      End:
+        coord: [-3464.51,172.14,172.49]
+    R47:
+      presets: _Korok<R47 Balloon,korok-balloon>
+      coord: [-1992.89,291.31,161.31]
+    R48:
+      presets: _Korok<R48 Acorn Tree,korok-acorn>
+      coord: [-1512.01,177.03,56.45]
+    R49:
+      presets: _Korok<R49 Block Puzzle,korok-magnesis>
+      coord: [-1501.96,118.02,156.21]
+    R50:
+      presets: _Korok<R50 Balloon,korok-balloon>
+      comment: In tree
+      coord: [-3014.16,174.95,372.43]
+    R51:
+      presets: _Korok<R51 Rock Circle,korok-rock-circle>
+      coord: [-2450.16,317.93,373.47]
+    R52:
+      presets: _Korok<R52 Lift Rock (Tree),korok-rock-tree>
+      coord: [-2298.85,462.71,341.16]
+    R53:
+      presets: _Korok<R53 Lift Rock (Rubble),korok-rock-under>
+      coord: [-2041.04,425.55,296.35]
+    R54:
+      presets: _Korok<R54 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [-1984.86,348.49,362.94]
+    R55:
+      presets: _Korok<R55 Lift Rock,korok-rock>
+      comment: In tree stump
+      coord: [-1962.84,314.61,409.85]
+    R56:
+      presets: _Korok<R56 Acorn Tree,korok-acorn>
+      coord: [-1859.58,272.62,334.3]
+    R57:
+      presets: _Korok<R57 Acorn Tree,korok-acorn>
+      coord: [-1731.07,216.96,375.13]
+    R58:
+      presets: _Korok<R58 Lift Rock (Tree),korok-rock-tree>
+      coord: [-1405.51,162.6,459.7]
+    R59:
+      presets: _Korok<R59 Lift Rock,korok-rock>
+      comment: Small island
+      coord: [-2918.6,118.24,479.73]
+    R60:
+      presets: _Korok<R60 Lift Rock (Leaves),korok-rock-under>
+      coord: [-2290.55,438.38,468.23]
+    R61:
+      presets: _Korok<R61 Flower Chase,korok-flower>
+      movements:
+      - _Korok::R61::Start
+      - [-2281.03,456.29,430.56]
+      - [-2263.9,443.93,440.5]
+      - [-2257.35,440.13,452.47]
+      - _Korok::R61::End
+    _R61:
+      Start:
+        coord: [-2288.86,460.52,413.65]
+      End:
+        coord: [-2247.71,446.01,464.67]
+    R62:
+      presets: _Korok<R62 Race,korok-race>
+      comment: Cardinal
+      movements:
+      - _Korok::R62::Start
+      - _Korok::R62::End
+    _R62:
+      Start:
+        coord: [-2187.6,373.68,573.36]
+      End:
+        coord: [-2175.12,407.09,463.35]
+    R63:
+      presets: _Korok<R63 Lift Rock (Leaves),korok-rock-under>
+      coord: [-2645.97,300.16,547.92]
+    R64:
+      presets: _Korok<R64 Lift Rock (Rubble),korok-rock-under>
+      coord: [-2483.31,328.14,504.73]
+    R65:
+      presets: _Korok<R65 Flower Count,korok-flower>
+      movements:
+      - _Korok::R65::Start
+      - [-2461.44,307.19,551.94]
+      - [-2476.09,308.42,558.82]
+      - [-2471.5,312.5,551.84]
+      - _Korok::R65::End
+    _R65:
+      Start:
+        coord: [-2471.45,307.84,541.77]
+      End:
+        coord: [-2483.61,307.72,545.07]
+    R66:
+      presets: _Korok<R66 Tree Stump,korok-magnesis>
+      coord: [-2492.7,310.45,589.67]
+    R67:
+      presets: _Korok<R67 Basketball,korok-basketball>
+      coord: [-2542.83,307.78,639.85]
+    R68:
+      presets: _Korok<R68 Balloon,korok-balloon>
+      coord: [-1965.81,255.74,600.94]
+    R69:
+      presets: _Korok<R69 Acorn Log,korok-acorn>
+      coord: [-2053.48,258.46,636.41]
+    R70:
+      presets: _Korok<R70 Lift Rock (Boulder),korok-rock-under>
+      coord: [-2200.96,358.41,730.84]
+    R71:
+      presets: _Korok<R71 Lift Rock,korok-rock>
+      coord: [-2908.73,116.66,796.26]
+    R72:
+      presets: _Korok<R72 Lift Rock (Leaves),korok-rock-under>
+      coord: [-2729.92,219.93,761.38]
+    R73:
+      presets: _Korok<R73 Boulder Golf,korok-golf-boulder>
+      coord: [-2351.14,263.4,846.17]
+    R74:
+      presets: _Korok<R74 Lift Rock,korok-rock>
+      coord: [-1551.96,167.38,815.48]
+    R75:
+      presets: _Korok<R75 Acorn Hanging,korok-acorn>
+      comment: Bomb from midair
+      coord: [-2393.36,233.04,1047.34]
+    R76:
+      presets: _Korok<R76 Lift Rock (Tree),korok-rock-tree>
+      coord: [-2340.7,249.86,1104.57]
+    R77:
+      presets: _Korok<R77 Acorn Hanging,korok-acorn>
+      comment: From tree
+      coord: [-2099.38,205.46,1104.72]
+    R78:
+      presets: _Korok<R78 Offer Apple,korok-offer-apple>
+      coord: [-1969.74,205.39,1087.83]
+    R79:
+      presets: _Korok<R79 Offer Apple,korok-offer-apple>
+      coord: [-1819.3,248.49,973.59]
+    R80:
+      presets: _Korok<R80 Lift Rock,korok-rock>
+      coord: [-1819.09,206.17,1532.64]
+    T01:
+      presets: _Korok<T01 Flower Chase,korok-flower>
+      movements:
+      - _Korok::T01::Start
+      - [-4048.42,166.87,-2299.71]
+      - [-4043.07,160.64,-2307.4]
+      - [-4031.27,146.72,-2322.24]
+      - _Korok::T01::End
+    _T01:
+      Start:
+        coord: [-4063.42,164.31,-2285.92]
+      End:
+        coord: [-4019.88,130.8,-2350.35]
+    T02:
+      presets: _Korok<T02 Confetti,korok-confetti>
+      comment: Top of house
+      coord: [-3792.61,283.47,-2320.19]
+    T03:
+      presets: _Korok<T03 Lily Pads,korok-lily>
+      coord: [-2989.56,222.6,-2164.98]
+    T04:
+      presets: _Korok<T04 Well,korok-magnesis>
+      coord: [-3831.34,248.41,-2106.7]
+    T05:
+      presets: _Korok<T05 Lift Rock,korok-rock>
+      coord: [-3418.51,286.38,-2066.81]
+    T06:
+      presets: _Korok<T06 Race,korok-race>
+      movements:
+      - _Korok::T06::Start
+      - _Korok::T06::End
+    _T06:
+      Start:
+        coord: [-4495.71,342.71,-2510.34]
+      End:
+        coord: [-4396.83,183.4,-2049.88]
+    T07:
+      presets: _Korok<T07 Rock Circle,korok-rock-circle>
+      coord: [-4330.52,160.93,-2052.85]
+    T08:
+      presets: _Korok<T08 Lift Rock,korok-rock>
+      coord: [-4482.92,266.76,-1970.87]
+    T09:
+      presets: _Korok<T09 Offer Pepper,korok-offer-apple>
+      coord: [-4123.61,303.52,-1935.33]
+    T10:
+      presets: _Korok<T10 Offer Apple,korok-offer-apple>
+      coord: [-3780.53,368.6,-1865.62]
+    T11:
+      presets: _Korok<T11 Lift Rock (Tree),korok-rock-tree>
+      comment: Big tree
+      coord: [-3271.39,244.43,-1868.25]
+    T12:
+      presets: _Korok<T12 Lift Rock (Leaves),korok-rock-under>
+      coord: [-4225.71,216.79,-1747.38]
+    T13:
+      presets: _Korok<T13 Rock Circle,korok-rock-circle>
+      coord: [-4034.98,273.22,-1748.4]
+    T14:
+      presets: _Korok<T14 Balloon,korok-balloon>
+      coord: [-3627.38,453.55,-1804.82]
+    T15:
+      presets: _Korok<T15 Lift Rock,korok-rock>
+      coord: [-3562.24,289.5,-1761.34]
+    T16:
+      presets: _Korok<T16 Flower Chase,korok-flower>
+      movements:
+      - _Korok::T16::Start
+      - [-3968.9,277.62,-1671.43]
+      - [-4015.77,289.52,-1684.29]
+      - [-4044.05,304.37,-1686.62]
+      - _Korok::T16::End
+    _T16:
+      Start:
+        coord: [-3973.11,271.63,-1695.0]
+      End:
+        coord: [-4065.46,316.05,-1678.32]
+    T17:
+      presets: _Korok<T17 Race,korok-race>
+      movements:
+      - _Korok::T17::Start
+      - _Korok::T17::End
+    _T17:
+      Start:
+        coord: [-3782.46,281.52,-1798.64]
+      End:
+        coord: [-3696.66,211.1,-1684.1]
+    T18:
+      presets: _Korok<T18 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [-2910.18,382.29,-1639.03]
+    T19:
+      presets: _Korok<T19 Lily Pads,korok-lily>
+      coord: [-3151.57,185.5,-1563.28]
+    T20:
+      presets: _Korok<T20 Block Puzzle,korok-magnesis>
+      coord: [-3444.36,231.21,-1328.68]
+    T21:
+      presets: _Korok<T21 Lift Rock (Rubble),korok-rock-under>
+      coord: [-3295.15,250.09,-1362.92]
+    T22:
+      presets: _Korok<T22 Lift Rock (Rubble),korok-rock-under>
+      coord: [-3125.19,263.0,-1366.5]
+    T23:
+      presets: _Korok<T23 Rock Circle,korok-rock-circle>
+      coord: [-4011.17,205.67,-1167.08]
+    T24:
+      presets: _Korok<T24 Lift Rock,korok-rock>
+      comment: Behind malice
+      coord: [-3714.73,302.72,-1040.96]
+    T25:
+      presets: _Korok<T25 Lift Rock,korok-rock>
+      comment: On ledge
+      coord: [-3078.34,207.99,-1120.35]
+    T26:
+      presets: _Korok<T26 Tree Stump,korok-magnesis>
+      coord: [-3971.63,213.63,-920.51]
+    T27:
+      presets: _Korok<T27 Offer Apple,korok-offer-apple>
+      coord: [-4058.83,208.52,-773.85]
+    T28:
+      presets: _Korok<T28 Boulder Golf,korok-golf-boulder>
+      coord: [-3841.71,218.41,-803.98]
+    T29:
+      presets: _Korok<T29 Lift Rock,korok-rock>
+      coord: [-3803.93,251.28,-772.46]
+    T30:
+      presets: _Korok<T30 Race,korok-race>
+      movements:
+      - _Korok::T30::Start
+      - _Korok::T30::End
+    _T30:
+      Start:
+        coord: [-3692.07,246.0,-792.07]
+      End:
+        coord: [-3661.36,257.37,-828.8]
+    T31:
+      presets: _Korok<T31 Offer Apple,korok-offer-apple>
+      coord: [-3431.2,278.01,-707.84]
+    T32:
+      presets: _Korok<T32 Lift Rock,korok-rock>
+      comment: On pillar
+      coord: [-3966.31,293.92,-624.56]
+    T33:
+      presets: _Korok<T33 Balloon,korok-balloon>
+      coord: [-3441.07,357.36,-664.87]
+    T34:
+      presets: _Korok<T34 Race,korok-race>
+      movements:
+      - _Korok::T34::Start
+      - _Korok::T34::End
+    _T34:
+      Start:
+        coord: [-3018.71,237.06,-585.07]
+      End:
+        coord: [-3212.85,235.0,-574.01]
+    T35:
+      presets: _Korok<T35 Lily Pads,korok-lily>
+      coord: [-3524.55,373.78,-449.69]
+    T36:
+      presets: _Korok<T36 Flower Count,korok-flower>
+      movements:
+      - _Korok::T36::Start
+      - [-4038.3,239.33,-356.02]
+      - [-4035.56,239.31,-343.73]
+      - [-4046.39,238.75,-349.59]
+      - _Korok::T36::End
+    _T36:
+      Start:
+        coord: [-4041.84,239.23,-344.25]
+      End:
+        coord: [-4032.73,239.31,-350.42]
+    T37:
+      presets: _Korok<T37 Race,korok-race>
+      movements:
+      - _Korok::T37::Start
+      - _Korok::T37::End
+    _T37:
+      Start:
+        coord: [-3647.12,376.17,-436.34]
+      End:
+        coord: [-3675.03,390.49,-393.32]
+    W01:
+      presets: _Korok<W01 Lift Rock,korok-rock>
+      coord: [-3847.19,471.28,1467.01]
+    W02:
+      presets: _Korok<W02 Offer Banana,korok-offer-banana>
+      coord: [-4001.07,324.38,1566.55]
+    W03:
+      presets: _Korok<W03 Offer Banana,korok-offer-banana>
+      coord: [-4314.1,219.01,1629.4]
+    W04:
+      presets: _Korok<W04 Offer Banana,korok-offer-banana>
+      coord: [-4220.02,257.54,1659.79]
+    W05:
+      presets: _Korok<W05 Offer Banana,korok-offer-banana>
+      coord: [-4266.57,226.05,1691.53]
+    W06:
+      presets: _Korok<W06 Flower Chase,korok-flower>
+      movements:
+      - _Korok::W06::Start
+      - [-4345.34,205.62,1832.49]
+      - [-4353.39,215.68,1834.54]
+      - [-4352.04,238.61,1826.04]
+      - _Korok::W06::End
+    _W06:
+      Start:
+        coord: [-4349.5,193.14,1828.01]
+      End:
+        coord: [-4353.38,242.21,1838.52]
+    W07:
+      presets: _Korok<W07 Block Puzzle,korok-magnesis>
+      coord: [-2066.65,228.32,1850.09]
+    W08:
+      presets: _Korok<W08 Confetti,korok-confetti>
+      comment: In crack
+      coord: [-2417.31,191.19,1923.72]
+    W09:
+      presets: _Korok<W09 Confetti,korok-confetti>
+      comment: Highest fin on skeleton
+      coord: [-4685.21,171.46,1970.38]
+    W10:
+      presets: _Korok<W10 Balloon,korok-balloon>
+      coord: [-2550.17,190.0,2038.1]
+    W11:
+      presets: _Korok<W11 Lift Rock (Tree),korok-rock-tree>
+      coord: [-2167.78,336.44,2082.04]
+    W12:
+      presets: _Korok<W12 Acorn Hanging,korok-acorn>
+      coord: [-2264.51,356.98,2163.37]
+    W13:
+      presets: _Korok<W13 Confetti,korok-confetti>
+      comment: Highest fin on skeleton
+      coord: [-4710.48,209.71,2171.83]
+    W14:
+      presets: _Korok<W14 Lift Rock,korok-rock>
+      comment: End of bridge
+      coord: [-2018.63,188.73,2186.64]
+    W15:
+      presets: _Korok<W15 Lift Rock,korok-rock>
+      comment: On pillar
+      coord: [-2815.31,160.71,2247.91]
+    W16:
+      presets: _Korok<W16 Boulder Golf,korok-golf-boulder>
+      coord: [-2259.54,357.45,2224.75]
+    W17:
+      presets: _Korok<W17 Block Puzzle,korok-magnesis>
+      coord: [-3353.03,156.91,2276.3]
+    W18:
+      presets: _Korok<W18 Confetti,korok-confetti>
+      comment: Top of skeleton (pinwheel)
+      coord: [-4607.9,161.6,2338.84]
+    W19:
+      presets: _Korok<W19 Lift Rock,korok-rock>
+      coord: [-2853.36,210.49,2320.15]
+    W20:
+      presets: _Korok<W20 Confetti,korok-confetti>
+      comment: In tree
+      coord: [-1658.58,159.11,2306.77]
+    W21:
+      presets: _Korok<W21 Block Puzzle,korok-magnesis>
+      coord: [-1665.89,143.88,2338.16]
+    W22:
+      presets: _Korok<W22 Balloon,korok-balloon>
+      coord: [-1399.42,220.2,2378.2]
+    W23:
+      presets: _Korok<W23 Race,korok-race>
+      movements:
+      - _Korok::W23::Start
+      - _Korok::W23::End
+    _W23:
+      Start:
+        coord: [-2103.93,304.02,2297.19]
+      End:
+        coord: [-2066.65,288.81,2397.04]
+    W24:
+      presets: _Korok<W24 Lift Rock,korok-rock>
+      comment: On platform
+      coord: [-2059.88,306.77,2420.09]
+    W25:
+      presets: _Korok<W25 Match Cactus,korok-matching>
+      coord: [-4876.9,153.29,2469.67]
+    W26:
+      presets: _Korok<W26 Block Puzzle,korok-magnesis>
+      coord: [-1809.82,162.51,2459.62]
+    W27:
+      presets: _Korok<W27 Balloon,korok-balloon>
+      coord: [-1615.96,193.37,2447.32]
+    W28:
+      presets: _Korok<W28 Race,korok-race>
+      movements:
+      - _Korok::W28::Start
+      - _Korok::W28::End
+    _W28:
+      Start:
+        coord: [-4384.57,165.51,2575.82]
+      End:
+        coord: [-4373.89,165.13,2587.05]
+    W29:
+      presets: _Korok<W29 Race,korok-race>
+      movements:
+      - _Korok::W29::Start
+      - _Korok::W29::End
+    _W29:
+      Start:
+        coord: [-3757.1,163.65,2445.96]
+      End:
+        coord: [-3751.84,157.35,2531.62]
+    W30:
+      presets: _Korok<W30 Block Puzzle,korok-magnesis>
+      coord: [-2594.75,284.72,2539.86]
+    W31:
+      presets: _Korok<W31 Lift Rock,korok-rock>
+      coord: [-2358.78,476.12,2554.53]
+    W32:
+      presets: _Korok<W32 Block Puzzle,korok-magnesis>
+      coord: [-2305.08,486.25,2561.36]
+    W33:
+      presets: _Korok<W33 Balloon,korok-balloon>
+      comment: Under bridge
+      coord: [-2207.69,432.16,2550.62]
+    W34:
+      presets: _Korok<W34 Rock Circle,korok-rock-circle>
+      coord: [-1935.34,452.79,2673.5]
+    W35:
+      presets: _Korok<W35 Balloon,korok-balloon>
+      comment: Between statue arms
+      coord: [-2628.11,168.49,2751.2]
+    W36:
+      presets: _Korok<W36 Match Cactus,korok-matching>
+      coord: [-4224.86,154.65,2738.07]
+    W37:
+      presets: _Korok<W37 Flower Chase,korok-flower>
+      comment: On skeleton
+      movements:
+      - _Korok::W37::Start
+      - _Korok::W37::End
+    _W37:
+      Start:
+        coord: [-3063.65,136.43,2905.87]
+      End:
+        coord: [-3107.27,135.38,2881.24]
+    W38:
+      presets: _Korok<W38 Lift Rock,korok-rock>
+      comment: On pillar
+      coord: [-2298.69,352.56,2850.02]
+    W39:
+      presets: _Korok<W39 Block Puzzle,korok-magnesis>
+      coord: [-2019.69,375.79,2884.23]
+    W40:
+      presets: _Korok<W40 Lift Rock,korok-rock>
+      comment: Top of statue
+      coord: [-2685.72,206.05,2929.65]
+    W41:
+      presets: _Korok<W41 Lift Rock,korok-rock>
+      comment: On overpass
+      coord: [-1465.9,418.66,2952.55]
+    W42:
+      presets: _Korok<W42 Confetti,korok-confetti>
+      coord: [-3886.14,229.43,2965.82]
+    W43:
+      presets: _Korok<W43 Flower Chase,korok-flower>
+      movements:
+      - _Korok::W43::Start
+      - [-3498.91,143.56,2952.55]
+      - [-3480.76,139.56,2986.11]
+      - [-3469.87,149.03,2926.08]
+      - _Korok::W43::End
+    _W43:
+      Start:
+        coord: [-3466.84,146.18,2956.78]
+      End:
+        coord: [-3435.38,145.89,2980.16]
+    W44:
+      presets: _Korok<W44 Block Puzzle,korok-magnesis>
+      coord: [-2918.65,141.7,3061.01]
+    W45:
+      presets: _Korok<W45 Rock Circle,korok-rock-circle>
+      coord: [-1599.49,307.14,3099.93]
+    W46:
+      presets: _Korok<W46 Lift Rock (Rubble),korok-rock-under>
+      comment: Corner
+      coord: [-1538.74,278.4,3070.08]
+    W47:
+      presets: _Korok<W47 Flower Chase,korok-flower>
+      comment: Right side of skeleton
+      movements:
+      - _Korok::W47::Start
+      - [-4174.61,158.5,3065.55]
+      - [-4186.84,164.72,3064.5]
+      - [-4190.1,164.86,3083.78]
+      - _Korok::W47::End
+    _W47:
+      Start:
+        coord: [-4171.26,155.23,3058.97]
+      End:
+        coord: [-4195.74,165.61,3091.55]
+    W48:
+      presets: _Korok<W48 Block Puzzle,korok-magnesis>
+      coord: [-2172.5,185.72,3200.39]
+    W49:
+      presets: _Korok<W49 Block Puzzle,korok-magnesis>
+      coord: [-1926.3,264.63,3241.99]
+    W50:
+      presets: _Korok<W50 Lift Rock,korok-rock>
+      comment: Top of big pillar
+      coord: [-1922.22,332.97,3279.69]
+    W51:
+      presets: _Korok<W51 Match Cactus,korok-matching>
+      coord: [-4862.19,129.35,3260.96]
+    W52:
+      presets: _Korok<W52 Block Puzzle,korok-magnesis>
+      comment: Inside skull
+      coord: [-2636.19,101.81,3302.57]
+    W53:
+      presets: _Korok<W53 Lift Rock,korok-rock>
+      comment: On pillar
+      coord: [-1379.17,592.9,3328.08]
+    W54:
+      presets: _Korok<W54 Lift Rock,korok-rock>
+      coord: [-1526.97,397.51,3405.89]
+    W55:
+      presets: _Korok<W55 Lift Rock,korok-rock>
+      comment: On a rock
+      coord: [-4307.61,132.16,3459.74]
+    W56:
+      presets: _Korok<W56 Lift Rock,korok-rock>
+      coord: [-3799.64,128.15,3428.88]
+    W57:
+      presets: _Korok<W57 Balloon,korok-balloon>
+      comment: On tree in oasis
+      coord: [-3728.54,166.48,3610.08]
+    W58:
+      presets: _Korok<W58 Race,korok-race>
+      movements:
+      - _Korok::W58::Start
+      - _Korok::W58::End
+    _W58:
+      Start:
+        coord: [-2018.28,320.12,3437.19]
+      End:
+        coord: [-1996.6,301.55,3619.66]
+    W59:
+      presets: _Korok<W59 Ice Block,korok-ice>
+      coord: [-1611.51,411.29,3678.32]
+    W60:
+      presets: _Korok<W60 Ice Block,korok-ice>
+      coord: [-1357.03,479.65,3671.94]
+    W61:
+      presets: _Korok<W61 Match Cactus,korok-matching>
+      coord: [-4347.89,142.88,3713.18]
+    W62:
+      presets: _Korok<W62 Rock Circle,korok-rock-circle>
+      coord: [-3031.62,181.0,3754.59]
+    W63:
+      presets: _Korok<W63 Race,korok-race>
+      movements:
+      - _Korok::W63::Start
+      - _Korok::W63::End
+    _W63:
+      Start:
+        coord: [-2591.2,129.93,3543.36]
+      End:
+        coord: [-2448.41,134.73,3751.93]
+    W64:
+      presets: _Korok<W64 Rock Circle,korok-rock-circle>
+      coord: [-1351.45,448.56,3770.79]
+    W65:
+      presets: _Korok<W65 Confetti,korok-confetti>
+      comment: Top of skeleton
+      coord: [-4859.17,172.69,3832.94]
+    W66:
+      presets: _Korok<W66 Lift Rock,korok-rock>
+      coord: [-4160.32,133.13,3826.2]
+    W67:
+      presets: _Korok<W67 Match Cactus,korok-matching>
+      coord: [-3286.43,169.88,3787.15]
+    W68:
+      presets: _Korok<W68 Lift Rock,korok-rock>
+      comment: On pillar
+      coord: [-2547.42,141.43,3951.93]
+    X01:
+      presets: _Korok<X01 Lift Rock,korok-rock>
+      comment: On ledge
+      coord: [-308.77,132.64,-1166.0]
+    X02:
+      presets: _Korok<X02 Lily Pads,korok-lily>
+      coord: [-147.51,188.97,-1159.79]
+    X03:
+      presets: _Korok<X03 Lift Rock (Rubble),korok-rock-under>
+      coord: [-265.73,250.36,-1138.75]
+    X04:
+      presets: _Korok<X04 Balloon,korok-balloon>
+      coord: [-378.65,163.6,-1112.09]
+    X05:
+      presets: _Korok<X05 Confetti,korok-confetti>
+      comment: Castle spire
+      coord: [-250.14,432.88,-1061.67]
+    X06:
+      presets: _Korok<X06 Balloon,korok-balloon>
+      coord: [-251.84,517.16,-1061.77]
+    X07:
+      presets: _Korok<X07 Confetti,korok-confetti>
+      comment: Spire of Zelda's Study
+      coord: [-383.2,347.46,-993.62]
+    X08:
+      presets: _Korok<X08 Lift Rock,korok-rock>
+      comment: On wooden platform
+      coord: [-368.95,151.43,-993.44]
+    X09:
+      presets: _Korok<X09 Lift Rock,korok-rock>
+      coord: [-335.4,256.56,-1003.31]
+    X10:
+      presets: _Korok<X10 Race,korok-race>
+      comment: Glide
+      movements:
+      - _Korok::X10::Start
+      - _Korok::X10::End
+    _X10:
+      Start:
+        coord: [-254.0,357.48,-1044.5]
+      End:
+        coord: [-254.0,364.01,-994.61]
+    X11:
+      presets: _Korok<X11 Ice Block,korok-ice>
+      coord: [-100.92,131.37,-979.74]
+    X12:
+      presets: _Korok<X12 Lift Rock,korok-rock>
+      coord: [-68.06,261.28,-979.62]
+    X13:
+      presets: _Korok<X13 Offer Egg,korok-offer-egg>
+      coord: [-436.57,117.51,-932.82]
+    X14:
+      presets: _Korok<X14 Lift Rock (Rubble),korok-rock-under>
+      coord: [-270.26,255.1,-879.19]
+    X15:
+      presets: _Korok<X15 Acorn Hanging,korok-acorn>
+      comment: Behind wall
+      coord: [-168.36,216.01,-860.4]
+    X16:
+      presets: _Korok<X16 Confetti,korok-confetti>
+      comment: Spire of Second Gatehouse
+      coord: [-162.05,310.19,-878.05]
+    X17:
+      presets: _Korok<X17 Confetti,korok-confetti>
+      comment: Spire of First Gatehouse
+      coord: [-353.38,286.36,-829.6]
+    X18:
+      presets: _Korok<X18 Lift Rock,korok-rock>
+      comment: On wall
+      coord: [-394.02,204.57,-785.4]
+    X19:
+      presets: _Korok<X19 Acorn Hanging,korok-acorn>
+      comment: Behind wall
+      coord: [-324.38,185.61,-798.15]
+    X20:
+      presets: _Korok<X20 Lift Rock (Rubble),korok-rock-under>
+      coord: [-163.28,156.12,-784.67]
+    X21:
+      presets: _Korok<X21 Shoot Emblem,korok-shoot>
+      coord: [-254.0,210.54,-739.54]
+    X22:
+      presets: _Korok<X22 Balloon,korok-balloon>
+      coord: [-247.16,211.84,-739.61]
+    X23:
+      presets: _Korok<X23 Balloon,korok-balloon>
+      coord: [-234.59,233.97,-743.93]
+    X24:
+      presets: _Korok<X24 Lift Rock,korok-rock>
+      comment: On gate
+      coord: [-253.85,172.9,-632.22]
+    X25:
+      presets: _Korok<X25 Flower Chase,korok-flower>
+      comment: Across bridge
+      movements:
+      - _Korok::X25::Start
+      - [-250.14,126.98,-583.87]
+      - [-246.7,134.55,-579.26]
+      - [-243.03,136.51,-585.36]
+      - [-237.45,138.14,-584.97]
+      - [-237.48,144.49,-597.91]
+      - [-237.52,144.96,-610.94]
+      - [-233.49,147.14,-624.32]
+      - _Korok::X25::End
+    _X25:
+      Start:
+        coord: [-257.07,118.71,-589.49]
+      End:
+        coord: [-230.68,148.01,-633.37]
+    Z01:
+      presets: _Korok<Z01 Flower Chase,korok-flower>
+      movements:
+      - _Korok::Z01::Start
+      - [4661.62,268.58,-1313.48]
+      - [4667.06,276.71,-1330.71]
+      - [4683.88,285.62,-1340.37]
+      - _Korok::Z01::End
+    _Z01:
+      Start:
+        coord: [4668.77,267.18,-1290.65]
+      End:
+        coord: [4707.05,292.62,-1355.01]
+    Z02:
+      presets: _Korok<Z02 Race,korok-race>
+      movements:
+      - _Korok::Z02::Start
+      - _Korok::Z02::End
+    _Z02:
+      Start:
+        coord: [1585.26,190.69,-719.34]
+      End:
+        coord: [1398.03,125.98,-856.34]
+    Z03:
+      presets: _Korok<Z03 Light Chase,korok-light-chase>
+      coord: [1404.95,122.09,-832.98]
+    Z04:
+      presets: _Korok<Z04 Lift Rock,korok-rock>
+      coord: [3208.67,570.48,-1011.22]
+    Z05:
+      presets: _Korok<Z05 Light Chase,korok-light-chase>
+      coord: [3565.88,530.63,-915.92]
+    Z06:
+      presets: _Korok<Z06 Lift Rock,korok-rock>
+      comment: On wood platform
+      coord: [4702.88,297.25,-1039.33]
+    Z07:
+      presets: _Korok<Z07 Lift Rock,korok-rock>
+      comment: On pillar
+      coord: [4698.9,345.46,-1003.02]
+    Z08:
+      presets: _Korok<Z08 Lift Rock (Rubble),korok-rock-under>
+      coord: [3893.5,549.96,-704.23]
+    Z09:
+      presets: _Korok<Z09 Lily Pads,korok-lily>
+      coord: [4616.44,366.46,-638.02]
+    Z10:
+      presets: _Korok<Z10 Lift Rock (Rubble),korok-rock-under>
+      coord: [4697.83,335.7,-547.03]
+    Z11:
+      presets: _Korok<Z11 Balloon,korok-balloon>
+      comment: In tree
+      coord: [1104.01,210.75,-444.23]
+    Z12:
+      presets: _Korok<Z12 Lily Pads,korok-lily>
+      coord: [1632.92,119.0,-545.19]
+    Z13:
+      presets: _Korok<Z13 Race,korok-race>
+      movements:
+      - _Korok::Z13::Start
+      - _Korok::Z13::End
+    _Z13:
+      Start:
+        coord: [2089.33,208.35,-327.27]
+      End:
+        coord: [1832.72,217.95,-535.69]
+    Z14:
+      presets: _Korok<Z14 Confetti,korok-confetti>
+      comment: Top of tree
+      coord: [2427.76,301.4,-412.12]
+    Z15:
+      presets: _Korok<Z15 Block Puzzle,korok-magnesis>
+      coord: [2791.46,451.49,-500.93]
+    Z16:
+      presets: _Korok<Z16 Confetti,korok-confetti>
+      coord: [3323.91,301.62,-519.51]
+    Z17:
+      presets: _Korok<Z17 Confetti,korok-confetti>
+      comment: Top of Zora's Domain
+      coord: [3321.49,414.09,-514.25]
+    Z18:
+      presets: _Korok<Z18 Block Puzzle,korok-magnesis>
+      coord: [3520.64,326.72,-383.58]
+    Z19:
+      presets: _Korok<Z19 Boulder Golf,korok-golf-boulder>
+      comment: Metal boulder
+      coord: [4071.79,483.77,-459.05]
+    Z20:
+      presets: _Korok<Z20 Flower Chase,korok-flower>
+      movements:
+      - _Korok::Z20::Start
+      - [4114.89,501.62,-438.15]
+      - [4153.29,507.38,-436.52]
+      - [4151.59,514.65,-415.25]
+      - _Korok::Z20::End
+    _Z20:
+      Start:
+        coord: [4083.13,496.53,-424.81]
+      End:
+        coord: [4136.6,521.71,-408.56]
+    Z21:
+      presets: _Korok<Z21 Rock Circle,korok-rock-circle>
+      comment: Near water
+      coord: [1088.53,164.78,-215.89]
+    Z22:
+      presets: _Korok<Z22 Lift Rock,korok-rock>
+      comment: On hill
+      coord: [2517.5,182.5,-212.48]
+    Z23:
+      presets: _Korok<Z23 Well,korok-magnesis>
+      coord: [2746.14,237.58,-176.4]
+    Z24:
+      presets: _Korok<Z24 Flower Chase,korok-flower>
+      movements:
+      - _Korok::Z24::Start
+      - [3014.53,331.46,-182.23]
+      - [3031.13,341.18,-168.81]
+      - [3048.19,353.89,-165.46]
+      - [3059.07,355.62,-158.3]
+      - [3068.42,348.25,-157.76]
+      - [3081.95,345.15,-160.38]
+      - [3090.17,351.94,-160.65]
+      - [3088.52,347.87,-162.44]
+      - _Korok::Z24::End
+    _Z24:
+      Start:
+        coord: [2984.44,317.42,-177.12]
+      End:
+        coord: [3083.23,363.92,-167.68]
+    Z25:
+      presets: _Korok<Z25 Lift Rock,korok-rock>
+      comment: On ledge
+      coord: [3291.97,295.38,-261.12]
+    Z26:
+      presets: _Korok<Z26 Lift Rock,korok-rock>
+      comment: Peak
+      coord: [3527.28,395.3,-276.76]
+    Z27:
+      presets: _Korok<Z27 Block Puzzle,korok-magnesis>
+      coord: [4080.4,421.47,-216.78]
+    Z28:
+      presets: _Korok<Z28 Lift Rock (Rubble),korok-rock-under>
+      coord: [4232.73,385.99,-212.33]
+    Z29:
+      presets: _Korok<Z29 Rock Circle,korok-rock-circle>
+      coord: [1185.5,164.25,-67.41]
+    Z30:
+      presets: _Korok<Z30 Rock Circle,korok-rock-circle>
+      coord: [1387.27,135.21,-112.92]
+    Z31:
+      presets: _Korok<Z31 Basketball,korok-basketball>
+      coord: [2665.53,205.78,-1.29]
+    Z32:
+      presets: _Korok<Z32 Rock Circle,korok-rock-circle>
+      comment: Below bridge
+      coord: [3122.88,185.6,-17.39]
+    Z33:
+      presets: _Korok<Z33 Light Chase,korok-light-chase>
+      coord: [3206.76,312.25,23.68]
+    Z34:
+      presets: _Korok<Z34 Lift Rock,korok-rock>
+      comment: Peak
+      coord: [3303.74,393.35,22.58]
+    Z35:
+      presets: _Korok<Z35 Lift Rock (Rubble),korok-rock-under>
+      coord: [4134.86,294.93,60.32]
+    Z36:
+      presets: _Korok<Z36 Lift Rock (Rubble),korok-rock-under>
+      coord: [4294.82,171.3,78.5]
+    Z37:
+      presets: _Korok<Z37 Lift Rock,korok-rock>
+      comment: Middle of thorns
+      coord: [883.07,133.61,274.79]
+    Z38:
+      presets: _Korok<Z38 Well,korok-magnesis>
+      coord: [1434.73,117.5,135.4]
+    Z39:
+      presets: _Korok<Z39 Light Chase,korok-light-chase>
+      coord: [1593.18,115.98,114.16]
+    Z40:
+      presets: _Korok<Z40 Acorn Hanging,korok-acorn>
+      comment: From tree
+      coord: [1736.36,129.04,85.67]
+    Z41:
+      presets: _Korok<Z41 Rock Circle,korok-rock-circle>
+      coord: [2085.78,129.78,181.66]
+    Z42:
+      presets: _Korok<Z42 Balloon,korok-balloon>
+      coord: [2769.94,123.21,348.84]
+    Z43:
+      presets: _Korok<Z43 Block Puzzle,korok-magnesis>
+      coord: [2927.66,292.94,332.8]
+    Z44:
+      presets: _Korok<Z44 Light Chase,korok-light-chase>
+      coord: [3140.85,220.79,324.96]
+    Z45:
+      presets: _Korok<Z45 Light Chase,korok-light-chase>
+      coord: [3854.31,150.81,352.25]
+    Z46:
+      presets: _Korok<Z46 Block Puzzle,korok-magnesis>
+      coord: [4144.43,138.33,195.96]
+    Z47:
+      presets: _Korok<Z47 Lift Rock (Boulder),korok-rock-under>
+      coord: [1116.14,119.93,555.57]
+    Z48:
+      presets: _Korok<Z48 Light Chase,korok-light-chase>
+      coord: [1313.97,115.9,503.06]
+    Z49:
+      presets: _Korok<Z49 Match Tree,korok-matching>
+      coord: [1446.49,116.03,558.36]
+    Z50:
+      presets: _Korok<Z50 Light Chase,korok-light-chase>
+      coord: [1685.6,129.82,661.12]
+    Z51:
+      presets: _Korok<Z51 Rock Circle,korok-rock-circle>
+      coord: [3271.14,105.92,656.82]
+    Z52:
+      presets: _Korok<Z52 Lift Rock (Leaves),korok-rock-under>
+      coord: [3431.14,146.4,523.74]
+    Z53:
+      presets: _Korok<Z53 Flower Chase,korok-flower>
+      comment: In cave
+      movements:
+      - _Korok::Z53::Start
+      - [3488.92,130.59,536.12]
+      - [3492.29,137.07,560.71]
+      - [3471.08,144.01,547.4]
+      - _Korok::Z53::End
+    _Z53:
+      Start:
+        coord: [3509.61,129.21,519.34]
+      End:
+        coord: [3451.99,143.56,550.79]
+    Z54:
+      presets: _Korok<Z54 Lift Rock (Rubble),korok-rock-under>
+      coord: [3561.94,106.24,626.31]
+    Z55:
+      presets: _Korok<Z55 Lift Rock,korok-rock>
+      coord: [3721.26,108.24,617.62]
+    Z56:
+      presets: _Korok<Z56 Basketball,korok-basketball>
+      comment: On stone
+      coord: [4199.45,107.14,463.67]
+    Z57:
+      presets: _Korok<Z57 Lift Rock (Slab),korok-rock-under>
+      coord: [4264.45,126.76,628.22]
+    Z58:
+      presets: _Korok<Z58 Balloon,korok-balloon>
+      comment: In cave
+      coord: [4452.65,164.26,483.97]
+    Z59:
+      presets: _Korok<Z59 Flower Chase,korok-flower>
+      comment: Start in forest
+      movements:
+      - _Korok::Z59::Start
+      - [4497.5,181.81,637.89]
+      - [4517.59,176.22,630.68]
+      - [4544.74,167.28,640.4]
+      - _Korok::Z59::End
+    _Z59:
+      Start:
+        coord: [4483.81,184.07,637.03]
+      End:
+        coord: [4572.53,134.99,647.89]
+    Z60:
+      presets: _Korok<Z60 Offer Apple,korok-offer-apple>
+      comment: In cave
+      coord: [1595.75,117.39,807.67]
+    Z61:
+      presets: _Korok<Z61 Flower Chase,korok-flower>
+      movements:
+      - _Korok::Z61::Start
+      - [4526.36,112.23,1009.01]
+      - [4502.82,123.6,1016.54]
+      - [4473.22,115.49,1010.4]
+      - _Korok::Z61::End
+    _Z61:
+      Start:
+        coord: [4512.28,109.56,980.84]
+      End:
+        coord: [4499.12,123.24,1015.01]
+    Z62:
+      presets: _Korok<Z62 Rock Circle,korok-rock-circle>
+      coord: [4533.43,111.22,1022.98]
+

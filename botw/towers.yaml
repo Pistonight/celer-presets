@@ -1,0 +1,45 @@
+tags:
+  counter-tower:
+    color: black
+    background: cyan
+
+icons:
+  tower:
+
+presets:
+  Tower:
+    text: ".loc($(0) Tower)"
+    icon: tower
+    counter: .var(counter-tower)
+    coord: [$(1), $(2), $(3)]
+  _Tower:
+    GreatPlateau:
+      presets: _Tower<Great Plateau,-560.03,177.64,1694.86>
+    Central:
+      presets: _Tower<Central,-788.64,197.64,442.03>
+    Lake:
+      presets: _Tower<Lake,-31.82,280.48,2961.60>
+    DuelingPeaks:
+      presets: _Tower<Dueling Peaks,1016.78,184.01,1714.08>
+    Faron:
+      presets: _Tower<Faron,1331.20,269.93,3273.72>
+    Hateno:
+      presets: _Tower<Hateno,2735.50,336.18,2133.50>
+    Lanayru:
+      presets: _Tower<Lanayru,2258.00,310.92,-109.00>
+    Eldin:
+      presets: _Tower<Eldin,2174.15,508.73,-1556.78>
+    Woodland:
+      presets: _Tower<Woodland,883.88,350.22,-1605.71>
+    Akkala:
+      presets: _Tower<Akkala,3308.00,593.78,-1500.10>
+    Tabantha:
+      presets: _Tower<Tabantha,-3613.75,445.04,-990.16>
+    Gerudo:
+      presets: _Tower<Gerudo,-3666.00,470.98,1828.60>
+    Wasteland:
+      presets: _Tower<Wasteland,-2306.84,530.18,2437.32>
+    Hebra:
+      presets: _Tower<Hebra,-2173.00,529.18,-2034.00>
+    Ridgeland:
+      presets: _Tower<Ridgeland,-1755.30,328.58,-774.30>

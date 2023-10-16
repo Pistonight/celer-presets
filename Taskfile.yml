@@ -1,0 +1,18 @@
+version: '3'
+
+includes:
+  botw:
+    taskfile: ./botw
+    dir: ./botw
+
+tasks:
+  verify:
+    desc: Verify all projects
+    deps:
+    - botw:verify
+
+  make:
+    desc: Make all projects
+    deps:
+    - botw:make
+
