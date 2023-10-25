@@ -135,14 +135,14 @@ presets:
     comment: SNAP
   Material:
     text: ".item($(0))"
-    comment: ".var($(0))"
+    comment: ".var(material<$(0)>)"
     icon: material
     vars:
       "material<$(0)>": .add(1)
   _Material:
     Count:
       text: ".item($(1) $(0))"
-      comment: ".var($(0))"
+      comment: ".var(material<$(0)>)"
       icon: material
       vars:
         "material<$(0)>": .add($(1))
