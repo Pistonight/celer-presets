@@ -10,7 +10,7 @@ tags:
       light: black
   npc:
     color:
-      dark: green
+      dark: "#0f0"
       light: darkgreen
   rune:
     color: orange

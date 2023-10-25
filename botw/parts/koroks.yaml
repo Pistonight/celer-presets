@@ -34,7 +34,7 @@ tags:
 
 presets:
   Korok:
-    text: $(0)
+    text: .npc($(0))
     icon: $(1)
     counter: .var(counter-korok)
   _Korok:
