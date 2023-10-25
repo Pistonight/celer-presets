@@ -14,6 +14,6 @@ map:
   coord-map:
     "2d": [x, y]
     "3d": [x, z, y]
-  initial-coord: [-1099.10, 242.00, 1876.31]
+  initial-coord: [-1099.10, 1876.31, 242.00]
   initial-zoom: 3
   initial-color: "#38F"
