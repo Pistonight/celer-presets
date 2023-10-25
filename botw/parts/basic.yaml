@@ -28,7 +28,7 @@ tags:
       dark: inherit
       light: black
   important:
-    color: purple
+    color: magenta
     background:
       dark: inherit
       light: black
