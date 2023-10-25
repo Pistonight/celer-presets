@@ -1,14 +1,14 @@
 icons:
-  talus:
-  talus-luminous:
-  talus-rare:
-  talus-igneo:
-  talus-frost:
-  hinox-red:
-  hinox-blue:
-  hinox-black:
-  hinox-stal:
-  molduga:
+  talus: https://icons.pistonite.org/icon/misc.monster.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+  talus-luminous: https://icons.pistonite.org/icon/misc.monster.circle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  talus-rare: https://icons.pistonite.org/icon/misc.monster.plus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  talus-igneo: https://icons.pistonite.org/icon/misc.monster.plus.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+  talus-frost: https://icons.pistonite.org/icon/misc.monster.plus.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  hinox-red: https://icons.pistonite.org/icon/misc.monster.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  hinox-blue: https://icons.pistonite.org/icon/misc.monster.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  hinox-black: https://icons.pistonite.org/icon/misc.monster.none.d57b69.fec1d3.d57b69.fec1d3.d57b69.fec1d3.png
+  hinox-stal: https://icons.pistonite.org/icon/misc.monster.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  molduga: https://icons.pistonite.org/icon/misc.monster.triangle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
 
 tags:
   counter-talus:

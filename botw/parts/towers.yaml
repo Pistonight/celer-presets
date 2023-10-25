@@ -4,7 +4,7 @@ tags:
     background: cyan
 
 icons:
-  tower:
+  tower: https://icons.pistonite.org/icon/location.tower.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
 
 presets:
   Tower:
