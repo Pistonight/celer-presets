@@ -23,7 +23,7 @@ tags:
       dark: inherit
       light: black
   enemy:
-    color: green
+    color: cyan
     background:
       dark: inherit
       light: black
