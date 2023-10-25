@@ -1,3 +1,3 @@
 includes:
 - use: ./map.yaml
-- use: ./basic.yaml
+- use: ./parts/basic.yaml

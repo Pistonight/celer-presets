@@ -1,4 +1,4 @@
-#TXTPP#include ../GENERATED
+#TXTPP#include ../../GENERATED
 icons:
   korok: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
   korok-acorn: https://icons.pistonite.org/icon/misc.korok.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
@@ -41,7 +41,7 @@ presets:
     # import yaml
     # def fmt_coord(coord):
     #   return "["+str(coord[0])+","+str(coord[1])+","+str(coord[2])+"]"
-    # with open("data/koroks.yaml", "r") as f:
+    # with open("../data/koroks.yaml", "r") as f:
     #   koroks = yaml.load(f, Loader=yaml.FullLoader)
     # types = koroks["meta"]["types"]
     # for korok_id in koroks["data"]:

@@ -1,8 +1,8 @@
-#TXTPP#include ../GENERATED
+#TXTPP#include ../../GENERATED
 icons:
   # TXTPP#temp make-shrine-icons.g.py
   # import yaml
-  # with open("data/shrines.yaml", "r") as f:
+  # with open("../data/shrines.yaml", "r") as f:
   #   shrines = yaml.load(f, Loader=yaml.FullLoader)
   # for shrine_type in shrines["meta"]["types"]:
   #   icon_id = shrines["meta"]["types"][shrine_type]["icon"]
@@ -26,7 +26,7 @@ presets:
     coord: [$(2), $(3), $(4)]
   # TXTPP#temp make-shrines.g.py
   # import yaml
-  # with open("data/shrines.yaml", "r") as f:
+  # with open("../data/shrines.yaml", "r") as f:
   #   shrines = yaml.load(f, Loader=yaml.FullLoader)
   # icons = {}
   # for shrine_type in shrines["meta"]["types"]:

@@ -1,3 +1,3 @@
 includes:
 - use: ./most.yaml
-- use: ./koroks.yaml
+- use: ./parts/koroks.yaml

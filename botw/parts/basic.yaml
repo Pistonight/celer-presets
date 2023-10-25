@@ -1,6 +1,8 @@
 tags:
   item:
-    color: yellow
+    color:
+      dark: yellow
+      light: 
   loc:
     color: cyan
   npc:
