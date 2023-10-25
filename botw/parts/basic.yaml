@@ -138,7 +138,7 @@ presets:
     comment: ".var($(0))"
     icon: material
     vars:
-      "material<$(0)>": .add
+      "material<$(0)>": .add(1)
   _Material:
     Count:
       text: ".item($(1) $(0))"
