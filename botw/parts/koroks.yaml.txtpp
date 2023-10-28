@@ -29,7 +29,7 @@ icons:
 tags:
   counter-korok:
     color: black
-    background: green
+    background: "#0f0"
 
 presets:
   Korok:
@@ -48,7 +48,7 @@ presets:
     #   print(f"{korok_id}:")
     #   data = koroks["data"][korok_id]
     #   icon = types[data["type"]]["icon"]
-    #   name = types[data["type"]]["name"]
+    #   name = types[data["type"]]["name"].replace(")", "\\)")
     #   print(f"  presets: _Korok<{korok_id} {name},{icon}>")
     #   if "comment" in data:
     #     comment = data["comment"]
