@@ -11,5 +11,12 @@ tags:
     background: orange
 
 presets:
-  #TXTPP#include ../../shared/shrine-template.yaml
+  Shrine:
+    text: ".loc($(0))"
+    icon:
+      doc: $(1)
+      map: $(1)
+      priority: 0
+    counter: .var(counter-shrine)
+    coord: [$(2), $(3), $(4)]
   #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml

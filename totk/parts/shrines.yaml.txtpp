@@ -1,3 +1,50 @@
 #TXTPP#include ../../GENERATED
 icons:
   #TXTPP#run python ../../scripts/shrine-icons.py ../data/shrines.yaml
+
+tags:
+  counter-shrine:
+    color: black
+    background: cyan
+  counter-shrine-sky:
+    color: black
+    background: "#ffd700"
+  counter-shrine-cave:
+    color: black
+    background: "#ff9900"
+
+presets:
+  Shrine:
+    text: ".loc($(0))"
+    icon:
+      doc: $(1)
+      map: $(1)
+      priority: 0
+    counter: .var(counter-shrine)
+    vars:
+      counter-shrine-sky: .add(1)
+      counter-shrine-cave: .add(1)
+    coord: [$(2), $(3), $(4)]
+  ShrineSky:
+    text: ".loc($(0))"
+    icon:
+      doc: $(1)
+      map: $(1)
+      priority: 0
+    counter: .var(counter-shrine-sky)
+    vars:
+      counter-shrine: .add(1)
+      counter-shrine-cave: .add(1)
+    coord: [$(2), $(3), $(4)]
+  ShrineCave:
+    text: ".loc($(0))"
+    icon:
+      doc: $(1)
+      map: $(1)
+      priority: 0
+    counter: .var(counter-shrine-cave)
+    vars:
+      counter-shrine-sky: .add(1)
+      counter-shrine: .add(1)
+    coord: [$(2), $(3), $(4)]
+  #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml

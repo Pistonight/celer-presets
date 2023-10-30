@@ -1,0 +1,3 @@
+includes:
+- use: ./mini.yaml
+- use: ./parts/shrines.yaml

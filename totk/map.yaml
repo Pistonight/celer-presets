@@ -19,7 +19,7 @@ map:
     transform:
       translate: [12000, 10000]
       scale: [2, 2]
-    start-z: 0
+    start-z: -180
     attribution: 
       link: https://objmap-totk.zeldamods.org
   - name: Sky

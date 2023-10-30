@@ -14,13 +14,23 @@ print("_Shrine:")
 data = shrines["data"]
 for shrine_id in data:
     typ = data[shrine_id]["type"]
+    if typ not in icons:
+        print(f"Unknown shrine type: {typ}")
+        exit(1)
     icon_id = icons[typ]
     name = data[shrine_id]["name"]
     coord = shrines["data"][shrine_id]["coord"]
     coord_str = str(coord[0]) + "," + str(coord[1]) + "," + str(coord[2])
     print(f"  {shrine_id}:")
-    print(f"    presets: _Shrine<{name},{icon_id},{coord_str}>")
+    if typ.endswith("Cave"):
+        preset = "ShrineCave"
+    elif typ.endswith("Sky"):
+        preset = "ShrineSky"
+    else:
+        preset = "Shrine"
+    print(f"    presets: _{preset}<{name},{icon_id},{coord_str}>")
     if typ == "Dlc":
+        print("    icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}")
         print(f"    counter: .var(counter-dlc-shrine)")
     warp_output.append(f"    {shrine_id}:")
     warp_output.append(f"      presets: _Warp3<{name},{coord_str}>")

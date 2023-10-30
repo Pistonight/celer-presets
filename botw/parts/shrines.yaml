@@ -19,8 +19,8 @@ presets:
   Shrine:
     text: ".loc($(0))"
     icon:
-      doc: shrine
-      map: shrine
+      doc: $(1)
+      map: $(1)
       priority: 0
     counter: .var(counter-shrine)
     coord: [$(2), $(3), $(4)]
@@ -65,6 +65,7 @@ presets:
       presets: _Shrine<Dunba Taag,shrine,-2832.47,79.88,-1578.04>
     EtsuKorima:
       presets: _Shrine<Etsu Korima,shrine-dlc,-1216.12,340.5,2109.9>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     GeeHarah:
       presets: _Shrine<Gee Ha'rah,shrine,-2379.84,278.11,-2254.59>
@@ -100,6 +101,7 @@ presets:
       presets: _Shrine<Kam Urog,shrine,2501.03,119.17,1494.84>
     KamiaOmuna:
       presets: _Shrine<Kamia Omuna,shrine-dlc,2128.36,509.92,-3228.81>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     KaoMakagh:
       presets: _Shrine<Ka'o Makagh,shrine,523.29,178.91,3526.27>
@@ -115,11 +117,13 @@ presets:
       presets: _Shrine<Kayra Mah,shrine,2076.82,520.77,-2039.77>
     KeeDafunia:
       presets: _Shrine<Kee Dafunia,shrine-dlc,4935.17,106.8,-1002.4>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     KeehaYoog:
       presets: _Shrine<Keeha Yoog,shrine-blessing,-3853.4,640.3,716.7>
     KeiveTala:
       presets: _Shrine<Keive Tala,shrine-dlc,-2339.53,129.5,3901.64>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     KemaKosassa:
       presets: _Shrine<Kema Kosassa,shrine-double-sword,-4658.48,619.49,904.84>
@@ -133,9 +137,11 @@ presets:
       presets: _Shrine<Ketoh Wawai,shrine-blessing,283.4,285.3,-3119.6>
     KiahToza:
       presets: _Shrine<Kiah Toza,shrine-dlc,-2155.49,450.4,-3188.48>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     KihiroMoh:
       presets: _Shrine<Kihiro Moh,shrine-dlc,-3391.23,441.98,1347.84>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     KorguChideh:
       presets: _Shrine<Korgu Chideh,shrine-blessing,4737.48,218.0,3772.09>
@@ -155,6 +161,7 @@ presets:
       presets: _Shrine<Maag No'rah,shrine-blessing,-1939.9,249.88,-1458.2>
     MahEliya:
       presets: _Shrine<Mah Eliya,shrine-dlc,3762.2,547.78,-646.45>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     MakaRah:
       presets: _Shrine<Maka Rah,shrine,-4057.84,94.89,-2508.37>
@@ -184,6 +191,7 @@ presets:
       presets: _Shrine<Ne'ez Yohma,shrine,3323.58,239.28,-518.83>
     NoeRajee:
       presets: _Shrine<Noe Rajee,shrine-dlc,-3820.27,89.77,-2311.2>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     NoyaNeha:
       presets: _Shrine<Noya Neha,shrine-sword,-951.18,134.36,-623.76>
@@ -203,11 +211,13 @@ presets:
       presets: _Shrine<Rin Oyaa,shrine,-1721.37,335.74,-2554.46>
     RinuHonika:
       presets: _Shrine<Rinu Honika,shrine-dlc,2241.35,541.82,-1995.7>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     RitaagZumo:
       presets: _Shrine<Ritaag Zumo,shrine-blessing,4524.6,107.77,-2127.5>
     RohtaChigah:
       presets: _Shrine<Rohta Chigah,shrine-dlc,-517.17,173.8,1798.4>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     RokUwog:
       presets: _Shrine<Rok Uwog,shrine,-2378.01,485.91,-3224.74>
@@ -219,6 +229,7 @@ presets:
       presets: _Shrine<Rucco Maag,shrine,3333.5,119.0,401.5>
     RuvoKorbah:
       presets: _Shrine<Ruvo Korbah,shrine-dlc,-834.56,189.8,2145.07>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     SaasKosah:
       presets: _Shrine<Saas Ko'sah,shrine-double-sword,-147.4,144.22,-1159.35>
@@ -228,6 +239,7 @@ presets:
       presets: _Shrine<Sasa Kai,shrine-double-sword,-3559.8,352.78,1953.0>
     SatoKoda:
       presets: _Shrine<Sato Koda,shrine-dlc,3102.94,542.91,-833.22>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     ShaGehma:
       presets: _Shrine<Sha Gehma,shrine,-1673.17,346.57,-3758.45>
@@ -247,6 +259,7 @@ presets:
       presets: _Shrine<Shai Yota,shrine-blessing,4245.54,110.92,252.95>
     SharoLun:
       presets: _Shrine<Sharo Lun,shrine-dlc,2932.71,630.51,-2418.1>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     SheeVaneer:
       presets: _Shrine<Shee Vaneer,shrine,1265.27,525.87,1938.7>
@@ -258,6 +271,7 @@ presets:
       presets: _Shrine<Sheh Rata,shrine,1510.45,128.41,-376.96>
     ShiraGomar:
       presets: _Shrine<Shira Gomar,shrine-dlc,-2376.74,264.97,-1382.98>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     ShoDantu:
       presets: _Shrine<Sho Dantu,shrine,-3911.26,396.0,1653.8>
@@ -275,6 +289,7 @@ presets:
       presets: _Shrine<Tah Muhl,shrine,2300.66,213.35,-941.32>
     TakamaShiri:
       presets: _Shrine<Takama Shiri,shrine-dlc,-4895.49,141.98,2155.5>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     TalohNaeg:
       presets: _Shrine<Ta'loh Naeg,shrine-sword,1841.92,260.1,890.4>
@@ -306,6 +321,7 @@ presets:
       presets: _Shrine<Yah Rin,shrine,2833.36,152.75,3310.97>
     YowakaIta:
       presets: _Shrine<Yowaka Ita,shrine-dlc,-941.14,187.7,1672.45>
+      icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}
       counter: .var(counter-dlc-shrine)
     ZaltaWa:
       presets: _Shrine<Zalta Wa,shrine,-1432.3,138.32,-594.19>

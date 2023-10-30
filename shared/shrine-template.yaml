@@ -1,8 +1,0 @@
-Shrine:
-  text: ".loc($(0))"
-  icon:
-    doc: shrine
-    map: shrine
-    priority: 0
-  counter: .var(counter-shrine)
-  coord: [$(2), $(3), $(4)]

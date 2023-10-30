@@ -36,6 +36,9 @@ tags:
     color:
       dark: yellow
       light: darkyellow
+  counter-warp:
+    color: black
+    background: cyan
 
 icons:
   chest: https://icons.pistonite.org/icon/shrine.blessing.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
@@ -59,8 +62,25 @@ icons:
   make-morning: https://icons.pistonite.org/icon/misc.pot.none.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
   make-noon: https://icons.pistonite.org/icon/misc.pot.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
   make-night: https://icons.pistonite.org/icon/misc.pot.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  warp: https://icons.pistonite.org/icon/location.travel_medallion.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
 
 presets:
+  Warp3:
+    text: ".loc($(0))"
+    icon:
+      doc: warp
+    counter: .var(counter-warp)
+    movements:
+    - to: [$(1), $(2), $(3)]
+      warp: true
+  Warp:
+    text: ".loc($(0))"
+    icon:
+      doc: warp
+    counter: .var(counter-warp)
+    movements:
+    - to: [$(1), $(2)]
+      warp: true
   _Tod:
     Morning:
       text: Make Morning
