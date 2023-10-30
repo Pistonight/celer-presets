@@ -19,7 +19,7 @@ for shrine_id in data:
         exit(1)
     icon_id = icons[typ]
     name = data[shrine_id]["name"]
-    coord = shrines["data"][shrine_id]["coord"]
+    coord = data[shrine_id]["coord"]
     coord_str = str(coord[0]) + "," + str(coord[1]) + "," + str(coord[2])
     print(f"  {shrine_id}:")
     if typ.endswith("Cave"):

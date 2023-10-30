@@ -1,3 +1,4 @@
 includes:
 - use: ./map.yaml
 - use: ../botw/parts/basic.yaml
+- use: ./parts/basic.yaml

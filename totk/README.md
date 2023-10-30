@@ -75,6 +75,13 @@ Blessings, Proving Grounds and Combat Trainings are also indicated with differen
 - _Shrine::Mayachin # Mayachin Shrine
 - _Shrine::Oogim    # O-ogim Shrine
 ```
+#### `Lightroot`
+Provides lightroot name and coordinates and displays the number of lightroots completed.
+```yaml
+# Lightroots are identified by the (English) name without hyphens ('-')
+- _Lightroot::Nihcayam # Nihcayam Lightroot
+- _Lightroot::Migoo    # Migo-o Lightroot
+```
 #### `Tower`
 Provides coordiantes for all towers. Each tower is identified by its English name without spaces or apostrophes.
 ```yaml
@@ -86,6 +93,8 @@ executed.
 ```yaml
 # Warping to a shrine
 - _Warp::Shrine::Kudanisar
+# Warping to a lightroot
+- _Warp::Lightroot::Rasinaduk
 # Warping to a tower
 - _Warp::Tower::LindorsBrow
 # Warping to a temple TODO

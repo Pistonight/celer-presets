@@ -1,0 +1,743 @@
+# GENERATED FILE DO NOT EDIT!
+# Edit the .txtpp file in the same directory instead
+icons:
+  lightroot: https://icons.pistonite.org/icon/location.lightroot.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+
+tags:
+  counter-lightroot:
+    color: black
+    background: "#4AD59C"
+
+presets:
+  Lightroot:
+    text: ".loc($(0))"
+    icon:
+      doc: lightroot
+      map: lightroot
+      priority: 0
+    counter: .var(counter-lightroot)
+    coord: [$(1), $(2), $(3)]
+  _Lightroot:
+    Anehi:
+      presets: _Lightroot<A-nehi,3785.35,-841.8,578.28>
+    Aduon:
+      presets: _Lightroot<Aduon,-2317.5,-696.49,2200.5>
+    Agihiihcoj:
+      presets: _Lightroot<Agihi-ihcoj,3811.51,-452.19,1219.2>
+    Akinatanis:
+      presets: _Lightroot<Akinatanis,3840.99,-403.37,2300.49>
+    Amakawis:
+      presets: _Lightroot<Amakawis,-2439.83,-380.51,-3343.33>
+    Amone:
+      presets: _Lightroot<Amo-ne,102.55,-329.68,-2518.55>
+    Anonisik:
+      presets: _Lightroot<Anonisik,2568.27,-516.06,1246.85>
+    Apapes:
+      presets: _Lightroot<Apapes,221.12,-389.88,1084.28>
+    Arusakam:
+      presets: _Lightroot<Arusakam,1769.31,-524.07,-1052.74>
+    Busus:
+      presets: _Lightroot<Busus,350.12,-386.97,-2052.09>
+    Camobatures:
+      presets: _Lightroot<Camobatures,-177.86,-430.89,1169.74>
+    Cugukaram:
+      presets: _Lightroot<Cugukaram,1763.01,-634.8,2510.51>
+    Eknupup:
+      presets: _Lightroot<Eknupup,622.49,-527.19,2211.11>
+    Gadohsi:
+      presets: _Lightroot<Gadohsi,-878.5,-412.93,423>
+    Gataharak:
+      presets: _Lightroot<Gataharak,-3728.64,-409.91,-3624.79>
+    Gedihcayam:
+      presets: _Lightroot<Gedihcayam,3060.81,-578.4,1825>
+    Gonatoyrim:
+      presets: _Lightroot<Gonatoyrim,-4681,-419.23,-3086>
+    Gonatoyros:
+      presets: _Lightroot<Gonatoyros,-3882.91,-349.86,-2963.26>
+    Iayusus:
+      presets: _Lightroot<Iayusus,-785,-385.13,-433.14>
+    Ikatoayam:
+      presets: _Lightroot<Ikatoayam,-849.82,-531.78,3534.5>
+    Jadukakar:
+      presets: _Lightroot<Jadukakar,-2037.14,-420.06,-1852.42>
+    Kasari:
+      presets: _Lightroot<Kasari,-4158,-394.06,-3826>
+    Kataki:
+      presets: _Lightroot<Kataki,-3951.66,-467.38,1139.88>
+    Katenim:
+      presets: _Lightroot<Katenim,394.15,-510.25,3483.69>
+    Katijabis:
+      presets: _Lightroot<Katijabis,2400.57,-760.19,3276.02>
+    Kato:
+      presets: _Lightroot<Kato,-4389.6,-618.22,3713.84>
+    Katoij:
+      presets: _Lightroot<Katoij,1835.07,-753.44,3181.13>
+    Kawagom:
+      presets: _Lightroot<Kawagom,3298.19,-664.75,419.85>
+    Kawakanis:
+      presets: _Lightroot<Kawakanis,-1415.62,-453.75,756.72>
+    Kawakarut:
+      presets: _Lightroot<Kawakarut,-3487.43,-431.44,-214.53>
+    Kawamit:
+      presets: _Lightroot<Kawamit,1799.97,-664.93,1640.44>
+    Kawatik:
+      presets: _Lightroot<Kawatik,-1531.17,-646.61,-2928.53>
+    Kawikatisar:
+      presets: _Lightroot<Kawikatisar,4166.82,-589.04,1321.75>
+    Kawiraus:
+      presets: _Lightroot<Kawiraus,-2525.13,-629.1,-1769.61>
+    Kawisar:
+      presets: _Lightroot<Kawisar,4663.5,-368.81,3264>
+    Kawumoro:
+      presets: _Lightroot<Kawumoro,-3077.6,-602.5,1616.87>
+    Kayam:
+      presets: _Lightroot<Kayam,1269,-468.94,3733>
+    Kegopa:
+      presets: _Lightroot<Kegopa,3886.35,-524.25,-215.83>
+    Kimakarut:
+      presets: _Lightroot<Kimakarut,-2656.33,-403.64,-2237.69>
+    Kimimadena:
+      presets: _Lightroot<Kimimadena,4232.82,-437.11,-2177.38>
+    Kimimeg:
+      presets: _Lightroot<Kimimeg,4512,-368.79,2115>
+    Kimnaz:
+      presets: _Lightroot<Kimnaz,3469.77,-510.14,-2181.75>
+    Kisihayam:
+      presets: _Lightroot<Kisihayam,3728.46,-581.06,-2059.05>
+    Kisomom:
+      presets: _Lightroot<Kisomom,2961,-878.99,2758>
+    Kogoir:
+      presets: _Lightroot<Kogoir,-1442.4,-453.7,-1616.16>
+    Kohsustu:
+      presets: _Lightroot<Kohsustu,670.98,-399.3,-3358.21>
+    Koradat:
+      presets: _Lightroot<Koradat,-1080.7,-476.95,-2186.45>
+    Korakut:
+      presets: _Lightroot<Korakut,915.73,-397.08,-251.98>
+    Koronui:
+      presets: _Lightroot<Koro-nui,-3538.9,-491.66,852>
+    Korom:
+      presets: _Lightroot<Korom,1180.71,-415.59,-778.9>
+    Kotimab:
+      presets: _Lightroot<Kotimab,3093,-539.94,-3209.47>
+    Kuhsagi:
+      presets: _Lightroot<Kuhsagi,4654.5,-295.47,3732>
+    Kuzimoy:
+      presets: _Lightroot<Kuzimoy,4413.19,-429.06,-612.32>
+    Migoo:
+      presets: _Lightroot<Migo-o,2755.97,-464.94,-1088.35>
+    Mihcihc:
+      presets: _Lightroot<Mihcihc,-3211,-386.35,-3005.5>
+    Mimufis:
+      presets: _Lightroot<Mimufis,2825.33,-442.06,-3269.48>
+    Misisi:
+      presets: _Lightroot<Misisi,1842.18,-753.95,2843.02>
+    Muufatur:
+      presets: _Lightroot<Mu-ufatur,-2998.44,-921.9,3100.83>
+    Muustust:
+      presets: _Lightroot<Mu-ustust,-1423.25,-433.22,-1351.75>
+    Muihcoro:
+      presets: _Lightroot<Muihcoro,-1637.53,-601.18,2642.46>
+    Muokuij:
+      presets: _Lightroot<Muokuij,867.5,-471.85,-2277.4>
+    Muotue:
+      presets: _Lightroot<Muotue,-3508.26,-742.27,3568.96>
+    Mustis:
+      presets: _Lightroot<Mustis,2368.05,-864.34,2596.93>
+    Mustuto:
+      presets: _Lightroot<Mustuto,-4469.55,-864.44,-672.31>
+    Muzasu:
+      presets: _Lightroot<Muzasu,-2138.11,-458.22,-874.94>
+    Nabahiikat:
+      presets: _Lightroot<Nabahi-ikat,-1829.35,-638.63,1196.2>
+    Napanos:
+      presets: _Lightroot<Napanos,-1921.5,-551.18,-359.5>
+    Narusis:
+      presets: _Lightroot<Narusis,-2558.53,-605.63,3354.17>
+    Netamnet:
+      presets: _Lightroot<Netamnet,-595.16,-514.75,1549.86>
+    Netinet:
+      presets: _Lightroot<Netinet,-73.92,-387.34,-1115.67>
+    Niiraram:
+      presets: _Lightroot<Ni-iraram,4630.28,-421.5,-3711.55>
+    Nihcayam:
+      presets: _Lightroot<Nihcayam,-705.5,-396.47,-867.5>
+    Nikakik:
+      presets: _Lightroot<Nikakik,-396.57,-640.75,2735.14>
+    Nikohsi:
+      presets: _Lightroot<Nikohsi,-564,-490.06,-3524>
+    Nipahsom:
+      presets: _Lightroot<Nipahsom,2679.83,-603.96,1903.64>
+    Nisoij:
+      presets: _Lightroot<Nisoij,-240.49,-393.62,-372>
+    Niuzimod:
+      presets: _Lightroot<Niuzimod,3304,-705.82,1442.5>
+    Nogukoyk:
+      presets: _Lightroot<Nogukoyk,-708.25,-432.69,-1551.15>
+    Nojoj:
+      presets: _Lightroot<Nojoj,1201.39,-490.06,330.45>
+    Nupisoyuat:
+      presets: _Lightroot<Nupisoyuat,-4537.86,-623.13,2879.8>
+    Nuzimak:
+      presets: _Lightroot<Nuzimak,-178.5,-389.15,-1559>
+    Oyimay:
+      presets: _Lightroot<Oyimay,333.76,-395.15,469.21>
+    Ramobnukas:
+      presets: _Lightroot<Ramobnukas,166.85,-541.29,2321.11>
+    Rasinaduk:
+      presets: _Lightroot<Rasinaduk,-4168.96,-403.25,-2142.15>
+    Rikonasum:
+      presets: _Lightroot<Rikonasum,406.87,-507.69,2134.19>
+    Sasag:
+      presets: _Lightroot<Sasag,-4154.09,-405.06,97.88>
+    Sekioam:
+      presets: _Lightroot<Sekioam,2276.46,-416.78,149.69>
+    Siakij:
+      presets: _Lightroot<Siakij,4267.47,-544.2,-1672.61>
+    Sijnin:
+      presets: _Lightroot<Sijnin,355.42,-541.36,1892.53>
+    Sijotu:
+      presets: _Lightroot<Sijotu,1218.92,-527.56,-2544.04>
+    Sikatag:
+      presets: _Lightroot<Sikatag,-3652.5,-332.63,1806.6>
+    Sikurukam:
+      presets: _Lightroot<Sikurukam,-2846.07,-537.38,630.23>
+    Sikutamak:
+      presets: _Lightroot<Sikutamak,3431.07,-436.23,3357.72>
+    Sinonoyk:
+      presets: _Lightroot<Sinonoyk,-204.28,-387.94,450.98>
+    Sisinatag:
+      presets: _Lightroot<Sisinatag,4497.35,-451.14,827.29>
+    Sisustom:
+      presets: _Lightroot<Sisustom,-1795,-372.53,-3497.96>
+    Sooaw:
+      presets: _Lightroot<So-oaw,-4057.83,-590.22,1989.2>
+    Sohse:
+      presets: _Lightroot<Sohse,1563.42,-379.53,-1944.99>
+    Stakijat:
+      presets: _Lightroot<Stakijat,343.39,-383.81,-1008.14>
+    Stamayam:
+      presets: _Lightroot<Stamayam,-4638.19,-806.25,-1512.44>
+    Takaruk:
+      presets: _Lightroot<Takaruk,2360.32,-504.8,-510.34>
+    Tatayam:
+      presets: _Lightroot<Tatayam,-3291.2,-391.28,-2511.39>
+    Tayamik:
+      presets: _Lightroot<Tayamik,2864.62,-600.69,3639.03>
+    Tikanur:
+      presets: _Lightroot<Tikanur,-2529,-538.66,1170>
+    Unazohso:
+      presets: _Lightroot<U-nazohso,-1403.5,-628.09,3678>
+    Uuujoj:
+      presets: _Lightroot<U-u-ujoj,1514.29,-445.35,-3577.54>
+    Uasnoj:
+      presets: _Lightroot<Uasnoj,1742.84,-375.28,18.16>
+    Uiihcoj:
+      presets: _Lightroot<Ui-ihcoj,4346.98,-523.64,2877.12>
+    Uihcoke:
+      presets: _Lightroot<Uihcoke,1063.06,-411.13,1281.37>
+    Uinoj:
+      presets: _Lightroot<Uinoj,2918.25,-710.82,508>
+    Uisihcoj:
+      presets: _Lightroot<Uisihcoj,930.07,-375.69,-1903.99>
+    Umamustor:
+      presets: _Lightroot<Umamustor,-3406.3,-695.33,-1363.85>
+    Uogoj:
+      presets: _Lightroot<Uogoj,3346.27,-525.5,-1185.89>
+    Uoyoyuik:
+      presets: _Lightroot<Uoyoyuik,-1106.74,-469.42,2088.81>
+    Usukaz:
+      presets: _Lightroot<Usukaz,3525.24,-527.78,-1482.46>
+    Uukukis:
+      presets: _Lightroot<Uukukis,697.56,-586.94,2792.88>
+    Worihas:
+      presets: _Lightroot<Worihas,-3353.5,-718.13,2385.5>
+    Yikot:
+      presets: _Lightroot<Yikot,2303.24,-533.1,-2378.5>
+    Yisuayam:
+      presets: _Lightroot<Yisuayam,-1167.91,-266.02,2602.32>
+    Ziner:
+      presets: _Lightroot<Zi-ner,757.46,-447.3,823.95>
+  _Warp:
+    _Lightroot:
+      Anehi:
+        presets:
+        - _Warp3<A-nehi,3785.35,-841.8,578.28>
+        - _WarpDepth
+      Aduon:
+        presets:
+        - _Warp3<Aduon,-2317.5,-696.49,2200.5>
+        - _WarpDepth
+      Agihiihcoj:
+        presets:
+        - _Warp3<Agihi-ihcoj,3811.51,-452.19,1219.2>
+        - _WarpDepth
+      Akinatanis:
+        presets:
+        - _Warp3<Akinatanis,3840.99,-403.37,2300.49>
+        - _WarpDepth
+      Amakawis:
+        presets:
+        - _Warp3<Amakawis,-2439.83,-380.51,-3343.33>
+        - _WarpDepth
+      Amone:
+        presets:
+        - _Warp3<Amo-ne,102.55,-329.68,-2518.55>
+        - _WarpDepth
+      Anonisik:
+        presets:
+        - _Warp3<Anonisik,2568.27,-516.06,1246.85>
+        - _WarpDepth
+      Apapes:
+        presets:
+        - _Warp3<Apapes,221.12,-389.88,1084.28>
+        - _WarpDepth
+      Arusakam:
+        presets:
+        - _Warp3<Arusakam,1769.31,-524.07,-1052.74>
+        - _WarpDepth
+      Busus:
+        presets:
+        - _Warp3<Busus,350.12,-386.97,-2052.09>
+        - _WarpDepth
+      Camobatures:
+        presets:
+        - _Warp3<Camobatures,-177.86,-430.89,1169.74>
+        - _WarpDepth
+      Cugukaram:
+        presets:
+        - _Warp3<Cugukaram,1763.01,-634.8,2510.51>
+        - _WarpDepth
+      Eknupup:
+        presets:
+        - _Warp3<Eknupup,622.49,-527.19,2211.11>
+        - _WarpDepth
+      Gadohsi:
+        presets:
+        - _Warp3<Gadohsi,-878.5,-412.93,423>
+        - _WarpDepth
+      Gataharak:
+        presets:
+        - _Warp3<Gataharak,-3728.64,-409.91,-3624.79>
+        - _WarpDepth
+      Gedihcayam:
+        presets:
+        - _Warp3<Gedihcayam,3060.81,-578.4,1825>
+        - _WarpDepth
+      Gonatoyrim:
+        presets:
+        - _Warp3<Gonatoyrim,-4681,-419.23,-3086>
+        - _WarpDepth
+      Gonatoyros:
+        presets:
+        - _Warp3<Gonatoyros,-3882.91,-349.86,-2963.26>
+        - _WarpDepth
+      Iayusus:
+        presets:
+        - _Warp3<Iayusus,-785,-385.13,-433.14>
+        - _WarpDepth
+      Ikatoayam:
+        presets:
+        - _Warp3<Ikatoayam,-849.82,-531.78,3534.5>
+        - _WarpDepth
+      Jadukakar:
+        presets:
+        - _Warp3<Jadukakar,-2037.14,-420.06,-1852.42>
+        - _WarpDepth
+      Kasari:
+        presets:
+        - _Warp3<Kasari,-4158,-394.06,-3826>
+        - _WarpDepth
+      Kataki:
+        presets:
+        - _Warp3<Kataki,-3951.66,-467.38,1139.88>
+        - _WarpDepth
+      Katenim:
+        presets:
+        - _Warp3<Katenim,394.15,-510.25,3483.69>
+        - _WarpDepth
+      Katijabis:
+        presets:
+        - _Warp3<Katijabis,2400.57,-760.19,3276.02>
+        - _WarpDepth
+      Kato:
+        presets:
+        - _Warp3<Kato,-4389.6,-618.22,3713.84>
+        - _WarpDepth
+      Katoij:
+        presets:
+        - _Warp3<Katoij,1835.07,-753.44,3181.13>
+        - _WarpDepth
+      Kawagom:
+        presets:
+        - _Warp3<Kawagom,3298.19,-664.75,419.85>
+        - _WarpDepth
+      Kawakanis:
+        presets:
+        - _Warp3<Kawakanis,-1415.62,-453.75,756.72>
+        - _WarpDepth
+      Kawakarut:
+        presets:
+        - _Warp3<Kawakarut,-3487.43,-431.44,-214.53>
+        - _WarpDepth
+      Kawamit:
+        presets:
+        - _Warp3<Kawamit,1799.97,-664.93,1640.44>
+        - _WarpDepth
+      Kawatik:
+        presets:
+        - _Warp3<Kawatik,-1531.17,-646.61,-2928.53>
+        - _WarpDepth
+      Kawikatisar:
+        presets:
+        - _Warp3<Kawikatisar,4166.82,-589.04,1321.75>
+        - _WarpDepth
+      Kawiraus:
+        presets:
+        - _Warp3<Kawiraus,-2525.13,-629.1,-1769.61>
+        - _WarpDepth
+      Kawisar:
+        presets:
+        - _Warp3<Kawisar,4663.5,-368.81,3264>
+        - _WarpDepth
+      Kawumoro:
+        presets:
+        - _Warp3<Kawumoro,-3077.6,-602.5,1616.87>
+        - _WarpDepth
+      Kayam:
+        presets:
+        - _Warp3<Kayam,1269,-468.94,3733>
+        - _WarpDepth
+      Kegopa:
+        presets:
+        - _Warp3<Kegopa,3886.35,-524.25,-215.83>
+        - _WarpDepth
+      Kimakarut:
+        presets:
+        - _Warp3<Kimakarut,-2656.33,-403.64,-2237.69>
+        - _WarpDepth
+      Kimimadena:
+        presets:
+        - _Warp3<Kimimadena,4232.82,-437.11,-2177.38>
+        - _WarpDepth
+      Kimimeg:
+        presets:
+        - _Warp3<Kimimeg,4512,-368.79,2115>
+        - _WarpDepth
+      Kimnaz:
+        presets:
+        - _Warp3<Kimnaz,3469.77,-510.14,-2181.75>
+        - _WarpDepth
+      Kisihayam:
+        presets:
+        - _Warp3<Kisihayam,3728.46,-581.06,-2059.05>
+        - _WarpDepth
+      Kisomom:
+        presets:
+        - _Warp3<Kisomom,2961,-878.99,2758>
+        - _WarpDepth
+      Kogoir:
+        presets:
+        - _Warp3<Kogoir,-1442.4,-453.7,-1616.16>
+        - _WarpDepth
+      Kohsustu:
+        presets:
+        - _Warp3<Kohsustu,670.98,-399.3,-3358.21>
+        - _WarpDepth
+      Koradat:
+        presets:
+        - _Warp3<Koradat,-1080.7,-476.95,-2186.45>
+        - _WarpDepth
+      Korakut:
+        presets:
+        - _Warp3<Korakut,915.73,-397.08,-251.98>
+        - _WarpDepth
+      Koronui:
+        presets:
+        - _Warp3<Koro-nui,-3538.9,-491.66,852>
+        - _WarpDepth
+      Korom:
+        presets:
+        - _Warp3<Korom,1180.71,-415.59,-778.9>
+        - _WarpDepth
+      Kotimab:
+        presets:
+        - _Warp3<Kotimab,3093,-539.94,-3209.47>
+        - _WarpDepth
+      Kuhsagi:
+        presets:
+        - _Warp3<Kuhsagi,4654.5,-295.47,3732>
+        - _WarpDepth
+      Kuzimoy:
+        presets:
+        - _Warp3<Kuzimoy,4413.19,-429.06,-612.32>
+        - _WarpDepth
+      Migoo:
+        presets:
+        - _Warp3<Migo-o,2755.97,-464.94,-1088.35>
+        - _WarpDepth
+      Mihcihc:
+        presets:
+        - _Warp3<Mihcihc,-3211,-386.35,-3005.5>
+        - _WarpDepth
+      Mimufis:
+        presets:
+        - _Warp3<Mimufis,2825.33,-442.06,-3269.48>
+        - _WarpDepth
+      Misisi:
+        presets:
+        - _Warp3<Misisi,1842.18,-753.95,2843.02>
+        - _WarpDepth
+      Muufatur:
+        presets:
+        - _Warp3<Mu-ufatur,-2998.44,-921.9,3100.83>
+        - _WarpDepth
+      Muustust:
+        presets:
+        - _Warp3<Mu-ustust,-1423.25,-433.22,-1351.75>
+        - _WarpDepth
+      Muihcoro:
+        presets:
+        - _Warp3<Muihcoro,-1637.53,-601.18,2642.46>
+        - _WarpDepth
+      Muokuij:
+        presets:
+        - _Warp3<Muokuij,867.5,-471.85,-2277.4>
+        - _WarpDepth
+      Muotue:
+        presets:
+        - _Warp3<Muotue,-3508.26,-742.27,3568.96>
+        - _WarpDepth
+      Mustis:
+        presets:
+        - _Warp3<Mustis,2368.05,-864.34,2596.93>
+        - _WarpDepth
+      Mustuto:
+        presets:
+        - _Warp3<Mustuto,-4469.55,-864.44,-672.31>
+        - _WarpDepth
+      Muzasu:
+        presets:
+        - _Warp3<Muzasu,-2138.11,-458.22,-874.94>
+        - _WarpDepth
+      Nabahiikat:
+        presets:
+        - _Warp3<Nabahi-ikat,-1829.35,-638.63,1196.2>
+        - _WarpDepth
+      Napanos:
+        presets:
+        - _Warp3<Napanos,-1921.5,-551.18,-359.5>
+        - _WarpDepth
+      Narusis:
+        presets:
+        - _Warp3<Narusis,-2558.53,-605.63,3354.17>
+        - _WarpDepth
+      Netamnet:
+        presets:
+        - _Warp3<Netamnet,-595.16,-514.75,1549.86>
+        - _WarpDepth
+      Netinet:
+        presets:
+        - _Warp3<Netinet,-73.92,-387.34,-1115.67>
+        - _WarpDepth
+      Niiraram:
+        presets:
+        - _Warp3<Ni-iraram,4630.28,-421.5,-3711.55>
+        - _WarpDepth
+      Nihcayam:
+        presets:
+        - _Warp3<Nihcayam,-705.5,-396.47,-867.5>
+        - _WarpDepth
+      Nikakik:
+        presets:
+        - _Warp3<Nikakik,-396.57,-640.75,2735.14>
+        - _WarpDepth
+      Nikohsi:
+        presets:
+        - _Warp3<Nikohsi,-564,-490.06,-3524>
+        - _WarpDepth
+      Nipahsom:
+        presets:
+        - _Warp3<Nipahsom,2679.83,-603.96,1903.64>
+        - _WarpDepth
+      Nisoij:
+        presets:
+        - _Warp3<Nisoij,-240.49,-393.62,-372>
+        - _WarpDepth
+      Niuzimod:
+        presets:
+        - _Warp3<Niuzimod,3304,-705.82,1442.5>
+        - _WarpDepth
+      Nogukoyk:
+        presets:
+        - _Warp3<Nogukoyk,-708.25,-432.69,-1551.15>
+        - _WarpDepth
+      Nojoj:
+        presets:
+        - _Warp3<Nojoj,1201.39,-490.06,330.45>
+        - _WarpDepth
+      Nupisoyuat:
+        presets:
+        - _Warp3<Nupisoyuat,-4537.86,-623.13,2879.8>
+        - _WarpDepth
+      Nuzimak:
+        presets:
+        - _Warp3<Nuzimak,-178.5,-389.15,-1559>
+        - _WarpDepth
+      Oyimay:
+        presets:
+        - _Warp3<Oyimay,333.76,-395.15,469.21>
+        - _WarpDepth
+      Ramobnukas:
+        presets:
+        - _Warp3<Ramobnukas,166.85,-541.29,2321.11>
+        - _WarpDepth
+      Rasinaduk:
+        presets:
+        - _Warp3<Rasinaduk,-4168.96,-403.25,-2142.15>
+        - _WarpDepth
+      Rikonasum:
+        presets:
+        - _Warp3<Rikonasum,406.87,-507.69,2134.19>
+        - _WarpDepth
+      Sasag:
+        presets:
+        - _Warp3<Sasag,-4154.09,-405.06,97.88>
+        - _WarpDepth
+      Sekioam:
+        presets:
+        - _Warp3<Sekioam,2276.46,-416.78,149.69>
+        - _WarpDepth
+      Siakij:
+        presets:
+        - _Warp3<Siakij,4267.47,-544.2,-1672.61>
+        - _WarpDepth
+      Sijnin:
+        presets:
+        - _Warp3<Sijnin,355.42,-541.36,1892.53>
+        - _WarpDepth
+      Sijotu:
+        presets:
+        - _Warp3<Sijotu,1218.92,-527.56,-2544.04>
+        - _WarpDepth
+      Sikatag:
+        presets:
+        - _Warp3<Sikatag,-3652.5,-332.63,1806.6>
+        - _WarpDepth
+      Sikurukam:
+        presets:
+        - _Warp3<Sikurukam,-2846.07,-537.38,630.23>
+        - _WarpDepth
+      Sikutamak:
+        presets:
+        - _Warp3<Sikutamak,3431.07,-436.23,3357.72>
+        - _WarpDepth
+      Sinonoyk:
+        presets:
+        - _Warp3<Sinonoyk,-204.28,-387.94,450.98>
+        - _WarpDepth
+      Sisinatag:
+        presets:
+        - _Warp3<Sisinatag,4497.35,-451.14,827.29>
+        - _WarpDepth
+      Sisustom:
+        presets:
+        - _Warp3<Sisustom,-1795,-372.53,-3497.96>
+        - _WarpDepth
+      Sooaw:
+        presets:
+        - _Warp3<So-oaw,-4057.83,-590.22,1989.2>
+        - _WarpDepth
+      Sohse:
+        presets:
+        - _Warp3<Sohse,1563.42,-379.53,-1944.99>
+        - _WarpDepth
+      Stakijat:
+        presets:
+        - _Warp3<Stakijat,343.39,-383.81,-1008.14>
+        - _WarpDepth
+      Stamayam:
+        presets:
+        - _Warp3<Stamayam,-4638.19,-806.25,-1512.44>
+        - _WarpDepth
+      Takaruk:
+        presets:
+        - _Warp3<Takaruk,2360.32,-504.8,-510.34>
+        - _WarpDepth
+      Tatayam:
+        presets:
+        - _Warp3<Tatayam,-3291.2,-391.28,-2511.39>
+        - _WarpDepth
+      Tayamik:
+        presets:
+        - _Warp3<Tayamik,2864.62,-600.69,3639.03>
+        - _WarpDepth
+      Tikanur:
+        presets:
+        - _Warp3<Tikanur,-2529,-538.66,1170>
+        - _WarpDepth
+      Unazohso:
+        presets:
+        - _Warp3<U-nazohso,-1403.5,-628.09,3678>
+        - _WarpDepth
+      Uuujoj:
+        presets:
+        - _Warp3<U-u-ujoj,1514.29,-445.35,-3577.54>
+        - _WarpDepth
+      Uasnoj:
+        presets:
+        - _Warp3<Uasnoj,1742.84,-375.28,18.16>
+        - _WarpDepth
+      Uiihcoj:
+        presets:
+        - _Warp3<Ui-ihcoj,4346.98,-523.64,2877.12>
+        - _WarpDepth
+      Uihcoke:
+        presets:
+        - _Warp3<Uihcoke,1063.06,-411.13,1281.37>
+        - _WarpDepth
+      Uinoj:
+        presets:
+        - _Warp3<Uinoj,2918.25,-710.82,508>
+        - _WarpDepth
+      Uisihcoj:
+        presets:
+        - _Warp3<Uisihcoj,930.07,-375.69,-1903.99>
+        - _WarpDepth
+      Umamustor:
+        presets:
+        - _Warp3<Umamustor,-3406.3,-695.33,-1363.85>
+        - _WarpDepth
+      Uogoj:
+        presets:
+        - _Warp3<Uogoj,3346.27,-525.5,-1185.89>
+        - _WarpDepth
+      Uoyoyuik:
+        presets:
+        - _Warp3<Uoyoyuik,-1106.74,-469.42,2088.81>
+        - _WarpDepth
+      Usukaz:
+        presets:
+        - _Warp3<Usukaz,3525.24,-527.78,-1482.46>
+        - _WarpDepth
+      Uukukis:
+        presets:
+        - _Warp3<Uukukis,697.56,-586.94,2792.88>
+        - _WarpDepth
+      Worihas:
+        presets:
+        - _Warp3<Worihas,-3353.5,-718.13,2385.5>
+        - _WarpDepth
+      Yikot:
+        presets:
+        - _Warp3<Yikot,2303.24,-533.1,-2378.5>
+        - _WarpDepth
+      Yisuayam:
+        presets:
+        - _Warp3<Yisuayam,-1167.91,-266.02,2602.32>
+        - _WarpDepth
+      Ziner:
+        presets:
+        - _Warp3<Zi-ner,757.46,-447.3,823.95>
+        - _WarpDepth
+

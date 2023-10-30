@@ -1,11 +1,11 @@
 # generate a celer project for testing presets
-# args: botw|totk path/to/preset.yaml
+# args: path/to/preset.yaml
 
 import sys
 import yaml
 
-game = sys.argv[1]
-preset_path = sys.argv[2]
+preset_path = sys.argv[1]
+game = preset_path.split("/")[0]
 
 project = {}
 project["title"] = f"Test {preset_path}"

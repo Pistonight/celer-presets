@@ -1,0 +1,7 @@
+icons:
+  warp-depth: https://icons.pistonite.org/icon/location.travel_medallion.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+
+presets:
+  WarpDepth:
+    icon:
+      doc: warp-depth

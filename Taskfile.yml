@@ -28,7 +28,7 @@ tasks:
     - python scripts/normalize-le.py totk
   
   project:
-    desc: "Generate a project for testing. Args: (botw|totk) path/to/preset.yaml"
+    desc: "Generate a project for testing. Args: path/to/preset.yaml"
     cmds:
     - python scripts/make-project.py {{.CLI_ARGS}}
 
