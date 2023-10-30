@@ -9,7 +9,10 @@ icons:
 presets:
   Tower:
     text: ".loc($(0) Tower)"
-    icon: tower
+    icon:
+      doc: tower
+      map: tower
+      priority: 0
     counter: .var(counter-tower)
     coord: [$(1), $(2), $(3)]
   _Tower:

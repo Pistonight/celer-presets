@@ -42,7 +42,7 @@ Each layer also includes everything in the previous layer
     - [Shrines](#shrine)
     - [Lightroots](#lightroot) TODO
     - [Bosses](#boss) TODO
-    - [Towers](#tower) TODO
+    - [Towers](#tower)
     - [Tears](#tear) TODO
     - [Warp](#warp) TODO
     ```yaml
@@ -75,13 +75,19 @@ Blessings, Proving Grounds and Combat Trainings are also indicated with differen
 - _Shrine::Mayachin # Mayachin Shrine
 - _Shrine::Oogim    # O-ogim Shrine
 ```
+#### `Tower`
+Provides coordiantes for all towers. Each tower is identified by its English name without spaces or apostrophes.
+```yaml
+- _Tower::LindorsBrow # Lindor's Brow Tower
+```
 #### `Warp`
 Provides coordinates for all warp points available. Also displays the number of warps
 executed.
 ```yaml
 # Warping to a shrine
 - _Warp::Shrine::Kudanisar
-# Warping to a tower TODO
+# Warping to a tower
+- _Warp::Tower::LindorsBrow
 # Warping to a temple TODO
 # Warping to tech labs TODO
 # Warping to RoA TODO

@@ -1,0 +1,36 @@
+# GENERATED FILE DO NOT EDIT!
+# Edit the .txtpp file in the same directory instead
+presets:
+  _Warp:
+    _Tower:
+      RosproPass:
+        presets: _Warp3<Rospro Pass Tower,-3679.58,331.74,2346.4>
+      GerudoHighlands:
+        presets: _Warp3<Gerudo Highlands Tower,-3960.88,521.37,-1305.6>
+      PikidaStonegrove:
+        presets: _Warp3<Pikida Stonegrove Tower,-2311.49,542,3062.49>
+      GerudoCanyon:
+        presets: _Warp3<Gerudo Canyon Tower,-2438.85,405.62,-2182.76>
+      LindorsBrow:
+        presets: _Warp3<Lindor's Brow Tower,-1909.59,395.71,1245.3>
+      LookoutLanding:
+        presets: _Warp3<Lookout Landing Tower,-298.85,123.94,142.85>
+      HyruleField:
+        presets: _Warp3<Hyrule Field Tower,-761.28,163.42,-1019.23>
+      ThyphloRuins:
+        presets: _Warp3<Thyphlo Ruins Tower,343.67,278.56,3141.65>
+      PoplaFoothills:
+        presets: _Warp3<Popla Foothills Tower,604.84,197.33,-2126.88>
+      EldinCanyon:
+        presets: _Warp3<Eldin Canyon Tower,1641.81,324.42,1190.82>
+      SahasraSlope:
+        presets: _Warp3<Sahasra Slope Tower,1341.11,265.26,-1177.86>
+      UplandZorana:
+        presets: _Warp3<Upland Zorana Tower,2866.06,478.33,581.19>
+      RabellaWetlands:
+        presets: _Warp3<Rabella Wetlands Tower,2420,321,-2754.89>
+      UlriMountain:
+        presets: _Warp3<Ulri Mountain Tower,3499,286.86,2026>
+      MountLanayru:
+        presets: _Warp3<Mount Lanayru Tower,3847.64,637.81,-1314.91>
+
