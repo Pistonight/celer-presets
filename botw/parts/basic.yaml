@@ -2,44 +2,63 @@ tags:
   item:
     color:
       dark: yellow
-      light: 
+      light: black
   loc:
     color: cyan
+    background:
+      dark: inherit
+      light: black
   npc:
-    color: green
+    color:
+      dark: "#0f0"
+      light: darkgreen
   rune:
     color: orange
+    background:
+      dark: inherit
+      light: black
   boss:
     color: orange
+    background:
+      dark: inherit
+      light: black
   enemy:
-    color: green
+    color: cyan
+    background:
+      dark: inherit
+      light: black
   important:
-    color: purple
+    color: magenta
+    background:
+      dark: inherit
+      light: black
   dir:
-    color: yellow
+    color:
+      dark: yellow
+      light: darkyellow
 
 icons:
-  chest:
-  chest-special:
-  bow:
-  equipment:
-  shield:
-  shop:
-  npc:
-  npc-rito:
-  npc-goron:
-  npc-gerudo:
-  npc-sheika-female:
-  npc-sheika-male:
-  npc-zora-female:
-  npc-zora-male:
-  cook:
-  location:
-  camera:
-  material:
-  make-morning:
-  make-noon:
-  make-night:
+  chest: https://icons.pistonite.org/icon/shrine.blessing.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  chest-special: https://icons.pistonite.org/icon/shrine.blessing.plus.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  bow: https://icons.pistonite.org/icon/misc.bow.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  equipment: https://icons.pistonite.org/icon/misc.hammer.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  shield: https://icons.pistonite.org/icon/misc.shield.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  shop: https://icons.pistonite.org/icon/location.house.circle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  npc: https://icons.pistonite.org/icon/character.terrako.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  npc-rito: https://icons.pistonite.org/icon/character.teba.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  npc-goron: https://icons.pistonite.org/icon/character.yunobo.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  npc-gerudo: https://icons.pistonite.org/icon/character.riju.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  npc-sheika-female: https://icons.pistonite.org/icon/character.impa.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  npc-sheika-male: https://icons.pistonite.org/icon/character.kohga.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  npc-zora-female: https://icons.pistonite.org/icon/character.mipha.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  npc-zora-male: https://icons.pistonite.org/icon/character.sidon.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  cook: https://icons.pistonite.org/icon/misc.pot.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  location: https://icons.pistonite.org/icon/location.house.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  camera: https://icons.pistonite.org/icon/rune.camera.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  material: https://icons.pistonite.org/icon/misc.apple.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  make-morning: https://icons.pistonite.org/icon/misc.pot.none.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  make-noon: https://icons.pistonite.org/icon/misc.pot.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  make-night: https://icons.pistonite.org/icon/misc.pot.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
 
 presets:
   _Tod:
@@ -116,14 +135,14 @@ presets:
     comment: SNAP
   Material:
     text: ".item($(0))"
-    comment: ".var($(0))"
+    comment: ".var(material<$(0)>)"
     icon: material
     vars:
-      "material<$(0)>": .add
+      "material<$(0)>": .add(1)
   _Material:
     Count:
       text: ".item($(1) $(0))"
-      comment: ".var($(0))"
+      comment: ".var(material<$(0)>)"
       icon: material
       vars:
         "material<$(0)>": .add($(1))
