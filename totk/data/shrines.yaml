@@ -1,0 +1,813 @@
+# Scheme:
+#
+# shrine types:
+# .meta.types[<TYPE>]:
+#   icon: string
+#   url: string
+#   time: number
+#
+# main shrine data:
+# .data[<ID>]:
+#   type: string
+#   name: string
+#   hash: string
+#   coord: [x,y,z] (y is height)
+meta:
+  types:
+    Shrine:
+      icon: shrine
+      url: https://icons.pistonite.org/icon/shrine.zonai.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    Blessing:
+      icon: shrine-blessing
+      url: https://icons.pistonite.org/icon/shrine.blessing.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    CombatTraining:
+      icon: shrine-sword
+      url: https://icons.pistonite.org/icon/shrine.sword.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    ProvingGrounds:
+      icon: shrine-double-sword
+      url: https://icons.pistonite.org/icon/shrine.double_sword.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    ShrineSky:
+      icon: shrine-sky
+      url: https://icons.pistonite.org/icon/shrine.zonai.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+    BlessingSky:
+      icon: shrine-blessing-sky
+      url: https://icons.pistonite.org/icon/shrine.blessing.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+    CombatTrainingSky:
+      icon: shrine-sword-sky
+      url: https://icons.pistonite.org/icon/shrine.sword.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+    ProvingGroundsSky:
+      icon: shrine-double-sword-sky
+      url: https://icons.pistonite.org/icon/shrine.double_sword.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+    ShrineCave:
+      icon: shrine-cave
+      url: https://icons.pistonite.org/icon/shrine.zonai.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+    BlessingCave:
+      icon: shrine-blessing-cave
+      url: https://icons.pistonite.org/icon/shrine.blessing.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+    CombatTrainingCave:
+      icon: shrine-sword-cave
+      url: https://icons.pistonite.org/icon/shrine.sword.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+    ProvingGroundsCave:
+      icon: shrine-double-sword-cave
+      url: https://icons.pistonite.org/icon/shrine.double_sword.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+data:
+  Anedamimik:
+    name: Anedamimik
+    type: todoCave
+    coord: [4232.21, 106.73, -2178.17]
+    hash: "0xe1c894455bc42f29"
+  Apogek:
+    name: Apogek
+    type: todo
+    coord: [3886.69, 283.2, -216.77]
+    hash: "0x681c358ab0f0dec1"
+  Bamitok:
+    name: Bamitok
+    type: todoCave
+    coord: [3093.98, 201.29, -3209.68]
+    hash: "0xac644094b1ef56ff"
+  Chichim:
+    name: Chichim
+    type: todoCave
+    coord: [-3211, 69, -3006.5]
+    hash: "0x714329d23f716f30"
+  Domizuin:
+    name: Domizuin
+    type: todo
+    coord: [3304.88, 545.1, 1442.98]
+    hash: "0x3370bc5c3ee7c44a"
+  Ekochiu:
+    name: Ekochiu
+    type: todo
+    coord: [1062.65, 164.78, 1280.46]
+    hash: "0xaa7b68de35d8173b"
+  Enoma:
+    name: En-oma
+    type: todoCave
+    coord: [103.41, 30.97, -2518.05]
+    hash: "0xc69e39c9b37ac9c5"
+  Eshos:
+    name: Eshos
+    type: todo
+    coord: [1565.84, 276.56, -1944.81]
+    hash: "0x3370bc5cb84cb76d"
+  Eutoum:
+    name: Eutoum
+    type: todo
+    coord: [-3506.88, 506.16, 3570]
+    hash: "0x997a80033b57caa0"
+  Gaahisas:
+    name: Ga-ahisas
+    type: todoSky
+    coord: [-3596.15, 1817.97, 960.79]
+    hash: "0x600aa155bea7c782"
+  Ganos:
+    name: Ganos
+    type: todoSky
+    coord: [-3369.64, 1814.48, 467.49]
+    hash: "0xedfa77560c33c1d4"
+  Gasas:
+    name: Gasas
+    type: todo
+    coord: [-4153.18, 159.69, 98.3]
+    hash: "0xb928eb376a87ab9e"
+  Gatakis:
+    name: Gatakis
+    type: todo
+    coord: [-3651.68, 287.6, 1806.03]
+    hash: "0x3370bc5ccb57d194"
+  Gatanisis:
+    name: Gatanisis
+    type: todo
+    coord: [4497.82, 214.6, 826.41]
+    hash: "0x2373503f8a996083"
+  Gemimik:
+    name: Gemimik
+    type: todo
+    coord: [4512.71, 120.67, 2115.71]
+    hash: "0x3f576bf0b1479fdb"
+  Gikaku:
+    name: Gikaku
+    type: todoSky
+    coord: [4506, 1274.02, 2166.02]
+    hash: "0xb043259b1be4386e"
+  Gutanbac:
+    name: Gutanbac
+    type: todoSky
+    coord: [709.13, 1703.65, -1382.69]
+    hash: "0xec345bd882c085ec"
+  Igashuk:
+    name: Igashuk
+    type: todo
+    coord: [4654.99, 250, 3713.84]
+    hash: "0xf2a99004fcdbca65"
+  Igoshon:
+    name: Igoshon
+    type: todoSky
+    coord: [3480.71, 1444.63, 665.88]
+    hash: "0xdb5f5d3dd6374c4c"
+  Ihena:
+    name: Ihen-a
+    type: todo
+    coord: [3786.22, 604.87, 577.78]
+    hash: "0x06881b053927764f"
+  Ijoo:
+    name: Ijo-o
+    type: todoSky
+    coord: [-3861.15, 821.76, 2681.52]
+    hash: "0xf743f42ea01ef03e"
+  Ikatak:
+    name: Ikatak
+    type: todo
+    coord: [-3951.06, 230.9, 1139.08]
+    hash: "0xe061922ed3cf8489"
+  Inisa:
+    name: In-isa
+    type: todoSky
+    coord: [26.07, 1527.75, -1503.6]
+    hash: "0x5b5fddd2dac37eec"
+  Irasak:
+    name: Irasak
+    type: todo
+    coord: [-4158.71, 146.9, -3825.29]
+    hash: "0xbfae3d8e46abeb4f"
+  Ishodag:
+    name: Ishodag
+    type: todo
+    coord: [-879.39, 168.4, 422.54]
+    hash: "0x2c70a36dedd8a22a"
+  Ishokin:
+    name: Ishokin
+    type: todo
+    coord: [-565, 248.2, -3524]
+    hash: "0xdf2a03501ab8a752"
+  Isisim:
+    name: Isisim
+    type: todoCave
+    coord: [1842.02, 482.62, 2842.03]
+    hash: "0xc83388829b580574"
+  Iunorok:
+    name: Iun-orok
+    type: todoCave
+    coord: [-3538.9, -14.32, 851]
+    hash: "0x305b0d5f08283993"
+  Jikais:
+    name: Jikais
+    type: todo
+    coord: [4266.92, 301.05, -1673.44]
+    hash: "0x3370bc5c13d77579"
+  Jinodok:
+    name: Jinodok
+    type: todoSky
+    coord: [-1257.24, 1127.17, -1486.96]
+    hash: "0x93412b7664c85faa"
+  Jiosin:
+    name: Jiosin
+    type: todo
+    coord: [-240.74, 145.9, -371.03]
+    hash: "0x319ec1829222c2ad"
+  Jiotak:
+    name: Jiotak
+    type: todoCave
+    coord: [1834.45, 376.79, 3180.35]
+    hash: "0xd02461915bb3ee5f"
+  Jirutagumac:
+    name: Jirutagumac
+    type: todoSky
+    coord: [2915.88, 1070.28, 534.32]
+    hash: "0x517074bb057c58de"
+  Jiukoum:
+    name: Jiukoum
+    type: todo
+    coord: [867.5, 260.5, -2278.4]
+    hash: "0xda2f58169b8c8299"
+  Jochiihiga:
+    name: Jochi-ihiga
+    type: todo
+    coord: [3810.52, 209.67, 1219.11]
+    hash: "0x166fe8014b89ff05"
+  Jochiiu:
+    name: Jochi-iu
+    type: todo
+    coord: [4346.62, 284.2, 2876.19]
+    hash: "0x3370bc5ca7115bf4"
+  Jochisiu:
+    name: Jochisiu
+    type: todo
+    coord: [930.89, 149.14, -1903.42]
+    hash: "0xae5754099e087d84"
+  Jogou:
+    name: Jogou
+    type: todoCave
+    coord: [3346.27, 176.64, -1186.89]
+    hash: "0xd8b9e896da29364e"
+  Jojon:
+    name: Jojon
+    type: todoCave
+    coord: [1202.09, 146, 329.73]
+    hash: "0x753cbb482d8e449a"
+  Jojuuu:
+    name: Joju-u-u
+    type: todo
+    coord: [1515.19, 261.14, -3577.11]
+    hash: "0x3370bc5ce63a8f77"
+  Jokuu:
+    name: Joku-u
+    type: todoSky
+    coord: [1376.41, 548.01, -3339.86]
+    hash: "0xe5cfba38513ff068"
+  Jokuusin:
+    name: Joku-usin
+    type: todoSky
+    coord: [1075.28, 905.12, -3347.77]
+    hash: "0xd9bcdd9cc8c5447f"
+  Joniu:
+    name: Joniu
+    type: todoCave
+    coord: [2918.25, 274.15, 507]
+    hash: "0x9addcceb0a82feb1"
+  Jonsau:
+    name: Jonsau
+    type: todo
+    coord: [1743.66, 144.45, 17.59]
+    hash: "0x5895320419a8c4ef"
+  Josiu:
+    name: Josiu
+    type: todoSky
+    coord: [1758.49, 1042.97, -1208.38]
+    hash: "0x34c8ba8550c8f555"
+  Kadaunar:
+    name: Kadaunar
+    type: todoSky
+    coord: [1881.97, 1370.1, 1202.82]
+    hash: "0xd5bc8f5fd279aa56"
+  Kahatanaum:
+    name: Kahatanaum
+    type: todoSky
+    coord: [-3296.01, 1466.75, 3431.51]
+    hash: "0x68c655888dac90bf"
+  Kamatukis:
+    name: Kamatukis
+    type: todo
+    coord: [3431.07, 189.97, 3356.72]
+    hash: "0xdd38e53e005c098b"
+  Kamizun:
+    name: Kamizun
+    type: todo
+    coord: [-177.79, 141.9, -1558.29]
+    hash: "0x81e8e427cd2c2846"
+  Karahatag:
+    name: Karahatag
+    type: todo
+    coord: [-3727.7, 162.65, -3625.13]
+    hash: "0xcf13bfd0b95b159b"
+  Kikakin:
+    name: Kikakin
+    type: todo
+    coord: [-395.87, 406.62, 2735.85]
+    hash: "0x9d6452cbb11042d6"
+  Kimayat:
+    name: Kimayat
+    type: todo
+    coord: [2864.04, 360.05, 3638.22]
+    hash: "0x4835252137cc42f3"
+  Kisinona:
+    name: Kisinona
+    type: todo
+    coord: [2567.85, 292.07, 1245.94]
+    hash: "0x3370bc5cad479312"
+  Kitawak:
+    name: Kitawak
+    type: todo
+    coord: [-1530.2, 440.32, -2928.76]
+    hash: "0x60351a5ee8cc3950"
+  Kiuyoyou:
+    name: Kiuyoyou
+    type: todo
+    coord: [-1106.74, 223.45, 2087.81]
+    hash: "0x10ebe4941c07a900"
+  Kudanisar:
+    name: Kudanisar
+    type: todo
+    coord: [-4167.11, 169.11, -2143.2]
+    hash: "0x1881621def79c020"
+  Kumamayn:
+    name: Kumamayn
+    type: todoSky
+    coord: [2856.85, 1331.03, -2856.47]
+    hash: "0x52ee882746038e00"
+  Kurakat:
+    name: Kurakat
+    type: todo
+    coord: [2361.24, 275.39, -510.75]
+    hash: "0xfe411b86d0270761"
+  Kyokugon:
+    name: Kyokugon
+    type: todoCave
+    coord: [-709.25, 125.28, -1551.04]
+    hash: "0x54aa42378ecc9e63"
+  Kyononis:
+    name: Kyononis
+    type: todo
+    coord: [-205.15, 139.9, 451.47]
+    hash: "0x946e0d26b756fe20"
+  Makasura:
+    name: Makasura
+    type: todo
+    coord: [1769.9, 285.05, -1051.93]
+    hash: "0x243a8fbe58330eb8"
+  Makurukis:
+    name: Makurukis
+    type: todo
+    coord: [-2846.97, 352.52, 629.79]
+    hash: "0xc17e28f77908552f"
+  Maoikes:
+    name: Maoikes
+    type: todoCave
+    coord: [2276.23, 197.88, 147.35]
+    hash: "0x51598b4e59a6b432"
+  Marakuguc:
+    name: Marakuguc
+    type: todo
+    coord: [1762.49, 555.9, 2509.65]
+    hash: "0x7873cb582362dc32"
+  Marariin:
+    name: Marari-in
+    type: todoCave
+    coord: [4631.17, 137.4, -3712.01]
+    hash: "0x74e1e0ec03d2fa93"
+  Mayachideg:
+    name: Mayachideg
+    type: todo
+    coord: [3061, 335.48, 1824.02]
+    hash: "0x7f4499146d9251f1"
+  Mayachin:
+    name: Mayachin
+    type: todo
+    coord: [-705.5, 150.61, -868.5]
+    hash: "0x51a90debd4726ada"
+  Mayahisik:
+    name: Mayahisik
+    type: todoCave
+    coord: [3729.38, 308.04, -2058.66]
+    hash: "0xd9cc0b607fd3e470"
+  Mayak:
+    name: Mayak
+    type: todo
+    coord: [1269.9, 224.85, 3733.43]
+    hash: "0xaa884dd9f4cf585d"
+  Mayam:
+    name: Mayam
+    type: todoSky
+    coord: [340.39, 1939.9, 2814.73]
+    hash: "0x219a29367fab6767"
+  Mayamats:
+    name: Mayamats
+    type: todo
+    coord: [-4637.62, 571.78, -1513.27]
+    hash: "0xdebea0537326d37e"
+  Mayanas:
+    name: Mayanas
+    type: todoSky
+    coord: [4613.31, 1908.9, -947.13]
+    hash: "0x1f3aaefd8926f898"
+  Mayaotaki:
+    name: Mayaotaki
+    type: todo
+    coord: [-824.82, 353.83, 3535.03]
+    hash: "0xcd8c682984199784"
+  Mayasiar:
+    name: Mayasiar
+    type: todoSky
+    coord: [-3546.68, 2083.99, -320.65]
+    hash: "0x7bbaa1f76fb539d1"
+  Mayatat:
+    name: Mayatat
+    type: todo
+    coord: [-3290.62, 143.4, -2512.21]
+    hash: "0x35eefd176375afca"
+  Mayaumekis:
+    name: Mayaumekis
+    type: todoSky
+    coord: [-2947.92, 1015.87, 3050.67]
+    hash: "0x07dc9ad5d4757bf2"
+  Mayausiy:
+    name: Mayausiy
+    type: todo
+    coord: [-1166.91, 34.96, 2602.43]
+    hash: "0xce0d19eafdbb155c"
+  Minetak:
+    name: Minetak
+    type: todoCave
+    coord: [393.86, 187.54, 3484.64]
+    hash: "0xf3f341356ca9ad7b"
+  Miryotanog:
+    name: Miryotanog
+    type: todo
+    coord: [-4680.1, 173.72, -3086.44]
+    hash: "0x6420b8cafe05b270"
+  Mogawak:
+    name: Mogawak
+    type: todo
+    coord: [3299.95, 231.25, 423.79]
+    hash: "0x3370bc5ceabe4454"
+  Mogisari:
+    name: Mogisari
+    type: todoSky
+    coord: [4655, 1129.77, 3499.54]
+    hash: "0x81828561ba3e90ea"
+  Momosik:
+    name: Momosik
+    type: todo
+    coord: [2960.01, 643.47, 2758.11]
+    hash: "0xabe15a38ae511827"
+  Morok:
+    name: Morok
+    type: todo
+    coord: [1181.58, 252.53, -779.39]
+    hash: "0xd00d9a3b98fd38fb"
+  Moshapin:
+    name: Moshapin
+    type: todoCave
+    coord: [2679.24, 249.98, 1904.45]
+    hash: "0x6f8d8b4a01ae02ba"
+  Motsusis:
+    name: Motsusis
+    type: todo
+    coord: [-1795.01, 164.68, -3486.56]
+    hash: "0xa6fdad896cee2b0b"
+  Musanokir:
+    name: Musanokir
+    type: todo
+    coord: [407.76, 263.24, 2133.73]
+    hash: "0x3370bc5c3b5dad08"
+  Nachoyah:
+    name: Nachoyah
+    type: todoSky
+    coord: [389.63, 2417.91, -1661.45]
+    hash: "0x426d7b51721759a6"
+  Natak:
+    name: Natak
+    type: todoSky
+    coord: [3670.7, 1276.9, 1483.7]
+    hash: "0x8f3cfda1895d20f5"
+  Ninjis:
+    name: Ninjis
+    type: todo
+    coord: [354.65, 297.71, 1891.89]
+    hash: "0x9b5352ca80e391f3"
+  Nouda:
+    name: Nouda
+    type: todoCave
+    coord: [-2318.21, 292.7, 2201.21]
+    hash: "0xa862a90b94edf9d4"
+  Oogim:
+    name: O-ogim
+    type: todoCave
+    coord: [2755.53, 219.2, -1089.25]
+    hash: "0x6f6efc06b0eecb67"
+  Orochium:
+    name: Orochium
+    type: todo
+    coord: [-1636.76, 358.27, 2641.82]
+    hash: "0x3370bc5c395dfb87"
+  Oromuwak:
+    name: Oromuwak
+    type: todo
+    coord: [-3078.52, 361.96, 1617.27]
+    hash: "0x53958025f53db14c"
+  Oshozanu:
+    name: Oshozan-u
+    type: todo
+    coord: [-1404.5, 406.9, 3677.91]
+    hash: "0xcd6478a48a31b52a"
+  Otak:
+    name: Otak
+    type: todoCave
+    coord: [-4390.57, 331.53, 3714.1]
+    hash: "0xcaa940b23a14e3b8"
+  Otutsum:
+    name: Otutsum
+    type: todo
+    coord: [-4469.01, 628.53, -671.47]
+    hash: "0xcfe11fb48805f8ef"
+  Pupunke:
+    name: Pupunke
+    type: todo
+    coord: [621.1, 283.77, 2211.41]
+    hash: "0xdafb369defe167d6"
+  Rakakudaj:
+    name: Rakakudaj
+    type: todo
+    coord: [-2036.96, 183.9, -1853.4]
+    hash: "0x105a7c3fea24e754"
+  Rakashog:
+    name: Rakashog
+    type: todoSky
+    coord: [-1715.41, 1268.47, -2118.71]
+    hash: "0x3e3289c79762e485"
+  Rasitakiwak:
+    name: Rasitakiwak
+    type: todo
+    coord: [4166.7, 348.41, 1322.74]
+    hash: "0xda9187d1ab9f65e2"
+  Rasiwak:
+    name: Rasiwak
+    type: todo
+    coord: [4664.12, 120.95, 3263.22]
+    hash: "0xd0690e515a4158fa"
+  Reniz:
+    name: Ren-iz
+    type: todo
+    coord: [756.46, 201.35, 823.94]
+    hash: "0xe58919860f04bcb6"
+  Riogok:
+    name: Riogok
+    type: todo
+    coord: [-1441.4, 208.44, -1616.09]
+    hash: "0x634cf2acb7131307"
+  Rotsumamu:
+    name: Rotsumamu
+    type: todo
+    coord: [-3407.01, 454.4, -1363.14]
+    hash: "0x7af5b9d84cbbc4c3"
+  Runakit:
+    name: Runakit
+    type: todo
+    coord: [-2529.98, 296.9, 1170.17]
+    hash: "0xca5a209b38fa76c1"
+  Rutafuum:
+    name: Rutafu-um
+    type: todoCave
+    coord: [-2997.81, 633.93, 3101.63]
+    hash: "0xd95ede6ade4dcccd"
+  Sahirow:
+    name: Sahirow
+    type: todo
+    coord: [-3354.12, 479.9, 2386.29]
+    hash: "0xba09d859144441b9"
+  Sakunbomar:
+    name: Sakunbomar
+    type: todo
+    coord: [166.66, 298.17, 2320.13]
+    hash: "0x6fb89ca2484eb39a"
+  Sepapa:
+    name: Sepapa
+    type: todo
+    coord: [221.75, 147.03, 1085.05]
+    hash: "0xb76aae1d37cd5fbe"
+  Serutabomac:
+    name: Serutabomac
+    type: todo
+    coord: [-178.78, 399.1, 1170.12]
+    hash: "0x810b64f8867e9fd3"
+  Sibajitak:
+    name: Sibajitak
+    type: todo
+    coord: [2400.27, 521.7, 3275.07]
+    hash: "0xbd2bc5ab111260a6"
+  Sifumim:
+    name: Sifumim
+    type: todo
+    coord: [2825.83, 196.97, -3270.35]
+    hash: "0x3370bc5cca68594d"
+  Sihajog:
+    name: Sihajog
+    type: todoSky
+    coord: [4545.82, 1239.94, -846.09]
+    hash: "0xb137072a61817f47"
+  Sikukuu:
+    name: Sikukuu
+    type: todo
+    coord: [698.55, 344.95, 2793.06]
+    hash: "0xe34e795d6999d285"
+  Simosiwak:
+    name: Simosiwak
+    type: todoSky
+    coord: [162.47, 877.93, 1971.65]
+    hash: "0x7fb74ab948d84852"
+  Sinakawak:
+    name: Sinakawak
+    type: todo
+    coord: [-1414.62, 208.04, 756.85]
+    hash: "0x83b96316edc870d0"
+  Sinatanika:
+    name: Sinatanika
+    type: todo
+    coord: [3841.97, 167.4, 2300.29]
+    hash: "0x8535e0ad2ef7bbee"
+  Sisuran:
+    name: Sisuran
+    type: todo
+    coord: [-2559.44, 364.04, 3353.76]
+    hash: "0x781ce419afc84d26"
+  Sitsum:
+    name: Sitsum
+    type: todo
+    coord: [2369.07, 909.4, 2596.35]
+    hash: "0x423321e92960cb78"
+  Siwakama:
+    name: Siwakama
+    type: todo
+    coord: [-2445.7, 160.82, -3344.32]
+    hash: "0xdae0a1e3b0d9e29d"
+  Siyamotsus:
+    name: Siyamotsus
+    type: todoSky
+    coord: [-1795, 1130.29, -3294.6]
+    hash: "0xfa734137bae08032"
+  Sonapan:
+    name: Sonapan
+    type: todo
+    coord: [-1921.5, 347.5, -358.5]
+    hash: "0xadb1f1e4ece6556f"
+  Soryotanog:
+    name: Soryotanog
+    type: todo
+    coord: [-3882.2, 242.2, -2962.55]
+    hash: "0x156f2d267b948e93"
+  Suariwak:
+    name: Suariwak
+    type: todoCave
+    coord: [-2524.26, 250.51, -1770.12]
+    hash: "0xcd2fe6f657689c01"
+  Susub:
+    name: Susub
+    type: todoCave
+    coord: [349.28, 92.15, -2051.54]
+    hash: "0x0394b07beb765096"
+  Susuyai:
+    name: Susuyai
+    type: todo
+    coord: [-785.41, 137.38, -434.05]
+    hash: "0x730a3e096bf5cddc"
+  Tadarok:
+    name: Tadarok
+    type: todoCave
+    coord: [-1081.88, 248.06, -2186.94]
+    hash: "0x4873c9a0411230cb"
+  Tajikats:
+    name: Tajikats
+    type: todo
+    coord: [343.86, 135.7, -1009.03]
+    hash: "0x3370bc5cc790fa0d"
+  Takiihaban:
+    name: Taki-ihaban
+    type: todoCave
+    coord: [-1829.7, 266.78, 1195.27]
+    hash: "0x1cc1b112dcdaf48b"
+  Taninoud:
+    name: Taninoud
+    type: todoSky
+    coord: [-1802.02, 1067.9, 3406.81]
+    hash: "0x888673135e1c9386"
+  Taunhiy:
+    name: Taunhiy
+    type: todoSky
+    coord: [-2401.84, 734.32, 825.23]
+    hash: "0xc50f46699744868c"
+  Tauyosipun:
+    name: Tauyosipun
+    type: todo
+    coord: [-4538.6, 381.58, 2880.47]
+    hash: "0xf62e7d091c5981f8"
+  Tenbez:
+    name: Tenbez
+    type: todoSky
+    coord: [-970.18, 1130.75, 3535]
+    hash: "0x9e9589011d305db1"
+  Teniten:
+    name: Teniten
+    type: todo
+    coord: [-74.91, 140.08, -1115.72]
+    hash: "0xd0a80e2d9df4ae9f"
+  Tenmaten:
+    name: Tenmaten
+    type: todoCave
+    coord: [-594.51, 104.64, 1550.62]
+    hash: "0x04ff4d4c4013b029"
+  Timawak:
+    name: Timawak
+    type: todo
+    coord: [1799.55, 430.71, 1639.54]
+    hash: "0xb5b631d753833e0e"
+  Tokiy:
+    name: Tokiy
+    type: todoCave
+    coord: [2304.06, 90.04, -2377.93]
+    hash: "0xf31cc766b9de78e4"
+  Tsutsuum:
+    name: Tsutsu-um
+    type: todo
+    coord: [-1423.25, 186.9, -1350.75]
+    hash: "0x3370bc5cb98968e8"
+  Tukarok:
+    name: Tukarok
+    type: todo
+    coord: [915.49, 152.96, -251.01]
+    hash: "0x3370bc5c2a400fec"
+  Turakamik:
+    name: Turakamik
+    type: todo
+    coord: [-2657.25, 186.78, -2237.3]
+    hash: "0x63ced28d6fb3d22c"
+  Turakawak:
+    name: Turakawak
+    type: todo
+    coord: [-3497.68, 185, -197.19]
+    hash: "0x81998cf12d68f342"
+  Ukoojisi:
+    name: Ukoojisi
+    type: todoSky
+    coord: [1468.61, 704.81, -2168.89]
+    hash: "0x6482c9d4ed36f741"
+  Ukouh:
+    name: Ukouh
+    type: todoSky
+    coord: [274.91, 1579.28, -912.71]
+    hash: "0x55f7e3779114f3a2"
+  Usazum:
+    name: Usazum
+    type: todo
+    coord: [-2138.98, 212.68, -874.44]
+    hash: "0xc231b5782443c6c4"
+  Utojis:
+    name: Utojis
+    type: todoCave
+    coord: [1218.44, 215.78, -2543.16]
+    hash: "0x23ca48d82fd212b0"
+  Utsushok:
+    name: Utsushok
+    type: todo
+    coord: [670, 190.93, -3358.39]
+    hash: "0x3370bc5ce0868774"
+  Waoos:
+    name: Wao-os
+    type: todoCave
+    coord: [-4058.44, 302.44, 1990]
+    hash: "0x1c8cba546538fdfd"
+  Yamiyo:
+    name: Yamiyo
+    type: todo
+    coord: [333.15, 148.04, 470.01]
+    hash: "0x1d6109bf02c65594"
+  Yansamin:
+    name: Yansamin
+    type: todoSky
+    coord: [2350.99, 1594.76, -1782.81]
+    hash: "0xf523c857852e828b"
+  Yomizuk:
+    name: Yomizuk
+    type: todoCave
+    coord: [4413.23, 153.65, -613.12]
+    hash: "0x7f2cd7ce96446310"
+  Zakusu:
+    name: Zakusu
+    type: todo
+    coord: [3526.22, 286.86, -1482.29]
+    hash: "0x4b8c96dc8faba31a"
+  Zanmik:
+    name: Zanmik
+    type: todo
+    coord: [3469.54, 267.25, -2180.78]
+    hash: "0x3370bc5ce4c58504"

@@ -1,0 +1,11 @@
+version: '3'
+
+tasks:
+  make:
+    desc: Generate presets
+    cmds:
+    - txtpp . -r
+  verify:
+    desc: Verify generated presets are up to date
+    cmds:
+    - txtpp verify . -r

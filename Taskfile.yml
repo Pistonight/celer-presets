@@ -4,15 +4,26 @@ includes:
   botw:
     taskfile: ./botw
     dir: ./botw
+  totk:
+    taskfile: ./totk
+    dir: ./totk
 
 tasks:
   verify:
     desc: Verify all projects
     deps:
     - botw:verify
+    - totk:verify
 
   make:
     desc: Make all projects
     deps:
     - botw:make
+    - totk:make
+
+  normalize:
+    desc: Make all files have LF line ending
+    cmds:
+    - python scripts/normalize-le.py botw
+    - python scripts/normalize-le.py totk
 

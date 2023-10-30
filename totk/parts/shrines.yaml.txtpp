@@ -1,0 +1,3 @@
+#TXTPP#include ../../GENERATED
+icons:
+  #TXTPP#run python ../../scripts/shrine-icons.py ../data/shrines.yaml

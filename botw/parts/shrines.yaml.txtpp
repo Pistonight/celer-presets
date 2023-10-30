@@ -1,14 +1,6 @@
 #TXTPP#include ../../GENERATED
 icons:
-  # TXTPP#temp make-shrine-icons.g.py
-  # import yaml
-  # with open("../data/shrines.yaml", "r") as f:
-  #   shrines = yaml.load(f, Loader=yaml.FullLoader)
-  # for shrine_type in shrines["meta"]["types"]:
-  #   icon_id = shrines["meta"]["types"][shrine_type]["icon"]
-  #   icon_url = shrines["meta"]["types"][shrine_type]["url"]
-  #   print(f"{icon_id}: {icon_url}")
-  ##TXTPP#run python make-shrine-icons.g.py
+  #TXTPP#run python ../../scripts/shrine-icons.py ../data/shrines.yaml
 
 tags:
   counter-shrine:
@@ -19,34 +11,5 @@ tags:
     background: orange
 
 presets:
-  Shrine:
-    text: ".loc($(0))"
-    icon: $(1)
-    counter: .var(counter-shrine)
-    coord: [$(2), $(3), $(4)]
-  # TXTPP#temp make-shrines.g.py
-  # import yaml
-  # with open("../data/shrines.yaml", "r") as f:
-  #   shrines = yaml.load(f, Loader=yaml.FullLoader)
-  # icons = {}
-  # for shrine_type in shrines["meta"]["types"]:
-  #   icons[shrine_type] = shrines["meta"]["types"][shrine_type]["icon"]
-  # warp_output = []
-  # print("_Shrine:")
-  # for shrine_id in shrines["data"]:
-  #   typ = shrines["data"][shrine_id]["type"]
-  #   icon_id = icons[typ]
-  #   name = shrines["data"][shrine_id]["name"]
-  #   coord = shrines["data"][shrine_id]["coord"]
-  #   coord_str = str(coord[0]) + "," + str(coord[1]) + "," + str(coord[2])
-  #   print(f"  {shrine_id}:")
-  #   print(f"    presets: _Shrine<{name},{icon_id},{coord_str}>")
-  #   if typ == "Dlc":
-  #     print(f"    counter: .var(counter-dlc-shrine)")
-  #   warp_output.append(f"    {shrine_id}:")
-  #   warp_output.append(f"      presets: _Warp3<{name},{coord_str}>")
-  # print("_Warp:")
-  # print("  _Shrine:")
-  # for x in warp_output:
-  #   print(x)
-  ##TXTPP#run python make-shrines.g.py
+  #TXTPP#include ../../shared/shrine-template.yaml
+  #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml
