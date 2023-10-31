@@ -4,3 +4,4 @@ includes:
 - use: ./parts/lightroots.yaml
 - use: ./parts/towers.yaml
 - use: ./parts/tower-warps.yaml
+- use: ./parts/tears.yaml

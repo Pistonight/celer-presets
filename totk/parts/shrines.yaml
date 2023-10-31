@@ -28,10 +28,8 @@ tags:
 presets:
   Shrine:
     text: ".loc($(0))"
-    icon:
-      doc: $(1)
-      map: $(1)
-      priority: 0
+    icon: $(1)
+    icon-priority: 0
     counter: .var(counter-shrine)
     vars:
       counter-shrine-sky: .add(1)
@@ -39,10 +37,8 @@ presets:
     coord: [$(2), $(3), $(4)]
   ShrineSky:
     text: ".loc($(0))"
-    icon:
-      doc: $(1)
-      map: $(1)
-      priority: 0
+    icon: $(1)
+    icon-priority: 0
     counter: .var(counter-shrine-sky)
     vars:
       counter-shrine: .add(1)
@@ -50,10 +46,8 @@ presets:
     coord: [$(2), $(3), $(4)]
   ShrineCave:
     text: ".loc($(0))"
-    icon:
-      doc: $(1)
-      map: $(1)
-      priority: 0
+    icon: $(1)
+    icon-priority: 0
     counter: .var(counter-shrine-cave)
     vars:
       counter-shrine-sky: .add(1)

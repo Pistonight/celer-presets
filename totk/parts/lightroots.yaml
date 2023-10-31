@@ -11,10 +11,8 @@ tags:
 presets:
   Lightroot:
     text: ".loc($(0))"
-    icon:
-      doc: lightroot
-      map: lightroot
-      priority: 0
+    icon: lightroot
+    icon-priority: 0
     counter: .var(counter-lightroot)
     coord: [$(1), $(2), $(3)]
   _Lightroot:

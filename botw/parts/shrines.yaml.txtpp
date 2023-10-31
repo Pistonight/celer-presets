@@ -13,10 +13,8 @@ tags:
 presets:
   Shrine:
     text: ".loc($(0))"
-    icon:
-      doc: $(1)
-      map: $(1)
-      priority: 0
+    icon: $(1)
+    icon-priority: 0
     counter: .var(counter-shrine)
     coord: [$(2), $(3), $(4)]
   #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml

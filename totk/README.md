@@ -16,7 +16,7 @@ route:
   ...
 config:
 # See `Layers` below on what to use here
-# `full` includes everything. Most routes can use `most`, while hundo can use `full`
+# `full` includes everything. Most routes can use `most`, which is `full` without koroks and bubbulfrogs
 - use: Pistonight/celer-presets/totk/full.yaml
 plugins:
 - variables # required
@@ -40,20 +40,22 @@ Each layer also includes everything in the previous layer
 3. `most` Includes:
     - Everything in `mini`
     - [Shrines](#shrine)
-    - [Lightroots](#lightroot) TODO
+    - [Lightroots](#lightroot)
     - [Bosses](#boss) TODO
     - [Towers](#tower)
     - [Tears](#tear) TODO
     - [Warp](#warp) TODO
+    - [Wells](#well) TODO
+    - [Caves](#cave) TODO
+    - [Chasms](#chasm) TODO
     ```yaml
     - use: Pistonight/celer-presets/totk/most.yaml
     ```
 4. `full` Includes:
     - Everything in `most`
     - [Koroks](#korok) TODO
-    - [Bubbulfrogs](#bubblefrog) TODO
-    - [Wells](#well) TODO
-    - [Caves](#cave) TODO
+    - [Bubbulfrogs](#bubbulfrog) TODO
+    
     ```yaml
     - use: Pistonight/celer-presets/totk/full.yaml
     ```
