@@ -5,3 +5,4 @@ includes:
 - use: ./parts/towers.yaml
 - use: ./parts/tower-warps.yaml
 - use: ./parts/tears.yaml
+- use: ./parts/bosses.yaml

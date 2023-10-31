@@ -9,6 +9,8 @@ icons:
   hinox-black: https://icons.pistonite.org/icon/misc.monster.none.d57b69.fec1d3.d57b69.fec1d3.d57b69.fec1d3.png
   hinox-stal: https://icons.pistonite.org/icon/misc.monster.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
   molduga: https://icons.pistonite.org/icon/misc.monster.triangle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  molduking: https://icons.pistonite.org/icon/misc.monster.plus.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  talus-igneo-titan: https://icons.pistonite.org/icon/misc.monster.plus.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
 
 tags:
   counter-talus:
@@ -18,6 +20,9 @@ tags:
     color: black
     background: orange
   counter-molduga:
+    color: black
+    background: orange
+  counter-boss-dlc:
     color: black
     background: orange
 
@@ -44,6 +49,12 @@ presets:
         icon: talus-igneo
         icon-priority: 1
         counter: .var(counter-talus)
+      _Igneo:
+        Titan:
+          text: .boss(Igneo Talus Titan)
+          icon: talus-igneo-titan
+          icon-priority: 1
+          counter: .counter-boss-dlc(EX)
       Frost:
         text: .boss(Frost Talus)
         icon: talus-frost
@@ -70,8 +81,15 @@ presets:
         icon: hinox-stal
         icon-priority: 1
         counter: .var(counter-hinox)
+    Stalnox:
+      presets: _Boss::Hinox::Stal
     Molduga:
       text: .boss(Molduga)
       icon: molduga
       icon-priority: 1
       counter: .var(counter-molduga)
+    Molduking:
+      text: .boss(Molduking)
+      icon: molduking
+      icon-priority: 1
+      counter: .counter-boss-dlc(EX)

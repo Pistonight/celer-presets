@@ -148,7 +148,11 @@ Provides presets for all types of overworld bosses. Also displays the number of 
 - _Boss::Hinox::Blue
 - _Boss::Hinox::Black
 - _Boss::Hinox::Stal
+- _Boss::Stalnox # same as _Boss::Hinox::Stal
 - _Boss::Molduga
+# DLC bosses are supported too. However they won't be counted towards the molduga/talus count
+- _Boss::Talus::Igneo::Titan
+- _Boss::Molduking
 ```
 #### `Tod`
 Provides presets for passing time at a campfire.

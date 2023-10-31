@@ -41,9 +41,9 @@ Each layer also includes everything in the previous layer
     - Everything in `mini`
     - [Shrines](#shrine)
     - [Lightroots](#lightroot)
-    - [Bosses](#boss) TODO
     - [Towers](#tower)
-    - [Tears](#tear) TODO
+    - [Tears](#tear)
+    - [Bosses](#boss)
     - [Warp](#warp) TODO
     - [Wells](#well) TODO
     - [Caves](#cave) TODO
@@ -88,6 +88,54 @@ Provides lightroot name and coordinates and displays the number of lightroots co
 Provides coordiantes for all towers. Each tower is identified by its English name without spaces or apostrophes.
 ```yaml
 - _Tower::LindorsBrow # Lindor's Brow Tower
+```
+#### `Tear`
+Tears are identified by their numbers (01 to 12) in the game.
+```yaml
+- _Tear::01
+```
+#### `Boss`
+Provides presets for Talus/Hinox/Molduga/Frox/Flux Constructs/Gleeoks. Also displays the number of bosses defeated for each type.
+```yaml
+# The general syntax is _Boss::[Type]::[Variant][::[Depth]]
+
+# Talus, Hinox and Moldugas are the same as BOTW
+- _Boss::Talus::Stone
+- _Boss::Talus::Luminous
+- _Boss::Talus::Rare
+- _Boss::Talus::Igneo
+- _Boss::Talus::Frost
+- _Boss::Hinox::Red
+- _Boss::Hinox::Blue
+- _Boss::Hinox::Black
+- _Boss::Hinox::Stal
+- _Boss::Stalnox # same as _Boss::Hinox::Stal
+- _Boss::Molduga
+
+# You can also add ::Depth to have the depth style icon and text.
+# (except for Moldugas)
+- _Boss::Talus::Stone::Depth
+- _Boss::Hinox::Red::Depth
+- _Boss::Stalnox::Depth
+
+# Flux Constructs
+- _Boss::FluxConstruct::I
+- _Boss::FluxConstruct::II
+- _Boss::FluxConstruct::III
+- _Boss::FluxConstruct::I::Depth
+- _Boss::FluxConstruct::II::Depth
+- _Boss::FluxConstruct::III::Depth
+
+# Frox
+- _Boss::Frox
+- _Boss::Frox::Obsidian
+- _Boss::Frox::BlueWhite
+
+# Gleeok
+- _Boss::Gleeok::Flame
+- _Boss::Gleeok::Frost
+- _Boss::Gleeok::Thunder
+- _Boss::Gleeok::King
 ```
 #### `Warp`
 Provides coordinates for all warp points available. Also displays the number of warps

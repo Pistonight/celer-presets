@@ -1,0 +1,171 @@
+includes:
+- use: ../../botw/parts/bosses.yaml
+
+icons:
+  talus-depth: https://icons.pistonite.org/icon/misc.monster.none.633830.f0673a.633830.f0673a.633830.f0673a.png
+  talus-luminous-depth: https://icons.pistonite.org/icon/misc.monster.circle.633830.f0673a.633830.f0673a.633830.fdfdfd.png
+  talus-rare-depth: https://icons.pistonite.org/icon/misc.monster.plus.633830.f0673a.633830.f0673a.633830.fdfdfd.png
+  talus-igneo-depth: https://icons.pistonite.org/icon/misc.monster.minus.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+  talus-frost-depth: https://icons.pistonite.org/icon/misc.monster.minus.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  hinox-red-depth: https://icons.pistonite.org/icon/misc.monster.minus.613b75.b96cf5.613b75.b96cf5.8c5e28.ffffb5.png
+  hinox-blue-depth: https://icons.pistonite.org/icon/misc.monster.minus.613b75.b96cf5.613b75.b96cf5.568c28.c8e6af.png
+  hinox-black-depth: https://icons.pistonite.org/icon/misc.monster.minus.613b75.b96cf5.613b75.b96cf5.d57b69.fec1d3.png
+  hinox-stal-depth: https://icons.pistonite.org/icon/misc.monster.minus.613b75.b96cf5.613b75.b96cf5.613b75.b96cf5.png
+  flux-construct: https://icons.pistonite.org/icon/misc.flux_construct.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  flux-construct-2: https://icons.pistonite.org/icon/misc.flux_construct.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+  flux-construct-3: https://icons.pistonite.org/icon/misc.flux_construct.none.633830.f0673a.633830.f0673a.633830.f0673a.png
+  flux-construct-depth: https://icons.pistonite.org/icon/misc.flux_construct.none.613b75.b96cf5.613b75.b96cf5.613b75.b96cf5.png
+  flux-construct-2-depth: https://icons.pistonite.org/icon/misc.flux_construct.circle.613b75.b96cf5.613b75.b96cf5.613b75.fdfdfd.png
+  flux-construct-3-depth: https://icons.pistonite.org/icon/misc.flux_construct.plus.613b75.b96cf5.613b75.b96cf5.613b75.fdfdfd.png
+  frox: https://icons.pistonite.org/icon/misc.monster.none.1fcf68.2a4f4f.22c73b.1d3838.28de43.2f4040.png
+  frox-obsidian: https://icons.pistonite.org/icon/misc.monster.circle.1fcf68.2a4f4f.22c73b.1d3838.28de43.2f4040.png
+  frox-blue-white: https://icons.pistonite.org/icon/misc.monster.plus.1fcf68.2a4f4f.22c73b.1d3838.28de43.2f4040.png
+  gleeok-flame: https://icons.pistonite.org/icon/misc.monster.plus.cfa240.000000.cfa240.000000.d57b69.fec1d3.png
+  gleeok-frost: https://icons.pistonite.org/icon/misc.monster.plus.cfa240.000000.cfa240.000000.69a2d5.c1fefe.png
+  gleeok-thunder: https://icons.pistonite.org/icon/misc.monster.plus.cfa240.000000.cfa240.000000.8c5e28.ffffb5.png
+  gleeok-king: https://icons.pistonite.org/icon/misc.monster.plus.cfa240.000000.cfa240.000000.cfa240.000000.png
+
+tags:
+  counter-flux-construct:
+    color: black
+    background: "#4AD59C"
+  counter-frox:
+    color: black
+    background: "#4AD59C"
+  counter-gleeok:
+    color: black
+    background: "#4AD59C"
+
+presets:
+  _Boss:
+    _Talus:
+      _Stone:
+        Depth:
+          text: .boss-depth(Stone Talus)
+          icon: talus-depth
+          icon-priority: 1
+          counter: .var(counter-talus)
+      _Luminous:
+        Depth:
+          text: .boss-depth(Luminous Talus)
+          icon: talus-luminous-depth
+          icon-priority: 1
+          counter: .var(counter-talus)
+      _Rare:
+        Depth:
+          text: .boss-depth(Rare Talus)
+          icon: talus-rare-depth
+          icon-priority: 1
+          counter: .var(counter-talus)
+      _Igneo:
+        Depth:
+          text: .boss-depth(Igneo Talus)
+          icon: talus-igneo-depth
+          icon-priority: 1
+          counter: .var(counter-talus)
+      _Frost:
+        Depth:
+          text: .boss-depth(Frost Talus)
+          icon: talus-frost-depth
+          icon-priority: 1
+          counter: .var(counter-talus)
+    _Hinox:
+      _Red:
+        Depth:
+          text: .boss-depth(Red Hinox)
+          icon: hinox-red-depth
+          icon-priority: 1
+          counter: .var(counter-hinox)
+      _Blue:
+        Depth:
+          text: .boss-depth(Blue Hinox)
+          icon: hinox-blue-depth
+          icon-priority: 1
+          counter: .var(counter-hinox)
+      _Black:
+        Depth:
+          text: .boss-depth(Black Hinox)
+          icon: hinox-black-depth
+          icon-priority: 1
+          counter: .var(counter-hinox)
+      _Stal:
+        Depth:
+          text: .boss-depth(Stalnox)
+          icon: hinox-stal-depth
+          icon-priority: 1
+          counter: .var(counter-hinox)
+    _Stalnox:
+      Depth:
+        presets: _Boss::Hinox::Stal::Depth
+    _FluxConstruct:
+      I:
+        text: .boss-totk(Flux Construct I)
+        icon: flux-construct
+        icon-priority: 1
+        counter: .var(counter-flux-construct)
+      _I:
+        Depth:
+          text: .boss-depth(Flux Construct I)
+          icon: flux-construct-depth
+          icon-priority: 1
+          counter: .var(counter-flux-construct)
+      II:
+        text: .boss-totk(Flux Construct II)
+        icon: flux-construct-2
+        icon-priority: 1
+        counter: .var(counter-flux-construct)
+      _II:
+        Depth:
+          text: .boss-depth(Flux Construct II)
+          icon: flux-construct-2-depth
+          icon-priority: 1
+          counter: .var(counter-flux-construct)
+      III:
+        text: .boss-totk(Flux Construct III)
+        icon: flux-construct-3
+        icon-priority: 1
+        counter: .var(counter-flux-construct)
+      _III:
+        Depth:
+          text: .boss-depth(Flux Construct III)
+          icon: flux-construct-3-depth
+          icon-priority: 1
+          counter: .var(counter-flux-construct)
+    Frox:
+      text: .boss-depth(Frox)
+      icon: frox
+      icon-priority: 1
+      counter: .var(counter-frox)
+    _Frox:
+      Obsidian:
+        text: .boss-depth(Obsidian Frox)
+        icon: frox-obsidian
+        icon-priority: 1
+        counter: .var(counter-frox)
+      BlueWhite:
+        text: .boss-depth(Blue-White Frox)
+        icon: frox-blue-white
+        icon-priority: 1
+        counter: .var(counter-frox)
+    _Gleeok:
+      Flame:
+        text: .boss-totk(Flame Gleeok)
+        icon: gleeok-flame
+        icon-priority: 1
+        counter: .var(counter-gleeok)
+      Frost:
+        text: .boss-totk(Frost Gleeok)
+        icon: gleeok-frost
+        icon-priority: 1
+        counter: .var(counter-gleeok)
+      Thunder:
+        text: .boss-totk(Thunder Gleeok)
+        icon: gleeok-thunder
+        icon-priority: 1
+        counter: .var(counter-gleeok)
+      King:
+        text: .boss-totk(King Gleeok)
+        icon: gleeok-king
+        icon-priority: 1
+        counter: .var(counter-gleeok)
+    
