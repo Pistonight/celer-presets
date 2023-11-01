@@ -26,12 +26,11 @@ for shrine_id in data:
         preset = "ShrineCave"
     elif typ.endswith("Sky"):
         preset = "ShrineSky"
+    elif typ == "Dlc":
+        preset = "ShrineDlc"
     else:
         preset = "Shrine"
     print(f"    presets: _{preset}<{name},{icon_id},{coord_str}>")
-    if typ == "Dlc":
-        print("    icon: {doc: shrine-dlc, map: shrine-dlc, priority: 0}")
-        print(f"    counter: .var(counter-dlc-shrine)")
     warp_output.append(f"    {shrine_id}:")
     warp_output.append(f"      presets: _Warp3<{name},{coord_str}>")
 print("_Warp:")

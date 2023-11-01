@@ -3,6 +3,11 @@ icons:
   #TXTPP#run python ../../scripts/shrine-icons.py ../data/shrines.yaml
 
 tags:
+  shrine-dlc:
+    color: orange
+    background:
+      light: black
+      dark: inherit
   counter-shrine:
     color: black
     background: cyan
@@ -17,4 +22,10 @@ presets:
     icon-priority: 0
     counter: .var(counter-shrine)
     coord: [$(2), $(3), $(4)]
+  ShrineDlc:
+    text: ".shrine-dlc($(0))"
+    icon: $(1)
+    icon-priority: 0
+    counter: .counter-dlc-shrine(EX)
+    coord: [$(1), $(2), $(3)]
   #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml
