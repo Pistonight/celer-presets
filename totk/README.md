@@ -45,7 +45,7 @@ Each layer also includes everything in the previous layer
     - [Tears](#tear)
     - [Bosses](#boss)
     - [Warp](#warp)
-    - [Bubbulfrogs](#bubbulfrog) TODO
+    - [Bubbulfrogs](#bubbulfrog)
     - [Wells](#terrain)
     - [Caves](#terrain)
     - [Chasms](#terrain)
@@ -66,8 +66,6 @@ Each layer also includes everything in the previous layer
 ### Presets
 
 #### `Korok`
-TODO
-#### `Tear`
 TODO
 #### `Shrine`
 Provides shrine name and coordinates and displays the number of shrines completed.
