@@ -1,6 +1,6 @@
 # Scheme:
 #
-# main well data:
+# main cave data:
 # .data[<ID>]:
 #   name: string
 #   entrances: arrayof

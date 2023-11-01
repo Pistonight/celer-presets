@@ -9,7 +9,7 @@ print("_Cave:")
 data = caves["data"]
 enter_lines = []
 exit_lines = []
-for id in data:
+for id in sorted(data):
     name = data[id]["name"]
     entrances = data[id]["entrances"]
     if len(entrances) == 1:

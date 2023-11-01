@@ -13,7 +13,8 @@ project["version"] = "test"
 project["config"] = [
     {
         "plugins": [
-            { "use": "variables" }
+            { "use": "variables" },
+            { "use": "metrics", "with": { "detailed": True } },
         ]
     },
     {

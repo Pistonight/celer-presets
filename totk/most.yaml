@@ -9,3 +9,4 @@ includes:
 - use: ./parts/warps.yaml
 - use: ./parts/wells.yaml
 - use: ./parts/caves.yaml
+- use: ./parts/chasms.yaml

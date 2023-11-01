@@ -165,7 +165,7 @@ There are additional presets for terrain features in TOTK: Wells, Caves and Chas
 
 ### `Well`
 Well locations and counter for how many wells discovered.
-The well icon is be different for the doc and map. The in-game icon is used on the map and the celer-style icon is used on the doc.
+The well icon is different on the doc and map. The in-game icon is used on the map and the celer-style icon is used on the doc.
 ```yaml
 # line with the well with icon and counter
 - _Well::DronocsPass
@@ -177,7 +177,7 @@ The well icon is be different for the doc and map. The in-game icon is used on t
 ```
 
 #### `Cave`
-Cave entrances. The cave icon is be different for the doc and map. The in-game icon is used on the map and the celer-style icon is used on the doc.
+Cave entrances. The cave icon is different on the doc and map. The in-game icon is used on the map and the celer-style icon is used on the doc.
 
 Each cave is identified by its name. If the name ends with "Cave", that part is omitted.
 ```yaml
@@ -193,4 +193,22 @@ Each cave is identified by its name. If the name ends with "Cave", that part is 
 - Go to the cave:
     movements:
     - _Cave::Enter::LakeKilsie
+```
+
+#### `Chasm`
+Chasms. The chasm icon is different on the doc and map. The in-game icon is used on the map and the
+celer-style icon is used on the doc.
+
+Like caves, each chasm also comes with `Enter` and `Exit`. Since most chasms are vertical, using
+`Enter` and `Exit` properly will allow the lines on the map to be drawn on the correct layer
+```yaml
+# Enter and Exit chasm text, with icons
+- _Chasm::Enter::GerudoSummit
+- _Chasm::Exit::HyruleRidge
+
+# Enter/exit chasms without text in the doc
+- enter a chasm and exit another:
+    movements:
+    - _Chasm::Enter::GerudoSummit
+    - _Chasm::Exit::HyruleRidge
 ```

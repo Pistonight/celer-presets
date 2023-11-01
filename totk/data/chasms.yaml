@@ -1,0 +1,152 @@
+# Scheme:
+#
+# main chasm data:
+# .data[<ID>]:
+#   name: string
+#   hash: string
+#   coord: [x,y,z] (y is height)
+data:
+  BiridaLookout:
+    name: Birida Lookout Chasm
+    coord: [-3685.63, 138.61, -1859.87]
+    hash: "0x4d0237f56a279569"
+  DeathMountain:
+    name: Death Mountain Chasm
+    coord: [2534.5, 748.5, 2602.5]
+    hash: "0xfc3ba78c4a0af664"
+  DekuTree:
+    name: Deku Tree Chasm
+    coord: [418.01, 248.69, 2193.41]
+    hash: "0x86cd751fbfe67c62"
+  DrenanHighlands:
+    name: Drenan Highlands Chasm
+    coord: [-71.04, 231.93, 2983.78]
+    hash: "0x1f56d13bb4576d33"
+  EastAkkalaPlains:
+    name: East Akkala Plains Chasm
+    coord: [4029.55, 8.82, 2180.88]
+    hash: "0x94533d5bc3477949"
+  EastGerudo:
+    name: East Gerudo Chasm
+    coord: [-2491.19, 111.24, -3067.74]
+    hash: "0xb01db1f23f9ec48a"
+  EastHill:
+    name: East Hill Chasm
+    coord: [1974.49, 220.51, -846.13]
+    hash: "0x50a400c6b72c1ff9"
+  ElmaKnolls:
+    name: Elma Knolls Chasm
+    coord: [-456.88, 274.39, 1722.35]
+    hash: "0xa9c253bc7075cf4b"
+  EventideIsland:
+    name: Eventide Island Chasm
+    coord: [4507.12, 87.94, -3459.3]
+    hash: "0x9d539d647c59c0cb"
+  ForestofTime:
+    name: Forest of Time Chasm
+    coord: [-127.97, 73.01, -1657.81]
+    hash: "0xc4b6d0024dad9e75"
+  GerudoSummit:
+    name: Gerudo Summit Chasm
+    coord: [-4203.36, 748.08, -637.66]
+    hash: "0x5898184600c704da"
+  GreatPlateauEast:
+    name: Great Plateau East Chasm
+    coord: [-452.5, 172.28, -1992.97]
+    hash: "0x003881ded3408450"
+  GreatPlateauNorth:
+    name: Great Plateau North Chasm
+    coord: [-664.93, 154.49, -1509.75]
+    hash: "0x13eda3d49329f667"
+  GreatPlateauSouth:
+    name: Great Plateau South Chasm
+    coord: [-932.83, 268.54, -2317.5]
+    hash: "0x49f31cedc0687a1a"
+  GreatPlateauWest:
+    name: Great Plateau West Chasm
+    coord: [-1431.69, 330.82, -1992.55]
+    hash: "0xafc2d671ced3eaa8"
+  HillsofBaumer:
+    name: Hills of Baumer Chasm
+    coord: [221.94, 102.88, -2118.77]
+    hash: "0x991799ce5ad2d8f0"
+  HyruleCastle:
+    name: Hyrule Castle Chasm
+    coord: [-254, -105, 1012.17]
+    hash: "0xfbb4ad3cdd4d490a"
+  HyruleCastleMoatEast:
+    name: Hyrule Castle Moat East Chasm
+    coord: [169.99, 56.83, 882.16]
+    hash: "0xaf7b5415957c3755"
+  HyruleCastleMoatWest:
+    name: Hyrule Castle Moat West Chasm
+    coord: [-922.61, 95.52, 666.79]
+    hash: "0x3290428c550ef969"
+  HyruleField:
+    name: Hyrule Field Chasm
+    coord: [-255.03, 103.47, -299.58]
+    hash: "0xac5d1e40b241e232"
+  HyruleRidge:
+    name: Hyrule Ridge Chasm
+    coord: [-2644.24, 247.63, 1126.02]
+    hash: "0x930a3bbbdd491160"
+  LakeHylia:
+    name: Lake Hylia Chasm
+    coord: [-332, 53.18, -2598.02]
+    hash: "0xc150833efd18e137"
+  LanayruWetlands:
+    name: Lanayru Wetlands Chasm
+    coord: [1726.92, 100.19, 162.05]
+    hash: "0xaa9870379b2aa770"
+  LomeiLabyrinth:
+    name: Lomei Labyrinth Chasm
+    coord: [4655, 131.5, 3697.47]
+    hash: "0x1625444f293ded2a"
+  MedaMountain:
+    name: Meda Mountain Chasm
+    coord: [2513.71, 236.29, -2380.7]
+    hash: "0x72c50a4cf475fcd1"
+  MinshiWoods:
+    name: Minshi Woods Chasm
+    coord: [1059.43, 254.87, 1668.1]
+    hash: "0x4277441bade8a3cc"
+  NaydraSnowfield:
+    name: Naydra Snowfield Chasm
+    coord: [3604.59, 223.14, -1343.98]
+    hash: "0x68b76a05f6c8c8e7"
+  NorthLomei:
+    name: North Lomei Chasm
+    coord: [-814.48, 325.2, 3534.7]
+    hash: "0xea7ae29d0563d4c7"
+  RitoVillage:
+    name: Rito Village Chasm
+    coord: [-3571.25, 224.04, 1803.08]
+    hash: "0xee78f62065cfd570"
+  SkullLake:
+    name: Skull Lake Chasm
+    coord: [3246.82, 61.89, 3441.88]
+    hash: "0x2d40886474606c6c"
+  SouthAkkalaPlains:
+    name: South Akkala Plains Chasm
+    coord: [3296.86, 229.95, 1286.69]
+    hash: "0x41b3b5452647afa0"
+  SouthLomei:
+    name: South Lomei Chasm
+    coord: [-1794.92, 149.36, -3461.76]
+    hash: "0x0583562564361ff5"
+  TingelIsland:
+    name: Tingel Island Chasm
+    coord: [4707.78, 224.23, 1307.87]
+    hash: "0x859f4db4320c9137"
+  TobiosHollow:
+    name: Tobio's Hollow Chasm
+    coord: [1305, 167.28, -2396.66]
+    hash: "0x51e75d42f5355006"
+  UnderZorasDomain:
+    name: Chasm Under Zora's Domain
+    coord: [3271.55, 84.31, 441.59]
+    hash: "0xd04598fb5664c8f6"
+  YigaClanHideout:
+    name: Yiga Clan Hideout Chasm
+    coord: [-3430.18, 384.69, -1333.44]
+    hash: "0x40749323adcae0e1"
