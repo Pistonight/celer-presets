@@ -44,7 +44,7 @@ Each layer also includes everything in the previous layer
     - [Towers](#tower)
     - [Tears](#tear)
     - [Bosses](#boss)
-    - [Warp](#warp) TODO
+    - [Warp](#warp)
     - [Wells](#well) TODO
     - [Caves](#cave) TODO
     - [Chasms](#chasm) TODO
@@ -147,11 +147,15 @@ executed.
 - _Warp::Lightroot::Rasinaduk
 # Warping to a tower
 - _Warp::Tower::LindorsBrow
-# Warping to a temple TODO
-# Warping to tech labs TODO
-# Warping to RoA TODO
-# Warping to travel medallion. Coordinates are X,Y,Z TODO
+# Warping to a temple entrance (Wind, Fire, Water, Lightning, Spirit)
+- _Warp::Temple::Wind
+# Warping to tech lab (note there's no akkala tech lab warp point)
+- _Warp::TechLab::Hateno
+# Warping to RoA
+- _Warp::RoA
+# Warping to Great Abandoned Central Mine
+- _Warp::Mine::Central
+# Warping to travel medallion. Order of the coordinates are the same as you would enter with the `coord` property
+- _Warp::TravelMedallion<X,Z,Y>
 ```
-#### `Boss`
-TODO
 

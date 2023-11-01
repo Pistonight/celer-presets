@@ -18,5 +18,4 @@ icons:
 
 presets:
   WarpDepth:
-    icon:
-      doc: warp-depth
+    icon-doc: warp-depth
