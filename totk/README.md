@@ -45,9 +45,9 @@ Each layer also includes everything in the previous layer
     - [Tears](#tear)
     - [Bosses](#boss)
     - [Warp](#warp)
-    - [Wells](#well) TODO
-    - [Caves](#cave) TODO
-    - [Chasms](#chasm) TODO
+    - [Wells](#terrain) TODO
+    - [Caves](#terrain) TODO
+    - [Chasms](#terrain) TODO
     ```yaml
     - use: Pistonight/celer-presets/totk/most.yaml
     ```
@@ -159,3 +159,19 @@ executed.
 - _Warp::TravelMedallion<X,Z,Y>
 ```
 
+
+### Terrain
+There are additional presets for terrain features in TOTK: Wells, Caves and Chasms.
+
+### `Well`
+Well locations and counter for how many wells discovered.
+The well icon is be different for the doc and map. The in-game icon is used on the map and the celer-style icon is used on the doc.
+```yaml
+# line with the well with icon and counter
+- _Well::DronocsPass
+# Move to the well location without a line in the doc
+# This will show the well icon on the map, but will not count towards the well counter
+- Go to the well:
+    movements:
+    - _Well::DronocsPass
+```

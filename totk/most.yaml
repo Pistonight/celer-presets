@@ -7,3 +7,4 @@ includes:
 - use: ./parts/tears.yaml
 - use: ./parts/bosses.yaml
 - use: ./parts/warps.yaml
+- use: ./parts/wells.yaml

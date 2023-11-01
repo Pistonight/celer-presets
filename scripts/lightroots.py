@@ -1,4 +1,4 @@
-# Generate shrine and shrine warp presets
+# Generate lightroot and lightroot warp presets
 # argument: path/to/data/lightroots.yaml
 import yaml
 import sys

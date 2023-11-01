@@ -1,0 +1,148 @@
+##########################################################################
+# GENERATED FILE 
+# 
+# DO NOT EDIT!
+# 
+# Edit the .txtpp file in the same directory instead
+##########################################################################
+icons:
+  well-doc: https://icons.pistonite.org/icon/misc.double_square.none.665733.b78635.665733.b78635.69a2d5.c1fefe.png
+  well-map: { use: ../icons/well.png }
+
+tags:
+  well:
+    color:
+      light: "#564723"
+      dark: orange
+  counter-well:
+    color: black
+    background: "#b78635"
+
+presets:
+  Well:
+    text: ".well($(0))"
+    comment: Well
+    icon-doc: well-doc
+    icon-priority: 2
+    counter: .var(counter-well)
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: well-map
+  _Well:
+    DronocsPass:
+      presets: _Well<Dronoc's Pass,-3831.58,230.7,2105.45>
+    KaraKaraBazaar:
+      presets: _Well<Kara Kara Bazaar,-3235.34,113.42,-2606.41>
+    TabanthaVillageRuins:
+      presets: _Well<Tabantha Village Ruins,-2358.6,367.45,1871.8>
+    TabanthaBridgeStable:
+      presets: _Well<Tabantha Bridge Stable,-2958.59,260.96,531.96>
+    GerudoCanyon:
+      presets: _Well<Gerudo Canyon,-2820,120.96,-2233>
+    RowanPlain:
+      presets: _Well<Rowan Plain,-1069.44,203.71,2325.9>
+    SnowfieldStable:
+      presets: _Well<Snowfield Stable,-1679.57,326,2586>
+    MarittaExchangeRuins:
+      presets: _Well<Maritta Exchange Ruins,-1810.86,196.36,1623.46>
+    CarokBridge:
+      presets: _Well<Carok Bridge,-1039.61,124.15,415.31>
+    NewSerenneStable:
+      presets: _Well<New Serenne Stable,-1357.18,167.07,700.06>
+    MountDaphnes:
+      presets: _Well<Mount Daphnes,-1313.99,99.38,-622.69>
+    OutskirtHill:
+      presets: _Well<Outskirt Hill,-1680.92,211.54,-1349.23>
+    OutskirtStable:
+      presets: _Well<Outskirt Stable,-1460.71,122.06,-1296.74>
+    MountNabooru:
+      presets: _Well<Mount Nabooru,-1720.26,125.7,-2238.07>
+    ElmaKnolls:
+      presets: _Well<Elma Knolls,-670.9,177.89,1351.73>
+    IrchPlain:
+      presets: _Well<Irch Plain,-911.3,195.56,1616.2>
+    MountGustaf:
+      presets: _Well<Mount Gustaf,-912.81,109.35,331.21>
+    LookoutLanding:
+      presets: _Well<Lookout Landing,-212.02,109.98,134.93>
+    MabeVillageRuins:
+      presets: _Well<Mabe Village Ruins,-68.06,114.61,-163.09>
+    AquameLake:
+      presets: _Well<Aquame Lake,-879.18,111.34,-1101.61>
+    RauruSettlementRuins:
+      presets: _Well<Rauru Settlement Ruins,662,129.68,1266.5>
+    HyruleCastleTownRuins:
+      presets: _Well<Hyrule Castle Town Ruins,62.63,117.67,547.62>
+    RebonaeBridge:
+      presets: _Well<Rebonae Bridge,787,120.71,7.59>
+    BottomlessPond:
+      presets: _Well<Bottomless Pond,686.19,107.38,-766.43>
+    WetlandStable:
+      presets: _Well<Wetland Stable,884.6,117.36,-195.32>
+    WetlandStableSouth:
+      presets: _Well<Wetland Stable South,858.03,117.36,-262.71>
+    SouthNabiLake:
+      presets: _Well<South Nabi Lake,782.5,126,-1496.9>
+    DeyaVillageRuinsNorth:
+      presets: _Well<Deya Village Ruins North,316.52,99.1,-1856.8>
+    DeyaVillageRuins:
+      presets: _Well<Deya Village Ruins,322.36,100.58,-1927.04>
+    RiversideStable:
+      presets: _Well<Riverside Stable,365.4,101.31,-1126.33>
+    HillsofBaumer:
+      presets: _Well<Hills of Baumer,316.06,135.01,-2127.81>
+    DeyaVillageRuinsSouth:
+      presets: _Well<Deya Village Ruins South,339.63,117.76,-2098.56>
+    DeyaVillageRuinsEast:
+      presets: _Well<Deya Village Ruins East,423.5,99.5,-2042.96>
+    PoplaFoothillsNorth:
+      presets: _Well<Popla Foothills North,594.48,183.01,-2100.44>
+    PoplaFoothillsSouth:
+      presets: _Well<Popla Foothills South,606.13,140.79,-2261.08>
+    HighlandStable:
+      presets: _Well<Highland Stable,537.63,138.91,-3426.7>
+    HaranLakefront:
+      presets: _Well<Haran Lakefront,394.5,138,-3387>
+    WoodlandStable:
+      presets: _Well<Woodland Stable,1092.67,113.5,1154.05>
+    MoorGarrisonRuins:
+      presets: _Well<Moor Garrison Ruins,1544.13,98.71,169.94>
+    ZauzIsland:
+      presets: _Well<Zauz Island,1435.5,99.67,-136.5>
+    LanayruWetlands:
+      presets: _Well<Lanayru Wetlands,1219.6,100.19,-397.18>
+    RikokaHills:
+      presets: _Well<Rikoka Hills,1716.45,113.5,-650.87>
+    GopongaVillageRuins:
+      presets: _Well<Goponga Village Ruins,1529.16,99.65,-326.9>
+    DuelingPeaksStable:
+      presets: _Well<Dueling Peaks Stable,1794.7,101.86,-1949.73>
+    KakarikoVillage:
+      presets: _Well<Kakariko Village,1875.01,215.02,-1043.56>
+    LakesideStable:
+      presets: _Well<Lakeside Stable,1535.12,151.82,-3553.63>
+    FoothillStable:
+      presets: _Well<Foothill Stable,2617.93,239.5,1169.06>
+    TabahlWoods:
+      presets: _Well<Tabahl Woods,2746.39,220.03,175.52>
+    LurelinVillage:
+      presets: _Well<Lurelin Village,2940.59,101.11,-3378.44>
+    ShadowHamletRuins:
+      presets: _Well<Shadow Hamlet Ruins,3057.23,423.93,2310.92>
+    ConstructionSite:
+      presets: _Well<Construction Site,3719.83,182.6,1587.56>
+    SouthAkkalaStable:
+      presets: _Well<South Akkala Stable,3195,292.77,1715.5>
+    HatenoVillageNorth:
+      presets: _Well<Hateno Village North,3421.88,229.4,-2029.53>
+    HatenoVillageWest:
+      presets: _Well<Hateno Village West,3356.76,209.46,-2050.47>
+    HatenoVillageEast:
+      presets: _Well<Hateno Village East,3514.48,220.43,-2152.45>
+    ZeldasSecret:
+      presets: _Well<Zelda's Secret,3301.48,221.98,-2300.91>
+    HatenoVillageSouth:
+      presets: _Well<Hateno Village South,3384.51,227.38,-2211.73>
+    EastAkkalaStable:
+      presets: _Well<East Akkala Stable,4232.87,217.47,2780.07>
+
