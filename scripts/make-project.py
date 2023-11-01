@@ -22,11 +22,6 @@ project["config"] = [
 ]
 
 route = []
-
-with open(preset_path, "r") as f:
-    config = yaml.load(f, Loader=yaml.FullLoader)
-presets = config["presets"]
-
 def process_namespace(namespace, presets, route):
     for id in sorted(presets):
         if id.startswith("_"):
@@ -36,9 +31,17 @@ def process_namespace(namespace, presets, route):
         route.append({
             preset: [preset]
         })
-for id in sorted(presets):
-    if id.startswith("_"):
-        process_namespace(id, presets[id], route)
+
+def process_file(file_path, route):
+    with open(file_path, "r") as f:
+        config = yaml.load(f, Loader=yaml.FullLoader)
+    presets = config["presets"]
+    for id in sorted(presets):
+        if id.startswith("_"):
+            process_namespace(id, presets[id], route)
+
+for file_path in sys.argv[1:]:
+    process_file(file_path, route)
 
 project["route"] = route
 

@@ -1,0 +1,892 @@
+##########################################################################
+# GENERATED FILE 
+# 
+# DO NOT EDIT!
+# 
+# Edit the .txtpp file in the same directory instead
+##########################################################################
+icons:
+  cave-doc: https://icons.pistonite.org/icon/location.sor.none.4f3a1d.c0841b.4f3a1d.c0841b.69a2d5.c1fefe.png
+  cave-map: { use: ../icons/cave.png }
+
+presets:
+  CaveEnter:
+    text: .terrain(Enter Cave)
+    comment: $(0)
+    icon-doc: cave-doc
+    icon-priority: 2
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: cave-map
+  CaveExit:
+    text: .terrain(Exit Cave)
+    comment: $(0)
+    icon-doc: cave-doc
+    icon-priority: 2
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: cave-map
+  _Cave:
+    _Enter:
+      AkkalaCitadelRuins:
+        presets: _CaveEnter<Akkala Citadel Ruins Cave,3243.72,399.54,1456.82>
+      AkkalaCitadelRuinsSummit:
+        presets: _CaveEnter<Akkala Citadel Ruins Summit Cave,3292.5,500.06,1492>
+      _AncientAltarRuins:
+        A:
+          presets: _CaveEnter<Ancient Altar Ruins,-2535.54,57.28,-3626.1>
+        B:
+          presets: _CaveEnter<Ancient Altar Ruins,-2518.92,57.85,-3671.56>
+        C:
+          presets: _CaveEnter<Ancient Altar Ruins,-2584.24,57.52,-3638.21>
+        D:
+          presets: _CaveEnter<Ancient Altar Ruins,-2570.56,54.08,-3744.45>
+        E:
+          presets: _CaveEnter<Ancient Altar Ruins,-2530.79,58.68,-3769.12>
+        F:
+          presets: _CaveEnter<Ancient Altar Ruins,-2480.56,58.85,-3758.14>
+        G:
+          presets: _CaveEnter<Ancient Altar Ruins,-2521.2,58.38,-3724.84>
+        H:
+          presets: _CaveEnter<Ancient Altar Ruins,-2564.69,57.2,-3681.72>
+        I:
+          presets: _CaveEnter<Ancient Altar Ruins,-2451.86,58.97,-3676.73>
+        J:
+          presets: _CaveEnter<Ancient Altar Ruins,-2480.76,58.92,-3632.82>
+        K:
+          presets: _CaveEnter<Ancient Altar Ruins,-2477.85,58.39,-3709.82>
+        L:
+          presets: _CaveEnter<Ancient Altar Ruins,-2604.79,55.76,-3709.32>
+      AncientColumns:
+        presets: _CaveEnter<Ancient Columns Cave,-3465.12,359.57,449.46>
+      AncientPrisonRuins:
+        presets: _CaveEnter<Ancient Prison Ruins,-3099.36,53.95,-3063.78>
+      AncientTreeStump:
+        presets: _CaveEnter<Ancient Tree Stump Cave,-1111.5,128.2,-432.06>
+      AtunValley:
+        presets: _CaveEnter<Atun Valley Cave,2454,170,-3193>
+      _BonéPondEast:
+        A:
+          presets: _CaveEnter<Boné Pond East Cave,2185.08,142.89,142.08>
+        B:
+          presets: _CaveEnter<Boné Pond East Cave,2253.84,121.62,14.21>
+        C:
+          presets: _CaveEnter<Boné Pond East Cave,2215.35,177.09,100.18>
+        D:
+          presets: _CaveEnter<Boné Pond East Cave,2260.73,216.08,108.4>
+      _Bottomless:
+        A:
+          presets: _CaveEnter<Bottomless Cave,711.58,1591.06,-1449.1>
+        B:
+          presets: _CaveEnter<Bottomless Cave,739.1,1647.76,-1358.03>
+      Brightcap:
+        presets: _CaveEnter<Brightcap Cave,-3005.72,304.84,1635.03>
+      _ByroadtoLanayruWetlands:
+        A:
+          presets: _CaveEnter<Byroad to Lanayru Wetlands,1617,112.46,-1260>
+        B:
+          presets: _CaveEnter<Byroad to Lanayru Wetlands,1587.75,111.52,-812.19>
+      _CaloraLake:
+        A:
+          presets: _CaveEnter<Calora Lake Cave,1958.78,298.39,-3032.79>
+        B:
+          presets: _CaveEnter<Calora Lake Cave,2009.62,282.44,-3164.03>
+      CapeCalesCliffbase:
+        presets: _CaveEnter<Cape Cales Cliffbase Cave,3650.4,99.3,-3210.82>
+      CentralGerudo:
+        presets: _CaveEnter<Central Gerudo Cave,-3679.05,87.04,-3255.37>
+      CephlaLake:
+        presets: _CaveEnter<Cephla Lake Cave,2593.65,256.45,1330.45>
+      ColiseumRuins:
+        presets: _CaveEnter<Coliseum Ruins Cave,-1167.15,127.75,-1310.98>
+      _ConstructionSite:
+        A:
+          presets: _CaveEnter<Construction Site Cave,3678.72,179.51,1538.25>
+        B:
+          presets: _CaveEnter<Construction Site Cave,3735.44,186.32,1534.08>
+      _CoraLakefront:
+        A:
+          presets: _CaveEnter<Cora Lakefront Cave,-256.15,86.97,-2940.2>
+        B:
+          presets: _CaveEnter<Cora Lakefront Cave,-171.17,92.3,-3067.07>
+      CortaLake:
+        presets: _CaveEnter<Corta Lake Cave,1676.8,269.84,-3038.77>
+      CrenelHills:
+        presets: _CaveEnter<Crenel Hills Cave,493.73,146,730.94>
+      _CrenelPeak:
+        A:
+          presets: _CaveEnter<Crenel Peak Cave,1144.71,163.02,247.46>
+        B:
+          presets: _CaveEnter<Crenel Peak Cave,1349.55,134.32,296.5>
+      CuccoHideaway:
+        presets: _CaveEnter<Cucco Hideaway,1877.43,304.04,-1160.38>
+      DeathMountainEastTunnel:
+        presets: _CaveEnter<Death Mountain East Tunnel,2767.81,626.83,2778.18>
+      DeathMountainFoothill:
+        presets: _CaveEnter<Death Mountain Foothill Cave,1949.91,531.46,2687.21>
+      DeathMountainWestTunnel:
+        presets: _CaveEnter<Death Mountain West Tunnel,2238.61,626.02,2682.38>
+      DeepbackBay:
+        presets: _CaveEnter<Deepback Bay Cave,4213.49,105.66,-2262.58>
+      DeplianBadlands:
+        presets: _CaveEnter<Deplian Badlands Cave,307.13,193,3579.35>
+      DuelingPeaksNorth:
+        presets: _CaveEnter<Dueling Peaks North Cave,1194.46,263.43,-1854.06>
+      DuelingPeaksSouth:
+        presets: _CaveEnter<Dueling Peaks South Cave,1183.37,351,-1947.55>
+      _EastBironSnowshelf:
+        A:
+          presets: _CaveEnter<East Biron Snowshelf Cave,-3555.2,378.88,3088.22>
+        B:
+          presets: _CaveEnter<East Biron Snowshelf Cave,-3989.37,243.83,3062.85>
+      EastGerudoRuins:
+        presets: _CaveEnter<East Gerudo Ruins Cave,-2696.02,38.1,-2808.62>
+      EastRestaurant:
+        presets: _CaveEnter<East Restaurant Cave,1853.96,397.44,1719.95>
+      EventideIsland:
+        presets: _CaveEnter<Eventide Island Cave,4752.63,99.21,-3781.51>
+      FinraWoodsExcavationSite:
+        presets: _CaveEnter<Finra Woods Excavation Site,568.6,118.23,-2981.88>
+      FloriaRiverUpstreamExcavation:
+        presets: _CaveEnter<Floria River Upstream Excavation,809.89,116.22,-2971.71>
+      FoothillMonsterDen:
+        presets: _CaveEnter<Foothill Monster Den,2275.32,262.5,1520.1>
+      FortHateno:
+        presets: _CaveEnter<Fort Hateno Cave,2243.43,129,-1689.6>
+      _GerudoCanyonMine:
+        A:
+          presets: _CaveEnter<Gerudo Canyon Mine,-2611.28,217.98,-2604.77>
+        B:
+          presets: _CaveEnter<Gerudo Canyon Mine,-2676.71,185.07,-2402.61>
+      GerudoGreatSkeleton:
+        presets: _CaveEnter<Gerudo Great Skeleton,-4814.32,104.5,-3875.43>
+      _GerudoSanctuary:
+        A:
+          presets: _CaveEnter<Gerudo Sanctuary,-3763.27,120.39,-2698.52>
+        B:
+          presets: _CaveEnter<Gerudo Sanctuary,-3763.27,120.39,-2420.76>
+      _GisaCrater:
+        A:
+          presets: _CaveEnter<Gisa Crater Cave,-3865.5,178,1011.5>
+        B:
+          presets: _CaveEnter<Gisa Crater Cave,-3931.1,178.31,1090.97>
+      GorkoTunnel:
+        presets: _CaveEnter<Gorko Tunnel,2016,526.28,2038.98>
+      GoronbiRiver:
+        presets: _CaveEnter<Goronbi River Cave,1423.08,389.93,2102.73>
+      GreatPlateauFoothill:
+        presets: _CaveEnter<Great Plateau Foothill Cave,-832.35,132.49,-1488.38>
+      HebraGreatSkeleton:
+        presets: _CaveEnter<Hebra Great Skeleton,-3814.61,360.5,3595.48>
+      HebraHeadspring:
+        presets: _CaveEnter<Hebra Headspring Cave,-2900.16,493.4,2510.26>
+      HebraMountainsNorthwest:
+        presets: _CaveEnter<Hebra Mountains Northwest Cave,-2995.57,645.47,3225.75>
+      _HebraSouthSummit:
+        A:
+          presets: _CaveEnter<Hebra South Summit Cave,-3398.43,418.61,2499.36>
+        B:
+          presets: _CaveEnter<Hebra South Summit Cave,-3227.5,547.16,2535.28>
+      HoronLagoon:
+        presets: _CaveEnter<Horon Lagoon Cave,4243.97,89.11,-255.67>
+      IcefallFoothills:
+        presets: _CaveEnter<Icefall Foothills Cave,-4429.34,328.84,3760.2>
+      IsleofRabacGallery:
+        presets: _CaveEnter<Isle of Rabac Gallery,1554.56,498.43,3102.51>
+      KakarikoVillage:
+        presets: _CaveEnter<Kakariko Village Cave,1947.49,262.98,-981.82>
+      KomoShoreline:
+        presets: _CaveEnter<Komo Shoreline Cave,486.93,113.21,-3831.14>
+      KopeekiDrifts:
+        presets: _CaveEnter<Kopeeki Drifts Cave,-2395.84,275,2276.63>
+      _KoukotPlateau:
+        A:
+          presets: _CaveEnter<Koukot Plateau Cave,-2258.92,161.95,-1759.33>
+        B:
+          presets: _CaveEnter<Koukot Plateau Cave,-2173.73,232.09,-1841.65>
+      LakeDarmanMonsterDen:
+        presets: _CaveEnter<Lake Darman Monster Den,2373.34,550.84,3051.7>
+      _LakeFerona:
+        A:
+          presets: _CaveEnter<Lake Ferona Cave,1929.5,227.27,1271.64>
+        B:
+          presets: _CaveEnter<Lake Ferona Cave,1931.95,273.65,1304.57>
+      LakeHyliaWhirlpool:
+        presets: _CaveEnter<Lake Hylia Whirlpool Cave,125.75,15.91,-2501.45>
+      LakeIntenoch:
+        presets: _CaveEnter<Lake Intenoch Cave,2485.39,263.38,1792.98>
+      LakeKilsie:
+        presets: _CaveEnter<Lake Kilsie Cave,-3930.99,87.47,2861.26>
+      _LanayruRoadEast:
+        A:
+          presets: _CaveEnter<Lanayru Road East Cave,3073.54,197.26,-1137.79>
+        B:
+          presets: _CaveEnter<Lanayru Road East Cave,3476.45,97.44,-968.39>
+      LanayruRoadSouth:
+        presets: _CaveEnter<Lanayru Road South Cave,2698.27,216.72,-1314.64>
+      LindorsBrow:
+        presets: _CaveEnter<Lindor's Brow Cave,-1734.93,334.2,1165.7>
+      LizardsBurrow:
+        presets: _CaveEnter<Lizard's Burrow,2206.31,510.94,3075.32>
+      LocationMarkerAncientZoraWaterworks:
+        presets: _CaveEnter<LocationMarker Ancient Zora Waterworks,3606.64,103.96,122.2>
+      LowerSpectacleRock:
+        presets: _CaveEnter<Lower Spectacle Rock Cave,-1744.35,94.31,-2394.18>
+      LutosChannel:
+        presets: _CaveEnter<Luto's Channel,3094.1,184.58,-51.31>
+      MaplaPoint:
+        presets: _CaveEnter<Mapla Point Cave,4585.33,103.6,-2246.28>
+      MeadelasMantle:
+        presets: _CaveEnter<Meadela's Mantle Cave,-3982.83,532.17,-1245.38>
+      _Mining:
+        A:
+          presets: _CaveEnter<Mining Cave,380.06,1516.65,-1631.65>
+        B:
+          presets: _CaveEnter<Mining Cave,489.66,1473.25,-1625.62>
+      MountDrenaFoothill:
+        presets: _CaveEnter<Mount Drena Foothill Cave,-1372.09,303.22,2861.31>
+      _MountDunsel:
+        A:
+          presets: _CaveEnter<Mount Dunsel Cave,3224.25,164.95,-3017.77>
+        B:
+          presets: _CaveEnter<Mount Dunsel Cave,3291.35,170.08,-3296.46>
+      _MountFloria:
+        A:
+          presets: _CaveEnter<Mount Floria Cave,1959.68,176.62,-2611.65>
+        B:
+          presets: _CaveEnter<Mount Floria Cave,1789.54,185.87,-2985.64>
+      _MountNabooru:
+        A:
+          presets: _CaveEnter<Mount Nabooru Cave,-1967,135.51,-2059.61>
+        B:
+          presets: _CaveEnter<Mount Nabooru Cave,-1795.8,136.65,-1961.14>
+      MountNabooruSouth:
+        presets: _CaveEnter<Mount Nabooru South Cave,-1726.96,110.58,-2183.38>
+      MystathisShelf:
+        presets: _CaveEnter<Mystathi's Shelf Cave,-3881.65,675.34,-726.78>
+      _NorthAkkalaBeach:
+        A:
+          presets: _CaveEnter<North Akkala Beach Cave,4650.67,54.5,3584.91>
+        B:
+          presets: _CaveEnter<North Akkala Beach Cave,4645.5,111.99,3206.83>
+      NorthBironSnowshelf:
+        presets: _CaveEnter<North Biron Snowshelf Cave,-3960.08,342.49,3245.22>
+      _NorthHyrulePlain:
+        A:
+          presets: _CaveEnter<North Hyrule Plain Cave,-1234.18,182.97,770.22>
+        B:
+          presets: _CaveEnter<North Hyrule Plain Cave,-1188.39,177.85,644.51>
+      OaklesNavel:
+        presets: _CaveEnter<Oakle's Navel Cave,2504.1,111.95,-2106.52>
+      OasisSource:
+        presets: _CaveEnter<Oasis Source,-3354.94,101.17,-2693.96>
+      OrenBridge:
+        presets: _CaveEnter<Oren Bridge Cave,2909.62,187.49,-65.93>
+      PagosWoodsExcavationSite:
+        presets: _CaveEnter<Pagos Woods Excavation Site,671.8,129.39,-3109.48>
+      PasseriGreenbelt:
+        presets: _CaveEnter<Passeri Greenbelt Cave,-512.36,125.87,127.59>
+      PicoPond:
+        presets: _CaveEnter<Pico Pond Cave,1247.26,131.05,1231.93>
+      _PikidaStonegroveNorthwest:
+        A:
+          presets: _CaveEnter<Pikida Stonegrove Northwest Cave,-2642.29,354.5,3268.3>
+        B:
+          presets: _CaveEnter<Pikida Stonegrove Northwest Cave,-2414.12,478.16,3136.46>
+      _Pit:
+        A:
+          presets: _CaveEnter<Pit Cave,632.28,1588.92,-1638.81>
+        B:
+          presets: _CaveEnter<Pit Cave,587.42,1548.04,-1624.5>
+      PloymusMountain:
+        presets: _CaveEnter<Ploymus Mountain Cave,3660.9,374.03,538.59>
+      _Pondside:
+        A:
+          presets: _CaveEnter<Pondside Cave,170.52,1482.81,-1633.77>
+        B:
+          presets: _CaveEnter<Pondside Cave,260.15,1466.73,-1557.84>
+      PoplaFoothillsExcavationSite:
+        presets: _CaveEnter<Popla Foothills Excavation Site,608.9,156.33,-2210.08>
+      _PristineSanctum:
+        A:
+          presets: _CaveEnter<Pristine Sanctum,3708.02,448.5,608.69>
+        B:
+          presets: _CaveEnter<Pristine Sanctum,3622.33,275,583.49>
+      PufferBeachOverhead:
+        presets: _CaveEnter<Puffer Beach Overhead Cave,283.98,138.58,-3851.47>
+      QuicksandLake:
+        presets: _CaveEnter<Quicksand Lake Cave,-3238.82,39.57,-2939.66>
+      _RalisChannel:
+        A:
+          presets: _CaveEnter<Ralis Channel,2958.83,308.04,253.89>
+        B:
+          presets: _CaveEnter<Ralis Channel,2912.13,263.13,170.14>
+      _RanchRuins:
+        A:
+          presets: _CaveEnter<Ranch Ruins Cave,37.3,124.18,-198.86>
+        B:
+          presets: _CaveEnter<Ranch Ruins Cave,6.01,136.07,-157.93>
+      RasslaLake:
+        presets: _CaveEnter<Rassla Lake Cave,1813.53,224,-3738.02>
+      RauruHillside:
+        presets: _CaveEnter<Rauru Hillside Cave,676.47,150.67,1389.78>
+      RebonaeBridge:
+        presets: _CaveEnter<Rebonae Bridge Cave,845.92,121.33,31.5>
+      ReservoirLakefrontrn:
+        presets: _CaveEnter<Reservoir Lakefront Cavern,3809.58,314.45,419.6>
+      _RetsamForest:
+        A:
+          presets: _CaveEnter<Retsam Forest Cave,3757.45,319.73,-2066.61>
+        B:
+          presets: _CaveEnter<Retsam Forest Cave,3748.88,295.5,-2026.51>
+      RiveroftheDeadWaterfall:
+        presets: _CaveEnter<River of the Dead Waterfall Cave,-1092.38,249.19,-2162.71>
+      RobredDropoff:
+        presets: _CaveEnter<Robred Dropoff Cave,2492.99,117.53,-1477.65>
+      RodaiLakefrontTunnel:
+        presets: _CaveEnter<Rodai Lakefront Tunnel,1896.4,237.53,-3111.24>
+      RosproPass:
+        presets: _CaveEnter<Rospro Pass Cave,-3559.56,332.72,2488.38>
+      _RoyalHiddenPassage:
+        A:
+          presets: _CaveEnter<Royal Hidden Passage,-325.67,159.57,802.53>
+        B:
+          presets: _CaveEnter<Royal Hidden Passage,-254.04,113.5,129>
+        C:
+          presets: _CaveEnter<Royal Hidden Passage,-253.97,132.9,767.08>
+      SageTemple:
+        presets: _CaveEnter<Sage Temple Cave,-1404.5,101.56,-256.5>
+      _SahasraSlope:
+        A:
+          presets: _CaveEnter<Sahasra Slope Cave,1373.02,235.28,-1197.25>
+        B:
+          presets: _CaveEnter<Sahasra Slope Cave,1328.36,239.95,-1156.22>
+      SarjonWoods:
+        presets: _CaveEnter<Sarjon Woods Cave,1203.09,130.92,-3170.91>
+      SatoriMountain:
+        presets: _CaveEnter<Satori Mountain Cave,-2151.01,381.5,-360.52>
+      SatoriMountainFoothill:
+        presets: _CaveEnter<Satori Mountain Foothill Cave,-2198.54,222.8,-807.57>
+      ShrineofResurrection:
+        presets: _CaveEnter<Shrine of Resurrection,-1061.88,247.67,-1829.55>
+      SkullLake:
+        presets: _CaveEnter<Skull Lake Cave,3321.5,276.5,3424>
+      SouthGerudo:
+        presets: _CaveEnter<South Gerudo Cave,-2939.1,68.4,-3857.83>
+      SouthernMine:
+        presets: _CaveEnter<Southern Mine,1800.95,425.92,1983.35>
+      SpectacleRock:
+        presets: _CaveEnter<Spectacle Rock Cave,-2215.91,352.71,-2395.27>
+      StalryPlateau:
+        presets: _CaveEnter<Stalry Plateau Cave,-1527.76,84.9,-2222.54>
+      StatueoftheEighthHeroine:
+        presets: _CaveEnter<Statue of the Eighth Heroine Cave,-4384.54,579.3,-536.55>
+      SturnidaSprings:
+        presets: _CaveEnter<Sturnida Springs Cave,-4041.16,128.78,2671.44>
+      TaafeiHill:
+        presets: _CaveEnter<Taafei Hill Cave,-2457.33,281.79,-1798.55>
+      _TabahlWoods:
+        A:
+          presets: _CaveEnter<Tabahl Woods Cave,2674.99,194.75,287.43>
+        B:
+          presets: _CaveEnter<Tabahl Woods Cave,2605.53,181.5,227.1>
+        C:
+          presets: _CaveEnter<Tabahl Woods Cave,2679.64,198.03,217.7>
+      TabanthaHills:
+        presets: _CaveEnter<Tabantha Hills Cave,-2840.93,328.48,1771.91>
+      TalontoPeak:
+        presets: _CaveEnter<Talonto Peak Cave,-3214.61,451.03,2462.24>
+      TamioRiverDownstream:
+        presets: _CaveEnter<Tamio River Downstream Cave,-2921.85,113.07,-804.16>
+      TanagarCanyonEast:
+        presets: _CaveEnter<Tanagar Canyon East Cave,-2049.13,48.87,1631.71>
+      TanagarCanyonWest:
+        presets: _CaveEnter<Tanagar Canyon West Cave,-3308.47,3.62,789.76>
+      TarmPoint:
+        presets: _CaveEnter<Tarm Point Cave,4473.05,137.05,-826.96>
+      TarreyTownTunnel:
+        presets: _CaveEnter<Tarrey Town Tunnel,3925.93,212.56,1576.42>
+      ThundraPlateau:
+        presets: _CaveEnter<Thundra Plateau Cave,-2268.35,191.65,899.23>
+      TobiosHollow:
+        presets: _CaveEnter<Tobio's Hollow Cave,1169.64,282.57,-2443.85>
+      UbotaPoint:
+        presets: _CaveEnter<Ubota Point Cave,1446.72,182.77,-3483.65>
+      _UlriaGrottoEast:
+        A:
+          presets: _CaveEnter<Ulria Grotto East Cave,4505,201.94,705.16>
+        B:
+          presets: _CaveEnter<Ulria Grotto East Cave,4272.99,249.85,774.32>
+      UlriaGrottoSouth:
+        presets: _CaveEnter<Ulria Grotto South Cave,4122.23,293.18,662.29>
+      UnderZorasDomain:
+        presets: _CaveEnter<Cave Under Zora's Domain,3240.99,181.48,373.52>
+      _UplandZoranaByroad:
+        A:
+          presets: _CaveEnter<Upland Zorana Byroad,2863.63,332.75,346.33>
+        B:
+          presets: _CaveEnter<Upland Zorana Byroad,2700.3,307.49,479.82>
+      UplandZoranaFoothill:
+        presets: _CaveEnter<Upland Zorana Foothill Cave,3147.39,282.53,667.61>
+      _UplandZoranaMountainside:
+        A:
+          presets: _CaveEnter<Upland Zorana Mountainside Cave,2570.03,269.54,517.99>
+        B:
+          presets: _CaveEnter<Upland Zorana Mountainside Cave,2633.57,294.2,526.16>
+      UplandZoranaSummit:
+        presets: _CaveEnter<Upland Zorana Summit Cave,2850.64,429.96,477.98>
+      ValleyofSilentStatues:
+        presets: _CaveEnter<Valley of Silent Statues,-3827.19,140.71,-2650.32>
+      _WalnotMountain:
+        A:
+          presets: _CaveEnter<Walnot Mountain Cave,4225.54,285.5,-1738.95>
+        B:
+          presets: _CaveEnter<Walnot Mountain Cave,3933.57,232.94,-2069>
+      WestGerudoUndergroundRuins:
+        presets: _CaveEnter<West Gerudo Underground Ruins,-4673.2,114.7,-1986.14>
+      WestLakeTotori:
+        presets: _CaveEnter<West Lake Totori Cave,-3958.69,306.08,2029.48>
+      WestRestaurant:
+        presets: _CaveEnter<West Restaurant Cave,1642.85,384.54,1729.56>
+      WhistlingHill:
+        presets: _CaveEnter<Whistling Hill Cave,-72.11,122.94,-1045.97>
+      YigaBlademasterStation:
+        presets: _CaveEnter<Yiga Blademaster Station,-2433.91,251.24,-1819.68>
+      YigaClanMarittaBranch:
+        presets: _CaveEnter<Yiga Clan Maritta Branch,-643.5,260,2040>
+      YunoboCoHQEast:
+        presets: _CaveEnter<YunoboCo HQ East Cave,1764.65,505.26,2837.4>
+      YunoboCoHQSouth:
+        presets: _CaveEnter<YunoboCo HQ South Cave,1713.88,506.11,2718.59>
+    _Exit:
+      AkkalaCitadelRuins:
+        presets: _CaveExit<Akkala Citadel Ruins Cave,3243.72,399.54,1456.82>
+      AkkalaCitadelRuinsSummit:
+        presets: _CaveExit<Akkala Citadel Ruins Summit Cave,3292.5,500.06,1492>
+      _AncientAltarRuins:
+        A:
+          presets: _CaveExit<Ancient Altar Ruins,-2535.54,57.28,-3626.1>
+        B:
+          presets: _CaveExit<Ancient Altar Ruins,-2518.92,57.85,-3671.56>
+        C:
+          presets: _CaveExit<Ancient Altar Ruins,-2584.24,57.52,-3638.21>
+        D:
+          presets: _CaveExit<Ancient Altar Ruins,-2570.56,54.08,-3744.45>
+        E:
+          presets: _CaveExit<Ancient Altar Ruins,-2530.79,58.68,-3769.12>
+        F:
+          presets: _CaveExit<Ancient Altar Ruins,-2480.56,58.85,-3758.14>
+        G:
+          presets: _CaveExit<Ancient Altar Ruins,-2521.2,58.38,-3724.84>
+        H:
+          presets: _CaveExit<Ancient Altar Ruins,-2564.69,57.2,-3681.72>
+        I:
+          presets: _CaveExit<Ancient Altar Ruins,-2451.86,58.97,-3676.73>
+        J:
+          presets: _CaveExit<Ancient Altar Ruins,-2480.76,58.92,-3632.82>
+        K:
+          presets: _CaveExit<Ancient Altar Ruins,-2477.85,58.39,-3709.82>
+        L:
+          presets: _CaveExit<Ancient Altar Ruins,-2604.79,55.76,-3709.32>
+      AncientColumns:
+        presets: _CaveExit<Ancient Columns Cave,-3465.12,359.57,449.46>
+      AncientPrisonRuins:
+        presets: _CaveExit<Ancient Prison Ruins,-3099.36,53.95,-3063.78>
+      AncientTreeStump:
+        presets: _CaveExit<Ancient Tree Stump Cave,-1111.5,128.2,-432.06>
+      AtunValley:
+        presets: _CaveExit<Atun Valley Cave,2454,170,-3193>
+      _BonéPondEast:
+        A:
+          presets: _CaveExit<Boné Pond East Cave,2185.08,142.89,142.08>
+        B:
+          presets: _CaveExit<Boné Pond East Cave,2253.84,121.62,14.21>
+        C:
+          presets: _CaveExit<Boné Pond East Cave,2215.35,177.09,100.18>
+        D:
+          presets: _CaveExit<Boné Pond East Cave,2260.73,216.08,108.4>
+      _Bottomless:
+        A:
+          presets: _CaveExit<Bottomless Cave,711.58,1591.06,-1449.1>
+        B:
+          presets: _CaveExit<Bottomless Cave,739.1,1647.76,-1358.03>
+      Brightcap:
+        presets: _CaveExit<Brightcap Cave,-3005.72,304.84,1635.03>
+      _ByroadtoLanayruWetlands:
+        A:
+          presets: _CaveExit<Byroad to Lanayru Wetlands,1617,112.46,-1260>
+        B:
+          presets: _CaveExit<Byroad to Lanayru Wetlands,1587.75,111.52,-812.19>
+      _CaloraLake:
+        A:
+          presets: _CaveExit<Calora Lake Cave,1958.78,298.39,-3032.79>
+        B:
+          presets: _CaveExit<Calora Lake Cave,2009.62,282.44,-3164.03>
+      CapeCalesCliffbase:
+        presets: _CaveExit<Cape Cales Cliffbase Cave,3650.4,99.3,-3210.82>
+      CentralGerudo:
+        presets: _CaveExit<Central Gerudo Cave,-3679.05,87.04,-3255.37>
+      CephlaLake:
+        presets: _CaveExit<Cephla Lake Cave,2593.65,256.45,1330.45>
+      ColiseumRuins:
+        presets: _CaveExit<Coliseum Ruins Cave,-1167.15,127.75,-1310.98>
+      _ConstructionSite:
+        A:
+          presets: _CaveExit<Construction Site Cave,3678.72,179.51,1538.25>
+        B:
+          presets: _CaveExit<Construction Site Cave,3735.44,186.32,1534.08>
+      _CoraLakefront:
+        A:
+          presets: _CaveExit<Cora Lakefront Cave,-256.15,86.97,-2940.2>
+        B:
+          presets: _CaveExit<Cora Lakefront Cave,-171.17,92.3,-3067.07>
+      CortaLake:
+        presets: _CaveExit<Corta Lake Cave,1676.8,269.84,-3038.77>
+      CrenelHills:
+        presets: _CaveExit<Crenel Hills Cave,493.73,146,730.94>
+      _CrenelPeak:
+        A:
+          presets: _CaveExit<Crenel Peak Cave,1144.71,163.02,247.46>
+        B:
+          presets: _CaveExit<Crenel Peak Cave,1349.55,134.32,296.5>
+      CuccoHideaway:
+        presets: _CaveExit<Cucco Hideaway,1877.43,304.04,-1160.38>
+      DeathMountainEastTunnel:
+        presets: _CaveExit<Death Mountain East Tunnel,2767.81,626.83,2778.18>
+      DeathMountainFoothill:
+        presets: _CaveExit<Death Mountain Foothill Cave,1949.91,531.46,2687.21>
+      DeathMountainWestTunnel:
+        presets: _CaveExit<Death Mountain West Tunnel,2238.61,626.02,2682.38>
+      DeepbackBay:
+        presets: _CaveExit<Deepback Bay Cave,4213.49,105.66,-2262.58>
+      DeplianBadlands:
+        presets: _CaveExit<Deplian Badlands Cave,307.13,193,3579.35>
+      DuelingPeaksNorth:
+        presets: _CaveExit<Dueling Peaks North Cave,1194.46,263.43,-1854.06>
+      DuelingPeaksSouth:
+        presets: _CaveExit<Dueling Peaks South Cave,1183.37,351,-1947.55>
+      _EastBironSnowshelf:
+        A:
+          presets: _CaveExit<East Biron Snowshelf Cave,-3555.2,378.88,3088.22>
+        B:
+          presets: _CaveExit<East Biron Snowshelf Cave,-3989.37,243.83,3062.85>
+      EastGerudoRuins:
+        presets: _CaveExit<East Gerudo Ruins Cave,-2696.02,38.1,-2808.62>
+      EastRestaurant:
+        presets: _CaveExit<East Restaurant Cave,1853.96,397.44,1719.95>
+      EventideIsland:
+        presets: _CaveExit<Eventide Island Cave,4752.63,99.21,-3781.51>
+      FinraWoodsExcavationSite:
+        presets: _CaveExit<Finra Woods Excavation Site,568.6,118.23,-2981.88>
+      FloriaRiverUpstreamExcavation:
+        presets: _CaveExit<Floria River Upstream Excavation,809.89,116.22,-2971.71>
+      FoothillMonsterDen:
+        presets: _CaveExit<Foothill Monster Den,2275.32,262.5,1520.1>
+      FortHateno:
+        presets: _CaveExit<Fort Hateno Cave,2243.43,129,-1689.6>
+      _GerudoCanyonMine:
+        A:
+          presets: _CaveExit<Gerudo Canyon Mine,-2611.28,217.98,-2604.77>
+        B:
+          presets: _CaveExit<Gerudo Canyon Mine,-2676.71,185.07,-2402.61>
+      GerudoGreatSkeleton:
+        presets: _CaveExit<Gerudo Great Skeleton,-4814.32,104.5,-3875.43>
+      _GerudoSanctuary:
+        A:
+          presets: _CaveExit<Gerudo Sanctuary,-3763.27,120.39,-2698.52>
+        B:
+          presets: _CaveExit<Gerudo Sanctuary,-3763.27,120.39,-2420.76>
+      _GisaCrater:
+        A:
+          presets: _CaveExit<Gisa Crater Cave,-3865.5,178,1011.5>
+        B:
+          presets: _CaveExit<Gisa Crater Cave,-3931.1,178.31,1090.97>
+      GorkoTunnel:
+        presets: _CaveExit<Gorko Tunnel,2016,526.28,2038.98>
+      GoronbiRiver:
+        presets: _CaveExit<Goronbi River Cave,1423.08,389.93,2102.73>
+      GreatPlateauFoothill:
+        presets: _CaveExit<Great Plateau Foothill Cave,-832.35,132.49,-1488.38>
+      HebraGreatSkeleton:
+        presets: _CaveExit<Hebra Great Skeleton,-3814.61,360.5,3595.48>
+      HebraHeadspring:
+        presets: _CaveExit<Hebra Headspring Cave,-2900.16,493.4,2510.26>
+      HebraMountainsNorthwest:
+        presets: _CaveExit<Hebra Mountains Northwest Cave,-2995.57,645.47,3225.75>
+      _HebraSouthSummit:
+        A:
+          presets: _CaveExit<Hebra South Summit Cave,-3398.43,418.61,2499.36>
+        B:
+          presets: _CaveExit<Hebra South Summit Cave,-3227.5,547.16,2535.28>
+      HoronLagoon:
+        presets: _CaveExit<Horon Lagoon Cave,4243.97,89.11,-255.67>
+      IcefallFoothills:
+        presets: _CaveExit<Icefall Foothills Cave,-4429.34,328.84,3760.2>
+      IsleofRabacGallery:
+        presets: _CaveExit<Isle of Rabac Gallery,1554.56,498.43,3102.51>
+      KakarikoVillage:
+        presets: _CaveExit<Kakariko Village Cave,1947.49,262.98,-981.82>
+      KomoShoreline:
+        presets: _CaveExit<Komo Shoreline Cave,486.93,113.21,-3831.14>
+      KopeekiDrifts:
+        presets: _CaveExit<Kopeeki Drifts Cave,-2395.84,275,2276.63>
+      _KoukotPlateau:
+        A:
+          presets: _CaveExit<Koukot Plateau Cave,-2258.92,161.95,-1759.33>
+        B:
+          presets: _CaveExit<Koukot Plateau Cave,-2173.73,232.09,-1841.65>
+      LakeDarmanMonsterDen:
+        presets: _CaveExit<Lake Darman Monster Den,2373.34,550.84,3051.7>
+      _LakeFerona:
+        A:
+          presets: _CaveExit<Lake Ferona Cave,1929.5,227.27,1271.64>
+        B:
+          presets: _CaveExit<Lake Ferona Cave,1931.95,273.65,1304.57>
+      LakeHyliaWhirlpool:
+        presets: _CaveExit<Lake Hylia Whirlpool Cave,125.75,15.91,-2501.45>
+      LakeIntenoch:
+        presets: _CaveExit<Lake Intenoch Cave,2485.39,263.38,1792.98>
+      LakeKilsie:
+        presets: _CaveExit<Lake Kilsie Cave,-3930.99,87.47,2861.26>
+      _LanayruRoadEast:
+        A:
+          presets: _CaveExit<Lanayru Road East Cave,3073.54,197.26,-1137.79>
+        B:
+          presets: _CaveExit<Lanayru Road East Cave,3476.45,97.44,-968.39>
+      LanayruRoadSouth:
+        presets: _CaveExit<Lanayru Road South Cave,2698.27,216.72,-1314.64>
+      LindorsBrow:
+        presets: _CaveExit<Lindor's Brow Cave,-1734.93,334.2,1165.7>
+      LizardsBurrow:
+        presets: _CaveExit<Lizard's Burrow,2206.31,510.94,3075.32>
+      LocationMarkerAncientZoraWaterworks:
+        presets: _CaveExit<LocationMarker Ancient Zora Waterworks,3606.64,103.96,122.2>
+      LowerSpectacleRock:
+        presets: _CaveExit<Lower Spectacle Rock Cave,-1744.35,94.31,-2394.18>
+      LutosChannel:
+        presets: _CaveExit<Luto's Channel,3094.1,184.58,-51.31>
+      MaplaPoint:
+        presets: _CaveExit<Mapla Point Cave,4585.33,103.6,-2246.28>
+      MeadelasMantle:
+        presets: _CaveExit<Meadela's Mantle Cave,-3982.83,532.17,-1245.38>
+      _Mining:
+        A:
+          presets: _CaveExit<Mining Cave,380.06,1516.65,-1631.65>
+        B:
+          presets: _CaveExit<Mining Cave,489.66,1473.25,-1625.62>
+      MountDrenaFoothill:
+        presets: _CaveExit<Mount Drena Foothill Cave,-1372.09,303.22,2861.31>
+      _MountDunsel:
+        A:
+          presets: _CaveExit<Mount Dunsel Cave,3224.25,164.95,-3017.77>
+        B:
+          presets: _CaveExit<Mount Dunsel Cave,3291.35,170.08,-3296.46>
+      _MountFloria:
+        A:
+          presets: _CaveExit<Mount Floria Cave,1959.68,176.62,-2611.65>
+        B:
+          presets: _CaveExit<Mount Floria Cave,1789.54,185.87,-2985.64>
+      _MountNabooru:
+        A:
+          presets: _CaveExit<Mount Nabooru Cave,-1967,135.51,-2059.61>
+        B:
+          presets: _CaveExit<Mount Nabooru Cave,-1795.8,136.65,-1961.14>
+      MountNabooruSouth:
+        presets: _CaveExit<Mount Nabooru South Cave,-1726.96,110.58,-2183.38>
+      MystathisShelf:
+        presets: _CaveExit<Mystathi's Shelf Cave,-3881.65,675.34,-726.78>
+      _NorthAkkalaBeach:
+        A:
+          presets: _CaveExit<North Akkala Beach Cave,4650.67,54.5,3584.91>
+        B:
+          presets: _CaveExit<North Akkala Beach Cave,4645.5,111.99,3206.83>
+      NorthBironSnowshelf:
+        presets: _CaveExit<North Biron Snowshelf Cave,-3960.08,342.49,3245.22>
+      _NorthHyrulePlain:
+        A:
+          presets: _CaveExit<North Hyrule Plain Cave,-1234.18,182.97,770.22>
+        B:
+          presets: _CaveExit<North Hyrule Plain Cave,-1188.39,177.85,644.51>
+      OaklesNavel:
+        presets: _CaveExit<Oakle's Navel Cave,2504.1,111.95,-2106.52>
+      OasisSource:
+        presets: _CaveExit<Oasis Source,-3354.94,101.17,-2693.96>
+      OrenBridge:
+        presets: _CaveExit<Oren Bridge Cave,2909.62,187.49,-65.93>
+      PagosWoodsExcavationSite:
+        presets: _CaveExit<Pagos Woods Excavation Site,671.8,129.39,-3109.48>
+      PasseriGreenbelt:
+        presets: _CaveExit<Passeri Greenbelt Cave,-512.36,125.87,127.59>
+      PicoPond:
+        presets: _CaveExit<Pico Pond Cave,1247.26,131.05,1231.93>
+      _PikidaStonegroveNorthwest:
+        A:
+          presets: _CaveExit<Pikida Stonegrove Northwest Cave,-2642.29,354.5,3268.3>
+        B:
+          presets: _CaveExit<Pikida Stonegrove Northwest Cave,-2414.12,478.16,3136.46>
+      _Pit:
+        A:
+          presets: _CaveExit<Pit Cave,632.28,1588.92,-1638.81>
+        B:
+          presets: _CaveExit<Pit Cave,587.42,1548.04,-1624.5>
+      PloymusMountain:
+        presets: _CaveExit<Ploymus Mountain Cave,3660.9,374.03,538.59>
+      _Pondside:
+        A:
+          presets: _CaveExit<Pondside Cave,170.52,1482.81,-1633.77>
+        B:
+          presets: _CaveExit<Pondside Cave,260.15,1466.73,-1557.84>
+      PoplaFoothillsExcavationSite:
+        presets: _CaveExit<Popla Foothills Excavation Site,608.9,156.33,-2210.08>
+      _PristineSanctum:
+        A:
+          presets: _CaveExit<Pristine Sanctum,3708.02,448.5,608.69>
+        B:
+          presets: _CaveExit<Pristine Sanctum,3622.33,275,583.49>
+      PufferBeachOverhead:
+        presets: _CaveExit<Puffer Beach Overhead Cave,283.98,138.58,-3851.47>
+      QuicksandLake:
+        presets: _CaveExit<Quicksand Lake Cave,-3238.82,39.57,-2939.66>
+      _RalisChannel:
+        A:
+          presets: _CaveExit<Ralis Channel,2958.83,308.04,253.89>
+        B:
+          presets: _CaveExit<Ralis Channel,2912.13,263.13,170.14>
+      _RanchRuins:
+        A:
+          presets: _CaveExit<Ranch Ruins Cave,37.3,124.18,-198.86>
+        B:
+          presets: _CaveExit<Ranch Ruins Cave,6.01,136.07,-157.93>
+      RasslaLake:
+        presets: _CaveExit<Rassla Lake Cave,1813.53,224,-3738.02>
+      RauruHillside:
+        presets: _CaveExit<Rauru Hillside Cave,676.47,150.67,1389.78>
+      RebonaeBridge:
+        presets: _CaveExit<Rebonae Bridge Cave,845.92,121.33,31.5>
+      ReservoirLakefrontrn:
+        presets: _CaveExit<Reservoir Lakefront Cavern,3809.58,314.45,419.6>
+      _RetsamForest:
+        A:
+          presets: _CaveExit<Retsam Forest Cave,3757.45,319.73,-2066.61>
+        B:
+          presets: _CaveExit<Retsam Forest Cave,3748.88,295.5,-2026.51>
+      RiveroftheDeadWaterfall:
+        presets: _CaveExit<River of the Dead Waterfall Cave,-1092.38,249.19,-2162.71>
+      RobredDropoff:
+        presets: _CaveExit<Robred Dropoff Cave,2492.99,117.53,-1477.65>
+      RodaiLakefrontTunnel:
+        presets: _CaveExit<Rodai Lakefront Tunnel,1896.4,237.53,-3111.24>
+      RosproPass:
+        presets: _CaveExit<Rospro Pass Cave,-3559.56,332.72,2488.38>
+      _RoyalHiddenPassage:
+        A:
+          presets: _CaveExit<Royal Hidden Passage,-325.67,159.57,802.53>
+        B:
+          presets: _CaveExit<Royal Hidden Passage,-254.04,113.5,129>
+        C:
+          presets: _CaveExit<Royal Hidden Passage,-253.97,132.9,767.08>
+      SageTemple:
+        presets: _CaveExit<Sage Temple Cave,-1404.5,101.56,-256.5>
+      _SahasraSlope:
+        A:
+          presets: _CaveExit<Sahasra Slope Cave,1373.02,235.28,-1197.25>
+        B:
+          presets: _CaveExit<Sahasra Slope Cave,1328.36,239.95,-1156.22>
+      SarjonWoods:
+        presets: _CaveExit<Sarjon Woods Cave,1203.09,130.92,-3170.91>
+      SatoriMountain:
+        presets: _CaveExit<Satori Mountain Cave,-2151.01,381.5,-360.52>
+      SatoriMountainFoothill:
+        presets: _CaveExit<Satori Mountain Foothill Cave,-2198.54,222.8,-807.57>
+      ShrineofResurrection:
+        presets: _CaveExit<Shrine of Resurrection,-1061.88,247.67,-1829.55>
+      SkullLake:
+        presets: _CaveExit<Skull Lake Cave,3321.5,276.5,3424>
+      SouthGerudo:
+        presets: _CaveExit<South Gerudo Cave,-2939.1,68.4,-3857.83>
+      SouthernMine:
+        presets: _CaveExit<Southern Mine,1800.95,425.92,1983.35>
+      SpectacleRock:
+        presets: _CaveExit<Spectacle Rock Cave,-2215.91,352.71,-2395.27>
+      StalryPlateau:
+        presets: _CaveExit<Stalry Plateau Cave,-1527.76,84.9,-2222.54>
+      StatueoftheEighthHeroine:
+        presets: _CaveExit<Statue of the Eighth Heroine Cave,-4384.54,579.3,-536.55>
+      SturnidaSprings:
+        presets: _CaveExit<Sturnida Springs Cave,-4041.16,128.78,2671.44>
+      TaafeiHill:
+        presets: _CaveExit<Taafei Hill Cave,-2457.33,281.79,-1798.55>
+      _TabahlWoods:
+        A:
+          presets: _CaveExit<Tabahl Woods Cave,2674.99,194.75,287.43>
+        B:
+          presets: _CaveExit<Tabahl Woods Cave,2605.53,181.5,227.1>
+        C:
+          presets: _CaveExit<Tabahl Woods Cave,2679.64,198.03,217.7>
+      TabanthaHills:
+        presets: _CaveExit<Tabantha Hills Cave,-2840.93,328.48,1771.91>
+      TalontoPeak:
+        presets: _CaveExit<Talonto Peak Cave,-3214.61,451.03,2462.24>
+      TamioRiverDownstream:
+        presets: _CaveExit<Tamio River Downstream Cave,-2921.85,113.07,-804.16>
+      TanagarCanyonEast:
+        presets: _CaveExit<Tanagar Canyon East Cave,-2049.13,48.87,1631.71>
+      TanagarCanyonWest:
+        presets: _CaveExit<Tanagar Canyon West Cave,-3308.47,3.62,789.76>
+      TarmPoint:
+        presets: _CaveExit<Tarm Point Cave,4473.05,137.05,-826.96>
+      TarreyTownTunnel:
+        presets: _CaveExit<Tarrey Town Tunnel,3925.93,212.56,1576.42>
+      ThundraPlateau:
+        presets: _CaveExit<Thundra Plateau Cave,-2268.35,191.65,899.23>
+      TobiosHollow:
+        presets: _CaveExit<Tobio's Hollow Cave,1169.64,282.57,-2443.85>
+      UbotaPoint:
+        presets: _CaveExit<Ubota Point Cave,1446.72,182.77,-3483.65>
+      _UlriaGrottoEast:
+        A:
+          presets: _CaveExit<Ulria Grotto East Cave,4505,201.94,705.16>
+        B:
+          presets: _CaveExit<Ulria Grotto East Cave,4272.99,249.85,774.32>
+      UlriaGrottoSouth:
+        presets: _CaveExit<Ulria Grotto South Cave,4122.23,293.18,662.29>
+      UnderZorasDomain:
+        presets: _CaveExit<Cave Under Zora's Domain,3240.99,181.48,373.52>
+      _UplandZoranaByroad:
+        A:
+          presets: _CaveExit<Upland Zorana Byroad,2863.63,332.75,346.33>
+        B:
+          presets: _CaveExit<Upland Zorana Byroad,2700.3,307.49,479.82>
+      UplandZoranaFoothill:
+        presets: _CaveExit<Upland Zorana Foothill Cave,3147.39,282.53,667.61>
+      _UplandZoranaMountainside:
+        A:
+          presets: _CaveExit<Upland Zorana Mountainside Cave,2570.03,269.54,517.99>
+        B:
+          presets: _CaveExit<Upland Zorana Mountainside Cave,2633.57,294.2,526.16>
+      UplandZoranaSummit:
+        presets: _CaveExit<Upland Zorana Summit Cave,2850.64,429.96,477.98>
+      ValleyofSilentStatues:
+        presets: _CaveExit<Valley of Silent Statues,-3827.19,140.71,-2650.32>
+      _WalnotMountain:
+        A:
+          presets: _CaveExit<Walnot Mountain Cave,4225.54,285.5,-1738.95>
+        B:
+          presets: _CaveExit<Walnot Mountain Cave,3933.57,232.94,-2069>
+      WestGerudoUndergroundRuins:
+        presets: _CaveExit<West Gerudo Underground Ruins,-4673.2,114.7,-1986.14>
+      WestLakeTotori:
+        presets: _CaveExit<West Lake Totori Cave,-3958.69,306.08,2029.48>
+      WestRestaurant:
+        presets: _CaveExit<West Restaurant Cave,1642.85,384.54,1729.56>
+      WhistlingHill:
+        presets: _CaveExit<Whistling Hill Cave,-72.11,122.94,-1045.97>
+      YigaBlademasterStation:
+        presets: _CaveExit<Yiga Blademaster Station,-2433.91,251.24,-1819.68>
+      YigaClanMarittaBranch:
+        presets: _CaveExit<Yiga Clan Maritta Branch,-643.5,260,2040>
+      YunoboCoHQEast:
+        presets: _CaveExit<YunoboCo HQ East Cave,1764.65,505.26,2837.4>
+      YunoboCoHQSouth:
+        presets: _CaveExit<YunoboCo HQ South Cave,1713.88,506.11,2718.59>
+

@@ -8,3 +8,4 @@ includes:
 - use: ./parts/bosses.yaml
 - use: ./parts/warps.yaml
 - use: ./parts/wells.yaml
+- use: ./parts/caves.yaml

@@ -1,0 +1,844 @@
+# Scheme:
+#
+# main well data:
+# .data[<ID>]:
+#   name: string
+#   entrances: arrayof
+#     hash: string
+#     coord: [x,y,z] (y is height)
+data:
+  AkkalaCitadelRuins:
+    name: Akkala Citadel Ruins Cave
+    entrances:
+    - coord: [3243.72, 399.54, 1456.82]
+      hash: "0x8a2c12f53bf03ad8"
+  AkkalaCitadelRuinsSummit:
+    name: Akkala Citadel Ruins Summit Cave
+    entrances:
+    - coord: [3292.5, 500.06, 1492]
+      hash: "0x8cc1fd500126068e"
+  AncientAltarRuins:
+    name: Ancient Altar Ruins
+    entrances:
+    - coord: [-2535.54, 57.28, -3626.1]
+      hash: "0x23bec8b8ded2dc80"
+    - coord: [-2518.92, 57.85, -3671.56]
+      hash: "0x25f02444394a0f92"
+    - coord: [-2584.24, 57.52, -3638.21]
+      hash: "0x2bd91a8d9b645ca2"
+    - coord: [-2570.56, 54.08, -3744.45]
+      hash: "0x4bf3accde520fc4f"
+    - coord: [-2530.79, 58.68, -3769.12]
+      hash: "0x5220cd3ca7c40de9"
+    - coord: [-2480.56, 58.85, -3758.14]
+      hash: "0x594b20c21a1e5f50"
+    - coord: [-2521.2, 58.38, -3724.84]
+      hash: "0x758a5dafa6b69440"
+    - coord: [-2564.69, 57.2, -3681.72]
+      hash: "0x8695ba87e145369e"
+    - coord: [-2451.86, 58.97, -3676.73]
+      hash: "0x9817a37d7279f2f2"
+    - coord: [-2480.76, 58.92, -3632.82]
+      hash: "0xad4c15e7b8bf4c1f"
+    - coord: [-2477.85, 58.39, -3709.82]
+      hash: "0xb82f746fe782c4ce"
+    - coord: [-2604.79, 55.76, -3709.32]
+      hash: "0xe0f38f6f64b92550"
+  AncientColumns:
+    name: Ancient Columns Cave
+    entrances:
+    - coord: [-3465.12, 359.57, 449.46]
+      hash: "0x7c3f120a862ab2eb"
+  AncientPrisonRuins:
+    name: Ancient Prison Ruins
+    entrances:
+    - coord: [-3099.36, 53.95, -3063.78]
+      hash: "0x123b5e327d0b5036"
+  AncientTreeStump:
+    name: Ancient Tree Stump Cave
+    entrances:
+    - coord: [-1111.5, 128.2, -432.06]
+      hash: "0xd49b56c6c6622c45"
+  AtunValley:
+    name: Atun Valley Cave
+    entrances:
+    - coord: [2454, 170, -3193]
+      hash: "0xf18b5a5682cad5a1"
+  BonéPondEast:
+    name: Boné Pond East Cave
+    entrances:
+    - coord: [2185.08, 142.89, 142.08]
+      hash: "0x1e46a52b8dda327e"
+    - coord: [2253.84, 121.62, 14.21]
+      hash: "0x23a6acbc1260f39b"
+    - coord: [2215.35, 177.09, 100.18]
+      hash: "0x600bf45a2c1b8b2c"
+    - coord: [2260.73, 216.08, 108.4]
+      hash: "0x88db26421291f047"
+  Bottomless:
+    name: Bottomless Cave
+    entrances:
+    - coord: [711.58, 1591.06, -1449.1]
+      hash: "0x32c3b00dbdfc342f"
+    - coord: [739.1, 1647.76, -1358.03]
+      hash: "0x55902752ae0f2aa1"
+  Brightcap:
+    name: Brightcap Cave
+    entrances:
+    - coord: [-3005.72, 304.84, 1635.03]
+      hash: "0xea918b6f19df9c9f"
+  ByroadtoLanayruWetlands:
+    name: Byroad to Lanayru Wetlands
+    entrances:
+    - coord: [1617, 112.46, -1260]
+      hash: "0x20fd159e7adec749"
+    - coord: [1587.75, 111.52, -812.19]
+      hash: "0xa01a0b2a5e95ddff"
+  CaloraLake:
+    name: Calora Lake Cave
+    entrances:
+    - coord: [1958.78, 298.39, -3032.79]
+      hash: "0x5e68dd7850331e20"
+    - coord: [2009.62, 282.44, -3164.03]
+      hash: "0xd7637fe16455bcff"
+  CapeCalesCliffbase:
+    name: Cape Cales Cliffbase Cave
+    entrances:
+    - coord: [3650.4, 99.3, -3210.82]
+      hash: "0x33c169b0bc698086"
+  CentralGerudo:
+    name: Central Gerudo Cave
+    entrances:
+    - coord: [-3679.05, 87.04, -3255.37]
+      hash: "0xd0a0b3e656839277"
+  CephlaLake:
+    name: Cephla Lake Cave
+    entrances:
+    - coord: [2593.65, 256.45, 1330.45]
+      hash: "0x5b50119887cdecfe"
+  ColiseumRuins:
+    name: Coliseum Ruins Cave
+    entrances:
+    - coord: [-1167.15, 127.75, -1310.98]
+      hash: "0xee79623119e50b36"
+  ConstructionSite:
+    name: Construction Site Cave
+    entrances:
+    - coord: [3678.72, 179.51, 1538.25]
+      hash: "0x2ffbb4a9103a98e0"
+    - coord: [3735.44, 186.32, 1534.08]
+      hash: "0xa1f7c5006f1ac96a"
+  CoraLakefront:
+    name: Cora Lakefront Cave
+    entrances:
+    - coord: [-256.15, 86.97, -2940.2]
+      hash: "0x1fcd076feaf74f5d"
+    - coord: [-171.17, 92.3, -3067.07]
+      hash: "0xf6f203cfbe8c2588"
+  CortaLake:
+    name: Corta Lake Cave
+    entrances:
+    - coord: [1676.8, 269.84, -3038.77]
+      hash: "0x6f5c714827d55e83"
+  CrenelHills:
+    name: Crenel Hills Cave
+    entrances:
+    - coord: [493.73, 146, 730.94]
+      hash: "0x71a0d5031d937e5f"
+  CrenelPeak:
+    name: Crenel Peak Cave
+    entrances:
+    - coord: [1144.71, 163.02, 247.46]
+      hash: "0x29927b01ee2b51dd"
+    - coord: [1349.55, 134.32, 296.5]
+      hash: "0xfe62aa3238fa4a94"
+  CuccoHideaway:
+    name: Cucco Hideaway
+    entrances:
+    - coord: [1877.43, 304.04, -1160.38]
+      hash: "0x3916d31e5cedcdcc"
+  DeathMountainEastTunnel:
+    name: Death Mountain East Tunnel
+    entrances:
+    - coord: [2767.81, 626.83, 2778.18]
+      hash: "0x27234d7a2c222a4d"
+  DeathMountainFoothill:
+    name: Death Mountain Foothill Cave
+    entrances:
+    - coord: [1949.91, 531.46, 2687.21]
+      hash: "0x190031b5e77c2ac2"
+  DeathMountainWestTunnel:
+    name: Death Mountain West Tunnel
+    entrances:
+    - coord: [2238.61, 626.02, 2682.38]
+      hash: "0x4c4e243ec02d4521"
+  DeepbackBay:
+    name: Deepback Bay Cave
+    entrances:
+    - coord: [4213.49, 105.66, -2262.58]
+      hash: "0xcf359718b7cc1d9e"
+  DeplianBadlands:
+    name: Deplian Badlands Cave
+    entrances:
+    - coord: [307.13, 193, 3579.35]
+      hash: "0xd12113235a5bb464"
+  DuelingPeaksNorth:
+    name: Dueling Peaks North Cave
+    entrances:
+    - coord: [1194.46, 263.43, -1854.06]
+      hash: "0x4d78e234f4da2678"
+  DuelingPeaksSouth:
+    name: Dueling Peaks South Cave
+    entrances:
+    - coord: [1183.37, 351, -1947.55]
+      hash: "0x87312b037e4cd21c"
+  EastBironSnowshelf:
+    name: East Biron Snowshelf Cave
+    entrances:
+    - coord: [-3555.2, 378.88, 3088.22]
+      hash: "0x2180b6a11b1d3b57"
+    - coord: [-3989.37, 243.83, 3062.85]
+      hash: "0xeab01ad14e126e16"
+  EastGerudoRuins:
+    name: East Gerudo Ruins Cave
+    entrances:
+    - coord: [-2696.02, 38.1, -2808.62]
+      hash: "0xa67d359d28541186"
+  EastRestaurant:
+    name: East Restaurant Cave
+    entrances:
+    - coord: [1853.96, 397.44, 1719.95]
+      hash: "0x077ecd21f135971c"
+  EventideIsland:
+    name: Eventide Island Cave
+    entrances:
+    - coord: [4752.63, 99.21, -3781.51]
+      hash: "0x72eea0817634ddc0"
+  FinraWoodsExcavationSite:
+    name: Finra Woods Excavation Site
+    entrances:
+    - coord: [568.6, 118.23, -2981.88]
+      hash: "0x65aa359b7786d2b3"
+  FloriaRiverUpstreamExcavation:
+    name: Floria River Upstream Excavation
+    entrances:
+    - coord: [809.89, 116.22, -2971.71]
+      hash: "0x56c6c9c08c371667"
+  FoothillMonsterDen:
+    name: Foothill Monster Den
+    entrances:
+    - coord: [2275.32, 262.5, 1520.1]
+      hash: "0xc6daa0a83d143b3a"
+  FortHateno:
+    name: Fort Hateno Cave
+    entrances:
+    - coord: [2243.43, 129, -1689.6]
+      hash: "0x5f65fd2b06797030"
+  GerudoCanyonMine:
+    name: Gerudo Canyon Mine
+    entrances:
+    - coord: [-2611.28, 217.98, -2604.77]
+      hash: "0x2379af814661e0e1"
+    - coord: [-2676.71, 185.07, -2402.61]
+      hash: "0xed7dd6fb17e73938"
+  GerudoGreatSkeleton:
+    name: Gerudo Great Skeleton
+    entrances:
+    - coord: [-4814.32, 104.5, -3875.43]
+      hash: "0xa46fc897b0805513"
+  GerudoSanctuary:
+    name: Gerudo Sanctuary
+    entrances:
+    - coord: [-3763.27, 120.39, -2698.52]
+      hash: "0xa0a6492c8ce80529"
+    - coord: [-3763.27, 120.39, -2420.76]
+      hash: "0xe7a168d210d29130"
+  GisaCrater:
+    name: Gisa Crater Cave
+    entrances:
+    - coord: [-3865.5, 178, 1011.5]
+      hash: "0xb3a12087b92fddd8"
+    - coord: [-3931.1, 178.31, 1090.97]
+      hash: "0xb939f1bed0357660"
+  GorkoTunnel:
+    name: Gorko Tunnel
+    entrances:
+    - coord: [2016, 526.28, 2038.98]
+      hash: "0xa9dd1bd87883b537"
+  GoronbiRiver:
+    name: Goronbi River Cave
+    entrances:
+    - coord: [1423.08, 389.93, 2102.73]
+      hash: "0x8cef0e14cf3306e1"
+  GreatPlateauFoothill:
+    name: Great Plateau Foothill Cave
+    entrances:
+    - coord: [-832.35, 132.49, -1488.38]
+      hash: "0xb2c00da62a939e78"
+  HebraGreatSkeleton:
+    name: Hebra Great Skeleton
+    entrances:
+    - coord: [-3814.61, 360.5, 3595.48]
+      hash: "0x1d38f6f16eed93d5"
+  HebraHeadspring:
+    name: Hebra Headspring Cave
+    entrances:
+    - coord: [-2900.16, 493.4, 2510.26]
+      hash: "0xa2df93a20964f13a"
+  HebraMountainsNorthwest:
+    name: Hebra Mountains Northwest Cave
+    entrances:
+    - coord: [-2995.57, 645.47, 3225.75]
+      hash: "0x8ed217b36b51cde8"
+  HebraSouthSummit:
+    name: Hebra South Summit Cave
+    entrances:
+    - coord: [-3398.43, 418.61, 2499.36]
+      hash: "0x847688ed713462fa"
+    - coord: [-3227.5, 547.16, 2535.28]
+      hash: "0xc27674c29fd47619"
+  HoronLagoon:
+    name: Horon Lagoon Cave
+    entrances:
+    - coord: [4243.97, 89.11, -255.67]
+      hash: "0x9e6f8aa7e7e028c7"
+  IcefallFoothills:
+    name: Icefall Foothills Cave
+    entrances:
+    - coord: [-4429.34, 328.84, 3760.2]
+      hash: "0xe490b74546ac523c"
+  IsleofRabacGallery:
+    name: Isle of Rabac Gallery
+    entrances:
+    - coord: [1554.56, 498.43, 3102.51]
+      hash: "0xe2850a8092bb5f2e"
+  KakarikoVillage:
+    name: Kakariko Village Cave
+    entrances:
+    - coord: [1947.49, 262.98, -981.82]
+      hash: "0xc891347c5723d4ab"
+  KomoShoreline:
+    name: Komo Shoreline Cave
+    entrances:
+    - coord: [486.93, 113.21, -3831.14]
+      hash: "0xa17f34c13fdecb3e"
+  KopeekiDrifts:
+    name: Kopeeki Drifts Cave
+    entrances:
+    - coord: [-2395.84, 275, 2276.63]
+      hash: "0x3d68326d011e203b"
+  KoukotPlateau:
+    name: Koukot Plateau Cave
+    entrances:
+    - coord: [-2258.92, 161.95, -1759.33]
+      hash: "0x93533429589f6124"
+    - coord: [-2173.73, 232.09, -1841.65]
+      hash: "0x9db5ea7b6aa89bdb"
+  LakeDarmanMonsterDen:
+    name: Lake Darman Monster Den
+    entrances:
+    - coord: [2373.34, 550.84, 3051.7]
+      hash: "0x6fdd81fb155bbd65"
+  LakeFerona:
+    name: Lake Ferona Cave
+    entrances:
+    - coord: [1929.5, 227.27, 1271.64]
+      hash: "0x96689a2c1309545d"
+    - coord: [1931.95, 273.65, 1304.57]
+      hash: "0xa49ab4aedc7fea4e"
+  LakeHyliaWhirlpool:
+    name: Lake Hylia Whirlpool Cave
+    entrances:
+    - coord: [125.75, 15.91, -2501.45]
+      hash: "0xd223c5916f506e0f"
+  LakeIntenoch:
+    name: Lake Intenoch Cave
+    entrances:
+    - coord: [2485.39, 263.38, 1792.98]
+      hash: "0x8cabe4ec2c88134d"
+  LakeKilsie:
+    name: Lake Kilsie Cave
+    entrances:
+    - coord: [-3930.99, 87.47, 2861.26]
+      hash: "0x034d473d20a536e9"
+  LanayruRoadEast:
+    name: Lanayru Road East Cave
+    entrances:
+    - coord: [3073.54, 197.26, -1137.79]
+      hash: "0x635c19e53221a73e"
+    - coord: [3476.45, 97.44, -968.39]
+      hash: "0x6a66a768d6ddf210"
+  LanayruRoadSouth:
+    name: Lanayru Road South Cave
+    entrances:
+    - coord: [2698.27, 216.72, -1314.64]
+      hash: "0x45ce9b8e6377fb26"
+  LindorsBrow:
+    name: Lindor's Brow Cave
+    entrances:
+    - coord: [-1734.93, 334.2, 1165.7]
+      hash: "0x62a9566a167907c1"
+  LizardsBurrow:
+    name: Lizard's Burrow
+    entrances:
+    - coord: [2206.31, 510.94, 3075.32]
+      hash: "0x2064d8977c760fb6"
+  LocationMarkerAncientZoraWaterworks:
+    name: LocationMarker Ancient Zora Waterworks
+    entrances:
+    - coord: [3606.64, 103.96, 122.2]
+      hash: "0x0a49d3b548f08d4e"
+  LowerSpectacleRock:
+    name: Lower Spectacle Rock Cave
+    entrances:
+    - coord: [-1744.35, 94.31, -2394.18]
+      hash: "0xe05b62b5c98ef7f9"
+  LutosChannel:
+    name: Luto's Channel
+    entrances:
+    - coord: [3094.1, 184.58, -51.31]
+      hash: "0x050e3315a1647c36"
+  MaplaPoint:
+    name: Mapla Point Cave
+    entrances:
+    - coord: [4585.33, 103.6, -2246.28]
+      hash: "0x4312927202b3a393"
+  MeadelasMantle:
+    name: Meadela's Mantle Cave
+    entrances:
+    - coord: [-3982.83, 532.17, -1245.38]
+      hash: "0x3524e8f01e48750e"
+  Mining:
+    name: Mining Cave
+    entrances:
+    - coord: [380.06, 1516.65, -1631.65]
+      hash: "0x297bf94868aa63ed"
+    - coord: [489.66, 1473.25, -1625.62]
+      hash: "0x7691edc9cacbd413"
+  MountDrenaFoothill:
+    name: Mount Drena Foothill Cave
+    entrances:
+    - coord: [-1372.09, 303.22, 2861.31]
+      hash: "0x04dff95e8600bd9b"
+  MountDunsel:
+    name: Mount Dunsel Cave
+    entrances:
+    - coord: [3224.25, 164.95, -3017.77]
+      hash: "0x48cbb9f4b2a716a8"
+    - coord: [3291.35, 170.08, -3296.46]
+      hash: "0x54a07ba6f2f39c2d"
+  MountFloria:
+    name: Mount Floria Cave
+    entrances:
+    - coord: [1959.68, 176.62, -2611.65]
+      hash: "0x5bc55fa792587b48"
+    - coord: [1789.54, 185.87, -2985.64]
+      hash: "0xf268f2cdcedddb30"
+  MountNabooru:
+    name: Mount Nabooru Cave
+    entrances:
+    - coord: [-1967, 135.51, -2059.61]
+      hash: "0x3a52de6ec6d2620e"
+    - coord: [-1795.8, 136.65, -1961.14]
+      hash: "0x91f779d7516b1e9b"
+  MountNabooruSouth:
+    name: Mount Nabooru South Cave
+    entrances:
+    - coord: [-1726.96, 110.58, -2183.38]
+      hash: "0x8d63dbc59b239c52"
+  MystathisShelf:
+    name: Mystathi's Shelf Cave
+    entrances:
+    - coord: [-3881.65, 675.34, -726.78]
+      hash: "0x8d8f2611e021a14b"
+  NorthAkkalaBeach:
+    name: North Akkala Beach Cave
+    entrances:
+    - coord: [4650.67, 54.5, 3584.91]
+      hash: "0x1abc43b8fcf2aa0e"
+    - coord: [4645.5, 111.99, 3206.83]
+      hash: "0x7624411e00951e08"
+  NorthBironSnowshelf:
+    name: North Biron Snowshelf Cave
+    entrances:
+    - coord: [-3960.08, 342.49, 3245.22]
+      hash: "0x049afbce0384c35a"
+  NorthHyrulePlain:
+    name: North Hyrule Plain Cave
+    entrances:
+    - coord: [-1234.18, 182.97, 770.22]
+      hash: "0x6193e38dce029f75"
+    - coord: [-1188.39, 177.85, 644.51]
+      hash: "0xbbb8f534d6b4ecca"
+  OaklesNavel:
+    name: Oakle's Navel Cave
+    entrances:
+    - coord: [2504.1, 111.95, -2106.52]
+      hash: "0xa8abe41e867223cd"
+  OasisSource:
+    name: Oasis Source
+    entrances:
+    - coord: [-3354.94, 101.17, -2693.96]
+      hash: "0x8a8fa79e2b7eb920"
+  OrenBridge:
+    name: Oren Bridge Cave
+    entrances:
+    - coord: [2909.62, 187.49, -65.93]
+      hash: "0xb404adf464857419"
+  PagosWoodsExcavationSite:
+    name: Pagos Woods Excavation Site
+    entrances:
+    - coord: [671.8, 129.39, -3109.48]
+      hash: "0xeaf8120f19e2d7a3"
+  PasseriGreenbelt:
+    name: Passeri Greenbelt Cave
+    entrances:
+    - coord: [-512.36, 125.87, 127.59]
+      hash: "0x7a290ee30727d0d8"
+  PicoPond:
+    name: Pico Pond Cave
+    entrances:
+    - coord: [1247.26, 131.05, 1231.93]
+      hash: "0xf8aea9a2de67a289"
+  PikidaStonegroveNorthwest:
+    name: Pikida Stonegrove Northwest Cave
+    entrances:
+    - coord: [-2642.29, 354.5, 3268.3]
+      hash: "0x2c580377861188cc"
+    - coord: [-2414.12, 478.16, 3136.46]
+      hash: "0xe28e3a28aec5f97a"
+  Pit:
+    name: Pit Cave
+    entrances:
+    - coord: [632.28, 1588.92, -1638.81]
+      hash: "0x0568363cfdaa350a"
+    - coord: [587.42, 1548.04, -1624.5]
+      hash: "0x89c623f1bbf1dbcb"
+  PloymusMountain:
+    name: Ploymus Mountain Cave
+    entrances:
+    - coord: [3660.9, 374.03, 538.59]
+      hash: "0x1a13fee757a9035d"
+  Pondside:
+    name: Pondside Cave
+    entrances:
+    - coord: [170.52, 1482.81, -1633.77]
+      hash: "0x2313be6fbca721a3"
+    - coord: [260.15, 1466.73, -1557.84]
+      hash: "0xb31e03931a0909c2"
+  PoplaFoothillsExcavationSite:
+    name: Popla Foothills Excavation Site
+    entrances:
+    - coord: [608.9, 156.33, -2210.08]
+      hash: "0x79eec6b7bc5b4fba"
+  PristineSanctum:
+    name: Pristine Sanctum
+    entrances:
+    - coord: [3708.02, 448.5, 608.69]
+      hash: "0x00dbdc4a244c14f2"
+    - coord: [3622.33, 275, 583.49]
+      hash: "0xe33d25b0cc90c57a"
+  PufferBeachOverhead:
+    name: Puffer Beach Overhead Cave
+    entrances:
+    - coord: [283.98, 138.58, -3851.47]
+      hash: "0x1fabbc9e750bd980"
+  QuicksandLake:
+    name: Quicksand Lake Cave
+    entrances:
+    - coord: [-3238.82, 39.57, -2939.66]
+      hash: "0xeab71302bfa92713"
+  RalisChannel:
+    name: Ralis Channel
+    entrances:
+    - coord: [2958.83, 308.04, 253.89]
+      hash: "0x58d417112a7103b7"
+    - coord: [2912.13, 263.13, 170.14]
+      hash: "0xf8a029605e33a56b"
+  RanchRuins:
+    name: Ranch Ruins Cave
+    entrances:
+    - coord: [37.3, 124.18, -198.86]
+      hash: "0x631d27527a184a53"
+    - coord: [6.01, 136.07, -157.93]
+      hash: "0xa33e39df3fd6de8d"
+  RasslaLake:
+    name: Rassla Lake Cave
+    entrances:
+    - coord: [1813.53, 224, -3738.02]
+      hash: "0x4f567bd713ca1a32"
+  RauruHillside:
+    name: Rauru Hillside Cave
+    entrances:
+    - coord: [676.47, 150.67, 1389.78]
+      hash: "0x325436a30b60143d"
+  RebonaeBridge:
+    name: Rebonae Bridge Cave
+    entrances:
+    - coord: [845.92, 121.33, 31.5]
+      hash: "0xe130c628a8fae219"
+  ReservoirLakefrontrn:
+    name: Reservoir Lakefront Cavern
+    entrances:
+    - coord: [3809.58, 314.45, 419.6]
+      hash: "0x750181c9a4bf15fb"
+  RetsamForest:
+    name: Retsam Forest Cave
+    entrances:
+    - coord: [3757.45, 319.73, -2066.61]
+      hash: "0x56b72623374412bc"
+    - coord: [3748.88, 295.5, -2026.51]
+      hash: "0xa1b585fb48a81ab6"
+  RiveroftheDeadWaterfall:
+    name: River of the Dead Waterfall Cave
+    entrances:
+    - coord: [-1092.38, 249.19, -2162.71]
+      hash: "0xa94ce923b1eeda37"
+  RobredDropoff:
+    name: Robred Dropoff Cave
+    entrances:
+    - coord: [2492.99, 117.53, -1477.65]
+      hash: "0x6bc0040b515efd35"
+  RodaiLakefrontTunnel:
+    name: Rodai Lakefront Tunnel
+    entrances:
+    - coord: [1896.4, 237.53, -3111.24]
+      hash: "0xe8234ed80d741ff3"
+  RosproPass:
+    name: Rospro Pass Cave
+    entrances:
+    - coord: [-3559.56, 332.72, 2488.38]
+      hash: "0xb197ce474efd91a6"
+  RoyalHiddenPassage:
+    name: Royal Hidden Passage
+    entrances:
+    - coord: [-325.67, 159.57, 802.53]
+      hash: "0xdf6524ebd97fcaf4"
+    - coord: [-254.04, 113.5, 129]
+      hash: "0xdfa59d72b2d31dbb"
+    - coord: [-253.97, 132.9, 767.08]
+      hash: "0xeefbbd2366a84862"
+  SageTemple:
+    name: Sage Temple Cave
+    entrances:
+    - coord: [-1404.5, 101.56, -256.5]
+      hash: "0xf8c38bf26ae495ae"
+  SahasraSlope:
+    name: Sahasra Slope Cave
+    entrances:
+    - coord: [1373.02, 235.28, -1197.25]
+      hash: "0xaf62288a58f32ff8"
+    - coord: [1328.36, 239.95, -1156.22]
+      hash: "0xc24ffd5da7b750ed"
+  SarjonWoods:
+    name: Sarjon Woods Cave
+    entrances:
+    - coord: [1203.09, 130.92, -3170.91]
+      hash: "0xdc5434509d303107"
+  SatoriMountain:
+    name: Satori Mountain Cave
+    entrances:
+    - coord: [-2151.01, 381.5, -360.52]
+      hash: "0x0de453af870b92d9"
+  SatoriMountainFoothill:
+    name: Satori Mountain Foothill Cave
+    entrances:
+    - coord: [-2198.54, 222.8, -807.57]
+      hash: "0xdf3da9fd44bfb112"
+  ShrineofResurrection:
+    name: Shrine of Resurrection
+    entrances:
+    - coord: [-1061.88, 247.67, -1829.55]
+      hash: "0x89f2b2ddfdd48294"
+  SkullLake:
+    name: Skull Lake Cave
+    entrances:
+    - coord: [3321.5, 276.5, 3424]
+      hash: "0x4b5f3fd449b62f20"
+  SouthGerudo:
+    name: South Gerudo Cave
+    entrances:
+    - coord: [-2939.1, 68.4, -3857.83]
+      hash: "0x520dad32f894072b"
+  SouthernMine:
+    name: Southern Mine
+    entrances:
+    - coord: [1800.95, 425.92, 1983.35]
+      hash: "0xaeeb1fc0755b28f3"
+  SpectacleRock:
+    name: Spectacle Rock Cave
+    entrances:
+    - coord: [-2215.91, 352.71, -2395.27]
+      hash: "0x7e1ac207128f6218"
+  StalryPlateau:
+    name: Stalry Plateau Cave
+    entrances:
+    - coord: [-1527.76, 84.9, -2222.54]
+      hash: "0xa23d9b3582bc6ac0"
+  StatueoftheEighthHeroine:
+    name: Statue of the Eighth Heroine Cave
+    entrances:
+    - coord: [-4384.54, 579.3, -536.55]
+      hash: "0xb9fd8c7179d1d71f"
+  SturnidaSprings:
+    name: Sturnida Springs Cave
+    entrances:
+    - coord: [-4041.16, 128.78, 2671.44]
+      hash: "0x2e0db9cc1221f4d0"
+  TaafeiHill:
+    name: Taafei Hill Cave
+    entrances:
+    - coord: [-2457.33, 281.79, -1798.55]
+      hash: "0x44c78da831fb9213"
+  TabahlWoods:
+    name: Tabahl Woods Cave
+    entrances:
+    - coord: [2674.99, 194.75, 287.43]
+      hash: "0x01ae68f2a329f857"
+    - coord: [2605.53, 181.5, 227.1]
+      hash: "0x3a97d22e3a063a84"
+    - coord: [2679.64, 198.03, 217.7]
+      hash: "0xa35a873e8f77139b"
+  TabanthaHills:
+    name: Tabantha Hills Cave
+    entrances:
+    - coord: [-2840.93, 328.48, 1771.91]
+      hash: "0x8f9b2a8d5b2f4349"
+  TalontoPeak:
+    name: Talonto Peak Cave
+    entrances:
+    - coord: [-3214.61, 451.03, 2462.24]
+      hash: "0x43bb6ee070470784"
+  TamioRiverDownstream:
+    name: Tamio River Downstream Cave
+    entrances:
+    - coord: [-2921.85, 113.07, -804.16]
+      hash: "0x66a540141f68bfea"
+  TanagarCanyonEast:
+    name: Tanagar Canyon East Cave
+    entrances:
+    - coord: [-2049.13, 48.87, 1631.71]
+      hash: "0x87004213a0eee151"
+  TanagarCanyonWest:
+    name: Tanagar Canyon West Cave
+    entrances:
+    - coord: [-3308.47, 3.62, 789.76]
+      hash: "0xc701afd22c8ec5ea"
+  TarmPoint:
+    name: Tarm Point Cave
+    entrances:
+    - coord: [4473.05, 137.05, -826.96]
+      hash: "0xfc355bf35a1b8207"
+  TarreyTownTunnel:
+    name: Tarrey Town Tunnel
+    entrances:
+    - coord: [3925.93, 212.56, 1576.42]
+      hash: "0xa5ca235cfe69c438"
+  ThundraPlateau:
+    name: Thundra Plateau Cave
+    entrances:
+    - coord: [-2268.35, 191.65, 899.23]
+      hash: "0x63645cb01e324862"
+  TobiosHollow:
+    name: Tobio's Hollow Cave
+    entrances:
+    - coord: [1169.64, 282.57, -2443.85]
+      hash: "0xb2da253a0cc05426"
+  UbotaPoint:
+    name: Ubota Point Cave
+    entrances:
+    - coord: [1446.72, 182.77, -3483.65]
+      hash: "0xa03c6d41cfa48ebe"
+  UlriaGrottoEast:
+    name: Ulria Grotto East Cave
+    entrances:
+    - coord: [4505, 201.94, 705.16]
+      hash: "0x7dab616c75a111e1"
+    - coord: [4272.99, 249.85, 774.32]
+      hash: "0xd4d427d9cf723c73"
+  UlriaGrottoSouth:
+    name: Ulria Grotto South Cave
+    entrances:
+    - coord: [4122.23, 293.18, 662.29]
+      hash: "0x4833d8b3f4064f61"
+  UnderZorasDomain:
+    name: Cave Under Zora's Domain
+    entrances:
+    - coord: [3240.99, 181.48, 373.52]
+      hash: "0xe9a65ec52e4ada39"
+  UplandZoranaByroad:
+    name: Upland Zorana Byroad
+    entrances:
+    - coord: [2863.63, 332.75, 346.33]
+      hash: "0x1197b7ef945b5149"
+    - coord: [2700.3, 307.49, 479.82]
+      hash: "0x75addf86289efb06"
+  UplandZoranaFoothill:
+    name: Upland Zorana Foothill Cave
+    entrances:
+    - coord: [3147.39, 282.53, 667.61]
+      hash: "0x9be0435f695b7280"
+  UplandZoranaMountainside:
+    name: Upland Zorana Mountainside Cave
+    entrances:
+    - coord: [2570.03, 269.54, 517.99]
+      hash: "0x54ad2731bf27d2dc"
+    - coord: [2633.57, 294.2, 526.16]
+      hash: "0x99985f9ea9a00801"
+  UplandZoranaSummit:
+    name: Upland Zorana Summit Cave
+    entrances:
+    - coord: [2850.64, 429.96, 477.98]
+      hash: "0x6a80e92c24df9cf2"
+  ValleyofSilentStatues:
+    name: Valley of Silent Statues
+    entrances:
+    - coord: [-3827.19, 140.71, -2650.32]
+      hash: "0xad9c95a9ff4512b6"
+  WalnotMountain:
+    name: Walnot Mountain Cave
+    entrances:
+    - coord: [4225.54, 285.5, -1738.95]
+      hash: "0x04403fba005dfd83"
+    - coord: [3933.57, 232.94, -2069]
+      hash: "0x1f1a4e8d2e082087"
+  WestGerudoUndergroundRuins:
+    name: West Gerudo Underground Ruins
+    entrances:
+    - coord: [-4673.2, 114.7, -1986.14]
+      hash: "0xde06199673e892c4"
+  WestLakeTotori:
+    name: West Lake Totori Cave
+    entrances:
+    - coord: [-3958.69, 306.08, 2029.48]
+      hash: "0xd2e29ad4963a4812"
+  WestRestaurant:
+    name: West Restaurant Cave
+    entrances:
+    - coord: [1642.85, 384.54, 1729.56]
+      hash: "0x687e4193562ff9f6"
+  WhistlingHill:
+    name: Whistling Hill Cave
+    entrances:
+    - coord: [-72.11, 122.94, -1045.97]
+      hash: "0x7ea010a93f2b3e3a"
+  YigaBlademasterStation:
+    name: Yiga Blademaster Station
+    entrances:
+    - coord: [-2433.91, 251.24, -1819.68]
+      hash: "0x15529bfc2e2ab747"
+  YigaClanMarittaBranch:
+    name: Yiga Clan Maritta Branch
+    entrances:
+    - coord: [-643.5, 260, 2040]
+      hash: "0xf2c392c208b0e81f"
+  YunoboCoHQEast:
+    name: YunoboCo HQ East Cave
+    entrances:
+    - coord: [1764.65, 505.26, 2837.4]
+      hash: "0xb47705674d0585bb"
+  YunoboCoHQSouth:
+    name: YunoboCo HQ South Cave
+    entrances:
+    - coord: [1713.88, 506.11, 2718.59]
+      hash: "0xd8e9c4fa18b62bb6"

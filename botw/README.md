@@ -46,6 +46,7 @@ Each layer also includes everything in the previous layer
         - enemy
         - important
         - dir
+        - terrain
     - Time of Day (Tod)
     - Chest
     - Equipment

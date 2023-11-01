@@ -1,0 +1,23 @@
+#TXTPP#include ../../GENERATED
+icons:
+  cave-doc: https://icons.pistonite.org/icon/location.sor.none.4f3a1d.c0841b.4f3a1d.c0841b.69a2d5.c1fefe.png
+  cave-map: { use: ../icons/cave.png }
+
+presets:
+  CaveEnter:
+    text: .terrain(Enter Cave)
+    comment: $(0)
+    icon-doc: cave-doc
+    icon-priority: 2
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: cave-map
+  CaveExit:
+    text: .terrain(Exit Cave)
+    comment: $(0)
+    icon-doc: cave-doc
+    icon-priority: 2
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: cave-map
+  #TXTPP#run python ../../scripts/caves.py ../data/caves.yaml

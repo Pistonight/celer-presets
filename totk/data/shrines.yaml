@@ -39,16 +39,16 @@ meta:
       url: https://icons.pistonite.org/icon/shrine.double_sword.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
     ShrineCave:
       icon: shrine-cave
-      url: https://icons.pistonite.org/icon/shrine.zonai.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+      url: https://icons.pistonite.org/icon/shrine.zonai.none.4f3a1d.c0841b.4f3a1d.c0841b.69a2d5.c1fefe.png
     BlessingCave:
       icon: shrine-blessing-cave
-      url: https://icons.pistonite.org/icon/shrine.blessing.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+      url: https://icons.pistonite.org/icon/shrine.blessing.none.4f3a1d.c0841b.4f3a1d.c0841b.69a2d5.c1fefe.png
     CombatTrainingCave:
       icon: shrine-sword-cave
-      url: https://icons.pistonite.org/icon/shrine.sword.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+      url: https://icons.pistonite.org/icon/shrine.sword.none.4f3a1d.c0841b.4f3a1d.c0841b.69a2d5.c1fefe.png
     ProvingGroundsCave:
       icon: shrine-double-sword-cave
-      url: https://icons.pistonite.org/icon/shrine.double_sword.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+      url: https://icons.pistonite.org/icon/shrine.double_sword.none.4f3a1d.c0841b.4f3a1d.c0841b.69a2d5.c1fefe.png
 data:
   Anedamimik:
     name: Anedamimik

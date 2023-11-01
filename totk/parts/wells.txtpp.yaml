@@ -1,20 +1,16 @@
 #TXTPP#include ../../GENERATED
 icons:
-  well-doc: https://icons.pistonite.org/icon/misc.double_square.none.665733.b78635.665733.b78635.69a2d5.c1fefe.png
+  well-doc: https://icons.pistonite.org/icon/misc.double_square.none.4f3a1d.c0841b.4f3a1d.c0841b.69a2d5.c1fefe.png
   well-map: { use: ../icons/well.png }
 
 tags:
-  well:
-    color:
-      light: "#564723"
-      dark: orange
   counter-well:
     color: black
-    background: "#b78635"
+    background: "#C0841B"
 
 presets:
   Well:
-    text: ".well($(0))"
+    text: ".terrain($(0))"
     comment: Well
     icon-doc: well-doc
     icon-priority: 2

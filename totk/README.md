@@ -169,9 +169,28 @@ The well icon is be different for the doc and map. The in-game icon is used on t
 ```yaml
 # line with the well with icon and counter
 - _Well::DronocsPass
-# Move to the well location without a line in the doc
+# Move to the well location without text in the doc
 # This will show the well icon on the map, but will not count towards the well counter
 - Go to the well:
     movements:
     - _Well::DronocsPass
+```
+
+#### `Cave`
+Cave entrances. The cave icon is be different for the doc and map. The in-game icon is used on the map and the celer-style icon is used on the doc.
+
+Each cave is identified by its name. If the name ends with "Cave", that part is omitted.
+```yaml
+# Enter and Exit cave text, with icons
+- _Cave::Enter::LakeKilsie           # Lake Kilsie Cave, the "Cave" is omitted
+- _Cave::Exit::LakeDarmanMonsterDen  # Lake Darman Monster Den
+
+# for caves with multiple entrances, you must use a letter to identify the right entrance
+# the letter is somewhat random (sorted by id) so you will have to trial and error to find the right one starting from A
+- _Cave::Enter::AncientAltarRuins::C
+
+# Move to the cave location without text in the doc
+- Go to the cave:
+    movements:
+    - _Cave::Enter::LakeKilsie
 ```

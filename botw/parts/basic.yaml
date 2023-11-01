@@ -35,7 +35,11 @@ tags:
   dir:
     color:
       dark: yellow
-      light: darkyellow
+      light: green
+  terrain:
+    color:
+      light: "#4F3A1D"
+      dark: orange
   counter-warp:
     color: black
     background: cyan
