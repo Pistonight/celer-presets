@@ -1,0 +1,17 @@
+#TXTPP#include ../../GENERATED
+icons:
+  lightroot: https://icons.pistonite.org/icon/location.lightroot.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+
+tags:
+  counter-lightroot:
+    color: black
+    background: "#4AD59C"
+
+presets:
+  Lightroot:
+    text: ".loc($(0))"
+    icon: lightroot
+    icon-priority: 0
+    counter: .var(counter-lightroot)
+    coord: [$(1), $(2), $(3)]
+  #TXTPP#run python ../../scripts/lightroots.py ../data/lightroots.yaml

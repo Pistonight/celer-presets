@@ -1,0 +1,41 @@
+icons:
+  tear: https://icons.pistonite.org/icon/character.zelda.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+
+tags:
+  counter-tear:
+    color: black
+    background: orange
+
+presets:
+  Tear:
+    text: ".loc(Tear of the Dragon)"
+    comment: $(0)
+    icon: tear
+    icon-priority: 0
+    counter: .var-roman-upper(counter-tear)
+    coord: [$(1), $(2), $(3)]
+  _Tear:
+    "01":
+      presets: _Tear<Where am I?,-1412,123,965>
+    "02":
+      presets: _Tear<An Unfamiliar World,-2551,319,1888>
+    "03":
+      presets: _Tear<Mineru's Counsel,1828,89,737>
+    "04":
+      presets: _Tear<The Gerudo Assault,694,53,-1309>
+    "05":
+      presets: _Tear<A Show of Fealty,-3178,418,-1699>
+    "06":
+      presets: _Tear<Zelda and Sonia,-3096,211,-77>
+    "07":
+      presets: _Tear<Sonia Is Caught By Treachery,3325,4,-3566>
+    "08":
+      presets: _Tear<Birth of the Demon King,-1863,236,3621>
+    "09":
+      presets: _Tear<The Sages' Vow,4467,74,-305>
+    "10":
+      presets: _Tear<A King's Duty,-649,68,-2683>
+    "11":
+      presets: _Tear<A Master Sword in Time,892,362,2951>
+    "12":
+      presets: _Tear<Tears of the Dragon,4534,0,2144>

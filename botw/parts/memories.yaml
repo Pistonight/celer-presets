@@ -12,6 +12,7 @@ presets:
     text: ".loc($(0))"
     comment: $(1)
     icon: memory
+    icon-priority: 0
     counter: .var-roman-upper(counter-memory)
     coord: [$(2), $(3), $(4)]
   _Memory:
@@ -42,3 +43,4 @@ presets:
     AshSwamp:
       presets: _Memory<Ash Swamp,Zelda's Awakening,1983.90,124.12,1912.69>
       icon: memory-final
+      icon-priority: 0

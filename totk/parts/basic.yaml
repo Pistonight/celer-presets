@@ -1,0 +1,21 @@
+includes:
+- use: ../../botw/parts/basic.yaml
+
+tags:
+  boss-totk:
+    color: "#4AD59C"
+    background:
+      dark: inherit
+      light: black
+  boss-depth:
+    color: magenta
+    background:
+      dark: inherit
+      light: black
+
+icons:
+  warp-depth: https://icons.pistonite.org/icon/location.travel_medallion.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+
+presets:
+  WarpDepth:
+    icon-doc: warp-depth

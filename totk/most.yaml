@@ -1,0 +1,13 @@
+includes:
+- use: ./mini.yaml
+- use: ./parts/shrines.yaml
+- use: ./parts/lightroots.yaml
+- use: ./parts/towers.yaml
+- use: ./parts/tower-warps.yaml
+- use: ./parts/tears.yaml
+- use: ./parts/bosses.yaml
+- use: ./parts/warps.yaml
+- use: ./parts/bubbulfrogs.yaml
+- use: ./parts/wells.yaml
+- use: ./parts/caves.yaml
+- use: ./parts/chasms.yaml

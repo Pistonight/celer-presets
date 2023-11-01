@@ -35,6 +35,7 @@ presets:
   Korok:
     text: .npc($(0))
     icon: $(1)
+    icon-priority: 2
     counter: .var(counter-korok)
   _Korok:
     # TXTPP#temp make-koroks.g.py

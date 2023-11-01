@@ -1,0 +1,23 @@
+#TXTPP#include ../../GENERATED
+icons:
+  chasm-doc: https://icons.pistonite.org/icon/misc.square.none.633830.f0673a.cfa240.000000.69a2d5.c1fefe.png
+  chasm-map: { use: ../icons/chasm.png }
+
+presets:
+  ChasmEnter:
+    text: .terrain(Enter Depth)
+    comment: $(0)
+    icon-doc: chasm-doc
+    icon-priority: 2
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: chasm-map
+  ChasmExit:
+    text: .terrain(Exit through Chasm)
+    comment: $(0)
+    icon-doc: chasm-doc
+    icon-priority: 2
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: chasm-map
+  #TXTPP#run python ../../scripts/chasms.py ../data/chasms.yaml

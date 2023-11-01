@@ -22,5 +22,4 @@ jobs:
     - uses: baptiste0928/cargo-install@v2
       with:
         crate: txtpp
-        features: cli
     - run: task verify --output group

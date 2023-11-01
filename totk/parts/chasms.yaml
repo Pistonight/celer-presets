@@ -1,0 +1,176 @@
+##########################################################################
+# GENERATED FILE 
+# 
+# DO NOT EDIT!
+# 
+# Edit the .txtpp file in the same directory instead
+##########################################################################
+icons:
+  chasm-doc: https://icons.pistonite.org/icon/misc.square.none.633830.f0673a.cfa240.000000.69a2d5.c1fefe.png
+  chasm-map: { use: ../icons/chasm.png }
+
+presets:
+  ChasmEnter:
+    text: .terrain(Enter Depth)
+    comment: $(0)
+    icon-doc: chasm-doc
+    icon-priority: 2
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: chasm-map
+  ChasmExit:
+    text: .terrain(Exit through Chasm)
+    comment: $(0)
+    icon-doc: chasm-doc
+    icon-priority: 2
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: chasm-map
+  _Chasm:
+    _Enter:
+      BiridaLookout:
+        presets: _ChasmEnter<Birida Lookout Chasm,-3685.63,138.61,-1859.87>
+      DeathMountain:
+        presets: _ChasmEnter<Death Mountain Chasm,2534.5,748.5,2602.5>
+      DekuTree:
+        presets: _ChasmEnter<Deku Tree Chasm,418.01,248.69,2193.41>
+      DrenanHighlands:
+        presets: _ChasmEnter<Drenan Highlands Chasm,-71.04,231.93,2983.78>
+      EastAkkalaPlains:
+        presets: _ChasmEnter<East Akkala Plains Chasm,4029.55,8.82,2180.88>
+      EastGerudo:
+        presets: _ChasmEnter<East Gerudo Chasm,-2491.19,111.24,-3067.74>
+      EastHill:
+        presets: _ChasmEnter<East Hill Chasm,1974.49,220.51,-846.13>
+      ElmaKnolls:
+        presets: _ChasmEnter<Elma Knolls Chasm,-456.88,274.39,1722.35>
+      EventideIsland:
+        presets: _ChasmEnter<Eventide Island Chasm,4507.12,87.94,-3459.3>
+      ForestofTime:
+        presets: _ChasmEnter<Forest of Time Chasm,-127.97,73.01,-1657.81>
+      GerudoSummit:
+        presets: _ChasmEnter<Gerudo Summit Chasm,-4203.36,748.08,-637.66>
+      GreatPlateauEast:
+        presets: _ChasmEnter<Great Plateau East Chasm,-452.5,172.28,-1992.97>
+      GreatPlateauNorth:
+        presets: _ChasmEnter<Great Plateau North Chasm,-664.93,154.49,-1509.75>
+      GreatPlateauSouth:
+        presets: _ChasmEnter<Great Plateau South Chasm,-932.83,268.54,-2317.5>
+      GreatPlateauWest:
+        presets: _ChasmEnter<Great Plateau West Chasm,-1431.69,330.82,-1992.55>
+      HillsofBaumer:
+        presets: _ChasmEnter<Hills of Baumer Chasm,221.94,102.88,-2118.77>
+      HyruleCastle:
+        presets: _ChasmEnter<Hyrule Castle Chasm,-254,-105,1012.17>
+      HyruleCastleMoatEast:
+        presets: _ChasmEnter<Hyrule Castle Moat East Chasm,169.99,56.83,882.16>
+      HyruleCastleMoatWest:
+        presets: _ChasmEnter<Hyrule Castle Moat West Chasm,-922.61,95.52,666.79>
+      HyruleField:
+        presets: _ChasmEnter<Hyrule Field Chasm,-255.03,103.47,-299.58>
+      HyruleRidge:
+        presets: _ChasmEnter<Hyrule Ridge Chasm,-2644.24,247.63,1126.02>
+      LakeHylia:
+        presets: _ChasmEnter<Lake Hylia Chasm,-332,53.18,-2598.02>
+      LanayruWetlands:
+        presets: _ChasmEnter<Lanayru Wetlands Chasm,1726.92,100.19,162.05>
+      LomeiLabyrinth:
+        presets: _ChasmEnter<Lomei Labyrinth Chasm,4655,131.5,3697.47>
+      MedaMountain:
+        presets: _ChasmEnter<Meda Mountain Chasm,2513.71,236.29,-2380.7>
+      MinshiWoods:
+        presets: _ChasmEnter<Minshi Woods Chasm,1059.43,254.87,1668.1>
+      NaydraSnowfield:
+        presets: _ChasmEnter<Naydra Snowfield Chasm,3604.59,223.14,-1343.98>
+      NorthLomei:
+        presets: _ChasmEnter<North Lomei Chasm,-814.48,325.2,3534.7>
+      RitoVillage:
+        presets: _ChasmEnter<Rito Village Chasm,-3571.25,224.04,1803.08>
+      SkullLake:
+        presets: _ChasmEnter<Skull Lake Chasm,3246.82,61.89,3441.88>
+      SouthAkkalaPlains:
+        presets: _ChasmEnter<South Akkala Plains Chasm,3296.86,229.95,1286.69>
+      SouthLomei:
+        presets: _ChasmEnter<South Lomei Chasm,-1794.92,149.36,-3461.76>
+      TingelIsland:
+        presets: _ChasmEnter<Tingel Island Chasm,4707.78,224.23,1307.87>
+      TobiosHollow:
+        presets: _ChasmEnter<Tobio's Hollow Chasm,1305,167.28,-2396.66>
+      UnderZorasDomain:
+        presets: _ChasmEnter<Chasm Under Zora's Domain,3271.55,84.31,441.59>
+      YigaClanHideout:
+        presets: _ChasmEnter<Yiga Clan Hideout Chasm,-3430.18,384.69,-1333.44>
+    _Exit:
+      BiridaLookout:
+        presets: _ChasmExit<Birida Lookout Chasm,-3685.63,138.61,-1859.87>
+      DeathMountain:
+        presets: _ChasmExit<Death Mountain Chasm,2534.5,748.5,2602.5>
+      DekuTree:
+        presets: _ChasmExit<Deku Tree Chasm,418.01,248.69,2193.41>
+      DrenanHighlands:
+        presets: _ChasmExit<Drenan Highlands Chasm,-71.04,231.93,2983.78>
+      EastAkkalaPlains:
+        presets: _ChasmExit<East Akkala Plains Chasm,4029.55,8.82,2180.88>
+      EastGerudo:
+        presets: _ChasmExit<East Gerudo Chasm,-2491.19,111.24,-3067.74>
+      EastHill:
+        presets: _ChasmExit<East Hill Chasm,1974.49,220.51,-846.13>
+      ElmaKnolls:
+        presets: _ChasmExit<Elma Knolls Chasm,-456.88,274.39,1722.35>
+      EventideIsland:
+        presets: _ChasmExit<Eventide Island Chasm,4507.12,87.94,-3459.3>
+      ForestofTime:
+        presets: _ChasmExit<Forest of Time Chasm,-127.97,73.01,-1657.81>
+      GerudoSummit:
+        presets: _ChasmExit<Gerudo Summit Chasm,-4203.36,748.08,-637.66>
+      GreatPlateauEast:
+        presets: _ChasmExit<Great Plateau East Chasm,-452.5,172.28,-1992.97>
+      GreatPlateauNorth:
+        presets: _ChasmExit<Great Plateau North Chasm,-664.93,154.49,-1509.75>
+      GreatPlateauSouth:
+        presets: _ChasmExit<Great Plateau South Chasm,-932.83,268.54,-2317.5>
+      GreatPlateauWest:
+        presets: _ChasmExit<Great Plateau West Chasm,-1431.69,330.82,-1992.55>
+      HillsofBaumer:
+        presets: _ChasmExit<Hills of Baumer Chasm,221.94,102.88,-2118.77>
+      HyruleCastle:
+        presets: _ChasmExit<Hyrule Castle Chasm,-254,-105,1012.17>
+      HyruleCastleMoatEast:
+        presets: _ChasmExit<Hyrule Castle Moat East Chasm,169.99,56.83,882.16>
+      HyruleCastleMoatWest:
+        presets: _ChasmExit<Hyrule Castle Moat West Chasm,-922.61,95.52,666.79>
+      HyruleField:
+        presets: _ChasmExit<Hyrule Field Chasm,-255.03,103.47,-299.58>
+      HyruleRidge:
+        presets: _ChasmExit<Hyrule Ridge Chasm,-2644.24,247.63,1126.02>
+      LakeHylia:
+        presets: _ChasmExit<Lake Hylia Chasm,-332,53.18,-2598.02>
+      LanayruWetlands:
+        presets: _ChasmExit<Lanayru Wetlands Chasm,1726.92,100.19,162.05>
+      LomeiLabyrinth:
+        presets: _ChasmExit<Lomei Labyrinth Chasm,4655,131.5,3697.47>
+      MedaMountain:
+        presets: _ChasmExit<Meda Mountain Chasm,2513.71,236.29,-2380.7>
+      MinshiWoods:
+        presets: _ChasmExit<Minshi Woods Chasm,1059.43,254.87,1668.1>
+      NaydraSnowfield:
+        presets: _ChasmExit<Naydra Snowfield Chasm,3604.59,223.14,-1343.98>
+      NorthLomei:
+        presets: _ChasmExit<North Lomei Chasm,-814.48,325.2,3534.7>
+      RitoVillage:
+        presets: _ChasmExit<Rito Village Chasm,-3571.25,224.04,1803.08>
+      SkullLake:
+        presets: _ChasmExit<Skull Lake Chasm,3246.82,61.89,3441.88>
+      SouthAkkalaPlains:
+        presets: _ChasmExit<South Akkala Plains Chasm,3296.86,229.95,1286.69>
+      SouthLomei:
+        presets: _ChasmExit<South Lomei Chasm,-1794.92,149.36,-3461.76>
+      TingelIsland:
+        presets: _ChasmExit<Tingel Island Chasm,4707.78,224.23,1307.87>
+      TobiosHollow:
+        presets: _ChasmExit<Tobio's Hollow Chasm,1305,167.28,-2396.66>
+      UnderZorasDomain:
+        presets: _ChasmExit<Chasm Under Zora's Domain,3271.55,84.31,441.59>
+      YigaClanHideout:
+        presets: _ChasmExit<Yiga Clan Hideout Chasm,-3430.18,384.69,-1333.44>
+

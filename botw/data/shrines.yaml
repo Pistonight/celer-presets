@@ -3,6 +3,7 @@
 # shrine types:
 # .meta.types[<TYPE>]:
 #   icon: string
+#   url: string
 #   time: number
 #
 # main shrine data:

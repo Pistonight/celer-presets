@@ -1,26 +1,4 @@
-tags:
-  counter-warp:
-    color: black
-    background: cyan
-
-icons:
-  warp: https://icons.pistonite.org/icon/location.travel_medallion.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
-
 presets:
-  Warp3:
-    text: ".loc($(0))"
-    icon: warp
-    counter: .var(counter-warp)
-    movements:
-    - to: [$(1), $(2), $(3)]
-      warp: true
-  Warp:
-    text: ".loc($(0))"
-    icon: warp
-    counter: .var(warp)
-    movements:
-    - to: [$(1), $(2)]
-      warp: true
   _Warp:
     _TechLab:
       Akkala:

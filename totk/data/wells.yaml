@@ -1,0 +1,240 @@
+# Scheme:
+#
+# main well data:
+# .data[<ID>]:
+#   name: string
+#   hash: string
+#   coord: [x,y,z] (y is height)
+data:
+  AquameLake:
+    name: Aquame Lake
+    coord: [-879.18, 111.34, -1101.61]
+    hash: "0x4b66be93fe4e7b6d"
+  BottomlessPond:
+    name: Bottomless Pond
+    coord: [686.19, 107.38, -766.43]
+    hash: "0xfddbe681cee6bcd5"
+  CarokBridge:
+    name: Carok Bridge
+    coord: [-1039.61, 124.15, 415.31]
+    hash: "0x9b6ec88cb0d9ec18"
+  ConstructionSite:
+    name: Construction Site
+    coord: [3719.83, 182.6, 1587.56]
+    hash: "0x2d05447d9df6fca2"
+  DeyaVillageRuins:
+    name: Deya Village Ruins
+    coord: [322.36, 100.58, -1927.04]
+    hash: "0x06b4d3b43c44b2ae"
+  DeyaVillageRuinsEast:
+    name: Deya Village Ruins East
+    coord: [423.5, 99.5, -2042.96]
+    hash: "0xdfeec18945f8c561"
+  DeyaVillageRuinsNorth:
+    name: Deya Village Ruins North
+    coord: [316.52, 99.1, -1856.8]
+    hash: "0xc65e7e9577cbc834"
+  DeyaVillageRuinsSouth:
+    name: Deya Village Ruins South
+    coord: [339.63, 117.76, -2098.56]
+    hash: "0xc51d9ae9fcaa6b80"
+  DronocsPass:
+    name: Dronoc's Pass
+    coord: [-3831.58, 230.7, 2105.45]
+    hash: "0xb71b6fc990d90b98"
+  DuelingPeaksStable:
+    name: Dueling Peaks Stable
+    coord: [1794.7, 101.86, -1949.73]
+    hash: "0xa214fe0f0a87a2ef"
+  EastAkkalaStable:
+    name: East Akkala Stable
+    coord: [4232.87, 217.47, 2780.07]
+    hash: "0x685223d0f33bedcf"
+  ElmaKnolls:
+    name: Elma Knolls
+    coord: [-670.9, 177.89, 1351.73]
+    hash: "0x34e7bf8c54ed568f"
+  FoothillStable:
+    name: Foothill Stable
+    coord: [2617.93, 239.5, 1169.06]
+    hash: "0x4c8bb14161b4619d"
+  GerudoCanyon:
+    name: Gerudo Canyon
+    coord: [-2820, 120.96, -2233]
+    hash: "0xe4ab0e38ede37d13"
+  GopongaVillageRuins:
+    name: Goponga Village Ruins
+    coord: [1529.16, 99.65, -326.9]
+    hash: "0x7c876aa25d7f3dc2"
+  HaranLakefront:
+    name: Haran Lakefront
+    coord: [394.5, 138, -3387]
+    hash: "0xdc900960b08af9eb"
+  HatenoVillageEast:
+    name: Hateno Village East
+    coord: [3514.48, 220.43, -2152.45]
+    hash: "0xee4cb87bc82bc75a"
+  HatenoVillageNorth:
+    name: Hateno Village North
+    coord: [3421.88, 229.4, -2029.53]
+    hash: "0xb3fe5c52c74ad44b"
+  HatenoVillageSouth:
+    name: Hateno Village South
+    coord: [3384.51, 227.38, -2211.73]
+    hash: "0x8171a9d372cb010a"
+  HatenoVillageWest:
+    name: Hateno Village West
+    coord: [3356.76, 209.46, -2050.47]
+    hash: "0xbf344db30112a5e2"
+  HighlandStable:
+    name: Highland Stable
+    coord: [537.63, 138.91, -3426.7]
+    hash: "0x5947438351f73801"
+  HillsofBaumer:
+    name: Hills of Baumer
+    coord: [316.06, 135.01, -2127.81]
+    hash: "0xd7a7f3a246f485ce"
+  HyruleCastleTownRuins:
+    name: Hyrule Castle Town Ruins
+    coord: [62.63, 117.67, 547.62]
+    hash: "0x56a846c5725e6ee8"
+  IrchPlain:
+    name: Irch Plain
+    coord: [-911.3, 195.56, 1616.2]
+    hash: "0xf2bc70bfd11a231f"
+  KakarikoVillage:
+    name: Kakariko Village
+    coord: [1875.01, 215.02, -1043.56]
+    hash: "0x84a8fae654108761"
+  KaraKaraBazaar:
+    name: Kara Kara Bazaar
+    coord: [-3235.34, 113.42, -2606.41]
+    hash: "0x7206e8b4f7ec3d7b"
+  LakesideStable:
+    name: Lakeside Stable
+    coord: [1535.12, 151.82, -3553.63]
+    hash: "0x189f81f8814177fe"
+  LanayruWetlands:
+    name: Lanayru Wetlands
+    coord: [1219.6, 100.19, -397.18]
+    hash: "0x100505141a94c517"
+  LookoutLanding:
+    name: Lookout Landing
+    coord: [-212.02, 109.98, 134.93]
+    hash: "0xfd8e6a22fe559758"
+  LurelinVillage:
+    name: Lurelin Village
+    coord: [2940.59, 101.11, -3378.44]
+    hash: "0x4e28afaa98d9a2ec"
+  MabeVillageRuins:
+    name: Mabe Village Ruins
+    coord: [-68.06, 114.61, -163.09]
+    hash: "0xc26711a76166d566"
+  MarittaExchangeRuins:
+    name: Maritta Exchange Ruins
+    coord: [-1810.86, 196.36, 1623.46]
+    hash: "0x6202269c0ad17b0b"
+  MoorGarrisonRuins:
+    name: Moor Garrison Ruins
+    coord: [1544.13, 98.71, 169.94]
+    hash: "0x3e82a3f0e3a1a96c"
+  MountDaphnes:
+    name: Mount Daphnes
+    coord: [-1313.99, 99.38, -622.69]
+    hash: "0xf085d18137929323"
+  MountGustaf:
+    name: Mount Gustaf
+    coord: [-912.81, 109.35, 331.21]
+    hash: "0x89140b86f080a21e"
+  MountNabooru:
+    name: Mount Nabooru
+    coord: [-1720.26, 125.7, -2238.07]
+    hash: "0x7576a63079ded766"
+  NewSerenneStable:
+    name: New Serenne Stable
+    coord: [-1357.18, 167.07, 700.06]
+    hash: "0x8b56d1f310a697fc"
+  OutskirtHill:
+    name: Outskirt Hill
+    coord: [-1680.92, 211.54, -1349.23]
+    hash: "0x4d5a1ed7b13e00ca"
+  OutskirtStable:
+    name: Outskirt Stable
+    coord: [-1460.71, 122.06, -1296.74]
+    hash: "0xff008f1ae06657a7"
+  PoplaFoothillsNorth:
+    name: Popla Foothills North
+    coord: [594.48, 183.01, -2100.44]
+    hash: "0x2f51e6d0a6ddc4c5"
+  PoplaFoothillsSouth:
+    name: Popla Foothills South
+    coord: [606.13, 140.79, -2261.08]
+    hash: "0x636631afe3886ae4"
+  RauruSettlementRuins:
+    name: Rauru Settlement Ruins
+    coord: [662, 129.68, 1266.5]
+    hash: "0x73cb519ce3c90be8"
+  RebonaeBridge:
+    name: Rebonae Bridge
+    coord: [787, 120.71, 7.59]
+    hash: "0x253aba3a3e2dedd4"
+  RikokaHills:
+    name: Rikoka Hills
+    coord: [1716.45, 113.5, -650.87]
+    hash: "0xa2e9444d7ba37bb5"
+  RiversideStable:
+    name: Riverside Stable
+    coord: [365.4, 101.31, -1126.33]
+    hash: "0x7ce7b319665443fe"
+  RowanPlain:
+    name: Rowan Plain
+    coord: [-1069.44, 203.71, 2325.9]
+    hash: "0xa59b5448493acfe6"
+  ShadowHamletRuins:
+    name: Shadow Hamlet Ruins
+    coord: [3057.23, 423.93, 2310.92]
+    hash: "0x4a08d8a6fc81d2c5"
+  SnowfieldStable:
+    name: Snowfield Stable
+    coord: [-1679.57, 326, 2586]
+    hash: "0x45aed26f95d7621f"
+  SouthAkkalaStable:
+    name: South Akkala Stable
+    coord: [3195, 292.77, 1715.5]
+    hash: "0x90bf2bacf68f6039"
+  SouthNabiLake:
+    name: South Nabi Lake
+    coord: [782.5, 126, -1496.9]
+    hash: "0xd3d3da61a7fee316"
+  TabahlWoods:
+    name: Tabahl Woods
+    coord: [2746.39, 220.03, 175.52]
+    hash: "0x1deb5b43b332c00f"
+  TabanthaBridgeStable:
+    name: Tabantha Bridge Stable
+    coord: [-2958.59, 260.96, 531.96]
+    hash: "0x8749bf0eb12be366"
+  TabanthaVillageRuins:
+    name: Tabantha Village Ruins
+    coord: [-2358.6, 367.45, 1871.8]
+    hash: "0xee6703b09245973d"
+  WetlandStable:
+    name: Wetland Stable
+    coord: [884.6, 117.36, -195.32]
+    hash: "0xe92eddabd237b682"
+  WetlandStableSouth:
+    name: Wetland Stable South
+    coord: [858.03, 117.36, -262.71]
+    hash: "0xbafc0a6492536c31"
+  WoodlandStable:
+    name: Woodland Stable
+    coord: [1092.67, 113.5, 1154.05]
+    hash: "0x1711778bd4d6be59"
+  ZauzIsland:
+    name: Zauz Island
+    coord: [1435.5, 99.67, -136.5]
+    hash: "0x324e3dc4f9cb17b0"
+  ZeldasSecret:
+    name: Zelda's Secret
+    coord: [3301.48, 221.98, -2300.91]
+    hash: "0x51f7d8cd7e68ed51"

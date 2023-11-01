@@ -1,0 +1,21 @@
+#TXTPP#include ../../GENERATED
+icons:
+  well-doc: https://icons.pistonite.org/icon/misc.double_square.none.4f3a1d.c0841b.4f3a1d.c0841b.69a2d5.c1fefe.png
+  well-map: { use: ../icons/well.png }
+
+tags:
+  counter-well:
+    color: black
+    background: "#C0841B"
+
+presets:
+  Well:
+    text: ".terrain($(0))"
+    comment: Well
+    icon-doc: well-doc
+    icon-priority: 2
+    counter: .var(counter-well)
+    movements: 
+    - to: [$(1), $(2), $(3)]
+      icon: well-map
+  #TXTPP#run python ../../scripts/wells.py ../data/wells.yaml

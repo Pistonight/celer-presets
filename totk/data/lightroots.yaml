@@ -1,0 +1,488 @@
+# Scheme:
+#
+# main lightroot data:
+# .data[<ID>]:
+#   name: string
+#   hash: string
+#   coord: [x,y,z] (y is height)
+data:
+  Anehi:
+    name: A-nehi
+    coord: [3785.35,-841.8,578.28]
+    hash: "0x338e59209c49cafc"
+  Aduon:
+    name: Aduon
+    coord: [-2317.5,-696.49,2200.5]
+    hash: "0x7dea7c9de67e6c8b"
+  Agihiihcoj:
+    name: Agihi-ihcoj
+    coord: [3811.51,-452.19,1219.2]
+    hash: "0x54a8814577ff1102"
+  Akinatanis:
+    name: Akinatanis
+    coord: [3840.99,-403.37,2300.49]
+    hash: "0xbff78dd961f69b3e"
+  Amakawis:
+    name: Amakawis
+    coord: [-2439.83,-380.51,-3343.33]
+    hash: "0xfded2273231d1653"
+  Amone:
+    name: Amo-ne
+    coord: [102.55,-329.68,-2518.55]
+    hash: "0x76ccc3a566e4831c"
+  Anonisik:
+    name: Anonisik
+    coord: [2568.27,-516.06,1246.85]
+    hash: "0x3a3b74f3d03b9ff2"
+  Apapes:
+    name: Apapes
+    coord: [221.12,-389.88,1084.28]
+    hash: "0xb71db0465b65cca8"
+  Arusakam:
+    name: Arusakam
+    coord: [1769.31,-524.07,-1052.74]
+    hash: "0xfa160efaca857155"
+  Busus:
+    name: Busus
+    coord: [350.12,-386.97,-2052.09]
+    hash: "0x135cccc11736a03f"
+  Camobatures:
+    name: Camobatures
+    coord: [-177.86,-430.89,1169.74]
+    hash: "0xccd554993646efee"
+  Cugukaram:
+    name: Cugukaram
+    coord: [1763.01,-634.8,2510.51]
+    hash: "0x0db94b6197107d44"
+  Eknupup:
+    name: Eknupup
+    coord: [622.49,-527.19,2211.11]
+    hash: "0x6bb63865fa304f7e"
+  Gadohsi:
+    name: Gadohsi
+    coord: [-878.5,-412.93,423]
+    hash: "0x85d534a9b957c67e"
+  Gataharak:
+    name: Gataharak
+    coord: [-3728.64,-409.91,-3624.79]
+    hash: "0x660ea55ea45a9d0e"
+  Gedihcayam:
+    name: Gedihcayam
+    coord: [3060.81,-578.4,1825]
+    hash: "0x7c34cc2eceda0e42"
+  Gonatoyrim:
+    name: Gonatoyrim
+    coord: [-4681,-419.23,-3086]
+    hash: "0x45689596cd207a4e"
+  Gonatoyros:
+    name: Gonatoyros
+    coord: [-3882.91,-349.86,-2963.26]
+    hash: "0x88bd5436ff3f44a7"
+  Iayusus:
+    name: Iayusus
+    coord: [-785,-385.13,-433.14]
+    hash: "0x68aeeb8c9762b393"
+  Ikatoayam:
+    name: Ikatoayam
+    coord: [-849.82,-531.78,3534.5]
+    hash: "0xec5e0b914895d1ac"
+  Jadukakar:
+    name: Jadukakar
+    coord: [-2037.14,-420.06,-1852.42]
+    hash: "0x94241a8228b5bc06"
+  Kasari:
+    name: Kasari
+    coord: [-4158,-394.06,-3826]
+    hash: "0xc973df27f647cf52"
+  Kataki:
+    name: Kataki
+    coord: [-3951.66,-467.38,1139.88]
+    hash: "0xd2c82e2b6e88ec2e"
+  Katenim:
+    name: Katenim
+    coord: [394.15,-510.25,3483.69]
+    hash: "0x5ce0ae14ba082ae4"
+  Katijabis:
+    name: Katijabis
+    coord: [2400.57,-760.19,3276.02]
+    hash: "0x0be121d92e50d246"
+  Kato:
+    name: Kato
+    coord: [-4389.6,-618.22,3713.84]
+    hash: "0xd9586a1c8d53dbf6"
+  Katoij:
+    name: Katoij
+    coord: [1835.07,-753.44,3181.13]
+    hash: "0x617a6f68a94a55a9"
+  Kawagom:
+    name: Kawagom
+    coord: [3298.19,-664.75,419.85]
+    hash: "0x6bedf283f895b635"
+  Kawakanis:
+    name: Kawakanis
+    coord: [-1415.62,-453.75,756.72]
+    hash: "0xbd148bc1bd4b7ae1"
+  Kawakarut:
+    name: Kawakarut
+    coord: [-3487.43,-431.44,-214.53]
+    hash: "0xce0b272507c88c1b"
+  Kawamit:
+    name: Kawamit
+    coord: [1799.97,-664.93,1640.44]
+    hash: "0x525d3e297f5fe2a8"
+  Kawatik:
+    name: Kawatik
+    coord: [-1531.17,-646.61,-2928.53]
+    hash: "0x831a55830b78b824"
+  Kawikatisar:
+    name: Kawikatisar
+    coord: [4166.82,-589.04,1321.75]
+    hash: "0x32563426dc636cef"
+  Kawiraus:
+    name: Kawiraus
+    coord: [-2525.13,-629.1,-1769.61]
+    hash: "0x8316d4a14356597d"
+  Kawisar:
+    name: Kawisar
+    coord: [4663.5,-368.81,3264]
+    hash: "0x2e659c8af7850bba"
+  Kawumoro:
+    name: Kawumoro
+    coord: [-3077.6,-602.5,1616.87]
+    hash: "0x307ed66b39652f26"
+  Kayam:
+    name: Kayam
+    coord: [1269,-468.94,3733]
+    hash: "0x5d0e524b883e71e3"
+  Kegopa:
+    name: Kegopa
+    coord: [3886.35,-524.25,-215.83]
+    hash: "0x6097b3ed8c143492"
+  Kimakarut:
+    name: Kimakarut
+    coord: [-2656.33,-403.64,-2237.69]
+    hash: "0x029a39f1e6f70595"
+  Kimimadena:
+    name: Kimimadena
+    coord: [4232.82,-437.11,-2177.38]
+    hash: "0x0d1533119772de0c"
+  Kimimeg:
+    name: Kimimeg
+    coord: [4512,-368.79,2115]
+    hash: "0xf3d1ab43bb5a814d"
+  Kimnaz:
+    name: Kimnaz
+    coord: [3469.77,-510.14,-2181.75]
+    hash: "0x7ad5f2c55001d2bf"
+  Kisihayam:
+    name: Kisihayam
+    coord: [3728.46,-581.06,-2059.05]
+    hash: "0x28c56f3dd1061178"
+  Kisomom:
+    name: Kisomom
+    coord: [2961,-878.99,2758]
+    hash: "0xd45513beb9d59a74"
+  Kogoir:
+    name: Kogoir
+    coord: [-1442.4,-453.7,-1616.16]
+    hash: "0xeb6b5f06d1ca6d35"
+  Kohsustu:
+    name: Kohsustu
+    coord: [670.98,-399.3,-3358.21]
+    hash: "0x2b737934e35ff070"
+  Koradat:
+    name: Koradat
+    coord: [-1080.7,-476.95,-2186.45]
+    hash: "0xe8e6b993e8c56bf2"
+  Korakut:
+    name: Korakut
+    coord: [915.73,-397.08,-251.98]
+    hash: "0xd9c4601550e68fa1"
+  Koronui:
+    name: Koro-nui
+    coord: [-3538.9,-491.66,852]
+    hash: "0xddc37e78861ac4a6"
+  Korom:
+    name: Korom
+    coord: [1180.71,-415.59,-778.9]
+    hash: "0xb78852cbc5a2fcdb"
+  Kotimab:
+    name: Kotimab
+    coord: [3093,-539.94,-3209.47]
+    hash: "0x361cd6bcec58b1a6"
+  Kuhsagi:
+    name: Kuhsagi
+    coord: [4654.5,-295.47,3732]
+    hash: "0x9c1e77761ee537fd"
+  Kuzimoy:
+    name: Kuzimoy
+    coord: [4413.19,-429.06,-612.32]
+    hash: "0xf97e2b81d7a4dc28"
+  Migoo:
+    name: Migo-o
+    coord: [2755.97,-464.94,-1088.35]
+    hash: "0x709db30d365f0e45"
+  Mihcihc:
+    name: Mihcihc
+    coord: [-3211,-386.35,-3005.5]
+    hash: "0xcb0fbd5dcf3e06ab"
+  Mimufis:
+    name: Mimufis
+    coord: [2825.33,-442.06,-3269.48]
+    hash: "0x72a6f13cd5b2796e"
+  Misisi:
+    name: Misisi
+    coord: [1842.18,-753.95,2843.02]
+    hash: "0x3e899e90f52c65ac"
+  Muufatur:
+    name: Mu-ufatur
+    coord: [-2998.44,-921.9,3100.83]
+    hash: "0x0f3da2dd317d3cd4"
+  Muustust:
+    name: Mu-ustust
+    coord: [-1423.25,-433.22,-1351.75]
+    hash: "0xd854904f88b1d300"
+  Muihcoro:
+    name: Muihcoro
+    coord: [-1637.53,-601.18,2642.46]
+    hash: "0x6caa613566824566"
+  Muokuij:
+    name: Muokuij
+    coord: [867.5,-471.85,-2277.4]
+    hash: "0x4df608ea5c922c0e"
+  Muotue:
+    name: Muotue
+    coord: [-3508.26,-742.27,3568.96]
+    hash: "0x1b42f35b9621d92f"
+  Mustis:
+    name: Mustis
+    coord: [2368.05,-864.34,2596.93]
+    hash: "0x0ee5a5c122f62a38"
+  Mustuto:
+    name: Mustuto
+    coord: [-4469.55,-864.44,-672.31]
+    hash: "0x69e0573b1aa2788d"
+  Muzasu:
+    name: Muzasu
+    coord: [-2138.11,-458.22,-874.94]
+    hash: "0xe535d5371aa46590"
+  Nabahiikat:
+    name: Nabahi-ikat
+    coord: [-1829.35,-638.63,1196.2]
+    hash: "0xd43b61a5cdc7f653"
+  Napanos:
+    name: Napanos
+    coord: [-1921.5,-551.18,-359.5]
+    hash: "0x34abafa8b16c59dc"
+  Narusis:
+    name: Narusis
+    coord: [-2558.53,-605.63,3354.17]
+    hash: "0xd80a2103641c191d"
+  Netamnet:
+    name: Netamnet
+    coord: [-595.16,-514.75,1549.86]
+    hash: "0x30009e7eb5fa45b6"
+  Netinet:
+    name: Netinet
+    coord: [-73.92,-387.34,-1115.67]
+    hash: "0x241ccad5ed39292f"
+  Niiraram:
+    name: Ni-iraram
+    coord: [4630.28,-421.5,-3711.55]
+    hash: "0xf0f047f82d4af1f9"
+  Nihcayam:
+    name: Nihcayam
+    coord: [-705.5,-396.47,-867.5]
+    hash: "0x107dce35761ca1a5"
+  Nikakik:
+    name: Nikakik
+    coord: [-396.57,-640.75,2735.14]
+    hash: "0xf19b46537c6c0bb8"
+  Nikohsi:
+    name: Nikohsi
+    coord: [-564,-490.06,-3524]
+    hash: "0xabd593a3aabc7778"
+  Nipahsom:
+    name: Nipahsom
+    coord: [2679.83,-603.96,1903.64]
+    hash: "0x1556200b6e79aea2"
+  Nisoij:
+    name: Nisoij
+    coord: [-240.49,-393.62,-372]
+    hash: "0x5c84cc4daeab246a"
+  Niuzimod:
+    name: Niuzimod
+    coord: [3304,-705.82,1442.5]
+    hash: "0xc7ee572c2d518c66"
+  Nogukoyk:
+    name: Nogukoyk
+    coord: [-708.25,-432.69,-1551.15]
+    hash: "0x5c99c130e2c502cf"
+  Nojoj:
+    name: Nojoj
+    coord: [1201.39,-490.06,330.45]
+    hash: "0x81ec2a80740a5c83"
+  Nupisoyuat:
+    name: Nupisoyuat
+    coord: [-4537.86,-623.13,2879.8]
+    hash: "0x15901d52316569cb"
+  Nuzimak:
+    name: Nuzimak
+    coord: [-178.5,-389.15,-1559]
+    hash: "0x9595d6312c776885"
+  Oyimay:
+    name: Oyimay
+    coord: [333.76,-395.15,469.21]
+    hash: "0xf139221eecf3f149"
+  Ramobnukas:
+    name: Ramobnukas
+    coord: [166.85,-541.29,2321.11]
+    hash: "0x80bda19c77fc6c0e"
+  Rasinaduk:
+    name: Rasinaduk
+    coord: [-4168.96,-403.25,-2142.15]
+    hash: "0xadee2c99e9c93f02"
+  Rikonasum:
+    name: Rikonasum
+    coord: [406.87,-507.69,2134.19]
+    hash: "0x6cf9b33a3599bf2e"
+  Sasag:
+    name: Sasag
+    coord: [-4154.09,-405.06,97.88]
+    hash: "0xe6b641b6fb997ea6"
+  Sekioam:
+    name: Sekioam
+    coord: [2276.46,-416.78,149.69]
+    hash: "0x3227555d15f8781b"
+  Siakij:
+    name: Siakij
+    coord: [4267.47,-544.2,-1672.61]
+    hash: "0xce5df5b8b070b480"
+  Sijnin:
+    name: Sijnin
+    coord: [355.42,-541.36,1892.53]
+    hash: "0xc148ab241a64b94f"
+  Sijotu:
+    name: Sijotu
+    coord: [1218.92,-527.56,-2544.04]
+    hash: "0xcf95de9a7ba027a4"
+  Sikatag:
+    name: Sikatag
+    coord: [-3652.5,-332.63,1806.6]
+    hash: "0x074d4d642b61adb0"
+  Sikurukam:
+    name: Sikurukam
+    coord: [-2846.07,-537.38,630.23]
+    hash: "0xece01758a77aa788"
+  Sikutamak:
+    name: Sikutamak
+    coord: [3431.07,-436.23,3357.72]
+    hash: "0xe2eb17f7551c81af"
+  Sinonoyk:
+    name: Sinonoyk
+    coord: [-204.28,-387.94,450.98]
+    hash: "0xebefa6a2bd9787e6"
+  Sisinatag:
+    name: Sisinatag
+    coord: [4497.35,-451.14,827.29]
+    hash: "0x15e5d139ce007181"
+  Sisustom:
+    name: Sisustom
+    coord: [-1795,-372.53,-3497.96]
+    hash: "0xd81e30697c565812"
+  Sooaw:
+    name: So-oaw
+    coord: [-4057.83,-590.22,1989.2]
+    hash: "0x05f96acf99d1a9a2"
+  Sohse:
+    name: Sohse
+    coord: [1563.42,-379.53,-1944.99]
+    hash: "0x313398e91e2ccafa"
+  Stakijat:
+    name: Stakijat
+    coord: [343.39,-383.81,-1008.14]
+    hash: "0x1ed99e8878d9b7b3"
+  Stamayam:
+    name: Stamayam
+    coord: [-4638.19,-806.25,-1512.44]
+    hash: "0x2486e6e40533ea79"
+  Takaruk:
+    name: Takaruk
+    coord: [2360.32,-504.8,-510.34]
+    hash: "0x8c0f058e16da9f27"
+  Tatayam:
+    name: Tatayam
+    coord: [-3291.2,-391.28,-2511.39]
+    hash: "0xdf1739629b196ec8"
+  Tayamik:
+    name: Tayamik
+    coord: [2864.62,-600.69,3639.03]
+    hash: "0x87ab7e3a500b2c46"
+  Tikanur:
+    name: Tikanur
+    coord: [-2529,-538.66,1170]
+    hash: "0x629d818d5d8c6eff"
+  Unazohso:
+    name: U-nazohso
+    coord: [-1403.5,-628.09,3678]
+    hash: "0x4905d4050413d048"
+  Uuujoj:
+    name: U-u-ujoj
+    coord: [1514.29,-445.35,-3577.54]
+    hash: "0x9214a0d96f80f2fb"
+  Uasnoj:
+    name: Uasnoj
+    coord: [1742.84,-375.28,18.16]
+    hash: "0x454e51f49f4701ba"
+  Uiihcoj:
+    name: Ui-ihcoj
+    coord: [4346.98,-523.64,2877.12]
+    hash: "0x5242d3362acc27fd"
+  Uihcoke:
+    name: Uihcoke
+    coord: [1063.06,-411.13,1281.37]
+    hash: "0xc484d815d1fa029c"
+  Uinoj:
+    name: Uinoj
+    coord: [2918.25,-710.82,508]
+    hash: "0xdaeddf658aa49c93"
+  Uisihcoj:
+    name: Uisihcoj
+    coord: [930.07,-375.69,-1903.99]
+    hash: "0xfccc17f3f10c6114"
+  Umamustor:
+    name: Umamustor
+    coord: [-3406.3,-695.33,-1363.85]
+    hash: "0xd205cbdd78623b1c"
+  Uogoj:
+    name: Uogoj
+    coord: [3346.27,-525.5,-1185.89]
+    hash: "0xae8e35c057c37197"
+  Uoyoyuik:
+    name: Uoyoyuik
+    coord: [-1106.74,-469.42,2088.81]
+    hash: "0x0ef6c3a21b78e270"
+  Usukaz:
+    name: Usukaz
+    coord: [3525.24,-527.78,-1482.46]
+    hash: "0xf42744ac0bc88863"
+  Uukukis:
+    name: Uukukis
+    coord: [697.56,-586.94,2792.88]
+    hash: "0xec94e2d50b2dc6d6"
+  Worihas:
+    name: Worihas
+    coord: [-3353.5,-718.13,2385.5]
+    hash: "0xd4c7c1f36ab18ce4"
+  Yikot:
+    name: Yikot
+    coord: [2303.24,-533.1,-2378.5]
+    hash: "0xad04429c3aca3454"
+  Yisuayam:
+    name: Yisuayam
+    coord: [-1167.91,-266.02,2602.32]
+    hash: "0x36a73e5b4cbb94f4"
+  Ziner:
+    name: Zi-ner
+    coord: [757.46,-447.3,823.95]
+    hash: "0x4b963692fc3ce867"
