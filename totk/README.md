@@ -16,7 +16,7 @@ route:
   ...
 config:
 # See `Layers` below on what to use here
-# `full` includes everything. Most routes can use `most`, which is `full` without koroks and bubbulfrogs
+# `full` includes everything. Most routes can use `most`, which is `full` without koroks
 - use: Pistonight/celer-presets/totk/full.yaml
 plugins:
 - variables # required
@@ -45,16 +45,17 @@ Each layer also includes everything in the previous layer
     - [Tears](#tear)
     - [Bosses](#boss)
     - [Warp](#warp)
-    - [Wells](#terrain) TODO
-    - [Caves](#terrain) TODO
-    - [Chasms](#terrain) TODO
+    - [Bubbulfrogs](#bubbulfrog) TODO
+    - [Wells](#terrain)
+    - [Caves](#terrain)
+    - [Chasms](#terrain)
+    
     ```yaml
     - use: Pistonight/celer-presets/totk/most.yaml
     ```
 4. `full` Includes:
     - Everything in `most`
     - [Koroks](#korok) TODO
-    - [Bubbulfrogs](#bubbulfrog) TODO
     
     ```yaml
     - use: Pistonight/celer-presets/totk/full.yaml
@@ -158,12 +159,19 @@ executed.
 # Warping to travel medallion. Order of the coordinates are the same as you would enter with the `coord` property
 - _Warp::TravelMedallion<X,Z,Y>
 ```
+#### `Bubbulfrog`
+Provides coordinates for all bubbulfrogs. Also displays the number of bubbulgems collected.
 
+Bubbulfrogs are identified by the Cave name
+```yaml
+- _Bubbulfrog::AncientPrisonRuins
+- _Bubbulfrog::KomoShorelineCave
+```
 
 ### Terrain
 There are additional presets for terrain features in TOTK: Wells, Caves and Chasms.
 
-### `Well`
+#### `Well`
 Well locations and counter for how many wells discovered.
 The well icon is different on the doc and map. The in-game icon is used on the map and the celer-style icon is used on the doc.
 ```yaml
@@ -179,11 +187,12 @@ The well icon is different on the doc and map. The in-game icon is used on the m
 #### `Cave`
 Cave entrances. The cave icon is different on the doc and map. The in-game icon is used on the map and the celer-style icon is used on the doc.
 
-Each cave is identified by its name. If the name ends with "Cave", that part is omitted.
+Each cave is identified by its name. If the name has "Cave" in it, it is omitted.
 ```yaml
 # Enter and Exit cave text, with icons
-- _Cave::Enter::LakeKilsie           # Lake Kilsie Cave, the "Cave" is omitted
-- _Cave::Exit::LakeDarmanMonsterDen  # Lake Darman Monster Den
+- _Cave::Enter::LakeKilsie           # "Lake Kilsie Cave", the "Cave" is omitted
+- _Cave::Exit::LakeDarmanMonsterDen  # "Lake Darman Monster Den"
+- _Cave::Enter::UnderZorasDomain     # "Cave Under Zora's Domain", the "Cave" is omitted
 
 # for caves with multiple entrances, you must use a letter to identify the right entrance
 # the letter is somewhat random (sorted by id) so you will have to trial and error to find the right one starting from A

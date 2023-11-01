@@ -1,0 +1,17 @@
+#TXTPP#include ../../GENERATED
+icons:
+  bubbulfrog: https://icons.pistonite.org/icon/rune.cryonis.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+
+tags:
+  counter-bubbulfrog:
+    color: black
+    background: cyan
+presets:
+  Bubbulfrog:
+    text: .enemy(Bubbulfrog)
+    comment: $(0)
+    icon: bubbulfrog
+    icon-priority: 2
+    coord: [$(1), $(2), $(3)]
+    counter: .var(counter-bubbulfrog)
+  #TXTPP#run python ../../scripts/bubbulfrogs.py ../data/bubbulfrogs.yaml ../data/caves.yaml

@@ -1,0 +1,318 @@
+##########################################################################
+# GENERATED FILE 
+# 
+# DO NOT EDIT!
+# 
+# Edit the .txtpp file in the same directory instead
+##########################################################################
+icons:
+  bubbulfrog: https://icons.pistonite.org/icon/rune.cryonis.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+
+tags:
+  counter-bubbulfrog:
+    color: black
+    background: cyan
+presets:
+  Bubbulfrog:
+    text: .enemy(Bubbulfrog)
+    comment: $(0)
+    icon: bubbulfrog
+    icon-priority: 2
+    coord: [$(1), $(2), $(3)]
+    counter: .var(counter-bubbulfrog)
+  _Bubbulfrog:
+    AkkalaCitadelRuinsCave:
+      presets: _Bubbulfrog<Akkala Citadel Ruins Cave,3327,423.37,1530.03>
+    AkkalaCitadelRuinsSummitCave:
+      presets: _Bubbulfrog<Akkala Citadel Ruins Summit Cave,3278.21,505.07,1454.44>
+    AncientAltarRuins:
+      presets: _Bubbulfrog<Ancient Altar Ruins,-2513.11,88.92,-3723.81>
+    AncientColumnsCave:
+      presets: _Bubbulfrog<Ancient Columns Cave,-3516.7,333.61,418.13>
+    AncientPrisonRuins:
+      presets: _Bubbulfrog<Ancient Prison Ruins,-3217.25,60.91,-3120.65>
+    AncientTreeStumpCave:
+      presets: _Bubbulfrog<Ancient Tree Stump Cave,-1093.33,84.32,-426.02>
+    AncientZoraWaterworks:
+      presets: _Bubbulfrog<Ancient Zora Waterworks,3599.01,140.61,300.07>
+    AtunValleyCave:
+      presets: _Bubbulfrog<Atun Valley Cave,2439.83,184,-3178.45>
+    BonéPondEastCave:
+      presets: _Bubbulfrog<Boné Pond East Cave,2254.9,159.05,102.2>
+    BottomlessCave:
+      presets: _Bubbulfrog<Bottomless Cave,739.14,1599.76,-1445.08>
+    BrightcapCave:
+      presets: _Bubbulfrog<Brightcap Cave,-3032.68,315.44,1573.12>
+    ByroadtoLanayruWetlands:
+      presets: _Bubbulfrog<Byroad to Lanayru Wetlands,1543.45,127.16,-844.94>
+    CaloraLakeCave:
+      presets: _Bubbulfrog<Calora Lake Cave,2005.55,277.48,-3037.53>
+    CapeCalesCliffbaseCave:
+      presets: _Bubbulfrog<Cape Cales Cliffbase Cave,3446.89,118.39,-3189.47>
+    CaveUnderZorasDomain:
+      presets: _Bubbulfrog<Cave Under Zora's Domain,3336.66,197.32,539.94>
+    CentralGerudoCave:
+      presets: _Bubbulfrog<Central Gerudo Cave,-3673.65,82.1,-3267.18>
+    CephlaLakeCave:
+      presets: _Bubbulfrog<Cephla Lake Cave,2540.22,258.72,1356.36>
+    ColiseumRuinsCave:
+      presets: _Bubbulfrog<Coliseum Ruins Cave,-1127.31,146.6,-1281.52>
+    ConstructionSiteCave:
+      presets: _Bubbulfrog<Construction Site Cave,3695.28,178.77,1525.86>
+    CoraLakefrontCave:
+      presets: _Bubbulfrog<Cora Lakefront Cave,-208.18,154.52,-2999.91>
+    CortaLakeCave:
+      presets: _Bubbulfrog<Corta Lake Cave,1693.06,282.77,-2956.68>
+    CrenelHillsCave:
+      presets: _Bubbulfrog<Crenel Hills Cave,551.2,139.76,779.7>
+    CrenelPeakCave:
+      presets: _Bubbulfrog<Crenel Peak Cave,1279.39,150.42,253.89>
+    CuccoHideaway:
+      presets: _Bubbulfrog<Cucco Hideaway,1873.52,294.53,-1161.82>
+    DeathMountainEastTunnel:
+      presets: _Bubbulfrog<Death Mountain East Tunnel,2692.42,636.21,2627.68>
+    DeathMountainFoothillCave:
+      presets: _Bubbulfrog<Death Mountain Foothill Cave,2137.35,533.71,2692.01>
+    DeathMountainWestTunnel:
+      presets: _Bubbulfrog<Death Mountain West Tunnel,2385.58,629.36,2739.17>
+    DeepbackBayCave:
+      presets: _Bubbulfrog<Deepback Bay Cave,4264.23,102.44,-2128.26>
+    DeplianBadlandsCave:
+      presets: _Bubbulfrog<Deplian Badlands Cave,336.83,175.37,3537.09>
+    DuelingPeaksNorthCave:
+      presets: _Bubbulfrog<Dueling Peaks North Cave,1189.21,289.33,-1800.13>
+    DuelingPeaksSouthCave:
+      presets: _Bubbulfrog<Dueling Peaks South Cave,1154.48,348.87,-1985.52>
+    EastBironSnowshelfCave:
+      presets: _Bubbulfrog<East Biron Snowshelf Cave,-3594.21,348.12,3088.13>
+    EastGerudoRuinsCave:
+      presets: _Bubbulfrog<East Gerudo Ruins Cave,-2729.76,61.46,-2876.6>
+    EastRestaurantCave:
+      presets: _Bubbulfrog<East Restaurant Cave,1884.52,398.38,1820.18>
+    EventideIslandCave:
+      presets: _Bubbulfrog<Eventide Island Cave,4604.66,111.09,-3765.03>
+    FinraWoodsExcavationSite:
+      presets: _Bubbulfrog<Finra Woods Excavation Site,607.13,129.94,-2930.16>
+    FloriaRiverUpstreamExcavation:
+      presets: _Bubbulfrog<Floria River Upstream Excavation,861.57,105.19,-2888.97>
+    FoothillMonsterDen:
+      presets: _Bubbulfrog<Foothill Monster Den,2225.51,270.62,1537.53>
+    FortHatenoCave:
+      presets: _Bubbulfrog<Fort Hateno Cave,2315.76,123.78,-1642.18>
+    GerudoCanyonMine:
+      presets: _Bubbulfrog<Gerudo Canyon Mine,-2624.14,222.54,-2438.58>
+    GerudoGreatSkeleton:
+      presets: _Bubbulfrog<Gerudo Great Skeleton,-4988.65,74,-3885.64>
+    GerudoSanctuary:
+      presets: _Bubbulfrog<Gerudo Sanctuary,-3813.38,106.25,-2544.51>
+    GisaCraterCave:
+      presets: _Bubbulfrog<Gisa Crater Cave,-3894.91,193.04,1019.08>
+    GorkoTunnel:
+      presets: _Bubbulfrog<Gorko Tunnel,2251.05,505.2,2116.35>
+    GoronbiRiverCave:
+      presets: _Bubbulfrog<Goronbi River Cave,1417.87,399.04,2201.81>
+    GreatPlateauFoothillCave:
+      presets: _Bubbulfrog<Great Plateau Foothill Cave,-783.92,129.53,-1552.85>
+    HebraGreatSkeleton:
+      presets: _Bubbulfrog<Hebra Great Skeleton,-3874.69,373.54,3631.23>
+    HebraHeadspringCave:
+      presets: _Bubbulfrog<Hebra Headspring Cave,-2964.09,502.45,2506.61>
+    HebraMountainsNorthwestCave:
+      presets: _Bubbulfrog<Hebra Mountains Northwest Cave,-3005.35,642.61,3203.61>
+    HebraSouthSummitCave:
+      presets: _Bubbulfrog<Hebra South Summit Cave,-3286.89,518.04,2647.46>
+    HoronLagoonCave:
+      presets: _Bubbulfrog<Horon Lagoon Cave,4214.34,84.27,-311.49>
+    IcefallFoothillsCave:
+      presets: _Bubbulfrog<Icefall Foothills Cave,-4437.9,342.31,3718.4>
+    IsleofRabacGallery:
+      presets: _Bubbulfrog<Isle of Rabac Gallery,1758.44,344.07,2923.39>
+    KakarikoVillageCave:
+      presets: _Bubbulfrog<Kakariko Village Cave,1985.21,264.36,-904.76>
+    KomoShorelineCave:
+      presets: _Bubbulfrog<Komo Shoreline Cave,471.7,127.61,-3550.75>
+    KopeekiDriftsCave:
+      presets: _Bubbulfrog<Kopeeki Drifts Cave,-2334.06,288.92,2258.57>
+    KoukotPlateauCave:
+      presets: _Bubbulfrog<Koukot Plateau Cave,-2198.09,225.9,-1812.99>
+    LakeDarmanMonsterDen:
+      presets: _Bubbulfrog<Lake Darman Monster Den,2496.71,573.22,2960.78>
+    LakeFeronaCave:
+      presets: _Bubbulfrog<Lake Ferona Cave,2017.01,237.34,1397.38>
+    LakeHyliaWhirlpoolCave:
+      presets: _Bubbulfrog<Lake Hylia Whirlpool Cave,154.55,33.18,-2486.23>
+    LakeIntenochCave:
+      presets: _Bubbulfrog<Lake Intenoch Cave,2456.34,251.49,1946.33>
+    LakeKilsieCave:
+      presets: _Bubbulfrog<Lake Kilsie Cave,-3896.96,119.69,2863.25>
+    LanayruRoadEastCave:
+      presets: _Bubbulfrog<Lanayru Road East Cave,3447.29,168.93,-1210.86>
+    LanayruRoadSouthCave:
+      presets: _Bubbulfrog<Lanayru Road South Cave,2703.4,217.29,-1459.61>
+    LindorsBrowCave:
+      presets: _Bubbulfrog<Lindor's Brow Cave,-1818.12,255.63,1270.61>
+    LizardsBurrow:
+      presets: _Bubbulfrog<Lizard's Burrow,2247.34,527.05,3084.58>
+    LowerSpectacleRockCave:
+      presets: _Bubbulfrog<Lower Spectacle Rock Cave,-1766.75,89.56,-2410.19>
+    LutosChannel:
+      presets: _Bubbulfrog<Luto's Channel,3041.42,228.91,-215.41>
+    MaplaPointCave:
+      presets: _Bubbulfrog<Mapla Point Cave,4562.14,137.8,-2306.81>
+    MeadelasMantleCave:
+      presets: _Bubbulfrog<Meadela's Mantle Cave,-3929.31,525.92,-1263.89>
+    MiningCave:
+      presets: _Bubbulfrog<Mining Cave,408.95,1507.24,-1681.02>
+    MountDrenaFoothillCave:
+      presets: _Bubbulfrog<Mount Drena Foothill Cave,-1438.06,323.4,3016.63>
+    MountDunselCave:
+      presets: _Bubbulfrog<Mount Dunsel Cave,3283.82,165.92,-3226.71>
+    MountFloriaCave:
+      presets: _Bubbulfrog<Mount Floria Cave,1939.01,225.18,-2703.57>
+    MountNabooruCave:
+      presets: _Bubbulfrog<Mount Nabooru Cave,-1889.47,153.29,-1962.06>
+    MountNabooruSouthCave:
+      presets: _Bubbulfrog<Mount Nabooru South Cave,-1784.23,130.31,-2173.19>
+    MystathisShelfCave:
+      presets: _Bubbulfrog<Mystathi's Shelf Cave,-3936.03,683.73,-746.33>
+    NorthAkkalaBeachCave:
+      presets: _Bubbulfrog<North Akkala Beach Cave,4650.08,102.05,3589.66>
+    NorthBironSnowshelfCave:
+      presets: _Bubbulfrog<North Biron Snowshelf Cave,-3961.56,311.32,3222.05>
+    NorthHyrulePlainCave:
+      presets: _Bubbulfrog<North Hyrule Plain Cave,-1230.65,197.84,776.71>
+    OaklesNavelCave:
+      presets: _Bubbulfrog<Oakle's Navel Cave,2408.48,65.86,-2336.82>
+    OasisSource:
+      presets: _Bubbulfrog<Oasis Source,-3257.65,116.02,-2674.62>
+    OrenBridgeCave:
+      presets: _Bubbulfrog<Oren Bridge Cave,2926.48,206.42,-71.18>
+    PagosWoodsExcavationSite:
+      presets: _Bubbulfrog<Pagos Woods Excavation Site,576.89,121.7,-3132.62>
+    PasseriGreenbeltCave:
+      presets: _Bubbulfrog<Passeri Greenbelt Cave,-523.87,148.48,195.99>
+    PicoPondCave:
+      presets: _Bubbulfrog<Pico Pond Cave,1311.7,132.83,1245.28>
+    PikidaStonegroveNorthwestCave:
+      presets: _Bubbulfrog<Pikida Stonegrove Northwest Cave,-2489.12,413.95,3209.21>
+    PitCave:
+      presets: _Bubbulfrog<Pit Cave,627.99,1571.33,-1635.91>
+    PloymusMountainCave:
+      presets: _Bubbulfrog<Ploymus Mountain Cave,3688.23,408.35,517.16>
+    PondsideCave:
+      presets: _Bubbulfrog<Pondside Cave,246.8,1479.65,-1612.31>
+    PoplaFoothillsExcavationSite:
+      presets: _Bubbulfrog<Popla Foothills Excavation Site,620.74,167.97,-2155.99>
+    PristineSanctum:
+      presets: _Bubbulfrog<Pristine Sanctum,3692.69,304.71,641.05>
+    PufferBeachOverheadCave:
+      presets: _Bubbulfrog<Puffer Beach Overhead Cave,284.61,169.98,-3786.18>
+    QuicksandLakeCave:
+      presets: _Bubbulfrog<Quicksand Lake Cave,-3335.04,71.65,-2953.43>
+    RalisChannel:
+      presets: _Bubbulfrog<Ralis Channel,2966.04,271.33,419.57>
+    RanchRuinsCave:
+      presets: _Bubbulfrog<Ranch Ruins Cave,30.94,140.78,-155.44>
+    RasslaLakeCave:
+      presets: _Bubbulfrog<Rassla Lake Cave,1716.98,182.05,-3708.3>
+    RauruHillsideCave:
+      presets: _Bubbulfrog<Rauru Hillside Cave,737.74,160.32,1402.87>
+    RebonaeBridgeCave:
+      presets: _Bubbulfrog<Rebonae Bridge Cave,911.23,139.74,56.22>
+    ReservoirLakefrontCavern:
+      presets: _Bubbulfrog<Reservoir Lakefront Cavern,3927.83,324.5,388.28>
+    RetsamForestCave:
+      presets: _Bubbulfrog<Retsam Forest Cave,3759.33,304.35,-2084.74>
+    RiveroftheDeadWaterfallCave:
+      presets: _Bubbulfrog<River of the Dead Waterfall Cave,-1125.22,250.54,-2189.66>
+    RobredDropoffCave:
+      presets: _Bubbulfrog<Robred Dropoff Cave,2540.87,97.14,-1513.25>
+    RodaiLakefrontTunnel:
+      presets: _Bubbulfrog<Rodai Lakefront Tunnel,1904.22,81.27,-3033.68>
+    RosproPassCave:
+      presets: _Bubbulfrog<Rospro Pass Cave,-3447.03,345,2473.52>
+    RoyalHiddenPassage:
+      presets: _Bubbulfrog<Royal Hidden Passage,-217.33,64.63,724.5>
+    SageTempleCave:
+      presets: _Bubbulfrog<Sage Temple Cave,-1347.54,92.22,-242.83>
+    SahasraSlopeCave:
+      presets: _Bubbulfrog<Sahasra Slope Cave,1330.29,245.92,-1191.05>
+    SarjonWoodsCave:
+      presets: _Bubbulfrog<Sarjon Woods Cave,1574.79,126.33,-2974.5>
+    SatoriMountainCave:
+      presets: _Bubbulfrog<Satori Mountain Cave,-2283.2,367.19,-472.08>
+    SatoriMountainFoothillCave:
+      presets: _Bubbulfrog<Satori Mountain Foothill Cave,-2167.83,234.06,-580.3>
+    ShrineofResurrection:
+      presets: _Bubbulfrog<Shrine of Resurrection,-1111.08,241.99,-1879.9>
+    SkullLakeCave:
+      presets: _Bubbulfrog<Skull Lake Cave,3416.99,-18.37,3382.12>
+    SouthGerudoCave:
+      presets: _Bubbulfrog<South Gerudo Cave,-3005.75,110.74,-3802.24>
+    SouthernMine:
+      presets: _Bubbulfrog<Southern Mine,1766.89,424.19,2062.45>
+    SpectacleRockCave:
+      presets: _Bubbulfrog<Spectacle Rock Cave,-2234.44,357.05,-2433.9>
+    StalryPlateauCave:
+      presets: _Bubbulfrog<Stalry Plateau Cave,-1517.78,102.37,-2228.49>
+    StatueoftheEighthHeroineCave:
+      presets: _Bubbulfrog<Statue of the Eighth Heroine Cave,-4391.37,575.01,-627.65>
+    SturnidaSpringsCave:
+      presets: _Bubbulfrog<Sturnida Springs Cave,-4052.25,104.67,2544.17>
+    TaafeiHillCave:
+      presets: _Bubbulfrog<Taafei Hill Cave,-2558.27,284.82,-1696>
+    TabahlWoodsCave:
+      presets: _Bubbulfrog<Tabahl Woods Cave,2651.58,199.01,257.61>
+    TabanthaHillsCave:
+      presets: _Bubbulfrog<Tabantha Hills Cave,-2881.88,364.49,1850.59>
+    TalontoPeakCave:
+      presets: _Bubbulfrog<Talonto Peak Cave,-3211.47,475.13,2577.99>
+    TamioRiverDownstreamCave:
+      presets: _Bubbulfrog<Tamio River Downstream Cave,-2989.29,126.51,-905.86>
+    TanagarCanyonEastCave:
+      presets: _Bubbulfrog<Tanagar Canyon East Cave,-2170.85,60.28,1534.54>
+    TanagarCanyonWestCave:
+      presets: _Bubbulfrog<Tanagar Canyon West Cave,-3484.12,-16.58,726.99>
+    TarmPointCave:
+      presets: _Bubbulfrog<Tarm Point Cave,4421.72,142.25,-754.88>
+    TarreyTownTunnel:
+      presets: _Bubbulfrog<Tarrey Town Tunnel,3936.56,224.86,1584.05>
+    ThundraPlateauCave:
+      presets: _Bubbulfrog<Thundra Plateau Cave,-2277.61,208.67,858.17>
+    TobiosHollowCave:
+      presets: _Bubbulfrog<Tobio's Hollow Cave,1132,192.51,-2333.64>
+    UbotaPointCave:
+      presets: _Bubbulfrog<Ubota Point Cave,1424.48,189.26,-3472.36>
+    UlriaGrottoEastCave:
+      presets: _Bubbulfrog<Ulria Grotto East Cave,4382.61,244.17,774.24>
+    UlriaGrottoSouthCave:
+      presets: _Bubbulfrog<Ulria Grotto South Cave,4195.69,334.19,607.6>
+    UplandZoranaByroad:
+      presets: _Bubbulfrog<Upland Zorana Byroad,2815.69,301.53,511.79>
+    UplandZoranaFoothillCave:
+      presets: _Bubbulfrog<Upland Zorana Foothill Cave,3044.68,337.7,741.85>
+    UplandZoranaMountainsideCave:
+      presets: _Bubbulfrog<Upland Zorana Mountainside Cave,2617.98,304.21,558.33>
+    UplandZoranaSummitCave:
+      presets: _Bubbulfrog<Upland Zorana Summit Cave,2847.35,459.06,490.74>
+    ValleyofSilentStatues:
+      presets: _Bubbulfrog<Valley of Silent Statues,-3794.32,110.95,-2745.45>
+    WalnotMountainCave:
+      presets: _Bubbulfrog<Walnot Mountain Cave,4127.97,262.16,-1894.01>
+    WestGerudoUndergroundRuins:
+      presets: _Bubbulfrog<West Gerudo Underground Ruins,-4684.69,115.84,-2061.68>
+    WestLakeTotoriCave:
+      presets: _Bubbulfrog<West Lake Totori Cave,-4035.13,311.5,2045.32>
+    WestRestaurantCave:
+      presets: _Bubbulfrog<West Restaurant Cave,1615.49,373.87,1793.34>
+    WhistlingHillCave:
+      presets: _Bubbulfrog<Whistling Hill Cave,-129.3,120.94,-1053.79>
+    YigaBlademasterStation:
+      presets: _Bubbulfrog<Yiga Blademaster Station,-2473.49,245.92,-1772.23>
+    YigaClanMarittaBranch:
+      presets: _Bubbulfrog<Yiga Clan Maritta Branch,-640.56,237.6,2115.94>
+    YunoboCoHQEastCave:
+      presets: _Bubbulfrog<YunoboCo HQ East Cave,1790.91,472.2,2918.54>
+    YunoboCoHQSouthCave:
+      presets: _Bubbulfrog<YunoboCo HQ South Cave,1580.88,495.73,2709.17>
+

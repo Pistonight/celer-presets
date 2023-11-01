@@ -59,6 +59,11 @@ data:
     entrances:
     - coord: [-1111.5, 128.2, -432.06]
       hash: "0xd49b56c6c6622c45"
+  AncientZoraWaterworks:
+    name: Ancient Zora Waterworks
+    entrances:
+    - coord: [3606.64, 103.96, 122.2]
+      hash: "0x0a49d3b548f08d4e"
   AtunValley:
     name: Atun Valley Cave
     entrances:
@@ -383,11 +388,6 @@ data:
     entrances:
     - coord: [2206.31, 510.94, 3075.32]
       hash: "0x2064d8977c760fb6"
-  LocationMarkerAncientZoraWaterworks:
-    name: LocationMarker Ancient Zora Waterworks
-    entrances:
-    - coord: [3606.64, 103.96, 122.2]
-      hash: "0x0a49d3b548f08d4e"
   LowerSpectacleRock:
     name: Lower Spectacle Rock Cave
     entrances:
@@ -577,7 +577,7 @@ data:
     entrances:
     - coord: [845.92, 121.33, 31.5]
       hash: "0xe130c628a8fae219"
-  ReservoirLakefrontrn:
+  ReservoirLakefrontCavern:
     name: Reservoir Lakefront Cavern
     entrances:
     - coord: [3809.58, 314.45, 419.6]
