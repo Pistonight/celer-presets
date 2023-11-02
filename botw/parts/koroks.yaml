@@ -44,6 +44,7 @@ presets:
     icon-priority: 2
     counter: .var(counter-korok)
   _Korok:
+    
     A01:
       presets: _Korok<A01 Lift Rock (Tree\),korok-rock-tree>
       coord: [3075.87,318.83,-3684.38]

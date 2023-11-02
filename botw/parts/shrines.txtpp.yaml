@@ -1,6 +1,6 @@
 #TXTPP#include ../../GENERATED
 icons:
-  #TXTPP#run python ../../scripts/shrine-icons.py ../data/shrines.yaml
+  #TXTPP#run python ../../scripts/icons.py ../data/shrines.yaml
 
 tags:
   shrine-dlc:

@@ -5,4 +5,18 @@
 # 
 # Edit the .txtpp file in the same directory instead
 ##########################################################################
-icons:
+
+tags:
+  counter-korok:
+    color: black
+    background: "#0f0"
+
+presets:
+  Korok:
+    text: .npc($(0))
+    icon: $(1)
+    icon-priority: 2
+    counter: .var(counter-korok)
+    vars:
+      korok-seed: .add(1)
+  _Korok:

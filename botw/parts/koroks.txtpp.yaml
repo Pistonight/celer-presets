@@ -38,6 +38,8 @@ presets:
     icon-priority: 2
     counter: .var(counter-korok)
   _Korok:
+    #TXTPP#run ../../scripts/koroks.py ../data/koroks.yaml 900
+    
     # TXTPP#temp make-koroks.g.py
     # import yaml
     # def fmt_coord(coord):

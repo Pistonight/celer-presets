@@ -23,7 +23,7 @@ config:
 # `full` includes everything. Most routes can use `most`, which is `full` without koroks
 - use: Pistonight/celer-presets/botw/full.yaml
 plugins:
-- variables # required
+- use: variables # required
 ```
 
 ### Layers
@@ -97,6 +97,14 @@ Also displays the number of koroks collected.
 
 # A04 is a flower korok. Just do this will fill in the movements from start to end
 - _Korok::A04
+```
+
+The Korok preset also increments the `korok-seed` variable. You can use this to track if you have enough seeds for inventory upgrade every time you visit hestu:
+```yaml
+- spend 5 seeds:
+    notes: .var(korok-seed) seeds left
+    vars:
+      korok-seed: .sub(5)
 ```
 #### `Memory`
 Provides memory location, coordinates and title (in game name of the memory). Also displays the number of memories collected.

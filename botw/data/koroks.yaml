@@ -9,14 +9,14 @@
 # korok regions:
 # .meta.regions[<PREFIX>]:
 #   name: string
-#   count: number
-#
+#   count: 
+#     main: number
 #
 # main korok data:
 # .data[<ID>]:
 #   type: string
 #   comment?: string
-#   move: [x, y, z][] - movements.
+#   move: arrayof [x, y, z] - movements.
 #                single point for lift rock, confetti, etc
 #                2 points for races, etc
 #                more points for flowers, etc
@@ -209,52 +209,52 @@ meta:
   regions:
     C:
       name: Central
-      count: 89
+      count: { main: 89 }
     P:
       name: Plateau
-      count: 18
+      count: { main: 18 }
     L:
       name: Lake
-      count: 92
+      count: { main: 92 }
     D:
       name: Dueling Peaks
-      count: 59
+      count: { main: 59 }
     F:
       name: Faron
-      count: 58
+      count: { main: 58 }
     N:
       name: Hateno
-      count: 66
+      count: { main: 66 }
     Z:
       name: Lanayru
-      count: 62
+      count: { main: 62 }
     E:
       name: Eldin
-      count: 45
+      count: { main: 45 }
     K:
       name: Woodland
-      count: 35
+      count: { main: 35 }
     A:
       name: Akkala
-      count: 57
+      count: { main: 57 }
     X:
       name: Castle
-      count: 25
+      count: { main: 25 }
     T:
       name: Tabantha
-      count: 37
+      count: { main: 37 }
     G:
       name: Gerudo
-      count: 36
+      count: { main: 36 }
     W:
       name: Wasteland
-      count: 68
+      count: { main: 68 }
     H:
       name: Hebra
-      count: 73
+      count: { main: 73 }
     R:
       name: Ridgeland
-      count: 80
+      count: { main: 80 }
 data:
   A01:
     type: LiftRockTree
