@@ -27,12 +27,7 @@
   # Korok Friends" -> Friends (Start/End)
   # Land on Target" -> Target Landing (need check)
   # Offering Plate" -> Offer Apple/Pepper/Banana/Durian/PalmFruit/Egg/Shield/?
-  # Pull the Plug" -> Pull Plug
-  # Puzzle Blocks" -> Block Puzzle
-  # Repair Roof" -> Repair Roof
-  # Ring the Bell" -> Ring Bell
   # Rock Lift" -> Lift Rock ////?
-  # Rock Pattern" -> Rock Circle
   # Through the Roof" -> Ascend (Start/Finish)
   # Touch the Target" -> Target Touch (need check)
 meta:
@@ -64,6 +59,21 @@ meta:
     BuildRoof:
       name: Build Roof
       icon: korok-build-roof
+    BlockPuzzle:
+      name: Block Puzzle
+      icon: korok-ultrahand
+    RepairRoof:
+      name: Repair Roof
+      icon: korok-ultrahand
+    PullPlug:
+      name: Pull Plug
+      icon: korok-pull-plug
+    RingBell:
+      name: Ring Bell
+      icon: korok-ring-bell
+    RockCircle:
+      name: Rock Pattern
+      icon: korok-rock-circle
   regions:
     EC:
       name: Eldin Canyon
@@ -1250,6 +1260,582 @@ data:
     type: BuildRoof
     move: [[-4254.2, 123.63, 2145.75]]
     hash: "0x4adcb248677cff87"
+  EC02:
+    type: BlockPuzzle
+    move: [[2233.67, 342.7, 3677.48]]
+    hash: "0xc1f59a8fe7395e70"
+  EC14:
+    type: BlockPuzzle
+    move: [[2061.49, 586.53, 2755.89]]
+    hash: "0x8dc982ae922f8763"
+  EC24:
+    type: BlockPuzzle
+    move: [[2083, 608, 2330]]
+    hash: "0x4267c8d5555edcda"
+  EC25:
+    type: BlockPuzzle
+    move: [[1740.84, 531.02, 2329.96]]
+    hash: "0xa66d144e2891837b"
+  EC52:
+    type: BlockPuzzle
+    move: [[2720, 287, 1163]]
+    hash: "0x260f61ea170ad5d9"
+  GC27:
+    type: BlockPuzzle
+    move: [[-1938.02, 262.91, -2821.99]]
+    hash: "0xe7340b4951e44acd"
+  GC41:
+    type: BlockPuzzle
+    move: [[-1152.5, 381.62, -3303.88]]
+    hash: "0xa7f7b908210a888b"
+  GC47:
+    type: BlockPuzzle
+    move: [[-1451.8, 541.78, -3638.13]]
+    hash: "0x9d4c2935a037c550"
+  GH01:
+    type: BlockPuzzle
+    move: [[-3820.33, 160.67, 178.33]]
+    hash: "0x55e54acea28ef7d6"
+  GH26:
+    type: BlockPuzzle
+    move: [[-3872.94, 602.4, -1176.8]]
+    hash: "0x7978c713cc884f7b"
+  GH28:
+    type: BlockPuzzle
+    move: [[-4911.09, 562.45, -1242.71]]
+    hash: "0x56574225c85e97fe"
+  GH41:
+    type: BlockPuzzle
+    move: [[-3899, 399.5, -1644]]
+    hash: "0xa99b172d5ff5ab47"
+  GH46:
+    type: BlockPuzzle
+    move: [[-3208.06, 184.68, -1855.34]]
+    hash: "0x5d8f4dc53df5c628"
+  GH52:
+    type: BlockPuzzle
+    move: [[-4393.84, 207, -2015.27]]
+    hash: "0x8a1bd22d8f6e491f"
+  GSI10:
+    type: BlockPuzzle
+    move: [[630.9, 1554.57, -1531.1]]
+    hash: "0xee76b05ce4b594b1"
+  GSI12:
+    type: BlockPuzzle
+    move: [[542.02, 1593.15, -1581.33]]
+    hash: "0x1943b9aca3be2580"
+  HF40:
+    type: BlockPuzzle
+    move: [[-1763.73, 197.9, -1449.17]]
+    hash: "0xf94d331b9fc6e84c"
+  HF66:
+    type: BlockPuzzle
+    move: [[-472, 182.5, -2039]]
+    hash: "0x9cab701b5c83152f"
+  HF74:
+    type: BlockPuzzle
+    move: [[-886.36, 125.75, -2270.54]]
+    hash: "0x3784ffb9df373457"
+  LB06:
+    type: BlockPuzzle
+    move: [[-2818.43, 91.5, 1598.72]]
+    hash: "0x6bafbf68f0ad9be0"
+  LB14:
+    type: BlockPuzzle
+    move: [[-3442, 232.5, 1313]]
+    hash: "0x32717796e7c5d7b0"
+  LB19:
+    type: BlockPuzzle
+    move: [[-2436.08, 271.55, 1138.84]]
+    hash: "0xf2d8ab25f623c3e8"
+  LB45:
+    type: BlockPuzzle
+    move: [[-3532, 348.45, 488]]
+    hash: "0xb5c097290402912a"
+  LB61:
+    type: BlockPuzzle
+    move: [[-2640.4, 238.6, -322.58]]
+    hash: "0xe49a30271be3b31d"
+  LL11:
+    type: BlockPuzzle
+    move: [[-52.51, 382.95, 971.35]]
+    hash: "0x1bad0d756c4419ea"
+  LL25:
+    type: BlockPuzzle
+    move: [[-344.48, 164.28, 785.73]]
+    hash: "0x947b0bb08af00707"
+  LL35:
+    type: BlockPuzzle
+    move: [[-664.68, 132.53, 546.97]]
+    hash: "0x06c98b8403a1178a"
+  LL51:
+    type: BlockPuzzle
+    move: [[-1352.14, 121.5, -191.95]]
+    hash: "0x5fa452408c59bd74"
+  ML07:
+    type: BlockPuzzle
+    move: [[3250.02, 276.01, -1335.54]]
+    hash: "0x69cbe306107cf923"
+  ML40:
+    type: BlockPuzzle
+    move: [[4394.53, 110.96, -2414.53]]
+    hash: "0xb897994bfe565496"
+  ML43:
+    type: BlockPuzzle
+    move: [[3440.26, 318.49, -2517.03]]
+    hash: "0x5a4b626ba47b743d"
+  PF04:
+    type: BlockPuzzle
+    move: [[588.71, 117.21, -1232.77]]
+    hash: "0x44490e13fe6681e6"
+  PF43:
+    type: BlockPuzzle
+    move: [[-467.75, 95.5, -2899]]
+    hash: "0x34794435827a044e"
+  PF46:
+    type: BlockPuzzle
+    move: [[699.97, 121.79, -2953.5]]
+    hash: "0x81dbedca2f9da706"
+  PF59:
+    type: BlockPuzzle
+    move: [[1327.75, 199, -3275.25]]
+    hash: "0x7e308b41283158c0"
+  PF61:
+    type: BlockPuzzle
+    move: [[1691.97, 171.5, -3324.43]]
+    hash: "0x5b3dfb4f34fcfe96"
+  PF85:
+    type: BlockPuzzle
+    move: [[573, 140.3, -3853]]
+    hash: "0x320675da391c567c"
+  PS04:
+    type: BlockPuzzle
+    move: [[-1210, 301, 3601]]
+    hash: "0x537b466a83eed274"
+  PS15:
+    type: BlockPuzzle
+    move: [[-1052.14, 140.67, 2617.1]]
+    hash: "0xb1f474c2de641132"
+  PS29:
+    type: BlockPuzzle
+    move: [[-2635.19, 450.11, 2055.72]]
+    hash: "0xa4e52b50c6141f7c"
+  RP12:
+    type: BlockPuzzle
+    move: [[-4509.21, 371, 3460.85]]
+    hash: "0x8a14d1287b014072"
+  RP22:
+    type: BlockPuzzle
+    move: [[-3941, 432.5, 3161.5]]
+    hash: "0xcdb36b35cc5c656f"
+  RP30:
+    type: BlockPuzzle
+    move: [[-2477.18, 621.32, 2748.18]]
+    hash: "0x5de83eaa996dd736"
+  RP39:
+    type: BlockPuzzle
+    move: [[-3048.5, 223.45, 2360]]
+    hash: "0x6cf2df5ac3489784"
+  RP45:
+    type: BlockPuzzle
+    move: [[-4105.97, 295.75, 2048.25]]
+    hash: "0x8964e1b21e6ca5b1"
+  RP55:
+    type: BlockPuzzle
+    move: [[-3877.08, 216.98, 1762.75]]
+    hash: "0x89d954eb5f2c5e2e"
+  RW09:
+    type: BlockPuzzle
+    move: [[2558.57, 360.67, -2484.76]]
+    hash: "0x3ee211651adafb7f"
+  SS66:
+    type: BlockPuzzle
+    move: [[1241.12, 446.07, -1850.14]]
+    hash: "0xcccc70ed3b02283f"
+  TR08:
+    type: BlockPuzzle
+    move: [[276.39, 287.66, 3119.6]]
+    hash: "0xb36cb7e424c22356"
+  UM13:
+    type: BlockPuzzle
+    move: [[3151.26, 252.31, 3092.48]]
+    hash: "0x91f7039138146499"
+  UM19:
+    type: BlockPuzzle
+    move: [[4393.71, 228.23, 2721.31]]
+    hash: "0xf7391e7fbfea1e61"
+  UM22:
+    type: BlockPuzzle
+    move: [[3539.2, 190.48, 2636.64]]
+    hash: "0x5ee5a428dd9fd019"
+  UM40:
+    type: BlockPuzzle
+    move: [[3358.11, 398.13, 1300.16]]
+    hash: "0x3f83a56674a3e0df"
+  UZ11:
+    type: BlockPuzzle
+    move: [[3905.28, 490.57, 797.35]]
+    hash: "0x0c4ba09f0869e6ad"
+  UZ43:
+    type: BlockPuzzle
+    move: [[4219.85, 385.11, 158.61]]
+    hash: "0x141d4455b7fd250b"
+  UZ46:
+    type: BlockPuzzle
+    move: [[4271.5, 211.5, 137]]
+    hash: "0x993ada0a92d2f901"
+  UZ51:
+    type: BlockPuzzle
+    move: [[2211.14, 158.2, 49.77]]
+    hash: "0x5c5eca1ae4f429ae"
+  UZ62:
+    type: BlockPuzzle
+    move: [[3526.78, 255.87, -367.99]]
+    hash: "0xe48a674c285576ba"
+  UZ68:
+    type: BlockPuzzle
+    move: [[4395.41, 167.11, -535.14]]
+    hash: "0x8eb41c7423c96eca"
+  EC27:
+    type: RepairRoof
+    move: [[3031.75, 439.29, 2289.25]]
+    hash: "0x59e72458a1158a88"
+  GH04:
+    type: RepairRoof
+    move: [[-3467.5, 172.09, -168.48]]
+    hash: "0x512a4946a3727453"
+  HF36:
+    type: RepairRoof
+    move: [[-1658.92, 214.19, -1321.96]]
+    hash: "0x2357aa330a5e9da8"
+  HF70:
+    type: RepairRoof
+    move: [[-207.37, 125.83, -2205.12]]
+    hash: "0x7f67c3cfb232e6af"
+  LL46:
+    type: RepairRoof
+    move: [[761.79, 136.78, 11.08]]
+    hash: "0xf250cc3dfeaec905"
+  PF10:
+    type: RepairRoof
+    move: [[296.94, 115.7, -1497]]
+    hash: "0xc73c94332ddffe70"
+  RP52:
+    type: RepairRoof
+    move: [[-3779.22, 368.39, 1865.63]]
+    hash: "0xdd93e19fb97b72c5"
+  UM36:
+    type: RepairRoof
+    move: [[4133.55, 271.88, 1494.92]]
+    hash: "0xb1da5198b606c120"
+  EC40:
+    type: PullPlug
+    move: [[2425.78, 252.89, 1723.12]]
+    hash: "0x5c1cd17480fa55e3"
+  EC51:
+    type: PullPlug
+    move: [[3011.96, 348.34, 1203.45]]
+    hash: "0x055bedf051a39851"
+  GC36:
+    type: PullPlug
+    move: [[-1609.81, 308.54, -3084.26]]
+    hash: "0x0335f046719ba8f4"
+  GH29:
+    type: PullPlug
+    move: [[-3060.1, 605.96, -1286.33]]
+    hash: "0x3d01a11f8ad55ad5"
+  GH42:
+    type: PullPlug
+    move: [[-2818.68, 579.73, -1652.12]]
+    hash: "0xcdf97e6b82505039"
+  GH51:
+    type: PullPlug
+    move: [[-3584.46, 351.98, -1990.62]]
+    hash: "0x93d0146a37ecf89c"
+  HF51:
+    type: PullPlug
+    move: [[-1705.5, 69.34, -1706.78]]
+    hash: "0x62970c25517a4b72"
+  HF52:
+    type: PullPlug
+    move: [[-952.28, 203.1, -1720.08]]
+    hash: "0x23eb03b0a43ab6c3"
+  LB09:
+    type: PullPlug
+    move: [[-3137.13, 229.95, 1553.15]]
+    hash: "0x70bcbe375b0d8bb7"
+  LB56:
+    type: PullPlug
+    move: [[-1399.06, 130, 80.03]]
+    hash: "0x75697823268ec0df"
+  ML04:
+    type: PullPlug
+    move: [[4027.85, 454.94, -1094.71]]
+    hash: "0x240e6a67abc3d8b9"
+  ML09:
+    type: PullPlug
+    move: [[2920.91, 485.99, -1392.43]]
+    hash: "0x312ae677720f56fb"
+  ML18:
+    type: PullPlug
+    move: [[2513.11, 244.32, -1866.41]]
+    hash: "0xb1a740861448e989"
+  ML30:
+    type: PullPlug
+    move: [[4591.71, 109.29, -2159.7]]
+    hash: "0xa810eb71b477f535"
+  ML46:
+    type: PullPlug
+    move: [[4083.58, 109.16, -2974.14]]
+    hash: "0xa544208210f98365"
+  PF84:
+    type: PullPlug
+    move: [[101.45, 138.23, -3842.43]]
+    hash: "0x6a27669a0b812968"
+  RP33:
+    type: PullPlug
+    move: [[-4332.4, 443.44, 2602.31]]
+    hash: "0xaf1a9ce4ce4ad064"
+  RW11:
+    type: PullPlug
+    move: [[1940.25, 131.89, -2564.03]]
+    hash: "0xca563040946af42c"
+  RW16:
+    type: PullPlug
+    move: [[2877.92, 297.77, -2685.26]]
+    hash: "0x24d931052d5d3529"
+  SS39:
+    type: PullPlug
+    move: [[959.05, 116.3, -943.8]]
+    hash: "0xb2ba59447f227426"
+  SS68:
+    type: PullPlug
+    move: [[1651.85, 115.6, -1907.84]]
+    hash: "0x5fdb84188169f67f"
+  SS69:
+    type: PullPlug
+    move: [[1326.12, 292.47, -1962.65]]
+    hash: "0x9ea6c5488ed42a7d"
+  TR14:
+    type: PullPlug
+    move: [[-579.22, 492.36, 2603.12]]
+    hash: "0x8827f24cb504a873"
+  UZ05:
+    type: PullPlug
+    move: [[3868.78, 330.98, 1086]]
+    hash: "0x1e10b5ca54bb3cf8"
+  UZ16:
+    type: PullPlug
+    move: [[4174.72, 354.05, 698.99]]
+    hash: "0xfcfed5df4806ddf4"
+  UZ42:
+    type: PullPlug
+    move: [[2782.66, 186.91, 197.79]]
+    hash: "0xd4828e0de75813ca"
+  LL06:
+    type: RingBell
+    move: [[-254, 575.45, 1061.77]]
+    hash: "0x31fc3653d35cd99b"
+  ML22:
+    type: RingBell
+    move: [[3365.99, 249.62, -1979.37]]
+    hash: "0x5e8118bc32ef219c"
+  UM34:
+    type: RingBell
+    move: [[3965.13, 241.27, 1611.09]]
+    hash: "0x7065b2f2ffe87b22"
+  EC12:
+    type: RockCircle
+    move: [[1375.31, 467.28, 2843.72]]
+    hash: "0xa36180008ee138d7"
+  EC26:
+    type: RockCircle
+    move: [[1250.21, 427.86, 2292.84]]
+    hash: "0x31b3e43ffe0b4b54"
+  EC38:
+    type: RockCircle
+    move: [[2699.64, 224.54, 1748.27]]
+    hash: "0x8e087792e270408b"
+  EC56:
+    type: RockCircle
+    move: [[2293.98, 215.01, 942.98]]
+    hash: "0x3b67043ac7c0b46f"
+  GC08:
+    type: RockCircle
+    move: [[-1942.79, 187.01, -2131.32]]
+    hash: "0x4f482b14d876442d"
+  GC26:
+    type: RockCircle
+    move: [[-1556.75, 336.21, -2625.79]]
+    hash: "0x623b4c177bc80a8a"
+  GC48:
+    type: RockCircle
+    move: [[-1369.61, 500.88, -3724.03]]
+    hash: "0x05037238b632afc8"
+  GH14:
+    type: RockCircle
+    move: [[-3565.44, 662.44, -732.94]]
+    hash: "0xf8a19470c0d4f55e"
+  GH24:
+    type: RockCircle
+    move: [[-4322.9, 628.63, -1090.38]]
+    hash: "0x9108afb5e84a244a"
+  GH36:
+    type: RockCircle
+    move: [[-2643.69, 687.9, -1532.39]]
+    hash: "0x7118aa2a59c33f0a"
+  GH37:
+    type: RockCircle
+    move: [[-3561.32, 558.33, -1558.73]]
+    hash: "0x85b81002d66f62ba"
+  GH55:
+    type: RockCircle
+    move: [[-3320.43, 181.53, -2274.87]]
+    hash: "0x3bb39af996d52082"
+  GSI06:
+    type: RockCircle
+    move: [[760.46, 1708.8, -1341.14]]
+    hash: "0x34ef20e12f80911f"
+  GSI08:
+    type: RockCircle
+    move: [[424.22, 1606.05, -1503.57]]
+    hash: "0xc6624de93efaa9a3"
+  HF06:
+    type: RockCircle
+    move: [[-2714.94, 192.34, -496.7]]
+    hash: "0xc324e2d77ae8581c"
+  HF31:
+    type: RockCircle
+    move: [[-510.78, 127.68, -1176.87]]
+    hash: "0xa62a18d66dda2f96"
+  LB34:
+    type: RockCircle
+    move: [[-2824.62, 350.29, 703.53]]
+    hash: "0x3e69143d21995e32"
+  LL18:
+    type: RockCircle
+    move: [[-61.39, 274.03, 867.26]]
+    hash: "0x3b617791833abc67"
+  LL33:
+    type: RockCircle
+    move: [[-1017.12, 115.53, 569.4]]
+    hash: "0x178d7f49944aa5c9"
+  LL39:
+    type: RockCircle
+    move: [[715.76, 115.64, 368.13]]
+    hash: "0xf03cf5ee1f1a3503"
+  LL61:
+    type: RockCircle
+    move: [[-1112.03, 200.01, -570.54]]
+    hash: "0xdc7722ccde278ad5"
+  ML12:
+    type: RockCircle
+    move: [[3237.13, 302.99, -1545.17]]
+    hash: "0xd24ab4de070eee61"
+  ML20:
+    type: RockCircle
+    move: [[4335.05, 318.07, -1870.69]]
+    hash: "0x9471409251c54abe"
+  PF30:
+    type: RockCircle
+    move: [[-1039.58, 133.68, -2397.38]]
+    hash: "0x7fa172d0c68871d1"
+  PF44:
+    type: RockCircle
+    move: [[1556.73, 291.02, -2899.23]]
+    hash: "0x89d02e76291085e2"
+  PS08:
+    type: RockCircle
+    move: [[-1093.35, 413.48, 3402.39]]
+    hash: "0x1cc406fd95a6eb66"
+  PS16:
+    type: RockCircle
+    move: [[-2077.61, 407.12, 2589.77]]
+    hash: "0xccc99e40e861fee0"
+  RP19:
+    type: RockCircle
+    move: [[-2603.83, 493.75, 3236.2]]
+    hash: "0xde309a52d133c159"
+  RP27:
+    type: RockCircle
+    move: [[-3064.01, 535.44, 2855.69]]
+    hash: "0x496266bbcb4fabb1"
+  RP34:
+    type: RockCircle
+    move: [[-4066.93, 124.84, 2505.37]]
+    hash: "0xbf3ea73490b4ed46"
+  RP36:
+    type: RockCircle
+    move: [[-3162.34, 480.27, 2465.93]]
+    hash: "0xc46bcbcc9ace6b1f"
+  RP48:
+    type: RockCircle
+    move: [[-2800.71, 378.21, 1947.75]]
+    hash: "0xfbcacc9c4c298a07"
+  RP61:
+    type: RockCircle
+    move: [[-4012.83, 269.54, 1636.97]]
+    hash: "0xdc87ff64af3e16f2"
+  RW05:
+    type: RockCircle
+    move: [[2413.45, 219.2, -2269.39]]
+    hash: "0xd33379472fe84df3"
+  RW21:
+    type: RockCircle
+    move: [[3099.94, 290.04, -2951.01]]
+    hash: "0x198185e2b1f9642d"
+  RW31:
+    type: RockCircle
+    move: [[2425.14, 185.15, -3403.4]]
+    hash: "0x05a10bdb4e417900"
+  SS21:
+    type: RockCircle
+    move: [[928.69, 145.52, -365.54]]
+    hash: "0x011ab3b096cd3678"
+  SS34:
+    type: RockCircle
+    move: [[3010.54, 251.56, -785.91]]
+    hash: "0x21c40da2caee17e4"
+  SS43:
+    type: RockCircle
+    move: [[2162.38, 460.49, -1035.9]]
+    hash: "0x70072227a9f02779"
+  SSS02:
+    type: RockCircle
+    move: [[2439.93, 1549.5, -1721.69]]
+    hash: "0xb0893a06da80d5af"
+  SSS06:
+    type: RockCircle
+    move: [[1677.28, 798.66, -1897.96]]
+    hash: "0x311e5bba13206559"
+  TR07:
+    type: RockCircle
+    move: [[-476.68, 225.3, 3133.07]]
+    hash: "0xb163528746c95ed5"
+  UZ06:
+    type: RockCircle
+    move: [[3546.61, 500.3, 964.9]]
+    hash: "0x0112631c410af679"
+  UZ09:
+    type: RockCircle
+    move: [[3801.14, 381.83, 855.96]]
+    hash: "0x5e2bf869fa54c085"
+  UZ19:
+    type: RockCircle
+    move: [[4388.59, 380.6, 612.01]]
+    hash: "0x571ffaad4a859799"
+  UZ20:
+    type: RockCircle
+    move: [[3167.67, 221.46, 586.41]]
+    hash: "0x2f4ae92d9cfc7fb4"
+  UZ56:
+    type: RockCircle
+    move: [[2460.03, 184.74, -40.9]]
+    hash: "0x20579d36b6a64d0b"
+  UZ64:
+    type: RockCircle
+    move: [[3944.02, 143.6, -413.1]]
+    hash: "0x29cd804630cdbf87"
 presets:
  _Korok:
     RP08:
@@ -1260,10 +1846,6 @@ presets:
       coord: [-4418.91, 477.48, 3181.17]
       hash_id: "0xc4f70c6b778afaca"
       text: RP21 Goal Ring (Race)"
-    RP12:
-      coord: [-4509.21, 371, 3460.85]
-      hash_id: "0x8a14d1287b014072"
-      text: RP12 Puzzle Blocks"
     RP07:
       coord: [-4430.51, 412.55, 3682.64]
       hash_id: "0xc5e6febce2a7e832"
@@ -1276,30 +1858,14 @@ presets:
       coord: [-4124.03, 303.5, 1935.27]
       hash_id: "0x93398990e63b012c"
       text: RP50 Flower Trail"
-    RP34:
-      coord: [-4066.93, 124.84, 2505.37]
-      hash_id: "0xbf3ea73490b4ed46"
-      text: RP34 Rock Pattern"
     RP31:
       coord: [-3849.86, 135.37, 2737.93]
       hash_id: "0x66f8f6fa876b4ae1"
       text: RP31 Rock Lift"
-    RP33:
-      coord: [-4332.4, 443.44, 2602.31]
-      hash_id: "0xaf1a9ce4ce4ad064"
-      text: RP33 Pull the Plug"
-    RP45:
-      coord: [-4105.97, 295.75, 2048.25]
-      hash_id: "0x8964e1b21e6ca5b1"
-      text: RP45 Puzzle Blocks"
     RP59:
       coord: [-4169.55, 215.86, 1695.96]
       hash_id: "0x93e0f34cdc9713f1"
       text: RP59 Rock Lift"
-    RP61:
-      coord: [-4012.83, 269.54, 1636.97]
-      hash_id: "0xdc87ff64af3e16f2"
-      text: RP61 Rock Pattern"
     RP57:
       coord: [-4225.13, 232.21, 1736.76]
       hash_id: "0x8858e38152efa81d"
@@ -1320,18 +1886,10 @@ presets:
       coord: [-4540.5, 633.5, -1344]
       hash_id: "0xba0dbba90c1a9a19"
       text: GH10 Korok Friends"
-    GH24:
-      coord: [-4322.9, 628.63, -1090.38]
-      hash_id: "0x9108afb5e84a244a"
-      text: GH24 Rock Pattern"
     GH44:
       coord: [-4363.35, 201.83, -1845.61]
       hash_id: "0xf00b28f0afd80c18"
       text: GH44 Hanging Acorn"
-    GH28:
-      coord: [-4911.09, 562.45, -1242.71]
-      hash_id: "0x56574225c85e97fe"
-      text: GH28 Puzzle Blocks"
     GC14:
       coord: [-4425.7, 168.63, -2262.22]
       hash_id: "0x70674caec943291d"
@@ -1344,10 +1902,6 @@ presets:
       coord: [-4438.02, 155.27, -2113.6]
       hash_id: "0x9a10c3532ffe0382"
       text: GC07 Land on Target"
-    GH52:
-      coord: [-4393.84, 207, -2015.27]
-      hash_id: "0x8a1bd22d8f6e491f"
-      text: GH52 Puzzle Blocks"
     GC17:
       coord: [-4591.88, 151.75, -2349.1]
       hash_id: "0xca57fba1dfa9474b"
@@ -1380,10 +1934,6 @@ presets:
       coord: [-3507.85, 344.64, 3836.26]
       hash_id: "0xb448cedb7612dfdc"
       text: RP02 Goal Ring (Race)"
-    RP22:
-      coord: [-3941, 432.5, 3161.5]
-      hash_id: "0xcdb36b35cc5c656f"
-      text: RP22 Puzzle Blocks"
     RP16:
       coord: [-4038.38, 370.99, 3364.97]
       hash_id: "0x9fd381e9d8a29b78"
@@ -1400,26 +1950,14 @@ presets:
       coord: [-3087.09, 226.93, 2119.89]
       hash_id: "0x00e4eb1dd5dc9be2"
       text: RP43 Rock Lift"
-    RP36:
-      coord: [-3162.34, 480.27, 2465.93]
-      hash_id: "0xc46bcbcc9ace6b1f"
-      text: RP36 Rock Pattern"
     RP29:
       coord: [-3752.8, 242.81, 2797.88]
       hash_id: "0x9fe07c6db8410b40"
       text: RP29 Rock Lift"
-    RP27:
-      coord: [-3064.01, 535.44, 2855.69]
-      hash_id: "0x496266bbcb4fabb1"
-      text: RP27 Rock Pattern"
     RP46:
       coord: [-3958.43, 313.89, 2035.99]
       hash_id: "0x604788e1599c96ca"
       text: RP46 Rock Lift"
-    RP39:
-      coord: [-3048.5, 223.45, 2360]
-      hash_id: "0x6cf2df5ac3489784"
-      text: RP39 Puzzle Blocks"
     RP37:
       coord: [-3292.94, 511.75, 2442.47]
       hash_id: "0xfd1fc4791b466476"
@@ -1472,14 +2010,6 @@ presets:
       coord: [-3147.93, 262.43, 1107.06]
       hash_id: "0xf6d8b5bfcb50763d"
       text: LB20 Rock Lift"
-    RP55:
-      coord: [-3877.08, 216.98, 1762.75]
-      hash_id: "0x89d954eb5f2c5e2e"
-      text: RP55 Puzzle Blocks"
-    LB14:
-      coord: [-3442, 232.5, 1313]
-      hash_id: "0x32717796e7c5d7b0"
-      text: LB14 Puzzle Blocks"
     LB22:
       coord: [-3715.55, 303.47, 1039.37]
       hash_id: "0x0243c27dba6150c9"
@@ -1496,14 +2026,6 @@ presets:
       coord: [-3696.41, 208.61, 1685.38]
       hash_id: "0xc57d6f354fe31cc1"
       text: RP60 Rock Lift"
-    LB09:
-      coord: [-3137.13, 229.95, 1553.15]
-      hash_id: "0x70bcbe375b0d8bb7"
-      text: LB09 Pull the Plug"
-    RP52:
-      coord: [-3779.22, 368.39, 1865.63]
-      hash_id: "0xdd93e19fb97b72c5"
-      text: RP52 Repair Roof"
     LB46:
       coord: [-3609.13, 403.3, 357.58]
       hash_id: "0x0e22ab0f230b6cd2"
@@ -1524,14 +2046,6 @@ presets:
       coord: [-3011.53, 237.62, 584.29]
       hash_id: "0x6ceb26714f5a0ca4"
       text: LB38 Rock Lift"
-    LB45:
-      coord: [-3532, 348.45, 488]
-      hash_id: "0xb5c097290402912a"
-      text: LB45 Puzzle Blocks"
-    GH01:
-      coord: [-3820.33, 160.67, 178.33]
-      hash_id: "0x55e54acea28ef7d6"
-      text: GH01 Puzzle Blocks"
     LB48:
       coord: [-3200.54, 36.58, 343.28]
       hash_id: "0xa9f0009e7175601a"
@@ -1552,10 +2066,6 @@ presets:
       coord: [-3117.67, 216.97, 234.71]
       hash_id: "0x54f7f1f2c67512ef"
       text: LB50 Flower Trail"
-    GH04:
-      coord: [-3467.5, 172.09, -168.48]
-      hash_id: "0x512a4946a3727453"
-      text: GH04 Repair Roof"
     GH12:
       coord: [-3199.49, 584.89, -1169.53]
       hash_id: "0x75ed6d366e8b0336"
@@ -1568,10 +2078,6 @@ presets:
       coord: [-3653.91, 381.98, -392.4]
       hash_id: "0x0a1d391869c86d8d"
       text: GH07 Goal Ring (Race)"
-    GH14:
-      coord: [-3565.44, 662.44, -732.94]
-      hash_id: "0xf8a19470c0d4f55e"
-      text: GH14 Rock Pattern"
     LB54:
       coord: [-2962, 249.5, 84.5]
       hash_id: "0x109d5c3cfc1cdbb3"
@@ -1592,10 +2098,6 @@ presets:
       coord: [-4002.98, 820.09, -969.15]
       hash_id: "0xfc817200d5d513ae"
       text: GH18 Rock Lift"
-    GH37:
-      coord: [-3561.32, 558.33, -1558.73]
-      hash_id: "0x85b81002d66f62ba"
-      text: GH37 Rock Pattern"
     GH32:
       coord: [-3249.08, 506.96, -1463.79]
       hash_id: "0x02b7be4f6807a9c2"
@@ -1608,10 +2110,6 @@ presets:
       coord: [-3163.34, 544.35, -1037.72]
       hash_id: "0x6608a68c185b0c01"
       text: GH23 Through the Roof"
-    GH41:
-      coord: [-3899, 399.5, -1644]
-      hash_id: "0xa99b172d5ff5ab47"
-      text: GH41 Puzzle Blocks"
     GH35:
       coord: [-3011.19, 683.03, -1501.24]
       hash_id: "0x26a7a4c54799c4a0"
@@ -1632,22 +2130,6 @@ presets:
       coord: [-3737.1, 640.96, -996.46]
       hash_id: "0xdb45f15031ccb253"
       text: GH20 Flower Trail"
-    GH51:
-      coord: [-3584.46, 351.98, -1990.62]
-      hash_id: "0x93d0146a37ecf89c"
-      text: GH51 Pull the Plug"
-    GH26:
-      coord: [-3872.94, 602.4, -1176.8]
-      hash_id: "0x7978c713cc884f7b"
-      text: GH26 Puzzle Blocks"
-    GH46:
-      coord: [-3208.06, 184.68, -1855.34]
-      hash_id: "0x5d8f4dc53df5c628"
-      text: GH46 Puzzle Blocks"
-    GH29:
-      coord: [-3060.1, 605.96, -1286.33]
-      hash_id: "0x3d01a11f8ad55ad5"
-      text: GH29 Pull the Plug"
     GC32:
       coord: [-3934.83, 192.37, -2940.99]
       hash_id: "0x67ae8a9d9858fb59"
@@ -1656,10 +2138,6 @@ presets:
       coord: [-2982.4, 131, -2327.5]
       hash_id: "0x15a4b1c5a6171c78"
       text: GC22 Korok Friends"
-    GH55:
-      coord: [-3320.43, 181.53, -2274.87]
-      hash_id: "0x3bb39af996d52082"
-      text: GH55 Rock Pattern"
     GC20:
       coord: [-3757.2, 158.28, -2442.9]
       hash_id: "0x69f73203ae5fb9ef"
@@ -1688,10 +2166,6 @@ presets:
       coord: [-3430.75, 177.97, -3128.03]
       hash_id: "0x67cfc5dc4bc18d95"
       text: GC37 Land on Target"
-    RP19:
-      coord: [-2603.83, 493.75, 3236.2]
-      hash_id: "0xde309a52d133c159"
-      text: RP19 Rock Pattern"
     PS13:
       coord: [-2339.82, 509.5, 2955.47]
       hash_id: "0x1ca9c1898ede247d"
@@ -1720,26 +2194,10 @@ presets:
       coord: [-1969.17, 459.29, 3113.43]
       hash_id: "0x3acc5fe5dd251272"
       text: PS10 Land on Target"
-    RP30:
-      coord: [-2477.18, 621.32, 2748.18]
-      hash_id: "0x5de83eaa996dd736"
-      text: RP30 Puzzle Blocks"
-    PS29:
-      coord: [-2635.19, 450.11, 2055.72]
-      hash_id: "0xa4e52b50c6141f7c"
-      text: PS29 Puzzle Blocks"
     PS28:
       coord: [-2074.54, 395.47, 2077.93]
       hash_id: "0xb385d9517b4b590c"
       text: PS28 Hanging Acorn"
-    PS16:
-      coord: [-2077.61, 407.12, 2589.77]
-      hash_id: "0xccc99e40e861fee0"
-      text: PS16 Rock Pattern"
-    RP48:
-      coord: [-2800.71, 378.21, 1947.75]
-      hash_id: "0xfbcacc9c4c298a07"
-      text: RP48 Rock Pattern"
     LB04:
       coord: [-2298.03, 403.48, 1908.36]
       hash_id: "0xaddec8dbaf6b1da8"
@@ -1748,14 +2206,6 @@ presets:
       coord: [-2221.22, 275.5, 1580.39]
       hash_id: "0xa6b1c6c0bc0165a0"
       text: LB07 Rock Lift"
-    LB06:
-      coord: [-2818.43, 91.5, 1598.72]
-      hash_id: "0x6bafbf68f0ad9be0"
-      text: LB06 Puzzle Blocks"
-    LB19:
-      coord: [-2436.08, 271.55, 1138.84]
-      hash_id: "0xf2d8ab25f623c3e8"
-      text: LB19 Puzzle Blocks"
     PS30:
       coord: [-2530.6, 409.06, 1854.96]
       hash_id: "0xdcc0703c889fd11f"
@@ -1780,10 +2230,6 @@ presets:
       coord: [-2871.88, 284.77, 494.62]
       hash_id: "0xec2195519e8cdba3"
       text: LB53 Korok Friends"
-    LB34:
-      coord: [-2824.62, 350.29, 703.53]
-      hash_id: "0x3e69143d21995e32"
-      text: LB34 Rock Pattern"
     LB49:
       coord: [-2913.73, 310.02, 240.41]
       hash_id: "0x99971f1367b1b36c"
@@ -1808,14 +2254,6 @@ presets:
       coord: [-2200.36, 275.91, -798.61]
       hash_id: "0xb13ea71e58eb9dfd"
       text: HF18 Rock Lift"
-    LB61:
-      coord: [-2640.4, 238.6, -322.58]
-      hash_id: "0xe49a30271be3b31d"
-      text: LB61 Puzzle Blocks"
-    HF06:
-      coord: [-2714.94, 192.34, -496.7]
-      hash_id: "0xc324e2d77ae8581c"
-      text: HF06 Rock Pattern"
     HF03:
       coord: [-2279.53, 503.77, -402.49]
       hash_id: "0x6afd8452447f54d4"
@@ -1860,14 +2298,6 @@ presets:
       coord: [-2244.08, 211.13, -1740.12]
       hash_id: "0xbbee3d3480ad580a"
       text: GC02 Rock Lift"
-    GH36:
-      coord: [-2643.69, 687.9, -1532.39]
-      hash_id: "0x7118aa2a59c33f0a"
-      text: GH36 Rock Pattern"
-    GH42:
-      coord: [-2818.68, 579.73, -1652.12]
-      hash_id: "0xcdf97e6b82505039"
-      text: GH42 Pull the Plug"
     GC09:
       coord: [-2430.6, 340.19, -2119.28]
       hash_id: "0x64a5a3398166e7d1"
@@ -1916,14 +2346,6 @@ presets:
       coord: [-1762.55, 339.52, 3554.08]
       hash_id: "0xe715f58b3ec59e6b"
       text: PS05 Rock Lift"
-    PS04:
-      coord: [-1210, 301, 3601]
-      hash_id: "0x537b466a83eed274"
-      text: PS04 Puzzle Blocks"
-    PS08:
-      coord: [-1093.35, 413.48, 3402.39]
-      hash_id: "0x1cc406fd95a6eb66"
-      text: PS08 Rock Pattern"
     LB01:
       coord: [-1147.25, 72.49, 2534.86]
       hash_id: "0xcd3ef47e2a006007"
@@ -1948,10 +2370,6 @@ presets:
       coord: [-1185.97, 4.87, 2481.94]
       hash_id: "0x351b0943ace2f82a"
       text: PS18 Rock Lift"
-    PS15:
-      coord: [-1052.14, 140.67, 2617.1]
-      hash_id: "0xb1f474c2de641132"
-      text: PS15 Puzzle Blocks"
     TR17:
       coord: [-1433.48, 299, 1478.95]
       hash_id: "0xb78127c69fdc72a9"
@@ -1984,14 +2402,6 @@ presets:
       coord: [-1148.64, 145.27, 221.75]
       hash_id: "0x39eb0aa92810ec2d"
       text: LB52 Hanging Acorn"
-    LL33:
-      coord: [-1017.12, 115.53, 569.4]
-      hash_id: "0x178d7f49944aa5c9"
-      text: LL33 Rock Pattern"
-    LB56:
-      coord: [-1399.06, 130, 80.03]
-      hash_id: "0x75697823268ec0df"
-      text: LB56 Pull the Plug"
     LL59:
       coord: [-1088.66, 165.67, -514.06]
       hash_id: "0x291ad1a54d9cb5dc"
@@ -2024,14 +2434,6 @@ presets:
       coord: [-1797.98, 225, -323.45]
       hash_id: "0xc7a6a3a3ac49a14c"
       text: HF01 Korok Friends"
-    LL61:
-      coord: [-1112.03, 200.01, -570.54]
-      hash_id: "0xdc7722ccde278ad5"
-      text: LL61 Rock Pattern"
-    LL51:
-      coord: [-1352.14, 121.5, -191.95]
-      hash_id: "0x5fa452408c59bd74"
-      text: LL51 Puzzle Blocks"
     HF15:
       coord: [-1343.57, 116, -689.2]
       hash_id: "0x45f41ec4b9b7f795"
@@ -2040,10 +2442,6 @@ presets:
       coord: [-1968.59, 254.26, -594.93]
       hash_id: "0xb7eaa3cc2d1f74c6"
       text: HF11 Rock Lift"
-    HF36:
-      coord: [-1658.92, 214.19, -1321.96]
-      hash_id: "0x2357aa330a5e9da8"
-      text: HF36 Repair Roof"
     HF34:
       coord: [-1316.49, 139.34, -1261.08]
       hash_id: "0xc118da0d74b7f025"
@@ -2072,10 +2470,6 @@ presets:
       coord: [-1202.35, 189.39, -1690.78]
       hash_id: "0xbbcdd3dfff43d7a4"
       text: HF49 Flower Trail"
-    HF40:
-      coord: [-1763.73, 197.9, -1449.17]
-      hash_id: "0xf94d331b9fc6e84c"
-      text: HF40 Puzzle Blocks"
     HF29:
       coord: [-1967.9, 203.88, -1090.5]
       hash_id: "0xb8960219505a8593"
@@ -2084,10 +2478,6 @@ presets:
       coord: [-1598.19, 123.75, -1015.71]
       hash_id: "0xb8bb9d53ead817a6"
       text: HF26 Hanging Acorn"
-    HF51:
-      coord: [-1705.5, 69.34, -1706.78]
-      hash_id: "0x62970c25517a4b72"
-      text: HF51 Pull the Plug"
     GC19:
       coord: [-1615.44, 100.53, -2403.14]
       hash_id: "0xa5ac2e959b3cf697"
@@ -2096,14 +2486,6 @@ presets:
       coord: [-1971.86, 139.55, -2085.11]
       hash_id: "0x0c365d093d05fc40"
       text: GC05 Korok Friends"
-    PF30:
-      coord: [-1039.58, 133.68, -2397.38]
-      hash_id: "0x7fa172d0c68871d1"
-      text: PF30 Rock Pattern"
-    GC26:
-      coord: [-1556.75, 336.21, -2625.79]
-      hash_id: "0x623b4c177bc80a8a"
-      text: GC26 Rock Pattern"
     HF62:
       coord: [-1516.51, 238.17, -1922.72]
       hash_id: "0x3ba9e6124f54b7a2"
@@ -2112,14 +2494,6 @@ presets:
       coord: [-1019, 304.5, -2640.6]
       hash_id: "0xdac86ad5e603ca95"
       text: GC21 Korok Friends"
-    GC27:
-      coord: [-1938.02, 262.91, -2821.99]
-      hash_id: "0xe7340b4951e44acd"
-      text: GC27 Puzzle Blocks"
-    GC08:
-      coord: [-1942.79, 187.01, -2131.32]
-      hash_id: "0x4f482b14d876442d"
-      text: GC08 Rock Pattern"
     HF68:
       coord: [-1126.81, 249.73, -1970.13]
       hash_id: "0x4896271e37247312"
@@ -2132,34 +2506,14 @@ presets:
       coord: [-1944.79, 232.52, -3184.99]
       hash_id: "0xf4316c7f183f7a50"
       text: GC38 Rock Lift"
-    GC48:
-      coord: [-1369.61, 500.88, -3724.03]
-      hash_id: "0x05037238b632afc8"
-      text: GC48 Rock Pattern"
     GC33:
       coord: [-1427.81, 387.36, -2976.29]
       hash_id: "0x60e674a5974bb6dc"
       text: GC33 Through the Roof"
-    GC47:
-      coord: [-1451.8, 541.78, -3638.13]
-      hash_id: "0x9d4c2935a037c550"
-      text: GC47 Puzzle Blocks"
-    GC41:
-      coord: [-1152.5, 381.62, -3303.88]
-      hash_id: "0xa7f7b908210a888b"
-      text: GC41 Puzzle Blocks"
     GC43:
       coord: [-1385.01, 539.97, -3493]
       hash_id: "0x510860492442b25c"
       text: GC43 Rock Lift"
-    GC36:
-      coord: [-1609.81, 308.54, -3084.26]
-      hash_id: "0x0335f046719ba8f4"
-      text: GC36 Pull the Plug"
-    TR07:
-      coord: [-476.68, 225.3, 3133.07]
-      hash_id: "0xb163528746c95ed5"
-      text: TR07 Rock Pattern"
     TR09:
       coord: [-322.37, 205.52, 3161.93]
       hash_id: "0x93c7e6b9fd7e6e7c"
@@ -2172,10 +2526,6 @@ presets:
       coord: [-546, 373.5, 2223]
       hash_id: "0x45e3b3b7e746ec48"
       text: LB02 Korok Friends"
-    TR14:
-      coord: [-579.22, 492.36, 2603.12]
-      hash_id: "0x8827f24cb504a873"
-      text: TR14 Pull the Plug"
     TR19:
       coord: [-665.9, 179.47, 1190.94]
       hash_id: "0x75720e1a74403956"
@@ -2204,14 +2554,6 @@ presets:
       coord: [-426.95, 223.03, 890.66]
       hash_id: "0xeee2af2e4df05a7b"
       text: LL16 Flower Trail"
-    LL25:
-      coord: [-344.48, 164.28, 785.73]
-      hash_id: "0x947b0bb08af00707"
-      text: LL25 Puzzle Blocks"
-    LL18:
-      coord: [-61.39, 274.03, 867.26]
-      hash_id: "0x3b617791833abc67"
-      text: LL18 Rock Pattern"
     LL02:
       coord: [-282.17, 182.85, 1125.08]
       hash_id: "0x75835b25478a6a10"
@@ -2252,10 +2594,6 @@ presets:
       coord: [-530, 139.57, 693.89]
       hash_id: "0x2a4242cac2ae87a1"
       text: LL28 Rock Lift"
-    LL35:
-      coord: [-664.68, 132.53, 546.97]
-      hash_id: "0x06c98b8403a1178a"
-      text: LL35 Puzzle Blocks"
     LL38:
       coord: [-86.67, 138.07, 401.43]
       hash_id: "0xfa43b5407688b679"
@@ -2308,10 +2646,6 @@ presets:
       coord: [-664.31, 133.65, -1222.37]
       hash_id: "0x12266920cd6dd9d4"
       text: HF32 Rock Lift"
-    HF31:
-      coord: [-510.78, 127.68, -1176.87]
-      hash_id: "0xa62a18d66dda2f96"
-      text: HF31 Rock Pattern"
     HF57:
       coord: [-950.71, 197.31, -1839.77]
       hash_id: "0x654859ee55bc31c7"
@@ -2324,10 +2658,6 @@ presets:
       coord: [-668.02, 183.74, -1779.63]
       hash_id: "0xb6ed06e7d4ed4ea5"
       text: HF54 Land on Target"
-    HF66:
-      coord: [-472, 182.5, -2039]
-      hash_id: "0x9cab701b5c83152f"
-      text: HF66 Puzzle Blocks"
     HF58:
       coord: [-694.28, 172, -1576.46]
       hash_id: "0xcde0858addf5840e"
@@ -2336,10 +2666,6 @@ presets:
       coord: [-599.08, 141.91, -1076.29]
       hash_id: "0x71893b6ec55b65eb"
       text: HF28 Rock Lift"
-    HF52:
-      coord: [-952.28, 203.1, -1720.08]
-      hash_id: "0x23eb03b0a43ab6c3"
-      text: HF52 Pull the Plug"
     PF48:
       coord: [-18.45, 222.37, -2974.66]
       hash_id: "0x96829b2b2e89e5e8"
@@ -2352,10 +2678,6 @@ presets:
       coord: [-188.5, 125, -2243.66]
       hash_id: "0x00c3e1ef17e6ba50"
       text: PF34 Korok Friends"
-    HF70:
-      coord: [-207.37, 125.83, -2205.12]
-      hash_id: "0x7f67c3cfb232e6af"
-      text: HF70 Repair Roof"
     HF71:
       coord: [-930.53, 181.4, -2208.4]
       hash_id: "0xb7dee713863ea633"
@@ -2368,10 +2690,6 @@ presets:
       coord: [-65.67, 123.2, -2441.01]
       hash_id: "0xfb215b8ed2d76766"
       text: PF31 Hanging Acorn"
-    PF43:
-      coord: [-467.75, 95.5, -2899]
-      hash_id: "0x34794435827a044e"
-      text: PF43 Puzzle Blocks"
     HF73:
       coord: [-790.08, 193.59, -2229.78]
       hash_id: "0xb01bba97c1acc336"
@@ -2380,10 +2698,6 @@ presets:
       coord: [25.32, 187.89, -2728.3]
       hash_id: "0x6e9824184ab88917"
       text: PF37 Goal Ring (Race)"
-    HF74:
-      coord: [-886.36, 125.75, -2270.54]
-      hash_id: "0x3784ffb9df373457"
-      text: HF74 Puzzle Blocks"
     PF63:
       coord: [-224.58, 177.19, -3340.61]
       hash_id: "0xcdcb4fa83a6d9116"
@@ -2432,10 +2746,6 @@ presets:
       coord: [859.09, 315.15, 3355.53]
       hash_id: "0xcd9b2186bec321d8"
       text: TR04 Rock Lift"
-    TR08:
-      coord: [276.39, 287.66, 3119.6]
-      hash_id: "0xb36cb7e424c22356"
-      text: TR08 Puzzle Blocks"
     TR21:
       coord: [543.2, 122.48, 1098.43]
       hash_id: "0xc37b8fddc99f683b"
@@ -2464,10 +2774,6 @@ presets:
       coord: [966.93, 115.9, 1027.06]
       hash_id: "0xb87bce7e3ba1a303"
       text: SS01 Rock Lift"
-    LL46:
-      coord: [761.79, 136.78, 11.08]
-      hash_id: "0xf250cc3dfeaec905"
-      text: LL46 Repair Roof"
     SS05:
       coord: [966.37, 194.27, 627.79]
       hash_id: "0x185229637b156984"
@@ -2488,10 +2794,6 @@ presets:
       coord: [849.97, 223.85, 792.65]
       hash_id: "0x6bf7ea4fb1d30ba0"
       text: SS03 Flower Trail"
-    LL39:
-      coord: [715.76, 115.64, 368.13]
-      hash_id: "0xf03cf5ee1f1a3503"
-      text: LL39 Rock Pattern"
     LL32:
       coord: [133.31, 134.04, 599.7]
       hash_id: "0x96e1861fe71bedf7"
@@ -2524,10 +2826,6 @@ presets:
       coord: [625.01, 126.6, -753.43]
       hash_id: "0x89742f6a1cedbdae"
       text: LL62 Rock Lift"
-    SS21:
-      coord: [928.69, 145.52, -365.54]
-      hash_id: "0x011ab3b096cd3678"
-      text: SS21 Rock Pattern"
     SS26:
       coord: [795, 116, -507.9]
       hash_id: "0xb83f3e4cac0d321f"
@@ -2536,18 +2834,10 @@ presets:
       coord: [501, 168.46, -470.17]
       hash_id: "0x7208da5aa56fc6a4"
       text: LL58 Rock Lift"
-    SS39:
-      coord: [959.05, 116.3, -943.8]
-      hash_id: "0xb2ba59447f227426"
-      text: SS39 Pull the Plug"
     PF19:
       coord: [163.54, 151.31, -1940.1]
       hash_id: "0x14a3db2c6ac8d31f"
       text: PF19 Offering Plate"
-    PF10:
-      coord: [296.94, 115.7, -1497]
-      hash_id: "0xc73c94332ddffe70"
-      text: PF10 Repair Roof"
     PF11:
       coord: [734.7, 148.72, -1503.51]
       hash_id: "0x6b7cfa6438b02e31"
@@ -2588,10 +2878,6 @@ presets:
       coord: [843.39, 132.26, -1291.41]
       hash_id: "0xebe9b9944b046c77"
       text: PF07 Rock Lift"
-    PF04:
-      coord: [588.71, 117.21, -1232.77]
-      hash_id: "0x44490e13fe6681e6"
-      text: PF04 Puzzle Blocks"
     PF13:
       coord: [228.68, 120.52, -1608.88]
       hash_id: "0x71332bf40218b494"
@@ -2616,10 +2902,6 @@ presets:
       coord: [770.53, 241.5, -2138.18]
       hash_id: "0x49884ebc4c874727"
       text: SS72 Korok Friends"
-    PF46:
-      coord: [699.97, 121.79, -2953.5]
-      hash_id: "0x81dbedca2f9da706"
-      text: PF46 Puzzle Blocks"
     PF25:
       coord: [637.17, 165.79, -2314.63]
       hash_id: "0x3dfdff3002a2cbc9"
@@ -2648,10 +2930,6 @@ presets:
       coord: [522, 156.26, -3464]
       hash_id: "0x5264f1268b0286cb"
       text: PF73 Korok Friends"
-    PF85:
-      coord: [573, 140.3, -3853]
-      hash_id: "0x320675da391c567c"
-      text: PF85 Puzzle Blocks"
     PF86:
       coord: [67.88, 111, -3759.13]
       hash_id: "0xb7d876fb848a007c"
@@ -2660,10 +2938,6 @@ presets:
       coord: [272.37, 109.52, -3905.6]
       hash_id: "0xccb2720dc9a3794e"
       text: PF87 Hanging Acorn"
-    PF84:
-      coord: [101.45, 138.23, -3842.43]
-      hash_id: "0x6a27669a0b812968"
-      text: PF84 Pull the Plug"
     TR02:
       coord: [1025, 216.5, 3671]
       hash_id: "0x2b954ce40e323553"
@@ -2684,14 +2958,6 @@ presets:
       coord: [1816.66, 507, 2645.48]
       hash_id: "0xe75f2ba499cca6a8"
       text: EC15 Korok Friends"
-    EC26:
-      coord: [1250.21, 427.86, 2292.84]
-      hash_id: "0x31b3e43ffe0b4b54"
-      text: EC26 Rock Pattern"
-    EC12:
-      coord: [1375.31, 467.28, 2843.72]
-      hash_id: "0xa36180008ee138d7"
-      text: EC12 Rock Pattern"
     EC28:
       coord: [1755.41, 589.82, 2224.93]
       hash_id: "0x5cd2b42649138cba"
@@ -2708,10 +2974,6 @@ presets:
       coord: [1250.28, 527.5, 3002.6]
       hash_id: "0x7ccf289a445a9a99"
       text: TR13 Korok Friends"
-    EC25:
-      coord: [1740.84, 531.02, 2329.96]
-      hash_id: "0xa66d144e2891837b"
-      text: EC25 Puzzle Blocks"
     EC11:
       coord: [1567.5, 507.23, 2946.09]
       hash_id: "0x40e719bfab8370b2"
@@ -2836,10 +3098,6 @@ presets:
       coord: [1597.99, 131.46, -1394.92]
       hash_id: "0xe8a3861367d37870"
       text: SS54 Flower Trail"
-    SS66:
-      coord: [1241.12, 446.07, -1850.14]
-      hash_id: "0xcccc70ed3b02283f"
-      text: SS66 Puzzle Blocks"
     SS55:
       coord: [1925.51, 187.32, -1489.51]
       hash_id: "0xd3a6cd423e176fef"
@@ -2848,18 +3106,6 @@ presets:
       coord: [1279.87, 526.11, -1962.67]
       hash_id: "0x4c1969dae6181205"
       text: SS70 Land on Target"
-    SS69:
-      coord: [1326.12, 292.47, -1962.65]
-      hash_id: "0x9ea6c5488ed42a7d"
-      text: SS69 Pull the Plug"
-    SS68:
-      coord: [1651.85, 115.6, -1907.84]
-      hash_id: "0x5fdb84188169f67f"
-      text: SS68 Pull the Plug"
-    PF44:
-      coord: [1556.73, 291.02, -2899.23]
-      hash_id: "0x89d02e76291085e2"
-      text: PF44 Rock Pattern"
     RW13:
       coord: [1959.98, 356.99, -2627.81]
       hash_id: "0x4c7f2227f6dfa1ea"
@@ -2884,10 +3130,6 @@ presets:
       coord: [1774.74, 345.29, -2933.31]
       hash_id: "0x6be6e2beb715466a"
       text: PF45 Rock Lift"
-    RW11:
-      coord: [1940.25, 131.89, -2564.03]
-      hash_id: "0xca563040946af42c"
-      text: RW11 Pull the Plug"
     PF70:
       coord: [1738.27, 155.66, -3468.02]
       hash_id: "0x0416f74fcfe21bf2"
@@ -2908,14 +3150,6 @@ presets:
       coord: [1475.61, 191.94, -3263.53]
       hash_id: "0x8f8622ce772e0d38"
       text: PF58 Rock Lift"
-    PF59:
-      coord: [1327.75, 199, -3275.25]
-      hash_id: "0x7e308b41283158c0"
-      text: PF59 Puzzle Blocks"
-    PF61:
-      coord: [1691.97, 171.5, -3324.43]
-      hash_id: "0x5b3dfb4f34fcfe96"
-      text: PF61 Puzzle Blocks"
     PF57:
       coord: [1532.96, 201.77, -3261.47]
       hash_id: "0xb43d09b2153d7328"
@@ -2940,10 +3174,6 @@ presets:
       coord: [2405.97, 520.32, 3327.95]
       hash_id: "0xa18b8abf1cd831de"
       text: EC05 Through the Roof"
-    EC02:
-      coord: [2233.67, 342.7, 3677.48]
-      hash_id: "0xc1f59a8fe7395e70"
-      text: EC02 Puzzle Blocks"
     EC07:
       coord: [2155.55, 582.98, 3055.78]
       hash_id: "0xe817b25b07474ca1"
@@ -2956,14 +3186,6 @@ presets:
       coord: [2176.44, 628.5, 2783]
       hash_id: "0x26376688f39f1aee"
       text: EC10 Korok Friends"
-    EC24:
-      coord: [2083, 608, 2330]
-      hash_id: "0x4267c8d5555edcda"
-      text: EC24 Puzzle Blocks"
-    EC14:
-      coord: [2061.49, 586.53, 2755.89]
-      hash_id: "0x8dc982ae922f8763"
-      text: EC14 Puzzle Blocks"
     EC54:
       coord: [2375.05, 236.68, 1403.28]
       hash_id: "0xf53bb118b54590ad"
@@ -2972,10 +3194,6 @@ presets:
       coord: [1941.9, 245.23, 1207.57]
       hash_id: "0x81eca7b0e8d5d540"
       text: EC50 Rock Lift"
-    EC38:
-      coord: [2699.64, 224.54, 1748.27]
-      hash_id: "0x8e087792e270408b"
-      text: EC38 Rock Pattern"
     EC34:
       coord: [2268.56, 438.41, 1837.02]
       hash_id: "0xaef46f1ee419acad"
@@ -2984,10 +3202,6 @@ presets:
       coord: [2751.78, 234.77, 1373.53]
       hash_id: "0x9a7779752b4e3fa9"
       text: EC47 Goal Ring (Race)"
-    EC52:
-      coord: [2720, 287, 1163]
-      hash_id: "0x260f61ea170ad5d9"
-      text: EC52 Puzzle Blocks"
     EC53:
       coord: [2313.57, 295.22, 1132.86]
       hash_id: "0xdddb7bf9de3a1a95"
@@ -2996,10 +3210,6 @@ presets:
       coord: [2640.73, 263.38, 1111.53]
       hash_id: "0xccc554518a9572dc"
       text: UZ13 Korok Friends"
-    EC40:
-      coord: [2425.78, 252.89, 1723.12]
-      hash_id: "0x5c1cd17480fa55e3"
-      text: EC40 Pull the Plug"
     UZ50:
       coord: [2808.93, 252, 180.7]
       hash_id: "0xbc6318fadc8c50c1"
@@ -3008,10 +3218,6 @@ presets:
       coord: [2542.26, 233.35, 641.99]
       hash_id: "0xa519e141425c6ff1"
       text: UZ18 Korok Friends"
-    EC56:
-      coord: [2293.98, 215.01, 942.98]
-      hash_id: "0x3b67043ac7c0b46f"
-      text: EC56 Rock Pattern"
     UZ41:
       coord: [2746.19, 243.01, 202.34]
       hash_id: "0x90be65e313fcd20b"
@@ -3020,10 +3226,6 @@ presets:
       coord: [2242.82, 120, 243.97]
       hash_id: "0x970d75f6ffc93a9f"
       text: UZ44 Korok Friends"
-    UZ51:
-      coord: [2211.14, 158.2, 49.77]
-      hash_id: "0x5c5eca1ae4f429ae"
-      text: UZ51 Puzzle Blocks"
     UZ47:
       coord: [2307.6, 210.04, 132.86]
       hash_id: "0x58e19a61805beae7"
@@ -3040,22 +3242,10 @@ presets:
       coord: [2471.85, 184.82, 150.5]
       hash_id: "0xa187ec5351ebd3b6"
       text: UZ45 Rock Lift"
-    UZ42:
-      coord: [2782.66, 186.91, 197.79]
-      hash_id: "0xd4828e0de75813ca"
-      text: UZ42 Pull the Plug"
     UZ63:
       coord: [3011.44, 298.76, -370.61]
       hash_id: "0x093b655f4f2e5933"
       text: UZ63 Flower Trail"
-    UZ56:
-      coord: [2460.03, 184.74, -40.9]
-      hash_id: "0x20579d36b6a64d0b"
-      text: UZ56 Rock Pattern"
-    SS34:
-      coord: [3010.54, 251.56, -785.91]
-      hash_id: "0x21c40da2caee17e4"
-      text: SS34 Rock Pattern"
     SS28:
       coord: [2691.3, 217.05, -542.07]
       hash_id: "0x0c3fc1a964ffdccb"
@@ -3088,10 +3278,6 @@ presets:
       coord: [2029.73, 265.68, -1166.69]
       hash_id: "0x35397a59967e4e58"
       text: SS49 Rock Lift"
-    SS43:
-      coord: [2162.38, 460.49, -1035.9]
-      hash_id: "0x70072227a9f02779"
-      text: SS43 Rock Pattern"
     SS46:
       coord: [2545.85, 217.1, -1077.35]
       hash_id: "0xb64a256427fccd2a"
@@ -3116,14 +3302,6 @@ presets:
       coord: [2325.78, 132.95, -1828.58]
       hash_id: "0x2b749fc4ae1e4a25"
       text: SS62 Rock Lift"
-    ML18:
-      coord: [2513.11, 244.32, -1866.41]
-      hash_id: "0xb1a740861448e989"
-      text: ML18 Pull the Plug"
-    ML09:
-      coord: [2920.91, 485.99, -1392.43]
-      hash_id: "0x312ae677720f56fb"
-      text: ML09 Pull the Plug"
     RW17:
       coord: [2579.32, 365.29, -2729.39]
       hash_id: "0x51d31a2da3ec412f"
@@ -3136,10 +3314,6 @@ presets:
       coord: [2809.94, 231.43, -2247.73]
       hash_id: "0x3d6b5550593877ef"
       text: ML35 Rock Lift"
-    RW05:
-      coord: [2413.45, 219.2, -2269.39]
-      hash_id: "0xd33379472fe84df3"
-      text: RW05 Rock Pattern"
     RW12:
       coord: [2142.33, 365.19, -2603.62]
       hash_id: "0xd65850fc2e6b5c1d"
@@ -3152,10 +3326,6 @@ presets:
       coord: [2458.03, 325.5, -2911.18]
       hash_id: "0x51753d5977774f42"
       text: RW24 Korok Friends"
-    RW09:
-      coord: [2558.57, 360.67, -2484.76]
-      hash_id: "0x3ee211651adafb7f"
-      text: RW09 Puzzle Blocks"
     RW15:
       coord: [2043.95, 413.25, -2660.84]
       hash_id: "0x8810ac0d1bafc11e"
@@ -3164,10 +3334,6 @@ presets:
       coord: [2489.61, 138.97, -2122.53]
       hash_id: "0x8d3de9430aaf4589"
       text: ML28 Rock Lift"
-    RW16:
-      coord: [2877.92, 297.77, -2685.26]
-      hash_id: "0x24d931052d5d3529"
-      text: RW16 Pull the Plug"
     RW32:
       coord: [2363.39, 194.47, -3437.92]
       hash_id: "0x02cf11c67360bdbd"
@@ -3176,10 +3342,6 @@ presets:
       coord: [2245.49, 135, -3469.26]
       hash_id: "0x2a2ce4df12954054"
       text: RW41 Korok Friends"
-    RW31:
-      coord: [2425.14, 185.15, -3403.4]
-      hash_id: "0x05a10bdb4e417900"
-      text: RW31 Rock Pattern"
     RW26:
       coord: [2540.08, 170.88, -3291.42]
       hash_id: "0x56f7ff3c7190bac9"
@@ -3212,18 +3374,6 @@ presets:
       coord: [3349.6, 327, 3664.5]
       hash_id: "0xcc9b683cea8d43ce"
       text: EC03 Korok Friends"
-    UM13:
-      coord: [3151.26, 252.31, 3092.48]
-      hash_id: "0x91f7039138146499"
-      text: UM13 Puzzle Blocks"
-    EC27:
-      coord: [3031.75, 439.29, 2289.25]
-      hash_id: "0x59e72458a1158a88"
-      text: EC27 Repair Roof"
-    UM22:
-      coord: [3539.2, 190.48, 2636.64]
-      hash_id: "0x5ee5a428dd9fd019"
-      text: UM22 Puzzle Blocks"
     UM25:
       coord: [3747.84, 199.5, 2307.5]
       hash_id: "0x4767004a184e7df7"
@@ -3252,10 +3402,6 @@ presets:
       coord: [3645.12, 201.84, 1460.12]
       hash_id: "0xca276c54f61e44a8"
       text: UM37 Flower Trail"
-    UM40:
-      coord: [3358.11, 398.13, 1300.16]
-      hash_id: "0x3f83a56674a3e0df"
-      text: UM40 Puzzle Blocks"
     UM38:
       coord: [3273.64, 390.99, 1397.95]
       hash_id: "0x18c8ea65d8623f9f"
@@ -3264,18 +3410,6 @@ presets:
       coord: [3882.46, 353.24, 1341.74]
       hash_id: "0x7915126d76cca4fb"
       text: UZ03 Flower Trail"
-    UM34:
-      coord: [3965.13, 241.27, 1611.09]
-      hash_id: "0x7065b2f2ffe87b22"
-      text: UM34 Ring the Bell"
-    UZ05:
-      coord: [3868.78, 330.98, 1086]
-      hash_id: "0x1e10b5ca54bb3cf8"
-      text: UZ05 Pull the Plug"
-    EC51:
-      coord: [3011.96, 348.34, 1203.45]
-      hash_id: "0x055bedf051a39851"
-      text: EC51 Pull the Plug"
     UZ29:
       coord: [3069.79, 379.76, 456.6]
       hash_id: "0x6938008b636b9c0a"
@@ -3296,18 +3430,6 @@ presets:
       coord: [3531.7, 317, -65.07]
       hash_id: "0xf70f90356c6270aa"
       text: UZ37 Korok Friends"
-    UZ09:
-      coord: [3801.14, 381.83, 855.96]
-      hash_id: "0x5e2bf869fa54c085"
-      text: UZ09 Rock Pattern"
-    UZ06:
-      coord: [3546.61, 500.3, 964.9]
-      hash_id: "0x0112631c410af679"
-      text: UZ06 Rock Pattern"
-    UZ11:
-      coord: [3905.28, 490.57, 797.35]
-      hash_id: "0x0c4ba09f0869e6ad"
-      text: UZ11 Puzzle Blocks"
     UZ30:
       coord: [3678.04, 363.36, 450.1]
       hash_id: "0x937b22d749936ce6"
@@ -3320,10 +3442,6 @@ presets:
       coord: [3329.76, 217.88, 532.85]
       hash_id: "0xd30c5caa1f0a8670"
       text: UZ23 Rock Lift"
-    UZ20:
-      coord: [3167.67, 221.46, 586.41]
-      hash_id: "0x2f4ae92d9cfc7fb4"
-      text: UZ20 Rock Pattern"
     UZ66:
       coord: [3321.48, 127.47, -475.24]
       hash_id: "0xfc8f3891d24efa80"
@@ -3340,10 +3458,6 @@ presets:
       coord: [4001.55, 281.5, -184.31]
       hash_id: "0xdd5da6276f00a45f"
       text: UZ71 Korok Friends"
-    UZ64:
-      coord: [3944.02, 143.6, -413.1]
-      hash_id: "0x29cd804630cdbf87"
-      text: UZ64 Rock Pattern"
     UZ54:
       coord: [3272.69, 383.45, -13.03]
       hash_id: "0x08e8992879723b79"
@@ -3352,30 +3466,10 @@ presets:
       coord: [3711.97, 106.93, -622.12]
       hash_id: "0x561014c04a918a30"
       text: UZ70 Flower Trail"
-    UZ62:
-      coord: [3526.78, 255.87, -367.99]
-      hash_id: "0xe48a674c285576ba"
-      text: UZ62 Puzzle Blocks"
     ML08:
       coord: [3498.97, 268.21, -1454.68]
       hash_id: "0xd05e7f866162de56"
       text: ML08 Korok Friends"
-    ML22:
-      coord: [3365.99, 249.62, -1979.37]
-      hash_id: "0x5e8118bc32ef219c"
-      text: ML22 Ring the Bell"
-    ML07:
-      coord: [3250.02, 276.01, -1335.54]
-      hash_id: "0x69cbe306107cf923"
-      text: ML07 Puzzle Blocks"
-    ML12:
-      coord: [3237.13, 302.99, -1545.17]
-      hash_id: "0xd24ab4de070eee61"
-      text: ML12 Rock Pattern"
-    RW21:
-      coord: [3099.94, 290.04, -2951.01]
-      hash_id: "0x198185e2b1f9642d"
-      text: RW21 Rock Pattern"
     ML42:
       coord: [3729.1, 307, -2159]
       hash_id: "0x6af0255d13bdb3db"
@@ -3404,10 +3498,6 @@ presets:
       coord: [3264.48, 212.46, -2225.93]
       hash_id: "0x50ccb18cd3a99fad"
       text: ML34 Rock Lift"
-    ML43:
-      coord: [3440.26, 318.49, -2517.03]
-      hash_id: "0x5a4b626ba47b743d"
-      text: ML43 Puzzle Blocks"
     RW27:
       coord: [3495.78, 332.65, -3311.49]
       hash_id: "0x09e727a91b073e06"
@@ -3468,14 +3558,6 @@ presets:
       coord: [4270.89, 253.63, 2826.92]
       hash_id: "0xc112d086cec56f69"
       text: UM18 Rock Lift"
-    UM19:
-      coord: [4393.71, 228.23, 2721.31]
-      hash_id: "0xf7391e7fbfea1e61"
-      text: UM19 Puzzle Blocks"
-    UM36:
-      coord: [4133.55, 271.88, 1494.92]
-      hash_id: "0xb1da5198b606c120"
-      text: UM36 Repair Roof"
     UM29:
       coord: [4290.57, 258.5, 1610.8]
       hash_id: "0xeed977e0d06944fe"
@@ -3500,22 +3582,10 @@ presets:
       coord: [4077.58, 340.83, 821.02]
       hash_id: "0xf6ad8ace15b02a4c"
       text: UZ10 Through the Roof"
-    UZ16:
-      coord: [4174.72, 354.05, 698.99]
-      hash_id: "0xfcfed5df4806ddf4"
-      text: UZ16 Pull the Plug"
     UZ21:
       coord: [4635.29, 323.17, 566.09]
       hash_id: "0xd7f3fd658d143424"
       text: UZ21 Land on Target"
-    UZ46:
-      coord: [4271.5, 211.5, 137]
-      hash_id: "0x993ada0a92d2f901"
-      text: UZ46 Puzzle Blocks"
-    UZ19:
-      coord: [4388.59, 380.6, 612.01]
-      hash_id: "0x571ffaad4a859799"
-      text: UZ19 Rock Pattern"
     UZ27:
       coord: [4101.72, 368.68, 474.36]
       hash_id: "0x43215f45979c6622"
@@ -3524,10 +3594,6 @@ presets:
       coord: [4134.99, 521.56, 406.29]
       hash_id: "0xbfd63528091b3b96"
       text: UZ33 Rock Lift"
-    UZ43:
-      coord: [4219.85, 385.11, 158.61]
-      hash_id: "0x141d4455b7fd250b"
-      text: UZ43 Puzzle Blocks"
     ML02:
       coord: [4462.59, 168.53, -843.73]
       hash_id: "0x6ac0ccb1eb036e59"
@@ -3544,38 +3610,14 @@ presets:
       coord: [4459.47, 162.18, -357.05]
       hash_id: "0xb3c234840466577c"
       text: UZ61 Rock Lift"
-    UZ68:
-      coord: [4395.41, 167.11, -535.14]
-      hash_id: "0x8eb41c7423c96eca"
-      text: UZ68 Puzzle Blocks"
-    ML20:
-      coord: [4335.05, 318.07, -1870.69]
-      hash_id: "0x9471409251c54abe"
-      text: ML20 Rock Pattern"
     ML11:
       coord: [4506.22, 107.25, -1521.4]
       hash_id: "0xa611c90a954de405"
       text: ML11 Flower Trail"
-    ML04:
-      coord: [4027.85, 454.94, -1094.71]
-      hash_id: "0x240e6a67abc3d8b9"
-      text: ML04 Pull the Plug"
     ML36:
       coord: [4516.26, 218.68, -2305.92]
       hash_id: "0x8872854bccf2a961"
       text: ML36 Rock Lift"
-    ML40:
-      coord: [4394.53, 110.96, -2414.53]
-      hash_id: "0xb897994bfe565496"
-      text: ML40 Puzzle Blocks"
-    ML30:
-      coord: [4591.71, 109.29, -2159.7]
-      hash_id: "0xa810eb71b477f535"
-      text: ML30 Pull the Plug"
-    ML46:
-      coord: [4083.58, 109.16, -2974.14]
-      hash_id: "0xa544208210f98365"
-      text: ML46 Pull the Plug"
     RW36:
       coord: [3688.03, 350.5, -3314.68]
       hash_id: "0xa3ec81f3a4014875"
@@ -3620,10 +3662,6 @@ presets:
       coord: [126.06, 796.91, -2502.47]
       hash_id: "0x0b0f272dece7471f"
       text: PFS01 Rock Lift"
-    SSS06:
-      coord: [1677.28, 798.66, -1897.96]
-      hash_id: "0x311e5bba13206559"
-      text: SSS06 Rock Pattern"
     SSS07:
       coord: [1336.72, 700.42, -2061.9]
       hash_id: "0x23ea491f726cdfca"
@@ -3640,10 +3678,6 @@ presets:
       coord: [2430.36, 1622.59, -1783.23]
       hash_id: "0xc2a022fe9b384466"
       text: SSS04 Goal Ring (Race)"
-    SSS02:
-      coord: [2439.93, 1549.5, -1721.69]
-      hash_id: "0xb0893a06da80d5af"
-      text: SSS02 Rock Pattern"
     RWS02:
       coord: [2932.88, 1363.61, -2991.81]
       hash_id: "0x1c8d77e74a772598"
@@ -3720,31 +3754,7 @@ presets:
       coord: [475.46, 1548.39, -1698.93]
       hash_id: "0xdc9c28f60084facd"
       text: GSI17 Korok Friends"
-    GSI06:
-      coord: [760.46, 1708.8, -1341.14]
-      hash_id: "0x34ef20e12f80911f"
-      text: GSI06 Rock Pattern"
-    GSI08:
-      coord: [424.22, 1606.05, -1503.57]
-      hash_id: "0xc6624de93efaa9a3"
-      text: GSI08 Rock Pattern"
-    GSI12:
-      coord: [542.02, 1593.15, -1581.33]
-      hash_id: "0x1943b9aca3be2580"
-      text: GSI12 Puzzle Blocks"
-    GSI10:
-      coord: [630.9, 1554.57, -1531.1]
-      hash_id: "0xee76b05ce4b594b1"
-      text: GSI10 Puzzle Blocks"
     LL13:
       coord: [-254.2, 410.92, 943.86]
       hash_id: "0x81525f3a265a7263"
       text: LL13 Rock Lift"
-    LL11:
-      coord: [-52.51, 382.95, 971.35]
-      hash_id: "0x1bad0d756c4419ea"
-      text: LL11 Puzzle Blocks"
-    LL06:
-      coord: [-254, 575.45, 1061.77]
-      hash_id: "0x31fc3653d35cd99b"
-      text: LL06 Ring the Bell"

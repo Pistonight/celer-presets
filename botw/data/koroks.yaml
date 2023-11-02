@@ -175,7 +175,7 @@ meta:
       icon: korok-race
       time: 15
     RockCircle:
-      name: Rock Circle
+      name: Rock Pattern
       icon: korok-rock-circle
       time: 10
     ShootEmblem:
