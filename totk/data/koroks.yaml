@@ -21,24 +21,18 @@
 #                more points for flowers, etc
 
   # Acorn in a Hole" -> AcornLog/AcornTree
-  # Catch the Light" -> Light Catch
   # Flower Trail" -> Flower Chase (Movements)
   # Goal Ring (Race)" -> Race (Start/End)
   # Hanging Acorn" -> Acorn Hanging
   # Korok Friends" -> Friends (Start/End)
   # Land on Target" -> Target Landing (need check)
-  # Moving Lights" -> Light Chase
   # Offering Plate" -> Offer Apple/Pepper/Banana/Durian/PalmFruit/Egg/Shield/?
-  # Pinwheel Balloons" -> Balloon (Pinwheel)
-  # Provide Shelter" -> Build Roof
   # Pull the Plug" -> Pull Plug
   # Puzzle Blocks" -> Block Puzzle
   # Repair Roof" -> Repair Roof
   # Ring the Bell" -> Ring Bell
   # Rock Lift" -> Lift Rock ////?
   # Rock Pattern" -> Rock Circle
-  # Stationary Balloon" -> Balloon (Stationary)
-  # Stationary Lights" -> Confetti
   # Through the Roof" -> Ascend (Start/Finish)
   # Touch the Target" -> Target Touch (need check)
 meta:
@@ -52,7 +46,24 @@ meta:
     CatchSeed:
       name: Catch Seed
       icon: korok-catch-seed
-      
+    CatchLight:
+      name: Catch Light
+      icon: korok-catch-light
+    LightChase:
+      name: Light Chase
+      icon: korok-light-chase
+    BalloonStationary:
+      name: Balloon (Stationary)
+      icon: korok-balloon
+    BalloonPinwheel:
+      name: Balloon (Pinwheel)
+      icon: korok-balloon
+    Confetti:
+      name: Confetti
+      icon: korok-confetti
+    BuildRoof:
+      name: Build Roof
+      icon: korok-build-roof
   regions:
     EC:
       name: Eldin Canyon
@@ -459,20 +470,792 @@ data:
     type: CatchSeed
     move: [[4325.01, 155.66, -141.69]]
     hash: "0xc692f9adf1b6ab9c"
+  GCS02:
+    type: CatchLight
+    move: [[-1714.11, 1292.05, -3578.26]]
+    hash: "0xbfb9b2ad181b5053"
+  LBS02:
+    type: CatchLight
+    move: [[-3620.81, 1769.02, 996.98]]
+    hash: "0x3a5f3788b95c9bb8"
+  LBS04:
+    type: CatchLight
+    move: [[-2367.1, 724.78, 865.11]]
+    hash: "0x308063a2fdf6e5c2"
+  MLS02:
+    type: CatchLight
+    move: [[4579.5, 1234.3, -909.5]]
+    hash: "0x5649c4fe3b8af1ad"
+  MLS03:
+    type: CatchLight
+    move: [[4747.48, 1934.87, -1155.58]]
+    hash: "0x350a0197959059d6"
+  PSS02:
+    type: CatchLight
+    move: [[-681.92, 1291.82, 3534.95]]
+    hash: "0x1ec8e6f102e27c3a"
+  SSS01:
+    type: CatchLight
+    move: [[1776.32, 1071.93, -938.91]]
+    hash: "0x6cb84cda6536209a"
+  TRS02:
+    type: CatchLight
+    move: [[285.12, 858.57, 1960.4]]
+    hash: "0xe41300e10fec7359"
+  UMS01:
+    type: CatchLight
+    move: [[4795.92, 1291.13, 3755.85]]
+    hash: "0x1e88d319955bffdb"
+  UMS03:
+    type: CatchLight
+    move: [[3662.12, 1273.77, 1408.44]]
+    hash: "0xd29712e4cd8b11d3"
+  UZS03:
+    type: CatchLight
+    move: [[3234.39, 1046.8, 461.52]]
+    hash: "0xa69a3fd72a90db89"
+  EC23:
+    type: LightChase
+    move: [[2702.24, 726.23, 2347.98]]
+    hash: "0x780ed918fe6dd856"
+  EC55:
+    type: LightChase
+    move: [[2674.01, 261.99, 1074.29]]
+    hash: "0x34e60969e3f18d8b"
+  GC24:
+    type: LightChase
+    move: [[-4132.1, 159.29, -2592.86]]
+    hash: "0x566cb23934dbca25"
+  GC40:
+    type: LightChase
+    move: [[-2428.18, 149.73, -3263.9]]
+    hash: "0xe49db8922d08209b"
+  GH11:
+    type: LightChase
+    move: [[-3963.92, 763, -609.36]]
+    hash: "0xd3cfececffff5261"
+  GH53:
+    type: LightChase
+    move: [[-3315.51, 155.1, -2164.49]]
+    hash: "0x09ac707275ca277c"
+  GSI01:
+    type: LightChase
+    move: [[246.09, 1554.91, -822.41]]
+    hash: "0x3ed7f1bfd87a8c15"
+  HF05:
+    type: LightChase
+    move: [[-1408.68, 149.95, -464.5]]
+    hash: "0x3c26a6367816faff"
+  HF19:
+    type: LightChase
+    move: [[-1557.44, 166.34, -824.3]]
+    hash: "0x9fd6cbb9caef7010"
+  HF21:
+    type: LightChase
+    move: [[211.24, 171.83, -886.09]]
+    hash: "0x1bfbea70fcc7ec13"
+  HF55:
+    type: LightChase
+    move: [[-1151.47, 260.87, -1788.2]]
+    hash: "0x85752795304325fd"
+  HF61:
+    type: LightChase
+    move: [[-238.07, 147.27, -1918.7]]
+    hash: "0x68710dbf23a53abf"
+  LB29:
+    type: LightChase
+    move: [[-2061.48, 205.87, 769.47]]
+    hash: "0xdc1f1c4345536704"
+  LB31:
+    type: LightChase
+    move: [[-3541.97, 292.5, 752.01]]
+    hash: "0x5f83341e7ca682c2"
+  LB55:
+    type: LightChase
+    move: [[-2031.05, 262.61, 87.74]]
+    hash: "0xf86a8c8947f28e9e"
+  LL15:
+    type: LightChase
+    move: [[192.37, 132.47, 897.03]]
+    hash: "0x541aae456e671899"
+  LL19:
+    type: LightChase
+    move: [[-675.15, 120.89, 860.53]]
+    hash: "0x94fd906843ab3a56"
+  LL20:
+    type: LightChase
+    move: [[-421.38, 191.49, 845.13]]
+    hash: "0x81c70c68bb9441be"
+  LL34:
+    type: LightChase
+    move: [[-796.61, 187.67, 558.8]]
+    hash: "0x9e70c71f51900ca8"
+  ML03:
+    type: LightChase
+    move: [[4523.79, 112.53, -1004.58]]
+    hash: "0x912df811016d64f4"
+  ML21:
+    type: LightChase
+    move: [[3715.13, 282.39, -1949.03]]
+    hash: "0xd408263570561f0a"
+  ML32:
+    type: LightChase
+    move: [[2867.94, 140.2, -2187.45]]
+    hash: "0x729b16e04f9b0b86"
+  PF20:
+    type: LightChase
+    move: [[351.83, 114.47, -1999.7]]
+    hash: "0x343bf9461332b2fe"
+  PF66:
+    type: LightChase
+    move: [[-414.88, 138.15, -3374.29]]
+    hash: "0x3ece957bbe45e60b"
+  PF74:
+    type: LightChase
+    move: [[1449.48, 222.65, -3531.73]]
+    hash: "0x34e2742c5731a80b"
+  PF81:
+    type: LightChase
+    move: [[1610.64, 197.33, -3802.17]]
+    hash: "0x982a6a5be014d899"
+  PS02:
+    type: LightChase
+    move: [[-1670.57, 344.82, 3759.09]]
+    hash: "0x73cb68ab8edee476"
+  RP01:
+    type: LightChase
+    move: [[-3764.88, 375.32, 3845.18]]
+    hash: "0x24d6caee021e3e4f"
+  RW23:
+    type: LightChase
+    move: [[2294.31, 289.01, -3020.36]]
+    hash: "0x35ae37f391da06dc"
+  RW38:
+    type: LightChase
+    move: [[4897.25, 107.9, -3692.97]]
+    hash: "0x6c9e306e8a7cfb0f"
+  SS04:
+    type: LightChase
+    move: [[617.42, 183.25, 754.28]]
+    hash: "0xc36fcf24244f8b84"
+  SS42:
+    type: LightChase
+    move: [[1776.46, 225.5, -984.36]]
+    hash: "0x8cbf7f56e39f1f20"
+  SS53:
+    type: LightChase
+    move: [[2200.95, 161.77, -1373.5]]
+    hash: "0x5de8be783f951f13"
+  UM20:
+    type: LightChase
+    move: [[3767.93, 124.79, 2690.37]]
+    hash: "0x9291e575fbf3694f"
+  UM39:
+    type: LightChase
+    move: [[4106.03, 271.88, 1376.55]]
+    hash: "0x598acce20d46cafb"
+  UM41:
+    type: LightChase
+    move: [[3111.8, 425.29, 1298.45]]
+    hash: "0x4740e75f483a6bcc"
+  UZ14:
+    type: LightChase
+    move: [[2554.63, 223.74, 767.25]]
+    hash: "0x206eb84cf738afdf"
+  UZS02:
+    type: LightChase
+    move: [[3496.58, 1299.49, 579.41]]
+    hash: "0x087417fdf868fb68"
+  EC01:
+    type: BalloonPinwheel
+    move: [[3078.4, 320.18, 3682.72]]
+    hash: "0xde77b5dbf79150c1"
+  EC35:
+    type: BalloonPinwheel
+    move: [[985.68, 317.42, 1804.81]]
+    hash: "0x1b8dfd624edd4f15"
+  GC04:
+    type: BalloonPinwheel
+    move: [[-4687.36, 166.58, -1962.27]]
+    hash: "0xed0cbb089a0ef9e5"
+  GC46:
+    type: BalloonPinwheel
+    move: [[-1794.89, 229.31, -3579.31]]
+    hash: "0x8f434e19d7504003"
+  GH21:
+    type: BalloonPinwheel
+    move: [[-3245.85, 677.74, -1030.86]]
+    hash: "0x8a32e87b6cba76f6"
+  GH45:
+    type: BalloonPinwheel
+    move: [[-3574.96, 466.13, -1851.98]]
+    hash: "0x176baf3c2a560bd8"
+  HF44:
+    type: BalloonPinwheel
+    move: [[-1816.53, 207.85, -1534.68]]
+    hash: "0x7f3a1056e8afe65a"
+  HF45:
+    type: BalloonPinwheel
+    move: [[-281.8, 160, -1576.24]]
+    hash: "0xc0b40edd855c76f5"
+  HF47:
+    type: BalloonPinwheel
+    move: [[-964.23, 208.58, -1606.87]]
+    hash: "0xb4c30f856507e7b3"
+  LB57:
+    type: BalloonPinwheel
+    move: [[-1645.96, 233.78, -13.39]]
+    hash: "0x49f32725045be9bb"
+  LL04:
+    type: BalloonPinwheel
+    move: [[-438.33, 132.24, 1115.69]]
+    hash: "0x397ce7c94488029a"
+  LL17:
+    type: BalloonPinwheel
+    move: [[-360.42, 384.47, 885.02]]
+    hash: "0xb0e8a633b7e5b991"
+  LL26:
+    type: BalloonPinwheel
+    move: [[-272.92, 239.93, 746.45]]
+    hash: "0x8fd2d7b440adf63d"
+  LL50:
+    type: BalloonPinwheel
+    move: [[-425.96, 136.85, -146.88]]
+    hash: "0x837739bb4a85c444"
+  ML25:
+    type: BalloonPinwheel
+    move: [[3913.84, 237.89, -2100.54]]
+    hash: "0xbcfaec548caa2411"
+  ML38:
+    type: BalloonPinwheel
+    move: [[3415.21, 340.51, -2381.26]]
+    hash: "0xda6b6c8219c4ab21"
+  MLS01:
+    type: BalloonPinwheel
+    move: [[4818.28, 2046.72, -822.44]]
+    hash: "0xce606043df79ed30"
+  PF36:
+    type: BalloonPinwheel
+    move: [[205.77, 96.14, -2638.57]]
+    hash: "0xc772903d9fc162c8"
+  PF65:
+    type: BalloonPinwheel
+    move: [[795.58, 186.64, -3345.53]]
+    hash: "0x0bfe2d9b4ab1c211"
+  PS03:
+    type: BalloonPinwheel
+    move: [[-2359.33, 382.48, 3678.18]]
+    hash: "0x82d9f88504460465"
+  PS06:
+    type: BalloonPinwheel
+    move: [[-680.63, 393.31, 3534.88]]
+    hash: "0xbf89487a7da15cf8"
+  PS25:
+    type: BalloonPinwheel
+    move: [[-2384.71, 500.47, 2137.02]]
+    hash: "0xb908c8230fff0ee5"
+  PS26:
+    type: BalloonPinwheel
+    move: [[-1580.08, 70.23, 2133.26]]
+    hash: "0x8326552c5b0e4017"
+  RP11:
+    type: BalloonPinwheel
+    move: [[-3466.01, 588.49, 3475.86]]
+    hash: "0xd118d735527de0b7"
+  RP28:
+    type: BalloonPinwheel
+    move: [[-4635.29, 348.94, 2819.37]]
+    hash: "0x9d5a3a1a7ccd1f06"
+  RP56:
+    type: BalloonPinwheel
+    move: [[-3549.15, 290.94, 1752.22]]
+    hash: "0x9827e1e1d4850bf4"
+  RW14:
+    type: BalloonPinwheel
+    move: [[2282.96, 289.25, -2656.87]]
+    hash: "0xc3803255c5209e59"
+  RW19:
+    type: BalloonPinwheel
+    move: [[1936.25, 494.65, -2777.23]]
+    hash: "0x903d11eea863ae92"
+  RW30:
+    type: BalloonPinwheel
+    move: [[4491.06, 110.98, -3396.37]]
+    hash: "0xe7ae0c8677a40e7a"
+  RW34:
+    type: BalloonPinwheel
+    move: [[2563.28, 346.13, -3598.71]]
+    hash: "0xe11f9d2c96a75e36"
+  SS12:
+    type: BalloonPinwheel
+    move: [[1514.56, 141.14, 292.42]]
+    hash: "0x6eb1d7d1cbedbb83"
+  SS64:
+    type: BalloonPinwheel
+    move: [[1521.52, 396.66, -1844.95]]
+    hash: "0xef87403c0948ede6"
+  SS67:
+    type: BalloonPinwheel
+    move: [[1251.62, 493.69, -1856.49]]
+    hash: "0x97ade57ab3433a9f"
+  UM01:
+    type: BalloonPinwheel
+    move: [[4793.51, 247.08, 3757.19]]
+    hash: "0x2968d5963c04437a"
+  UM02:
+    type: BalloonPinwheel
+    move: [[3453.03, 315.9, 3580.59]]
+    hash: "0x9cff6f3e3dcbdcd0"
+  UZ25:
+    type: BalloonPinwheel
+    move: [[4274.3, 443.84, 510.31]]
+    hash: "0x3c8f65e4357e2f0e"
+  UZ34:
+    type: BalloonPinwheel
+    move: [[3284.83, 355.57, 338.7]]
+    hash: "0xa2f1f195f54314cb"
+  UZ36:
+    type: BalloonPinwheel
+    move: [[2334.96, 133.22, 273.71]]
+    hash: "0x0f8db29b8292398b"
+  UZ48:
+    type: BalloonPinwheel
+    move: [[3817.75, 318.98, 76.09]]
+    hash: "0x43eb5a8ed311f1df"
+  UZ58:
+    type: BalloonPinwheel
+    move: [[2951.33, 422.71, -78.58]]
+    hash: "0x26d7c6ca1d6d26f4"
+  UZS01:
+    type: BalloonPinwheel
+    move: [[3413.71, 1656.06, 617.88]]
+    hash: "0x85ab951b7f171dbb"
+  EC18:
+    type: BalloonStationary
+    move: [[2780, 726.13, 2524.95]]
+    hash: "0x38b0baee08c150ea"
+  EC19:
+    type: BalloonStationary
+    move: [[1593.55, 543.53, 2474.23]]
+    hash: "0xf57f772ccaf84484"
+  EC21:
+    type: BalloonStationary
+    move: [[1667.08, 558, 2409.71]]
+    hash: "0x89237a26fe9f87f4"
+  GH13:
+    type: BalloonStationary
+    move: [[-4389, 671.5, -715.25]]
+    hash: "0xe5fbe6e01d5c843b"
+  GSI09:
+    type: BalloonStationary
+    move: [[449.94, 1463.6, -1522.15]]
+    hash: "0x760f837e18bd1279"
+  HF46:
+    type: BalloonStationary
+    move: [[-1688.03, 96.61, -1600.46]]
+    hash: "0xef7bf8997d282cbd"
+  HF64:
+    type: BalloonStationary
+    move: [[-829.98, 248.41, -1963.58]]
+    hash: "0x2fe7aed41e5bdd2d"
+  LB39:
+    type: BalloonStationary
+    move: [[-3225.77, 268.7, 578.91]]
+    hash: "0xd666414b2addb0ca"
+  LB40:
+    type: BalloonStationary
+    move: [[-3546.75, 299.73, 577.95]]
+    hash: "0xe5ec5e136035c0dc"
+  LL09:
+    type: BalloonStationary
+    move: [[-394, 426.78, 998.87]]
+    hash: "0x6dc96711b2023f11"
+  LL14:
+    type: BalloonStationary
+    move: [[-83.79, 425.16, 906.68]]
+    hash: "0x30c00f46420dcc41"
+  LL29:
+    type: BalloonStationary
+    move: [[-612.74, 118.04, 666.65]]
+    hash: "0x6c128d1c5939373f"
+  LL47:
+    type: BalloonStationary
+    move: [[-795.13, 175.72, -14.06]]
+    hash: "0x89257490595430bd"
+  ML16:
+    type: BalloonStationary
+    move: [[2528.4, 150.38, -1749.61]]
+    hash: "0xe270f6391e15b8f3"
+  PF55:
+    type: BalloonStationary
+    move: [[1023.26, 122.05, -3228.34]]
+    hash: "0x0f9dcda4c373f82b"
+  RP04:
+    type: BalloonStationary
+    move: [[-3973.68, 333.28, 3734.39]]
+    hash: "0xf54447eb89680ebe"
+  RP05:
+    type: BalloonStationary
+    move: [[-3975.35, 342.77, 3713.96]]
+    hash: "0x5f3b1a21b3ef2ad2"
+  RW07:
+    type: BalloonStationary
+    move: [[2277.72, 287, -2360.62]]
+    hash: "0x88af16211ba0f024"
+  SS02:
+    type: BalloonStationary
+    move: [[1107.17, 115.76, 858.4]]
+    hash: "0x865384e420645e53"
+  SS23:
+    type: BalloonStationary
+    move: [[1981.63, 175.61, -448.95]]
+    hash: "0xbd399c7a50e6b683"
+  SS52:
+    type: BalloonStationary
+    move: [[2300.22, 224.66, -1357.35]]
+    hash: "0x2e583a31a591b5f6"
+  SS61:
+    type: BalloonStationary
+    move: [[1153.93, 263.88, -1703.94]]
+    hash: "0x05f30ce7383f9d97"
+  UZ31:
+    type: BalloonStationary
+    move: [[3588.67, 312.51, 416.07]]
+    hash: "0xd704014dea7766b9"
+  EC04:
+    type: Confetti
+    move: [[2671.91, 482.06, 3442.48]]
+    hash: "0x62c93a5f5dbcc04c"
+  EC13:
+    type: Confetti
+    move: [[1602.16, 574.85, 2827.43]]
+    hash: "0x5f4a1c2ba81bda78"
+  EC43:
+    type: Confetti
+    move: [[1767.01, 416.91, 1537.34]]
+    hash: "0x195da6a373d712bc"
+  EC45:
+    type: Confetti
+    move: [[1424.8, 471.07, 1533.82]]
+    hash: "0x5a7de302911d3ba3"
+  GC12:
+    type: Confetti
+    move: [[-2620.21, 173.35, -2198.09]]
+    hash: "0x6b8315ce1e0e7e2d"
+  GC25:
+    type: Confetti
+    move: [[-3267.87, 227.68, -2609.28]]
+    hash: "0x872846ee5b0c4e1c"
+  GC31:
+    type: Confetti
+    move: [[-3853.03, 166.5, -2863.75]]
+    hash: "0x0e2fcf7c1432d1e8"
+  GC44:
+    type: Confetti
+    move: [[-1178.45, 324.54, -3510.55]]
+    hash: "0x4b8f6d0371d90335"
+  GH19:
+    type: Confetti
+    move: [[-3493.22, 721.72, -985.15]]
+    hash: "0x7dcb4ecb6c562381"
+  GH25:
+    type: Confetti
+    move: [[-2867.96, 518.52, -1123.86]]
+    hash: "0x52c34e8c9f404394"
+  GH27:
+    type: Confetti
+    move: [[-4691.99, 630.53, -1236.25]]
+    hash: "0xe38d13c11b633d84"
+  GSI15:
+    type: Confetti
+    move: [[376.85, 2460.17, -1731.84]]
+    hash: "0xc64c6f914902fafd"
+  GSI16:
+    type: Confetti
+    move: [[342.82, 2387.41, -1756]]
+    hash: "0x1d3cff37d42542b1"
+  HF14:
+    type: Confetti
+    move: [[-1650.89, 246.54, -688]]
+    hash: "0x3eb51bac80cfc206"
+  HF63:
+    type: Confetti
+    move: [[-1432.54, 326.19, -1952.75]]
+    hash: "0x2b02c51439a6c7ba"
+  HF65:
+    type: Confetti
+    move: [[-811.6, 298.21, -1964.11]]
+    hash: "0xb686334375e5e95d"
+  HF67:
+    type: Confetti
+    move: [[-1086.07, 251.54, -2050.02]]
+    hash: "0x21b3257c1a6b6c5a"
+  LB05:
+    type: Confetti
+    move: [[-2687.92, 374.84, 1662.26]]
+    hash: "0xfa58fd2dbccccfba"
+  LB08:
+    type: Confetti
+    move: [[-1226.59, 257.82, 1577.94]]
+    hash: "0xc8533da62fb7da09"
+  LB15:
+    type: Confetti
+    move: [[-2024.54, 390.41, 1304.41]]
+    hash: "0x24b8fd6e40f11627"
+  LB21:
+    type: Confetti
+    move: [[-2233.75, 216.41, 1070.48]]
+    hash: "0x45fa435b1391269c"
+  LB24:
+    type: Confetti
+    move: [[-3981.5, 219.63, 931.24]]
+    hash: "0xad36fff4cd899890"
+  LB47:
+    type: Confetti
+    move: [[-2202.22, 256, 355.66]]
+    hash: "0x1d24951537fdae80"
+  LB51:
+    type: Confetti
+    move: [[-1588.95, 216.21, 228.9]]
+    hash: "0xcebc24fd73003153"
+  LB59:
+    type: Confetti
+    move: [[-1863.11, 223.61, -93.77]]
+    hash: "0x0048c1a15d78b48d"
+  LL07:
+    type: Confetti
+    move: [[-254, 668.26, 1059]]
+    hash: "0xde4e8d9a042f69a4"
+  LL10:
+    type: Confetti
+    move: [[-381.27, 497.78, 995.87]]
+    hash: "0x8f2796f4356e5f53"
+  LL22:
+    type: Confetti
+    move: [[-351.24, 286.58, 827.73]]
+    hash: "0x4cb22e829e77d834"
+  ML05:
+    type: Confetti
+    move: [[3562.14, 361.07, -1112.73]]
+    hash: "0x18340069fb49b7a0"
+  ML13:
+    type: Confetti
+    move: [[3895.72, 492.33, -1683.75]]
+    hash: "0xa8a570c32a3ecc6b"
+  ML14:
+    type: Confetti
+    move: [[3528.71, 467.12, -1683.91]]
+    hash: "0xa6c510ee8b1ffa30"
+  ML15:
+    type: Confetti
+    move: [[3741.65, 492.4, -1685.44]]
+    hash: "0xd8b58a2d2c5c4e3f"
+  ML27:
+    type: Confetti
+    move: [[2837.27, 128.24, -2120.36]]
+    hash: "0x87d63e1b490f4b21"
+  ML29:
+    type: Confetti
+    move: [[3782.36, 392.52, -2122.65]]
+    hash: "0xec4abd8bbb706f5f"
+  ML31:
+    type: Confetti
+    move: [[3286.33, 276.18, -2179.74]]
+    hash: "0x14c29654803f590f"
+  ML41:
+    type: Confetti
+    move: [[3932.92, 126.52, -2479.91]]
+    hash: "0x979c1e85e3fd911c"
+  ML44:
+    type: Confetti
+    move: [[4118.99, 108.4, -2573.93]]
+    hash: "0xed26999d6a90b959"
+  ML47:
+    type: Confetti
+    move: [[3997.32, 121.77, -2995.61]]
+    hash: "0xd27971b2405d55cf"
+  PF27:
+    type: Confetti
+    move: [[-636.95, 96.23, -2382]]
+    hash: "0x4999012379bffdc5"
+  PF32:
+    type: Confetti
+    move: [[-397.65, 104.42, -2559.8]]
+    hash: "0xbd84416691ca8789"
+  PF33:
+    type: Confetti
+    move: [[-9.59, 112.65, -2587.25]]
+    hash: "0xc4e330e8463f4978"
+  PF71:
+    type: Confetti
+    move: [[953.83, 128.24, -3476.41]]
+    hash: "0x34ac2fdf3c929440"
+  PF75:
+    type: Confetti
+    move: [[1793.9, 135.03, -3580.35]]
+    hash: "0xac35135e3daba929"
+  PF88:
+    type: Confetti
+    move: [[-241.96, 111.59, -3919.28]]
+    hash: "0x91ad161355daf8b9"
+  RP09:
+    type: Confetti
+    move: [[-3412.59, 542.23, 3506.42]]
+    hash: "0x9a83f30e0b18c57a"
+  RP23:
+    type: Confetti
+    move: [[-4247.32, 301.12, 3125.4]]
+    hash: "0xc473ef60bd2c4a61"
+  RP32:
+    type: Confetti
+    move: [[-3158.28, 701.07, 2689.44]]
+    hash: "0x09f9f4a47a209c68"
+  RP41:
+    type: Confetti
+    move: [[-3565.22, 258.16, 2256.53]]
+    hash: "0xd392aeb8d7c223c0"
+  RP49:
+    type: Confetti
+    move: [[-4480.84, 270.56, 1945.47]]
+    hash: "0xd387e6429b7924c3"
+  RW01:
+    type: Confetti
+    move: [[2011.65, 122.03, -1896.03]]
+    hash: "0xf74c04684d8d22f7"
+  RW18:
+    type: Confetti
+    move: [[1775.27, 422.95, -2766.79]]
+    hash: "0xc4adbd69a9f5a2fb"
+  RW20:
+    type: Confetti
+    move: [[2635.05, 334.59, -2854.91]]
+    hash: "0xd81342a3e39ec978"
+  RW22:
+    type: Confetti
+    move: [[2713.26, 296.77, -2960.65]]
+    hash: "0xa7f0ffe3fa78c9f2"
+  RW28:
+    type: Confetti
+    move: [[3431.59, 128.04, -3325.06]]
+    hash: "0xf1cf3b20adeb9ca4"
+  RW33:
+    type: Confetti
+    move: [[4598.1, 127.39, -3561.75]]
+    hash: "0x1c221bb1e307b945"
+  RW35:
+    type: Confetti
+    move: [[3796.5, 125.01, -3614.86]]
+    hash: "0xd4b49b84ee1571bb"
+  SS20:
+    type: Confetti
+    move: [[821.2, 137.96, -330.41]]
+    hash: "0xb1d629b28f6b9601"
+  SS41:
+    type: Confetti
+    move: [[1757.6, 247.54, -984.19]]
+    hash: "0x24261ebd179ceb68"
+  SS65:
+    type: Confetti
+    move: [[2397.28, 129, -1846.62]]
+    hash: "0xabb874f587316b3c"
+  SS71:
+    type: Confetti
+    move: [[1367.59, 293.86, -2272.79]]
+    hash: "0x446c6b2c9e7ac660"
+  TR01:
+    type: Confetti
+    move: [[1400.26, 237.92, 3782.41]]
+    hash: "0xea143973302b91be"
+  TR15:
+    type: Confetti
+    move: [[-332.63, 305.48, 1747.45]]
+    hash: "0xcbb7f7af6a21e295"
+  UM11:
+    type: Confetti
+    move: [[4542.98, 378.64, 3162.14]]
+    hash: "0x3f618958e4097c21"
+  UM23:
+    type: Confetti
+    move: [[4314.05, 187.65, 2518.41]]
+    hash: "0x8efa3ce4009e8c08"
+  UM27:
+    type: Confetti
+    move: [[3326.53, 243.59, 2169.23]]
+    hash: "0x186560ea1b3e338a"
+  UM35:
+    type: Confetti
+    move: [[3299.3, 543.31, 1510.84]]
+    hash: "0x88ce8efe32271ac6"
+  UM42:
+    type: Confetti
+    move: [[4045.49, 323.86, 1285.47]]
+    hash: "0xcbbefdf70367a54c"
+  UZ02:
+    type: Confetti
+    move: [[4715.14, 288.98, 1418.29]]
+    hash: "0x74c06f9ef6de4914"
+  UZ04:
+    type: Confetti
+    move: [[3073.9, 389.11, 1140.2]]
+    hash: "0x19021d4a0340cf61"
+  UZ17:
+    type: Confetti
+    move: [[4484.52, 361.49, 678.08]]
+    hash: "0x885515fbaae11773"
+  UZ24:
+    type: Confetti
+    move: [[3322.39, 414.33, 515.95]]
+    hash: "0xb7492f221f932cdb"
+  UZ32:
+    type: Confetti
+    move: [[2425.19, 301.36, 409.72]]
+    hash: "0x84de464b0319b2d9"
+  UZ39:
+    type: Confetti
+    move: [[3192.14, 257.17, 226.67]]
+    hash: "0xa6d53a645ed2e2b9"
+  UZ57:
+    type: Confetti
+    move: [[2960.88, 249.96, -53.34]]
+    hash: "0x46b4c947830ccf14"
+  UZ69:
+    type: Confetti
+    move: [[4142.34, 112.02, -557.37]]
+    hash: "0xd9a3a16eca1fb171"
+  GH05:
+    type: BuildRoof
+    move: [[-3968.65, 552.35, -323.53]]
+    hash: "0x2ae2433920d4b0b9"
+  GH22:
+    type: BuildRoof
+    move: [[-3102.29, 702.3, -1032.66]]
+    hash: "0x7313428282fd1d04"
+  GH39:
+    type: BuildRoof
+    move: [[-2505.9, 641.65, -1589.93]]
+    hash: "0x0f728049e4c59b97"
+  PS27:
+    type: BuildRoof
+    move: [[-2207.08, 429.57, 2091.16]]
+    hash: "0xdf5de7dfa70782c1"
+  RP15:
+    type: BuildRoof
+    move: [[-4190.88, 348.13, 3373.56]]
+    hash: "0x673b0acdbb0d8299"
+  RP24:
+    type: BuildRoof
+    move: [[-3793.65, 352.31, 3027.43]]
+    hash: "0x20e2a2428fbd980a"
+  RP42:
+    type: BuildRoof
+    move: [[-4254.2, 123.63, 2145.75]]
+    hash: "0x4adcb248677cff87"
 presets:
  _Korok:
     RP08:
       coord: [-4004.7, 630.48, 3622.87]
       hash_id: "0x552e3762db40dc25"
       text: RP08 Rock Lift"
-    RP05:
-      coord: [-3975.35, 342.77, 3713.96]
-      hash_id: "0x5f3b1a21b3ef2ad2"
-      text: RP05 Stationary Balloon"
-    RP04:
-      coord: [-3973.68, 333.28, 3734.39]
-      hash_id: "0xf54447eb89680ebe"
-      text: RP04 Stationary Balloon"
     RP21:
       coord: [-4418.91, 477.48, 3181.17]
       hash_id: "0xc4f70c6b778afaca"
@@ -481,22 +1264,10 @@ presets:
       coord: [-4509.21, 371, 3460.85]
       hash_id: "0x8a14d1287b014072"
       text: RP12 Puzzle Blocks"
-    RP15:
-      coord: [-4190.88, 348.13, 3373.56]
-      hash_id: "0x673b0acdbb0d8299"
-      text: RP15 Provide Shelter"
     RP07:
       coord: [-4430.51, 412.55, 3682.64]
       hash_id: "0xc5e6febce2a7e832"
       text: RP07 Rock Lift"
-    RP23:
-      coord: [-4247.32, 301.12, 3125.4]
-      hash_id: "0xc473ef60bd2c4a61"
-      text: RP23 Stationary Lights"
-    RP28:
-      coord: [-4635.29, 348.94, 2819.37]
-      hash_id: "0x9d5a3a1a7ccd1f06"
-      text: RP28 Pinwheel Balloons"
     RP38:
       coord: [-4263.1, 95, 2176.5]
       hash_id: "0x95684aa7a4c3b176"
@@ -509,10 +1280,6 @@ presets:
       coord: [-4066.93, 124.84, 2505.37]
       hash_id: "0xbf3ea73490b4ed46"
       text: RP34 Rock Pattern"
-    RP42:
-      coord: [-4254.2, 123.63, 2145.75]
-      hash_id: "0x4adcb248677cff87"
-      text: RP42 Provide Shelter"
     RP31:
       coord: [-3849.86, 135.37, 2737.93]
       hash_id: "0x66f8f6fa876b4ae1"
@@ -529,10 +1296,6 @@ presets:
       coord: [-4169.55, 215.86, 1695.96]
       hash_id: "0x93e0f34cdc9713f1"
       text: RP59 Rock Lift"
-    RP49:
-      coord: [-4480.84, 270.56, 1945.47]
-      hash_id: "0xd387e6429b7924c3"
-      text: RP49 Stationary Lights"
     RP61:
       coord: [-4012.83, 269.54, 1636.97]
       hash_id: "0xdc87ff64af3e16f2"
@@ -545,10 +1308,6 @@ presets:
       coord: [-4059.4, 211.85, 773.91]
       hash_id: "0xbb4fc2cd8d3505d0"
       text: LB28 Offering Plate"
-    GH13:
-      coord: [-4389, 671.5, -715.25]
-      hash_id: "0xe5fbe6e01d5c843b"
-      text: GH13 Stationary Balloon"
     GH09:
       coord: [-4376.99, 557.19, -524.72]
       hash_id: "0x5471ca07565b90d0"
@@ -565,14 +1324,6 @@ presets:
       coord: [-4322.9, 628.63, -1090.38]
       hash_id: "0x9108afb5e84a244a"
       text: GH24 Rock Pattern"
-    GH27:
-      coord: [-4691.99, 630.53, -1236.25]
-      hash_id: "0xe38d13c11b633d84"
-      text: GH27 Stationary Lights"
-    GC04:
-      coord: [-4687.36, 166.58, -1962.27]
-      hash_id: "0xed0cbb089a0ef9e5"
-      text: GC04 Pinwheel Balloons"
     GH44:
       coord: [-4363.35, 201.83, -1845.61]
       hash_id: "0xf00b28f0afd80c18"
@@ -593,10 +1344,6 @@ presets:
       coord: [-4438.02, 155.27, -2113.6]
       hash_id: "0x9a10c3532ffe0382"
       text: GC07 Land on Target"
-    GC24:
-      coord: [-4132.1, 159.29, -2592.86]
-      hash_id: "0x566cb23934dbca25"
-      text: GC24 Moving Lights"
     GH52:
       coord: [-4393.84, 207, -2015.27]
       hash_id: "0x8a1bd22d8f6e491f"
@@ -617,10 +1364,6 @@ presets:
       coord: [-3772.03, 447.56, 3344.37]
       hash_id: "0xe81e90070f7c7b4e"
       text: RP17 Flower Trail"
-    RP11:
-      coord: [-3466.01, 588.49, 3475.86]
-      hash_id: "0xd118d735527de0b7"
-      text: RP11 Pinwheel Balloons"
     RP03:
       coord: [-4176.05, 325.76, 3816.11]
       hash_id: "0x7d76677d1f060023"
@@ -633,10 +1376,6 @@ presets:
       coord: [-3670.76, 429, 3383.01]
       hash_id: "0xc8de69e1d4d01529"
       text: RP13 Korok Friends"
-    RP09:
-      coord: [-3412.59, 542.23, 3506.42]
-      hash_id: "0x9a83f30e0b18c57a"
-      text: RP09 Stationary Lights"
     RP02:
       coord: [-3507.85, 344.64, 3836.26]
       hash_id: "0xb448cedb7612dfdc"
@@ -649,18 +1388,10 @@ presets:
       coord: [-4038.38, 370.99, 3364.97]
       hash_id: "0x9fd381e9d8a29b78"
       text: RP16 Rock Lift"
-    RP24:
-      coord: [-3793.65, 352.31, 3027.43]
-      hash_id: "0x20e2a2428fbd980a"
-      text: RP24 Provide Shelter"
     RP20:
       coord: [-3001.99, 680.37, 3220.05]
       hash_id: "0x248bb738369d9d27"
       text: RP20 Through the Roof"
-    RP01:
-      coord: [-3764.88, 375.32, 3845.18]
-      hash_id: "0x24d6caee021e3e4f"
-      text: RP01 Moving Lights"
     RP18:
       coord: [-3576.41, 493.87, 3266.75]
       hash_id: "0x59a0ee0323638e91"
@@ -677,10 +1408,6 @@ presets:
       coord: [-3752.8, 242.81, 2797.88]
       hash_id: "0x9fe07c6db8410b40"
       text: RP29 Rock Lift"
-    RP32:
-      coord: [-3158.28, 701.07, 2689.44]
-      hash_id: "0x09f9f4a47a209c68"
-      text: RP32 Stationary Lights"
     RP27:
       coord: [-3064.01, 535.44, 2855.69]
       hash_id: "0x496266bbcb4fabb1"
@@ -701,10 +1428,6 @@ presets:
       coord: [-3350.7, 621.29, 2992.55]
       hash_id: "0x50b98467625ced72"
       text: RP25 Rock Lift"
-    RP41:
-      coord: [-3565.22, 258.16, 2256.53]
-      hash_id: "0xd392aeb8d7c223c0"
-      text: RP41 Stationary Lights"
     RP40:
       coord: [-3792.6, 285.76, 2319.19]
       hash_id: "0xd0fba8d6f8c47e31"
@@ -725,10 +1448,6 @@ presets:
       coord: [-3102.67, 315.57, 1316.05]
       hash_id: "0x523d843537984052"
       text: LB13 Hanging Acorn"
-    RP56:
-      coord: [-3549.15, 290.94, 1752.22]
-      hash_id: "0x9827e1e1d4850bf4"
-      text: RP56 Pinwheel Balloons"
     RP51:
       coord: [-3613.7, 507.69, 1880.03]
       hash_id: "0x354ad574acff4aa7"
@@ -785,22 +1504,10 @@ presets:
       coord: [-3779.22, 368.39, 1865.63]
       hash_id: "0xdd93e19fb97b72c5"
       text: RP52 Repair Roof"
-    LB39:
-      coord: [-3225.77, 268.7, 578.91]
-      hash_id: "0xd666414b2addb0ca"
-      text: LB39 Stationary Balloon"
     LB46:
       coord: [-3609.13, 403.3, 357.58]
       hash_id: "0x0e22ab0f230b6cd2"
       text: LB46 Flower Trail"
-    LB40:
-      coord: [-3546.75, 299.73, 577.95]
-      hash_id: "0xe5ec5e136035c0dc"
-      text: LB40 Stationary Balloon"
-    LB24:
-      coord: [-3981.5, 219.63, 931.24]
-      hash_id: "0xad36fff4cd899890"
-      text: LB24 Stationary Lights"
     LB30:
       coord: [-3614.14, 395.17, 983]
       hash_id: "0x8464b2a0e6538974"
@@ -813,10 +1520,6 @@ presets:
       coord: [-3600.14, 15.32, 110.9]
       hash_id: "0x175cc755836bd41b"
       text: GH02 Through the Roof"
-    LB31:
-      coord: [-3541.97, 292.5, 752.01]
-      hash_id: "0x5f83341e7ca682c2"
-      text: LB31 Moving Lights"
     LB38:
       coord: [-3011.53, 237.62, 584.29]
       hash_id: "0x6ceb26714f5a0ca4"
@@ -869,18 +1572,10 @@ presets:
       coord: [-3565.44, 662.44, -732.94]
       hash_id: "0xf8a19470c0d4f55e"
       text: GH14 Rock Pattern"
-    GH19:
-      coord: [-3493.22, 721.72, -985.15]
-      hash_id: "0x7dcb4ecb6c562381"
-      text: GH19 Stationary Lights"
     LB54:
       coord: [-2962, 249.5, 84.5]
       hash_id: "0x109d5c3cfc1cdbb3"
       text: LB54 Korok Friends"
-    GH11:
-      coord: [-3963.92, 763, -609.36]
-      hash_id: "0xd3cfececffff5261"
-      text: GH11 Moving Lights"
     LB60:
       coord: [-3132.57, 315.37, -113.16]
       hash_id: "0x1d5d00758bce34de"
@@ -893,18 +1588,10 @@ presets:
       coord: [-3674.24, 740, -798.67]
       hash_id: "0x8b02e554bcc8847d"
       text: GH16 Goal Ring (Race)"
-    GH05:
-      coord: [-3968.65, 552.35, -323.53]
-      hash_id: "0x2ae2433920d4b0b9"
-      text: GH05 Provide Shelter"
     GH18:
       coord: [-4002.98, 820.09, -969.15]
       hash_id: "0xfc817200d5d513ae"
       text: GH18 Rock Lift"
-    GH21:
-      coord: [-3245.85, 677.74, -1030.86]
-      hash_id: "0x8a32e87b6cba76f6"
-      text: GH21 Pinwheel Balloons"
     GH37:
       coord: [-3561.32, 558.33, -1558.73]
       hash_id: "0x85b81002d66f62ba"
@@ -921,10 +1608,6 @@ presets:
       coord: [-3163.34, 544.35, -1037.72]
       hash_id: "0x6608a68c185b0c01"
       text: GH23 Through the Roof"
-    GH45:
-      coord: [-3574.96, 466.13, -1851.98]
-      hash_id: "0x176baf3c2a560bd8"
-      text: GH45 Pinwheel Balloons"
     GH41:
       coord: [-3899, 399.5, -1644]
       hash_id: "0xa99b172d5ff5ab47"
@@ -941,10 +1624,6 @@ presets:
       coord: [-3193.17, 459.39, -1744.5]
       hash_id: "0x49c0815855f1021d"
       text: GH43 Hanging Acorn"
-    GH22:
-      coord: [-3102.29, 702.3, -1032.66]
-      hash_id: "0x7313428282fd1d04"
-      text: GH22 Provide Shelter"
     GH50:
       coord: [-3581.69, 310.59, -1985.41]
       hash_id: "0xe6c0f12c27dc1b77"
@@ -969,10 +1648,6 @@ presets:
       coord: [-3060.1, 605.96, -1286.33]
       hash_id: "0x3d01a11f8ad55ad5"
       text: GH29 Pull the Plug"
-    GC31:
-      coord: [-3853.03, 166.5, -2863.75]
-      hash_id: "0x0e2fcf7c1432d1e8"
-      text: GC31 Stationary Lights"
     GC32:
       coord: [-3934.83, 192.37, -2940.99]
       hash_id: "0x67ae8a9d9858fb59"
@@ -985,10 +1660,6 @@ presets:
       coord: [-3320.43, 181.53, -2274.87]
       hash_id: "0x3bb39af996d52082"
       text: GH55 Rock Pattern"
-    GC25:
-      coord: [-3267.87, 227.68, -2609.28]
-      hash_id: "0x872846ee5b0c4e1c"
-      text: GC25 Stationary Lights"
     GC20:
       coord: [-3757.2, 158.28, -2442.9]
       hash_id: "0x69f73203ae5fb9ef"
@@ -1001,10 +1672,6 @@ presets:
       coord: [-3827.14, 131.81, -2859.7]
       hash_id: "0x1ae169c4708f1ee2"
       text: GC30 Through the Roof"
-    GH53:
-      coord: [-3315.51, 155.1, -2164.49]
-      hash_id: "0x09ac707275ca277c"
-      text: GH53 Moving Lights"
     GC35:
       coord: [-3344.99, 146.59, -3058.17]
       hash_id: "0x9223f8594a723522"
@@ -1037,14 +1704,6 @@ presets:
       coord: [-2890.94, 352.4, 3491.44]
       hash_id: "0xbe56994927c6cb37"
       text: RP06 Korok Friends"
-    PS03:
-      coord: [-2359.33, 382.48, 3678.18]
-      hash_id: "0x82d9f88504460465"
-      text: PS03 Pinwheel Balloons"
-    PS27:
-      coord: [-2207.08, 429.57, 2091.16]
-      hash_id: "0xdf5de7dfa70782c1"
-      text: PS27 Provide Shelter"
     RP26:
       coord: [-2834.8, 687.5, 2841.93]
       hash_id: "0xa4cf2b8c7b89febe"
@@ -1057,10 +1716,6 @@ presets:
       coord: [-2739.09, 450.44, 2267.73]
       hash_id: "0x86a97c98f7f25813"
       text: PS23 Hanging Acorn"
-    PS25:
-      coord: [-2384.71, 500.47, 2137.02]
-      hash_id: "0xb908c8230fff0ee5"
-      text: PS25 Pinwheel Balloons"
     PS10:
       coord: [-1969.17, 459.29, 3113.43]
       hash_id: "0x3acc5fe5dd251272"
@@ -1085,10 +1740,6 @@ presets:
       coord: [-2800.71, 378.21, 1947.75]
       hash_id: "0xfbcacc9c4c298a07"
       text: RP48 Rock Pattern"
-    LB21:
-      coord: [-2233.75, 216.41, 1070.48]
-      hash_id: "0x45fa435b1391269c"
-      text: LB21 Stationary Lights"
     LB04:
       coord: [-2298.03, 403.48, 1908.36]
       hash_id: "0xaddec8dbaf6b1da8"
@@ -1101,10 +1752,6 @@ presets:
       coord: [-2818.43, 91.5, 1598.72]
       hash_id: "0x6bafbf68f0ad9be0"
       text: LB06 Puzzle Blocks"
-    LB15:
-      coord: [-2024.54, 390.41, 1304.41]
-      hash_id: "0x24b8fd6e40f11627"
-      text: LB15 Stationary Lights"
     LB19:
       coord: [-2436.08, 271.55, 1138.84]
       hash_id: "0xf2d8ab25f623c3e8"
@@ -1113,10 +1760,6 @@ presets:
       coord: [-2530.6, 409.06, 1854.96]
       hash_id: "0xdcc0703c889fd11f"
       text: PS30 Hanging Acorn"
-    LB05:
-      coord: [-2687.92, 374.84, 1662.26]
-      hash_id: "0xfa58fd2dbccccfba"
-      text: LB05 Stationary Lights"
     LB16:
       coord: [-2653.77, 312.25, 1283.25]
       hash_id: "0x3c74abe3d89f5f29"
@@ -1133,18 +1776,10 @@ presets:
       coord: [-2436.48, 331.05, 511.67]
       hash_id: "0xa67846124a64d127"
       text: LB44 Rock Lift"
-    LB47:
-      coord: [-2202.22, 256, 355.66]
-      hash_id: "0x1d24951537fdae80"
-      text: LB47 Stationary Lights"
     LB53:
       coord: [-2871.88, 284.77, 494.62]
       hash_id: "0xec2195519e8cdba3"
       text: LB53 Korok Friends"
-    LB29:
-      coord: [-2061.48, 205.87, 769.47]
-      hash_id: "0xdc1f1c4345536704"
-      text: LB29 Moving Lights"
     LB34:
       coord: [-2824.62, 350.29, 703.53]
       hash_id: "0x3e69143d21995e32"
@@ -1213,10 +1848,6 @@ presets:
       coord: [-2394.5, 233.09, -1033.99]
       hash_id: "0x5391629081abbab8"
       text: HF27 Through the Roof"
-    GH25:
-      coord: [-2867.96, 518.52, -1123.86]
-      hash_id: "0x52c34e8c9f404394"
-      text: GH25 Stationary Lights"
     GH30:
       coord: [-2672.13, 623.96, -1356.71]
       hash_id: "0x1bd5ec0a68f59ca0"
@@ -1233,10 +1864,6 @@ presets:
       coord: [-2643.69, 687.9, -1532.39]
       hash_id: "0x7118aa2a59c33f0a"
       text: GH36 Rock Pattern"
-    GH39:
-      coord: [-2505.9, 641.65, -1589.93]
-      hash_id: "0x0f728049e4c59b97"
-      text: GH39 Provide Shelter"
     GH42:
       coord: [-2818.68, 579.73, -1652.12]
       hash_id: "0xcdf97e6b82505039"
@@ -1245,10 +1872,6 @@ presets:
       coord: [-2430.6, 340.19, -2119.28]
       hash_id: "0x64a5a3398166e7d1"
       text: GC09 Korok Friends"
-    GC12:
-      coord: [-2620.21, 173.35, -2198.09]
-      hash_id: "0x6b8315ce1e0e7e2d"
-      text: GC12 Stationary Lights"
     GC11:
       coord: [-2264.59, 356.96, -2163.4]
       hash_id: "0xf203598f31e957d3"
@@ -1281,10 +1904,6 @@ presets:
       coord: [-2491.4, 131.75, -3348.47]
       hash_id: "0x0be67e07414b8c79"
       text: GC50 Korok Friends"
-    GC40:
-      coord: [-2428.18, 149.73, -3263.9]
-      hash_id: "0xe49db8922d08209b"
-      text: GC40 Moving Lights"
     PS07:
       coord: [-1382.98, 361.5, 3632.45]
       hash_id: "0x145e2045e67c2a3d"
@@ -1293,10 +1912,6 @@ presets:
       coord: [-997.01, 307.78, 3083.9]
       hash_id: "0xfc9f7292edce07e2"
       text: PS12 Through the Roof"
-    PS02:
-      coord: [-1670.57, 344.82, 3759.09]
-      hash_id: "0x73cb68ab8edee476"
-      text: PS02 Moving Lights"
     PS05:
       coord: [-1762.55, 339.52, 3554.08]
       hash_id: "0xe715f58b3ec59e6b"
@@ -1333,18 +1948,10 @@ presets:
       coord: [-1185.97, 4.87, 2481.94]
       hash_id: "0x351b0943ace2f82a"
       text: PS18 Rock Lift"
-    PS26:
-      coord: [-1580.08, 70.23, 2133.26]
-      hash_id: "0x8326552c5b0e4017"
-      text: PS26 Pinwheel Balloons"
     PS15:
       coord: [-1052.14, 140.67, 2617.1]
       hash_id: "0xb1f474c2de641132"
       text: PS15 Puzzle Blocks"
-    LB08:
-      coord: [-1226.59, 257.82, 1577.94]
-      hash_id: "0xc8533da62fb7da09"
-      text: LB08 Stationary Lights"
     TR17:
       coord: [-1433.48, 299, 1478.95]
       hash_id: "0xb78127c69fdc72a9"
@@ -1361,14 +1968,6 @@ presets:
       coord: [-1730.12, 353.34, 1162.47]
       hash_id: "0xd9fc88ea902e5b12"
       text: LB18 Through the Roof"
-    LB55:
-      coord: [-2031.05, 262.61, 87.74]
-      hash_id: "0xf86a8c8947f28e9e"
-      text: LB55 Moving Lights"
-    LB51:
-      coord: [-1588.95, 216.21, 228.9]
-      hash_id: "0xcebc24fd73003153"
-      text: LB51 Stationary Lights"
     LB42:
       coord: [-1346.61, 201.07, 530.54]
       hash_id: "0x713a6e09d2b3064d"
@@ -1397,10 +1996,6 @@ presets:
       coord: [-1088.66, 165.67, -514.06]
       hash_id: "0x291ad1a54d9cb5dc"
       text: LL59 Hanging Acorn"
-    LB59:
-      coord: [-1863.11, 223.61, -93.77]
-      hash_id: "0x0048c1a15d78b48d"
-      text: LB59 Stationary Lights"
     HF10:
       coord: [-1550.65, 133.5, -1000.09]
       hash_id: "0x7deb7883ac348bcf"
@@ -1429,14 +2024,6 @@ presets:
       coord: [-1797.98, 225, -323.45]
       hash_id: "0xc7a6a3a3ac49a14c"
       text: HF01 Korok Friends"
-    HF14:
-      coord: [-1650.89, 246.54, -688]
-      hash_id: "0x3eb51bac80cfc206"
-      text: HF14 Stationary Lights"
-    HF05:
-      coord: [-1408.68, 149.95, -464.5]
-      hash_id: "0x3c26a6367816faff"
-      text: HF05 Moving Lights"
     LL61:
       coord: [-1112.03, 200.01, -570.54]
       hash_id: "0xdc7722ccde278ad5"
@@ -1445,10 +2032,6 @@ presets:
       coord: [-1352.14, 121.5, -191.95]
       hash_id: "0x5fa452408c59bd74"
       text: LL51 Puzzle Blocks"
-    LB57:
-      coord: [-1645.96, 233.78, -13.39]
-      hash_id: "0x49f32725045be9bb"
-      text: LB57 Pinwheel Balloons"
     HF15:
       coord: [-1343.57, 116, -689.2]
       hash_id: "0x45f41ec4b9b7f795"
@@ -1457,10 +2040,6 @@ presets:
       coord: [-1968.59, 254.26, -594.93]
       hash_id: "0xb7eaa3cc2d1f74c6"
       text: HF11 Rock Lift"
-    HF19:
-      coord: [-1557.44, 166.34, -824.3]
-      hash_id: "0x9fd6cbb9caef7010"
-      text: HF19 Moving Lights"
     HF36:
       coord: [-1658.92, 214.19, -1321.96]
       hash_id: "0x2357aa330a5e9da8"
@@ -1469,22 +2048,10 @@ presets:
       coord: [-1316.49, 139.34, -1261.08]
       hash_id: "0xc118da0d74b7f025"
       text: HF34 Offering Plate"
-    HF46:
-      coord: [-1688.03, 96.61, -1600.46]
-      hash_id: "0xef7bf8997d282cbd"
-      text: HF46 Stationary Balloon"
-    HF44:
-      coord: [-1816.53, 207.85, -1534.68]
-      hash_id: "0x7f3a1056e8afe65a"
-      text: HF44 Pinwheel Balloons"
     HF38:
       coord: [-1356.41, 151.86, -1307.46]
       hash_id: "0x3291538fa06bdcc6"
       text: HF38 Korok Friends"
-    HF63:
-      coord: [-1432.54, 326.19, -1952.75]
-      hash_id: "0x2b02c51439a6c7ba"
-      text: HF63 Stationary Lights"
     HF56:
       coord: [-1700.27, 89.25, -1826.47]
       hash_id: "0x3cd4f4f91f24813a"
@@ -1513,10 +2080,6 @@ presets:
       coord: [-1967.9, 203.88, -1090.5]
       hash_id: "0xb8960219505a8593"
       text: HF29 Flower Trail"
-    HF55:
-      coord: [-1151.47, 260.87, -1788.2]
-      hash_id: "0x85752795304325fd"
-      text: HF55 Moving Lights"
     HF26:
       coord: [-1598.19, 123.75, -1015.71]
       hash_id: "0xb8bb9d53ead817a6"
@@ -1545,10 +2108,6 @@ presets:
       coord: [-1516.51, 238.17, -1922.72]
       hash_id: "0x3ba9e6124f54b7a2"
       text: HF62 Rock Lift"
-    HF67:
-      coord: [-1086.07, 251.54, -2050.02]
-      hash_id: "0x21b3257c1a6b6c5a"
-      text: HF67 Stationary Lights"
     GC21:
       coord: [-1019, 304.5, -2640.6]
       hash_id: "0xdac86ad5e603ca95"
@@ -1569,18 +2128,10 @@ presets:
       coord: [-1294.63, 417.59, -2213.61]
       hash_id: "0x9aa8151cda295f0a"
       text: HF72 Rock Lift"
-    GC44:
-      coord: [-1178.45, 324.54, -3510.55]
-      hash_id: "0x4b8f6d0371d90335"
-      text: GC44 Stationary Lights"
     GC38:
       coord: [-1944.79, 232.52, -3184.99]
       hash_id: "0xf4316c7f183f7a50"
       text: GC38 Rock Lift"
-    GC46:
-      coord: [-1794.89, 229.31, -3579.31]
-      hash_id: "0x8f434e19d7504003"
-      text: GC46 Pinwheel Balloons"
     GC48:
       coord: [-1369.61, 500.88, -3724.03]
       hash_id: "0x05037238b632afc8"
@@ -1609,10 +2160,6 @@ presets:
       coord: [-476.68, 225.3, 3133.07]
       hash_id: "0xb163528746c95ed5"
       text: TR07 Rock Pattern"
-    PS06:
-      coord: [-680.63, 393.31, 3534.88]
-      hash_id: "0xbf89487a7da15cf8"
-      text: PS06 Pinwheel Balloons"
     TR09:
       coord: [-322.37, 205.52, 3161.93]
       hash_id: "0x93c7e6b9fd7e6e7c"
@@ -1633,18 +2180,10 @@ presets:
       coord: [-665.9, 179.47, 1190.94]
       hash_id: "0x75720e1a74403956"
       text: TR19 Acorn in a Hole"
-    TR15:
-      coord: [-332.63, 305.48, 1747.45]
-      hash_id: "0xcbb7f7af6a21e295"
-      text: TR15 Stationary Lights"
     LB03:
       coord: [-669.65, 239.33, 1966.72]
       hash_id: "0x7a53c47712b65188"
       text: LB03 Offering Plate"
-    LL26:
-      coord: [-272.92, 239.93, 746.45]
-      hash_id: "0x8fd2d7b440adf63d"
-      text: LL26 Pinwheel Balloons"
     LL24:
       coord: [-128.31, 202.34, 813.76]
       hash_id: "0xa4d884bd5e8f57b8"
@@ -1665,10 +2204,6 @@ presets:
       coord: [-426.95, 223.03, 890.66]
       hash_id: "0xeee2af2e4df05a7b"
       text: LL16 Flower Trail"
-    LL04:
-      coord: [-438.33, 132.24, 1115.69]
-      hash_id: "0x397ce7c94488029a"
-      text: LL04 Pinwheel Balloons"
     LL25:
       coord: [-344.48, 164.28, 785.73]
       hash_id: "0x947b0bb08af00707"
@@ -1681,22 +2216,10 @@ presets:
       coord: [-282.17, 182.85, 1125.08]
       hash_id: "0x75835b25478a6a10"
       text: LL02 Land on Target"
-    LL20:
-      coord: [-421.38, 191.49, 845.13]
-      hash_id: "0x81c70c68bb9441be"
-      text: LL20 Moving Lights"
-    LL22:
-      coord: [-351.24, 286.58, 827.73]
-      hash_id: "0x4cb22e829e77d834"
-      text: LL22 Stationary Lights"
     LL44:
       coord: [-748.18, 136.49, 200.28]
       hash_id: "0x781f1b41c9c2a39b"
       text: LL44 Acorn in a Hole"
-    LL29:
-      coord: [-612.74, 118.04, 666.65]
-      hash_id: "0x6c128d1c5939373f"
-      text: LL29 Stationary Balloon"
     LL05:
       coord: [-779.44, 122.85, 938.84]
       hash_id: "0x86b688f4417e6e8c"
@@ -1721,10 +2244,6 @@ presets:
       coord: [-312.99, 130.5, 324.12]
       hash_id: "0x8dd5d22ea44ab48f"
       text: LL41 Rock Lift"
-    LL34:
-      coord: [-796.61, 187.67, 558.8]
-      hash_id: "0x9e70c71f51900ca8"
-      text: LL34 Moving Lights"
     LL43:
       coord: [-427.8, 144.3, 249.16]
       hash_id: "0x91990b91201f8d7a"
@@ -1741,10 +2260,6 @@ presets:
       coord: [-86.67, 138.07, 401.43]
       hash_id: "0xfa43b5407688b679"
       text: LL38 Through the Roof"
-    LL19:
-      coord: [-675.15, 120.89, 860.53]
-      hash_id: "0x94fd906843ab3a56"
-      text: LL19 Moving Lights"
     LL40:
       coord: [-945.49, 133.21, 348.3]
       hash_id: "0x17725d4bd2775153"
@@ -1765,14 +2280,6 @@ presets:
       coord: [-764.75, 135.04, -673.62]
       hash_id: "0x4616e6f7caab28b0"
       text: HF13 Rock Lift"
-    LL50:
-      coord: [-425.96, 136.85, -146.88]
-      hash_id: "0x837739bb4a85c444"
-      text: LL50 Pinwheel Balloons"
-    LL47:
-      coord: [-795.13, 175.72, -14.06]
-      hash_id: "0x89257490595430bd"
-      text: LL47 Stationary Balloon"
     HF07:
       coord: [-311.14, 131.03, -550.09]
       hash_id: "0xb6d6dfe59019e605"
@@ -1781,10 +2288,6 @@ presets:
       coord: [-217.75, 157.85, -383.11]
       hash_id: "0x033443a6a909d730"
       text: LL56 Rock Lift"
-    HF61:
-      coord: [-238.07, 147.27, -1918.7]
-      hash_id: "0x68710dbf23a53abf"
-      text: HF61 Moving Lights"
     HF39:
       coord: [-594.84, 144.57, -1414.73]
       hash_id: "0x5a9018784c1e29b8"
@@ -1793,10 +2296,6 @@ presets:
       coord: [-889.49, 212.09, -1907.83]
       hash_id: "0x90bf00482aee36fd"
       text: HF60 Rock Lift"
-    HF65:
-      coord: [-811.6, 298.21, -1964.11]
-      hash_id: "0xb686334375e5e95d"
-      text: HF65 Stationary Lights"
     HF43:
       coord: [-39.05, 128, -1112.52]
       hash_id: "0x3cde914031313704"
@@ -1809,18 +2308,6 @@ presets:
       coord: [-664.31, 133.65, -1222.37]
       hash_id: "0x12266920cd6dd9d4"
       text: HF32 Rock Lift"
-    HF47:
-      coord: [-964.23, 208.58, -1606.87]
-      hash_id: "0xb4c30f856507e7b3"
-      text: HF47 Pinwheel Balloons"
-    HF64:
-      coord: [-829.98, 248.41, -1963.58]
-      hash_id: "0x2fe7aed41e5bdd2d"
-      text: HF64 Stationary Balloon"
-    HF45:
-      coord: [-281.8, 160, -1576.24]
-      hash_id: "0xc0b40edd855c76f5"
-      text: HF45 Pinwheel Balloons"
     HF31:
       coord: [-510.78, 127.68, -1176.87]
       hash_id: "0xa62a18d66dda2f96"
@@ -1861,14 +2348,6 @@ presets:
       coord: [-102.99, 175.93, -2292.11]
       hash_id: "0x244c409f5ff89290"
       text: HF75 Rock Lift"
-    PF36:
-      coord: [205.77, 96.14, -2638.57]
-      hash_id: "0xc772903d9fc162c8"
-      text: PF36 Pinwheel Balloons"
-    PF33:
-      coord: [-9.59, 112.65, -2587.25]
-      hash_id: "0xc4e330e8463f4978"
-      text: PF33 Stationary Lights"
     PF34:
       coord: [-188.5, 125, -2243.66]
       hash_id: "0x00c3e1ef17e6ba50"
@@ -1877,18 +2356,10 @@ presets:
       coord: [-207.37, 125.83, -2205.12]
       hash_id: "0x7f67c3cfb232e6af"
       text: HF70 Repair Roof"
-    PF32:
-      coord: [-397.65, 104.42, -2559.8]
-      hash_id: "0xbd84416691ca8789"
-      text: PF32 Stationary Lights"
     HF71:
       coord: [-930.53, 181.4, -2208.4]
       hash_id: "0xb7dee713863ea633"
       text: HF71 Through the Roof"
-    PF27:
-      coord: [-636.95, 96.23, -2382]
-      hash_id: "0x4999012379bffdc5"
-      text: PF27 Stationary Lights"
     PF35:
       coord: [-711.64, 204.77, -2624.98]
       hash_id: "0x6b759a709a6be904"
@@ -1913,10 +2384,6 @@ presets:
       coord: [-886.36, 125.75, -2270.54]
       hash_id: "0x3784ffb9df373457"
       text: HF74 Puzzle Blocks"
-    PF88:
-      coord: [-241.96, 111.59, -3919.28]
-      hash_id: "0x91ad161355daf8b9"
-      text: PF88 Stationary Lights"
     PF63:
       coord: [-224.58, 177.19, -3340.61]
       hash_id: "0xcdcb4fa83a6d9116"
@@ -1929,10 +2396,6 @@ presets:
       coord: [-800.75, 199.21, -3257.71]
       hash_id: "0x6e95a7fdad85fe11"
       text: PF56 Hanging Acorn"
-    PF66:
-      coord: [-414.88, 138.15, -3374.29]
-      hash_id: "0x3ece957bbe45e60b"
-      text: PF66 Moving Lights"
     GC39:
       coord: [-994.92, 356.58, -3254.33]
       hash_id: "0xa2eb9ec95c99f353"
@@ -2001,10 +2464,6 @@ presets:
       coord: [966.93, 115.9, 1027.06]
       hash_id: "0xb87bce7e3ba1a303"
       text: SS01 Rock Lift"
-    EC35:
-      coord: [985.68, 317.42, 1804.81]
-      hash_id: "0x1b8dfd624edd4f15"
-      text: EC35 Pinwheel Balloons"
     LL46:
       coord: [761.79, 136.78, 11.08]
       hash_id: "0xf250cc3dfeaec905"
@@ -2041,14 +2500,6 @@ presets:
       coord: [919.22, 195.13, 410.38]
       hash_id: "0x10da3261b7a6a07c"
       text: SS10 Through the Roof"
-    SS04:
-      coord: [617.42, 183.25, 754.28]
-      hash_id: "0xc36fcf24244f8b84"
-      text: SS04 Moving Lights"
-    LL15:
-      coord: [192.37, 132.47, 897.03]
-      hash_id: "0x541aae456e671899"
-      text: LL15 Moving Lights"
     LL53:
       coord: [289.89, 133.23, -246.79]
       hash_id: "0x9662bf80ffa514ed"
@@ -2069,10 +2520,6 @@ presets:
       coord: [630.03, 117.82, -961.98]
       hash_id: "0x199b09371296f7fc"
       text: PF03 Korok Friends"
-    HF21:
-      coord: [211.24, 171.83, -886.09]
-      hash_id: "0x1bfbea70fcc7ec13"
-      text: HF21 Moving Lights"
     LL62:
       coord: [625.01, 126.6, -753.43]
       hash_id: "0x89742f6a1cedbdae"
@@ -2081,10 +2528,6 @@ presets:
       coord: [928.69, 145.52, -365.54]
       hash_id: "0x011ab3b096cd3678"
       text: SS21 Rock Pattern"
-    SS20:
-      coord: [821.2, 137.96, -330.41]
-      hash_id: "0xb1d629b28f6b9601"
-      text: SS20 Stationary Lights"
     SS26:
       coord: [795, 116, -507.9]
       hash_id: "0xb83f3e4cac0d321f"
@@ -2173,10 +2616,6 @@ presets:
       coord: [770.53, 241.5, -2138.18]
       hash_id: "0x49884ebc4c874727"
       text: SS72 Korok Friends"
-    PF20:
-      coord: [351.83, 114.47, -1999.7]
-      hash_id: "0x343bf9461332b2fe"
-      text: PF20 Moving Lights"
     PF46:
       coord: [699.97, 121.79, -2953.5]
       hash_id: "0x81dbedca2f9da706"
@@ -2197,10 +2636,6 @@ presets:
       coord: [814.09, 210.74, -3704.93]
       hash_id: "0xc37df8786dfa71d7"
       text: PF79 Flower Trail"
-    PF71:
-      coord: [953.83, 128.24, -3476.41]
-      hash_id: "0x34ac2fdf3c929440"
-      text: PF71 Stationary Lights"
     PF68:
       coord: [221.57, 175.5, -3533.8]
       hash_id: "0xfbecdd7daa8cd3e0"
@@ -2225,18 +2660,10 @@ presets:
       coord: [272.37, 109.52, -3905.6]
       hash_id: "0xccb2720dc9a3794e"
       text: PF87 Hanging Acorn"
-    PF65:
-      coord: [795.58, 186.64, -3345.53]
-      hash_id: "0x0bfe2d9b4ab1c211"
-      text: PF65 Pinwheel Balloons"
     PF84:
       coord: [101.45, 138.23, -3842.43]
       hash_id: "0x6a27669a0b812968"
       text: PF84 Pull the Plug"
-    TR01:
-      coord: [1400.26, 237.92, 3782.41]
-      hash_id: "0xea143973302b91be"
-      text: TR01 Stationary Lights"
     TR02:
       coord: [1025, 216.5, 3671]
       hash_id: "0x2b954ce40e323553"
@@ -2257,14 +2684,6 @@ presets:
       coord: [1816.66, 507, 2645.48]
       hash_id: "0xe75f2ba499cca6a8"
       text: EC15 Korok Friends"
-    EC19:
-      coord: [1593.55, 543.53, 2474.23]
-      hash_id: "0xf57f772ccaf84484"
-      text: EC19 Stationary Balloon"
-    EC21:
-      coord: [1667.08, 558, 2409.71]
-      hash_id: "0x89237a26fe9f87f4"
-      text: EC21 Stationary Balloon"
     EC26:
       coord: [1250.21, 427.86, 2292.84]
       hash_id: "0x31b3e43ffe0b4b54"
@@ -2277,10 +2696,6 @@ presets:
       coord: [1755.41, 589.82, 2224.93]
       hash_id: "0x5cd2b42649138cba"
       text: EC28 Land on Target"
-    EC13:
-      coord: [1602.16, 574.85, 2827.43]
-      hash_id: "0x5f4a1c2ba81bda78"
-      text: EC13 Stationary Lights"
     EC16:
       coord: [1724.5, 604.77, 2554.51]
       hash_id: "0x7f18fb748c5e4fdd"
@@ -2317,18 +2732,6 @@ presets:
       coord: [1534, 411.5, 1609]
       hash_id: "0xcae5e6a73bbeac22"
       text: EC42 Korok Friends"
-    EC43:
-      coord: [1767.01, 416.91, 1537.34]
-      hash_id: "0x195da6a373d712bc"
-      text: EC43 Stationary Lights"
-    EC45:
-      coord: [1424.8, 471.07, 1533.82]
-      hash_id: "0x5a7de302911d3ba3"
-      text: EC45 Stationary Lights"
-    SS02:
-      coord: [1107.17, 115.76, 858.4]
-      hash_id: "0x865384e420645e53"
-      text: SS02 Stationary Balloon"
     EC60:
       coord: [1466.56, 133.82, 677.61]
       hash_id: "0x18c21efaf334333d"
@@ -2361,14 +2764,6 @@ presets:
       coord: [1482.68, 116.75, 443.37]
       hash_id: "0xed1e5973a85751d7"
       text: SS09 Hanging Acorn"
-    SS12:
-      coord: [1514.56, 141.14, 292.42]
-      hash_id: "0x6eb1d7d1cbedbb83"
-      text: SS12 Pinwheel Balloons"
-    SS23:
-      coord: [1981.63, 175.61, -448.95]
-      hash_id: "0xbd399c7a50e6b683"
-      text: SS23 Stationary Balloon"
     SS30:
       coord: [960.98, 137.07, -201.78]
       hash_id: "0x8476fce426d4833c"
@@ -2405,10 +2800,6 @@ presets:
       coord: [1694.6, 416.18, -929.15]
       hash_id: "0x1d948b9fec609676"
       text: SS38 Rock Lift"
-    SS42:
-      coord: [1776.46, 225.5, -984.36]
-      hash_id: "0x8cbf7f56e39f1f20"
-      text: SS42 Moving Lights"
     PF01:
       coord: [1040.53, 118.5, -1068.5]
       hash_id: "0x7de66884408148fc"
@@ -2433,10 +2824,6 @@ presets:
       coord: [1537.07, 167.65, -1301.75]
       hash_id: "0xc911408c73a82c97"
       text: SS50 Rock Lift"
-    SS61:
-      coord: [1153.93, 263.88, -1703.94]
-      hash_id: "0x05f30ce7383f9d97"
-      text: SS61 Stationary Balloon"
     SS51:
       coord: [1291.45, 269.65, -1330.91]
       hash_id: "0xf543848c315bb272"
@@ -2461,18 +2848,6 @@ presets:
       coord: [1279.87, 526.11, -1962.67]
       hash_id: "0x4c1969dae6181205"
       text: SS70 Land on Target"
-    SS64:
-      coord: [1521.52, 396.66, -1844.95]
-      hash_id: "0xef87403c0948ede6"
-      text: SS64 Pinwheel Balloons"
-    SS41:
-      coord: [1757.6, 247.54, -984.19]
-      hash_id: "0x24261ebd179ceb68"
-      text: SS41 Stationary Lights"
-    SS67:
-      coord: [1251.62, 493.69, -1856.49]
-      hash_id: "0x97ade57ab3433a9f"
-      text: SS67 Pinwheel Balloons"
     SS69:
       coord: [1326.12, 292.47, -1962.65]
       hash_id: "0x9ea6c5488ed42a7d"
@@ -2481,14 +2856,6 @@ presets:
       coord: [1651.85, 115.6, -1907.84]
       hash_id: "0x5fdb84188169f67f"
       text: SS68 Pull the Plug"
-    RW19:
-      coord: [1936.25, 494.65, -2777.23]
-      hash_id: "0x903d11eea863ae92"
-      text: RW19 Pinwheel Balloons"
-    SS71:
-      coord: [1367.59, 293.86, -2272.79]
-      hash_id: "0x446c6b2c9e7ac660"
-      text: SS71 Stationary Lights"
     PF44:
       coord: [1556.73, 291.02, -2899.23]
       hash_id: "0x89d02e76291085e2"
@@ -2501,10 +2868,6 @@ presets:
       coord: [1999.11, 116.46, -2281.76]
       hash_id: "0xd2b2e7fc38e6ccf5"
       text: RW06 Acorn in a Hole"
-    RW18:
-      coord: [1775.27, 422.95, -2766.79]
-      hash_id: "0xc4adbd69a9f5a2fb"
-      text: RW18 Stationary Lights"
     PF49:
       coord: [1777.18, 188.45, -2990.83]
       hash_id: "0x2a4d578800c04075"
@@ -2529,14 +2892,6 @@ presets:
       coord: [1738.27, 155.66, -3468.02]
       hash_id: "0x0416f74fcfe21bf2"
       text: PF70 Rock Lift"
-    PF55:
-      coord: [1023.26, 122.05, -3228.34]
-      hash_id: "0x0f9dcda4c373f82b"
-      text: PF55 Stationary Balloon"
-    PF75:
-      coord: [1793.9, 135.03, -3580.35]
-      hash_id: "0xac35135e3daba929"
-      text: PF75 Stationary Lights"
     PF83:
       coord: [1096, 107.85, -3832.78]
       hash_id: "0x467488806cf0387d"
@@ -2565,10 +2920,6 @@ presets:
       coord: [1532.96, 201.77, -3261.47]
       hash_id: "0xb43d09b2153d7328"
       text: PF57 Flower Trail"
-    PF81:
-      coord: [1610.64, 197.33, -3802.17]
-      hash_id: "0x982a6a5be014d899"
-      text: PF81 Moving Lights"
     PF82:
       coord: [1397.62, 107.61, -3642.26]
       hash_id: "0x4e314676408880ec"
@@ -2581,18 +2932,6 @@ presets:
       coord: [1847.43, 164.32, -3342.59]
       hash_id: "0xd01748274126a19f"
       text: PF64 Offering Plate"
-    PF74:
-      coord: [1449.48, 222.65, -3531.73]
-      hash_id: "0x34e2742c5731a80b"
-      text: PF74 Moving Lights"
-    EC04:
-      coord: [2671.91, 482.06, 3442.48]
-      hash_id: "0x62c93a5f5dbcc04c"
-      text: EC04 Stationary Lights"
-    EC01:
-      coord: [3078.4, 320.18, 3682.72]
-      hash_id: "0xde77b5dbf79150c1"
-      text: EC01 Pinwheel Balloons"
     EC08:
       coord: [2231.74, 551.66, 3042.21]
       hash_id: "0x0388af9f5240c043"
@@ -2617,14 +2956,6 @@ presets:
       coord: [2176.44, 628.5, 2783]
       hash_id: "0x26376688f39f1aee"
       text: EC10 Korok Friends"
-    EC18:
-      coord: [2780, 726.13, 2524.95]
-      hash_id: "0x38b0baee08c150ea"
-      text: EC18 Stationary Balloon"
-    EC23:
-      coord: [2702.24, 726.23, 2347.98]
-      hash_id: "0x780ed918fe6dd856"
-      text: EC23 Moving Lights"
     EC24:
       coord: [2083, 608, 2330]
       hash_id: "0x4267c8d5555edcda"
@@ -2633,10 +2964,6 @@ presets:
       coord: [2061.49, 586.53, 2755.89]
       hash_id: "0x8dc982ae922f8763"
       text: EC14 Puzzle Blocks"
-    EC55:
-      coord: [2674.01, 261.99, 1074.29]
-      hash_id: "0x34e60969e3f18d8b"
-      text: EC55 Moving Lights"
     EC54:
       coord: [2375.05, 236.68, 1403.28]
       hash_id: "0xf53bb118b54590ad"
@@ -2685,10 +3012,6 @@ presets:
       coord: [2293.98, 215.01, 942.98]
       hash_id: "0x3b67043ac7c0b46f"
       text: EC56 Rock Pattern"
-    UZ36:
-      coord: [2334.96, 133.22, 273.71]
-      hash_id: "0x0f8db29b8292398b"
-      text: UZ36 Pinwheel Balloons"
     UZ41:
       coord: [2746.19, 243.01, 202.34]
       hash_id: "0x90be65e313fcd20b"
@@ -2697,18 +3020,10 @@ presets:
       coord: [2242.82, 120, 243.97]
       hash_id: "0x970d75f6ffc93a9f"
       text: UZ44 Korok Friends"
-    UZ32:
-      coord: [2425.19, 301.36, 409.72]
-      hash_id: "0x84de464b0319b2d9"
-      text: UZ32 Stationary Lights"
     UZ51:
       coord: [2211.14, 158.2, 49.77]
       hash_id: "0x5c5eca1ae4f429ae"
       text: UZ51 Puzzle Blocks"
-    UZ14:
-      coord: [2554.63, 223.74, 767.25]
-      hash_id: "0x206eb84cf738afdf"
-      text: UZ14 Moving Lights"
     UZ47:
       coord: [2307.6, 210.04, 132.86]
       hash_id: "0x58e19a61805beae7"
@@ -2741,10 +3056,6 @@ presets:
       coord: [3010.54, 251.56, -785.91]
       hash_id: "0x21c40da2caee17e4"
       text: SS34 Rock Pattern"
-    UZ57:
-      coord: [2960.88, 249.96, -53.34]
-      hash_id: "0x46b4c947830ccf14"
-      text: UZ57 Stationary Lights"
     SS28:
       coord: [2691.3, 217.05, -542.07]
       hash_id: "0x0c3fc1a964ffdccb"
@@ -2777,14 +3088,6 @@ presets:
       coord: [2029.73, 265.68, -1166.69]
       hash_id: "0x35397a59967e4e58"
       text: SS49 Rock Lift"
-    ML16:
-      coord: [2528.4, 150.38, -1749.61]
-      hash_id: "0xe270f6391e15b8f3"
-      text: ML16 Stationary Balloon"
-    SS52:
-      coord: [2300.22, 224.66, -1357.35]
-      hash_id: "0x2e583a31a591b5f6"
-      text: SS52 Stationary Balloon"
     SS43:
       coord: [2162.38, 460.49, -1035.9]
       hash_id: "0x70072227a9f02779"
@@ -2801,22 +3104,10 @@ presets:
       coord: [2833.97, 207.56, -1118.86]
       hash_id: "0x454aa7fc1feec9b0"
       text: SS47 Rock Lift"
-    SS65:
-      coord: [2397.28, 129, -1846.62]
-      hash_id: "0xabb874f587316b3c"
-      text: SS65 Stationary Lights"
     SS48:
       coord: [2704.94, 203.1, -1164.4]
       hash_id: "0x7261259c1ead3026"
       text: SS48 Flower Trail"
-    SS53:
-      coord: [2200.95, 161.77, -1373.5]
-      hash_id: "0x5de8be783f951f13"
-      text: SS53 Moving Lights"
-    RW01:
-      coord: [2011.65, 122.03, -1896.03]
-      hash_id: "0xf74c04684d8d22f7"
-      text: RW01 Stationary Lights"
     SS58:
       coord: [2510.34, 122.89, -1572.89]
       hash_id: "0xc6947d12f86a2e46"
@@ -2833,14 +3124,6 @@ presets:
       coord: [2920.91, 485.99, -1392.43]
       hash_id: "0x312ae677720f56fb"
       text: ML09 Pull the Plug"
-    RW07:
-      coord: [2277.72, 287, -2360.62]
-      hash_id: "0x88af16211ba0f024"
-      text: RW07 Stationary Balloon"
-    RW20:
-      coord: [2635.05, 334.59, -2854.91]
-      hash_id: "0xd81342a3e39ec978"
-      text: RW20 Stationary Lights"
     RW17:
       coord: [2579.32, 365.29, -2729.39]
       hash_id: "0x51d31a2da3ec412f"
@@ -2857,22 +3140,10 @@ presets:
       coord: [2413.45, 219.2, -2269.39]
       hash_id: "0xd33379472fe84df3"
       text: RW05 Rock Pattern"
-    RW22:
-      coord: [2713.26, 296.77, -2960.65]
-      hash_id: "0xa7f0ffe3fa78c9f2"
-      text: RW22 Stationary Lights"
-    RW14:
-      coord: [2282.96, 289.25, -2656.87]
-      hash_id: "0xc3803255c5209e59"
-      text: RW14 Pinwheel Balloons"
     RW12:
       coord: [2142.33, 365.19, -2603.62]
       hash_id: "0xd65850fc2e6b5c1d"
       text: RW12 Offering Plate"
-    ML27:
-      coord: [2837.27, 128.24, -2120.36]
-      hash_id: "0x87d63e1b490f4b21"
-      text: ML27 Stationary Lights"
     ML24:
       coord: [2644.97, 233, -2120.32]
       hash_id: "0xb24a6b32763e0046"
@@ -2881,10 +3152,6 @@ presets:
       coord: [2458.03, 325.5, -2911.18]
       hash_id: "0x51753d5977774f42"
       text: RW24 Korok Friends"
-    ML32:
-      coord: [2867.94, 140.2, -2187.45]
-      hash_id: "0x729b16e04f9b0b86"
-      text: ML32 Moving Lights"
     RW09:
       coord: [2558.57, 360.67, -2484.76]
       hash_id: "0x3ee211651adafb7f"
@@ -2901,18 +3168,10 @@ presets:
       coord: [2877.92, 297.77, -2685.26]
       hash_id: "0x24d931052d5d3529"
       text: RW16 Pull the Plug"
-    RW23:
-      coord: [2294.31, 289.01, -3020.36]
-      hash_id: "0x35ae37f391da06dc"
-      text: RW23 Moving Lights"
     RW32:
       coord: [2363.39, 194.47, -3437.92]
       hash_id: "0x02cf11c67360bdbd"
       text: RW32 Goal Ring (Race)"
-    RW34:
-      coord: [2563.28, 346.13, -3598.71]
-      hash_id: "0xe11f9d2c96a75e36"
-      text: RW34 Pinwheel Balloons"
     RW41:
       coord: [2245.49, 135, -3469.26]
       hash_id: "0x2a2ce4df12954054"
@@ -2953,18 +3212,10 @@ presets:
       coord: [3349.6, 327, 3664.5]
       hash_id: "0xcc9b683cea8d43ce"
       text: EC03 Korok Friends"
-    UM02:
-      coord: [3453.03, 315.9, 3580.59]
-      hash_id: "0x9cff6f3e3dcbdcd0"
-      text: UM02 Pinwheel Balloons"
     UM13:
       coord: [3151.26, 252.31, 3092.48]
       hash_id: "0x91f7039138146499"
       text: UM13 Puzzle Blocks"
-    UM20:
-      coord: [3767.93, 124.79, 2690.37]
-      hash_id: "0x9291e575fbf3694f"
-      text: UM20 Moving Lights"
     EC27:
       coord: [3031.75, 439.29, 2289.25]
       hash_id: "0x59e72458a1158a88"
@@ -2977,14 +3228,6 @@ presets:
       coord: [3747.84, 199.5, 2307.5]
       hash_id: "0x4767004a184e7df7"
       text: UM25 Korok Friends"
-    UM27:
-      coord: [3326.53, 243.59, 2169.23]
-      hash_id: "0x186560ea1b3e338a"
-      text: UM27 Stationary Lights"
-    UM35:
-      coord: [3299.3, 543.31, 1510.84]
-      hash_id: "0x88ce8efe32271ac6"
-      text: UM35 Stationary Lights"
     UM33:
       coord: [4021.61, 242.62, 1621.95]
       hash_id: "0x0255aa0b2b5a3bee"
@@ -3009,18 +3252,10 @@ presets:
       coord: [3645.12, 201.84, 1460.12]
       hash_id: "0xca276c54f61e44a8"
       text: UM37 Flower Trail"
-    UM41:
-      coord: [3111.8, 425.29, 1298.45]
-      hash_id: "0x4740e75f483a6bcc"
-      text: UM41 Moving Lights"
     UM40:
       coord: [3358.11, 398.13, 1300.16]
       hash_id: "0x3f83a56674a3e0df"
       text: UM40 Puzzle Blocks"
-    UZ04:
-      coord: [3073.9, 389.11, 1140.2]
-      hash_id: "0x19021d4a0340cf61"
-      text: UZ04 Stationary Lights"
     UM38:
       coord: [3273.64, 390.99, 1397.95]
       hash_id: "0x18c8ea65d8623f9f"
@@ -3053,10 +3288,6 @@ presets:
       coord: [3013.29, 485.01, 932.63]
       hash_id: "0x5127616fca7589ac"
       text: UZ08 Rock Lift"
-    UZ31:
-      coord: [3588.67, 312.51, 416.07]
-      hash_id: "0xd704014dea7766b9"
-      text: UZ31 Stationary Balloon"
     UZ22:
       coord: [3778.4, 636.5, 447]
       hash_id: "0xd3eb6b50b2a47eaa"
@@ -3065,10 +3296,6 @@ presets:
       coord: [3531.7, 317, -65.07]
       hash_id: "0xf70f90356c6270aa"
       text: UZ37 Korok Friends"
-    UZ48:
-      coord: [3817.75, 318.98, 76.09]
-      hash_id: "0x43eb5a8ed311f1df"
-      text: UZ48 Pinwheel Balloons"
     UZ09:
       coord: [3801.14, 381.83, 855.96]
       hash_id: "0x5e2bf869fa54c085"
@@ -3085,10 +3312,6 @@ presets:
       coord: [3678.04, 363.36, 450.1]
       hash_id: "0x937b22d749936ce6"
       text: UZ30 Flower Trail"
-    UZ34:
-      coord: [3284.83, 355.57, 338.7]
-      hash_id: "0xa2f1f195f54314cb"
-      text: UZ34 Pinwheel Balloons"
     UZ38:
       coord: [2954.93, 327.91, 256.16]
       hash_id: "0xe88b9aeef786c7c0"
@@ -3097,14 +3320,6 @@ presets:
       coord: [3329.76, 217.88, 532.85]
       hash_id: "0xd30c5caa1f0a8670"
       text: UZ23 Rock Lift"
-    UZ24:
-      coord: [3322.39, 414.33, 515.95]
-      hash_id: "0xb7492f221f932cdb"
-      text: UZ24 Stationary Lights"
-    UZ39:
-      coord: [3192.14, 257.17, 226.67]
-      hash_id: "0xa6d53a645ed2e2b9"
-      text: UZ39 Stationary Lights"
     UZ20:
       coord: [3167.67, 221.46, 586.41]
       hash_id: "0x2f4ae92d9cfc7fb4"
@@ -3133,10 +3348,6 @@ presets:
       coord: [3272.69, 383.45, -13.03]
       hash_id: "0x08e8992879723b79"
       text: UZ54 Land on Target"
-    UZ58:
-      coord: [2951.33, 422.71, -78.58]
-      hash_id: "0x26d7c6ca1d6d26f4"
-      text: UZ58 Pinwheel Balloons"
     UZ70:
       coord: [3711.97, 106.93, -622.12]
       hash_id: "0x561014c04a918a30"
@@ -3145,30 +3356,10 @@ presets:
       coord: [3526.78, 255.87, -367.99]
       hash_id: "0xe48a674c285576ba"
       text: UZ62 Puzzle Blocks"
-    ML21:
-      coord: [3715.13, 282.39, -1949.03]
-      hash_id: "0xd408263570561f0a"
-      text: ML21 Moving Lights"
-    ML15:
-      coord: [3741.65, 492.4, -1685.44]
-      hash_id: "0xd8b58a2d2c5c4e3f"
-      text: ML15 Stationary Lights"
     ML08:
       coord: [3498.97, 268.21, -1454.68]
       hash_id: "0xd05e7f866162de56"
       text: ML08 Korok Friends"
-    ML14:
-      coord: [3528.71, 467.12, -1683.91]
-      hash_id: "0xa6c510ee8b1ffa30"
-      text: ML14 Stationary Lights"
-    ML13:
-      coord: [3895.72, 492.33, -1683.75]
-      hash_id: "0xa8a570c32a3ecc6b"
-      text: ML13 Stationary Lights"
-    ML05:
-      coord: [3562.14, 361.07, -1112.73]
-      hash_id: "0x18340069fb49b7a0"
-      text: ML05 Stationary Lights"
     ML22:
       coord: [3365.99, 249.62, -1979.37]
       hash_id: "0x5e8118bc32ef219c"
@@ -3181,10 +3372,6 @@ presets:
       coord: [3237.13, 302.99, -1545.17]
       hash_id: "0xd24ab4de070eee61"
       text: ML12 Rock Pattern"
-    ML31:
-      coord: [3286.33, 276.18, -2179.74]
-      hash_id: "0x14c29654803f590f"
-      text: ML31 Stationary Lights"
     RW21:
       coord: [3099.94, 290.04, -2951.01]
       hash_id: "0x198185e2b1f9642d"
@@ -3209,22 +3396,6 @@ presets:
       coord: [2859.77, 146, -1910.28]
       hash_id: "0x0e43951fb77c4253"
       text: ML26 Korok Friends"
-    ML38:
-      coord: [3415.21, 340.51, -2381.26]
-      hash_id: "0xda6b6c8219c4ab21"
-      text: ML38 Pinwheel Balloons"
-    ML41:
-      coord: [3932.92, 126.52, -2479.91]
-      hash_id: "0x979c1e85e3fd911c"
-      text: ML41 Stationary Lights"
-    ML25:
-      coord: [3913.84, 237.89, -2100.54]
-      hash_id: "0xbcfaec548caa2411"
-      text: ML25 Pinwheel Balloons"
-    ML29:
-      coord: [3782.36, 392.52, -2122.65]
-      hash_id: "0xec4abd8bbb706f5f"
-      text: ML29 Stationary Lights"
     ML33:
       coord: [3675.93, 322.58, -2193.26]
       hash_id: "0x1397dd11bda3b410"
@@ -3237,18 +3408,10 @@ presets:
       coord: [3440.26, 318.49, -2517.03]
       hash_id: "0x5a4b626ba47b743d"
       text: ML43 Puzzle Blocks"
-    RW35:
-      coord: [3796.5, 125.01, -3614.86]
-      hash_id: "0xd4b49b84ee1571bb"
-      text: RW35 Stationary Lights"
     RW27:
       coord: [3495.78, 332.65, -3311.49]
       hash_id: "0x09e727a91b073e06"
       text: RW27 Acorn in a Hole"
-    RW28:
-      coord: [3431.59, 128.04, -3325.06]
-      hash_id: "0xf1cf3b20adeb9ca4"
-      text: RW28 Stationary Lights"
     RW25:
       coord: [3665.76, 311.54, -3277.42]
       hash_id: "0xcce3348a0785214a"
@@ -3265,14 +3428,6 @@ presets:
       coord: [3064.48, 126.04, -3395.47]
       hash_id: "0x133abfb7b6706179"
       text: RW29 Goal Ring (Race)"
-    UM01:
-      coord: [4793.51, 247.08, 3757.19]
-      hash_id: "0x2968d5963c04437a"
-      text: UM01 Pinwheel Balloons"
-    UM11:
-      coord: [4542.98, 378.64, 3162.14]
-      hash_id: "0x3f618958e4097c21"
-      text: UM11 Stationary Lights"
     UM07:
       coord: [4282, 277.5, 3270.5]
       hash_id: "0x8179acfb6c1a014b"
@@ -3317,18 +3472,10 @@ presets:
       coord: [4393.71, 228.23, 2721.31]
       hash_id: "0xf7391e7fbfea1e61"
       text: UM19 Puzzle Blocks"
-    UM23:
-      coord: [4314.05, 187.65, 2518.41]
-      hash_id: "0x8efa3ce4009e8c08"
-      text: UM23 Stationary Lights"
     UM36:
       coord: [4133.55, 271.88, 1494.92]
       hash_id: "0xb1da5198b606c120"
       text: UM36 Repair Roof"
-    UM39:
-      coord: [4106.03, 271.88, 1376.55]
-      hash_id: "0x598acce20d46cafb"
-      text: UM39 Moving Lights"
     UM29:
       coord: [4290.57, 258.5, 1610.8]
       hash_id: "0xeed977e0d06944fe"
@@ -3337,14 +3484,6 @@ presets:
       coord: [4598.68, 114.95, 1856.99]
       hash_id: "0x0255b849a5b790f3"
       text: UM30 Rock Lift"
-    UM42:
-      coord: [4045.49, 323.86, 1285.47]
-      hash_id: "0xcbbefdf70367a54c"
-      text: UM42 Stationary Lights"
-    UZ02:
-      coord: [4715.14, 288.98, 1418.29]
-      hash_id: "0x74c06f9ef6de4914"
-      text: UZ02 Stationary Lights"
     UZ49:
       coord: [4165.51, 455.02, 63.29]
       hash_id: "0x888bb5465e0fb942"
@@ -3365,10 +3504,6 @@ presets:
       coord: [4174.72, 354.05, 698.99]
       hash_id: "0xfcfed5df4806ddf4"
       text: UZ16 Pull the Plug"
-    UZ17:
-      coord: [4484.52, 361.49, 678.08]
-      hash_id: "0x885515fbaae11773"
-      text: UZ17 Stationary Lights"
     UZ21:
       coord: [4635.29, 323.17, 566.09]
       hash_id: "0xd7f3fd658d143424"
@@ -3381,10 +3516,6 @@ presets:
       coord: [4388.59, 380.6, 612.01]
       hash_id: "0x571ffaad4a859799"
       text: UZ19 Rock Pattern"
-    UZ25:
-      coord: [4274.3, 443.84, 510.31]
-      hash_id: "0x3c8f65e4357e2f0e"
-      text: UZ25 Pinwheel Balloons"
     UZ27:
       coord: [4101.72, 368.68, 474.36]
       hash_id: "0x43215f45979c6622"
@@ -3405,10 +3536,6 @@ presets:
       coord: [4441.34, 176.75, -480.19]
       hash_id: "0x5882b0baf4cbb284"
       text: UZ67 Through the Roof"
-    ML03:
-      coord: [4523.79, 112.53, -1004.58]
-      hash_id: "0x912df811016d64f4"
-      text: ML03 Moving Lights"
     UZ60:
       coord: [4231.38, 109.9, -311.05]
       hash_id: "0xd5200f8502156812"
@@ -3417,10 +3544,6 @@ presets:
       coord: [4459.47, 162.18, -357.05]
       hash_id: "0xb3c234840466577c"
       text: UZ61 Rock Lift"
-    UZ69:
-      coord: [4142.34, 112.02, -557.37]
-      hash_id: "0xd9a3a16eca1fb171"
-      text: UZ69 Stationary Lights"
     UZ68:
       coord: [4395.41, 167.11, -535.14]
       hash_id: "0x8eb41c7423c96eca"
@@ -3437,10 +3560,6 @@ presets:
       coord: [4027.85, 454.94, -1094.71]
       hash_id: "0x240e6a67abc3d8b9"
       text: ML04 Pull the Plug"
-    ML47:
-      coord: [3997.32, 121.77, -2995.61]
-      hash_id: "0xd27971b2405d55cf"
-      text: ML47 Stationary Lights"
     ML36:
       coord: [4516.26, 218.68, -2305.92]
       hash_id: "0x8872854bccf2a961"
@@ -3449,10 +3568,6 @@ presets:
       coord: [4394.53, 110.96, -2414.53]
       hash_id: "0xb897994bfe565496"
       text: ML40 Puzzle Blocks"
-    ML44:
-      coord: [4118.99, 108.4, -2573.93]
-      hash_id: "0xed26999d6a90b959"
-      text: ML44 Stationary Lights"
     ML30:
       coord: [4591.71, 109.29, -2159.7]
       hash_id: "0xa810eb71b477f535"
@@ -3461,22 +3576,10 @@ presets:
       coord: [4083.58, 109.16, -2974.14]
       hash_id: "0xa544208210f98365"
       text: ML46 Pull the Plug"
-    RW38:
-      coord: [4897.25, 107.9, -3692.97]
-      hash_id: "0x6c9e306e8a7cfb0f"
-      text: RW38 Moving Lights"
-    RW33:
-      coord: [4598.1, 127.39, -3561.75]
-      hash_id: "0x1c221bb1e307b945"
-      text: RW33 Stationary Lights"
     RW36:
       coord: [3688.03, 350.5, -3314.68]
       hash_id: "0xa3ec81f3a4014875"
       text: RW36 Korok Friends"
-    RW30:
-      coord: [4491.06, 110.98, -3396.37]
-      hash_id: "0xe7ae0c8677a40e7a"
-      text: RW30 Pinwheel Balloons"
     RW37:
       coord: [4536.01, 150.64, -3663.11]
       hash_id: "0x7af3b1a2fef48c7a"
@@ -3493,18 +3596,6 @@ presets:
       coord: [-2989.52, 950.15, 3141.73]
       hash_id: "0x5d4a1aa8a1f9c2e8"
       text: RPS02 Goal Ring (Race)"
-    UZS02:
-      coord: [3496.58, 1299.49, 579.41]
-      hash_id: "0x087417fdf868fb68"
-      text: UZS02 Moving Lights"
-    UZS01:
-      coord: [3413.71, 1656.06, 617.88]
-      hash_id: "0x85ab951b7f171dbb"
-      text: UZS01 Pinwheel Balloons"
-    UMS03:
-      coord: [3662.12, 1273.77, 1408.44]
-      hash_id: "0xd29712e4cd8b11d3"
-      text: UMS03 Catch the Light"
     UMS02:
       coord: [4653.96, 1344.99, 2137.07]
       hash_id: "0xf9ea5281c2f35aca"
@@ -3577,30 +3668,6 @@ presets:
       coord: [524.49, 1967.67, 2748.37]
       hash_id: "0xec3ce9e972abf911"
       text: TRS01 Touch the Target"
-    TRS02:
-      coord: [285.12, 858.57, 1960.4]
-      hash_id: "0xe41300e10fec7359"
-      text: TRS02 Catch the Light"
-    LBS04:
-      coord: [-2367.1, 724.78, 865.11]
-      hash_id: "0x308063a2fdf6e5c2"
-      text: LBS04 Catch the Light"
-    SSS01:
-      coord: [1776.32, 1071.93, -938.91]
-      hash_id: "0x6cb84cda6536209a"
-      text: SSS01 Catch the Light"
-    MLS02:
-      coord: [4579.5, 1234.3, -909.5]
-      hash_id: "0x5649c4fe3b8af1ad"
-      text: MLS02 Catch the Light"
-    MLS01:
-      coord: [4818.28, 2046.72, -822.44]
-      hash_id: "0xce606043df79ed30"
-      text: MLS01 Pinwheel Balloons"
-    MLS03:
-      coord: [4747.48, 1934.87, -1155.58]
-      hash_id: "0x350a0197959059d6"
-      text: MLS03 Catch the Light"
     RPS03:
       coord: [-3917.26, 840.22, 2880.21]
       hash_id: "0xcccc7e5ace85c246"
@@ -3617,50 +3684,18 @@ presets:
       coord: [-3645.03, 1900.55, 1048.27]
       hash_id: "0x96819f6fe87ddf68"
       text: LBS01 Land on Target"
-    LBS02:
-      coord: [-3620.81, 1769.02, 996.98]
-      hash_id: "0x3a5f3788b95c9bb8"
-      text: LBS02 Catch the Light"
     LBS03:
       coord: [-3598.97, 1927.86, 978.57]
       hash_id: "0x6735acdfbbf17801"
       text: LBS03 Hanging Acorn"
-    UZS03:
-      coord: [3234.39, 1046.8, 461.52]
-      hash_id: "0xa69a3fd72a90db89"
-      text: UZS03 Catch the Light"
     GHS01:
       coord: [-3369.14, 2392.14, -50.82]
       hash_id: "0x197cbf3c97ef82c1"
       text: GHS01 Land on Target"
-    PSS02:
-      coord: [-681.92, 1291.82, 3534.95]
-      hash_id: "0x1ec8e6f102e27c3a"
-      text: PSS02 Catch the Light"
-    GCS02:
-      coord: [-1714.11, 1292.05, -3578.26]
-      hash_id: "0xbfb9b2ad181b5053"
-      text: GCS02 Catch the Light"
-    UMS01:
-      coord: [4795.92, 1291.13, 3755.85]
-      hash_id: "0x1e88d319955bffdb"
-      text: UMS01 Catch the Light"
-    GSI16:
-      coord: [342.82, 2387.41, -1756]
-      hash_id: "0x1d3cff37d42542b1"
-      text: GSI16 Stationary Lights"
-    GSI15:
-      coord: [376.85, 2460.17, -1731.84]
-      hash_id: "0xc64c6f914902fafd"
-      text: GSI15 Stationary Lights"
     GSI05:
       coord: [512.73, 1525.46, -1317.84]
       hash_id: "0x19d0c9ba930c53c1"
       text: GSI05 Flower Trail"
-    GSI01:
-      coord: [246.09, 1554.91, -822.41]
-      hash_id: "0x3ed7f1bfd87a8c15"
-      text: GSI01 Moving Lights"
     GSI03:
       coord: [113.27, 1522.52, -1081.22]
       hash_id: "0xc91832ce8a647b32"
@@ -3673,10 +3708,6 @@ presets:
       coord: [229.47, 1511.43, -1643.75]
       hash_id: "0x814cbffc4f494533"
       text: GSI13 Rock Lift"
-    GSI09:
-      coord: [449.94, 1463.6, -1522.15]
-      hash_id: "0x760f837e18bd1279"
-      text: GSI09 Stationary Balloon"
     GSI02:
       coord: [463.57, 1528.61, -881.34]
       hash_id: "0x91f903d96f9117bc"
@@ -3705,34 +3736,14 @@ presets:
       coord: [630.9, 1554.57, -1531.1]
       hash_id: "0xee76b05ce4b594b1"
       text: GSI10 Puzzle Blocks"
-    LL09:
-      coord: [-394, 426.78, 998.87]
-      hash_id: "0x6dc96711b2023f11"
-      text: LL09 Stationary Balloon"
     LL13:
       coord: [-254.2, 410.92, 943.86]
       hash_id: "0x81525f3a265a7263"
       text: LL13 Rock Lift"
-    LL10:
-      coord: [-381.27, 497.78, 995.87]
-      hash_id: "0x8f2796f4356e5f53"
-      text: LL10 Stationary Lights"
-    LL14:
-      coord: [-83.79, 425.16, 906.68]
-      hash_id: "0x30c00f46420dcc41"
-      text: LL14 Stationary Balloon"
-    LL07:
-      coord: [-254, 668.26, 1059]
-      hash_id: "0xde4e8d9a042f69a4"
-      text: LL07 Stationary Lights"
     LL11:
       coord: [-52.51, 382.95, 971.35]
       hash_id: "0x1bad0d756c4419ea"
       text: LL11 Puzzle Blocks"
-    LL17:
-      coord: [-360.42, 384.47, 885.02]
-      hash_id: "0xb0e8a633b7e5b991"
-      text: LL17 Pinwheel Balloons"
     LL06:
       coord: [-254, 575.45, 1061.77]
       hash_id: "0x31fc3653d35cd99b"

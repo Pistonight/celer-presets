@@ -1,5 +1,10 @@
 #TXTPP#include ../../GENERATED
-
+icons:
+  #TXTPP#include ../../botw/data/korok-icons.yaml
+  korok-boulder-stand:
+  korok-catch-seed:
+  korok-catch-light:
+  
 tags:
   counter-korok:
     color: black

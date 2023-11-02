@@ -1,30 +1,6 @@
 #TXTPP#include ../../GENERATED
 icons:
-  korok: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
-  korok-acorn: https://icons.pistonite.org/icon/misc.korok.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
-  korok-acorn-flying: https://icons.pistonite.org/icon/misc.korok.circle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
-  korok-balloon: https://icons.pistonite.org/icon/misc.korok.circle.568c28.c8e6af.568c28.c8e6af.568c28.fdfdfd.png
-  korok-basketball: https://icons.pistonite.org/icon/misc.korok.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
-  korok-confetti: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
-  korok-flower: https://icons.pistonite.org/icon/misc.korok.triangle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
-  korok-golf-boulder: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
-  korok-golf-snowball: https://icons.pistonite.org/icon/misc.korok.plus.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
-  korok-ice: https://icons.pistonite.org/icon/misc.korok.square.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
-  korok-light-chase: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
-  korok-lily: https://icons.pistonite.org/icon/misc.korok.circle.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
-  korok-magnesis: https://icons.pistonite.org/icon/rune.magnesis.none.d57b69.fec1d3.d57b69.fec1d3.d57b69.fec1d3.png
-  korok-matching: https://icons.pistonite.org/icon/misc.korok.minus.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
-  korok-minus: https://icons.pistonite.org/icon/misc.korok.minus.568c28.c8e6af.568c28.c8e6af.568c28.fdfdfd.png
-  korok-offer-apple: https://icons.pistonite.org/icon/misc.korok.plus.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
-  korok-offer-banana: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
-  korok-offer-durian: https://icons.pistonite.org/icon/misc.korok.plus.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
-  korok-offer-egg: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
-  korok-race: https://icons.pistonite.org/icon/misc.korok.circle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
-  korok-rock: https://icons.pistonite.org/icon/misc.korok.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
-  korok-rock-circle: https://icons.pistonite.org/icon/misc.korok.circle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
-  korok-rock-tree: https://icons.pistonite.org/icon/misc.korok.triangle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
-  korok-rock-under: https://icons.pistonite.org/icon/misc.korok.minus.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
-  korok-shoot: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  #TXTPP#include ../data/korok-icons.yaml
 
 tags:
   counter-korok:
@@ -39,7 +15,7 @@ presets:
     counter: .var(counter-korok)
   _Korok:
     #TXTPP#run ../../scripts/koroks.py ../data/koroks.yaml 900
-    
+
     # TXTPP#temp make-koroks.g.py
     # import yaml
     # def fmt_coord(coord):
