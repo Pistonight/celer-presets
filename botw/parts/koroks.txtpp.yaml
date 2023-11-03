@@ -16,4 +16,4 @@ presets:
     vars:
       korok-seed: .add(1)
   _Korok:
-    #TXTPP#run ../../scripts/koroks.py ../data/koroks.yaml 900
+    #TXTPP#run python ../../scripts/koroks.py ../data/koroks.yaml 900
