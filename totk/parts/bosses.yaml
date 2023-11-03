@@ -7,6 +7,8 @@ icons:
   talus-rare-depth: https://icons.pistonite.org/icon/misc.monster.plus.633830.f0673a.633830.f0673a.633830.fdfdfd.png
   talus-igneo-depth: https://icons.pistonite.org/icon/misc.monster.minus.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
   talus-frost-depth: https://icons.pistonite.org/icon/misc.monster.minus.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  talus-battle: https://icons.pistonite.org/icon/misc.monster.minus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  talus-battle-depth: https://icons.pistonite.org/icon/misc.monster.minus.633830.f0673a.633830.f0673a.633830.fdfdfd.png
   hinox-red-depth: https://icons.pistonite.org/icon/misc.monster.minus.613b75.b96cf5.613b75.b96cf5.8c5e28.ffffb5.png
   hinox-blue-depth: https://icons.pistonite.org/icon/misc.monster.minus.613b75.b96cf5.613b75.b96cf5.568c28.c8e6af.png
   hinox-black-depth: https://icons.pistonite.org/icon/misc.monster.minus.613b75.b96cf5.613b75.b96cf5.d57b69.fec1d3.png
@@ -67,6 +69,17 @@ presets:
         Depth:
           text: .boss-depth(Frost Talus)
           icon: talus-frost-depth
+          icon-priority: 1
+          counter: .var(counter-talus)
+      Battle:
+        text: .boss-totk(Battle Talus)
+        icon: talus-battle
+        icon-priority: 1
+        counter: .var(counter-talus)
+      _Battle:
+        Depth:
+          text: .boss-depth(Battle Talus)
+          icon: talus-battle-depth
           icon-priority: 1
           counter: .var(counter-talus)
     _Hinox:

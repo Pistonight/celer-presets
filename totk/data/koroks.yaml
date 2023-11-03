@@ -113,6 +113,9 @@ meta:
     OfferRoastedPorgy:
       name: Offer Roasted Porgy
       icon: korok-offer
+    LiftRockIce:
+      name: Lift Rock (Ice)
+      icon: korok-ice
   regions:
     EC:
       name: Eldin Canyon
@@ -3400,36 +3403,644 @@ data:
     type: OfferRoastedPorgy
     move: [3203.27, 106.43, -661.71]
     hash: "0x7e8afaf6e7a7138d"
+  GC11:
+    type: LiftRockLeaves
+    move: [-2264.59, 356.96, -2163.4]
+    hash: "0xf203598f31e957d3"
+  GC49:
+    type: LiftRockLeaves
+    move: [-4909.82, 74.59, -3777.52]
+    hash: "0xc877a01759ae2cab"
+  GSI13:
+    type: LiftRockLeaves
+    move: [229.47, 1511.43, -1643.75]
+    hash: "0x814cbffc4f494533"
+  HFS02:
+    type: LiftRockLeaves
+    move: [-793.57, 1041.82, -1601.78]
+    hash: "0x0d44491367c38d92"
+  LB23:
+    type: LiftRockLeaves
+    move: [-2341.68, 211.13, 939.24]
+    hash: "0xf08da43e0532ff50"
+  LB37:
+    type: LiftRockLeaves
+    move: [-3551.74, 317.35, 594.93]
+    hash: "0x8f37c80d3606ae8f"
+  LB44:
+    type: LiftRockLeaves
+    move: [-2436.48, 331.05, 511.67]
+    hash: "0xa67846124a64d127"
+  LL41:
+    type: LiftRockLeaves
+    move: [-312.99, 130.5, 324.12]
+    hash: "0x8dd5d22ea44ab48f"
+  LL54:
+    type: LiftRockLeaves
+    move: [74.69, 139.88, -326.99]
+    hash: "0x5fbd3ce15c6519ba"
+  PF18:
+    type: LiftRockLeaves
+    move: [297.4, 123.19, -1833.82]
+    hash: "0x357dcaa8a1086890"
+  PF49:
+    type: LiftRockLeaves
+    move: [1777.18, 188.45, -2990.83]
+    hash: "0x2a4d578800c04075"
+  RW39:
+    type: LiftRockLeaves
+    move: [3118.97, 106.72, -3719.79]
+    hash: "0x03bfce6efcd95e77"
+  SS11:
+    type: LiftRockLeaves
+    move: [1182.32, 263.4, 379.5]
+    hash: "0x0fd6922f3df3bfd5"
+  SS15:
+    type: LiftRockLeaves
+    move: [1396.74, 132.18, 127.86]
+    hash: "0x34e0b8e62170b922"
+  SS57:
+    type: LiftRockLeaves
+    move: [1786.58, 116.21, -1551.79]
+    hash: "0x75b000d32ab87851"
+  UM18:
+    type: LiftRockLeaves
+    move: [4270.89, 253.63, 2826.92]
+    hash: "0xc112d086cec56f69"
+  UM24:
+    type: LiftRockLeaves
+    move: [4072.93, 179.39, 2452.56]
+    hash: "0xcc286c97e00bba6e"
+  UM30:
+    type: LiftRockLeaves
+    move: [4598.68, 114.95, 1856.99]
+    hash: "0x0255b849a5b790f3"
+  UZ01:
+    type: LiftRockLeaves
+    move: [3160.44, 362.87, 1425.98]
+    hash: "0xd9ecf059e8ab256c"
+  GH15:
+    type: LiftRockIce
+    move: [-3812.11, 654.04, -789.98]
+    hash: "0x5c78e1a8ff5d6583"
+  GH32:
+    type: LiftRockIce
+    move: [-3249.08, 506.96, -1463.79]
+    hash: "0x02b7be4f6807a9c2"
+  GH35:
+    type: LiftRockIce
+    move: [-3011.19, 683.03, -1501.24]
+    hash: "0x26a7a4c54799c4a0"
+  RP07:
+    type: LiftRockIce
+    move: [-4430.51, 412.55, 3682.64]
+    hash: "0xc5e6febce2a7e832"
+  RP08:
+    type: LiftRockIce
+    move: [-4004.7, 630.48, 3622.87]
+    hash: "0x552e3762db40dc25"
+  RP18:
+    type: LiftRockIce
+    move: [-3576.41, 493.87, 3266.75]
+    hash: "0x59a0ee0323638e91"
+  RP31:
+    type: LiftRockIce
+    move: [-3849.86, 135.37, 2737.93]
+    hash: "0x66f8f6fa876b4ae1"
+  EC16:
+    type: LiftRock
+    move: [1724.5, 604.77, 2554.51]
+    hash: "0x7f18fb748c5e4fdd"
+  EC31:
+    type: LiftRock
+    move: [1671.23, 447.4, 1981.33]
+    hash: "0x9b004503f2f600c7"
+  EC46:
+    type: LiftRock
+    move: [770.25, 193.08, 1415.68]
+    hash: "0x06b1e1eaac6a4912"
+  EC50:
+    type: LiftRock
+    move: [1941.9, 245.23, 1207.57]
+    hash: "0x81eca7b0e8d5d540"
+  EC57:
+    type: LiftRock
+    move: [1857.98, 197.29, 786.15]
+    hash: "0x305c614a1f34bae9"
+  EC59:
+    type: LiftRock
+    move: [1320.09, 122.6, 715.78]
+    hash: "0x1286a31c7ca34324"
+  GC01:
+    type: LiftRock
+    move: [-2198.34, 167.21, -1679.96]
+    hash: "0x81ada27f9633bbc7"
+  GC02:
+    type: LiftRock
+    move: [-2244.08, 211.13, -1740.12]
+    hash: "0xbbee3d3480ad580a"
+  GC06:
+    type: LiftRock
+    move: [-2486.11, 227.06, -2054.55]
+    hash: "0x0f69cec7b5105a3f"
+  GC15:
+    type: LiftRock
+    move: [-3749.12, 183.57, -2287.38]
+    hash: "0x3d5a44867ec81ca0"
+  GC38:
+    type: LiftRock
+    move: [-1944.79, 232.52, -3184.99]
+    hash: "0xf4316c7f183f7a50"
+  GC43:
+    type: LiftRock
+    move: [-1385.01, 539.97, -3493]
+    hash: "0x510860492442b25c"
+  GH09:
+    type: LiftRock
+    move: [-4376.99, 557.19, -524.72]
+    hash: "0x5471ca07565b90d0"
+  GH17:
+    type: LiftRock
+    move: [-3600.73, 612.08, -916.12]
+    hash: "0x1b1937e9b655414c"
+  GH18:
+    type: LiftRock
+    move: [-4002.98, 820.09, -969.15]
+    hash: "0xfc817200d5d513ae"
+  GH34:
+    type: LiftRock
+    move: [-2140.24, 385.37, -1485.63]
+    hash: "0x2c5456d175db97ff"
+  GH49:
+    type: LiftRock
+    move: [-4148.04, 208.44, -1931.77]
+    hash: "0xdcc9431fd3ebcb17"
+  GSI03:
+    type: LiftRock
+    move: [113.27, 1522.52, -1081.22]
+    hash: "0xc91832ce8a647b32"
+  GSI11:
+    type: LiftRock
+    move: [23.64, 1557.39, -1558.23]
+    hash: "0x332cc92921979ff2"
+  HF02:
+    type: LiftRock
+    move: [-1742, 226.56, -400.97]
+    hash: "0x4ca9cfca028b4ae5"
+  HF03:
+    type: LiftRock
+    move: [-2279.53, 503.77, -402.49]
+    hash: "0x6afd8452447f54d4"
+  HF11:
+    type: LiftRock
+    move: [-1968.59, 254.26, -594.93]
+    hash: "0xb7eaa3cc2d1f74c6"
+  HF12:
+    type: LiftRock
+    move: [-2600.97, 318.65, -669.41]
+    hash: "0x53a601eb1d1556ba"
+  HF13:
+    type: LiftRock
+    move: [-764.75, 135.04, -673.62]
+    hash: "0x4616e6f7caab28b0"
+  HF15:
+    type: LiftRock
+    move: [-1343.57, 116, -689.2]
+    hash: "0x45f41ec4b9b7f795"
+  HF18:
+    type: LiftRock
+    move: [-2200.36, 275.91, -798.61]
+    hash: "0xb13ea71e58eb9dfd"
+  HF28:
+    type: LiftRock
+    move: [-599.08, 141.91, -1076.29]
+    hash: "0x71893b6ec55b65eb"
+  HF30:
+    type: LiftRock
+    move: [-2340.5, 249.69, -1104.35]
+    hash: "0x3eb935306a762a9d"
+  HF32:
+    type: LiftRock
+    move: [-664.31, 133.65, -1222.37]
+    hash: "0x12266920cd6dd9d4"
+  HF33:
+    type: LiftRock
+    move: [-1771.4, 115.7, -1243.44]
+    hash: "0x8deeafa8a1181258"
+  HF41:
+    type: LiftRock
+    move: [-1518.37, 148.65, -1508.13]
+    hash: "0x79e3c29f078158bb"
+  HF48:
+    type: LiftRock
+    move: [147.64, 136.11, -1611.33]
+    hash: "0x7028c24d6a72d7c7"
+  HF56:
+    type: LiftRock
+    move: [-1700.27, 89.25, -1826.47]
+    hash: "0x3cd4f4f91f24813a"
+  HF60:
+    type: LiftRock
+    move: [-889.49, 212.09, -1907.83]
+    hash: "0x90bf00482aee36fd"
+  HF62:
+    type: LiftRock
+    move: [-1516.51, 238.17, -1922.72]
+    hash: "0x3ba9e6124f54b7a2"
+  HF72:
+    type: LiftRock
+    move: [-1294.63, 417.59, -2213.61]
+    hash: "0x9aa8151cda295f0a"
+  HF75:
+    type: LiftRock
+    move: [-102.99, 175.93, -2292.11]
+    hash: "0x244c409f5ff89290"
+  LB01:
+    type: LiftRock
+    move: [-1147.25, 72.49, 2534.86]
+    hash: "0xcd3ef47e2a006007"
+  LB07:
+    type: LiftRock
+    move: [-2221.22, 275.5, 1580.39]
+    hash: "0xa6b1c6c0bc0165a0"
+  LB11:
+    type: LiftRock
+    move: [-3284.53, 293.75, 1340.56]
+    hash: "0xcc09dcda657b21c9"
+  LB20:
+    type: LiftRock
+    move: [-3147.93, 262.43, 1107.06]
+    hash: "0xf6d8b5bfcb50763d"
+  LB25:
+    type: LiftRock
+    move: [-1287.87, 204.7, 897.48]
+    hash: "0x7d957f94d0365184"
+  LB38:
+    type: LiftRock
+    move: [-3011.53, 237.62, 584.29]
+    hash: "0x6ceb26714f5a0ca4"
+  LB58:
+    type: LiftRock
+    move: [-1702.41, 197.73, -83.9]
+    hash: "0x501bc20503a12a34"
+  LB60:
+    type: LiftRock
+    move: [-3132.57, 315.37, -113.16]
+    hash: "0x1d5d00758bce34de"
+  LL13:
+    type: LiftRock
+    move: [-254.2, 410.92, 943.86]
+    hash: "0x81525f3a265a7263"
+  LL21:
+    type: LiftRock
+    move: [-287.34, 210.59, 839.58]
+    hash: "0x03e03abfeb18f492"
+  LL24:
+    type: LiftRock
+    move: [-128.31, 202.34, 813.76]
+    hash: "0xa4d884bd5e8f57b8"
+  LL28:
+    type: LiftRock
+    move: [-530, 139.57, 693.89]
+    hash: "0x2a4242cac2ae87a1"
+  LL30:
+    type: LiftRock
+    move: [-237.41, 185.36, 632.46]
+    hash: "0xfabc2096c0af7025"
+  LL37:
+    type: LiftRock
+    move: [-253.97, 134.92, 425.91]
+    hash: "0x8b639e8e061957c6"
+  LL42:
+    type: LiftRock
+    move: [-254.28, 151.89, 257.24]
+    hash: "0xb3a04ef3d6fe86e8"
+  LL45:
+    type: LiftRock
+    move: [-1130.87, 144.74, 18.5]
+    hash: "0x5584497f14f4ccd0"
+  LL48:
+    type: LiftRock
+    move: [-923.51, 212.23, -44.93]
+    hash: "0x8178ccd8d919b17e"
+  LL56:
+    type: LiftRock
+    move: [-217.75, 157.85, -383.11]
+    hash: "0x033443a6a909d730"
+  LL57:
+    type: LiftRock
+    move: [754.16, 135.87, -450.53]
+    hash: "0x78ffbf9763eb6581"
+  LL58:
+    type: LiftRock
+    move: [501, 168.46, -470.17]
+    hash: "0x7208da5aa56fc6a4"
+  LL60:
+    type: LiftRock
+    move: [-588.74, 130.03, -559.2]
+    hash: "0x8d00b3fe2e5975dc"
+  LL62:
+    type: LiftRock
+    move: [625.01, 126.6, -753.43]
+    hash: "0x89742f6a1cedbdae"
+  ML28:
+    type: LiftRock
+    move: [2489.61, 138.97, -2122.53]
+    hash: "0x8d3de9430aaf4589"
+  ML33:
+    type: LiftRock
+    move: [3675.93, 322.58, -2193.26]
+    hash: "0x1397dd11bda3b410"
+  ML34:
+    type: LiftRock
+    move: [3264.48, 212.46, -2225.93]
+    hash: "0x50ccb18cd3a99fad"
+  ML35:
+    type: LiftRock
+    move: [2809.94, 231.43, -2247.73]
+    hash: "0x3d6b5550593877ef"
+  ML36:
+    type: LiftRock
+    move: [4516.26, 218.68, -2305.92]
+    hash: "0x8872854bccf2a961"
+  ML45:
+    type: LiftRock
+    move: [3749.07, 126.55, -2629.29]
+    hash: "0x0741610897698b52"
+  PF06:
+    type: LiftRock
+    move: [333.22, 115.15, -1282.91]
+    hash: "0x8fe74ec1de8ba478"
+  PF07:
+    type: LiftRock
+    move: [843.39, 132.26, -1291.41]
+    hash: "0xebe9b9944b046c77"
+  PF28:
+    type: LiftRock
+    move: [567.27, 218.06, -2384.24]
+    hash: "0x99d3f119204f7e1c"
+  PF35:
+    type: LiftRock
+    move: [-711.64, 204.77, -2624.98]
+    hash: "0x6b759a709a6be904"
+  PF40:
+    type: LiftRock
+    move: [339.97, 90.53, -2832.5]
+    hash: "0x5a8c0f0e980cb7da"
+  PF51:
+    type: LiftRock
+    move: [-150.91, 143.29, -3068.25]
+    hash: "0x4591d3d81f56b8f8"
+  PF58:
+    type: LiftRock
+    move: [1475.61, 191.94, -3263.53]
+    hash: "0x8f8622ce772e0d38"
+  PF60:
+    type: LiftRock
+    move: [206.4, 165.94, -3312.53]
+    hash: "0x52ae15f98600f13b"
+  PF63:
+    type: LiftRock
+    move: [-224.58, 177.19, -3340.61]
+    hash: "0xcdcb4fa83a6d9116"
+  PF70:
+    type: LiftRock
+    move: [1738.27, 155.66, -3468.02]
+    hash: "0x0416f74fcfe21bf2"
+  PF83:
+    type: LiftRock
+    move: [1096, 107.85, -3832.78]
+    hash: "0x467488806cf0387d"
+  PFS01:
+    type: LiftRock
+    move: [126.06, 796.91, -2502.47]
+    hash: "0x0b0f272dece7471f"
+  PFS02:
+    type: LiftRock
+    move: [967.08, 820.74, -3184.78]
+    hash: "0xde33eeae4c84c180"
+  PS01:
+    type: LiftRock
+    move: [-1972.18, 419.4, 3796.18]
+    hash: "0x47f838e06fc44658"
+  PS05:
+    type: LiftRock
+    move: [-1762.55, 339.52, 3554.08]
+    hash: "0xe715f58b3ec59e6b"
+  PS18:
+    type: LiftRock
+    move: [-1185.97, 4.87, 2481.94]
+    hash: "0x351b0943ace2f82a"
+  PS24:
+    type: LiftRock
+    move: [-1810.68, 379.3, 2198.08]
+    hash: "0x105b1bef673b9f2e"
+  RP16:
+    type: LiftRock
+    move: [-4038.38, 370.99, 3364.97]
+    hash: "0x9fd381e9d8a29b78"
+  RP25:
+    type: LiftRock
+    move: [-3350.7, 621.29, 2992.55]
+    hash: "0x50b98467625ced72"
+  RP29:
+    type: LiftRock
+    move: [-3752.8, 242.81, 2797.88]
+    hash: "0x9fe07c6db8410b40"
+  RP43:
+    type: LiftRock
+    move: [-3087.09, 226.93, 2119.89]
+    hash: "0x00e4eb1dd5dc9be2"
+  RP46:
+    type: LiftRock
+    move: [-3958.43, 313.89, 2035.99]
+    hash: "0x604788e1599c96ca"
+  RP47:
+    type: LiftRock
+    move: [-3944.54, 315.05, 1969.23]
+    hash: "0x3ad25e46595f630f"
+  RP51:
+    type: LiftRock
+    move: [-3613.7, 507.69, 1880.03]
+    hash: "0x354ad574acff4aa7"
+  RP53:
+    type: LiftRock
+    move: [-3634.49, 273.06, 1808.9]
+    hash: "0x0b4cb5c134f6e5ee"
+  RP58:
+    type: LiftRock
+    move: [-3985.51, 285.22, 1708.93]
+    hash: "0x83edb3eca506057b"
+  RP59:
+    type: LiftRock
+    move: [-4169.55, 215.86, 1695.96]
+    hash: "0x93e0f34cdc9713f1"
+  RP60:
+    type: LiftRock
+    move: [-3696.41, 208.61, 1685.38]
+    hash: "0xc57d6f354fe31cc1"
+  RPS01:
+    type: LiftRock
+    move: [-3218.41, 1477.8, 3376.99]
+    hash: "0x75cc90ceb2c122d7"
+  RW15:
+    type: LiftRock
+    move: [2043.95, 413.25, -2660.84]
+    hash: "0x8810ac0d1bafc11e"
+  RW25:
+    type: LiftRock
+    move: [3665.76, 311.54, -3277.42]
+    hash: "0xcce3348a0785214a"
+  RW37:
+    type: LiftRock
+    move: [4536.01, 150.64, -3663.11]
+    hash: "0x7af3b1a2fef48c7a"
+  RWS01:
+    type: LiftRock
+    move: [2719.47, 1328.37, -2739.68]
+    hash: "0x5c5eb9bd003a50f3"
+  SS01:
+    type: LiftRock
+    move: [966.93, 115.9, 1027.06]
+    hash: "0xb87bce7e3ba1a303"
+  SS18:
+    type: LiftRock
+    move: [1892.36, 114.77, -151.01]
+    hash: "0x29f9f8d22b711b0c"
+  SS24:
+    type: LiftRock
+    move: [1824.72, 118.19, -459.5]
+    hash: "0x54106121dab36edc"
+  SS29:
+    type: LiftRock
+    move: [2546.82, 225.66, -584.69]
+    hash: "0x96271a5f7934247f"
+  SS33:
+    type: LiftRock
+    move: [1626.48, 145.24, -781.15]
+    hash: "0x366adbff1d352423"
+  SS35:
+    type: LiftRock
+    move: [1282.3, 182.9, -834.46]
+    hash: "0x45b6f62c3fb228cd"
+  SS38:
+    type: LiftRock
+    move: [1694.6, 416.18, -929.15]
+    hash: "0x1d948b9fec609676"
+  SS47:
+    type: LiftRock
+    move: [2833.97, 207.56, -1118.86]
+    hash: "0x454aa7fc1feec9b0"
+  SS49:
+    type: LiftRock
+    move: [2029.73, 265.68, -1166.69]
+    hash: "0x35397a59967e4e58"
+  SS50:
+    type: LiftRock
+    move: [1537.07, 167.65, -1301.75]
+    hash: "0xc911408c73a82c97"
+  SS55:
+    type: LiftRock
+    move: [1925.51, 187.32, -1489.51]
+    hash: "0xd3a6cd423e176fef"
+  SS62:
+    type: LiftRock
+    move: [2325.78, 132.95, -1828.58]
+    hash: "0x2b749fc4ae1e4a25"
+  SSS03:
+    type: LiftRock
+    move: [2344.92, 1991.43, -1752.77]
+    hash: "0xc201f396c3622317"
+  TR04:
+    type: LiftRock
+    move: [859.09, 315.15, 3355.53]
+    hash: "0xcd9b2186bec321d8"
+  TR05:
+    type: LiftRock
+    move: [127.9, 286.82, 3151.01]
+    hash: "0x761aa04b1bb09961"
+  TR11:
+    type: LiftRock
+    move: [171.66, 282.04, 3036.58]
+    hash: "0x22a54abb1699213d"
+  TR12:
+    type: LiftRock
+    move: [785.73, 387.74, 2953.05]
+    hash: "0x0f52a4fe25499f09"
+  UM04:
+    type: LiftRock
+    move: [3267.37, 139.69, 3396.78]
+    hash: "0xbf15b41c0e0b0060"
+  UM10:
+    type: LiftRock
+    move: [4157.26, 355.83, 3167.72]
+    hash: "0x4bdeebd9cf53e12f"
+  UM28:
+    type: LiftRock
+    move: [4527.52, 105.72, 2046.6]
+    hash: "0x7cb274ad5b394f63"
+  UM31:
+    type: LiftRock
+    move: [3648.95, 217.83, 1797.53]
+    hash: "0xc9b70b5662cf2cb8"
+  UM32:
+    type: LiftRock
+    move: [3231.98, 332.33, 1787.29]
+    hash: "0x986d1dbf20c89e06"
+  UM33:
+    type: LiftRock
+    move: [4021.61, 242.62, 1621.95]
+    hash: "0x0255aa0b2b5a3bee"
+  UM38:
+    type: LiftRock
+    move: [3273.64, 390.99, 1397.95]
+    hash: "0x18c8ea65d8623f9f"
+  UZ08:
+    type: LiftRock
+    move: [3013.29, 485.01, 932.63]
+    hash: "0x5127616fca7589ac"
+  UZ23:
+    type: LiftRock
+    move: [3329.76, 217.88, 532.85]
+    hash: "0xd30c5caa1f0a8670"
+  UZ27:
+    type: LiftRock
+    move: [4101.72, 368.68, 474.36]
+    hash: "0x43215f45979c6622"
+  UZ33:
+    type: LiftRock
+    move: [4134.99, 521.56, 406.29]
+    hash: "0xbfd63528091b3b96"
+  UZ35:
+    type: LiftRock
+    move: [3219.53, 184.17, 282.01]
+    hash: "0x99f0cb5eefabe27d"
+  UZ45:
+    type: LiftRock
+    move: [2471.85, 184.82, 150.5]
+    hash: "0xa187ec5351ebd3b6"
+  UZ49:
+    type: LiftRock
+    move: [4165.51, 455.02, 63.29]
+    hash: "0x888bb5465e0fb942"
+  UZ55:
+    type: LiftRock
+    move: [2851.06, 186.22, -27.82]
+    hash: "0x53a4e9bcbeff2c5e"
+  UZ61:
+    type: LiftRock
+    move: [4459.47, 162.18, -357.05]
+    hash: "0xb3c234840466577c"
+  UZ66:
+    type: LiftRock
+    move: [3321.48, 127.47, -475.24]
+    hash: "0xfc8f3891d24efa80"
 presets:
  _Korok:
-    RP08:
-      coord: [-4004.7, 630.48, 3622.87]
-      hash_id: "0x552e3762db40dc25"
-      text: RP08 Rock Lift"
-    RP07:
-      coord: [-4430.51, 412.55, 3682.64]
-      hash_id: "0xc5e6febce2a7e832"
-      text: RP07 Rock Lift"
     RP38:
       coord: [-4263.1, 95, 2176.5]
       hash_id: "0x95684aa7a4c3b176"
       text: RP38 Korok Friends"
-    RP31:
-      coord: [-3849.86, 135.37, 2737.93]
-      hash_id: "0x66f8f6fa876b4ae1"
-      text: RP31 Rock Lift"
-    RP59:
-      coord: [-4169.55, 215.86, 1695.96]
-      hash_id: "0x93e0f34cdc9713f1"
-      text: RP59 Rock Lift"
-    GH09:
-      coord: [-4376.99, 557.19, -524.72]
-      hash_id: "0x5471ca07565b90d0"
-      text: GH09 Rock Lift"
-    GH49:
-      coord: [-4148.04, 208.44, -1931.77]
-      hash_id: "0xdcc9431fd3ebcb17"
-      text: GH49 Rock Lift"
     GH10:
       coord: [-4540.5, 633.5, -1344]
       hash_id: "0xba0dbba90c1a9a19"
@@ -3442,10 +4053,6 @@ presets:
       coord: [-4591.88, 151.75, -2349.1]
       hash_id: "0xca57fba1dfa9474b"
       text: GC17 Through the Roof"
-    GC49:
-      coord: [-4909.82, 74.59, -3777.52]
-      hash_id: "0xc877a01759ae2cab"
-      text: GC49 Rock Lift"
     GC45:
       coord: [-4610.9, 143.5, -3198.5]
       hash_id: "0xb9ed273015b98834"
@@ -3458,54 +4065,14 @@ presets:
       coord: [-3670.76, 429, 3383.01]
       hash_id: "0xc8de69e1d4d01529"
       text: RP13 Korok Friends"
-    RP16:
-      coord: [-4038.38, 370.99, 3364.97]
-      hash_id: "0x9fd381e9d8a29b78"
-      text: RP16 Rock Lift"
     RP20:
       coord: [-3001.99, 680.37, 3220.05]
       hash_id: "0x248bb738369d9d27"
       text: RP20 Through the Roof"
-    RP18:
-      coord: [-3576.41, 493.87, 3266.75]
-      hash_id: "0x59a0ee0323638e91"
-      text: RP18 Rock Lift"
-    RP43:
-      coord: [-3087.09, 226.93, 2119.89]
-      hash_id: "0x00e4eb1dd5dc9be2"
-      text: RP43 Rock Lift"
-    RP29:
-      coord: [-3752.8, 242.81, 2797.88]
-      hash_id: "0x9fe07c6db8410b40"
-      text: RP29 Rock Lift"
-    RP46:
-      coord: [-3958.43, 313.89, 2035.99]
-      hash_id: "0x604788e1599c96ca"
-      text: RP46 Rock Lift"
-    RP25:
-      coord: [-3350.7, 621.29, 2992.55]
-      hash_id: "0x50b98467625ced72"
-      text: RP25 Rock Lift"
     RP35:
       coord: [-3677.33, 426.12, 2466.63]
       hash_id: "0xfd3a7a70e46b937a"
       text: RP35 Rock Lift"
-    LB11:
-      coord: [-3284.53, 293.75, 1340.56]
-      hash_id: "0xcc09dcda657b21c9"
-      text: LB11 Rock Lift"
-    RP47:
-      coord: [-3944.54, 315.05, 1969.23]
-      hash_id: "0x3ad25e46595f630f"
-      text: RP47 Rock Lift"
-    RP51:
-      coord: [-3613.7, 507.69, 1880.03]
-      hash_id: "0x354ad574acff4aa7"
-      text: RP51 Rock Lift"
-    RP53:
-      coord: [-3634.49, 273.06, 1808.9]
-      hash_id: "0x0b4cb5c134f6e5ee"
-      text: RP53 Rock Lift"
     RP54:
       coord: [-4062.35, 261.99, 1793.69]
       hash_id: "0x9af06c0d78dac507"
@@ -3514,22 +4081,10 @@ presets:
       coord: [-3423.7, 277.73, 2066.99]
       hash_id: "0x87f2fed79e05fff3"
       text: RP44 Through the Roof"
-    LB20:
-      coord: [-3147.93, 262.43, 1107.06]
-      hash_id: "0xf6d8b5bfcb50763d"
-      text: LB20 Rock Lift"
     LB22:
       coord: [-3715.55, 303.47, 1039.37]
       hash_id: "0x0243c27dba6150c9"
       text: LB22 Through the Roof"
-    RP58:
-      coord: [-3985.51, 285.22, 1708.93]
-      hash_id: "0x83edb3eca506057b"
-      text: RP58 Rock Lift"
-    RP60:
-      coord: [-3696.41, 208.61, 1685.38]
-      hash_id: "0xc57d6f354fe31cc1"
-      text: RP60 Rock Lift"
     LB30:
       coord: [-3614.14, 395.17, 983]
       hash_id: "0x8464b2a0e6538974"
@@ -3538,10 +4093,6 @@ presets:
       coord: [-3600.14, 15.32, 110.9]
       hash_id: "0x175cc755836bd41b"
       text: GH02 Through the Roof"
-    LB38:
-      coord: [-3011.53, 237.62, 584.29]
-      hash_id: "0x6ceb26714f5a0ca4"
-      text: LB38 Rock Lift"
     LB33:
       coord: [-3434.75, 279.69, 708.36]
       hash_id: "0x38ffa9a68d9edee7"
@@ -3550,46 +4101,18 @@ presets:
       coord: [-3580.6, 176.5, 12.5]
       hash_id: "0x3a2f117abde21022"
       text: GH03 Korok Friends"
-    LB37:
-      coord: [-3551.74, 317.35, 594.93]
-      hash_id: "0x8f37c80d3606ae8f"
-      text: LB37 Rock Lift"
     GH12:
       coord: [-3199.49, 584.89, -1169.53]
       hash_id: "0x75ed6d366e8b0336"
       text: GH12 Korok Friends"
-    GH15:
-      coord: [-3812.11, 654.04, -789.98]
-      hash_id: "0x5c78e1a8ff5d6583"
-      text: GH15 Rock Lift"
     LB54:
       coord: [-2962, 249.5, 84.5]
       hash_id: "0x109d5c3cfc1cdbb3"
       text: LB54 Korok Friends"
-    LB60:
-      coord: [-3132.57, 315.37, -113.16]
-      hash_id: "0x1d5d00758bce34de"
-      text: LB60 Rock Lift"
-    GH17:
-      coord: [-3600.73, 612.08, -916.12]
-      hash_id: "0x1b1937e9b655414c"
-      text: GH17 Rock Lift"
-    GH18:
-      coord: [-4002.98, 820.09, -969.15]
-      hash_id: "0xfc817200d5d513ae"
-      text: GH18 Rock Lift"
-    GH32:
-      coord: [-3249.08, 506.96, -1463.79]
-      hash_id: "0x02b7be4f6807a9c2"
-      text: GH32 Rock Lift"
     GH23:
       coord: [-3163.34, 544.35, -1037.72]
       hash_id: "0x6608a68c185b0c01"
       text: GH23 Through the Roof"
-    GH35:
-      coord: [-3011.19, 683.03, -1501.24]
-      hash_id: "0x26a7a4c54799c4a0"
-      text: GH35 Rock Lift"
     GC22:
       coord: [-2982.4, 131, -2327.5]
       hash_id: "0x15a4b1c5a6171c78"
@@ -3598,10 +4121,6 @@ presets:
       coord: [-3757.2, 158.28, -2442.9]
       hash_id: "0x69f73203ae5fb9ef"
       text: GC20 Through the Roof"
-    GC15:
-      coord: [-3749.12, 183.57, -2287.38]
-      hash_id: "0x3d5a44867ec81ca0"
-      text: GC15 Rock Lift"
     GC30:
       coord: [-3827.14, 131.81, -2859.7]
       hash_id: "0x1ae169c4708f1ee2"
@@ -3618,10 +4137,6 @@ presets:
       coord: [-2339.82, 509.5, 2955.47]
       hash_id: "0x1ca9c1898ede247d"
       text: PS13 Korok Friends"
-    PS01:
-      coord: [-1972.18, 419.4, 3796.18]
-      hash_id: "0x47f838e06fc44658"
-      text: PS01 Rock Lift"
     RP06:
       coord: [-2890.94, 352.4, 3491.44]
       hash_id: "0xbe56994927c6cb37"
@@ -3634,50 +4149,18 @@ presets:
       coord: [-2795.5, 459.72, 2304.9]
       hash_id: "0x6400888dba389d0a"
       text: PS21 Korok Friends"
-    LB07:
-      coord: [-2221.22, 275.5, 1580.39]
-      hash_id: "0xa6b1c6c0bc0165a0"
-      text: LB07 Rock Lift"
     LB43:
       coord: [-2084.43, 209.5, 482.3]
       hash_id: "0xf42ac71a180abe4e"
       text: LB43 Korok Friends"
-    LB44:
-      coord: [-2436.48, 331.05, 511.67]
-      hash_id: "0xa67846124a64d127"
-      text: LB44 Rock Lift"
     LB53:
       coord: [-2871.88, 284.77, 494.62]
       hash_id: "0xec2195519e8cdba3"
       text: LB53 Korok Friends"
-    LB23:
-      coord: [-2341.68, 211.13, 939.24]
-      hash_id: "0xf08da43e0532ff50"
-      text: LB23 Rock Lift"
-    HF12:
-      coord: [-2600.97, 318.65, -669.41]
-      hash_id: "0x53a601eb1d1556ba"
-      text: HF12 Rock Lift"
     HF16:
       coord: [-2220.66, 316.27, -693.38]
       hash_id: "0xb173abf890648dfd"
       text: HF16 Through the Roof"
-    HF18:
-      coord: [-2200.36, 275.91, -798.61]
-      hash_id: "0xb13ea71e58eb9dfd"
-      text: HF18 Rock Lift"
-    HF03:
-      coord: [-2279.53, 503.77, -402.49]
-      hash_id: "0x6afd8452447f54d4"
-      text: HF03 Rock Lift"
-    GC01:
-      coord: [-2198.34, 167.21, -1679.96]
-      hash_id: "0x81ada27f9633bbc7"
-      text: GC01 Rock Lift"
-    GH34:
-      coord: [-2140.24, 385.37, -1485.63]
-      hash_id: "0x2c5456d175db97ff"
-      text: GH34 Rock Lift"
     HF27:
       coord: [-2394.5, 233.09, -1033.99]
       hash_id: "0x5391629081abbab8"
@@ -3686,26 +4169,10 @@ presets:
       coord: [-2672.13, 623.96, -1356.71]
       hash_id: "0x1bd5ec0a68f59ca0"
       text: GH30 Through the Roof"
-    HF30:
-      coord: [-2340.5, 249.69, -1104.35]
-      hash_id: "0x3eb935306a762a9d"
-      text: HF30 Rock Lift"
-    GC02:
-      coord: [-2244.08, 211.13, -1740.12]
-      hash_id: "0xbbee3d3480ad580a"
-      text: GC02 Rock Lift"
     GC09:
       coord: [-2430.6, 340.19, -2119.28]
       hash_id: "0x64a5a3398166e7d1"
       text: GC09 Korok Friends"
-    GC11:
-      coord: [-2264.59, 356.96, -2163.4]
-      hash_id: "0xf203598f31e957d3"
-      text: GC11 Rock Lift"
-    GC06:
-      coord: [-2486.11, 227.06, -2054.55]
-      hash_id: "0x0f69cec7b5105a3f"
-      text: GC06 Rock Lift"
     GC50:
       coord: [-2491.4, 131.75, -3348.47]
       hash_id: "0x0be67e07414b8c79"
@@ -3718,18 +4185,6 @@ presets:
       coord: [-997.01, 307.78, 3083.9]
       hash_id: "0xfc9f7292edce07e2"
       text: PS12 Through the Roof"
-    PS05:
-      coord: [-1762.55, 339.52, 3554.08]
-      hash_id: "0xe715f58b3ec59e6b"
-      text: PS05 Rock Lift"
-    LB01:
-      coord: [-1147.25, 72.49, 2534.86]
-      hash_id: "0xcd3ef47e2a006007"
-      text: LB01 Rock Lift"
-    PS24:
-      coord: [-1810.68, 379.3, 2198.08]
-      hash_id: "0x105b1bef673b9f2e"
-      text: PS24 Rock Lift"
     PS14:
       coord: [-1541.8, 344, 2555.93]
       hash_id: "0x86b0ca748d9a5f3f"
@@ -3738,10 +4193,6 @@ presets:
       coord: [-1720.44, 347.54, 2556.73]
       hash_id: "0x32bd0aa3cb454c6f"
       text: PS17 Through the Roof"
-    PS18:
-      coord: [-1185.97, 4.87, 2481.94]
-      hash_id: "0x351b0943ace2f82a"
-      text: PS18 Rock Lift"
     TR17:
       coord: [-1433.48, 299, 1478.95]
       hash_id: "0xb78127c69fdc72a9"
@@ -3750,54 +4201,18 @@ presets:
       coord: [-1730.12, 353.34, 1162.47]
       hash_id: "0xd9fc88ea902e5b12"
       text: LB18 Through the Roof"
-    LB25:
-      coord: [-1287.87, 204.7, 897.48]
-      hash_id: "0x7d957f94d0365184"
-      text: LB25 Rock Lift"
-    LL45:
-      coord: [-1130.87, 144.74, 18.5]
-      hash_id: "0x5584497f14f4ccd0"
-      text: LL45 Rock Lift"
     HF10:
       coord: [-1550.65, 133.5, -1000.09]
       hash_id: "0x7deb7883ac348bcf"
       text: HF10 Korok Friends"
-    LB58:
-      coord: [-1702.41, 197.73, -83.9]
-      hash_id: "0x501bc20503a12a34"
-      text: LB58 Rock Lift"
-    HF02:
-      coord: [-1742, 226.56, -400.97]
-      hash_id: "0x4ca9cfca028b4ae5"
-      text: HF02 Rock Lift"
     HF01:
       coord: [-1797.98, 225, -323.45]
       hash_id: "0xc7a6a3a3ac49a14c"
       text: HF01 Korok Friends"
-    HF15:
-      coord: [-1343.57, 116, -689.2]
-      hash_id: "0x45f41ec4b9b7f795"
-      text: HF15 Rock Lift"
-    HF11:
-      coord: [-1968.59, 254.26, -594.93]
-      hash_id: "0xb7eaa3cc2d1f74c6"
-      text: HF11 Rock Lift"
     HF38:
       coord: [-1356.41, 151.86, -1307.46]
       hash_id: "0x3291538fa06bdcc6"
       text: HF38 Korok Friends"
-    HF56:
-      coord: [-1700.27, 89.25, -1826.47]
-      hash_id: "0x3cd4f4f91f24813a"
-      text: HF56 Rock Lift"
-    HF41:
-      coord: [-1518.37, 148.65, -1508.13]
-      hash_id: "0x79e3c29f078158bb"
-      text: HF41 Rock Lift"
-    HF33:
-      coord: [-1771.4, 115.7, -1243.44]
-      hash_id: "0x8deeafa8a1181258"
-      text: HF33 Rock Lift"
     GC19:
       coord: [-1615.44, 100.53, -2403.14]
       hash_id: "0xa5ac2e959b3cf697"
@@ -3806,10 +4221,6 @@ presets:
       coord: [-1971.86, 139.55, -2085.11]
       hash_id: "0x0c365d093d05fc40"
       text: GC05 Korok Friends"
-    HF62:
-      coord: [-1516.51, 238.17, -1922.72]
-      hash_id: "0x3ba9e6124f54b7a2"
-      text: HF62 Rock Lift"
     GC21:
       coord: [-1019, 304.5, -2640.6]
       hash_id: "0xdac86ad5e603ca95"
@@ -3818,22 +4229,10 @@ presets:
       coord: [-1126.81, 249.73, -1970.13]
       hash_id: "0x4896271e37247312"
       text: HF68 Korok Friends"
-    HF72:
-      coord: [-1294.63, 417.59, -2213.61]
-      hash_id: "0x9aa8151cda295f0a"
-      text: HF72 Rock Lift"
-    GC38:
-      coord: [-1944.79, 232.52, -3184.99]
-      hash_id: "0xf4316c7f183f7a50"
-      text: GC38 Rock Lift"
     GC33:
       coord: [-1427.81, 387.36, -2976.29]
       hash_id: "0x60e674a5974bb6dc"
       text: GC33 Through the Roof"
-    GC43:
-      coord: [-1385.01, 539.97, -3493]
-      hash_id: "0x510860492442b25c"
-      text: GC43 Rock Lift"
     TR09:
       coord: [-322.37, 205.52, 3161.93]
       hash_id: "0x93c7e6b9fd7e6e7c"
@@ -3842,38 +4241,10 @@ presets:
       coord: [-546, 373.5, 2223]
       hash_id: "0x45e3b3b7e746ec48"
       text: LB02 Korok Friends"
-    LL24:
-      coord: [-128.31, 202.34, 813.76]
-      hash_id: "0xa4d884bd5e8f57b8"
-      text: LL24 Rock Lift"
-    LL30:
-      coord: [-237.41, 185.36, 632.46]
-      hash_id: "0xfabc2096c0af7025"
-      text: LL30 Rock Lift"
-    LL21:
-      coord: [-287.34, 210.59, 839.58]
-      hash_id: "0x03e03abfeb18f492"
-      text: LL21 Rock Lift"
     LL05:
       coord: [-779.44, 122.85, 938.84]
       hash_id: "0x86b688f4417e6e8c"
       text: LL05 Korok Friends"
-    LL42:
-      coord: [-254.28, 151.89, 257.24]
-      hash_id: "0xb3a04ef3d6fe86e8"
-      text: LL42 Rock Lift"
-    LL37:
-      coord: [-253.97, 134.92, 425.91]
-      hash_id: "0x8b639e8e061957c6"
-      text: LL37 Rock Lift"
-    LL41:
-      coord: [-312.99, 130.5, 324.12]
-      hash_id: "0x8dd5d22ea44ab48f"
-      text: LL41 Rock Lift"
-    LL28:
-      coord: [-530, 139.57, 693.89]
-      hash_id: "0x2a4242cac2ae87a1"
-      text: LL28 Rock Lift"
     LL38:
       coord: [-86.67, 138.07, 401.43]
       hash_id: "0xfa43b5407688b679"
@@ -3882,30 +4253,10 @@ presets:
       coord: [-945.49, 133.21, 348.3]
       hash_id: "0x17725d4bd2775153"
       text: LL40 Through the Roof"
-    LL48:
-      coord: [-923.51, 212.23, -44.93]
-      hash_id: "0x8178ccd8d919b17e"
-      text: LL48 Rock Lift"
     HF22:
       coord: [-776.07, 123.5, -500.62]
       hash_id: "0x09df1a50290b4748"
       text: HF22 Korok Friends"
-    LL60:
-      coord: [-588.74, 130.03, -559.2]
-      hash_id: "0x8d00b3fe2e5975dc"
-      text: LL60 Rock Lift"
-    HF13:
-      coord: [-764.75, 135.04, -673.62]
-      hash_id: "0x4616e6f7caab28b0"
-      text: HF13 Rock Lift"
-    LL56:
-      coord: [-217.75, 157.85, -383.11]
-      hash_id: "0x033443a6a909d730"
-      text: LL56 Rock Lift"
-    HF60:
-      coord: [-889.49, 212.09, -1907.83]
-      hash_id: "0x90bf00482aee36fd"
-      text: HF60 Rock Lift"
     HF43:
       coord: [-39.05, 128, -1112.52]
       hash_id: "0x3cde914031313704"
@@ -3914,10 +4265,6 @@ presets:
       coord: [-452, 125.5, -1649.6]
       hash_id: "0x21aab7e641604032"
       text: HF50 Korok Friends"
-    HF32:
-      coord: [-664.31, 133.65, -1222.37]
-      hash_id: "0x12266920cd6dd9d4"
-      text: HF32 Rock Lift"
     HF57:
       coord: [-950.71, 197.31, -1839.77]
       hash_id: "0x654859ee55bc31c7"
@@ -3926,14 +4273,6 @@ presets:
       coord: [-694.28, 172, -1576.46]
       hash_id: "0xcde0858addf5840e"
       text: HF58 Korok Friends"
-    HF28:
-      coord: [-599.08, 141.91, -1076.29]
-      hash_id: "0x71893b6ec55b65eb"
-      text: HF28 Rock Lift"
-    HF75:
-      coord: [-102.99, 175.93, -2292.11]
-      hash_id: "0x244c409f5ff89290"
-      text: HF75 Rock Lift"
     PF34:
       coord: [-188.5, 125, -2243.66]
       hash_id: "0x00c3e1ef17e6ba50"
@@ -3942,18 +4281,6 @@ presets:
       coord: [-930.53, 181.4, -2208.4]
       hash_id: "0xb7dee713863ea633"
       text: HF71 Through the Roof"
-    PF35:
-      coord: [-711.64, 204.77, -2624.98]
-      hash_id: "0x6b759a709a6be904"
-      text: PF35 Rock Lift"
-    PF63:
-      coord: [-224.58, 177.19, -3340.61]
-      hash_id: "0xcdcb4fa83a6d9116"
-      text: PF63 Rock Lift"
-    PF51:
-      coord: [-150.91, 143.29, -3068.25]
-      hash_id: "0x4591d3d81f56b8f8"
-      text: PF51 Rock Lift"
     PF62:
       coord: [-304.48, 130.27, -3292.94]
       hash_id: "0xb3604b21a627ef40"
@@ -3962,38 +4289,14 @@ presets:
       coord: [489, 280.85, 3057.5]
       hash_id: "0x87193eeaf89da734"
       text: TR10 Korok Friends"
-    TR11:
-      coord: [171.66, 282.04, 3036.58]
-      hash_id: "0x22a54abb1699213d"
-      text: TR11 Rock Lift"
-    TR05:
-      coord: [127.9, 286.82, 3151.01]
-      hash_id: "0x761aa04b1bb09961"
-      text: TR05 Rock Lift"
-    TR12:
-      coord: [785.73, 387.74, 2953.05]
-      hash_id: "0x0f52a4fe25499f09"
-      text: TR12 Rock Lift"
     TR03:
       coord: [514.22, 288.5, 3396.6]
       hash_id: "0x3b5f9b5b9e7da7b9"
       text: TR03 Korok Friends"
-    TR04:
-      coord: [859.09, 315.15, 3355.53]
-      hash_id: "0xcd9b2186bec321d8"
-      text: TR04 Rock Lift"
     TR21:
       coord: [543.2, 122.48, 1098.43]
       hash_id: "0xc37b8fddc99f683b"
       text: TR21 Korok Friends"
-    EC46:
-      coord: [770.25, 193.08, 1415.68]
-      hash_id: "0x06b1e1eaac6a4912"
-      text: EC46 Rock Lift"
-    SS01:
-      coord: [966.93, 115.9, 1027.06]
-      hash_id: "0xb87bce7e3ba1a303"
-      text: SS01 Rock Lift"
     SS07:
       coord: [428, 132.5, 501]
       hash_id: "0x9b7753905308f290"
@@ -4002,30 +4305,14 @@ presets:
       coord: [919.22, 195.13, 410.38]
       hash_id: "0x10da3261b7a6a07c"
       text: SS10 Through the Roof"
-    LL57:
-      coord: [754.16, 135.87, -450.53]
-      hash_id: "0x78ffbf9763eb6581"
-      text: LL57 Rock Lift"
-    LL54:
-      coord: [74.69, 139.88, -326.99]
-      hash_id: "0x5fbd3ce15c6519ba"
-      text: LL54 Rock Lift"
     PF03:
       coord: [630.03, 117.82, -961.98]
       hash_id: "0x199b09371296f7fc"
       text: PF03 Korok Friends"
-    LL62:
-      coord: [625.01, 126.6, -753.43]
-      hash_id: "0x89742f6a1cedbdae"
-      text: LL62 Rock Lift"
     SS26:
       coord: [795, 116, -507.9]
       hash_id: "0xb83f3e4cac0d321f"
       text: SS26 Korok Friends"
-    LL58:
-      coord: [501, 168.46, -470.17]
-      hash_id: "0x7208da5aa56fc6a4"
-      text: LL58 Rock Lift"
     PF14:
       coord: [293, 133.17, -1204.5]
       hash_id: "0x6f15b03752685eb5"
@@ -4034,30 +4321,10 @@ presets:
       coord: [47.48, 163.5, -1691.05]
       hash_id: "0x8b45adf446286360"
       text: PF12 Korok Friends"
-    PF06:
-      coord: [333.22, 115.15, -1282.91]
-      hash_id: "0x8fe74ec1de8ba478"
-      text: PF06 Rock Lift"
-    PF18:
-      coord: [297.4, 123.19, -1833.82]
-      hash_id: "0x357dcaa8a1086890"
-      text: PF18 Rock Lift"
-    HF48:
-      coord: [147.64, 136.11, -1611.33]
-      hash_id: "0x7028c24d6a72d7c7"
-      text: HF48 Rock Lift"
-    PF07:
-      coord: [843.39, 132.26, -1291.41]
-      hash_id: "0xebe9b9944b046c77"
-      text: PF07 Rock Lift"
     PF13:
       coord: [228.68, 120.52, -1608.88]
       hash_id: "0x71332bf40218b494"
       text: PF13 Through the Roof"
-    PF28:
-      coord: [567.27, 218.06, -2384.24]
-      hash_id: "0x99d3f119204f7e1c"
-      text: PF28 Rock Lift"
     PF22:
       coord: [523, 161.5, -2199]
       hash_id: "0x8cd4a0e3b1a3d4c9"
@@ -4066,18 +4333,10 @@ presets:
       coord: [770.53, 241.5, -2138.18]
       hash_id: "0x49884ebc4c874727"
       text: SS72 Korok Friends"
-    PF40:
-      coord: [339.97, 90.53, -2832.5]
-      hash_id: "0x5a8c0f0e980cb7da"
-      text: PF40 Rock Lift"
     PF68:
       coord: [221.57, 175.5, -3533.8]
       hash_id: "0xfbecdd7daa8cd3e0"
       text: PF68 Korok Friends"
-    PF60:
-      coord: [206.4, 165.94, -3312.53]
-      hash_id: "0x52ae15f98600f13b"
-      text: PF60 Rock Lift"
     PF73:
       coord: [522, 156.26, -3464]
       hash_id: "0x5264f1268b0286cb"
@@ -4102,10 +4361,6 @@ presets:
       coord: [1816.66, 507, 2645.48]
       hash_id: "0xe75f2ba499cca6a8"
       text: EC15 Korok Friends"
-    EC16:
-      coord: [1724.5, 604.77, 2554.51]
-      hash_id: "0x7f18fb748c5e4fdd"
-      text: EC16 Rock Lift"
     EC32:
       coord: [1433.42, 443.5, 1952.83]
       hash_id: "0x37ff2d62c37a2925"
@@ -4118,10 +4373,6 @@ presets:
       coord: [1544.5, 388.5, 1808.51]
       hash_id: "0xdb7033b58af655e4"
       text: EC36 Korok Friends"
-    EC31:
-      coord: [1671.23, 447.4, 1981.33]
-      hash_id: "0x9b004503f2f600c7"
-      text: EC31 Rock Lift"
     EC42:
       coord: [1534, 411.5, 1609]
       hash_id: "0xcae5e6a73bbeac22"
@@ -4130,22 +4381,6 @@ presets:
       coord: [1537.1, 115.5, 511.5]
       hash_id: "0x6c107fb060500012"
       text: SS13 Korok Friends"
-    EC59:
-      coord: [1320.09, 122.6, 715.78]
-      hash_id: "0x1286a31c7ca34324"
-      text: EC59 Rock Lift"
-    SS11:
-      coord: [1182.32, 263.4, 379.5]
-      hash_id: "0x0fd6922f3df3bfd5"
-      text: SS11 Rock Lift"
-    SS15:
-      coord: [1396.74, 132.18, 127.86]
-      hash_id: "0x34e0b8e62170b922"
-      text: SS15 Rock Lift"
-    EC57:
-      coord: [1857.98, 197.29, 786.15]
-      hash_id: "0x305c614a1f34bae9"
-      text: EC57 Rock Lift"
     SS30:
       coord: [960.98, 137.07, -201.78]
       hash_id: "0x8476fce426d4833c"
@@ -4154,26 +4389,6 @@ presets:
       coord: [1502.18, 119.5, -334.47]
       hash_id: "0x63ee8bfc2f3522fd"
       text: SS16 Korok Friends"
-    SS33:
-      coord: [1626.48, 145.24, -781.15]
-      hash_id: "0x366adbff1d352423"
-      text: SS33 Rock Lift"
-    SS35:
-      coord: [1282.3, 182.9, -834.46]
-      hash_id: "0x45b6f62c3fb228cd"
-      text: SS35 Rock Lift"
-    SS18:
-      coord: [1892.36, 114.77, -151.01]
-      hash_id: "0x29f9f8d22b711b0c"
-      text: SS18 Rock Lift"
-    SS24:
-      coord: [1824.72, 118.19, -459.5]
-      hash_id: "0x54106121dab36edc"
-      text: SS24 Rock Lift"
-    SS38:
-      coord: [1694.6, 416.18, -929.15]
-      hash_id: "0x1d948b9fec609676"
-      text: SS38 Rock Lift"
     SS63:
       coord: [1169.4, 115.5, -1883]
       hash_id: "0x3e5f8f162d00ae26"
@@ -4182,22 +4397,6 @@ presets:
       coord: [1767.23, 120.76, -1864.98]
       hash_id: "0xb5c0399756de22c8"
       text: SS60 Korok Friends"
-    SS50:
-      coord: [1537.07, 167.65, -1301.75]
-      hash_id: "0xc911408c73a82c97"
-      text: SS50 Rock Lift"
-    SS57:
-      coord: [1786.58, 116.21, -1551.79]
-      hash_id: "0x75b000d32ab87851"
-      text: SS57 Rock Lift"
-    SS55:
-      coord: [1925.51, 187.32, -1489.51]
-      hash_id: "0xd3a6cd423e176fef"
-      text: SS55 Rock Lift"
-    PF49:
-      coord: [1777.18, 188.45, -2990.83]
-      hash_id: "0x2a4d578800c04075"
-      text: PF49 Rock Lift"
     PF38:
       coord: [1371.9, 195.95, -2763.65]
       hash_id: "0xc0f3935af563217e"
@@ -4206,14 +4405,6 @@ presets:
       coord: [1774.74, 345.29, -2933.31]
       hash_id: "0x6be6e2beb715466a"
       text: PF45 Rock Lift"
-    PF70:
-      coord: [1738.27, 155.66, -3468.02]
-      hash_id: "0x0416f74fcfe21bf2"
-      text: PF70 Rock Lift"
-    PF83:
-      coord: [1096, 107.85, -3832.78]
-      hash_id: "0x467488806cf0387d"
-      text: PF83 Rock Lift"
     PF67:
       coord: [1611.22, 166.5, -3490.6]
       hash_id: "0x7c829b0eada2a14f"
@@ -4222,10 +4413,6 @@ presets:
       coord: [1235.09, 151.7, -3217.13]
       hash_id: "0x4fbd0825c630c85a"
       text: PF54 Through the Roof"
-    PF58:
-      coord: [1475.61, 191.94, -3263.53]
-      hash_id: "0x8f8622ce772e0d38"
-      text: PF58 Rock Lift"
     PF82:
       coord: [1397.62, 107.61, -3642.26]
       hash_id: "0x4e314676408880ec"
@@ -4242,10 +4429,6 @@ presets:
       coord: [2375.05, 236.68, 1403.28]
       hash_id: "0xf53bb118b54590ad"
       text: EC54 Korok Friends"
-    EC50:
-      coord: [1941.9, 245.23, 1207.57]
-      hash_id: "0x81eca7b0e8d5d540"
-      text: EC50 Rock Lift"
     EC53:
       coord: [2313.57, 295.22, 1132.86]
       hash_id: "0xdddb7bf9de3a1a95"
@@ -4266,10 +4449,6 @@ presets:
       coord: [2242.82, 120, 243.97]
       hash_id: "0x970d75f6ffc93a9f"
       text: UZ44 Korok Friends"
-    UZ45:
-      coord: [2471.85, 184.82, 150.5]
-      hash_id: "0xa187ec5351ebd3b6"
-      text: UZ45 Rock Lift"
     SS28:
       coord: [2691.3, 217.05, -542.07]
       hash_id: "0x0c3fc1a964ffdccb"
@@ -4282,38 +4461,14 @@ presets:
       coord: [1872.51, 344.07, -813.88]
       hash_id: "0xd3cbd9dbbeebfd17"
       text: SS27 Korok Friends"
-    UZ55:
-      coord: [2851.06, 186.22, -27.82]
-      hash_id: "0x53a4e9bcbeff2c5e"
-      text: UZ55 Rock Lift"
-    SS29:
-      coord: [2546.82, 225.66, -584.69]
-      hash_id: "0x96271a5f7934247f"
-      text: SS29 Rock Lift"
-    SS49:
-      coord: [2029.73, 265.68, -1166.69]
-      hash_id: "0x35397a59967e4e58"
-      text: SS49 Rock Lift"
     ML19:
       coord: [2478.43, 116.16, -1740.21]
       hash_id: "0xfd132df124d41952"
       text: ML19 Korok Friends"
-    SS47:
-      coord: [2833.97, 207.56, -1118.86]
-      hash_id: "0x454aa7fc1feec9b0"
-      text: SS47 Rock Lift"
     SS58:
       coord: [2510.34, 122.89, -1572.89]
       hash_id: "0xc6947d12f86a2e46"
       text: SS58 Through the Roof"
-    SS62:
-      coord: [2325.78, 132.95, -1828.58]
-      hash_id: "0x2b749fc4ae1e4a25"
-      text: SS62 Rock Lift"
-    ML35:
-      coord: [2809.94, 231.43, -2247.73]
-      hash_id: "0x3d6b5550593877ef"
-      text: ML35 Rock Lift"
     ML24:
       coord: [2644.97, 233, -2120.32]
       hash_id: "0xb24a6b32763e0046"
@@ -4322,14 +4477,6 @@ presets:
       coord: [2458.03, 325.5, -2911.18]
       hash_id: "0x51753d5977774f42"
       text: RW24 Korok Friends"
-    RW15:
-      coord: [2043.95, 413.25, -2660.84]
-      hash_id: "0x8810ac0d1bafc11e"
-      text: RW15 Rock Lift"
-    ML28:
-      coord: [2489.61, 138.97, -2122.53]
-      hash_id: "0x8d3de9430aaf4589"
-      text: ML28 Rock Lift"
     RW41:
       coord: [2245.49, 135, -3469.26]
       hash_id: "0x2a2ce4df12954054"
@@ -4342,10 +4489,6 @@ presets:
       coord: [3965.74, 284.5, 3097.01]
       hash_id: "0x2a177609fd8aa7bf"
       text: UM09 Korok Friends"
-    UM04:
-      coord: [3267.37, 139.69, 3396.78]
-      hash_id: "0xbf15b41c0e0b0060"
-      text: UM04 Rock Lift"
     EC03:
       coord: [3349.6, 327, 3664.5]
       hash_id: "0xcc9b683cea8d43ce"
@@ -4354,38 +4497,10 @@ presets:
       coord: [3747.84, 199.5, 2307.5]
       hash_id: "0x4767004a184e7df7"
       text: UM25 Korok Friends"
-    UM33:
-      coord: [4021.61, 242.62, 1621.95]
-      hash_id: "0x0255aa0b2b5a3bee"
-      text: UM33 Rock Lift"
     UM26:
       coord: [3088.6, 302, 1757.78]
       hash_id: "0xcef85f6898d1d02e"
       text: UM26 Korok Friends"
-    UM31:
-      coord: [3648.95, 217.83, 1797.53]
-      hash_id: "0xc9b70b5662cf2cb8"
-      text: UM31 Rock Lift"
-    UM32:
-      coord: [3231.98, 332.33, 1787.29]
-      hash_id: "0x986d1dbf20c89e06"
-      text: UM32 Rock Lift"
-    UZ01:
-      coord: [3160.44, 362.87, 1425.98]
-      hash_id: "0xd9ecf059e8ab256c"
-      text: UZ01 Rock Lift"
-    UM38:
-      coord: [3273.64, 390.99, 1397.95]
-      hash_id: "0x18c8ea65d8623f9f"
-      text: UM38 Rock Lift"
-    UZ35:
-      coord: [3219.53, 184.17, 282.01]
-      hash_id: "0x99f0cb5eefabe27d"
-      text: UZ35 Rock Lift"
-    UZ08:
-      coord: [3013.29, 485.01, 932.63]
-      hash_id: "0x5127616fca7589ac"
-      text: UZ08 Rock Lift"
     UZ22:
       coord: [3778.4, 636.5, 447]
       hash_id: "0xd3eb6b50b2a47eaa"
@@ -4394,14 +4509,6 @@ presets:
       coord: [3531.7, 317, -65.07]
       hash_id: "0xf70f90356c6270aa"
       text: UZ37 Korok Friends"
-    UZ23:
-      coord: [3329.76, 217.88, 532.85]
-      hash_id: "0xd30c5caa1f0a8670"
-      text: UZ23 Rock Lift"
-    UZ66:
-      coord: [3321.48, 127.47, -475.24]
-      hash_id: "0xfc8f3891d24efa80"
-      text: UZ66 Rock Lift"
     UZ73:
       coord: [3655.03, 109, -607.32]
       hash_id: "0xcba991805f62c47b"
@@ -4418,10 +4525,6 @@ presets:
       coord: [3729.1, 307, -2159]
       hash_id: "0x6af0255d13bdb3db"
       text: ML42 Korok Friends"
-    ML45:
-      coord: [3749.07, 126.55, -2629.29]
-      hash_id: "0x0741610897698b52"
-      text: ML45 Rock Lift"
     ML39:
       coord: [3248, 236.5, -2283]
       hash_id: "0x1b71d003da4baf6e"
@@ -4430,22 +4533,6 @@ presets:
       coord: [2859.77, 146, -1910.28]
       hash_id: "0x0e43951fb77c4253"
       text: ML26 Korok Friends"
-    ML33:
-      coord: [3675.93, 322.58, -2193.26]
-      hash_id: "0x1397dd11bda3b410"
-      text: ML33 Rock Lift"
-    ML34:
-      coord: [3264.48, 212.46, -2225.93]
-      hash_id: "0x50ccb18cd3a99fad"
-      text: ML34 Rock Lift"
-    RW25:
-      coord: [3665.76, 311.54, -3277.42]
-      hash_id: "0xcce3348a0785214a"
-      text: RW25 Rock Lift"
-    RW39:
-      coord: [3118.97, 106.72, -3719.79]
-      hash_id: "0x03bfce6efcd95e77"
-      text: RW39 Rock Lift"
     RW40:
       coord: [3544.68, 106.16, -3456.24]
       hash_id: "0x179c18302eece651"
@@ -4454,42 +4541,18 @@ presets:
       coord: [4282, 277.5, 3270.5]
       hash_id: "0x8179acfb6c1a014b"
       text: UM07 Korok Friends"
-    UM10:
-      coord: [4157.26, 355.83, 3167.72]
-      hash_id: "0x4bdeebd9cf53e12f"
-      text: UM10 Rock Lift"
     UM21:
       coord: [4202.73, 233.18, 2739.48]
       hash_id: "0x822da7cd47b4be51"
       text: UM21 Korok Friends"
-    UM24:
-      coord: [4072.93, 179.39, 2452.56]
-      hash_id: "0xcc286c97e00bba6e"
-      text: UM24 Rock Lift"
     UM17:
       coord: [4353.2, 184.06, 2537.93]
       hash_id: "0xb2943a6379ffe651"
       text: UM17 Korok Friends"
-    UM28:
-      coord: [4527.52, 105.72, 2046.6]
-      hash_id: "0x7cb274ad5b394f63"
-      text: UM28 Rock Lift"
-    UM18:
-      coord: [4270.89, 253.63, 2826.92]
-      hash_id: "0xc112d086cec56f69"
-      text: UM18 Rock Lift"
     UM29:
       coord: [4290.57, 258.5, 1610.8]
       hash_id: "0xeed977e0d06944fe"
       text: UM29 Korok Friends"
-    UM30:
-      coord: [4598.68, 114.95, 1856.99]
-      hash_id: "0x0255b849a5b790f3"
-      text: UM30 Rock Lift"
-    UZ49:
-      coord: [4165.51, 455.02, 63.29]
-      hash_id: "0x888bb5465e0fb942"
-      text: UZ49 Rock Lift"
     UZ12:
       coord: [4054.92, 381.75, 947.96]
       hash_id: "0x092ea2b579cab4aa"
@@ -4498,70 +4561,14 @@ presets:
       coord: [4077.58, 340.83, 821.02]
       hash_id: "0xf6ad8ace15b02a4c"
       text: UZ10 Through the Roof"
-    UZ27:
-      coord: [4101.72, 368.68, 474.36]
-      hash_id: "0x43215f45979c6622"
-      text: UZ27 Rock Lift"
-    UZ33:
-      coord: [4134.99, 521.56, 406.29]
-      hash_id: "0xbfd63528091b3b96"
-      text: UZ33 Rock Lift"
     UZ67:
       coord: [4441.34, 176.75, -480.19]
       hash_id: "0x5882b0baf4cbb284"
       text: UZ67 Through the Roof"
-    UZ61:
-      coord: [4459.47, 162.18, -357.05]
-      hash_id: "0xb3c234840466577c"
-      text: UZ61 Rock Lift"
-    ML36:
-      coord: [4516.26, 218.68, -2305.92]
-      hash_id: "0x8872854bccf2a961"
-      text: ML36 Rock Lift"
     RW36:
       coord: [3688.03, 350.5, -3314.68]
       hash_id: "0xa3ec81f3a4014875"
       text: RW36 Korok Friends"
-    RW37:
-      coord: [4536.01, 150.64, -3663.11]
-      hash_id: "0x7af3b1a2fef48c7a"
-      text: RW37 Rock Lift"
-    PFS02:
-      coord: [967.08, 820.74, -3184.78]
-      hash_id: "0xde33eeae4c84c180"
-      text: PFS02 Rock Lift"
-    RPS01:
-      coord: [-3218.41, 1477.8, 3376.99]
-      hash_id: "0x75cc90ceb2c122d7"
-      text: RPS01 Rock Lift"
-    HFS02:
-      coord: [-793.57, 1041.82, -1601.78]
-      hash_id: "0x0d44491367c38d92"
-      text: HFS02 Rock Lift"
-    PFS01:
-      coord: [126.06, 796.91, -2502.47]
-      hash_id: "0x0b0f272dece7471f"
-      text: PFS01 Rock Lift"
-    SSS03:
-      coord: [2344.92, 1991.43, -1752.77]
-      hash_id: "0xc201f396c3622317"
-      text: SSS03 Rock Lift"
-    RWS01:
-      coord: [2719.47, 1328.37, -2739.68]
-      hash_id: "0x5c5eb9bd003a50f3"
-      text: RWS01 Rock Lift"
-    GSI03:
-      coord: [113.27, 1522.52, -1081.22]
-      hash_id: "0xc91832ce8a647b32"
-      text: GSI03 Rock Lift"
-    GSI11:
-      coord: [23.64, 1557.39, -1558.23]
-      hash_id: "0x332cc92921979ff2"
-      text: GSI11 Rock Lift"
-    GSI13:
-      coord: [229.47, 1511.43, -1643.75]
-      hash_id: "0x814cbffc4f494533"
-      text: GSI13 Rock Lift"
     GSI02:
       coord: [463.57, 1528.61, -881.34]
       hash_id: "0x91f903d96f9117bc"
@@ -4574,7 +4581,3 @@ presets:
       coord: [475.46, 1548.39, -1698.93]
       hash_id: "0xdc9c28f60084facd"
       text: GSI17 Korok Friends"
-    LL13:
-      coord: [-254.2, 410.92, 943.86]
-      hash_id: "0x81525f3a265a7263"
-      text: LL13 Rock Lift"
