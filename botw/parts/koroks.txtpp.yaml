@@ -13,41 +13,7 @@ presets:
     icon: $(1)
     icon-priority: 2
     counter: .var(counter-korok)
+    vars:
+      korok-seed: .add(1)
   _Korok:
     #TXTPP#run ../../scripts/koroks.py ../data/koroks.yaml 900
-
-    # TXTPP#temp make-koroks.g.py
-    # import yaml
-    # def fmt_coord(coord):
-    #   return "["+str(coord[0])+","+str(coord[1])+","+str(coord[2])+"]"
-    # with open("../data/koroks.yaml", "r") as f:
-    #   koroks = yaml.load(f, Loader=yaml.FullLoader)
-    # types = koroks["meta"]["types"]
-    # for korok_id in koroks["data"]:
-    #   print(f"{korok_id}:")
-    #   data = koroks["data"][korok_id]
-    #   icon = types[data["type"]]["icon"]
-    #   name = types[data["type"]]["name"].replace(")", "\\)")
-    #   print(f"  presets: _Korok<{korok_id} {name},{icon}>")
-    #   if "comment" in data:
-    #     comment = data["comment"]
-    #     print(f"  comment: {comment}")
-    #   movements = data["move"]
-    #   if len(movements) == 1:
-    #     coord_str = fmt_coord(movements[0])
-    #     print(f"  coord: {coord_str}")
-    #   else:
-    #     print(f"  movements:")
-    #     print(f"  - _Korok::{korok_id}::Start")
-    #     for m in movements[1:-1]:
-    #       coord_str = fmt_coord(m)
-    #       print(f"  - {coord_str}")
-    #     print(f"  - _Korok::{korok_id}::End")
-    #     print(f"_{korok_id}:")
-    #     print(f"  Start:")
-    #     coord_str = fmt_coord(movements[0])
-    #     print(f"    coord: {coord_str}")
-    #     print(f"  End:")
-    #     coord_str = fmt_coord(movements[-1])
-    #     print(f"    coord: {coord_str}")
-    ##TXTPP#run python make-koroks.g.py

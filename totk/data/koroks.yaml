@@ -27,7 +27,7 @@
   # Rock Lift" -> Lift Rock ////?
 
 meta:
-  type:
+  types:
     Acorn:
       name: Acorn
       icon: korok-acorn
@@ -76,24 +76,33 @@ meta:
     Friends:
       name: Friends
       icon: korok-friends
+    LiftRock:
+      name: Lift Rock
+      icon: korok-rock
     LiftRockBoulder:
       name: Lift Rock (Boulder)
+      icon: korok-rock-under
+    LiftRockLeaves:
+      name: Lift Rock (Leaves)
       icon: korok-rock-under
     LiftRockIce:
       name: Lift Rock (Ice)
       icon: korok-ice
-    LiftRockThorns:
-      name: Lift Rock (Thorns)
-      icon: korok-thorn
     LightChase:
       name: Light Chase
       icon: korok-light-chase
     LilyPads:
       name: Lily Pads
       icon: korok-lily
+    OfferApple:
+      name: Offer Apple
+      icon: korok-offer-apple
+    OfferBanana:
+      name: Offer Banana
+      icon: korok-offer-banana
     OfferGoldenApple:
       name: Offer Golden Apple
-      icon: korok-offer
+      icon: korok-offer-golden
     OfferIceFruit:
       name: Offer Ice Fruit
       icon: korok-offer
@@ -207,7 +216,7 @@ meta:
         sky: 3
 
 data:
-    EC01:
+  EC01:
     type: BalloonPinwheel
     hash: "0xde77b5dbf79150c1"
     move: [[3078.40, 320.18, 3682.72]]
@@ -245,7 +254,7 @@ data:
     - [2155.55, 582.98, 3055.78]
     extra_hashes: ["0x86dd409b2dc1659f"]
   EC08:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x0388af9f5240c043"
     move: [[2231.74, 551.66, 3042.21]]
   EC09:
@@ -260,7 +269,7 @@ data:
     - [2510.56, 628.92, 2985.01]
     extra_hashes: ["0x047219bbf946b804"]
   EC11:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x40e719bfab8370b2"
     move: [[1567.50, 507.23, 2946.09]]
   EC12:
@@ -432,7 +441,7 @@ data:
     hash: "0x195da6a373d712bc"
     move: [[1767.01, 416.91, 1537.34]]
   EC44:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x75e25564ea2ad398"
     move: [[951.05, 266.22, 1536.43]]
   EC45:
@@ -510,7 +519,7 @@ data:
     hash: "0x801643bbb927b8ae"
     move: [[2049.99, 1396.16, 1201.01]]
   ECS02:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x735c8b810bd78ce6"
     move: [[1690.65, 1260.48, 1199.49]]
   GC01:
@@ -522,7 +531,7 @@ data:
     hash: "0xbbee3d3480ad580a"
     move: [[-2244.08, 211.13, -1740.12]]
   GC03:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x80b9c9fde2db8871"
     move: [[-2329.30, 244.83, -1825.36]]
   GC04:
@@ -605,7 +614,7 @@ data:
     hash: "0xca57fba1dfa9474b"
     move: [[-4591.88, 151.75, -2349.10]]
   GC18:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xc1ba15fcd1a97eb7"
     move: [[-2712.97, 235.09, -2355.53]]
   GC19:
@@ -634,7 +643,7 @@ data:
     - [-3316.00, 134.86, -2461.54]
     extra_hashes: ["0x3b099ef4d4ca6252"]
   GC23:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xe1e1aafdb1ebe09c"
     move: [[-2011.91, 327.74, -2469.91]]
   GC24:
@@ -1017,11 +1026,11 @@ data:
     hash: "0xcdf97e6b82505039"
     move: [[-2818.68, 579.73, -1652.12]]
   GH43:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x49c0815855f1021d"
     move: [[-3193.17, 459.39, -1744.50]]
   GH44:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xf00b28f0afd80c18"
     move: [[-4363.35, 201.83, -1845.61]]
   GH45:
@@ -1048,7 +1057,7 @@ data:
     hash: "0xdcc9431fd3ebcb17"
     move: [[-4148.04, 208.44, -1931.77]]
   GH50:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xe6c0f12c27dc1b77"
     move: [[-3581.69, 310.59, -1985.41]]
   GH51:
@@ -1318,7 +1327,7 @@ data:
     hash: "0xe4d63832add5855a"
     move: [[-1152.99, 119.00, -1012.41]]
   HF26:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xb8bb9d53ead817a6"
     move: [[-1598.19, 123.75, -1015.71]]
   HF27:
@@ -1399,7 +1408,7 @@ data:
     hash: "0x79e3c29f078158bb"
     move: [[-1518.37, 148.65, -1508.13]]
   HF42:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x30e6acae3ec006ab"
     move: [[-611.77, 179.39, -1525.45]]
   HF43:
@@ -1665,7 +1674,7 @@ data:
     - [-3848.26, 377.50, 1326.62]
     extra_hashes: ["0x26497901852e774d"]
   LB13:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x523d843537984052"
     move: [[-3102.67, 315.57, 1316.05]]
   LB14:
@@ -1801,7 +1810,7 @@ data:
     - "0x0053075b87f74757"
     - "0x5ec8f2fb2f4df8c6"
   LB42:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x713a6e09d2b3064d"
     move: [[-1346.61, 201.07, 530.54]]
   LB43:
@@ -1882,7 +1891,7 @@ data:
     hash: "0xcebc24fd73003153"
     move: [[-1588.95, 216.21, 228.90]]
   LB52:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x39eb0aa92810ec2d"
     move: [[-1148.64, 145.27, 221.75]]
   LB53:
@@ -1939,7 +1948,7 @@ data:
     hash: "0x3a5f3788b95c9bb8"
     move: [[-3620.81, 1769.02, 996.98]]
   LBS03:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x6735acdfbbf17801"
     move: [[-3598.97, 1927.86, 978.57]]
   LBS04:
@@ -1954,7 +1963,7 @@ data:
     - [-3959.79, 1608.93, 691.91]
     extra_hashes: ["0x06f18c5af9b5c95d"]
   LL01:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xee47cb5909591760"
     move: [[-124.41, 141.89, 1192.74]]
   LL02:
@@ -2007,7 +2016,7 @@ data:
     hash: "0x1bad0d756c4419ea"
     move: [[-52.51, 382.95, 971.35]]
   LL12:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x59be5b86dda12799"
     move: [[-666.31, 115.67, 962.91]]
   LL13:
@@ -2081,7 +2090,7 @@ data:
     hash: "0x8fd2d7b440adf63d"
     move: [[-272.92, 239.93, 746.45]]
   LL27:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x6608da933614f324"
     move: [[269.73, 116.41, 701.14]]
   LL28:
@@ -2244,7 +2253,7 @@ data:
     hash: "0x7208da5aa56fc6a4"
     move: [[501.00, 168.46, -470.17]]
   LL59:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x291ad1a54d9cb5dc"
     move: [[-1088.66, 165.67, -514.06]]
   LL60:
@@ -2666,7 +2675,7 @@ data:
     hash: "0x7fa172d0c68871d1"
     move: [[-1039.58, 133.68, -2397.38]]
   PF31:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xfb215b8ed2d76766"
     move: [[-65.67, 123.20, -2441.01]]
   PF32:
@@ -2783,7 +2792,7 @@ data:
     hash: "0x0f9dcda4c373f82b"
     move: [[1023.26, 122.05, -3228.34]]
   PF56:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x6e95a7fdad85fe11"
     move: [[-800.75, 199.21, -3257.71]]
   PF57:
@@ -2947,7 +2956,7 @@ data:
     - [397.65, 106.42, -3861.71]
     extra_hashes: ["0x95041b0d3772d1a4"]
   PF87:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xccb2720dc9a3794e"
     move: [[272.37, 109.52, -3905.60]]
   PF88:
@@ -3070,7 +3079,7 @@ data:
     hash: "0x5c30319d6753c65a"
     move: [[-2268.43, 436.57, 2283.72]]
   PS23:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x86a97c98f7f25813"
     move: [[-2739.09, 450.44, 2267.73]]
   PS24:
@@ -3090,7 +3099,7 @@ data:
     hash: "0xdf5de7dfa70782c1"
     move: [[-2207.08, 429.57, 2091.16]]
   PS28:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xb385d9517b4b590c"
     move: [[-2074.54, 395.47, 2077.93]]
   PS29:
@@ -3098,7 +3107,7 @@ data:
     hash: "0xa4e52b50c6141f7c"
     move: [[-2635.19, 450.11, 2055.72]]
   PS30:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xdcc0703c889fd11f"
     move: [[-2530.60, 409.06, 1854.96]]
   PSS01:
@@ -3290,7 +3299,7 @@ data:
     hash: "0xbf3ea73490b4ed46"
     move: [[-4066.93, 124.84, 2505.37]]
   RP35:
-    type: LiftRockThorns
+    type: LiftRock
     hash: "0xfd3a7a70e46b937a"
     move: [[-3677.33, 426.12, 2466.63]]
   RP36:
@@ -3518,7 +3527,7 @@ data:
     hash: "0xd65850fc2e6b5c1d"
     move: [[2142.33, 365.19, -2603.62]]
   RW13:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x4c7f2227f6dfa1ea"
     move: [[1959.98, 356.99, -2627.81]]
   RW14:
@@ -3737,7 +3746,7 @@ data:
     hash: "0x203666a14dd5dba7"
     move: [[541.93, 119.00, 510.34]]
   SS09:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xed1e5973a85751d7"
     move: [[1482.68, 116.75, 443.37]]
   SS10:
@@ -3798,7 +3807,7 @@ data:
     hash: "0x011ab3b096cd3678"
     move: [[928.69, 145.52, -365.54]]
   SS22:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x016fa4a1b7c5252d"
     move: [[2638.00, 264.89, -368.31]]
   SS23:
@@ -3850,7 +3859,7 @@ data:
     hash: "0x3d5708df9b97afc1"
     move: [[2239.74, 338.14, -726.32]]
   SS32:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x1051d3122f2a747b"
     move: [[1115.50, 172.00, -731.75]]
   SS33:
@@ -3866,7 +3875,7 @@ data:
     hash: "0x45b6f62c3fb228cd"
     move: [[1282.30, 182.90, -834.46]]
   SS36:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x29802b86e0991251"
     move: [[1791.37, 223.62, -852.94]]
   SS37:
@@ -3882,7 +3891,7 @@ data:
     hash: "0xb2ba59447f227426"
     move: [[959.05, 116.30, -943.80]]
   SS40:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x2e316859614d8088"
     move: [[1997.13, 281.93, -958.93]]
   SS41:
@@ -3917,7 +3926,7 @@ data:
     hash: "0x4fc9275ff49fbc91"
     move: [[1574.92, 259.79, -1044.85]]
   SS46:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xb64a256427fccd2a"
     move: [[2545.85, 217.10, -1077.35]]
   SS47:
@@ -4213,7 +4222,7 @@ data:
     - [-768.48, 241.68, 1413.51]
     extra_hashes: ["0x892df19331b80081"]
   TR18:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x0e45f9b03f3eb3f4"
     move: [[656.79, 144.95, 1371.21]]
   TR19:
@@ -4221,7 +4230,7 @@ data:
     hash: "0x75720e1a74403956"
     move: [[-665.90, 179.47, 1190.94]]
   TR20:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x020feb59b20954c5"
     move: [[399.00, 115.27, 1174.28]]
   TR21:
@@ -4263,7 +4272,7 @@ data:
     hash: "0x9e1f80f013c75f4d"
     move: [[3772.29, 281.16, 3377.22]]
   UM06:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0xacbb5e7282f548f6"
     move: [[4117.80, 308.58, 3286.25]]
   UM07:
@@ -4732,7 +4741,7 @@ data:
     hash: "0x993ada0a92d2f901"
     move: [[4271.50, 211.50, 137.00]]
   UZ47:
-    type: Acorn Hanging
+    type: AcornHanging
     hash: "0x58e19a61805beae7"
     move: [[2307.60, 210.04, 132.86]]
   UZ48:

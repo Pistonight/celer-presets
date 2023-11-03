@@ -30,7 +30,7 @@ def check_regions(regions, data):
                 missing.append(korok_id)
                 continue
             seed_count += 1
-            if data[korok_id]["type"] == "Friend":
+            if data[korok_id]["type"] == "Friends":
                 seed_count += 1
         for i in range(1,sky_count+1):
             korok_id = f"{region_id}S{i:02}"
@@ -54,3 +54,41 @@ def check_regions(regions, data):
 
 
 check_regions(regions, data)
+def fmt_coord(coord):
+    return f"[{coord[0]:.2f},{coord[1]:.2f},{coord[2]:.2f}]"
+
+types = meta["types"]
+for korok_id in sorted(data):
+    print(f"{korok_id}:")
+    korok = data[korok_id]
+    icon = types[korok["type"]]["icon"]
+    name = types[korok["type"]]["name"].replace(")", "\\)")
+    print(f"  presets: _Korok<{korok_id} {name},{icon}>")
+    if korok["type"] == "Friends":
+        print(f"  vars:")
+        print(f"    korok-seed: .add(2)")
+    if "comment" in data:
+        comment = korok["comment"]
+        print(f"  comment: {comment}")
+    movements = korok["move"]
+    if len(movements) == 1:
+        coord_str = fmt_coord(movements[0])
+        print(f"  coord: {coord_str}")
+    else:
+        print(f"  movements:")
+        print(f"  - _Korok::{korok_id}::Start")
+        for m in movements[1:-1]:
+            coord_str = fmt_coord(m)
+            print(f"  - {coord_str}")
+        print(f"  - _Korok::{korok_id}::End")
+        print(f"_{korok_id}:")
+        print(f"  Start:")
+        if korok["type"] == "Friends":
+            print(f"    presets: _KorokFriendStart<{korok_id}>")
+        coord_str = fmt_coord(movements[0])
+        print(f"    coord: {coord_str}")
+        print(f"  End:")
+        if korok["type"] == "Friends":
+            print(f"    presets: _KorokFriendEnd<{korok_id}>")
+        coord_str = fmt_coord(movements[-1])
+        print(f"    coord: {coord_str}")
