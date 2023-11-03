@@ -66,6 +66,7 @@ for korok_id in sorted(data):
     print(f"  presets: _Korok<{korok_id} {name},{icon}>")
     if korok["type"] == "Friends":
         print(f"  vars:")
+        print(f"    counter-korok: .add(1)")
         print(f"    korok-seed: .add(2)")
     if "comment" in data:
         comment = korok["comment"]

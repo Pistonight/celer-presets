@@ -36,6 +36,7 @@ presets:
     icon: korok
     counter: .var(counter-korok)
     vars:
+      counter-korok: .add(1)
       korok-seed: .add(2)
   _Korok:
     #TXTPP#run python ../../scripts/koroks.py ../data/koroks.yaml 1000

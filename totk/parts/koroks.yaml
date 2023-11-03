@@ -66,6 +66,7 @@ presets:
     icon: korok
     counter: .var(counter-korok)
     vars:
+      counter-korok: .add(1)
       korok-seed: .add(2)
   _Korok:
     EC01:
@@ -77,6 +78,7 @@ presets:
     EC03:
       presets: _Korok<EC03 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::EC03::Start
@@ -97,6 +99,7 @@ presets:
     EC06:
       presets: _Korok<EC06 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::EC06::Start
@@ -127,6 +130,7 @@ presets:
     EC10:
       presets: _Korok<EC10 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::EC10::Start
@@ -153,6 +157,7 @@ presets:
     EC15:
       presets: _Korok<EC15 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::EC15::Start
@@ -235,6 +240,7 @@ presets:
     EC33:
       presets: _Korok<EC33 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::EC33::Start
@@ -265,6 +271,7 @@ presets:
     EC36:
       presets: _Korok<EC36 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::EC36::Start
@@ -301,6 +308,7 @@ presets:
     EC42:
       presets: _Korok<EC42 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::EC42::Start
@@ -355,6 +363,7 @@ presets:
     EC54:
       presets: _Korok<EC54 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::EC54::Start
@@ -405,6 +414,7 @@ presets:
     GC05:
       presets: _Korok<GC05 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GC05::Start
@@ -435,6 +445,7 @@ presets:
     GC09:
       presets: _Korok<GC09 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GC09::Start
@@ -493,6 +504,7 @@ presets:
     GC19:
       presets: _Korok<GC19 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GC19::Start
@@ -510,6 +522,7 @@ presets:
     GC21:
       presets: _Korok<GC21 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GC21::Start
@@ -524,6 +537,7 @@ presets:
     GC22:
       presets: _Korok<GC22 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GC22::Start
@@ -603,6 +617,7 @@ presets:
     GC35:
       presets: _Korok<GC35 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GC35::Start
@@ -652,6 +667,7 @@ presets:
     GC42:
       presets: _Korok<GC42 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GC42::Start
@@ -672,6 +688,7 @@ presets:
     GC45:
       presets: _Korok<GC45 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GC45::Start
@@ -698,6 +715,7 @@ presets:
     GC50:
       presets: _Korok<GC50 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GC50::Start
@@ -734,6 +752,7 @@ presets:
     GH03:
       presets: _Korok<GH03 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GH03::Start
@@ -780,6 +799,7 @@ presets:
     GH10:
       presets: _Korok<GH10 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GH10::Start
@@ -797,6 +817,7 @@ presets:
     GH12:
       presets: _Korok<GH12 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GH12::Start
@@ -944,6 +965,7 @@ presets:
     GH47:
       presets: _Korok<GH47 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GH47::Start
@@ -1016,6 +1038,7 @@ presets:
     GSI04:
       presets: _Korok<GSI04 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GSI04::Start
@@ -1076,6 +1099,7 @@ presets:
     GSI17:
       presets: _Korok<GSI17 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::GSI17::Start
@@ -1090,6 +1114,7 @@ presets:
     HF01:
       presets: _Korok<HF01 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::HF01::Start
@@ -1150,6 +1175,7 @@ presets:
     HF10:
       presets: _Korok<HF10 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::HF10::Start
@@ -1197,6 +1223,7 @@ presets:
     HF22:
       presets: _Korok<HF22 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::HF22::Start
@@ -1266,6 +1293,7 @@ presets:
     HF38:
       presets: _Korok<HF38 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::HF38::Start
@@ -1299,6 +1327,7 @@ presets:
     HF43:
       presets: _Korok<HF43 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::HF43::Start
@@ -1346,6 +1375,7 @@ presets:
     HF50:
       presets: _Korok<HF50 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::HF50::Start
@@ -1388,6 +1418,7 @@ presets:
     HF58:
       presets: _Korok<HF58 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::HF58::Start
@@ -1439,6 +1470,7 @@ presets:
     HF68:
       presets: _Korok<HF68 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::HF68::Start
@@ -1483,6 +1515,7 @@ presets:
     LB02:
       presets: _Korok<LB02 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::LB02::Start
@@ -1607,6 +1640,7 @@ presets:
     LB30:
       presets: _Korok<LB30 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::LB30::Start
@@ -1674,6 +1708,7 @@ presets:
     LB43:
       presets: _Korok<LB43 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::LB43::Start
@@ -1754,6 +1789,7 @@ presets:
     LB53:
       presets: _Korok<LB53 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::LB53::Start
@@ -1768,6 +1804,7 @@ presets:
     LB54:
       presets: _Korok<LB54 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::LB54::Start
@@ -1851,6 +1888,7 @@ presets:
     LL05:
       presets: _Korok<LL05 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::LL05::Start
@@ -2123,6 +2161,7 @@ presets:
     ML08:
       presets: _Korok<ML08 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::ML08::Start
@@ -2177,6 +2216,7 @@ presets:
     ML19:
       presets: _Korok<ML19 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::ML19::Start
@@ -2210,6 +2250,7 @@ presets:
     ML24:
       presets: _Korok<ML24 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::ML24::Start
@@ -2227,6 +2268,7 @@ presets:
     ML26:
       presets: _Korok<ML26 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::ML26::Start
@@ -2277,6 +2319,7 @@ presets:
     ML39:
       presets: _Korok<ML39 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::ML39::Start
@@ -2297,6 +2340,7 @@ presets:
     ML42:
       presets: _Korok<ML42 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::ML42::Start
@@ -2348,6 +2392,7 @@ presets:
     PF03:
       presets: _Korok<PF03 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF03::Start
@@ -2386,6 +2431,7 @@ presets:
     PF12:
       presets: _Korok<PF12 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF12::Start
@@ -2403,6 +2449,7 @@ presets:
     PF14:
       presets: _Korok<PF14 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF14::Start
@@ -2455,6 +2502,7 @@ presets:
     PF22:
       presets: _Korok<PF22 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF22::Start
@@ -2519,6 +2567,7 @@ presets:
     PF34:
       presets: _Korok<PF34 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF34::Start
@@ -2641,6 +2690,7 @@ presets:
     PF62:
       presets: _Korok<PF62 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF62::Start
@@ -2667,6 +2717,7 @@ presets:
     PF67:
       presets: _Korok<PF67 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF67::Start
@@ -2681,6 +2732,7 @@ presets:
     PF68:
       presets: _Korok<PF68 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF68::Start
@@ -2707,6 +2759,7 @@ presets:
     PF73:
       presets: _Korok<PF73 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF73::Start
@@ -2755,6 +2808,7 @@ presets:
     PF82:
       presets: _Korok<PF82 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF82::Start
@@ -2778,6 +2832,7 @@ presets:
     PF86:
       presets: _Korok<PF86 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PF86::Start
@@ -2825,6 +2880,7 @@ presets:
     PS07:
       presets: _Korok<PS07 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PS07::Start
@@ -2861,6 +2917,7 @@ presets:
     PS13:
       presets: _Korok<PS13 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PS13::Start
@@ -2875,6 +2932,7 @@ presets:
     PS14:
       presets: _Korok<PS14 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PS14::Start
@@ -2907,6 +2965,7 @@ presets:
     PS21:
       presets: _Korok<PS21 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::PS21::Start
@@ -2996,6 +3055,7 @@ presets:
     RP06:
       presets: _Korok<RP06 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::RP06::Start
@@ -3028,6 +3088,7 @@ presets:
     RP13:
       presets: _Korok<RP13 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::RP13::Start
@@ -3095,6 +3156,7 @@ presets:
     RP26:
       presets: _Korok<RP26 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::RP26::Start
@@ -3149,6 +3211,7 @@ presets:
     RP38:
       presets: _Korok<RP38 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::RP38::Start
@@ -3374,6 +3437,7 @@ presets:
     RW24:
       presets: _Korok<RW24 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::RW24::Start
@@ -3442,6 +3506,7 @@ presets:
     RW36:
       presets: _Korok<RW36 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::RW36::Start
@@ -3465,6 +3530,7 @@ presets:
     RW40:
       presets: _Korok<RW40 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::RW40::Start
@@ -3479,6 +3545,7 @@ presets:
     RW41:
       presets: _Korok<RW41 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::RW41::Start
@@ -3493,6 +3560,7 @@ presets:
     RW42:
       presets: _Korok<RW42 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::RW42::Start
@@ -3561,6 +3629,7 @@ presets:
     SS07:
       presets: _Korok<SS07 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS07::Start
@@ -3590,6 +3659,7 @@ presets:
     SS13:
       presets: _Korok<SS13 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS13::Start
@@ -3610,6 +3680,7 @@ presets:
     SS16:
       presets: _Korok<SS16 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS16::Start
@@ -3658,6 +3729,7 @@ presets:
     SS26:
       presets: _Korok<SS26 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS26::Start
@@ -3672,6 +3744,7 @@ presets:
     SS27:
       presets: _Korok<SS27 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS27::Start
@@ -3686,6 +3759,7 @@ presets:
     SS28:
       presets: _Korok<SS28 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS28::Start
@@ -3703,6 +3777,7 @@ presets:
     SS30:
       presets: _Korok<SS30 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS30::Start
@@ -3839,6 +3914,7 @@ presets:
     SS60:
       presets: _Korok<SS60 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS60::Start
@@ -3859,6 +3935,7 @@ presets:
     SS63:
       presets: _Korok<SS63 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS63::Start
@@ -3904,6 +3981,7 @@ presets:
     SS72:
       presets: _Korok<SS72 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::SS72::Start
@@ -3971,6 +4049,7 @@ presets:
     TR02:
       presets: _Korok<TR02 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::TR02::Start
@@ -3985,6 +4064,7 @@ presets:
     TR03:
       presets: _Korok<TR03 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::TR03::Start
@@ -4021,6 +4101,7 @@ presets:
     TR09:
       presets: _Korok<TR09 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::TR09::Start
@@ -4035,6 +4116,7 @@ presets:
     TR10:
       presets: _Korok<TR10 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::TR10::Start
@@ -4055,6 +4137,7 @@ presets:
     TR13:
       presets: _Korok<TR13 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::TR13::Start
@@ -4078,6 +4161,7 @@ presets:
     TR17:
       presets: _Korok<TR17 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::TR17::Start
@@ -4101,6 +4185,7 @@ presets:
     TR21:
       presets: _Korok<TR21 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::TR21::Start
@@ -4146,6 +4231,7 @@ presets:
     UM07:
       presets: _Korok<UM07 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UM07::Start
@@ -4173,6 +4259,7 @@ presets:
     UM09:
       presets: _Korok<UM09 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UM09::Start
@@ -4215,6 +4302,7 @@ presets:
     UM17:
       presets: _Korok<UM17 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UM17::Start
@@ -4238,6 +4326,7 @@ presets:
     UM21:
       presets: _Korok<UM21 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UM21::Start
@@ -4261,6 +4350,7 @@ presets:
     UM25:
       presets: _Korok<UM25 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UM25::Start
@@ -4275,6 +4365,7 @@ presets:
     UM26:
       presets: _Korok<UM26 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UM26::Start
@@ -4295,6 +4386,7 @@ presets:
     UM29:
       presets: _Korok<UM29 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UM29::Start
@@ -4424,6 +4516,7 @@ presets:
     UZ12:
       presets: _Korok<UZ12 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UZ12::Start
@@ -4438,6 +4531,7 @@ presets:
     UZ13:
       presets: _Korok<UZ13 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UZ13::Start
@@ -4464,6 +4558,7 @@ presets:
     UZ18:
       presets: _Korok<UZ18 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UZ18::Start
@@ -4494,6 +4589,7 @@ presets:
     UZ22:
       presets: _Korok<UZ22 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UZ22::Start
@@ -4574,6 +4670,7 @@ presets:
     UZ37:
       presets: _Korok<UZ37 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UZ37::Start
@@ -4628,6 +4725,7 @@ presets:
     UZ44:
       presets: _Korok<UZ44 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UZ44::Start
@@ -4657,6 +4755,7 @@ presets:
     UZ50:
       presets: _Korok<UZ50 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UZ50::Start
@@ -4765,6 +4864,7 @@ presets:
     UZ71:
       presets: _Korok<UZ71 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UZ71::Start
@@ -4782,6 +4882,7 @@ presets:
     UZ73:
       presets: _Korok<UZ73 Friends,korok-friends>
       vars:
+        counter-korok: .add(1)
         korok-seed: .add(2)
       movements:
       - _Korok::UZ73::Start
