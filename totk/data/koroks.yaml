@@ -97,6 +97,12 @@ meta:
     Race:
       name: Race
       icon: korok-race
+    FlowerChaseFive:
+      name: Five-Flower Chase
+      icon: korok-flower
+    FlowerChaseTen:
+      name: Ten-Flower Chase
+      icon: korok-flower
   regions:
     EC:
       name: Eldin Canyon
@@ -2533,6 +2539,781 @@ data:
     type: Acorn Hanging
     move: [2307.6, 210.04, 132.86]
     hash: "0x58e19a61805beae7"
+  EC22:
+    type: FlowerChaseFive
+    move:
+    - [2223.67, 626.07, -2368.83]
+    - [2223.54, 627.87, -2376.67]
+    - [2222.15, 635.01, -2379.82]
+    - [2229.31, 635.46, -2376.54]
+    - [2235.57, 634.96, -2367.22]
+    hash: "0xbf5ac6a86815ec33"
+    extra_hashes:
+    - "0xb1ee1ab5949fda24"
+    - "0x28bfd564698d7bd5"
+    - "0xe50412a7903ee22c"
+    - "0x7ec3457a8d520f23"
+    - "0x695cf0db7520026d"
+  EC34:
+    type: FlowerChaseFive
+    move:
+    - [2267.78, 429.45, -1827.44]
+    - [2274.02, 431.52, -1823.03]
+    - [2280.44, 430.63, -1826.03]
+    - [2274.96, 433.65, -1833.39]
+    - [2264.82, 437.36, -1836.83]
+    hash: "0xaef46f1ee419acad"
+    extra_hashes:
+    - "0xd260e3a1ea5f1e0a"
+    - "0x39d12ada3f8d30db"
+    - "0xc496d11f3c00aa56"
+    - "0x494dae08ffdcaa59"
+    - "0x98ce3288b75a4577"
+  GC14:
+    type: FlowerChaseFive
+    move:
+    - [-4442.97, 185.82, 2274.18]
+    - [-4432.99, 183.18, 2265.62]
+    - [-4433.13, 179.1, 2275.43]
+    - [-4424.37, 174.57, 2276.56]
+    - [-4424.25, 166.44, 2263.67]
+    hash: "0x70674caec943291d"
+    extra_hashes:
+    - "0xe9ea0b138c3555b8"
+    - "0x615bb2eab8d3b296"
+    - "0x1e0728a1824a3b18"
+    - "0xb4dfce98f5a63419"
+    - "0xa2c04b782cac037b"
+  GC34:
+    type: FlowerChaseTen
+    move:
+    - [-3592.1, 141.32, 3006.34]
+    - [-3579.84, 143.22, 3005.44]
+    - [-3574.95, 145.12, 3015.71]
+    - [-3582.24, 151.59, 3022.04]
+    - [-3585.43, 147.72, 3034.49]
+    - [-3601.19, 139.38, 3032.65]
+    - [-3601.43, 146.51, 3029.31]
+    - [-3598.05, 150.41, 3018.13]
+    - [-3595.57, 154.14, 3020.07]
+    - [-3586.61, 158.22, 3027.01]
+    hash: "0xa2ea9d03cb18c242"
+    extra_hashes:
+    - "0x6327b79088a718a4"
+    - "0x8626d1d1b76df8c1"
+    - "0x1baba172b87a2ed4"
+    - "0x149ca816f18d781a"
+    - "0x7a507eccd4a48336"
+    - "0x4b3a2dfbd22d1e7e"
+    - "0x4848763db8e3e07d"
+    - "0x9ece02c20134e044"
+    - "0xdca508180ed7acf3"
+    - "0xbb5a0f0af8b02176"
+  GC39:
+    type: FlowerChaseFive
+    move:
+    - [-966.96, 356.57, 3231.61]
+    - [-978.65, 357.81, 3201.23]
+    - [-935.05, 356.98, 3236.81]
+    - [-1002.73, 356.8, 3232.35]
+    - [-985.76, 360.54, 3248.13]
+    hash: "0xa2eb9ec95c99f353"
+    extra_hashes:
+    - "0xad49db049e1ca307"
+    - "0x34989db5650e44d5"
+    - "0xd053e04c6cff255a"
+    - "0x7a1c3dbd48c45644"
+    - "0x953583dd7d9ed97a"
+  GH20:
+    type: FlowerChaseFive
+    move:
+    - [-3751.59, 629.82, 1081.14]
+    - [-3750.29, 635.35, 1070.77]
+    - [-3744.84, 636.96, 1056.4]
+    - [-3737.46, 638.47, 1018.08]
+    - [-3737.09, 640.67, 1000.51]
+    hash: "0xdb45f15031ccb253"
+    extra_hashes:
+    - "0x92af729d3de0fc38"
+    - "0xcf61351cd0da2ac9"
+    - "0xb9f90adfcf4b8048"
+    - "0x03b2a5c24d70944b"
+    - "0x4cdf2842e4e2e549"
+  GH54:
+    type: FlowerChaseTen
+    move:
+    - [-2931.36, 314.48, 2216.55]
+    - [-2929.79, 309.22, 2228.15]
+    - [-2918.39, 305.79, 2241.73]
+    - [-2890.22, 308.54, 2245.03]
+    - [-2875.62, 305.06, 2235.46]
+    - [-2870.49, 303.22, 2217.19]
+    - [-2875.06, 303.13, 2198.47]
+    - [-2895.02, 303.37, 2183.89]
+    - [-2912.47, 310.54, 2190.35]
+    - [-2933.68, 314.63, 2216.18]
+    hash: "0xd0f485ba5905f0ea"
+    extra_hashes:
+    - "0x1347af2dbda42957"
+    - "0x5484fd74696ed964"
+    - "0xdbca861d75436939"
+    - "0xe63f46b1948e4881"
+    - "0x3472685168a78dda"
+    - "0x13dc011ad9283589"
+    - "0x2a6e48e685e2f12f"
+    - "0x9cac24a36f3213e1"
+    - "0x9ec5e68a3da7f656"
+    - "0x737416a52cb6d3b1"
+  GSI05:
+    type: FlowerChaseFive
+    move:
+    - [521.33, 1524.02, 1323.55]
+    - [517.22, 1525.05, 1329.3]
+    - [511.26, 1527.11, 1328.84]
+    - [507.02, 1527.03, 1322.02]
+    - [510.23, 1525.72, 1317.51]
+    hash: "0x19d0c9ba930c53c1"
+    extra_hashes:
+    - "0x535c06c056b7c316"
+    - "0xee8d4dff72aa2244"
+    - "0xbb2d16b0651545ca"
+    - "0x1d6945e730a1b8d4"
+    - "0x6ff237678233a9ca"
+  HF09:
+    type: FlowerChaseTen
+    move:
+    - [-2536.78, 307.75, 629.07]
+    - [-2532, 306.46, 632.93]
+    - [-2517.58, 306.02, 645.63]
+    - [-2510.84, 306.91, 639.51]
+    - [-2511.32, 310.66, 627.44]
+    - [-2502.74, 306.9, 623.52]
+    - [-2494.3, 308.88, 600.35]
+    - [-2488.3, 307.26, 591.28]
+    - [-2496.41, 307.47, 585.92]
+    - [-2496.2, 310.7, 570.26]
+    hash: "0x5e28cff0aa99beca"
+    extra_hashes:
+    - "0xa99089070660e029"
+    - "0xdab924be7d2d504d"
+    - "0x5deebac04abb95a6"
+    - "0x60039c87230ec1a0"
+    - "0xbec789aeade714a4"
+    - "0x99d7301ce4ed7be8"
+    - "0x94a9e9904a22380d"
+    - "0x22503355967b89c2"
+    - "0x10193fa799d7cd6b"
+    - "0xc93f7c8bb776c890"
+  HF29:
+    type: FlowerChaseFive
+    move:
+    - [-1967.74, 203.79, 1090.34]
+    - [-1970.42, 205.67, 1089.18]
+    - [-1970.39, 204.22, 1086.58]
+    - [-1972.79, 203.75, 1090.74]
+    - [-1967.74, 203.79, 1090.34]
+    hash: "0xb8960219505a8593"
+    extra_hashes:
+    - "0xa1223fde8e516928"
+    - "0x3af3799d71b80e19"
+    - "0xea747f1e78337e99"
+    - "0x748f99e9b487805b"
+    - "0x658c1ca96d527f79"
+  HF49:
+    type: FlowerChaseTen
+    move:
+    - [-1173.44, 187.54, 1655.07]
+    - [-1166.72, 188.06, 1648.13]
+    - [-1173.04, 187.78, 1640.79]
+    - [-1188.09, 187.7, 1648.43]
+    - [-1197.3, 187.56, 1648.26]
+    - [-1203.02, 189.15, 1655.97]
+    - [-1207.4, 190.95, 1662.77]
+    - [-1208.3, 190.3, 1669.02]
+    - [-1206.24, 188.01, 1683.2]
+    - [-1210.81, 187.8, 1689.23]
+    hash: "0xbbcdd3dfff43d7a4"
+    extra_hashes:
+    - "0x341e35a59be89641"
+    - "0xb7bf8b9daca3a3ae"
+    - "0x02905efed58243f3"
+    - "0x35e532e2f6473717"
+    - "0x1329e800f66d7ed1"
+    - "0x72055f7f3f635403"
+    - "0x4107f839c729da61"
+    - "0xbf954cb6eddcda37"
+    - "0xff9c52551aadf6ef"
+    - "0x92bd5a36ebdb9a7b"
+  HF59:
+    type: FlowerChaseFive
+    move:
+    - [3.78, 207.41, 1891.32]
+    - [7.97, 208.32, 1891.46]
+    - [7.69, 212.15, 1892.69]
+    - [7.77, 214.24, 1900.46]
+    - [0.75, 213.19, 1900.44]
+    hash: "0x795cac82ff0edebb"
+    extra_hashes:
+    - "0xe0e9acf5fad44c00"
+    - "0x69b873361697262e"
+    - "0x173e88832508c3b0"
+    - "0xbdf4eebcd76cbc43"
+    - "0xaa55691cdfd6a450"
+  LB10:
+    type: FlowerChaseTen
+    move:
+    - [-3621.34, 250.44, -1522.18]
+    - [-3621.97, 254.26, -1518.7]
+    - [-3625.01, 255.79, -1505.02]
+    - [-3617.55, 253.22, -1502.74]
+    - [-3609.74, 246.95, -1500.86]
+    - [-3601.49, 247.46, -1499.19]
+    - [-3596.78, 246.83, -1509.71]
+    - [-3592.46, 248.62, -1524.82]
+    - [-3589.97, 246.03, -1532.33]
+    - [-3597.97, 248.43, -1535.52]
+    hash: "0x399e3dbb405df6ac"
+    extra_hashes:
+    - "0xa96e17ceb4f921c2"
+    - "0x3cee70f99d30119a"
+    - "0xb1e06e1b55305dde"
+    - "0xa3952f3f8728810b"
+    - "0xe4591f17417e5cb0"
+    - "0xfcf56dd2ce7acb04"
+    - "0xff57d44964b5f861"
+    - "0x245a839d7cc1f82a"
+    - "0x76938eee311e84fb"
+    - "0x0c4e904003ed386c"
+  LB41:
+    type: FlowerChaseFive
+    move:
+    - [-2897.41, 313.59, -557.82]
+    - [-2908.71, 314.59, -552.61]
+    - [-2935.23, 306.85, -548.1]
+    - [-2928.45, 304.62, -547.27]
+    - [-2920.36, 298.94, -546.25]
+    hash: "0xecfa87cf2f39c358"
+    extra_hashes:
+    - "0x9c765b02ab44d3f2"
+    - "0xfdc6926ba75a73c5"
+    - "0x8a18d5ae9123f546"
+    - "0x0053075b87f74757"
+    - "0x5ec8f2fb2f4df8c6"
+  LB46:
+    type: FlowerChaseTen
+    move:
+    - [-3649.74, 392.25, -511.11]
+    - [-3635.74, 391.04, -502.86]
+    - [-3602.73, 390.47, -471.35]
+    - [-3595.02, 388.64, -460.86]
+    - [-3551.68, 386.28, -423.83]
+    - [-3556.48, 394.99, -399.8]
+    - [-3582.36, 391.93, -380.26]
+    - [-3578.42, 402.84, -369.31]
+    - [-3592.05, 403.18, -364.65]
+    - [-3607.35, 402.73, -357.95]
+    hash: "0x0e22ab0f230b6cd2"
+    extra_hashes:
+    - "0xc79a81949fec2e1f"
+    - "0x62b2eb2de6a315b0"
+    - "0xef60dc6ed042f5fd"
+    - "0xc8f5bd6abb978df5"
+    - "0xce498dd82461f69a"
+    - "0x2752df8f7b6bcb55"
+    - "0x14506701c3a54a17"
+    - "0x4ac609c6291155d4"
+    - "0xa81f1c1411a9799e"
+    - "0x27421a162092166d"
+  LB50:
+    type: FlowerChaseFive
+    move:
+    - [-3109, 216.74, -241.98]
+    - [-3136.81, 212.55, -248.88]
+    - [-3122.05, 213.27, -255.18]
+    - [-3130.34, 214.32, -240.73]
+    - [-3118.96, 217.17, -236.28]
+    hash: "0x54f7f1f2c67512ef"
+    extra_hashes:
+    - "0x057d7e0f98beac00"
+    - "0x45d3b5ae8fad9a52"
+    - "0x3a97be69921e27d7"
+    - "0x906f1da0aebb35c1"
+    - "0xc6329820f0380537"
+  LL16:
+    type: FlowerChaseFive
+    move:
+    - [-466.64, 206.01, -851.15]
+    - [-465.42, 208.56, -856.42]
+    - [-454.37, 207.03, -863.23]
+    - [-453.68, 216.43, -864.01]
+    - [-428.59, 221.57, -889.84]
+    hash: "0xeee2af2e4df05a7b"
+    extra_hashes:
+    - "0x7d71aaa881bc6890"
+    - "0x9c0053f18582cde1"
+    - "0x484b72287c1b7f63"
+    - "0xce742ff1b9bfc070"
+    - "0x3d8d9391692570a2"
+  LL36:
+    type: FlowerChaseFive
+    move:
+    - [347.39, 146.96, -493.17]
+    - [359.08, 151.87, -483.36]
+    - [370.33, 140.72, -473.93]
+    - [379.42, 157.67, -466.18]
+    - [382.36, 158.47, -463.47]
+    hash: "0x744470ee054e17b3"
+    extra_hashes:
+    - "0xf4c9f1e94eeab74c"
+    - "0x6d383fd25af09c3e"
+    - "0xdea7ba6f5f452cbb"
+    - "0xb8fc9b90586e31bd"
+    - "0xaa9d59336af4011b"
+  LL43:
+    type: FlowerChaseTen
+    move:
+    - [-526.67, 167.71, -188.48]
+    - [-519.66, 171.29, -206.84]
+    - [-514.3, 168.77, -207.16]
+    - [-501.96, 149.86, -220.03]
+    - [-485.27, 141.12, -230.03]
+    - [-476.15, 141.63, -231.65]
+    - [-462.62, 143.06, -237.64]
+    - [-451.84, 139.27, -241.26]
+    - [-442.26, 139.27, -244.39]
+    - [-430.25, 142.92, -248.33]
+    hash: "0x91990b91201f8d7a"
+    extra_hashes:
+    - "0x5130d5245cbc6985"
+    - "0x962b2be3636709d8"
+    - "0x1dd63e66147edd16"
+    - "0x5b65505a25838954"
+    - "0x72a1cdf827b9d476"
+    - "0x56b9bff5fe27cf3f"
+    - "0x67cbd7af04fd31a2"
+    - "0xde51aebaad29b17b"
+    - "0xd8aeb384d2a19d3b"
+    - "0xb62978beac8e7027"
+  ML02:
+    type: FlowerChaseFive
+    move:
+    - [4448.19, 173.96, 743.37]
+    - [4457.72, 173.18, 784.35]
+    - [4486.63, 171.22, 782.22]
+    - [4477.44, 164.26, 806.01]
+    - [4462.5, 168.47, 842.27]
+    hash: "0x6ac0ccb1eb036e59"
+    extra_hashes:
+    - "0xe2570cbae8b61cf4"
+    - "0x7fe4b6e52c90f6a6"
+    - "0x286230ba26057024"
+    - "0xb2284ae1f3a5ec15"
+    - "0xdc272e61833475a4"
+  ML11:
+    type: FlowerChaseFive
+    move:
+    - [4526.15, 117.32, 1514.83]
+    - [4530.17, 110.75, 1518.48]
+    - [4527.13, 108.12, 1533.55]
+    - [4518.36, 108.88, 1530.82]
+    - [4508.2, 106.98, 1519.86]
+    hash: "0xa611c90a954de405"
+    extra_hashes:
+    - "0xa9830e4f50a7d2b0"
+    - "0x3052d56eccb5708f"
+    - "0xcced2e0d2e46ea00"
+    - "0x46264d74692a9611"
+    - "0x9133cf95b9398b83"
+  PF15:
+    type: FlowerChaseFive
+    move:
+    - [514.35, 166.74, 1790.94]
+    - [491.81, 160.51, 1780.27]
+    - [479.24, 149.96, 1759.45]
+    - [473.37, 141.5, 1735.03]
+    - [465.61, 132.56, 1697.51]
+    hash: "0xcd7a6dd8a2c3ce73"
+    extra_hashes:
+    - "0xbf02ed15a4b6bcdf"
+    - "0xda5635a460b45789"
+    - "0x97180f6256d9c80b"
+    - "0x69e1adaec2214b08"
+    - "0x7ba830ef5c30a48a"
+  PF23:
+    type: FlowerChaseFive
+    move:
+    - [282.4, 141.84, 2240.99]
+    - [291.21, 142.14, 2256.11]
+    - [278.12, 142.13, 2219.83]
+    - [273.06, 142.45, 2236.57]
+    - [265.75, 142.43, 2216.22]
+    hash: "0x11d3ab9efa1d9334"
+    extra_hashes:
+    - "0x5f59af59f898039b"
+    - "0x82f77652cb81e249"
+    - "0x47738d9fce3485cf"
+    - "0xcc4be290d2d8e7c8"
+    - "0x03516e3320196ace"
+  PF48:
+    type: FlowerChaseFive
+    move:
+    - [-40, 217.78, 2961.41]
+    - [-53.52, 213.67, 2953.8]
+    - [-35.61, 213.96, 2944.21]
+    - [-22.44, 214.37, 2959.49]
+    - [-16.93, 221.58, 2975.96]
+    hash: "0x96829b2b2e89e5e8"
+    extra_hashes:
+    - "0xc70a582c2a27d542"
+    - "0x0cdd868f1535691c"
+    - "0xf8205c2c2680f09e"
+    - "0x569932f7d62b7c9f"
+    - "0x8360bf5741b9fc31"
+  PF57:
+    type: FlowerChaseFive
+    move:
+    - [1539.24, 200.02, 3238.76]
+    - [1538.76, 200.29, 3246.13]
+    - [1535.88, 202.44, 3252.61]
+    - [1531.78, 207.23, 3262.01]
+    - [1531.83, 201.75, 3263.82]
+    hash: "0xb43d09b2153d7328"
+    extra_hashes:
+    - "0xb4ab493f6d672355"
+    - "0x2d9a137e3a9902a5"
+    - "0x9ec12cbd3f046d25"
+    - "0x79068e8479f08814"
+    - "0x6a030d042a618962"
+  PF79:
+    type: FlowerChaseFive
+    move:
+    - [812.76, 213.38, 3717.78]
+    - [821.74, 210.85, 3732.09]
+    - [804.12, 212.74, 3727.86]
+    - [800.84, 212.31, 3708.9]
+    - [817.5, 209.51, 3700.65]
+    hash: "0xc37df8786dfa71d7"
+    extra_hashes:
+    - "0xbae347656ea70502"
+    - "0xdf513eb41698ed31"
+    - "0x919934f31c059ecd"
+    - "0x6bc6828e19b19bcf"
+    - "0x7cbb160e6e225f4d"
+  PSS01:
+    type: FlowerChaseFive
+    move:
+    - [-1716.86, 1092.73, -3561.22]
+    - [-1713.11, 1097.77, -3557.54]
+    - [-1696.6, 1093.08, -3552.35]
+    - [-1682.23, 1091.94, -3564.65]
+    - [-1683.55, 1091.93, -3571.14]
+    hash: "0xa7dabc07c454a6c5"
+    extra_hashes:
+    - "0xb66eb44399ae1410"
+    - "0x133ff2738dba3f3e"
+    - "0x4db3f8358c4d90c0"
+    - "0xc7731e7be111a331"
+    - "0xf0dc9a9a31204c40"
+  RP17:
+    type: FlowerChaseFive
+    move:
+    - [-3842.34, 417.4, -3347.19]
+    - [-3834.66, 422.04, -3351.2]
+    - [-3816.69, 429.61, -3350.79]
+    - [-3776.79, 442.93, -3330.25]
+    - [-3771.81, 446.03, -3342.19]
+    hash: "0xe81e90070f7c7b4e"
+    extra_hashes:
+    - "0x918651b4f3b12b8a"
+    - "0xf9b29ecbb68a0bd9"
+    - "0x86bc6404b51b9d45"
+    - "0x0c653a13e73f9f57"
+    - "0x55d586720f309045"
+  RP40:
+    type: FlowerChaseFive
+    move:
+    - [-3796.74, 276.37, -2322.58]
+    - [-3796.33, 276.27, -2314.93]
+    - [-3789.21, 276.1, -2314.91]
+    - [-3790.84, 280.15, -2317.44]
+    - [-3792.59, 283.36, -2319.13]
+    hash: "0xd0fba8d6f8c47e31"
+    extra_hashes:
+    - "0x996129e1f6bb2c49"
+    - "0xc6177295194df694"
+    - "0x865b4e5710c25009"
+    - "0x0c82efd9dc37c406"
+    - "0x458871b8d6395489"
+  RP50:
+    type: FlowerChaseFive
+    move:
+    - [-4124.04, 303.5, -1935.25]
+    - [-4123.89, 304.77, -1928.66]
+    - [-4123.65, 304.11, -1942.26]
+    - [-4118.23, 304.04, -1931.42]
+    - [-4129.37, 304.74, -1939.21]
+    hash: "0x93398990e63b012c"
+    extra_hashes:
+    - "0xcab7586de3fd9dcb"
+    - "0x0fe691cc3d8b75b8"
+    - "0xc19d578b3911f336"
+    - "0x5bd20186fe7d0d38"
+    - "0x8c77b407c8fbeb96"
+  RP57:
+    type: FlowerChaseFive
+    move:
+    - [-4227.12, 216.64, -1748.25]
+    - [-4229.07, 222.42, -1745.24]
+    - [-4227.1, 224.09, -1748.56]
+    - [-4223.73, 230.7, -1744.5]
+    - [-4225.31, 229.99, -1739.74]
+    hash: "0x8858e38152efa81d"
+    extra_hashes:
+    - "0xc1dc664914491e38"
+    - "0x1a8b2fcd115735ea"
+    - "0xcaf6b28b6ae4aa68"
+    - "0xac2f6bb15288ad09"
+    - "0xbd0ad51045564277"
+  RW08:
+    type: FlowerChaseFive
+    move:
+    - [1885.19, 145.43, 2418.31]
+    - [1899.27, 144.79, 2411.05]
+    - [1913.13, 144.97, 2407.45]
+    - [1928.66, 143.71, 2390.54]
+    - [1943.83, 144.57, 2382.4]
+    hash: "0xf5ac635ff2af2df3"
+    extra_hashes:
+    - "0x6420e49a10f6f14c"
+    - "0xfdf02e6315f7917d"
+    - "0xaf0aa8de1a56eaf5"
+    - "0x31c5d2631a026e83"
+    - "0x224a47a3e9f00a15"
+  SS03:
+    type: FlowerChaseFive
+    move:
+    - [841.44, 233.7, -693.83]
+    - [839.56, 229.9, -721.41]
+    - [836.85, 231.99, -736.75]
+    - [837.28, 229.18, -753.97]
+    - [841.31, 223.05, -787.91]
+    hash: "0x6bf7ea4fb1d30ba0"
+    extra_hashes:
+    - "0x1d616d08321d9b7b"
+    - "0x7493d4b3f26bfa2c"
+    - "0x395792c9f8fa6eaf"
+    - "0x831f64b335de018c"
+    - "0xd53cf052e983712e"
+  SS05:
+    type: FlowerChaseFive
+    move:
+    - [974.47, 189.49, -673.95]
+    - [960.8, 194.51, -674.41]
+    - [965.82, 194.18, -660.56]
+    - [955.97, 198.46, -652.75]
+    - [951.83, 197.58, -636.01]
+    hash: "0x185229637b156984"
+    extra_hashes:
+    - "0x40ca2a1c66e3b573"
+    - "0x8f36645f1b898d00"
+    - "0x7ab0629c203c5a8f"
+    - "0xdcfa9497535016b0"
+    - "0x0e90013743e1030e"
+  SS44:
+    type: FlowerChaseFive
+    move:
+    - [1259.77, 258.3, 1006.09]
+    - [1254.55, 256.94, 1017.26]
+    - [1233.12, 246.09, 1022.94]
+    - [1238.94, 246.11, 1031.07]
+    - [1246.37, 250.52, 1033.06]
+    hash: "0x208d5a9be6f89b2b"
+    extra_hashes:
+    - "0x2807a61ee0be0bcf"
+    - "0xb151e15f2caf12b8"
+    - "0x5229e6922adef93b"
+    - "0xfc65b197ce327c39"
+    - "0xeef6c737c83cfd9b"
+  SS48:
+    type: FlowerChaseTen
+    move:
+    - [2766.35, 272.34, 1217.46]
+    - [2774.26, 277.8, 1214.41]
+    - [2802.64, 283.07, 1200.33]
+    - [2825.72, 294.14, 1204.33]
+    - [2830.66, 289.34, 1194.95]
+    - [2830.18, 280.76, 1185.39]
+    - [2814.19, 250.84, 1184.6]
+    - [2765.16, 253.08, 1174.94]
+    - [2736.64, 225.2, 1175.77]
+    - [2706.13, 202.36, 1163.42]
+    hash: "0x7261259c1ead3026"
+    extra_hashes:
+    - "0x73e74d29b20d7a43"
+    - "0xee767ddacb4a9e6c"
+    - "0x4ba3617df76a0852"
+    - "0x4c8cb699d4575988"
+    - "0x4ac8d0c507c8d337"
+    - "0xab72690019b3ff81"
+    - "0x88d09184e605b6e3"
+    - "0xc5de43bbce9932a9"
+    - "0x349257903cf02971"
+    - "0xdbc256b5cd5d7299"
+  SS54:
+    type: FlowerChaseFive
+    move:
+    - [1626.41, 117.39, 1359.99]
+    - [1609.03, 119.7, 1348.01]
+    - [1600.39, 116.03, 1355.77]
+    - [1597.56, 121.61, 1375.63]
+    - [1598.38, 131.17, 1392.76]
+    hash: "0xe8a3861367d37870"
+    extra_hashes:
+    - "0xa015c2576325aa1b"
+    - "0xe747bba7acc4fcf4"
+    - "0xba03b619adc96a77"
+    - "0x144a182f4f95d744"
+    - "0x66c5956e47a34256"
+  SSS05:
+    type: FlowerChaseTen
+    move:
+    - [2334.86, 1791.03, 1845.45]
+    - [2334.05, 1796.78, 1836.55]
+    - [2327.47, 1796.87, 1844.85]
+    - [2330.76, 1793.42, 1859.32]
+    - [2338.5, 1796.48, 1859.67]
+    - [2344.87, 1801.31, 1855.94]
+    - [2349.3, 1807.26, 1849.48]
+    - [2348.99, 1810.89, 1841.39]
+    - [2341, 1816.84, 1831.24]
+    - [2332.18, 1821.92, 1829.56]
+    hash: "0xfebcd969d8ce6a32"
+    extra_hashes:
+    - "0xf6453e6bbc6c354f"
+    - "0x73148dabe5a66d10"
+    - "0xfcfea669c58ec0ee"
+    - "0xf86e377ba3db9394"
+    - "0x1fa9f7dde9e19829"
+    - "0x31d558155ae74d77"
+    - "0xc4b2f1aef42d7576"
+    - "0x7b7c4bdd0c517fb3"
+    - "0xbbf7568239a893e2"
+    - "0x912d579f2f5e3f7c"
+  UM08:
+    type: FlowerChaseFive
+    move:
+    - [4435.77, 355.38, -3187.56]
+    - [4438.77, 352.53, -3194.61]
+    - [4424.13, 352.73, -3188.46]
+    - [4432.8, 352.29, -3179.92]
+    - [4435.77, 355.38, -3187.56]
+    hash: "0x57c21c16c3af0cea"
+    extra_hashes:
+    - "0x3632245c87c6bf80"
+    - "0x5bee215a8bd79776"
+    - "0x2d6c1b1485a601f0"
+    - "0xe72ab164eb1212c1"
+    - "0xf86d3aa52bc425d3"
+  UM37:
+    type: FlowerChaseFive
+    move:
+    - [3670.08, 201.74, -1467.89]
+    - [3676.33, 200.33, -1455.31]
+    - [3675.21, 197.37, -1440.25]
+    - [3656.17, 197.17, -1448.57]
+    - [3644.92, 201.68, -1458.49]
+    hash: "0xca276c54f61e44a8"
+    extra_hashes:
+    - "0xbe91ec01f05877c3"
+    - "0xd9c32598cf70df14"
+    - "0x94872fd32ae47197"
+    - "0x6ace8966ee9bc284"
+    - "0x78490e2687566df6"
+  UZ03:
+    type: FlowerChaseFive
+    move:
+    - [3882.68, 353.26, -1338.28]
+    - [3878.35, 353.2, -1340.41]
+    - [3886.83, 354.13, -1339.62]
+    - [3882.61, 356.42, -1340.24]
+    - [3881.37, 350.65, -1349.81]
+    hash: "0x7915126d76cca4fb"
+    extra_hashes:
+    - "0xf78a56626b20fa5e"
+    - "0x6a7918c85f465808"
+    - "0xdff4c7f222c58f8a"
+    - "0xa43d793a1f916d8b"
+    - "0xabd4e49d87a6cd05"
+  UZ30:
+    type: FlowerChaseFive
+    move:
+    - [3663.64, 351.92, -449.53]
+    - [3663.09, 354.88, -444.39]
+    - [3667.01, 358.25, -447.53]
+    - [3671.55, 361.63, -450.44]
+    - [3675.88, 364.32, -452.62]
+    hash: "0x937b22d749936ce6"
+    extra_hashes:
+    - "0xd90dbeea8d593e4b"
+    - "0x005ef9049823d87b"
+    - "0xc51bfe569ebca3ff"
+    - "0x53e259429a19cefe"
+    - "0x81bddfc3645b421f"
+  UZ41:
+    type: FlowerChaseTen
+    move:
+    - [2751.8, 215.75, -251.41]
+    - [2750.6, 216.82, -238.38]
+    - [2736.22, 217.54, -231.9]
+    - [2739.45, 217.68, -224.94]
+    - [2744.55, 221.31, -222.12]
+    - [2736.54, 229.76, -208.07]
+    - [2733.37, 230.97, -187.95]
+    - [2740.71, 233.96, -186.93]
+    - [2740.7, 238.32, -191.58]
+    - [2744.01, 242.77, -199.66]
+    hash: "0x90be65e313fcd20b"
+    extra_hashes:
+    - "0x51ed5b8ea75a1bfc"
+    - "0x9c0e91d5de10e718"
+    - "0x197da13ced11471f"
+    - "0x5ec81818dbf87b53"
+    - "0x7c845226f011b47e"
+    - "0x55963da313dbd7a7"
+    - "0x5bb41265cb54dfc5"
+    - "0xe4fa4e78e741d18b"
+    - "0xda73b8d1253eb43a"
+    - "0xb50ef374d72c11cf"
+  UZ63:
+    type: FlowerChaseFive
+    move:
+    - [2944.25, 285.8, 349.75]
+    - [2963.98, 287.09, 364.02]
+    - [2989.67, 287.56, 361.03]
+    - [3001.31, 294.48, 373.07]
+    - [3009.32, 297.91, 373.12]
+    hash: "0x093b655f4f2e5933"
+    extra_hashes:
+    - "0x77b9ed5a8b8a45c7"
+    - "0x9a67a79c88901db6"
+    - "0x6fd3aade91254b3c"
+    - "0x240c1052a7c9e502"
+    - "0x3bf58db34f14729c"
+  UZ70:
+    type: FlowerChaseFive
+    move:
+    - [3711.79, 106.79, 621.9]
+    - [3732.01, 109.12, 619.96]
+    - [3739.83, 107.05, 616.08]
+    - [3734, 114.59, 631.43]
+    - [3720.34, 107.51, 620.92]
+    hash: "0x561014c04a918a30"
+    extra_hashes:
+    - "0x3584559b88e7385d"
+    - "0x44b41a1c9c061aad"
+    - "0x00b260459e778c35"
+    - "0x96f8b6d2925bb124"
+    - "0xc55701b220e5a055"
 presets:
  _Korok:
     RP08:
@@ -2547,10 +3328,6 @@ presets:
       coord: [-4263.1, 95, 2176.5]
       hash_id: "0x95684aa7a4c3b176"
       text: RP38 Korok Friends"
-    RP50:
-      coord: [-4124.03, 303.5, 1935.27]
-      hash_id: "0x93398990e63b012c"
-      text: RP50 Flower Trail"
     RP31:
       coord: [-3849.86, 135.37, 2737.93]
       hash_id: "0x66f8f6fa876b4ae1"
@@ -2559,10 +3336,6 @@ presets:
       coord: [-4169.55, 215.86, 1695.96]
       hash_id: "0x93e0f34cdc9713f1"
       text: RP59 Rock Lift"
-    RP57:
-      coord: [-4225.13, 232.21, 1736.76]
-      hash_id: "0x8858e38152efa81d"
-      text: RP57 Flower Trail"
     LB28:
       coord: [-4059.4, 211.85, 773.91]
       hash_id: "0xbb4fc2cd8d3505d0"
@@ -2579,10 +3352,6 @@ presets:
       coord: [-4540.5, 633.5, -1344]
       hash_id: "0xba0dbba90c1a9a19"
       text: GH10 Korok Friends"
-    GC14:
-      coord: [-4425.7, 168.63, -2262.22]
-      hash_id: "0x70674caec943291d"
-      text: GC14 Flower Trail"
     GH47:
       coord: [-4138.99, 151.36, -2259.98]
       hash_id: "0x9c6ce54cb8aa0d77"
@@ -2599,10 +3368,6 @@ presets:
       coord: [-4610.9, 143.5, -3198.5]
       hash_id: "0xb9ed273015b98834"
       text: GC45 Korok Friends"
-    RP17:
-      coord: [-3772.03, 447.56, 3344.37]
-      hash_id: "0xe81e90070f7c7b4e"
-      text: RP17 Flower Trail"
     RP14:
       coord: [-3839.74, 392.37, 3416.9]
       hash_id: "0x527e8949c9d6badf"
@@ -2639,10 +3404,6 @@ presets:
       coord: [-3350.7, 621.29, 2992.55]
       hash_id: "0x50b98467625ced72"
       text: RP25 Rock Lift"
-    RP40:
-      coord: [-3792.6, 285.76, 2319.19]
-      hash_id: "0xd0fba8d6f8c47e31"
-      text: RP40 Flower Trail"
     RP35:
       coord: [-3677.33, 426.12, 2466.63]
       hash_id: "0xfd3a7a70e46b937a"
@@ -2679,10 +3440,6 @@ presets:
       coord: [-3715.55, 303.47, 1039.37]
       hash_id: "0x0243c27dba6150c9"
       text: LB22 Through the Roof"
-    LB10:
-      coord: [-3598.84, 249.43, 1537.68]
-      hash_id: "0x399e3dbb405df6ac"
-      text: LB10 Flower Trail"
     RP58:
       coord: [-3985.51, 285.22, 1708.93]
       hash_id: "0x83edb3eca506057b"
@@ -2691,10 +3448,6 @@ presets:
       coord: [-3696.41, 208.61, 1685.38]
       hash_id: "0xc57d6f354fe31cc1"
       text: RP60 Rock Lift"
-    LB46:
-      coord: [-3609.13, 403.3, 357.58]
-      hash_id: "0x0e22ab0f230b6cd2"
-      text: LB46 Flower Trail"
     LB30:
       coord: [-3614.14, 395.17, 983]
       hash_id: "0x8464b2a0e6538974"
@@ -2719,10 +3472,6 @@ presets:
       coord: [-3551.74, 317.35, 594.93]
       hash_id: "0x8f37c80d3606ae8f"
       text: LB37 Rock Lift"
-    LB50:
-      coord: [-3117.67, 216.97, 234.71]
-      hash_id: "0x54f7f1f2c67512ef"
-      text: LB50 Flower Trail"
     GH12:
       coord: [-3199.49, 584.89, -1169.53]
       hash_id: "0x75ed6d366e8b0336"
@@ -2763,10 +3512,6 @@ presets:
       coord: [-3921.17, 347.59, -1590.68]
       hash_id: "0x2d0c418488b3138a"
       text: GH40 Offering Plate"
-    GH20:
-      coord: [-3737.1, 640.96, -996.46]
-      hash_id: "0xdb45f15031ccb253"
-      text: GH20 Flower Trail"
     GC22:
       coord: [-2982.4, 131, -2327.5]
       hash_id: "0x15a4b1c5a6171c78"
@@ -2791,10 +3536,6 @@ presets:
       coord: [-3818.56, 157.54, -3126.49]
       hash_id: "0x09c17f3baf0dc536"
       text: GC42 Korok Friends"
-    GC34:
-      coord: [-3588.62, 158.14, -3029.56]
-      hash_id: "0xa2ea9d03cb18c242"
-      text: GC34 Flower Trail"
     PS13:
       coord: [-2339.82, 509.5, 2955.47]
       hash_id: "0x1ca9c1898ede247d"
@@ -2819,10 +3560,6 @@ presets:
       coord: [-2221.22, 275.5, 1580.39]
       hash_id: "0xa6b1c6c0bc0165a0"
       text: LB07 Rock Lift"
-    LB41:
-      coord: [-2919.95, 302.06, 546.2]
-      hash_id: "0xecfa87cf2f39c358"
-      text: LB41 Flower Trail"
     LB43:
       coord: [-2084.43, 209.5, 482.3]
       hash_id: "0xf42ac71a180abe4e"
@@ -2847,10 +3584,6 @@ presets:
       coord: [-2220.66, 316.27, -693.38]
       hash_id: "0xb173abf890648dfd"
       text: HF16 Through the Roof"
-    HF09:
-      coord: [-2497.84, 311.03, -567.67]
-      hash_id: "0x5e28cff0aa99beca"
-      text: HF09 Flower Trail"
     HF18:
       coord: [-2200.36, 275.91, -798.61]
       hash_id: "0xb13ea71e58eb9dfd"
@@ -2891,10 +3624,6 @@ presets:
       coord: [-2264.59, 356.96, -2163.4]
       hash_id: "0xf203598f31e957d3"
       text: GC11 Rock Lift"
-    GH54:
-      coord: [-2936.8, 314.38, -2214.41]
-      hash_id: "0xd0f485ba5905f0ea"
-      text: GH54 Flower Trail"
     GC06:
       coord: [-2486.11, 227.06, -2054.55]
       hash_id: "0x0f69cec7b5105a3f"
@@ -3007,14 +3736,6 @@ presets:
       coord: [-1771.4, 115.7, -1243.44]
       hash_id: "0x8deeafa8a1181258"
       text: HF33 Rock Lift"
-    HF49:
-      coord: [-1202.35, 189.39, -1690.78]
-      hash_id: "0xbbcdd3dfff43d7a4"
-      text: HF49 Flower Trail"
-    HF29:
-      coord: [-1967.9, 203.88, -1090.5]
-      hash_id: "0xb8960219505a8593"
-      text: HF29 Flower Trail"
     GC19:
       coord: [-1615.44, 100.53, -2403.14]
       hash_id: "0xa5ac2e959b3cf697"
@@ -3075,10 +3796,6 @@ presets:
       coord: [-287.34, 210.59, 839.58]
       hash_id: "0x03e03abfeb18f492"
       text: LL21 Rock Lift"
-    LL16:
-      coord: [-426.95, 223.03, 890.66]
-      hash_id: "0xeee2af2e4df05a7b"
-      text: LL16 Flower Trail"
     LL05:
       coord: [-779.44, 122.85, 938.84]
       hash_id: "0x86b688f4417e6e8c"
@@ -3095,10 +3812,6 @@ presets:
       coord: [-312.99, 130.5, 324.12]
       hash_id: "0x8dd5d22ea44ab48f"
       text: LL41 Rock Lift"
-    LL43:
-      coord: [-427.8, 144.3, 249.16]
-      hash_id: "0x91990b91201f8d7a"
-      text: LL43 Flower Trail"
     LL28:
       coord: [-530, 139.57, 693.89]
       hash_id: "0x2a4242cac2ae87a1"
@@ -3159,10 +3872,6 @@ presets:
       coord: [-599.08, 141.91, -1076.29]
       hash_id: "0x71893b6ec55b65eb"
       text: HF28 Rock Lift"
-    PF48:
-      coord: [-18.45, 222.37, -2974.66]
-      hash_id: "0x96829b2b2e89e5e8"
-      text: PF48 Flower Trail"
     HF75:
       coord: [-102.99, 175.93, -2292.11]
       hash_id: "0x244c409f5ff89290"
@@ -3191,10 +3900,6 @@ presets:
       coord: [-150.91, 143.29, -3068.25]
       hash_id: "0x4591d3d81f56b8f8"
       text: PF51 Rock Lift"
-    GC39:
-      coord: [-994.92, 356.58, -3254.33]
-      hash_id: "0xa2eb9ec95c99f353"
-      text: GC39 Flower Trail"
     PF62:
       coord: [-304.48, 130.27, -3292.94]
       hash_id: "0xb3604b21a627ef40"
@@ -3235,22 +3940,10 @@ presets:
       coord: [966.93, 115.9, 1027.06]
       hash_id: "0xb87bce7e3ba1a303"
       text: SS01 Rock Lift"
-    SS05:
-      coord: [966.37, 194.27, 627.79]
-      hash_id: "0x185229637b156984"
-      text: SS05 Flower Trail"
-    LL36:
-      coord: [384.34, 159.78, 462.41]
-      hash_id: "0x744470ee054e17b3"
-      text: LL36 Flower Trail"
     SS07:
       coord: [428, 132.5, 501]
       hash_id: "0x9b7753905308f290"
       text: SS07 Korok Friends"
-    SS03:
-      coord: [849.97, 223.85, 792.65]
-      hash_id: "0x6bf7ea4fb1d30ba0"
-      text: SS03 Flower Trail"
     SS10:
       coord: [919.22, 195.13, 410.38]
       hash_id: "0x10da3261b7a6a07c"
@@ -3299,14 +3992,6 @@ presets:
       coord: [297.4, 123.19, -1833.82]
       hash_id: "0x357dcaa8a1086890"
       text: PF18 Rock Lift"
-    PF15:
-      coord: [459.18, 133.34, -1698.69]
-      hash_id: "0xcd7a6dd8a2c3ce73"
-      text: PF15 Flower Trail"
-    HF59:
-      coord: [-0.83, 214.49, -1900.32]
-      hash_id: "0x795cac82ff0edebb"
-      text: HF59 Flower Trail"
     HF48:
       coord: [147.64, 136.11, -1611.33]
       hash_id: "0x7028c24d6a72d7c7"
@@ -3327,10 +4012,6 @@ presets:
       coord: [523, 161.5, -2199]
       hash_id: "0x8cd4a0e3b1a3d4c9"
       text: PF22 Korok Friends"
-    PF23:
-      coord: [267.57, 144, -2214.7]
-      hash_id: "0x11d3ab9efa1d9334"
-      text: PF23 Flower Trail"
     SS72:
       coord: [770.53, 241.5, -2138.18]
       hash_id: "0x49884ebc4c874727"
@@ -3343,10 +4024,6 @@ presets:
       coord: [339.97, 90.53, -2832.5]
       hash_id: "0x5a8c0f0e980cb7da"
       text: PF40 Rock Lift"
-    PF79:
-      coord: [814.09, 210.74, -3704.93]
-      hash_id: "0xc37df8786dfa71d7"
-      text: PF79 Flower Trail"
     PF68:
       coord: [221.57, 175.5, -3533.8]
       hash_id: "0xfbecdd7daa8cd3e0"
@@ -3451,10 +4128,6 @@ presets:
       coord: [1892.36, 114.77, -151.01]
       hash_id: "0x29f9f8d22b711b0c"
       text: SS18 Rock Lift"
-    SS44:
-      coord: [1245.41, 251.09, -1037.32]
-      hash_id: "0x208d5a9be6f89b2b"
-      text: SS44 Flower Trail"
     SS24:
       coord: [1824.72, 118.19, -459.5]
       hash_id: "0x54106121dab36edc"
@@ -3479,10 +4152,6 @@ presets:
       coord: [1786.58, 116.21, -1551.79]
       hash_id: "0x75b000d32ab87851"
       text: SS57 Rock Lift"
-    SS54:
-      coord: [1597.99, 131.46, -1394.92]
-      hash_id: "0xe8a3861367d37870"
-      text: SS54 Flower Trail"
     SS55:
       coord: [1925.51, 187.32, -1489.51]
       hash_id: "0xd3a6cd423e176fef"
@@ -3491,10 +4160,6 @@ presets:
       coord: [1777.18, 188.45, -2990.83]
       hash_id: "0x2a4d578800c04075"
       text: PF49 Rock Lift"
-    RW08:
-      coord: [1946.45, 144.52, -2381.64]
-      hash_id: "0xf5ac635ff2af2df3"
-      text: RW08 Flower Trail"
     PF38:
       coord: [1371.9, 195.95, -2763.65]
       hash_id: "0xc0f3935af563217e"
@@ -3523,10 +4188,6 @@ presets:
       coord: [1475.61, 191.94, -3263.53]
       hash_id: "0x8f8622ce772e0d38"
       text: PF58 Rock Lift"
-    PF57:
-      coord: [1532.96, 201.77, -3261.47]
-      hash_id: "0xb43d09b2153d7328"
-      text: PF57 Flower Trail"
     PF82:
       coord: [1397.62, 107.61, -3642.26]
       hash_id: "0x4e314676408880ec"
@@ -3539,10 +4200,6 @@ presets:
       coord: [2405.97, 520.32, 3327.95]
       hash_id: "0xa18b8abf1cd831de"
       text: EC05 Through the Roof"
-    EC22:
-      coord: [2238.55, 635.53, 2363.35]
-      hash_id: "0xbf5ac6a86815ec33"
-      text: EC22 Flower Trail"
     EC10:
       coord: [2176.44, 628.5, 2783]
       hash_id: "0x26376688f39f1aee"
@@ -3555,10 +4212,6 @@ presets:
       coord: [1941.9, 245.23, 1207.57]
       hash_id: "0x81eca7b0e8d5d540"
       text: EC50 Rock Lift"
-    EC34:
-      coord: [2268.56, 438.41, 1837.02]
-      hash_id: "0xaef46f1ee419acad"
-      text: EC34 Flower Trail"
     EC53:
       coord: [2313.57, 295.22, 1132.86]
       hash_id: "0xdddb7bf9de3a1a95"
@@ -3575,10 +4228,6 @@ presets:
       coord: [2542.26, 233.35, 641.99]
       hash_id: "0xa519e141425c6ff1"
       text: UZ18 Korok Friends"
-    UZ41:
-      coord: [2746.19, 243.01, 202.34]
-      hash_id: "0x90be65e313fcd20b"
-      text: UZ41 Flower Trail"
     UZ44:
       coord: [2242.82, 120, 243.97]
       hash_id: "0x970d75f6ffc93a9f"
@@ -3587,10 +4236,6 @@ presets:
       coord: [2471.85, 184.82, 150.5]
       hash_id: "0xa187ec5351ebd3b6"
       text: UZ45 Rock Lift"
-    UZ63:
-      coord: [3011.44, 298.76, -370.61]
-      hash_id: "0x093b655f4f2e5933"
-      text: UZ63 Flower Trail"
     SS28:
       coord: [2691.3, 217.05, -542.07]
       hash_id: "0x0c3fc1a964ffdccb"
@@ -3627,10 +4272,6 @@ presets:
       coord: [2833.97, 207.56, -1118.86]
       hash_id: "0x454aa7fc1feec9b0"
       text: SS47 Rock Lift"
-    SS48:
-      coord: [2704.94, 203.1, -1164.4]
-      hash_id: "0x7261259c1ead3026"
-      text: SS48 Flower Trail"
     SS58:
       coord: [2510.34, 122.89, -1572.89]
       hash_id: "0xc6947d12f86a2e46"
@@ -3715,18 +4356,10 @@ presets:
       coord: [3160.44, 362.87, 1425.98]
       hash_id: "0xd9ecf059e8ab256c"
       text: UZ01 Rock Lift"
-    UM37:
-      coord: [3645.12, 201.84, 1460.12]
-      hash_id: "0xca276c54f61e44a8"
-      text: UM37 Flower Trail"
     UM38:
       coord: [3273.64, 390.99, 1397.95]
       hash_id: "0x18c8ea65d8623f9f"
       text: UM38 Rock Lift"
-    UZ03:
-      coord: [3882.46, 353.24, 1341.74]
-      hash_id: "0x7915126d76cca4fb"
-      text: UZ03 Flower Trail"
     UZ35:
       coord: [3219.53, 184.17, 282.01]
       hash_id: "0x99f0cb5eefabe27d"
@@ -3743,10 +4376,6 @@ presets:
       coord: [3531.7, 317, -65.07]
       hash_id: "0xf70f90356c6270aa"
       text: UZ37 Korok Friends"
-    UZ30:
-      coord: [3678.04, 363.36, 450.1]
-      hash_id: "0x937b22d749936ce6"
-      text: UZ30 Flower Trail"
     UZ23:
       coord: [3329.76, 217.88, 532.85]
       hash_id: "0xd30c5caa1f0a8670"
@@ -3767,10 +4396,6 @@ presets:
       coord: [4001.55, 281.5, -184.31]
       hash_id: "0xdd5da6276f00a45f"
       text: UZ71 Korok Friends"
-    UZ70:
-      coord: [3711.97, 106.93, -622.12]
-      hash_id: "0x561014c04a918a30"
-      text: UZ70 Flower Trail"
     ML08:
       coord: [3498.97, 268.21, -1454.68]
       hash_id: "0xd05e7f866162de56"
@@ -3823,10 +4448,6 @@ presets:
       coord: [4492.4, 352.24, 3147.97]
       hash_id: "0x01af5890d7adea14"
       text: UM12 Offering Plate"
-    UM08:
-      coord: [4435.4, 358.05, 3189.81]
-      hash_id: "0x57c21c16c3af0cea"
-      text: UM08 Flower Trail"
     UM21:
       coord: [4202.73, 233.18, 2739.48]
       hash_id: "0x822da7cd47b4be51"
@@ -3875,10 +4496,6 @@ presets:
       coord: [4134.99, 521.56, 406.29]
       hash_id: "0xbfd63528091b3b96"
       text: UZ33 Rock Lift"
-    ML02:
-      coord: [4462.59, 168.53, -843.73]
-      hash_id: "0x6ac0ccb1eb036e59"
-      text: ML02 Flower Trail"
     UZ67:
       coord: [4441.34, 176.75, -480.19]
       hash_id: "0x5882b0baf4cbb284"
@@ -3887,10 +4504,6 @@ presets:
       coord: [4459.47, 162.18, -357.05]
       hash_id: "0xb3c234840466577c"
       text: UZ61 Rock Lift"
-    ML11:
-      coord: [4506.22, 107.25, -1521.4]
-      hash_id: "0xa611c90a954de405"
-      text: ML11 Flower Trail"
     ML36:
       coord: [4516.26, 218.68, -2305.92]
       hash_id: "0x8872854bccf2a961"
@@ -3923,22 +4536,10 @@ presets:
       coord: [2344.92, 1991.43, -1752.77]
       hash_id: "0xc201f396c3622317"
       text: SSS03 Rock Lift"
-    SSS05:
-      coord: [2332.08, 1822.21, -1827.36]
-      hash_id: "0xfebcd969d8ce6a32"
-      text: SSS05 Flower Trail"
     RWS01:
       coord: [2719.47, 1328.37, -2739.68]
       hash_id: "0x5c5eb9bd003a50f3"
       text: RWS01 Rock Lift"
-    PSS01:
-      coord: [-1683.65, 1091.84, 3572.73]
-      hash_id: "0xa7dabc07c454a6c5"
-      text: PSS01 Flower Trail"
-    GSI05:
-      coord: [512.73, 1525.46, -1317.84]
-      hash_id: "0x19d0c9ba930c53c1"
-      text: GSI05 Flower Trail"
     GSI03:
       coord: [113.27, 1522.52, -1081.22]
       hash_id: "0xc91832ce8a647b32"
