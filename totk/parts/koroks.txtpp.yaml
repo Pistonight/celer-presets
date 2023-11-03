@@ -1,0 +1,43 @@
+#TXTPP#include ../../GENERATED
+icons:
+  #TXTPP#include ../../botw/data/korok-icons.yaml
+  korok-boulder-stand: https://icons.pistonite.org/icon/misc.korok.triangle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  korok-catch-seed: https://icons.pistonite.org/icon/misc.korok.triangle.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-catch-light: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-build-roof: https://icons.pistonite.org/icon/misc.korok.minus.633830.f0673a.633830.f0673a.633830.f0673a.png
+  korok-ultrahand: https://icons.pistonite.org/icon/rune.ultrahand.none.633830.f0673a.633830.f0673a.633830.f0673a.png
+  korok-pull-plug: https://icons.pistonite.org/icon/misc.korok.minus.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  korok-ring-bell: https://icons.pistonite.org/icon/misc.korok.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  korok-ascend: https://icons.pistonite.org/icon/misc.korok.triangle.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-target: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  korok-offer: https://icons.pistonite.org/icon/misc.korok.plus.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  korok-offer-golden: https://icons.pistonite.org/icon/misc.korok.plus.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  korok-friends: https://icons.pistonite.org/icon/character.hestu.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  
+tags:
+  counter-korok:
+    color: black
+    background: "#0f0"
+
+presets:
+  Korok:
+    text: .npc($(0))
+    icon: $(1)
+    icon-priority: 2
+    counter: .var(counter-korok)
+    vars:
+      korok-seed: .add(1)
+  KorokFriendStart:
+    text: Pick up .npc($(0))
+    icon: korok
+    icon-priority: 2
+  KorokFriendEnd:
+    text: Drop off .npc($(0))
+    icon: korok
+    counter: .var(counter-korok)
+    vars:
+      counter-korok: .add(1)
+      korok-seed: .add(2)
+  _Korok:
+    #TXTPP#run python ../../scripts/koroks.py ../data/koroks.yaml 1000
+    

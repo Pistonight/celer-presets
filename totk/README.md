@@ -19,7 +19,7 @@ config:
 # `full` includes everything. Most routes can use `most`, which is `full` without koroks
 - use: Pistonight/celer-presets/totk/full.yaml
 plugins:
-- variables # required
+- use: variables # required
 ```
 
 ### Layers
@@ -55,7 +55,7 @@ Each layer also includes everything in the previous layer
     ```
 4. `full` Includes:
     - Everything in `most`
-    - [Koroks](#korok) TODO
+    - [Koroks](#korok)
     
     ```yaml
     - use: Pistonight/celer-presets/totk/full.yaml
@@ -66,7 +66,41 @@ Each layer also includes everything in the previous layer
 ### Presets
 
 #### `Korok`
-TODO
+Provides korok ID, type, and movements.
+Also displays the number of koroks collected.
+```yaml
+# Simple usage
+- _Korok::EC12
+
+# Race/Flower/Target koroks have ::Start and ::End coordinates available separately
+- Start GC07:
+    movements:
+    - _Korok::GC07::Start
+- Do stuff before landing on target
+- _Korok::GC07:
+    movements:
+    - _Korok::GC07::End
+
+# GC14 is a flower korok. Just doing this will fill in the movements from start to end
+- _Korok::GC14
+
+# For friend koroks, just doing this will have the movements from picking up to dropping off
+- _Korok::GC21
+# Since friend koroks are usually far apart, there are preset texts and icons for picking up and dropping off
+# The seed is counted
+- _Korok::GC21::Start # Shows "Pick up GC21"
+- Do other stuff
+- _Korok::GC21::End # Shows "Drop off GC21"
+
+# Note that friend koroks increase the counter by 2. This is done using the variables system internally
+# if you need to change other variables in the same step, you need to manually set the korok counter
+# (Only need to do this *if* you are changing `vars`)
+- _Korok::GC21:
+    vars:
+      another-var: .add(5)
+      counter-korok: .add(1) # counter is incremented by 1 automatically, need to add another 1
+
+```
 #### `Shrine`
 Provides shrine name and coordinates and displays the number of shrines completed.
 Shrines on the Surface, in the Sky, and in a cave have different colored-icons.
@@ -104,6 +138,7 @@ Provides presets for Talus/Hinox/Molduga/Frox/Flux Constructs/Gleeoks. Also disp
 - _Boss::Talus::Rare
 - _Boss::Talus::Igneo
 - _Boss::Talus::Frost
+- _Boss::Talus::Battle
 - _Boss::Hinox::Red
 - _Boss::Hinox::Blue
 - _Boss::Hinox::Black

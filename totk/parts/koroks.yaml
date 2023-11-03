@@ -1,0 +1,4906 @@
+##########################################################################
+# GENERATED FILE 
+# 
+# DO NOT EDIT!
+# 
+# Edit the .txtpp file in the same directory instead
+##########################################################################
+icons:
+  korok: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  korok-acorn: https://icons.pistonite.org/icon/misc.korok.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+  korok-acorn-flying: https://icons.pistonite.org/icon/misc.korok.circle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  korok-balloon: https://icons.pistonite.org/icon/misc.korok.circle.568c28.c8e6af.568c28.c8e6af.568c28.fdfdfd.png
+  korok-basketball: https://icons.pistonite.org/icon/misc.korok.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  korok-confetti: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-flower: https://icons.pistonite.org/icon/misc.korok.triangle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  korok-golf-boulder: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  korok-golf-snowball: https://icons.pistonite.org/icon/misc.korok.plus.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  korok-ice: https://icons.pistonite.org/icon/misc.korok.square.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  korok-light-chase: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-lily: https://icons.pistonite.org/icon/misc.korok.circle.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  korok-magnesis: https://icons.pistonite.org/icon/rune.magnesis.none.d57b69.fec1d3.d57b69.fec1d3.d57b69.fec1d3.png
+  korok-matching: https://icons.pistonite.org/icon/misc.korok.minus.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-minus: https://icons.pistonite.org/icon/misc.korok.minus.568c28.c8e6af.568c28.c8e6af.568c28.fdfdfd.png
+  korok-offer-apple: https://icons.pistonite.org/icon/misc.korok.plus.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+  korok-offer-banana: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  korok-offer-durian: https://icons.pistonite.org/icon/misc.korok.plus.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  korok-offer-egg: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  korok-race: https://icons.pistonite.org/icon/misc.korok.circle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-rock: https://icons.pistonite.org/icon/misc.korok.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-rock-circle: https://icons.pistonite.org/icon/misc.korok.circle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-rock-tree: https://icons.pistonite.org/icon/misc.korok.triangle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-rock-under: https://icons.pistonite.org/icon/misc.korok.minus.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.fdfdfd.png
+  korok-shoot: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  korok-boulder-stand: https://icons.pistonite.org/icon/misc.korok.triangle.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  korok-catch-seed: https://icons.pistonite.org/icon/misc.korok.triangle.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-catch-light: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-build-roof: https://icons.pistonite.org/icon/misc.korok.minus.633830.f0673a.633830.f0673a.633830.f0673a.png
+  korok-ultrahand: https://icons.pistonite.org/icon/rune.ultrahand.none.633830.f0673a.633830.f0673a.633830.f0673a.png
+  korok-pull-plug: https://icons.pistonite.org/icon/misc.korok.minus.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  korok-ring-bell: https://icons.pistonite.org/icon/misc.korok.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  korok-ascend: https://icons.pistonite.org/icon/misc.korok.triangle.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  korok-target: https://icons.pistonite.org/icon/misc.korok.plus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  korok-offer: https://icons.pistonite.org/icon/misc.korok.plus.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  korok-offer-golden: https://icons.pistonite.org/icon/misc.korok.plus.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  korok-friends: https://icons.pistonite.org/icon/character.hestu.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  
+tags:
+  counter-korok:
+    color: black
+    background: "#0f0"
+
+presets:
+  Korok:
+    text: .npc($(0))
+    icon: $(1)
+    icon-priority: 2
+    counter: .var(counter-korok)
+    vars:
+      korok-seed: .add(1)
+  KorokFriendStart:
+    text: Pick up .npc($(0))
+    icon: korok
+    icon-priority: 2
+  KorokFriendEnd:
+    text: Drop off .npc($(0))
+    icon: korok
+    counter: .var(counter-korok)
+    vars:
+      counter-korok: .add(1)
+      korok-seed: .add(2)
+  _Korok:
+    EC01:
+      presets: _Korok<EC01 Balloon (Pinwheel\),korok-balloon>
+      coord: [3078.40,320.18,3682.72]
+    EC02:
+      presets: _Korok<EC02 Block Puzzle,korok-ultrahand>
+      coord: [2233.67,342.70,3677.48]
+    EC03:
+      presets: _Korok<EC03 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::EC03::Start
+      - _Korok::EC03::End
+    _EC03:
+      Start:
+        presets: _KorokFriendStart<EC03>
+        coord: [3349.60,327.00,3664.50]
+      End:
+        presets: _KorokFriendEnd<EC03>
+        coord: [2968.30,330.35,3648.06]
+    EC04:
+      presets: _Korok<EC04 Confetti,korok-confetti>
+      coord: [2671.91,482.06,3442.48]
+    EC05:
+      presets: _Korok<EC05 Ascend,korok-ascend>
+      coord: [2405.97,520.32,3327.95]
+    EC06:
+      presets: _Korok<EC06 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::EC06::Start
+      - _Korok::EC06::End
+    _EC06:
+      Start:
+        presets: _KorokFriendStart<EC06>
+        coord: [1720.10,535.93,2610.61]
+      End:
+        presets: _KorokFriendEnd<EC06>
+        coord: [1714.46,499.18,3060.56]
+    EC07:
+      presets: _Korok<EC07 Race,korok-race>
+      movements:
+      - _Korok::EC07::Start
+      - _Korok::EC07::End
+    _EC07:
+      Start:
+        coord: [2194.43,613.08,3008.75]
+      End:
+        coord: [2155.55,582.98,3055.78]
+    EC08:
+      presets: _Korok<EC08 Acorn Hanging,korok-acorn>
+      coord: [2231.74,551.66,3042.21]
+    EC09:
+      presets: _Korok<EC09 Catch Seed,korok-catch-seed>
+      coord: [2172.32,561.37,3036.16]
+    EC10:
+      presets: _Korok<EC10 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::EC10::Start
+      - _Korok::EC10::End
+    _EC10:
+      Start:
+        presets: _KorokFriendStart<EC10>
+        coord: [2176.44,628.50,2783.00]
+      End:
+        presets: _KorokFriendEnd<EC10>
+        coord: [2510.56,628.92,2985.01]
+    EC11:
+      presets: _Korok<EC11 Acorn Hanging,korok-acorn>
+      coord: [1567.50,507.23,2946.09]
+    EC12:
+      presets: _Korok<EC12 Rock Pattern,korok-rock-circle>
+      coord: [1375.31,467.28,2843.72]
+    EC13:
+      presets: _Korok<EC13 Confetti,korok-confetti>
+      coord: [1602.16,574.85,2827.43]
+    EC14:
+      presets: _Korok<EC14 Block Puzzle,korok-ultrahand>
+      coord: [2061.49,586.53,2755.89]
+    EC15:
+      presets: _Korok<EC15 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::EC15::Start
+      - _Korok::EC15::End
+    _EC15:
+      Start:
+        presets: _KorokFriendStart<EC15>
+        coord: [1816.66,507.00,2645.48]
+      End:
+        presets: _KorokFriendEnd<EC15>
+        coord: [1990.80,562.50,2596.79]
+    EC16:
+      presets: _Korok<EC16 Lift Rock,korok-rock>
+      coord: [1724.50,604.77,2554.51]
+    EC17:
+      presets: _Korok<EC17 Offer Pot,korok-offer>
+      coord: [1806.49,509.74,2530.36]
+    EC18:
+      presets: _Korok<EC18 Balloon (Stationary\),korok-balloon>
+      coord: [2780.00,726.13,2524.95]
+    EC19:
+      presets: _Korok<EC19 Balloon (Stationary\),korok-balloon>
+      coord: [1593.55,543.53,2474.23]
+    EC20:
+      presets: _Korok<EC20 Lily Pads,korok-lily>
+      coord: [1719.43,501.49,2422.30]
+    EC21:
+      presets: _Korok<EC21 Balloon (Stationary\),korok-balloon>
+      coord: [1667.08,558.00,2409.71]
+    EC22:
+      presets: _Korok<EC22 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::EC22::Start
+      - [2223.54,627.87,-2376.67]
+      - [2222.15,635.01,-2379.82]
+      - [2229.31,635.46,-2376.54]
+      - _Korok::EC22::End
+    _EC22:
+      Start:
+        coord: [2223.67,626.07,-2368.83]
+      End:
+        coord: [2235.57,634.96,-2367.22]
+    EC23:
+      presets: _Korok<EC23 Light Chase,korok-light-chase>
+      coord: [2702.24,726.23,2347.98]
+    EC24:
+      presets: _Korok<EC24 Block Puzzle,korok-ultrahand>
+      coord: [2083.00,608.00,2330.00]
+    EC25:
+      presets: _Korok<EC25 Block Puzzle,korok-ultrahand>
+      coord: [1740.84,531.02,2329.96]
+    EC26:
+      presets: _Korok<EC26 Rock Pattern,korok-rock-circle>
+      coord: [1250.21,427.86,2292.84]
+    EC27:
+      presets: _Korok<EC27 Repair Roof,korok-ultrahand>
+      coord: [3031.75,439.29,2289.25]
+    EC28:
+      presets: _Korok<EC28 Target Landing,korok-target>
+      movements:
+      - _Korok::EC28::Start
+      - _Korok::EC28::End
+    _EC28:
+      Start:
+        coord: [1799.11,602.53,2210.18]
+      End:
+        coord: [1755.41,589.82,2224.93]
+    EC29:
+      presets: _Korok<EC29 Lily Pads,korok-lily>
+      coord: [1472.95,405.91,2219.65]
+    EC30:
+      presets: _Korok<EC30 Boulder Stand,korok-boulder-stand>
+      coord: [1999.35,579.28,2122.46]
+    EC31:
+      presets: _Korok<EC31 Lift Rock,korok-rock>
+      coord: [1671.23,447.40,1981.33]
+    EC32:
+      presets: _Korok<EC32 Ascend,korok-ascend>
+      coord: [1433.42,443.50,1952.83]
+    EC33:
+      presets: _Korok<EC33 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::EC33::Start
+      - _Korok::EC33::End
+    _EC33:
+      Start:
+        presets: _KorokFriendStart<EC33>
+        coord: [1982.51,528.50,2037.77]
+      End:
+        presets: _KorokFriendEnd<EC33>
+        coord: [1832.47,448.00,1904.19]
+    EC34:
+      presets: _Korok<EC34 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::EC34::Start
+      - [2274.02,431.52,-1823.03]
+      - [2280.44,430.63,-1826.03]
+      - [2274.96,433.65,-1833.39]
+      - _Korok::EC34::End
+    _EC34:
+      Start:
+        coord: [2267.78,429.45,-1827.44]
+      End:
+        coord: [2264.82,437.36,-1836.83]
+    EC35:
+      presets: _Korok<EC35 Balloon (Pinwheel\),korok-balloon>
+      coord: [985.68,317.42,1804.81]
+    EC36:
+      presets: _Korok<EC36 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::EC36::Start
+      - _Korok::EC36::End
+    _EC36:
+      Start:
+        presets: _KorokFriendStart<EC36>
+        coord: [1544.50,388.50,1808.51]
+      End:
+        presets: _KorokFriendEnd<EC36>
+        coord: [1504.40,415.45,1802.26]
+    EC37:
+      presets: _Korok<EC37 Boulder Stand,korok-boulder-stand>
+      coord: [1700.87,458.47,1755.72]
+    EC38:
+      presets: _Korok<EC38 Rock Pattern,korok-rock-circle>
+      coord: [2699.64,224.54,1748.27]
+    EC39:
+      presets: _Korok<EC39 Boulder Stand,korok-boulder-stand>
+      coord: [1451.69,424.01,1746.15]
+    EC40:
+      presets: _Korok<EC40 Pull Plug,korok-pull-plug>
+      coord: [2425.78,252.89,1723.12]
+    EC41:
+      presets: _Korok<EC41 Race,korok-race>
+      movements:
+      - _Korok::EC41::Start
+      - _Korok::EC41::End
+    _EC41:
+      Start:
+        coord: [778.39,253.55,1529.55]
+      End:
+        coord: [758.70,259.31,1643.56]
+    EC42:
+      presets: _Korok<EC42 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::EC42::Start
+      - _Korok::EC42::End
+    _EC42:
+      Start:
+        presets: _KorokFriendStart<EC42>
+        coord: [1534.00,411.50,1609.00]
+      End:
+        presets: _KorokFriendEnd<EC42>
+        coord: [1876.71,407.96,1629.50]
+    EC43:
+      presets: _Korok<EC43 Confetti,korok-confetti>
+      coord: [1767.01,416.91,1537.34]
+    EC44:
+      presets: _Korok<EC44 Acorn Hanging,korok-acorn>
+      coord: [951.05,266.22,1536.43]
+    EC45:
+      presets: _Korok<EC45 Confetti,korok-confetti>
+      coord: [1424.80,471.07,1533.82]
+    EC46:
+      presets: _Korok<EC46 Lift Rock,korok-rock>
+      coord: [770.25,193.08,1415.68]
+    EC47:
+      presets: _Korok<EC47 Race,korok-race>
+      movements:
+      - _Korok::EC47::Start
+      - _Korok::EC47::End
+    _EC47:
+      Start:
+        coord: [2678.45,232.61,1351.02]
+      End:
+        coord: [2751.78,234.77,1373.53]
+    EC48:
+      presets: _Korok<EC48 Acorn Tree,korok-acorn>
+      coord: [1334.47,277.29,1317.58]
+    EC49:
+      presets: _Korok<EC49 Catch Seed,korok-catch-seed>
+      coord: [2440.55,259.77,1241.54]
+    EC50:
+      presets: _Korok<EC50 Lift Rock,korok-rock>
+      coord: [1941.90,245.23,1207.57]
+    EC51:
+      presets: _Korok<EC51 Pull Plug,korok-pull-plug>
+      coord: [3011.96,348.34,1203.45]
+    EC52:
+      presets: _Korok<EC52 Block Puzzle,korok-ultrahand>
+      coord: [2720.00,287.00,1163.00]
+    EC53:
+      presets: _Korok<EC53 Ascend,korok-ascend>
+      coord: [2313.57,295.22,1132.86]
+    EC54:
+      presets: _Korok<EC54 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::EC54::Start
+      - _Korok::EC54::End
+    _EC54:
+      Start:
+        presets: _KorokFriendStart<EC54>
+        coord: [2375.05,236.68,1403.28]
+      End:
+        presets: _KorokFriendEnd<EC54>
+        coord: [2129.27,237.61,1083.12]
+    EC55:
+      presets: _Korok<EC55 Light Chase,korok-light-chase>
+      coord: [2674.01,261.99,1074.29]
+    EC56:
+      presets: _Korok<EC56 Rock Pattern,korok-rock-circle>
+      coord: [2293.98,215.01,942.98]
+    EC57:
+      presets: _Korok<EC57 Lift Rock,korok-rock>
+      coord: [1857.98,197.29,786.15]
+    EC58:
+      presets: _Korok<EC58 Offer Apple,korok-offer-apple>
+      coord: [1580.90,186.93,723.16]
+    EC59:
+      presets: _Korok<EC59 Lift Rock,korok-rock>
+      coord: [1320.09,122.60,715.78]
+    EC60:
+      presets: _Korok<EC60 Acorn Tree,korok-acorn>
+      coord: [1466.56,133.82,677.61]
+    ECS01:
+      presets: _Korok<ECS01 Target Touch,korok-target>
+      coord: [2049.99,1396.16,1201.01]
+    ECS02:
+      presets: _Korok<ECS02 Acorn Hanging,korok-acorn>
+      coord: [1690.65,1260.48,1199.49]
+    GC01:
+      presets: _Korok<GC01 Lift Rock,korok-rock>
+      coord: [-2198.34,167.21,-1679.96]
+    GC02:
+      presets: _Korok<GC02 Lift Rock,korok-rock>
+      coord: [-2244.08,211.13,-1740.12]
+    GC03:
+      presets: _Korok<GC03 Acorn Hanging,korok-acorn>
+      coord: [-2329.30,244.83,-1825.36]
+    GC04:
+      presets: _Korok<GC04 Balloon (Pinwheel\),korok-balloon>
+      coord: [-4687.36,166.58,-1962.27]
+    GC05:
+      presets: _Korok<GC05 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GC05::Start
+      - _Korok::GC05::End
+    _GC05:
+      Start:
+        presets: _KorokFriendStart<GC05>
+        coord: [-1971.86,139.55,-2085.11]
+      End:
+        presets: _KorokFriendEnd<GC05>
+        coord: [-2050.82,147.47,-1995.14]
+    GC06:
+      presets: _Korok<GC06 Lift Rock,korok-rock>
+      coord: [-2486.11,227.06,-2054.55]
+    GC07:
+      presets: _Korok<GC07 Target Landing,korok-target>
+      movements:
+      - _Korok::GC07::Start
+      - _Korok::GC07::End
+    _GC07:
+      Start:
+        coord: [-4482.40,173.76,-2133.92]
+      End:
+        coord: [-4438.02,155.27,-2113.60]
+    GC08:
+      presets: _Korok<GC08 Rock Pattern,korok-rock-circle>
+      coord: [-1942.79,187.01,-2131.32]
+    GC09:
+      presets: _Korok<GC09 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GC09::Start
+      - _Korok::GC09::End
+    _GC09:
+      Start:
+        presets: _KorokFriendStart<GC09>
+        coord: [-2430.60,340.19,-2119.28]
+      End:
+        presets: _KorokFriendEnd<GC09>
+        coord: [-2439.74,370.49,-2144.16]
+    GC10:
+      presets: _Korok<GC10 Catch Seed,korok-catch-seed>
+      coord: [-4710.06,208.16,-2161.87]
+    GC11:
+      presets: _Korok<GC11 Lift Rock (Leaves\),korok-rock-under>
+      coord: [-2264.59,356.96,-2163.40]
+    GC12:
+      presets: _Korok<GC12 Confetti,korok-confetti>
+      coord: [-2620.21,173.35,-2198.09]
+    GC13:
+      presets: _Korok<GC13 Boulder Stand,korok-boulder-stand>
+      coord: [-2243.78,364.60,-2212.16]
+    GC14:
+      presets: _Korok<GC14 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::GC14::Start
+      - [-4432.99,183.18,2265.62]
+      - [-4433.13,179.10,2275.43]
+      - [-4424.37,174.57,2276.56]
+      - _Korok::GC14::End
+    _GC14:
+      Start:
+        coord: [-4442.97,185.82,2274.18]
+      End:
+        coord: [-4424.25,166.44,2263.67]
+    GC15:
+      presets: _Korok<GC15 Lift Rock,korok-rock>
+      coord: [-3749.12,183.57,-2287.38]
+    GC16:
+      presets: _Korok<GC16 Race,korok-race>
+      movements:
+      - _Korok::GC16::Start
+      - _Korok::GC16::End
+    _GC16:
+      Start:
+        coord: [-2251.93,380.69,-2358.59]
+      End:
+        coord: [-2261.63,398.02,-2341.10]
+    GC17:
+      presets: _Korok<GC17 Ascend,korok-ascend>
+      coord: [-4591.88,151.75,-2349.10]
+    GC18:
+      presets: _Korok<GC18 Acorn Hanging,korok-acorn>
+      coord: [-2712.97,235.09,-2355.53]
+    GC19:
+      presets: _Korok<GC19 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GC19::Start
+      - _Korok::GC19::End
+    _GC19:
+      Start:
+        presets: _KorokFriendStart<GC19>
+        coord: [-1615.44,100.53,-2403.14]
+      End:
+        presets: _KorokFriendEnd<GC19>
+        coord: [-1640.75,112.56,-2359.43]
+    GC20:
+      presets: _Korok<GC20 Ascend,korok-ascend>
+      coord: [-3757.20,158.28,-2442.90]
+    GC21:
+      presets: _Korok<GC21 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GC21::Start
+      - _Korok::GC21::End
+    _GC21:
+      Start:
+        presets: _KorokFriendStart<GC21>
+        coord: [-1019.00,304.50,-2640.60]
+      End:
+        presets: _KorokFriendEnd<GC21>
+        coord: [-1374.11,210.96,-2443.93]
+    GC22:
+      presets: _Korok<GC22 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GC22::Start
+      - _Korok::GC22::End
+    _GC22:
+      Start:
+        presets: _KorokFriendStart<GC22>
+        coord: [-2982.40,131.00,-2327.50]
+      End:
+        presets: _KorokFriendEnd<GC22>
+        coord: [-3316.00,134.86,-2461.54]
+    GC23:
+      presets: _Korok<GC23 Acorn Hanging,korok-acorn>
+      coord: [-2011.91,327.74,-2469.91]
+    GC24:
+      presets: _Korok<GC24 Light Chase,korok-light-chase>
+      coord: [-4132.10,159.29,-2592.86]
+    GC25:
+      presets: _Korok<GC25 Confetti,korok-confetti>
+      coord: [-3267.87,227.68,-2609.28]
+    GC26:
+      presets: _Korok<GC26 Rock Pattern,korok-rock-circle>
+      coord: [-1556.75,336.21,-2625.79]
+    GC27:
+      presets: _Korok<GC27 Block Puzzle,korok-ultrahand>
+      coord: [-1938.02,262.91,-2821.99]
+    GC28:
+      presets: _Korok<GC28 Race,korok-race>
+      movements:
+      - _Korok::GC28::Start
+      - _Korok::GC28::End
+    _GC28:
+      Start:
+        coord: [-2731.97,140.68,-2820.41]
+      End:
+        coord: [-2820.52,173.60,-2831.70]
+    GC29:
+      presets: _Korok<GC29 Catch Seed,korok-catch-seed>
+      coord: [-3610.66,178.97,-2843.93]
+    GC30:
+      presets: _Korok<GC30 Ascend,korok-ascend>
+      coord: [-3827.14,131.81,-2859.70]
+    GC31:
+      presets: _Korok<GC31 Confetti,korok-confetti>
+      coord: [-3853.03,166.50,-2863.75]
+    GC32:
+      presets: _Korok<GC32 Race,korok-race>
+      movements:
+      - _Korok::GC32::Start
+      - _Korok::GC32::End
+    _GC32:
+      Start:
+        coord: [-3859.30,190.19,-3017.55]
+      End:
+        coord: [-3934.83,192.37,-2940.99]
+    GC33:
+      presets: _Korok<GC33 Ascend,korok-ascend>
+      coord: [-1427.81,387.36,-2976.29]
+    GC34:
+      presets: _Korok<GC34 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::GC34::Start
+      - [-3579.84,143.22,3005.44]
+      - [-3574.95,145.12,3015.71]
+      - [-3582.24,151.59,3022.04]
+      - [-3585.43,147.72,3034.49]
+      - [-3601.19,139.38,3032.65]
+      - [-3601.43,146.51,3029.31]
+      - [-3598.05,150.41,3018.13]
+      - [-3595.57,154.14,3020.07]
+      - _Korok::GC34::End
+    _GC34:
+      Start:
+        coord: [-3592.10,141.32,3006.34]
+      End:
+        coord: [-3586.61,158.22,3027.01]
+    GC35:
+      presets: _Korok<GC35 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GC35::Start
+      - _Korok::GC35::End
+    _GC35:
+      Start:
+        presets: _KorokFriendStart<GC35>
+        coord: [-3344.99,146.59,-3058.17]
+      End:
+        presets: _KorokFriendEnd<GC35>
+        coord: [-3078.85,120.30,-3044.77]
+    GC36:
+      presets: _Korok<GC36 Pull Plug,korok-pull-plug>
+      coord: [-1609.81,308.54,-3084.26]
+    GC37:
+      presets: _Korok<GC37 Target Landing,korok-target>
+      movements:
+      - _Korok::GC37::Start
+      - _Korok::GC37::End
+    _GC37:
+      Start:
+        coord: [-3422.28,189.83,-3119.48]
+      End:
+        coord: [-3430.75,177.97,-3128.03]
+    GC38:
+      presets: _Korok<GC38 Lift Rock,korok-rock>
+      coord: [-1944.79,232.52,-3184.99]
+    GC39:
+      presets: _Korok<GC39 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::GC39::Start
+      - [-978.65,357.81,3201.23]
+      - [-935.05,356.98,3236.81]
+      - [-1002.73,356.80,3232.35]
+      - _Korok::GC39::End
+    _GC39:
+      Start:
+        coord: [-966.96,356.57,3231.61]
+      End:
+        coord: [-985.76,360.54,3248.13]
+    GC40:
+      presets: _Korok<GC40 Light Chase,korok-light-chase>
+      coord: [-2428.18,149.73,-3263.90]
+    GC41:
+      presets: _Korok<GC41 Block Puzzle,korok-ultrahand>
+      coord: [-1152.50,381.62,-3303.88]
+    GC42:
+      presets: _Korok<GC42 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GC42::Start
+      - _Korok::GC42::End
+    _GC42:
+      Start:
+        presets: _KorokFriendStart<GC42>
+        coord: [-3818.56,157.54,-3126.49]
+      End:
+        presets: _KorokFriendEnd<GC42>
+        coord: [-3742.41,121.79,-3478.25]
+    GC43:
+      presets: _Korok<GC43 Lift Rock,korok-rock>
+      coord: [-1385.01,539.97,-3493.00]
+    GC44:
+      presets: _Korok<GC44 Confetti,korok-confetti>
+      coord: [-1178.45,324.54,-3510.55]
+    GC45:
+      presets: _Korok<GC45 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GC45::Start
+      - _Korok::GC45::End
+    _GC45:
+      Start:
+        presets: _KorokFriendStart<GC45>
+        coord: [-4610.90,143.50,-3198.50]
+      End:
+        presets: _KorokFriendEnd<GC45>
+        coord: [-4877.10,145.49,-3564.94]
+    GC46:
+      presets: _Korok<GC46 Balloon (Pinwheel\),korok-balloon>
+      coord: [-1794.89,229.31,-3579.31]
+    GC47:
+      presets: _Korok<GC47 Block Puzzle,korok-ultrahand>
+      coord: [-1451.80,541.78,-3638.13]
+    GC48:
+      presets: _Korok<GC48 Rock Pattern,korok-rock-circle>
+      coord: [-1369.61,500.88,-3724.03]
+    GC49:
+      presets: _Korok<GC49 Lift Rock (Leaves\),korok-rock-under>
+      coord: [-4909.82,74.59,-3777.52]
+    GC50:
+      presets: _Korok<GC50 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GC50::Start
+      - _Korok::GC50::End
+    _GC50:
+      Start:
+        presets: _KorokFriendStart<GC50>
+        coord: [-2491.40,131.75,-3348.47]
+      End:
+        presets: _KorokFriendEnd<GC50>
+        coord: [-2546.00,119.96,-3930.70]
+    GC51:
+      presets: _Korok<GC51 Catch Seed,korok-catch-seed>
+      coord: [-2546.99,143.84,-3952.73]
+    GCS01:
+      presets: _Korok<GCS01 Target Landing,korok-target>
+      movements:
+      - _Korok::GCS01::Start
+      - _Korok::GCS01::End
+    _GCS01:
+      Start:
+        coord: [-1829.72,1305.17,-1917.68]
+      End:
+        coord: [-1929.45,1255.55,-1823.98]
+    GCS02:
+      presets: _Korok<GCS02 Catch Light,korok-catch-light>
+      coord: [-1714.11,1292.05,-3578.26]
+    GH01:
+      presets: _Korok<GH01 Block Puzzle,korok-ultrahand>
+      coord: [-3820.33,160.67,178.33]
+    GH02:
+      presets: _Korok<GH02 Ascend,korok-ascend>
+      coord: [-3600.14,15.32,110.90]
+    GH03:
+      presets: _Korok<GH03 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GH03::Start
+      - _Korok::GH03::End
+    _GH03:
+      Start:
+        presets: _KorokFriendStart<GH03>
+        coord: [-3580.60,176.50,12.50]
+      End:
+        presets: _KorokFriendEnd<GH03>
+        coord: [-4074.89,162.56,35.31]
+    GH04:
+      presets: _Korok<GH04 Repair Roof,korok-ultrahand>
+      coord: [-3467.50,172.09,-168.48]
+    GH05:
+      presets: _Korok<GH05 Build Roof,korok-build-roof>
+      coord: [-3968.65,552.35,-323.53]
+    GH06:
+      presets: _Korok<GH06 Boulder Stand,korok-boulder-stand>
+      coord: [-4420.36,628.02,-351.88]
+    GH07:
+      presets: _Korok<GH07 Race,korok-race>
+      movements:
+      - _Korok::GH07::Start
+      - _Korok::GH07::End
+    _GH07:
+      Start:
+        coord: [-3621.37,344.82,-403.03]
+      End:
+        coord: [-3653.91,381.98,-392.40]
+    GH08:
+      presets: _Korok<GH08 Target Landing,korok-target>
+      movements:
+      - _Korok::GH08::Start
+      - _Korok::GH08::End
+    _GH08:
+      Start:
+        coord: [-2838.84,157.52,-437.44]
+      End:
+        coord: [-2921.34,120.85,-481.79]
+    GH09:
+      presets: _Korok<GH09 Lift Rock,korok-rock>
+      coord: [-4376.99,557.19,-524.72]
+    GH10:
+      presets: _Korok<GH10 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GH10::Start
+      - _Korok::GH10::End
+    _GH10:
+      Start:
+        presets: _KorokFriendStart<GH10>
+        coord: [-4540.50,633.50,-1344.00]
+      End:
+        presets: _KorokFriendEnd<GH10>
+        coord: [-4507.60,616.63,-589.92]
+    GH11:
+      presets: _Korok<GH11 Light Chase,korok-light-chase>
+      coord: [-3963.92,763.00,-609.36]
+    GH12:
+      presets: _Korok<GH12 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GH12::Start
+      - _Korok::GH12::End
+    _GH12:
+      Start:
+        presets: _KorokFriendStart<GH12>
+        coord: [-3199.49,584.89,-1169.53]
+      End:
+        presets: _KorokFriendEnd<GH12>
+        coord: [-3142.14,305.32,-619.74]
+    GH13:
+      presets: _Korok<GH13 Balloon (Stationary\),korok-balloon>
+      coord: [-4389.00,671.50,-715.25]
+    GH14:
+      presets: _Korok<GH14 Rock Pattern,korok-rock-circle>
+      coord: [-3565.44,662.44,-732.94]
+    GH15:
+      presets: _Korok<GH15 Lift Rock (Ice\),korok-ice>
+      coord: [-3812.11,654.04,-789.98]
+    GH16:
+      presets: _Korok<GH16 Race,korok-race>
+      movements:
+      - _Korok::GH16::Start
+      - _Korok::GH16::End
+    _GH16:
+      Start:
+        coord: [-3721.92,746.80,-803.17]
+      End:
+        coord: [-3674.24,740.00,-798.67]
+    GH17:
+      presets: _Korok<GH17 Lift Rock,korok-rock>
+      coord: [-3600.73,612.08,-916.12]
+    GH18:
+      presets: _Korok<GH18 Lift Rock,korok-rock>
+      coord: [-4002.98,820.09,-969.15]
+    GH19:
+      presets: _Korok<GH19 Confetti,korok-confetti>
+      coord: [-3493.22,721.72,-985.15]
+    GH20:
+      presets: _Korok<GH20 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::GH20::Start
+      - [-3750.29,635.35,1070.77]
+      - [-3744.84,636.96,1056.40]
+      - [-3737.46,638.47,1018.08]
+      - _Korok::GH20::End
+    _GH20:
+      Start:
+        coord: [-3751.59,629.82,1081.14]
+      End:
+        coord: [-3737.09,640.67,1000.51]
+    GH21:
+      presets: _Korok<GH21 Balloon (Pinwheel\),korok-balloon>
+      coord: [-3245.85,677.74,-1030.86]
+    GH22:
+      presets: _Korok<GH22 Build Roof,korok-build-roof>
+      coord: [-3102.29,702.30,-1032.66]
+    GH23:
+      presets: _Korok<GH23 Ascend,korok-ascend>
+      coord: [-3163.34,544.35,-1037.72]
+    GH24:
+      presets: _Korok<GH24 Rock Pattern,korok-rock-circle>
+      coord: [-4322.90,628.63,-1090.38]
+    GH25:
+      presets: _Korok<GH25 Confetti,korok-confetti>
+      coord: [-2867.96,518.52,-1123.86]
+    GH26:
+      presets: _Korok<GH26 Block Puzzle,korok-ultrahand>
+      coord: [-3872.94,602.40,-1176.80]
+    GH27:
+      presets: _Korok<GH27 Confetti,korok-confetti>
+      coord: [-4691.99,630.53,-1236.25]
+    GH28:
+      presets: _Korok<GH28 Block Puzzle,korok-ultrahand>
+      coord: [-4911.09,562.45,-1242.71]
+    GH29:
+      presets: _Korok<GH29 Pull Plug,korok-pull-plug>
+      coord: [-3060.10,605.96,-1286.33]
+    GH30:
+      presets: _Korok<GH30 Ascend,korok-ascend>
+      coord: [-2672.13,623.96,-1356.71]
+    GH31:
+      presets: _Korok<GH31 Race,korok-race>
+      movements:
+      - _Korok::GH31::Start
+      - _Korok::GH31::End
+    _GH31:
+      Start:
+        coord: [-2696.34,647.91,-1446.21]
+      End:
+        coord: [-2961.95,550.34,-1400.13]
+    GH32:
+      presets: _Korok<GH32 Lift Rock (Ice\),korok-ice>
+      coord: [-3249.08,506.96,-1463.79]
+    GH33:
+      presets: _Korok<GH33 Race,korok-race>
+      movements:
+      - _Korok::GH33::Start
+      - _Korok::GH33::End
+    _GH33:
+      Start:
+        coord: [-3845.88,471.02,-1465.43]
+      End:
+        coord: [-3806.28,423.22,-1474.82]
+    GH34:
+      presets: _Korok<GH34 Lift Rock,korok-rock>
+      coord: [-2140.24,385.37,-1485.63]
+    GH35:
+      presets: _Korok<GH35 Lift Rock (Ice\),korok-ice>
+      coord: [-3011.19,683.03,-1501.24]
+    GH36:
+      presets: _Korok<GH36 Rock Pattern,korok-rock-circle>
+      coord: [-2643.69,687.90,-1532.39]
+    GH37:
+      presets: _Korok<GH37 Rock Pattern,korok-rock-circle>
+      coord: [-3561.32,558.33,-1558.73]
+    GH38:
+      presets: _Korok<GH38 Boulder Stand,korok-boulder-stand>
+      coord: [-3666.25,577.20,-1564.68]
+    GH39:
+      presets: _Korok<GH39 Build Roof,korok-build-roof>
+      coord: [-2505.90,641.65,-1589.93]
+    GH40:
+      presets: _Korok<GH40 Offer Banana,korok-offer-banana>
+      coord: [-3921.17,347.59,-1590.68]
+    GH41:
+      presets: _Korok<GH41 Block Puzzle,korok-ultrahand>
+      coord: [-3899.00,399.50,-1644.00]
+    GH42:
+      presets: _Korok<GH42 Pull Plug,korok-pull-plug>
+      coord: [-2818.68,579.73,-1652.12]
+    GH43:
+      presets: _Korok<GH43 Acorn Hanging,korok-acorn>
+      coord: [-3193.17,459.39,-1744.50]
+    GH44:
+      presets: _Korok<GH44 Acorn Hanging,korok-acorn>
+      coord: [-4363.35,201.83,-1845.61]
+    GH45:
+      presets: _Korok<GH45 Balloon (Pinwheel\),korok-balloon>
+      coord: [-3574.96,466.13,-1851.98]
+    GH46:
+      presets: _Korok<GH46 Block Puzzle,korok-ultrahand>
+      coord: [-3208.06,184.68,-1855.34]
+    GH47:
+      presets: _Korok<GH47 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GH47::Start
+      - _Korok::GH47::End
+    _GH47:
+      Start:
+        presets: _KorokFriendStart<GH47>
+        coord: [-4138.99,151.36,-2259.98]
+      End:
+        presets: _KorokFriendEnd<GH47>
+        coord: [-4320.72,171.10,-1861.35]
+    GH48:
+      presets: _Korok<GH48 Catch Seed,korok-catch-seed>
+      coord: [-3845.22,414.16,-1895.25]
+    GH49:
+      presets: _Korok<GH49 Lift Rock,korok-rock>
+      coord: [-4148.04,208.44,-1931.77]
+    GH50:
+      presets: _Korok<GH50 Acorn Hanging,korok-acorn>
+      coord: [-3581.69,310.59,-1985.41]
+    GH51:
+      presets: _Korok<GH51 Pull Plug,korok-pull-plug>
+      coord: [-3584.46,351.98,-1990.62]
+    GH52:
+      presets: _Korok<GH52 Block Puzzle,korok-ultrahand>
+      coord: [-4393.84,207.00,-2015.27]
+    GH53:
+      presets: _Korok<GH53 Light Chase,korok-light-chase>
+      coord: [-3315.51,155.10,-2164.49]
+    GH54:
+      presets: _Korok<GH54 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::GH54::Start
+      - [-2929.79,309.22,2228.15]
+      - [-2918.39,305.79,2241.73]
+      - [-2890.22,308.54,2245.03]
+      - [-2875.62,305.06,2235.46]
+      - [-2870.49,303.22,2217.19]
+      - [-2875.06,303.13,2198.47]
+      - [-2895.02,303.37,2183.89]
+      - [-2912.47,310.54,2190.35]
+      - _Korok::GH54::End
+    _GH54:
+      Start:
+        coord: [-2931.36,314.48,2216.55]
+      End:
+        coord: [-2933.68,314.63,2216.18]
+    GH55:
+      presets: _Korok<GH55 Rock Pattern,korok-rock-circle>
+      coord: [-3320.43,181.53,-2274.87]
+    GHS01:
+      presets: _Korok<GHS01 Target Landing,korok-target>
+      movements:
+      - _Korok::GHS01::Start
+      - _Korok::GHS01::End
+    _GHS01:
+      Start:
+        coord: [-3374.14,2429.17,12.18]
+      End:
+        coord: [-3369.14,2392.14,-50.82]
+    GSI01:
+      presets: _Korok<GSI01 Light Chase,korok-light-chase>
+      coord: [246.09,1554.91,-822.41]
+    GSI02:
+      presets: _Korok<GSI02 Ascend,korok-ascend>
+      coord: [463.57,1528.61,-881.34]
+    GSI03:
+      presets: _Korok<GSI03 Lift Rock,korok-rock>
+      coord: [113.27,1522.52,-1081.22]
+    GSI04:
+      presets: _Korok<GSI04 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GSI04::Start
+      - _Korok::GSI04::End
+    _GSI04:
+      Start:
+        presets: _KorokFriendStart<GSI04>
+        coord: [29.30,1521.26,-1254.91]
+      End:
+        presets: _KorokFriendEnd<GSI04>
+        coord: [-90.85,1511.66,-1241.28]
+    GSI05:
+      presets: _Korok<GSI05 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::GSI05::Start
+      - [517.22,1525.05,1329.30]
+      - [511.26,1527.11,1328.84]
+      - [507.02,1527.03,1322.02]
+      - _Korok::GSI05::End
+    _GSI05:
+      Start:
+        coord: [521.33,1524.02,1323.55]
+      End:
+        coord: [510.23,1525.72,1317.51]
+    GSI06:
+      presets: _Korok<GSI06 Rock Pattern,korok-rock-circle>
+      coord: [760.46,1708.80,-1341.14]
+    GSI07:
+      presets: _Korok<GSI07 Lily Pads,korok-lily>
+      coord: [313.05,2132.16,-1436.13]
+    GSI08:
+      presets: _Korok<GSI08 Rock Pattern,korok-rock-circle>
+      coord: [424.22,1606.05,-1503.57]
+    GSI09:
+      presets: _Korok<GSI09 Balloon (Stationary\),korok-balloon>
+      coord: [449.94,1463.60,-1522.15]
+    GSI10:
+      presets: _Korok<GSI10 Block Puzzle,korok-ultrahand>
+      coord: [630.90,1554.57,-1531.10]
+    GSI11:
+      presets: _Korok<GSI11 Lift Rock,korok-rock>
+      coord: [23.64,1557.39,-1558.23]
+    GSI12:
+      presets: _Korok<GSI12 Block Puzzle,korok-ultrahand>
+      coord: [542.02,1593.15,-1581.33]
+    GSI13:
+      presets: _Korok<GSI13 Lift Rock (Leaves\),korok-rock-under>
+      coord: [229.47,1511.43,-1643.75]
+    GSI14:
+      presets: _Korok<GSI14 Catch Seed,korok-catch-seed>
+      coord: [622.09,1616.09,-1657.79]
+    GSI15:
+      presets: _Korok<GSI15 Confetti,korok-confetti>
+      coord: [376.85,2460.17,-1731.84]
+    GSI16:
+      presets: _Korok<GSI16 Confetti,korok-confetti>
+      coord: [342.82,2387.41,-1756.00]
+    GSI17:
+      presets: _Korok<GSI17 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::GSI17::Start
+      - _Korok::GSI17::End
+    _GSI17:
+      Start:
+        presets: _KorokFriendStart<GSI17>
+        coord: [475.46,1548.39,-1698.93]
+      End:
+        presets: _KorokFriendEnd<GSI17>
+        coord: [445.40,1551.59,-1786.62]
+    HF01:
+      presets: _Korok<HF01 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::HF01::Start
+      - _Korok::HF01::End
+    _HF01:
+      Start:
+        presets: _KorokFriendStart<HF01>
+        coord: [-1797.98,225.00,-323.45]
+      End:
+        presets: _KorokFriendEnd<HF01>
+        coord: [-1849.08,267.60,-329.20]
+    HF02:
+      presets: _Korok<HF02 Lift Rock,korok-rock>
+      coord: [-1742.00,226.56,-400.97]
+    HF03:
+      presets: _Korok<HF03 Lift Rock,korok-rock>
+      coord: [-2279.53,503.77,-402.49]
+    HF04:
+      presets: _Korok<HF04 Acorn Tree,korok-acorn>
+      coord: [-1955.85,312.91,-410.11]
+    HF05:
+      presets: _Korok<HF05 Light Chase,korok-light-chase>
+      coord: [-1408.68,149.95,-464.50]
+    HF06:
+      presets: _Korok<HF06 Rock Pattern,korok-rock-circle>
+      coord: [-2714.94,192.34,-496.70]
+    HF07:
+      presets: _Korok<HF07 Acorn Tree,korok-acorn>
+      coord: [-311.14,131.03,-550.09]
+    HF08:
+      presets: _Korok<HF08 Target Landing,korok-target>
+      movements:
+      - _Korok::HF08::Start
+      - _Korok::HF08::End
+    _HF08:
+      Start:
+        coord: [-2479.18,327.36,-509.34]
+      End:
+        coord: [-2437.12,311.42,-554.49]
+    HF09:
+      presets: _Korok<HF09 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::HF09::Start
+      - [-2532.00,306.46,632.93]
+      - [-2517.58,306.02,645.63]
+      - [-2510.84,306.91,639.51]
+      - [-2511.32,310.66,627.44]
+      - [-2502.74,306.90,623.52]
+      - [-2494.30,308.88,600.35]
+      - [-2488.30,307.26,591.28]
+      - [-2496.41,307.47,585.92]
+      - _Korok::HF09::End
+    _HF09:
+      Start:
+        coord: [-2536.78,307.75,629.07]
+      End:
+        coord: [-2496.20,310.70,570.26]
+    HF10:
+      presets: _Korok<HF10 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::HF10::Start
+      - _Korok::HF10::End
+    _HF10:
+      Start:
+        presets: _KorokFriendStart<HF10>
+        coord: [-1550.65,133.50,-1000.09]
+      End:
+        presets: _KorokFriendEnd<HF10>
+        coord: [-1321.34,116.41,-570.09]
+    HF11:
+      presets: _Korok<HF11 Lift Rock,korok-rock>
+      coord: [-1968.59,254.26,-594.93]
+    HF12:
+      presets: _Korok<HF12 Lift Rock,korok-rock>
+      coord: [-2600.97,318.65,-669.41]
+    HF13:
+      presets: _Korok<HF13 Lift Rock,korok-rock>
+      coord: [-764.75,135.04,-673.62]
+    HF14:
+      presets: _Korok<HF14 Confetti,korok-confetti>
+      coord: [-1650.89,246.54,-688.00]
+    HF15:
+      presets: _Korok<HF15 Lift Rock,korok-rock>
+      coord: [-1343.57,116.00,-689.20]
+    HF16:
+      presets: _Korok<HF16 Ascend,korok-ascend>
+      coord: [-2220.66,316.27,-693.38]
+    HF17:
+      presets: _Korok<HF17 Boulder Stand,korok-boulder-stand>
+      coord: [-2352.18,316.91,-741.71]
+    HF18:
+      presets: _Korok<HF18 Lift Rock,korok-rock>
+      coord: [-2200.36,275.91,-798.61]
+    HF19:
+      presets: _Korok<HF19 Light Chase,korok-light-chase>
+      coord: [-1557.44,166.34,-824.30]
+    HF20:
+      presets: _Korok<HF20 Catch Seed,korok-catch-seed>
+      coord: [-1440.15,127.72,-846.88]
+    HF21:
+      presets: _Korok<HF21 Light Chase,korok-light-chase>
+      coord: [211.24,171.83,-886.09]
+    HF22:
+      presets: _Korok<HF22 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::HF22::Start
+      - _Korok::HF22::End
+    _HF22:
+      Start:
+        presets: _KorokFriendStart<HF22>
+        coord: [-776.07,123.50,-500.62]
+      End:
+        presets: _KorokFriendEnd<HF22>
+        coord: [-880.59,125.21,-929.71]
+    HF23:
+      presets: _Korok<HF23 Catch Seed,korok-catch-seed>
+      coord: [-124.78,150.94,-938.17]
+    HF24:
+      presets: _Korok<HF24 Offer Golden Apple,korok-offer-golden>
+      coord: [-1816.16,249.44,-971.92]
+    HF25:
+      presets: _Korok<HF25 Lily Pads,korok-lily>
+      coord: [-1152.99,119.00,-1012.41]
+    HF26:
+      presets: _Korok<HF26 Acorn Hanging,korok-acorn>
+      coord: [-1598.19,123.75,-1015.71]
+    HF27:
+      presets: _Korok<HF27 Ascend,korok-ascend>
+      coord: [-2394.50,233.09,-1033.99]
+    HF28:
+      presets: _Korok<HF28 Lift Rock,korok-rock>
+      coord: [-599.08,141.91,-1076.29]
+    HF29:
+      presets: _Korok<HF29 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::HF29::Start
+      - [-1970.42,205.67,1089.18]
+      - [-1970.39,204.22,1086.58]
+      - [-1972.79,203.75,1090.74]
+      - _Korok::HF29::End
+    _HF29:
+      Start:
+        coord: [-1967.74,203.79,1090.34]
+      End:
+        coord: [-1967.74,203.79,1090.34]
+    HF30:
+      presets: _Korok<HF30 Lift Rock,korok-rock>
+      coord: [-2340.50,249.69,-1104.35]
+    HF31:
+      presets: _Korok<HF31 Rock Pattern,korok-rock-circle>
+      coord: [-510.78,127.68,-1176.87]
+    HF32:
+      presets: _Korok<HF32 Lift Rock,korok-rock>
+      coord: [-664.31,133.65,-1222.37]
+    HF33:
+      presets: _Korok<HF33 Lift Rock,korok-rock>
+      coord: [-1771.40,115.70,-1243.44]
+    HF34:
+      presets: _Korok<HF34 Offer Apple,korok-offer-apple>
+      coord: [-1316.49,139.34,-1261.08]
+    HF35:
+      presets: _Korok<HF35 Acorn Log,korok-acorn>
+      coord: [-1428.09,142.35,-1297.98]
+    HF36:
+      presets: _Korok<HF36 Repair Roof,korok-ultrahand>
+      coord: [-1658.92,214.19,-1321.96]
+    HF37:
+      presets: _Korok<HF37 Catch Seed,korok-catch-seed>
+      coord: [-1053.34,175.04,-1328.00]
+    HF38:
+      presets: _Korok<HF38 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::HF38::Start
+      - _Korok::HF38::End
+    _HF38:
+      Start:
+        presets: _KorokFriendStart<HF38>
+        coord: [-1356.41,151.86,-1307.46]
+      End:
+        presets: _KorokFriendEnd<HF38>
+        coord: [-1302.20,243.50,-1331.72]
+    HF39:
+      presets: _Korok<HF39 Race,korok-race>
+      movements:
+      - _Korok::HF39::Start
+      - _Korok::HF39::End
+    _HF39:
+      Start:
+        coord: [-657.09,158.02,-1389.64]
+      End:
+        coord: [-594.84,144.57,-1414.73]
+    HF40:
+      presets: _Korok<HF40 Block Puzzle,korok-ultrahand>
+      coord: [-1763.73,197.90,-1449.17]
+    HF41:
+      presets: _Korok<HF41 Lift Rock,korok-rock>
+      coord: [-1518.37,148.65,-1508.13]
+    HF42:
+      presets: _Korok<HF42 Acorn Hanging,korok-acorn>
+      coord: [-611.77,179.39,-1525.45]
+    HF43:
+      presets: _Korok<HF43 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::HF43::Start
+      - _Korok::HF43::End
+    _HF43:
+      Start:
+        presets: _KorokFriendStart<HF43>
+        coord: [-39.05,128.00,-1112.52]
+      End:
+        presets: _KorokFriendEnd<HF43>
+        coord: [-152.74,126.05,-1530.73]
+    HF44:
+      presets: _Korok<HF44 Balloon (Pinwheel\),korok-balloon>
+      coord: [-1816.53,207.85,-1534.68]
+    HF45:
+      presets: _Korok<HF45 Balloon (Pinwheel\),korok-balloon>
+      coord: [-281.80,160.00,-1576.24]
+    HF46:
+      presets: _Korok<HF46 Balloon (Stationary\),korok-balloon>
+      coord: [-1688.03,96.61,-1600.46]
+    HF47:
+      presets: _Korok<HF47 Balloon (Pinwheel\),korok-balloon>
+      coord: [-964.23,208.58,-1606.87]
+    HF48:
+      presets: _Korok<HF48 Lift Rock,korok-rock>
+      coord: [147.64,136.11,-1611.33]
+    HF49:
+      presets: _Korok<HF49 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::HF49::Start
+      - [-1166.72,188.06,1648.13]
+      - [-1173.04,187.78,1640.79]
+      - [-1188.09,187.70,1648.43]
+      - [-1197.30,187.56,1648.26]
+      - [-1203.02,189.15,1655.97]
+      - [-1207.40,190.95,1662.77]
+      - [-1208.30,190.30,1669.02]
+      - [-1206.24,188.01,1683.20]
+      - _Korok::HF49::End
+    _HF49:
+      Start:
+        coord: [-1173.44,187.54,1655.07]
+      End:
+        coord: [-1210.81,187.80,1689.23]
+    HF50:
+      presets: _Korok<HF50 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::HF50::Start
+      - _Korok::HF50::End
+    _HF50:
+      Start:
+        presets: _KorokFriendStart<HF50>
+        coord: [-452.00,125.50,-1649.60]
+      End:
+        presets: _KorokFriendEnd<HF50>
+        coord: [-509.35,170.96,-1696.41]
+    HF51:
+      presets: _Korok<HF51 Pull Plug,korok-pull-plug>
+      coord: [-1705.50,69.34,-1706.78]
+    HF52:
+      presets: _Korok<HF52 Pull Plug,korok-pull-plug>
+      coord: [-952.28,203.10,-1720.08]
+    HF53:
+      presets: _Korok<HF53 Boulder Stand,korok-boulder-stand>
+      coord: [63.16,153.20,-1753.35]
+    HF54:
+      presets: _Korok<HF54 Target Landing,korok-target>
+      movements:
+      - _Korok::HF54::Start
+      - _Korok::HF54::End
+    _HF54:
+      Start:
+        coord: [-683.04,199.90,-1842.77]
+      End:
+        coord: [-668.02,183.74,-1779.63]
+    HF55:
+      presets: _Korok<HF55 Light Chase,korok-light-chase>
+      coord: [-1151.47,260.87,-1788.20]
+    HF56:
+      presets: _Korok<HF56 Lift Rock,korok-rock>
+      coord: [-1700.27,89.25,-1826.47]
+    HF57:
+      presets: _Korok<HF57 Ascend,korok-ascend>
+      coord: [-950.71,197.31,-1839.77]
+    HF58:
+      presets: _Korok<HF58 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::HF58::Start
+      - _Korok::HF58::End
+    _HF58:
+      Start:
+        presets: _KorokFriendStart<HF58>
+        coord: [-694.28,172.00,-1576.46]
+      End:
+        presets: _KorokFriendEnd<HF58>
+        coord: [-1025.00,247.55,-1857.00]
+    HF59:
+      presets: _Korok<HF59 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::HF59::Start
+      - [7.97,208.32,1891.46]
+      - [7.69,212.15,1892.69]
+      - [7.77,214.24,1900.46]
+      - _Korok::HF59::End
+    _HF59:
+      Start:
+        coord: [3.78,207.41,1891.32]
+      End:
+        coord: [0.75,213.19,1900.44]
+    HF60:
+      presets: _Korok<HF60 Lift Rock,korok-rock>
+      coord: [-889.49,212.09,-1907.83]
+    HF61:
+      presets: _Korok<HF61 Light Chase,korok-light-chase>
+      coord: [-238.07,147.27,-1918.70]
+    HF62:
+      presets: _Korok<HF62 Lift Rock,korok-rock>
+      coord: [-1516.51,238.17,-1922.72]
+    HF63:
+      presets: _Korok<HF63 Confetti,korok-confetti>
+      coord: [-1432.54,326.19,-1952.75]
+    HF64:
+      presets: _Korok<HF64 Balloon (Stationary\),korok-balloon>
+      coord: [-829.98,248.41,-1963.58]
+    HF65:
+      presets: _Korok<HF65 Confetti,korok-confetti>
+      coord: [-811.60,298.21,-1964.11]
+    HF66:
+      presets: _Korok<HF66 Block Puzzle,korok-ultrahand>
+      coord: [-472.00,182.50,-2039.00]
+    HF67:
+      presets: _Korok<HF67 Confetti,korok-confetti>
+      coord: [-1086.07,251.54,-2050.02]
+    HF68:
+      presets: _Korok<HF68 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::HF68::Start
+      - _Korok::HF68::End
+    _HF68:
+      Start:
+        presets: _KorokFriendStart<HF68>
+        coord: [-1126.81,249.73,-1970.13]
+      End:
+        presets: _KorokFriendEnd<HF68>
+        coord: [-1178.43,250.51,-2088.73]
+    HF69:
+      presets: _Korok<HF69 Lily Pads,korok-lily>
+      coord: [45.85,94.00,-2133.84]
+    HF70:
+      presets: _Korok<HF70 Repair Roof,korok-ultrahand>
+      coord: [-207.37,125.83,-2205.12]
+    HF71:
+      presets: _Korok<HF71 Ascend,korok-ascend>
+      coord: [-930.53,181.40,-2208.40]
+    HF72:
+      presets: _Korok<HF72 Lift Rock,korok-rock>
+      coord: [-1294.63,417.59,-2213.61]
+    HF73:
+      presets: _Korok<HF73 Offer Banana,korok-offer-banana>
+      coord: [-790.08,193.59,-2229.78]
+    HF74:
+      presets: _Korok<HF74 Block Puzzle,korok-ultrahand>
+      coord: [-886.36,125.75,-2270.54]
+    HF75:
+      presets: _Korok<HF75 Lift Rock,korok-rock>
+      coord: [-102.99,175.93,-2292.11]
+    HFS01:
+      presets: _Korok<HFS01 Target Touch,korok-target>
+      coord: [-1402.80,1138.36,-1522.87]
+    HFS02:
+      presets: _Korok<HFS02 Lift Rock (Leaves\),korok-rock-under>
+      coord: [-793.57,1041.82,-1601.78]
+    LB01:
+      presets: _Korok<LB01 Lift Rock,korok-rock>
+      coord: [-1147.25,72.49,2534.86]
+    LB02:
+      presets: _Korok<LB02 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::LB02::Start
+      - _Korok::LB02::End
+    _LB02:
+      Start:
+        presets: _KorokFriendStart<LB02>
+        coord: [-546.00,373.50,2223.00]
+      End:
+        presets: _KorokFriendEnd<LB02>
+        coord: [-981.23,225.85,2239.98]
+    LB03:
+      presets: _Korok<LB03 Offer Banana,korok-offer-banana>
+      coord: [-669.65,239.33,1966.72]
+    LB04:
+      presets: _Korok<LB04 Acorn Log,korok-acorn>
+      coord: [-2298.03,403.48,1908.36]
+    LB05:
+      presets: _Korok<LB05 Confetti,korok-confetti>
+      coord: [-2687.92,374.84,1662.26]
+    LB06:
+      presets: _Korok<LB06 Block Puzzle,korok-ultrahand>
+      coord: [-2818.43,91.50,1598.72]
+    LB07:
+      presets: _Korok<LB07 Lift Rock,korok-rock>
+      coord: [-2221.22,275.50,1580.39]
+    LB08:
+      presets: _Korok<LB08 Confetti,korok-confetti>
+      coord: [-1226.59,257.82,1577.94]
+    LB09:
+      presets: _Korok<LB09 Pull Plug,korok-pull-plug>
+      coord: [-3137.13,229.95,1553.15]
+    LB10:
+      presets: _Korok<LB10 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::LB10::Start
+      - [-3621.97,254.26,-1518.70]
+      - [-3625.01,255.79,-1505.02]
+      - [-3617.55,253.22,-1502.74]
+      - [-3609.74,246.95,-1500.86]
+      - [-3601.49,247.46,-1499.19]
+      - [-3596.78,246.83,-1509.71]
+      - [-3592.46,248.62,-1524.82]
+      - [-3589.97,246.03,-1532.33]
+      - _Korok::LB10::End
+    _LB10:
+      Start:
+        coord: [-3621.34,250.44,-1522.18]
+      End:
+        coord: [-3597.97,248.43,-1535.52]
+    LB11:
+      presets: _Korok<LB11 Lift Rock,korok-rock>
+      coord: [-3284.53,293.75,1340.56]
+    LB12:
+      presets: _Korok<LB12 Target Landing,korok-target>
+      movements:
+      - _Korok::LB12::Start
+      - _Korok::LB12::End
+    _LB12:
+      Start:
+        coord: [-3820.74,392.28,1319.24]
+      End:
+        coord: [-3848.26,377.50,1326.62]
+    LB13:
+      presets: _Korok<LB13 Acorn Hanging,korok-acorn>
+      coord: [-3102.67,315.57,1316.05]
+    LB14:
+      presets: _Korok<LB14 Block Puzzle,korok-ultrahand>
+      coord: [-3442.00,232.50,1313.00]
+    LB15:
+      presets: _Korok<LB15 Confetti,korok-confetti>
+      coord: [-2024.54,390.41,1304.41]
+    LB16:
+      presets: _Korok<LB16 Race,korok-race>
+      movements:
+      - _Korok::LB16::Start
+      - _Korok::LB16::End
+    _LB16:
+      Start:
+        coord: [-2580.20,321.10,1249.37]
+      End:
+        coord: [-2653.77,312.25,1283.25]
+    LB17:
+      presets: _Korok<LB17 Offer Apple,korok-offer-apple>
+      coord: [-1074.80,227.59,1277.17]
+    LB18:
+      presets: _Korok<LB18 Ascend,korok-ascend>
+      coord: [-1730.12,353.34,1162.47]
+    LB19:
+      presets: _Korok<LB19 Block Puzzle,korok-ultrahand>
+      coord: [-2436.08,271.55,1138.84]
+    LB20:
+      presets: _Korok<LB20 Lift Rock,korok-rock>
+      coord: [-3147.93,262.43,1107.06]
+    LB21:
+      presets: _Korok<LB21 Confetti,korok-confetti>
+      coord: [-2233.75,216.41,1070.48]
+    LB22:
+      presets: _Korok<LB22 Ascend,korok-ascend>
+      coord: [-3715.55,303.47,1039.37]
+    LB23:
+      presets: _Korok<LB23 Lift Rock (Leaves\),korok-rock-under>
+      coord: [-2341.68,211.13,939.24]
+    LB24:
+      presets: _Korok<LB24 Confetti,korok-confetti>
+      coord: [-3981.50,219.63,931.24]
+    LB25:
+      presets: _Korok<LB25 Lift Rock,korok-rock>
+      coord: [-1287.87,204.70,897.48]
+    LB26:
+      presets: _Korok<LB26 Lily Pads,korok-lily>
+      coord: [-2677.25,343.67,892.03]
+    LB27:
+      presets: _Korok<LB27 Boulder Stand,korok-boulder-stand>
+      coord: [-3817.64,236.86,833.91]
+    LB28:
+      presets: _Korok<LB28 Offer Apple,korok-offer-apple>
+      coord: [-4059.40,211.85,773.91]
+    LB29:
+      presets: _Korok<LB29 Light Chase,korok-light-chase>
+      coord: [-2061.48,205.87,769.47]
+    LB30:
+      presets: _Korok<LB30 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::LB30::Start
+      - _Korok::LB30::End
+    _LB30:
+      Start:
+        presets: _KorokFriendStart<LB30>
+        coord: [-3614.14,395.17,983.00]
+      End:
+        presets: _KorokFriendEnd<LB30>
+        coord: [-3557.28,292.84,767.68]
+    LB31:
+      presets: _Korok<LB31 Light Chase,korok-light-chase>
+      coord: [-3541.97,292.50,752.01]
+    LB32:
+      presets: _Korok<LB32 Target Landing,korok-target>
+      movements:
+      - _Korok::LB32::Start
+      - _Korok::LB32::End
+    _LB32:
+      Start:
+        coord: [-3966.26,293.96,625.12]
+      End:
+        coord: [-3976.49,231.85,731.85]
+    LB33:
+      presets: _Korok<LB33 Ascend,korok-ascend>
+      coord: [-3434.75,279.69,708.36]
+    LB34:
+      presets: _Korok<LB34 Rock Pattern,korok-rock-circle>
+      coord: [-2824.62,350.29,703.53]
+    LB35:
+      presets: _Korok<LB35 Boulder Stand,korok-boulder-stand>
+      coord: [-1163.94,174.74,666.21]
+    LB36:
+      presets: _Korok<LB36 Catch Seed,korok-catch-seed>
+      coord: [-3444.21,358.22,661.60]
+    LB37:
+      presets: _Korok<LB37 Lift Rock (Leaves\),korok-rock-under>
+      coord: [-3551.74,317.35,594.93]
+    LB38:
+      presets: _Korok<LB38 Lift Rock,korok-rock>
+      coord: [-3011.53,237.62,584.29]
+    LB39:
+      presets: _Korok<LB39 Balloon (Stationary\),korok-balloon>
+      coord: [-3225.77,268.70,578.91]
+    LB40:
+      presets: _Korok<LB40 Balloon (Stationary\),korok-balloon>
+      coord: [-3546.75,299.73,577.95]
+    LB41:
+      presets: _Korok<LB41 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::LB41::Start
+      - [-2908.71,314.59,-552.61]
+      - [-2935.23,306.85,-548.10]
+      - [-2928.45,304.62,-547.27]
+      - _Korok::LB41::End
+    _LB41:
+      Start:
+        coord: [-2897.41,313.59,-557.82]
+      End:
+        coord: [-2920.36,298.94,-546.25]
+    LB42:
+      presets: _Korok<LB42 Acorn Hanging,korok-acorn>
+      coord: [-1346.61,201.07,530.54]
+    LB43:
+      presets: _Korok<LB43 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::LB43::Start
+      - _Korok::LB43::End
+    _LB43:
+      Start:
+        presets: _KorokFriendStart<LB43>
+        coord: [-2084.43,209.50,482.30]
+      End:
+        presets: _KorokFriendEnd<LB43>
+        coord: [-2056.14,244.43,512.51]
+    LB44:
+      presets: _Korok<LB44 Lift Rock (Leaves\),korok-rock-under>
+      coord: [-2436.48,331.05,511.67]
+    LB45:
+      presets: _Korok<LB45 Block Puzzle,korok-ultrahand>
+      coord: [-3532.00,348.45,488.00]
+    LB46:
+      presets: _Korok<LB46 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::LB46::Start
+      - [-3635.74,391.04,-502.86]
+      - [-3602.73,390.47,-471.35]
+      - [-3595.02,388.64,-460.86]
+      - [-3551.68,386.28,-423.83]
+      - [-3556.48,394.99,-399.80]
+      - [-3582.36,391.93,-380.26]
+      - [-3578.42,402.84,-369.31]
+      - [-3592.05,403.18,-364.65]
+      - _Korok::LB46::End
+    _LB46:
+      Start:
+        coord: [-3649.74,392.25,-511.11]
+      End:
+        coord: [-3607.35,402.73,-357.95]
+    LB47:
+      presets: _Korok<LB47 Confetti,korok-confetti>
+      coord: [-2202.22,256.00,355.66]
+    LB48:
+      presets: _Korok<LB48 Race,korok-race>
+      movements:
+      - _Korok::LB48::Start
+      - _Korok::LB48::End
+    _LB48:
+      Start:
+        coord: [-3206.92,5.80,333.76]
+      End:
+        coord: [-3200.54,36.58,343.28]
+    LB49:
+      presets: _Korok<LB49 Race,korok-race>
+      movements:
+      - _Korok::LB49::Start
+      - _Korok::LB49::End
+    _LB49:
+      Start:
+        coord: [-2918.77,312.00,285.46]
+      End:
+        coord: [-2913.73,310.02,240.41]
+    LB50:
+      presets: _Korok<LB50 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::LB50::Start
+      - [-3136.81,212.55,-248.88]
+      - [-3122.05,213.27,-255.18]
+      - [-3130.34,214.32,-240.73]
+      - _Korok::LB50::End
+    _LB50:
+      Start:
+        coord: [-3109.00,216.74,-241.98]
+      End:
+        coord: [-3118.96,217.17,-236.28]
+    LB51:
+      presets: _Korok<LB51 Confetti,korok-confetti>
+      coord: [-1588.95,216.21,228.90]
+    LB52:
+      presets: _Korok<LB52 Acorn Hanging,korok-acorn>
+      coord: [-1148.64,145.27,221.75]
+    LB53:
+      presets: _Korok<LB53 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::LB53::Start
+      - _Korok::LB53::End
+    _LB53:
+      Start:
+        presets: _KorokFriendStart<LB53>
+        coord: [-2871.88,284.77,494.62]
+      End:
+        presets: _KorokFriendEnd<LB53>
+        coord: [-2599.68,253.24,189.10]
+    LB54:
+      presets: _Korok<LB54 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::LB54::Start
+      - _Korok::LB54::End
+    _LB54:
+      Start:
+        presets: _KorokFriendStart<LB54>
+        coord: [-2962.00,249.50,84.50]
+      End:
+        presets: _KorokFriendEnd<LB54>
+        coord: [-3017.75,311.23,104.81]
+    LB55:
+      presets: _Korok<LB55 Light Chase,korok-light-chase>
+      coord: [-2031.05,262.61,87.74]
+    LB56:
+      presets: _Korok<LB56 Pull Plug,korok-pull-plug>
+      coord: [-1399.06,130.00,80.03]
+    LB57:
+      presets: _Korok<LB57 Balloon (Pinwheel\),korok-balloon>
+      coord: [-1645.96,233.78,-13.39]
+    LB58:
+      presets: _Korok<LB58 Lift Rock,korok-rock>
+      coord: [-1702.41,197.73,-83.90]
+    LB59:
+      presets: _Korok<LB59 Confetti,korok-confetti>
+      coord: [-1863.11,223.61,-93.77]
+    LB60:
+      presets: _Korok<LB60 Lift Rock,korok-rock>
+      coord: [-3132.57,315.37,-113.16]
+    LB61:
+      presets: _Korok<LB61 Block Puzzle,korok-ultrahand>
+      coord: [-2640.40,238.60,-322.58]
+    LBS01:
+      presets: _Korok<LBS01 Target Landing,korok-target>
+      movements:
+      - _Korok::LBS01::Start
+      - _Korok::LBS01::End
+    _LBS01:
+      Start:
+        coord: [-3612.40,1919.96,1030.28]
+      End:
+        coord: [-3645.03,1900.55,1048.27]
+    LBS02:
+      presets: _Korok<LBS02 Catch Light,korok-catch-light>
+      coord: [-3620.81,1769.02,996.98]
+    LBS03:
+      presets: _Korok<LBS03 Acorn Hanging,korok-acorn>
+      coord: [-3598.97,1927.86,978.57]
+    LBS04:
+      presets: _Korok<LBS04 Catch Light,korok-catch-light>
+      coord: [-2367.10,724.78,865.11]
+    LBS05:
+      presets: _Korok<LBS05 Target Landing,korok-target>
+      movements:
+      - _Korok::LBS05::Start
+      - _Korok::LBS05::End
+    _LBS05:
+      Start:
+        coord: [-3960.01,1610.81,649.91]
+      End:
+        coord: [-3959.79,1608.93,691.91]
+    LL01:
+      presets: _Korok<LL01 Acorn Hanging,korok-acorn>
+      coord: [-124.41,141.89,1192.74]
+    LL02:
+      presets: _Korok<LL02 Target Landing,korok-target>
+      movements:
+      - _Korok::LL02::Start
+      - _Korok::LL02::End
+    _LL02:
+      Start:
+        coord: [-302.86,195.56,1123.40]
+      End:
+        coord: [-282.17,182.85,1125.08]
+    LL03:
+      presets: _Korok<LL03 Lily Pads,korok-lily>
+      coord: [-297.47,119.08,1119.18]
+    LL04:
+      presets: _Korok<LL04 Balloon (Pinwheel\),korok-balloon>
+      coord: [-438.33,132.24,1115.69]
+    LL05:
+      presets: _Korok<LL05 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::LL05::Start
+      - _Korok::LL05::End
+    _LL05:
+      Start:
+        presets: _KorokFriendStart<LL05>
+        coord: [-779.44,122.85,938.84]
+      End:
+        presets: _KorokFriendEnd<LL05>
+        coord: [-752.69,150.42,1070.67]
+    LL06:
+      presets: _Korok<LL06 Ring Bell,korok-ring-bell>
+      coord: [-254.00,575.45,1061.77]
+    LL07:
+      presets: _Korok<LL07 Confetti,korok-confetti>
+      coord: [-254.00,668.26,1059.00]
+    LL08:
+      presets: _Korok<LL08 Target Landing,korok-target>
+      movements:
+      - _Korok::LL08::Start
+      - _Korok::LL08::End
+    _LL08:
+      Start:
+        coord: [-1034.59,167.12,1083.40]
+      End:
+        coord: [-891.73,118.24,1037.22]
+    LL09:
+      presets: _Korok<LL09 Balloon (Stationary\),korok-balloon>
+      coord: [-394.00,426.78,998.87]
+    LL10:
+      presets: _Korok<LL10 Confetti,korok-confetti>
+      coord: [-381.27,497.78,995.87]
+    LL11:
+      presets: _Korok<LL11 Block Puzzle,korok-ultrahand>
+      coord: [-52.51,382.95,971.35]
+    LL12:
+      presets: _Korok<LL12 Acorn Hanging,korok-acorn>
+      coord: [-666.31,115.67,962.91]
+    LL13:
+      presets: _Korok<LL13 Lift Rock,korok-rock>
+      coord: [-254.20,410.92,943.86]
+    LL14:
+      presets: _Korok<LL14 Balloon (Stationary\),korok-balloon>
+      coord: [-83.79,425.16,906.68]
+    LL15:
+      presets: _Korok<LL15 Light Chase,korok-light-chase>
+      coord: [192.37,132.47,897.03]
+    LL16:
+      presets: _Korok<LL16 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::LL16::Start
+      - [-465.42,208.56,-856.42]
+      - [-454.37,207.03,-863.23]
+      - [-453.68,216.43,-864.01]
+      - _Korok::LL16::End
+    _LL16:
+      Start:
+        coord: [-466.64,206.01,-851.15]
+      End:
+        coord: [-428.59,221.57,-889.84]
+    LL17:
+      presets: _Korok<LL17 Balloon (Pinwheel\),korok-balloon>
+      coord: [-360.42,384.47,885.02]
+    LL18:
+      presets: _Korok<LL18 Rock Pattern,korok-rock-circle>
+      coord: [-61.39,274.03,867.26]
+    LL19:
+      presets: _Korok<LL19 Light Chase,korok-light-chase>
+      coord: [-675.15,120.89,860.53]
+    LL20:
+      presets: _Korok<LL20 Light Chase,korok-light-chase>
+      coord: [-421.38,191.49,845.13]
+    LL21:
+      presets: _Korok<LL21 Lift Rock,korok-rock>
+      coord: [-287.34,210.59,839.58]
+    LL22:
+      presets: _Korok<LL22 Confetti,korok-confetti>
+      coord: [-351.24,286.58,827.73]
+    LL23:
+      presets: _Korok<LL23 Race,korok-race>
+      movements:
+      - _Korok::LL23::Start
+      - _Korok::LL23::End
+    _LL23:
+      Start:
+        coord: [-947.69,160.69,681.73]
+      End:
+        coord: [-941.90,134.97,819.68]
+    LL24:
+      presets: _Korok<LL24 Lift Rock,korok-rock>
+      coord: [-128.31,202.34,813.76]
+    LL25:
+      presets: _Korok<LL25 Block Puzzle,korok-ultrahand>
+      coord: [-344.48,164.28,785.73]
+    LL26:
+      presets: _Korok<LL26 Balloon (Pinwheel\),korok-balloon>
+      coord: [-272.92,239.93,746.45]
+    LL27:
+      presets: _Korok<LL27 Acorn Hanging,korok-acorn>
+      coord: [269.73,116.41,701.14]
+    LL28:
+      presets: _Korok<LL28 Lift Rock,korok-rock>
+      coord: [-530.00,139.57,693.89]
+    LL29:
+      presets: _Korok<LL29 Balloon (Stationary\),korok-balloon>
+      coord: [-612.74,118.04,666.65]
+    LL30:
+      presets: _Korok<LL30 Lift Rock,korok-rock>
+      coord: [-237.41,185.36,632.46]
+    LL31:
+      presets: _Korok<LL31 Lily Pads,korok-lily>
+      coord: [-284.36,118.18,608.87]
+    LL32:
+      presets: _Korok<LL32 Acorn Log,korok-acorn>
+      coord: [133.31,134.04,599.70]
+    LL33:
+      presets: _Korok<LL33 Rock Pattern,korok-rock-circle>
+      coord: [-1017.12,115.53,569.40]
+    LL34:
+      presets: _Korok<LL34 Light Chase,korok-light-chase>
+      coord: [-796.61,187.67,558.80]
+    LL35:
+      presets: _Korok<LL35 Block Puzzle,korok-ultrahand>
+      coord: [-664.68,132.53,546.97]
+    LL36:
+      presets: _Korok<LL36 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::LL36::Start
+      - [359.08,151.87,-483.36]
+      - [370.33,140.72,-473.93]
+      - [379.42,157.67,-466.18]
+      - _Korok::LL36::End
+    _LL36:
+      Start:
+        coord: [347.39,146.96,-493.17]
+      End:
+        coord: [382.36,158.47,-463.47]
+    LL37:
+      presets: _Korok<LL37 Lift Rock,korok-rock>
+      coord: [-253.97,134.92,425.91]
+    LL38:
+      presets: _Korok<LL38 Ascend,korok-ascend>
+      coord: [-86.67,138.07,401.43]
+    LL39:
+      presets: _Korok<LL39 Rock Pattern,korok-rock-circle>
+      coord: [715.76,115.64,368.13]
+    LL40:
+      presets: _Korok<LL40 Ascend,korok-ascend>
+      coord: [-945.49,133.21,348.30]
+    LL41:
+      presets: _Korok<LL41 Lift Rock (Leaves\),korok-rock-under>
+      coord: [-312.99,130.50,324.12]
+    LL42:
+      presets: _Korok<LL42 Lift Rock,korok-rock>
+      coord: [-254.28,151.89,257.24]
+    LL43:
+      presets: _Korok<LL43 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::LL43::Start
+      - [-519.66,171.29,-206.84]
+      - [-514.30,168.77,-207.16]
+      - [-501.96,149.86,-220.03]
+      - [-485.27,141.12,-230.03]
+      - [-476.15,141.63,-231.65]
+      - [-462.62,143.06,-237.64]
+      - [-451.84,139.27,-241.26]
+      - [-442.26,139.27,-244.39]
+      - _Korok::LL43::End
+    _LL43:
+      Start:
+        coord: [-526.67,167.71,-188.48]
+      End:
+        coord: [-430.25,142.92,-248.33]
+    LL44:
+      presets: _Korok<LL44 Acorn Tree,korok-acorn>
+      coord: [-748.18,136.49,200.28]
+    LL45:
+      presets: _Korok<LL45 Lift Rock,korok-rock>
+      coord: [-1130.87,144.74,18.50]
+    LL46:
+      presets: _Korok<LL46 Repair Roof,korok-ultrahand>
+      coord: [761.79,136.78,11.08]
+    LL47:
+      presets: _Korok<LL47 Balloon (Stationary\),korok-balloon>
+      coord: [-795.13,175.72,-14.06]
+    LL48:
+      presets: _Korok<LL48 Lift Rock,korok-rock>
+      coord: [-923.51,212.23,-44.93]
+    LL49:
+      presets: _Korok<LL49 Catch Seed,korok-catch-seed>
+      coord: [616.71,161.84,-76.00]
+    LL50:
+      presets: _Korok<LL50 Balloon (Pinwheel\),korok-balloon>
+      coord: [-425.96,136.85,-146.88]
+    LL51:
+      presets: _Korok<LL51 Block Puzzle,korok-ultrahand>
+      coord: [-1352.14,121.50,-191.95]
+    LL52:
+      presets: _Korok<LL52 Catch Seed,korok-catch-seed>
+      coord: [-1095.83,150.65,-197.19]
+    LL53:
+      presets: _Korok<LL53 Acorn Log,korok-acorn>
+      coord: [289.89,133.23,-246.79]
+    LL54:
+      presets: _Korok<LL54 Lift Rock (Leaves\),korok-rock-under>
+      coord: [74.69,139.88,-326.99]
+    LL55:
+      presets: _Korok<LL55 Target Landing,korok-target>
+      movements:
+      - _Korok::LL55::Start
+      - _Korok::LL55::End
+    _LL55:
+      Start:
+        coord: [-1109.67,167.70,-420.47]
+      End:
+        coord: [-1146.03,144.77,-381.29]
+    LL56:
+      presets: _Korok<LL56 Lift Rock,korok-rock>
+      coord: [-217.75,157.85,-383.11]
+    LL57:
+      presets: _Korok<LL57 Lift Rock,korok-rock>
+      coord: [754.16,135.87,-450.53]
+    LL58:
+      presets: _Korok<LL58 Lift Rock,korok-rock>
+      coord: [501.00,168.46,-470.17]
+    LL59:
+      presets: _Korok<LL59 Acorn Hanging,korok-acorn>
+      coord: [-1088.66,165.67,-514.06]
+    LL60:
+      presets: _Korok<LL60 Lift Rock,korok-rock>
+      coord: [-588.74,130.03,-559.20]
+    LL61:
+      presets: _Korok<LL61 Rock Pattern,korok-rock-circle>
+      coord: [-1112.03,200.01,-570.54]
+    LL62:
+      presets: _Korok<LL62 Lift Rock,korok-rock>
+      coord: [625.01,126.60,-753.43]
+    ML01:
+      presets: _Korok<ML01 Lily Pads,korok-lily>
+      coord: [4188.94,109.91,-811.86]
+    ML02:
+      presets: _Korok<ML02 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::ML02::Start
+      - [4457.72,173.18,784.35]
+      - [4486.63,171.22,782.22]
+      - [4477.44,164.26,806.01]
+      - _Korok::ML02::End
+    _ML02:
+      Start:
+        coord: [4448.19,173.96,743.37]
+      End:
+        coord: [4462.50,168.47,842.27]
+    ML03:
+      presets: _Korok<ML03 Light Chase,korok-light-chase>
+      coord: [4523.79,112.53,-1004.58]
+    ML04:
+      presets: _Korok<ML04 Pull Plug,korok-pull-plug>
+      coord: [4027.85,454.94,-1094.71]
+    ML05:
+      presets: _Korok<ML05 Confetti,korok-confetti>
+      coord: [3562.14,361.07,-1112.73]
+    ML06:
+      presets: _Korok<ML06 Catch Seed,korok-catch-seed>
+      coord: [3741.57,556.51,-1151.48]
+    ML07:
+      presets: _Korok<ML07 Block Puzzle,korok-ultrahand>
+      coord: [3250.02,276.01,-1335.54]
+    ML08:
+      presets: _Korok<ML08 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::ML08::Start
+      - _Korok::ML08::End
+    _ML08:
+      Start:
+        presets: _KorokFriendStart<ML08>
+        coord: [3498.97,268.21,-1454.68]
+      End:
+        presets: _KorokFriendEnd<ML08>
+        coord: [3667.33,402.57,-1385.63]
+    ML09:
+      presets: _Korok<ML09 Pull Plug,korok-pull-plug>
+      coord: [2920.91,485.99,-1392.43]
+    ML10:
+      presets: _Korok<ML10 Boulder Stand,korok-boulder-stand>
+      coord: [4395.59,176.07,-1458.23]
+    ML11:
+      presets: _Korok<ML11 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::ML11::Start
+      - [4530.17,110.75,1518.48]
+      - [4527.13,108.12,1533.55]
+      - [4518.36,108.88,1530.82]
+      - _Korok::ML11::End
+    _ML11:
+      Start:
+        coord: [4526.15,117.32,1514.83]
+      End:
+        coord: [4508.20,106.98,1519.86]
+    ML12:
+      presets: _Korok<ML12 Rock Pattern,korok-rock-circle>
+      coord: [3237.13,302.99,-1545.17]
+    ML13:
+      presets: _Korok<ML13 Confetti,korok-confetti>
+      coord: [3895.72,492.33,-1683.75]
+    ML14:
+      presets: _Korok<ML14 Confetti,korok-confetti>
+      coord: [3528.71,467.12,-1683.91]
+    ML15:
+      presets: _Korok<ML15 Confetti,korok-confetti>
+      coord: [3741.65,492.40,-1685.44]
+    ML16:
+      presets: _Korok<ML16 Balloon (Stationary\),korok-balloon>
+      coord: [2528.40,150.38,-1749.61]
+    ML17:
+      presets: _Korok<ML17 Lily Pads,korok-lily>
+      coord: [2804.02,119.00,-1851.32]
+    ML18:
+      presets: _Korok<ML18 Pull Plug,korok-pull-plug>
+      coord: [2513.11,244.32,-1866.41]
+    ML19:
+      presets: _Korok<ML19 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::ML19::Start
+      - _Korok::ML19::End
+    _ML19:
+      Start:
+        presets: _KorokFriendStart<ML19>
+        coord: [2478.43,116.16,-1740.21]
+      End:
+        presets: _KorokFriendEnd<ML19>
+        coord: [2613.64,124.65,-1868.34]
+    ML20:
+      presets: _Korok<ML20 Rock Pattern,korok-rock-circle>
+      coord: [4335.05,318.07,-1870.69]
+    ML21:
+      presets: _Korok<ML21 Light Chase,korok-light-chase>
+      coord: [3715.13,282.39,-1949.03]
+    ML22:
+      presets: _Korok<ML22 Ring Bell,korok-ring-bell>
+      coord: [3365.99,249.62,-1979.37]
+    ML23:
+      presets: _Korok<ML23 Target Landing,korok-target>
+      movements:
+      - _Korok::ML23::Start
+      - _Korok::ML23::End
+    _ML23:
+      Start:
+        coord: [3017.92,155.38,-2033.40]
+      End:
+        coord: [2975.55,124.76,-2025.20]
+    ML24:
+      presets: _Korok<ML24 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::ML24::Start
+      - _Korok::ML24::End
+    _ML24:
+      Start:
+        presets: _KorokFriendStart<ML24>
+        coord: [2644.97,233.00,-2120.32]
+      End:
+        presets: _KorokFriendEnd<ML24>
+        coord: [2482.28,115.33,-2048.74]
+    ML25:
+      presets: _Korok<ML25 Balloon (Pinwheel\),korok-balloon>
+      coord: [3913.84,237.89,-2100.54]
+    ML26:
+      presets: _Korok<ML26 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::ML26::Start
+      - _Korok::ML26::End
+    _ML26:
+      Start:
+        presets: _KorokFriendStart<ML26>
+        coord: [2859.77,146.00,-1910.28]
+      End:
+        presets: _KorokFriendEnd<ML26>
+        coord: [3251.26,205.26,-2114.16]
+    ML27:
+      presets: _Korok<ML27 Confetti,korok-confetti>
+      coord: [2837.27,128.24,-2120.36]
+    ML28:
+      presets: _Korok<ML28 Lift Rock,korok-rock>
+      coord: [2489.61,138.97,-2122.53]
+    ML29:
+      presets: _Korok<ML29 Confetti,korok-confetti>
+      coord: [3782.36,392.52,-2122.65]
+    ML30:
+      presets: _Korok<ML30 Pull Plug,korok-pull-plug>
+      coord: [4591.71,109.29,-2159.70]
+    ML31:
+      presets: _Korok<ML31 Confetti,korok-confetti>
+      coord: [3286.33,276.18,-2179.74]
+    ML32:
+      presets: _Korok<ML32 Light Chase,korok-light-chase>
+      coord: [2867.94,140.20,-2187.45]
+    ML33:
+      presets: _Korok<ML33 Lift Rock,korok-rock>
+      coord: [3675.93,322.58,-2193.26]
+    ML34:
+      presets: _Korok<ML34 Lift Rock,korok-rock>
+      coord: [3264.48,212.46,-2225.93]
+    ML35:
+      presets: _Korok<ML35 Lift Rock,korok-rock>
+      coord: [2809.94,231.43,-2247.73]
+    ML36:
+      presets: _Korok<ML36 Lift Rock,korok-rock>
+      coord: [4516.26,218.68,-2305.92]
+    ML37:
+      presets: _Korok<ML37 Catch Seed,korok-catch-seed>
+      coord: [4038.35,115.67,-2309.17]
+    ML38:
+      presets: _Korok<ML38 Balloon (Pinwheel\),korok-balloon>
+      coord: [3415.21,340.51,-2381.26]
+    ML39:
+      presets: _Korok<ML39 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::ML39::Start
+      - _Korok::ML39::End
+    _ML39:
+      Start:
+        presets: _KorokFriendStart<ML39>
+        coord: [3248.00,236.50,-2283.00]
+      End:
+        presets: _KorokFriendEnd<ML39>
+        coord: [3260.64,322.55,-2396.73]
+    ML40:
+      presets: _Korok<ML40 Block Puzzle,korok-ultrahand>
+      coord: [4394.53,110.96,-2414.53]
+    ML41:
+      presets: _Korok<ML41 Confetti,korok-confetti>
+      coord: [3932.92,126.52,-2479.91]
+    ML42:
+      presets: _Korok<ML42 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::ML42::Start
+      - _Korok::ML42::End
+    _ML42:
+      Start:
+        presets: _KorokFriendStart<ML42>
+        coord: [3729.10,307.00,-2159.00]
+      End:
+        presets: _KorokFriendEnd<ML42>
+        coord: [3898.72,106.33,-2505.77]
+    ML43:
+      presets: _Korok<ML43 Block Puzzle,korok-ultrahand>
+      coord: [3440.26,318.49,-2517.03]
+    ML44:
+      presets: _Korok<ML44 Confetti,korok-confetti>
+      coord: [4118.99,108.40,-2573.93]
+    ML45:
+      presets: _Korok<ML45 Lift Rock,korok-rock>
+      coord: [3749.07,126.55,-2629.29]
+    ML46:
+      presets: _Korok<ML46 Pull Plug,korok-pull-plug>
+      coord: [4083.58,109.16,-2974.14]
+    ML47:
+      presets: _Korok<ML47 Confetti,korok-confetti>
+      coord: [3997.32,121.77,-2995.61]
+    MLS01:
+      presets: _Korok<MLS01 Balloon (Pinwheel\),korok-balloon>
+      coord: [4818.28,2046.72,-822.44]
+    MLS02:
+      presets: _Korok<MLS02 Catch Light,korok-catch-light>
+      coord: [4579.50,1234.30,-909.50]
+    MLS03:
+      presets: _Korok<MLS03 Catch Light,korok-catch-light>
+      coord: [4747.48,1934.87,-1155.58]
+    PF01:
+      presets: _Korok<PF01 Race,korok-race>
+      movements:
+      - _Korok::PF01::Start
+      - _Korok::PF01::End
+    _PF01:
+      Start:
+        coord: [1086.85,115.20,-1048.15]
+      End:
+        coord: [1040.53,118.50,-1068.50]
+    PF02:
+      presets: _Korok<PF02 Acorn Log,korok-acorn>
+      coord: [627.54,120.30,-1161.56]
+    PF03:
+      presets: _Korok<PF03 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF03::Start
+      - _Korok::PF03::End
+    _PF03:
+      Start:
+        presets: _KorokFriendStart<PF03>
+        coord: [630.03,117.82,-961.98]
+      End:
+        presets: _KorokFriendEnd<PF03>
+        coord: [1018.62,115.04,-1185.32]
+    PF04:
+      presets: _Korok<PF04 Block Puzzle,korok-ultrahand>
+      coord: [588.71,117.21,-1232.77]
+    PF05:
+      presets: _Korok<PF05 Catch Seed,korok-catch-seed>
+      coord: [543.27,155.05,-1265.77]
+    PF06:
+      presets: _Korok<PF06 Lift Rock,korok-rock>
+      coord: [333.22,115.15,-1282.91]
+    PF07:
+      presets: _Korok<PF07 Lift Rock,korok-rock>
+      coord: [843.39,132.26,-1291.41]
+    PF08:
+      presets: _Korok<PF08 Lily Pads,korok-lily>
+      coord: [1032.88,118.99,-1305.72]
+    PF09:
+      presets: _Korok<PF09 Boulder Stand,korok-boulder-stand>
+      coord: [609.14,160.29,-1467.64]
+    PF10:
+      presets: _Korok<PF10 Repair Roof,korok-ultrahand>
+      coord: [296.94,115.70,-1497.00]
+    PF11:
+      presets: _Korok<PF11 Acorn Tree,korok-acorn>
+      coord: [734.70,148.72,-1503.51]
+    PF12:
+      presets: _Korok<PF12 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF12::Start
+      - _Korok::PF12::End
+    _PF12:
+      Start:
+        presets: _KorokFriendStart<PF12>
+        coord: [47.48,163.50,-1691.05]
+      End:
+        presets: _KorokFriendEnd<PF12>
+        coord: [587.75,117.11,-1580.60]
+    PF13:
+      presets: _Korok<PF13 Ascend,korok-ascend>
+      coord: [228.68,120.52,-1608.88]
+    PF14:
+      presets: _Korok<PF14 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF14::Start
+      - _Korok::PF14::End
+    _PF14:
+      Start:
+        presets: _KorokFriendStart<PF14>
+        coord: [293.00,133.17,-1204.50]
+      End:
+        presets: _KorokFriendEnd<PF14>
+        coord: [342.00,123.63,-1662.20]
+    PF15:
+      presets: _Korok<PF15 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::PF15::Start
+      - [491.81,160.51,1780.27]
+      - [479.24,149.96,1759.45]
+      - [473.37,141.50,1735.03]
+      - _Korok::PF15::End
+    _PF15:
+      Start:
+        coord: [514.35,166.74,1790.94]
+      End:
+        coord: [465.61,132.56,1697.51]
+    PF16:
+      presets: _Korok<PF16 Catch Seed,korok-catch-seed>
+      coord: [312.65,180.44,-1765.50]
+    PF17:
+      presets: _Korok<PF17 Boulder Stand,korok-boulder-stand>
+      coord: [653.39,123.27,-1769.62]
+    PF18:
+      presets: _Korok<PF18 Lift Rock (Leaves\),korok-rock-under>
+      coord: [297.40,123.19,-1833.82]
+    PF19:
+      presets: _Korok<PF19 Offer Apple,korok-offer-apple>
+      coord: [163.54,151.31,-1940.10]
+    PF20:
+      presets: _Korok<PF20 Light Chase,korok-light-chase>
+      coord: [351.83,114.47,-1999.70]
+    PF21:
+      presets: _Korok<PF21 Race,korok-race>
+      movements:
+      - _Korok::PF21::Start
+      - _Korok::PF21::End
+    _PF21:
+      Start:
+        coord: [350.49,167.94,-2158.33]
+      End:
+        coord: [458.95,117.62,-2141.78]
+    PF22:
+      presets: _Korok<PF22 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF22::Start
+      - _Korok::PF22::End
+    _PF22:
+      Start:
+        presets: _KorokFriendStart<PF22>
+        coord: [523.00,161.50,-2199.00]
+      End:
+        presets: _KorokFriendEnd<PF22>
+        coord: [343.62,163.15,-2182.51]
+    PF23:
+      presets: _Korok<PF23 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::PF23::Start
+      - [291.21,142.14,2256.11]
+      - [278.12,142.13,2219.83]
+      - [273.06,142.45,2236.57]
+      - _Korok::PF23::End
+    _PF23:
+      Start:
+        coord: [282.40,141.84,2240.99]
+      End:
+        coord: [265.75,142.43,2216.22]
+    PF24:
+      presets: _Korok<PF24 Boulder Stand,korok-boulder-stand>
+      coord: [895.11,259.32,-2217.55]
+    PF25:
+      presets: _Korok<PF25 Offer Apple,korok-offer-apple>
+      coord: [637.17,165.79,-2314.63]
+    PF26:
+      presets: _Korok<PF26 Boulder Stand,korok-boulder-stand>
+      coord: [342.95,136.13,-2379.66]
+    PF27:
+      presets: _Korok<PF27 Confetti,korok-confetti>
+      coord: [-636.95,96.23,-2382.00]
+    PF28:
+      presets: _Korok<PF28 Lift Rock,korok-rock>
+      coord: [567.27,218.06,-2384.24]
+    PF29:
+      presets: _Korok<PF29 Race,korok-race>
+      movements:
+      - _Korok::PF29::Start
+      - _Korok::PF29::End
+    _PF29:
+      Start:
+        coord: [885.46,170.08,-2424.92]
+      End:
+        coord: [889.11,183.79,-2394.23]
+    PF30:
+      presets: _Korok<PF30 Rock Pattern,korok-rock-circle>
+      coord: [-1039.58,133.68,-2397.38]
+    PF31:
+      presets: _Korok<PF31 Acorn Hanging,korok-acorn>
+      coord: [-65.67,123.20,-2441.01]
+    PF32:
+      presets: _Korok<PF32 Confetti,korok-confetti>
+      coord: [-397.65,104.42,-2559.80]
+    PF33:
+      presets: _Korok<PF33 Confetti,korok-confetti>
+      coord: [-9.59,112.65,-2587.25]
+    PF34:
+      presets: _Korok<PF34 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF34::Start
+      - _Korok::PF34::End
+    _PF34:
+      Start:
+        presets: _KorokFriendStart<PF34>
+        coord: [-188.50,125.00,-2243.66]
+      End:
+        presets: _KorokFriendEnd<PF34>
+        coord: [-216.05,94.41,-2595.01]
+    PF35:
+      presets: _Korok<PF35 Lift Rock,korok-rock>
+      coord: [-711.64,204.77,-2624.98]
+    PF36:
+      presets: _Korok<PF36 Balloon (Pinwheel\),korok-balloon>
+      coord: [205.77,96.14,-2638.57]
+    PF37:
+      presets: _Korok<PF37 Race,korok-race>
+      movements:
+      - _Korok::PF37::Start
+      - _Korok::PF37::End
+    _PF37:
+      Start:
+        coord: [50.49,185.89,-2719.21]
+      End:
+        coord: [25.32,187.89,-2728.30]
+    PF38:
+      presets: _Korok<PF38 Ascend,korok-ascend>
+      coord: [1371.90,195.95,-2763.65]
+    PF39:
+      presets: _Korok<PF39 Lily Pads,korok-lily>
+      coord: [784.73,116.99,-2764.27]
+    PF40:
+      presets: _Korok<PF40 Lift Rock,korok-rock>
+      coord: [339.97,90.53,-2832.50]
+    PF41:
+      presets: _Korok<PF41 Boulder Stand,korok-boulder-stand>
+      coord: [242.59,142.54,-2874.61]
+    PF42:
+      presets: _Korok<PF42 Boulder Stand,korok-boulder-stand>
+      coord: [422.53,136.21,-2884.37]
+    PF43:
+      presets: _Korok<PF43 Block Puzzle,korok-ultrahand>
+      coord: [-467.75,95.50,-2899.00]
+    PF44:
+      presets: _Korok<PF44 Rock Pattern,korok-rock-circle>
+      coord: [1556.73,291.02,-2899.23]
+    PF45:
+      presets: _Korok<PF45 Lift Rock (Boulder\),korok-rock-under>
+      coord: [1774.74,345.29,-2933.31]
+    PF46:
+      presets: _Korok<PF46 Block Puzzle,korok-ultrahand>
+      coord: [699.97,121.79,-2953.50]
+    PF47:
+      presets: _Korok<PF47 Boulder Stand,korok-boulder-stand>
+      coord: [115.84,147.44,-2960.63]
+    PF48:
+      presets: _Korok<PF48 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::PF48::Start
+      - [-53.52,213.67,2953.80]
+      - [-35.61,213.96,2944.21]
+      - [-22.44,214.37,2959.49]
+      - _Korok::PF48::End
+    _PF48:
+      Start:
+        coord: [-40.00,217.78,2961.41]
+      End:
+        coord: [-16.93,221.58,2975.96]
+    PF49:
+      presets: _Korok<PF49 Lift Rock (Leaves\),korok-rock-under>
+      coord: [1777.18,188.45,-2990.83]
+    PF50:
+      presets: _Korok<PF50 Catch Seed,korok-catch-seed>
+      coord: [1580.84,333.79,-3033.53]
+    PF51:
+      presets: _Korok<PF51 Lift Rock,korok-rock>
+      coord: [-150.91,143.29,-3068.25]
+    PF52:
+      presets: _Korok<PF52 Lily Pads,korok-lily>
+      coord: [1793.12,186.01,-3179.00]
+    PF53:
+      presets: _Korok<PF53 Catch Seed,korok-catch-seed>
+      coord: [1273.70,210.15,-3190.65]
+    PF54:
+      presets: _Korok<PF54 Ascend,korok-ascend>
+      coord: [1235.09,151.70,-3217.13]
+    PF55:
+      presets: _Korok<PF55 Balloon (Stationary\),korok-balloon>
+      coord: [1023.26,122.05,-3228.34]
+    PF56:
+      presets: _Korok<PF56 Acorn Hanging,korok-acorn>
+      coord: [-800.75,199.21,-3257.71]
+    PF57:
+      presets: _Korok<PF57 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::PF57::Start
+      - [1538.76,200.29,3246.13]
+      - [1535.88,202.44,3252.61]
+      - [1531.78,207.23,3262.01]
+      - _Korok::PF57::End
+    _PF57:
+      Start:
+        coord: [1539.24,200.02,3238.76]
+      End:
+        coord: [1531.83,201.75,3263.82]
+    PF58:
+      presets: _Korok<PF58 Lift Rock,korok-rock>
+      coord: [1475.61,191.94,-3263.53]
+    PF59:
+      presets: _Korok<PF59 Block Puzzle,korok-ultrahand>
+      coord: [1327.75,199.00,-3275.25]
+    PF60:
+      presets: _Korok<PF60 Lift Rock,korok-rock>
+      coord: [206.40,165.94,-3312.53]
+    PF61:
+      presets: _Korok<PF61 Block Puzzle,korok-ultrahand>
+      coord: [1691.97,171.50,-3324.43]
+    PF62:
+      presets: _Korok<PF62 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF62::Start
+      - _Korok::PF62::End
+    _PF62:
+      Start:
+        presets: _KorokFriendStart<PF62>
+        coord: [-304.48,130.27,-3292.94]
+      End:
+        presets: _KorokFriendEnd<PF62>
+        coord: [-593.83,244.31,-3335.99]
+    PF63:
+      presets: _Korok<PF63 Lift Rock,korok-rock>
+      coord: [-224.58,177.19,-3340.61]
+    PF64:
+      presets: _Korok<PF64 Offer Banana,korok-offer-banana>
+      coord: [1847.43,164.32,-3342.59]
+    PF65:
+      presets: _Korok<PF65 Balloon (Pinwheel\),korok-balloon>
+      coord: [795.58,186.64,-3345.53]
+    PF66:
+      presets: _Korok<PF66 Light Chase,korok-light-chase>
+      coord: [-414.88,138.15,-3374.29]
+    PF67:
+      presets: _Korok<PF67 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF67::Start
+      - _Korok::PF67::End
+    _PF67:
+      Start:
+        presets: _KorokFriendStart<PF67>
+        coord: [1611.22,166.50,-3490.60]
+      End:
+        presets: _KorokFriendEnd<PF67>
+        coord: [1979.18,155.27,-3390.53]
+    PF68:
+      presets: _Korok<PF68 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF68::Start
+      - _Korok::PF68::End
+    _PF68:
+      Start:
+        presets: _KorokFriendStart<PF68>
+        coord: [221.57,175.50,-3533.80]
+      End:
+        presets: _KorokFriendEnd<PF68>
+        coord: [47.99,130.45,-3393.38]
+    PF69:
+      presets: _Korok<PF69 Lily Pads,korok-lily>
+      coord: [-105.41,109.91,-3439.17]
+    PF70:
+      presets: _Korok<PF70 Lift Rock,korok-rock>
+      coord: [1738.27,155.66,-3468.02]
+    PF71:
+      presets: _Korok<PF71 Confetti,korok-confetti>
+      coord: [953.83,128.24,-3476.41]
+    PF72:
+      presets: _Korok<PF72 Catch Seed,korok-catch-seed>
+      coord: [1372.97,277.51,-3508.73]
+    PF73:
+      presets: _Korok<PF73 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF73::Start
+      - _Korok::PF73::End
+    _PF73:
+      Start:
+        presets: _KorokFriendStart<PF73>
+        coord: [522.00,156.26,-3464.00]
+      End:
+        presets: _KorokFriendEnd<PF73>
+        coord: [517.48,177.02,-3513.77]
+    PF74:
+      presets: _Korok<PF74 Light Chase,korok-light-chase>
+      coord: [1449.48,222.65,-3531.73]
+    PF75:
+      presets: _Korok<PF75 Confetti,korok-confetti>
+      coord: [1793.90,135.03,-3580.35]
+    PF76:
+      presets: _Korok<PF76 Boulder Stand,korok-boulder-stand>
+      coord: [389.64,185.13,-3608.89]
+    PF77:
+      presets: _Korok<PF77 Boulder Stand,korok-boulder-stand>
+      coord: [527.39,176.60,-3665.90]
+    PF78:
+      presets: _Korok<PF78 Lily Pads,korok-lily>
+      coord: [1637.46,284.52,-3675.98]
+    PF79:
+      presets: _Korok<PF79 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::PF79::Start
+      - [821.74,210.85,3732.09]
+      - [804.12,212.74,3727.86]
+      - [800.84,212.31,3708.90]
+      - _Korok::PF79::End
+    _PF79:
+      Start:
+        coord: [812.76,213.38,3717.78]
+      End:
+        coord: [817.50,209.51,3700.65]
+    PF80:
+      presets: _Korok<PF80 Lily Pads,korok-lily>
+      coord: [588.99,140.00,-3740.00]
+    PF81:
+      presets: _Korok<PF81 Light Chase,korok-light-chase>
+      coord: [1610.64,197.33,-3802.17]
+    PF82:
+      presets: _Korok<PF82 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF82::Start
+      - _Korok::PF82::End
+    _PF82:
+      Start:
+        presets: _KorokFriendStart<PF82>
+        coord: [1397.62,107.61,-3642.26]
+      End:
+        presets: _KorokFriendEnd<PF82>
+        coord: [994.71,107.05,-3804.74]
+    PF83:
+      presets: _Korok<PF83 Lift Rock,korok-rock>
+      coord: [1096.00,107.85,-3832.78]
+    PF84:
+      presets: _Korok<PF84 Pull Plug,korok-pull-plug>
+      coord: [101.45,138.23,-3842.43]
+    PF85:
+      presets: _Korok<PF85 Block Puzzle,korok-ultrahand>
+      coord: [573.00,140.30,-3853.00]
+    PF86:
+      presets: _Korok<PF86 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PF86::Start
+      - _Korok::PF86::End
+    _PF86:
+      Start:
+        presets: _KorokFriendStart<PF86>
+        coord: [67.88,111.00,-3759.13]
+      End:
+        presets: _KorokFriendEnd<PF86>
+        coord: [397.65,106.42,-3861.71]
+    PF87:
+      presets: _Korok<PF87 Acorn Hanging,korok-acorn>
+      coord: [272.37,109.52,-3905.60]
+    PF88:
+      presets: _Korok<PF88 Confetti,korok-confetti>
+      coord: [-241.96,111.59,-3919.28]
+    PFS01:
+      presets: _Korok<PFS01 Lift Rock,korok-rock>
+      coord: [126.06,796.91,-2502.47]
+    PFS02:
+      presets: _Korok<PFS02 Lift Rock,korok-rock>
+      coord: [967.08,820.74,-3184.78]
+    PFS03:
+      presets: _Korok<PFS03 Lily Pads,korok-lily>
+      coord: [1329.80,575.76,-3404.35]
+    PS01:
+      presets: _Korok<PS01 Lift Rock,korok-rock>
+      coord: [-1972.18,419.40,3796.18]
+    PS02:
+      presets: _Korok<PS02 Light Chase,korok-light-chase>
+      coord: [-1670.57,344.82,3759.09]
+    PS03:
+      presets: _Korok<PS03 Balloon (Pinwheel\),korok-balloon>
+      coord: [-2359.33,382.48,3678.18]
+    PS04:
+      presets: _Korok<PS04 Block Puzzle,korok-ultrahand>
+      coord: [-1210.00,301.00,3601.00]
+    PS05:
+      presets: _Korok<PS05 Lift Rock,korok-rock>
+      coord: [-1762.55,339.52,3554.08]
+    PS06:
+      presets: _Korok<PS06 Balloon (Pinwheel\),korok-balloon>
+      coord: [-680.63,393.31,3534.88]
+    PS07:
+      presets: _Korok<PS07 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PS07::Start
+      - _Korok::PS07::End
+    _PS07:
+      Start:
+        presets: _KorokFriendStart<PS07>
+        coord: [-1382.98,361.50,3632.45]
+      End:
+        presets: _KorokFriendEnd<PS07>
+        coord: [-1032.69,335.72,3517.76]
+    PS08:
+      presets: _Korok<PS08 Rock Pattern,korok-rock-circle>
+      coord: [-1093.35,413.48,3402.39]
+    PS09:
+      presets: _Korok<PS09 Acorn Tree,korok-acorn>
+      coord: [-873.90,333.16,3313.10]
+    PS10:
+      presets: _Korok<PS10 Target Landing,korok-target>
+      movements:
+      - _Korok::PS10::Start
+      - _Korok::PS10::End
+    _PS10:
+      Start:
+        coord: [-2001.65,490.19,3147.14]
+      End:
+        coord: [-1969.17,459.29,3113.43]
+    PS11:
+      presets: _Korok<PS11 Boulder Stand,korok-boulder-stand>
+      coord: [-1145.96,457.33,3086.25]
+    PS12:
+      presets: _Korok<PS12 Ascend,korok-ascend>
+      coord: [-997.01,307.78,3083.90]
+    PS13:
+      presets: _Korok<PS13 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PS13::Start
+      - _Korok::PS13::End
+    _PS13:
+      Start:
+        presets: _KorokFriendStart<PS13>
+        coord: [-2339.82,509.50,2955.47]
+      End:
+        presets: _KorokFriendEnd<PS13>
+        coord: [-2372.83,547.18,3018.04]
+    PS14:
+      presets: _Korok<PS14 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PS14::Start
+      - _Korok::PS14::End
+    _PS14:
+      Start:
+        presets: _KorokFriendStart<PS14>
+        coord: [-1541.80,344.00,2555.93]
+      End:
+        presets: _KorokFriendEnd<PS14>
+        coord: [-1347.10,309.02,2791.65]
+    PS15:
+      presets: _Korok<PS15 Block Puzzle,korok-ultrahand>
+      coord: [-1052.14,140.67,2617.10]
+    PS16:
+      presets: _Korok<PS16 Rock Pattern,korok-rock-circle>
+      coord: [-2077.61,407.12,2589.77]
+    PS17:
+      presets: _Korok<PS17 Ascend,korok-ascend>
+      coord: [-1720.44,347.54,2556.73]
+    PS18:
+      presets: _Korok<PS18 Lift Rock,korok-rock>
+      coord: [-1185.97,4.87,2481.94]
+    PS19:
+      presets: _Korok<PS19 Offer Ice Fruit,korok-offer>
+      coord: [-1652.96,346.02,2437.38]
+    PS20:
+      presets: _Korok<PS20 Boulder Stand,korok-boulder-stand>
+      coord: [-1461.28,251.26,2365.66]
+    PS21:
+      presets: _Korok<PS21 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::PS21::Start
+      - _Korok::PS21::End
+    _PS21:
+      Start:
+        presets: _KorokFriendStart<PS21>
+        coord: [-2795.50,459.72,2304.90]
+      End:
+        presets: _KorokFriendEnd<PS21>
+        coord: [-2837.95,497.46,2317.45]
+    PS22:
+      presets: _Korok<PS22 Boulder Stand,korok-boulder-stand>
+      coord: [-2268.43,436.57,2283.72]
+    PS23:
+      presets: _Korok<PS23 Acorn Hanging,korok-acorn>
+      coord: [-2739.09,450.44,2267.73]
+    PS24:
+      presets: _Korok<PS24 Lift Rock,korok-rock>
+      coord: [-1810.68,379.30,2198.08]
+    PS25:
+      presets: _Korok<PS25 Balloon (Pinwheel\),korok-balloon>
+      coord: [-2384.71,500.47,2137.02]
+    PS26:
+      presets: _Korok<PS26 Balloon (Pinwheel\),korok-balloon>
+      coord: [-1580.08,70.23,2133.26]
+    PS27:
+      presets: _Korok<PS27 Build Roof,korok-build-roof>
+      coord: [-2207.08,429.57,2091.16]
+    PS28:
+      presets: _Korok<PS28 Acorn Hanging,korok-acorn>
+      coord: [-2074.54,395.47,2077.93]
+    PS29:
+      presets: _Korok<PS29 Block Puzzle,korok-ultrahand>
+      coord: [-2635.19,450.11,2055.72]
+    PS30:
+      presets: _Korok<PS30 Acorn Hanging,korok-acorn>
+      coord: [-2530.60,409.06,1854.96]
+    PSS01:
+      presets: _Korok<PSS01 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::PSS01::Start
+      - [-1713.11,1097.77,-3557.54]
+      - [-1696.60,1093.08,-3552.35]
+      - [-1682.23,1091.94,-3564.65]
+      - _Korok::PSS01::End
+    _PSS01:
+      Start:
+        coord: [-1716.86,1092.73,-3561.22]
+      End:
+        coord: [-1683.55,1091.93,-3571.14]
+    PSS02:
+      presets: _Korok<PSS02 Catch Light,korok-catch-light>
+      coord: [-681.92,1291.82,3534.95]
+    PSS03:
+      presets: _Korok<PSS03 Target Touch,korok-target>
+      coord: [-1662.70,1082.28,3285.30]
+    RP01:
+      presets: _Korok<RP01 Light Chase,korok-light-chase>
+      coord: [-3764.88,375.32,3845.18]
+    RP02:
+      presets: _Korok<RP02 Race,korok-race>
+      movements:
+      - _Korok::RP02::Start
+      - _Korok::RP02::End
+    _RP02:
+      Start:
+        coord: [-3428.24,350.17,3799.82]
+      End:
+        coord: [-3507.85,344.64,3836.26]
+    RP03:
+      presets: _Korok<RP03 Target Landing,korok-target>
+      movements:
+      - _Korok::RP03::Start
+      - _Korok::RP03::End
+    _RP03:
+      Start:
+        coord: [-3992.95,325.28,3836.32]
+      End:
+        coord: [-4176.05,325.76,3816.11]
+    RP04:
+      presets: _Korok<RP04 Balloon (Stationary\),korok-balloon>
+      coord: [-3973.68,333.28,3734.39]
+    RP05:
+      presets: _Korok<RP05 Balloon (Stationary\),korok-balloon>
+      coord: [-3975.35,342.77,3713.96]
+    RP06:
+      presets: _Korok<RP06 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::RP06::Start
+      - _Korok::RP06::End
+    _RP06:
+      Start:
+        presets: _KorokFriendStart<RP06>
+        coord: [-2890.94,352.40,3491.44]
+      End:
+        presets: _KorokFriendEnd<RP06>
+        coord: [-3238.18,348.81,3688.72]
+    RP07:
+      presets: _Korok<RP07 Lift Rock (Ice\),korok-ice>
+      coord: [-4430.51,412.55,3682.64]
+    RP08:
+      presets: _Korok<RP08 Lift Rock (Ice\),korok-ice>
+      coord: [-4004.70,630.48,3622.87]
+    RP09:
+      presets: _Korok<RP09 Confetti,korok-confetti>
+      coord: [-3412.59,542.23,3506.42]
+    RP10:
+      presets: _Korok<RP10 Catch Seed,korok-catch-seed>
+      coord: [-4272.71,498.67,3499.00]
+    RP11:
+      presets: _Korok<RP11 Balloon (Pinwheel\),korok-balloon>
+      coord: [-3466.01,588.49,3475.86]
+    RP12:
+      presets: _Korok<RP12 Block Puzzle,korok-ultrahand>
+      coord: [-4509.21,371.00,3460.85]
+    RP13:
+      presets: _Korok<RP13 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::RP13::Start
+      - _Korok::RP13::End
+    _RP13:
+      Start:
+        presets: _KorokFriendStart<RP13>
+        coord: [-3670.76,429.00,3383.01]
+      End:
+        presets: _KorokFriendEnd<RP13>
+        coord: [-4124.63,328.40,3430.57]
+    RP14:
+      presets: _Korok<RP14 Ascend,korok-ascend>
+      coord: [-3839.74,392.37,3416.90]
+    RP15:
+      presets: _Korok<RP15 Build Roof,korok-build-roof>
+      coord: [-4190.88,348.13,3373.56]
+    RP16:
+      presets: _Korok<RP16 Lift Rock,korok-rock>
+      coord: [-4038.38,370.99,3364.97]
+    RP17:
+      presets: _Korok<RP17 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::RP17::Start
+      - [-3834.66,422.04,-3351.20]
+      - [-3816.69,429.61,-3350.79]
+      - [-3776.79,442.93,-3330.25]
+      - _Korok::RP17::End
+    _RP17:
+      Start:
+        coord: [-3842.34,417.40,-3347.19]
+      End:
+        coord: [-3771.81,446.03,-3342.19]
+    RP18:
+      presets: _Korok<RP18 Lift Rock (Ice\),korok-ice>
+      coord: [-3576.41,493.87,3266.75]
+    RP19:
+      presets: _Korok<RP19 Rock Pattern,korok-rock-circle>
+      coord: [-2603.83,493.75,3236.20]
+    RP20:
+      presets: _Korok<RP20 Ascend,korok-ascend>
+      coord: [-3001.99,680.37,3220.05]
+    RP21:
+      presets: _Korok<RP21 Race,korok-race>
+      movements:
+      - _Korok::RP21::Start
+      - _Korok::RP21::End
+    _RP21:
+      Start:
+        coord: [-4422.64,496.87,3216.01]
+      End:
+        coord: [-4418.91,477.48,3181.17]
+    RP22:
+      presets: _Korok<RP22 Block Puzzle,korok-ultrahand>
+      coord: [-3941.00,432.50,3161.50]
+    RP23:
+      presets: _Korok<RP23 Confetti,korok-confetti>
+      coord: [-4247.32,301.12,3125.40]
+    RP24:
+      presets: _Korok<RP24 Build Roof,korok-build-roof>
+      coord: [-3793.65,352.31,3027.43]
+    RP25:
+      presets: _Korok<RP25 Lift Rock,korok-rock>
+      coord: [-3350.70,621.29,2992.55]
+    RP26:
+      presets: _Korok<RP26 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::RP26::Start
+      - _Korok::RP26::End
+    _RP26:
+      Start:
+        presets: _KorokFriendStart<RP26>
+        coord: [-2834.80,687.50,2841.93]
+      End:
+        presets: _KorokFriendEnd<RP26>
+        coord: [-2795.93,706.56,2877.67]
+    RP27:
+      presets: _Korok<RP27 Rock Pattern,korok-rock-circle>
+      coord: [-3064.01,535.44,2855.69]
+    RP28:
+      presets: _Korok<RP28 Balloon (Pinwheel\),korok-balloon>
+      coord: [-4635.29,348.94,2819.37]
+    RP29:
+      presets: _Korok<RP29 Lift Rock,korok-rock>
+      coord: [-3752.80,242.81,2797.88]
+    RP30:
+      presets: _Korok<RP30 Block Puzzle,korok-ultrahand>
+      coord: [-2477.18,621.32,2748.18]
+    RP31:
+      presets: _Korok<RP31 Lift Rock (Ice\),korok-ice>
+      coord: [-3849.86,135.37,2737.93]
+    RP32:
+      presets: _Korok<RP32 Confetti,korok-confetti>
+      coord: [-3158.28,701.07,2689.44]
+    RP33:
+      presets: _Korok<RP33 Pull Plug,korok-pull-plug>
+      coord: [-4332.40,443.44,2602.31]
+    RP34:
+      presets: _Korok<RP34 Rock Pattern,korok-rock-circle>
+      coord: [-4066.93,124.84,2505.37]
+    RP35:
+      presets: _Korok<RP35 Lift Rock,korok-rock>
+      coord: [-3677.33,426.12,2466.63]
+    RP36:
+      presets: _Korok<RP36 Rock Pattern,korok-rock-circle>
+      coord: [-3162.34,480.27,2465.93]
+    RP37:
+      presets: _Korok<RP37 Race,korok-race>
+      movements:
+      - _Korok::RP37::Start
+      - _Korok::RP37::End
+    _RP37:
+      Start:
+        coord: [-3328.79,508.49,2301.97]
+      End:
+        coord: [-3292.94,511.75,2442.47]
+    RP38:
+      presets: _Korok<RP38 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::RP38::Start
+      - _Korok::RP38::End
+    _RP38:
+      Start:
+        presets: _KorokFriendStart<RP38>
+        coord: [-4263.10,95.00,2176.50]
+      End:
+        presets: _KorokFriendEnd<RP38>
+        coord: [-4116.12,92.23,2416.05]
+    RP39:
+      presets: _Korok<RP39 Block Puzzle,korok-ultrahand>
+      coord: [-3048.50,223.45,2360.00]
+    RP40:
+      presets: _Korok<RP40 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::RP40::Start
+      - [-3796.33,276.27,-2314.93]
+      - [-3789.21,276.10,-2314.91]
+      - [-3790.84,280.15,-2317.44]
+      - _Korok::RP40::End
+    _RP40:
+      Start:
+        coord: [-3796.74,276.37,-2322.58]
+      End:
+        coord: [-3792.59,283.36,-2319.13]
+    RP41:
+      presets: _Korok<RP41 Confetti,korok-confetti>
+      coord: [-3565.22,258.16,2256.53]
+    RP42:
+      presets: _Korok<RP42 Build Roof,korok-build-roof>
+      coord: [-4254.20,123.63,2145.75]
+    RP43:
+      presets: _Korok<RP43 Lift Rock,korok-rock>
+      coord: [-3087.09,226.93,2119.89]
+    RP44:
+      presets: _Korok<RP44 Ascend,korok-ascend>
+      coord: [-3423.70,277.73,2066.99]
+    RP45:
+      presets: _Korok<RP45 Block Puzzle,korok-ultrahand>
+      coord: [-4105.97,295.75,2048.25]
+    RP46:
+      presets: _Korok<RP46 Lift Rock,korok-rock>
+      coord: [-3958.43,313.89,2035.99]
+    RP47:
+      presets: _Korok<RP47 Lift Rock,korok-rock>
+      coord: [-3944.54,315.05,1969.23]
+    RP48:
+      presets: _Korok<RP48 Rock Pattern,korok-rock-circle>
+      coord: [-2800.71,378.21,1947.75]
+    RP49:
+      presets: _Korok<RP49 Confetti,korok-confetti>
+      coord: [-4480.84,270.56,1945.47]
+    RP50:
+      presets: _Korok<RP50 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::RP50::Start
+      - [-4123.89,304.77,-1928.66]
+      - [-4123.65,304.11,-1942.26]
+      - [-4118.23,304.04,-1931.42]
+      - _Korok::RP50::End
+    _RP50:
+      Start:
+        coord: [-4124.04,303.50,-1935.25]
+      End:
+        coord: [-4129.37,304.74,-1939.21]
+    RP51:
+      presets: _Korok<RP51 Lift Rock,korok-rock>
+      coord: [-3613.70,507.69,1880.03]
+    RP52:
+      presets: _Korok<RP52 Repair Roof,korok-ultrahand>
+      coord: [-3779.22,368.39,1865.63]
+    RP53:
+      presets: _Korok<RP53 Lift Rock,korok-rock>
+      coord: [-3634.49,273.06,1808.90]
+    RP54:
+      presets: _Korok<RP54 Ascend,korok-ascend>
+      coord: [-4062.35,261.99,1793.69]
+    RP55:
+      presets: _Korok<RP55 Block Puzzle,korok-ultrahand>
+      coord: [-3877.08,216.98,1762.75]
+    RP56:
+      presets: _Korok<RP56 Balloon (Pinwheel\),korok-balloon>
+      coord: [-3549.15,290.94,1752.22]
+    RP57:
+      presets: _Korok<RP57 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::RP57::Start
+      - [-4229.07,222.42,-1745.24]
+      - [-4227.10,224.09,-1748.56]
+      - [-4223.73,230.70,-1744.50]
+      - _Korok::RP57::End
+    _RP57:
+      Start:
+        coord: [-4227.12,216.64,-1748.25]
+      End:
+        coord: [-4225.31,229.99,-1739.74]
+    RP58:
+      presets: _Korok<RP58 Lift Rock,korok-rock>
+      coord: [-3985.51,285.22,1708.93]
+    RP59:
+      presets: _Korok<RP59 Lift Rock,korok-rock>
+      coord: [-4169.55,215.86,1695.96]
+    RP60:
+      presets: _Korok<RP60 Lift Rock,korok-rock>
+      coord: [-3696.41,208.61,1685.38]
+    RP61:
+      presets: _Korok<RP61 Rock Pattern,korok-rock-circle>
+      coord: [-4012.83,269.54,1636.97]
+    RPS01:
+      presets: _Korok<RPS01 Lift Rock,korok-rock>
+      coord: [-3218.41,1477.80,3376.99]
+    RPS02:
+      presets: _Korok<RPS02 Race,korok-race>
+      movements:
+      - _Korok::RPS02::Start
+      - _Korok::RPS02::End
+    _RPS02:
+      Start:
+        coord: [-3103.90,970.78,3259.92]
+      End:
+        coord: [-2989.52,950.15,3141.73]
+    RPS03:
+      presets: _Korok<RPS03 Target Touch,korok-target>
+      coord: [-3917.26,840.22,2880.21]
+    RPS04:
+      presets: _Korok<RPS04 Target Landing,korok-target>
+      movements:
+      - _Korok::RPS04::Start
+      - _Korok::RPS04::End
+    _RPS04:
+      Start:
+        coord: [-3063.68,798.42,2136.81]
+      End:
+        coord: [-3101.78,755.45,2142.18]
+    RW01:
+      presets: _Korok<RW01 Confetti,korok-confetti>
+      coord: [2011.65,122.03,-1896.03]
+    RW02:
+      presets: _Korok<RW02 Catch Seed,korok-catch-seed>
+      coord: [2052.21,154.94,-2092.37]
+    RW03:
+      presets: _Korok<RW03 Offer Apple,korok-offer-apple>
+      coord: [2724.81,256.00,-2122.34]
+    RW04:
+      presets: _Korok<RW04 Lily Pads,korok-lily>
+      coord: [2141.41,118.94,-2223.38]
+    RW05:
+      presets: _Korok<RW05 Rock Pattern,korok-rock-circle>
+      coord: [2413.45,219.20,-2269.39]
+    RW06:
+      presets: _Korok<RW06 Acorn Log,korok-acorn>
+      coord: [1999.11,116.46,-2281.76]
+    RW07:
+      presets: _Korok<RW07 Balloon (Stationary\),korok-balloon>
+      coord: [2277.72,287.00,-2360.62]
+    RW08:
+      presets: _Korok<RW08 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::RW08::Start
+      - [1899.27,144.79,2411.05]
+      - [1913.13,144.97,2407.45]
+      - [1928.66,143.71,2390.54]
+      - _Korok::RW08::End
+    _RW08:
+      Start:
+        coord: [1885.19,145.43,2418.31]
+      End:
+        coord: [1943.83,144.57,2382.40]
+    RW09:
+      presets: _Korok<RW09 Block Puzzle,korok-ultrahand>
+      coord: [2558.57,360.67,-2484.76]
+    RW10:
+      presets: _Korok<RW10 Lily Pads,korok-lily>
+      coord: [3013.95,234.28,-2537.10]
+    RW11:
+      presets: _Korok<RW11 Pull Plug,korok-pull-plug>
+      coord: [1940.25,131.89,-2564.03]
+    RW12:
+      presets: _Korok<RW12 Offer Apple,korok-offer-apple>
+      coord: [2142.33,365.19,-2603.62]
+    RW13:
+      presets: _Korok<RW13 Acorn Hanging,korok-acorn>
+      coord: [1959.98,356.99,-2627.81]
+    RW14:
+      presets: _Korok<RW14 Balloon (Pinwheel\),korok-balloon>
+      coord: [2282.96,289.25,-2656.87]
+    RW15:
+      presets: _Korok<RW15 Lift Rock,korok-rock>
+      coord: [2043.95,413.25,-2660.84]
+    RW16:
+      presets: _Korok<RW16 Pull Plug,korok-pull-plug>
+      coord: [2877.92,297.77,-2685.26]
+    RW17:
+      presets: _Korok<RW17 Race,korok-race>
+      movements:
+      - _Korok::RW17::Start
+      - _Korok::RW17::End
+    _RW17:
+      Start:
+        coord: [2410.07,363.24,-2671.19]
+      End:
+        coord: [2579.32,365.29,-2729.39]
+    RW18:
+      presets: _Korok<RW18 Confetti,korok-confetti>
+      coord: [1775.27,422.95,-2766.79]
+    RW19:
+      presets: _Korok<RW19 Balloon (Pinwheel\),korok-balloon>
+      coord: [1936.25,494.65,-2777.23]
+    RW20:
+      presets: _Korok<RW20 Confetti,korok-confetti>
+      coord: [2635.05,334.59,-2854.91]
+    RW21:
+      presets: _Korok<RW21 Rock Pattern,korok-rock-circle>
+      coord: [3099.94,290.04,-2951.01]
+    RW22:
+      presets: _Korok<RW22 Confetti,korok-confetti>
+      coord: [2713.26,296.77,-2960.65]
+    RW23:
+      presets: _Korok<RW23 Light Chase,korok-light-chase>
+      coord: [2294.31,289.01,-3020.36]
+    RW24:
+      presets: _Korok<RW24 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::RW24::Start
+      - _Korok::RW24::End
+    _RW24:
+      Start:
+        presets: _KorokFriendStart<RW24>
+        coord: [2458.03,325.50,-2911.18]
+      End:
+        presets: _KorokFriendEnd<RW24>
+        coord: [2919.29,252.44,-3083.12]
+    RW25:
+      presets: _Korok<RW25 Lift Rock,korok-rock>
+      coord: [3665.76,311.54,-3277.42]
+    RW26:
+      presets: _Korok<RW26 Target Landing,korok-target>
+      movements:
+      - _Korok::RW26::Start
+      - _Korok::RW26::End
+    _RW26:
+      Start:
+        coord: [2549.02,197.44,-3208.38]
+      End:
+        coord: [2540.08,170.88,-3291.42]
+    RW27:
+      presets: _Korok<RW27 Acorn Tree,korok-acorn>
+      coord: [3495.78,332.65,-3311.49]
+    RW28:
+      presets: _Korok<RW28 Confetti,korok-confetti>
+      coord: [3431.59,128.04,-3325.06]
+    RW29:
+      presets: _Korok<RW29 Race,korok-race>
+      movements:
+      - _Korok::RW29::Start
+      - _Korok::RW29::End
+    _RW29:
+      Start:
+        coord: [3081.93,154.20,-3385.91]
+      End:
+        coord: [3064.48,126.04,-3395.47]
+    RW30:
+      presets: _Korok<RW30 Balloon (Pinwheel\),korok-balloon>
+      coord: [4491.06,110.98,-3396.37]
+    RW31:
+      presets: _Korok<RW31 Rock Pattern,korok-rock-circle>
+      coord: [2425.14,185.15,-3403.40]
+    RW32:
+      presets: _Korok<RW32 Race,korok-race>
+      movements:
+      - _Korok::RW32::Start
+      - _Korok::RW32::End
+    _RW32:
+      Start:
+        coord: [2199.05,188.51,-3492.52]
+      End:
+        coord: [2363.39,194.47,-3437.92]
+    RW33:
+      presets: _Korok<RW33 Confetti,korok-confetti>
+      coord: [4598.10,127.39,-3561.75]
+    RW34:
+      presets: _Korok<RW34 Balloon (Pinwheel\),korok-balloon>
+      coord: [2563.28,346.13,-3598.71]
+    RW35:
+      presets: _Korok<RW35 Confetti,korok-confetti>
+      coord: [3796.50,125.01,-3614.86]
+    RW36:
+      presets: _Korok<RW36 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::RW36::Start
+      - _Korok::RW36::End
+    _RW36:
+      Start:
+        presets: _KorokFriendStart<RW36>
+        coord: [3688.03,350.50,-3314.68]
+      End:
+        presets: _KorokFriendEnd<RW36>
+        coord: [4496.81,106.26,-3616.38]
+    RW37:
+      presets: _Korok<RW37 Lift Rock,korok-rock>
+      coord: [4536.01,150.64,-3663.11]
+    RW38:
+      presets: _Korok<RW38 Light Chase,korok-light-chase>
+      coord: [4897.25,107.90,-3692.97]
+    RW39:
+      presets: _Korok<RW39 Lift Rock (Leaves\),korok-rock-under>
+      coord: [3118.97,106.72,-3719.79]
+    RW40:
+      presets: _Korok<RW40 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::RW40::Start
+      - _Korok::RW40::End
+    _RW40:
+      Start:
+        presets: _KorokFriendStart<RW40>
+        coord: [3544.68,106.16,-3456.24]
+      End:
+        presets: _KorokFriendEnd<RW40>
+        coord: [3599.66,106.79,-3780.41]
+    RW41:
+      presets: _Korok<RW41 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::RW41::Start
+      - _Korok::RW41::End
+    _RW41:
+      Start:
+        presets: _KorokFriendStart<RW41>
+        coord: [2245.49,135.00,-3469.26]
+      End:
+        presets: _KorokFriendEnd<RW41>
+        coord: [2226.81,107.45,-3834.39]
+    RW42:
+      presets: _Korok<RW42 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::RW42::Start
+      - _Korok::RW42::End
+    _RW42:
+      Start:
+        presets: _KorokFriendStart<RW42>
+        coord: [2828.52,106.50,-3886.45]
+      End:
+        presets: _KorokFriendEnd<RW42>
+        coord: [2427.82,106.23,-3944.69]
+    RW43:
+      presets: _Korok<RW43 Race,korok-race>
+      movements:
+      - _Korok::RW43::Start
+      - _Korok::RW43::End
+    _RW43:
+      Start:
+        coord: [1972.99,108.61,-3922.26]
+      End:
+        coord: [2011.18,110.53,-3957.02]
+    RWS01:
+      presets: _Korok<RWS01 Lift Rock,korok-rock>
+      coord: [2719.47,1328.37,-2739.68]
+    RWS02:
+      presets: _Korok<RWS02 Target Touch,korok-target>
+      coord: [2932.88,1363.61,-2991.81]
+    SS01:
+      presets: _Korok<SS01 Lift Rock,korok-rock>
+      coord: [966.93,115.90,1027.06]
+    SS02:
+      presets: _Korok<SS02 Balloon (Stationary\),korok-balloon>
+      coord: [1107.17,115.76,858.40]
+    SS03:
+      presets: _Korok<SS03 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::SS03::Start
+      - [839.56,229.90,-721.41]
+      - [836.85,231.99,-736.75]
+      - [837.28,229.18,-753.97]
+      - _Korok::SS03::End
+    _SS03:
+      Start:
+        coord: [841.44,233.70,-693.83]
+      End:
+        coord: [841.31,223.05,-787.91]
+    SS04:
+      presets: _Korok<SS04 Light Chase,korok-light-chase>
+      coord: [617.42,183.25,754.28]
+    SS05:
+      presets: _Korok<SS05 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::SS05::Start
+      - [960.80,194.51,-674.41]
+      - [965.82,194.18,-660.56]
+      - [955.97,198.46,-652.75]
+      - _Korok::SS05::End
+    _SS05:
+      Start:
+        coord: [974.47,189.49,-673.95]
+      End:
+        coord: [951.83,197.58,-636.01]
+    SS06:
+      presets: _Korok<SS06 Catch Seed,korok-catch-seed>
+      coord: [691.29,167.03,624.99]
+    SS07:
+      presets: _Korok<SS07 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS07::Start
+      - _Korok::SS07::End
+    _SS07:
+      Start:
+        presets: _KorokFriendStart<SS07>
+        coord: [428.00,132.50,501.00]
+      End:
+        presets: _KorokFriendEnd<SS07>
+        coord: [432.00,115.27,596.71]
+    SS08:
+      presets: _Korok<SS08 Lily Pads,korok-lily>
+      coord: [541.93,119.00,510.34]
+    SS09:
+      presets: _Korok<SS09 Acorn Hanging,korok-acorn>
+      coord: [1482.68,116.75,443.37]
+    SS10:
+      presets: _Korok<SS10 Ascend,korok-ascend>
+      coord: [919.22,195.13,410.38]
+    SS11:
+      presets: _Korok<SS11 Lift Rock (Leaves\),korok-rock-under>
+      coord: [1182.32,263.40,379.50]
+    SS12:
+      presets: _Korok<SS12 Balloon (Pinwheel\),korok-balloon>
+      coord: [1514.56,141.14,292.42]
+    SS13:
+      presets: _Korok<SS13 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS13::Start
+      - _Korok::SS13::End
+    _SS13:
+      Start:
+        presets: _KorokFriendStart<SS13>
+        coord: [1537.10,115.50,511.50]
+      End:
+        presets: _KorokFriendEnd<SS13>
+        coord: [1686.10,121.50,255.55]
+    SS14:
+      presets: _Korok<SS14 Catch Seed,korok-catch-seed>
+      coord: [1118.14,182.96,229.31]
+    SS15:
+      presets: _Korok<SS15 Lift Rock (Leaves\),korok-rock-under>
+      coord: [1396.74,132.18,127.86]
+    SS16:
+      presets: _Korok<SS16 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS16::Start
+      - _Korok::SS16::End
+    _SS16:
+      Start:
+        presets: _KorokFriendStart<SS16>
+        coord: [1502.18,119.50,-334.47]
+      End:
+        presets: _KorokFriendEnd<SS16>
+        coord: [1701.22,116.27,9.74]
+    SS17:
+      presets: _Korok<SS17 Race,korok-race>
+      movements:
+      - _Korok::SS17::Start
+      - _Korok::SS17::End
+    _SS17:
+      Start:
+        coord: [808.58,116.29,-27.23]
+      End:
+        coord: [838.28,121.05,-30.17]
+    SS18:
+      presets: _Korok<SS18 Lift Rock,korok-rock>
+      coord: [1892.36,114.77,-151.01]
+    SS19:
+      presets: _Korok<SS19 Lily Pads,korok-lily>
+      coord: [1308.46,119.00,-177.91]
+    SS20:
+      presets: _Korok<SS20 Confetti,korok-confetti>
+      coord: [821.20,137.96,-330.41]
+    SS21:
+      presets: _Korok<SS21 Rock Pattern,korok-rock-circle>
+      coord: [928.69,145.52,-365.54]
+    SS22:
+      presets: _Korok<SS22 Acorn Hanging,korok-acorn>
+      coord: [2638.00,264.89,-368.31]
+    SS23:
+      presets: _Korok<SS23 Balloon (Stationary\),korok-balloon>
+      coord: [1981.63,175.61,-448.95]
+    SS24:
+      presets: _Korok<SS24 Lift Rock,korok-rock>
+      coord: [1824.72,118.19,-459.50]
+    SS25:
+      presets: _Korok<SS25 Catch Seed,korok-catch-seed>
+      coord: [1441.56,120.70,-537.19]
+    SS26:
+      presets: _Korok<SS26 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS26::Start
+      - _Korok::SS26::End
+    _SS26:
+      Start:
+        presets: _KorokFriendStart<SS26>
+        coord: [795.00,116.00,-507.90]
+      End:
+        presets: _KorokFriendEnd<SS26>
+        coord: [889.20,115.21,-556.10]
+    SS27:
+      presets: _Korok<SS27 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS27::Start
+      - _Korok::SS27::End
+    _SS27:
+      Start:
+        presets: _KorokFriendStart<SS27>
+        coord: [1872.51,344.07,-813.88]
+      End:
+        presets: _KorokFriendEnd<SS27>
+        coord: [2174.65,317.02,-567.56]
+    SS28:
+      presets: _Korok<SS28 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS28::Start
+      - _Korok::SS28::End
+    _SS28:
+      Start:
+        presets: _KorokFriendStart<SS28>
+        coord: [2691.30,217.05,-542.07]
+      End:
+        presets: _KorokFriendEnd<SS28>
+        coord: [2760.14,238.67,-582.83]
+    SS29:
+      presets: _Korok<SS29 Lift Rock,korok-rock>
+      coord: [2546.82,225.66,-584.69]
+    SS30:
+      presets: _Korok<SS30 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS30::Start
+      - _Korok::SS30::End
+    _SS30:
+      Start:
+        presets: _KorokFriendStart<SS30>
+        coord: [960.98,137.07,-201.78]
+      End:
+        presets: _KorokFriendEnd<SS30>
+        coord: [1195.87,125.62,-649.25]
+    SS31:
+      presets: _Korok<SS31 Offer Apple,korok-offer-apple>
+      coord: [2239.74,338.14,-726.32]
+    SS32:
+      presets: _Korok<SS32 Acorn Hanging,korok-acorn>
+      coord: [1115.50,172.00,-731.75]
+    SS33:
+      presets: _Korok<SS33 Lift Rock,korok-rock>
+      coord: [1626.48,145.24,-781.15]
+    SS34:
+      presets: _Korok<SS34 Rock Pattern,korok-rock-circle>
+      coord: [3010.54,251.56,-785.91]
+    SS35:
+      presets: _Korok<SS35 Lift Rock,korok-rock>
+      coord: [1282.30,182.90,-834.46]
+    SS36:
+      presets: _Korok<SS36 Acorn Hanging,korok-acorn>
+      coord: [1791.37,223.62,-852.94]
+    SS37:
+      presets: _Korok<SS37 Boulder Stand,korok-boulder-stand>
+      coord: [2495.43,308.79,-892.10]
+    SS38:
+      presets: _Korok<SS38 Lift Rock,korok-rock>
+      coord: [1694.60,416.18,-929.15]
+    SS39:
+      presets: _Korok<SS39 Pull Plug,korok-pull-plug>
+      coord: [959.05,116.30,-943.80]
+    SS40:
+      presets: _Korok<SS40 Acorn Hanging,korok-acorn>
+      coord: [1997.13,281.93,-958.93]
+    SS41:
+      presets: _Korok<SS41 Confetti,korok-confetti>
+      coord: [1757.60,247.54,-984.19]
+    SS42:
+      presets: _Korok<SS42 Light Chase,korok-light-chase>
+      coord: [1776.46,225.50,-984.36]
+    SS43:
+      presets: _Korok<SS43 Rock Pattern,korok-rock-circle>
+      coord: [2162.38,460.49,-1035.90]
+    SS44:
+      presets: _Korok<SS44 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::SS44::Start
+      - [1254.55,256.94,1017.26]
+      - [1233.12,246.09,1022.94]
+      - [1238.94,246.11,1031.07]
+      - _Korok::SS44::End
+    _SS44:
+      Start:
+        coord: [1259.77,258.30,1006.09]
+      End:
+        coord: [1246.37,250.52,1033.06]
+    SS45:
+      presets: _Korok<SS45 Catch Seed,korok-catch-seed>
+      coord: [1574.92,259.79,-1044.85]
+    SS46:
+      presets: _Korok<SS46 Acorn Hanging,korok-acorn>
+      coord: [2545.85,217.10,-1077.35]
+    SS47:
+      presets: _Korok<SS47 Lift Rock,korok-rock>
+      coord: [2833.97,207.56,-1118.86]
+    SS48:
+      presets: _Korok<SS48 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::SS48::Start
+      - [2774.26,277.80,1214.41]
+      - [2802.64,283.07,1200.33]
+      - [2825.72,294.14,1204.33]
+      - [2830.66,289.34,1194.95]
+      - [2830.18,280.76,1185.39]
+      - [2814.19,250.84,1184.60]
+      - [2765.16,253.08,1174.94]
+      - [2736.64,225.20,1175.77]
+      - _Korok::SS48::End
+    _SS48:
+      Start:
+        coord: [2766.35,272.34,1217.46]
+      End:
+        coord: [2706.13,202.36,1163.42]
+    SS49:
+      presets: _Korok<SS49 Lift Rock,korok-rock>
+      coord: [2029.73,265.68,-1166.69]
+    SS50:
+      presets: _Korok<SS50 Lift Rock,korok-rock>
+      coord: [1537.07,167.65,-1301.75]
+    SS51:
+      presets: _Korok<SS51 Acorn Tree,korok-acorn>
+      coord: [1291.45,269.65,-1330.91]
+    SS52:
+      presets: _Korok<SS52 Balloon (Stationary\),korok-balloon>
+      coord: [2300.22,224.66,-1357.35]
+    SS53:
+      presets: _Korok<SS53 Light Chase,korok-light-chase>
+      coord: [2200.95,161.77,-1373.50]
+    SS54:
+      presets: _Korok<SS54 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::SS54::Start
+      - [1609.03,119.70,1348.01]
+      - [1600.39,116.03,1355.77]
+      - [1597.56,121.61,1375.63]
+      - _Korok::SS54::End
+    _SS54:
+      Start:
+        coord: [1626.41,117.39,1359.99]
+      End:
+        coord: [1598.38,131.17,1392.76]
+    SS55:
+      presets: _Korok<SS55 Lift Rock,korok-rock>
+      coord: [1925.51,187.32,-1489.51]
+    SS56:
+      presets: _Korok<SS56 Boulder Stand,korok-boulder-stand>
+      coord: [2294.67,174.77,-1511.00]
+    SS57:
+      presets: _Korok<SS57 Lift Rock (Leaves\),korok-rock-under>
+      coord: [1786.58,116.21,-1551.79]
+    SS58:
+      presets: _Korok<SS58 Ascend,korok-ascend>
+      coord: [2510.34,122.89,-1572.89]
+    SS59:
+      presets: _Korok<SS59 Catch Seed,korok-catch-seed>
+      coord: [1373.47,337.41,-1679.80]
+    SS60:
+      presets: _Korok<SS60 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS60::Start
+      - _Korok::SS60::End
+    _SS60:
+      Start:
+        presets: _KorokFriendStart<SS60>
+        coord: [1767.23,120.76,-1864.98]
+      End:
+        presets: _KorokFriendEnd<SS60>
+        coord: [2190.59,129.22,-1701.39]
+    SS61:
+      presets: _Korok<SS61 Balloon (Stationary\),korok-balloon>
+      coord: [1153.93,263.88,-1703.94]
+    SS62:
+      presets: _Korok<SS62 Lift Rock,korok-rock>
+      coord: [2325.78,132.95,-1828.58]
+    SS63:
+      presets: _Korok<SS63 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS63::Start
+      - _Korok::SS63::End
+    _SS63:
+      Start:
+        presets: _KorokFriendStart<SS63>
+        coord: [1169.40,115.50,-1883.00]
+      End:
+        presets: _KorokFriendEnd<SS63>
+        coord: [1196.10,116.67,-1842.76]
+    SS64:
+      presets: _Korok<SS64 Balloon (Pinwheel\),korok-balloon>
+      coord: [1521.52,396.66,-1844.95]
+    SS65:
+      presets: _Korok<SS65 Confetti,korok-confetti>
+      coord: [2397.28,129.00,-1846.62]
+    SS66:
+      presets: _Korok<SS66 Block Puzzle,korok-ultrahand>
+      coord: [1241.12,446.07,-1850.14]
+    SS67:
+      presets: _Korok<SS67 Balloon (Pinwheel\),korok-balloon>
+      coord: [1251.62,493.69,-1856.49]
+    SS68:
+      presets: _Korok<SS68 Pull Plug,korok-pull-plug>
+      coord: [1651.85,115.60,-1907.84]
+    SS69:
+      presets: _Korok<SS69 Pull Plug,korok-pull-plug>
+      coord: [1326.12,292.47,-1962.65]
+    SS70:
+      presets: _Korok<SS70 Target Landing,korok-target>
+      movements:
+      - _Korok::SS70::Start
+      - _Korok::SS70::End
+    _SS70:
+      Start:
+        coord: [1243.54,541.58,-1941.41]
+      End:
+        coord: [1279.87,526.11,-1962.67]
+    SS71:
+      presets: _Korok<SS71 Confetti,korok-confetti>
+      coord: [1367.59,293.86,-2272.79]
+    SS72:
+      presets: _Korok<SS72 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::SS72::Start
+      - _Korok::SS72::End
+    _SS72:
+      Start:
+        presets: _KorokFriendStart<SS72>
+        coord: [770.53,241.50,-2138.18]
+      End:
+        presets: _KorokFriendEnd<SS72>
+        coord: [1149.79,315.61,-2282.46]
+    SSS01:
+      presets: _Korok<SSS01 Catch Light,korok-catch-light>
+      coord: [1776.32,1071.93,-938.91]
+    SSS02:
+      presets: _Korok<SSS02 Rock Pattern,korok-rock-circle>
+      coord: [2439.93,1549.50,-1721.69]
+    SSS03:
+      presets: _Korok<SSS03 Lift Rock,korok-rock>
+      coord: [2344.92,1991.43,-1752.77]
+    SSS04:
+      presets: _Korok<SSS04 Race,korok-race>
+      movements:
+      - _Korok::SSS04::Start
+      - _Korok::SSS04::End
+    _SSS04:
+      Start:
+        coord: [2409.12,1675.16,-1821.48]
+      End:
+        coord: [2430.36,1622.59,-1783.23]
+    SSS05:
+      presets: _Korok<SSS05 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::SSS05::Start
+      - [2334.05,1796.78,1836.55]
+      - [2327.47,1796.87,1844.85]
+      - [2330.76,1793.42,1859.32]
+      - [2338.50,1796.48,1859.67]
+      - [2344.87,1801.31,1855.94]
+      - [2349.30,1807.26,1849.48]
+      - [2348.99,1810.89,1841.39]
+      - [2341.00,1816.84,1831.24]
+      - _Korok::SSS05::End
+    _SSS05:
+      Start:
+        coord: [2334.86,1791.03,1845.45]
+      End:
+        coord: [2332.18,1821.92,1829.56]
+    SSS06:
+      presets: _Korok<SSS06 Rock Pattern,korok-rock-circle>
+      coord: [1677.28,798.66,-1897.96]
+    SSS07:
+      presets: _Korok<SSS07 Target Landing,korok-target>
+      movements:
+      - _Korok::SSS07::Start
+      - _Korok::SSS07::End
+    _SSS07:
+      Start:
+        coord: [1300.12,733.69,-1977.47]
+      End:
+        coord: [1336.72,700.42,-2061.90]
+    TR01:
+      presets: _Korok<TR01 Confetti,korok-confetti>
+      coord: [1400.26,237.92,3782.41]
+    TR02:
+      presets: _Korok<TR02 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::TR02::Start
+      - _Korok::TR02::End
+    _TR02:
+      Start:
+        presets: _KorokFriendStart<TR02>
+        coord: [1025.00,216.50,3671.00]
+      End:
+        presets: _KorokFriendEnd<TR02>
+        coord: [549.76,195.49,3690.18]
+    TR03:
+      presets: _Korok<TR03 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::TR03::Start
+      - _Korok::TR03::End
+    _TR03:
+      Start:
+        presets: _KorokFriendStart<TR03>
+        coord: [514.22,288.50,3396.60]
+      End:
+        presets: _KorokFriendEnd<TR03>
+        coord: [55.76,180.35,3554.23]
+    TR04:
+      presets: _Korok<TR04 Lift Rock,korok-rock>
+      coord: [859.09,315.15,3355.53]
+    TR05:
+      presets: _Korok<TR05 Lift Rock,korok-rock>
+      coord: [127.90,286.82,3151.01]
+    TR06:
+      presets: _Korok<TR06 Target Landing,korok-target>
+      movements:
+      - _Korok::TR06::Start
+      - _Korok::TR06::End
+    _TR06:
+      Start:
+        coord: [60.64,295.65,3113.63]
+      End:
+        coord: [52.11,281.83,3147.03]
+    TR07:
+      presets: _Korok<TR07 Rock Pattern,korok-rock-circle>
+      coord: [-476.68,225.30,3133.07]
+    TR08:
+      presets: _Korok<TR08 Block Puzzle,korok-ultrahand>
+      coord: [276.39,287.66,3119.60]
+    TR09:
+      presets: _Korok<TR09 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::TR09::Start
+      - _Korok::TR09::End
+    _TR09:
+      Start:
+        presets: _KorokFriendStart<TR09>
+        coord: [-322.37,205.52,3161.93]
+      End:
+        presets: _KorokFriendEnd<TR09>
+        coord: [18.89,273.60,3099.23]
+    TR10:
+      presets: _Korok<TR10 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::TR10::Start
+      - _Korok::TR10::End
+    _TR10:
+      Start:
+        presets: _KorokFriendStart<TR10>
+        coord: [489.00,280.85,3057.50]
+      End:
+        presets: _KorokFriendEnd<TR10>
+        coord: [594.22,293.83,3043.84]
+    TR11:
+      presets: _Korok<TR11 Lift Rock,korok-rock>
+      coord: [171.66,282.04,3036.58]
+    TR12:
+      presets: _Korok<TR12 Lift Rock,korok-rock>
+      coord: [785.73,387.74,2953.05]
+    TR13:
+      presets: _Korok<TR13 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::TR13::Start
+      - _Korok::TR13::End
+    _TR13:
+      Start:
+        presets: _KorokFriendStart<TR13>
+        coord: [1250.28,527.50,3002.60]
+      End:
+        presets: _KorokFriendEnd<TR13>
+        coord: [772.68,321.01,2857.31]
+    TR14:
+      presets: _Korok<TR14 Pull Plug,korok-pull-plug>
+      coord: [-579.22,492.36,2603.12]
+    TR15:
+      presets: _Korok<TR15 Confetti,korok-confetti>
+      coord: [-332.63,305.48,1747.45]
+    TR16:
+      presets: _Korok<TR16 Lily Pads,korok-lily>
+      coord: [-39.36,234.86,1690.86]
+    TR17:
+      presets: _Korok<TR17 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::TR17::Start
+      - _Korok::TR17::End
+    _TR17:
+      Start:
+        presets: _KorokFriendStart<TR17>
+        coord: [-1433.48,299.00,1478.95]
+      End:
+        presets: _KorokFriendEnd<TR17>
+        coord: [-768.48,241.68,1413.51]
+    TR18:
+      presets: _Korok<TR18 Acorn Hanging,korok-acorn>
+      coord: [656.79,144.95,1371.21]
+    TR19:
+      presets: _Korok<TR19 Acorn Tree,korok-acorn>
+      coord: [-665.90,179.47,1190.94]
+    TR20:
+      presets: _Korok<TR20 Acorn Hanging,korok-acorn>
+      coord: [399.00,115.27,1174.28]
+    TR21:
+      presets: _Korok<TR21 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::TR21::Start
+      - _Korok::TR21::End
+    _TR21:
+      Start:
+        presets: _KorokFriendStart<TR21>
+        coord: [543.20,122.48,1098.43]
+      End:
+        presets: _KorokFriendEnd<TR21>
+        coord: [631.82,115.50,1167.14]
+    TRS01:
+      presets: _Korok<TRS01 Target Touch,korok-target>
+      coord: [524.49,1967.67,2748.37]
+    TRS02:
+      presets: _Korok<TRS02 Catch Light,korok-catch-light>
+      coord: [285.12,858.57,1960.40]
+    UM01:
+      presets: _Korok<UM01 Balloon (Pinwheel\),korok-balloon>
+      coord: [4793.51,247.08,3757.19]
+    UM02:
+      presets: _Korok<UM02 Balloon (Pinwheel\),korok-balloon>
+      coord: [3453.03,315.90,3580.59]
+    UM03:
+      presets: _Korok<UM03 Target Landing,korok-target>
+      movements:
+      - _Korok::UM03::Start
+      - _Korok::UM03::End
+    _UM03:
+      Start:
+        coord: [3152.96,241.97,3430.86]
+      End:
+        coord: [3186.20,196.22,3458.82]
+    UM04:
+      presets: _Korok<UM04 Lift Rock,korok-rock>
+      coord: [3267.37,139.69,3396.78]
+    UM05:
+      presets: _Korok<UM05 Boulder Stand,korok-boulder-stand>
+      coord: [3772.29,281.16,3377.22]
+    UM06:
+      presets: _Korok<UM06 Acorn Hanging,korok-acorn>
+      coord: [4117.80,308.58,3286.25]
+    UM07:
+      presets: _Korok<UM07 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UM07::Start
+      - _Korok::UM07::End
+    _UM07:
+      Start:
+        presets: _KorokFriendStart<UM07>
+        coord: [4282.00,277.50,3270.50]
+      End:
+        presets: _KorokFriendEnd<UM07>
+        coord: [4417.28,311.77,3264.65]
+    UM08:
+      presets: _Korok<UM08 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::UM08::Start
+      - [4438.77,352.53,-3194.61]
+      - [4424.13,352.73,-3188.46]
+      - [4432.80,352.29,-3179.92]
+      - _Korok::UM08::End
+    _UM08:
+      Start:
+        coord: [4435.77,355.38,-3187.56]
+      End:
+        coord: [4435.77,355.38,-3187.56]
+    UM09:
+      presets: _Korok<UM09 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UM09::Start
+      - _Korok::UM09::End
+    _UM09:
+      Start:
+        presets: _KorokFriendStart<UM09>
+        coord: [3965.74,284.50,3097.01]
+      End:
+        presets: _KorokFriendEnd<UM09>
+        coord: [3446.36,159.80,3173.07]
+    UM10:
+      presets: _Korok<UM10 Lift Rock,korok-rock>
+      coord: [4157.26,355.83,3167.72]
+    UM11:
+      presets: _Korok<UM11 Confetti,korok-confetti>
+      coord: [4542.98,378.64,3162.14]
+    UM12:
+      presets: _Korok<UM12 Offer Banana,korok-offer-banana>
+      coord: [4492.40,352.24,3147.97]
+    UM13:
+      presets: _Korok<UM13 Block Puzzle,korok-ultrahand>
+      coord: [3151.26,252.31,3092.48]
+    UM14:
+      presets: _Korok<UM14 Offer Apple,korok-offer-apple>
+      coord: [3350.31,164.96,3074.14]
+    UM15:
+      presets: _Korok<UM15 Target Landing,korok-target>
+      movements:
+      - _Korok::UM15::Start
+      - _Korok::UM15::End
+    _UM15:
+      Start:
+        coord: [3575.36,215.10,3046.11]
+      End:
+        coord: [3544.47,187.87,3023.96]
+    UM16:
+      presets: _Korok<UM16 Lily Pads,korok-lily>
+      coord: [4276.99,255.71,2946.72]
+    UM17:
+      presets: _Korok<UM17 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UM17::Start
+      - _Korok::UM17::End
+    _UM17:
+      Start:
+        presets: _KorokFriendStart<UM17>
+        coord: [4353.20,184.06,2537.93]
+      End:
+        presets: _KorokFriendEnd<UM17>
+        coord: [4627.84,108.14,2861.12]
+    UM18:
+      presets: _Korok<UM18 Lift Rock (Leaves\),korok-rock-under>
+      coord: [4270.89,253.63,2826.92]
+    UM19:
+      presets: _Korok<UM19 Block Puzzle,korok-ultrahand>
+      coord: [4393.71,228.23,2721.31]
+    UM20:
+      presets: _Korok<UM20 Light Chase,korok-light-chase>
+      coord: [3767.93,124.79,2690.37]
+    UM21:
+      presets: _Korok<UM21 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UM21::Start
+      - _Korok::UM21::End
+    _UM21:
+      Start:
+        presets: _KorokFriendStart<UM21>
+        coord: [4202.73,233.18,2739.48]
+      End:
+        presets: _KorokFriendEnd<UM21>
+        coord: [3854.73,155.04,2685.24]
+    UM22:
+      presets: _Korok<UM22 Block Puzzle,korok-ultrahand>
+      coord: [3539.20,190.48,2636.64]
+    UM23:
+      presets: _Korok<UM23 Confetti,korok-confetti>
+      coord: [4314.05,187.65,2518.41]
+    UM24:
+      presets: _Korok<UM24 Lift Rock (Leaves\),korok-rock-under>
+      coord: [4072.93,179.39,2452.56]
+    UM25:
+      presets: _Korok<UM25 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UM25::Start
+      - _Korok::UM25::End
+    _UM25:
+      Start:
+        presets: _KorokFriendStart<UM25>
+        coord: [3747.84,199.50,2307.50]
+      End:
+        presets: _KorokFriendEnd<UM25>
+        coord: [4280.26,125.88,2338.83]
+    UM26:
+      presets: _Korok<UM26 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UM26::Start
+      - _Korok::UM26::End
+    _UM26:
+      Start:
+        presets: _KorokFriendStart<UM26>
+        coord: [3088.60,302.00,1757.78]
+      End:
+        presets: _KorokFriendEnd<UM26>
+        coord: [3223.39,233.82,2169.83]
+    UM27:
+      presets: _Korok<UM27 Confetti,korok-confetti>
+      coord: [3326.53,243.59,2169.23]
+    UM28:
+      presets: _Korok<UM28 Lift Rock,korok-rock>
+      coord: [4527.52,105.72,2046.60]
+    UM29:
+      presets: _Korok<UM29 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UM29::Start
+      - _Korok::UM29::End
+    _UM29:
+      Start:
+        presets: _KorokFriendStart<UM29>
+        coord: [4290.57,258.50,1610.80]
+      End:
+        presets: _KorokFriendEnd<UM29>
+        coord: [4747.62,106.20,1986.34]
+    UM30:
+      presets: _Korok<UM30 Lift Rock (Leaves\),korok-rock-under>
+      coord: [4598.68,114.95,1856.99]
+    UM31:
+      presets: _Korok<UM31 Lift Rock,korok-rock>
+      coord: [3648.95,217.83,1797.53]
+    UM32:
+      presets: _Korok<UM32 Lift Rock,korok-rock>
+      coord: [3231.98,332.33,1787.29]
+    UM33:
+      presets: _Korok<UM33 Lift Rock,korok-rock>
+      coord: [4021.61,242.62,1621.95]
+    UM34:
+      presets: _Korok<UM34 Ring Bell,korok-ring-bell>
+      coord: [3965.13,241.27,1611.09]
+    UM35:
+      presets: _Korok<UM35 Confetti,korok-confetti>
+      coord: [3299.30,543.31,1510.84]
+    UM36:
+      presets: _Korok<UM36 Repair Roof,korok-ultrahand>
+      coord: [4133.55,271.88,1494.92]
+    UM37:
+      presets: _Korok<UM37 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::UM37::Start
+      - [3676.33,200.33,-1455.31]
+      - [3675.21,197.37,-1440.25]
+      - [3656.17,197.17,-1448.57]
+      - _Korok::UM37::End
+    _UM37:
+      Start:
+        coord: [3670.08,201.74,-1467.89]
+      End:
+        coord: [3644.92,201.68,-1458.49]
+    UM38:
+      presets: _Korok<UM38 Lift Rock,korok-rock>
+      coord: [3273.64,390.99,1397.95]
+    UM39:
+      presets: _Korok<UM39 Light Chase,korok-light-chase>
+      coord: [4106.03,271.88,1376.55]
+    UM40:
+      presets: _Korok<UM40 Block Puzzle,korok-ultrahand>
+      coord: [3358.11,398.13,1300.16]
+    UM41:
+      presets: _Korok<UM41 Light Chase,korok-light-chase>
+      coord: [3111.80,425.29,1298.45]
+    UM42:
+      presets: _Korok<UM42 Confetti,korok-confetti>
+      coord: [4045.49,323.86,1285.47]
+    UMS01:
+      presets: _Korok<UMS01 Catch Light,korok-catch-light>
+      coord: [4795.92,1291.13,3755.85]
+    UMS02:
+      presets: _Korok<UMS02 Target Landing,korok-target>
+      movements:
+      - _Korok::UMS02::Start
+      - _Korok::UMS02::End
+    _UMS02:
+      Start:
+        coord: [4613.21,1404.40,2283.76]
+      End:
+        coord: [4653.96,1344.99,2137.07]
+    UMS03:
+      presets: _Korok<UMS03 Catch Light,korok-catch-light>
+      coord: [3662.12,1273.77,1408.44]
+    UZ01:
+      presets: _Korok<UZ01 Lift Rock (Leaves\),korok-rock-under>
+      coord: [3160.44,362.87,1425.98]
+    UZ02:
+      presets: _Korok<UZ02 Confetti,korok-confetti>
+      coord: [4715.14,288.98,1418.29]
+    UZ03:
+      presets: _Korok<UZ03 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::UZ03::Start
+      - [3878.35,353.20,-1340.41]
+      - [3886.83,354.13,-1339.62]
+      - [3882.61,356.42,-1340.24]
+      - _Korok::UZ03::End
+    _UZ03:
+      Start:
+        coord: [3882.68,353.26,-1338.28]
+      End:
+        coord: [3881.37,350.65,-1349.81]
+    UZ04:
+      presets: _Korok<UZ04 Confetti,korok-confetti>
+      coord: [3073.90,389.11,1140.20]
+    UZ05:
+      presets: _Korok<UZ05 Pull Plug,korok-pull-plug>
+      coord: [3868.78,330.98,1086.00]
+    UZ06:
+      presets: _Korok<UZ06 Rock Pattern,korok-rock-circle>
+      coord: [3546.61,500.30,964.90]
+    UZ07:
+      presets: _Korok<UZ07 Race,korok-race>
+      movements:
+      - _Korok::UZ07::Start
+      - _Korok::UZ07::End
+    _UZ07:
+      Start:
+        coord: [4477.15,201.95,937.46]
+      End:
+        coord: [4561.24,284.57,940.81]
+    UZ08:
+      presets: _Korok<UZ08 Lift Rock,korok-rock>
+      coord: [3013.29,485.01,932.63]
+    UZ09:
+      presets: _Korok<UZ09 Rock Pattern,korok-rock-circle>
+      coord: [3801.14,381.83,855.96]
+    UZ10:
+      presets: _Korok<UZ10 Ascend,korok-ascend>
+      coord: [4077.58,340.83,821.02]
+    UZ11:
+      presets: _Korok<UZ11 Block Puzzle,korok-ultrahand>
+      coord: [3905.28,490.57,797.35]
+    UZ12:
+      presets: _Korok<UZ12 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UZ12::Start
+      - _Korok::UZ12::End
+    _UZ12:
+      Start:
+        presets: _KorokFriendStart<UZ12>
+        coord: [4054.92,381.75,947.96]
+      End:
+        presets: _KorokFriendEnd<UZ12>
+        coord: [4361.00,386.27,776.25]
+    UZ13:
+      presets: _Korok<UZ13 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UZ13::Start
+      - _Korok::UZ13::End
+    _UZ13:
+      Start:
+        presets: _KorokFriendStart<UZ13>
+        coord: [2640.73,263.38,1111.53]
+      End:
+        presets: _KorokFriendEnd<UZ13>
+        coord: [2760.16,305.10,773.76]
+    UZ14:
+      presets: _Korok<UZ14 Light Chase,korok-light-chase>
+      coord: [2554.63,223.74,767.25]
+    UZ15:
+      presets: _Korok<UZ15 Lily Pads,korok-lily>
+      coord: [3387.83,283.42,741.67]
+    UZ16:
+      presets: _Korok<UZ16 Pull Plug,korok-pull-plug>
+      coord: [4174.72,354.05,698.99]
+    UZ17:
+      presets: _Korok<UZ17 Confetti,korok-confetti>
+      coord: [4484.52,361.49,678.08]
+    UZ18:
+      presets: _Korok<UZ18 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UZ18::Start
+      - _Korok::UZ18::End
+    _UZ18:
+      Start:
+        presets: _KorokFriendStart<UZ18>
+        coord: [2542.26,233.35,641.99]
+      End:
+        presets: _KorokFriendEnd<UZ18>
+        coord: [2640.43,283.21,633.11]
+    UZ19:
+      presets: _Korok<UZ19 Rock Pattern,korok-rock-circle>
+      coord: [4388.59,380.60,612.01]
+    UZ20:
+      presets: _Korok<UZ20 Rock Pattern,korok-rock-circle>
+      coord: [3167.67,221.46,586.41]
+    UZ21:
+      presets: _Korok<UZ21 Target Landing,korok-target>
+      movements:
+      - _Korok::UZ21::Start
+      - _Korok::UZ21::End
+    _UZ21:
+      Start:
+        coord: [4697.57,335.54,546.61]
+      End:
+        coord: [4635.29,323.17,566.09]
+    UZ22:
+      presets: _Korok<UZ22 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UZ22::Start
+      - _Korok::UZ22::End
+    _UZ22:
+      Start:
+        presets: _KorokFriendStart<UZ22>
+        coord: [3778.40,636.50,447.00]
+      End:
+        presets: _KorokFriendEnd<UZ22>
+        coord: [3920.81,591.24,542.61]
+    UZ23:
+      presets: _Korok<UZ23 Lift Rock,korok-rock>
+      coord: [3329.76,217.88,532.85]
+    UZ24:
+      presets: _Korok<UZ24 Confetti,korok-confetti>
+      coord: [3322.39,414.33,515.95]
+    UZ25:
+      presets: _Korok<UZ25 Balloon (Pinwheel\),korok-balloon>
+      coord: [4274.30,443.84,510.31]
+    UZ26:
+      presets: _Korok<UZ26 Race,korok-race>
+      movements:
+      - _Korok::UZ26::Start
+      - _Korok::UZ26::End
+    _UZ26:
+      Start:
+        coord: [2565.43,289.57,467.49]
+      End:
+        coord: [2580.38,287.95,488.18]
+    UZ27:
+      presets: _Korok<UZ27 Lift Rock,korok-rock>
+      coord: [4101.72,368.68,474.36]
+    UZ28:
+      presets: _Korok<UZ28 Boulder Stand,korok-boulder-stand>
+      coord: [4112.61,486.61,471.43]
+    UZ29:
+      presets: _Korok<UZ29 Race,korok-race>
+      movements:
+      - _Korok::UZ29::Start
+      - _Korok::UZ29::End
+    _UZ29:
+      Start:
+        coord: [3105.06,278.17,461.80]
+      End:
+        coord: [3069.79,379.76,456.60]
+    UZ30:
+      presets: _Korok<UZ30 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::UZ30::Start
+      - [3663.09,354.88,-444.39]
+      - [3667.01,358.25,-447.53]
+      - [3671.55,361.63,-450.44]
+      - _Korok::UZ30::End
+    _UZ30:
+      Start:
+        coord: [3663.64,351.92,-449.53]
+      End:
+        coord: [3675.88,364.32,-452.62]
+    UZ31:
+      presets: _Korok<UZ31 Balloon (Stationary\),korok-balloon>
+      coord: [3588.67,312.51,416.07]
+    UZ32:
+      presets: _Korok<UZ32 Confetti,korok-confetti>
+      coord: [2425.19,301.36,409.72]
+    UZ33:
+      presets: _Korok<UZ33 Lift Rock,korok-rock>
+      coord: [4134.99,521.56,406.29]
+    UZ34:
+      presets: _Korok<UZ34 Balloon (Pinwheel\),korok-balloon>
+      coord: [3284.83,355.57,338.70]
+    UZ35:
+      presets: _Korok<UZ35 Lift Rock,korok-rock>
+      coord: [3219.53,184.17,282.01]
+    UZ36:
+      presets: _Korok<UZ36 Balloon (Pinwheel\),korok-balloon>
+      coord: [2334.96,133.22,273.71]
+    UZ37:
+      presets: _Korok<UZ37 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UZ37::Start
+      - _Korok::UZ37::End
+    _UZ37:
+      Start:
+        presets: _KorokFriendStart<UZ37>
+        coord: [3531.70,317.00,-65.07]
+      End:
+        presets: _KorokFriendEnd<UZ37>
+        coord: [3879.93,317.09,266.62]
+    UZ38:
+      presets: _Korok<UZ38 Race,korok-race>
+      movements:
+      - _Korok::UZ38::Start
+      - _Korok::UZ38::End
+    _UZ38:
+      Start:
+        coord: [3069.58,367.53,177.36]
+      End:
+        coord: [2954.93,327.91,256.16]
+    UZ39:
+      presets: _Korok<UZ39 Confetti,korok-confetti>
+      coord: [3192.14,257.17,226.67]
+    UZ40:
+      presets: _Korok<UZ40 Acorn Log,korok-acorn>
+      coord: [2941.59,312.48,210.35]
+    UZ41:
+      presets: _Korok<UZ41 Ten-Flower Chase,korok-flower>
+      movements:
+      - _Korok::UZ41::Start
+      - [2750.60,216.82,-238.38]
+      - [2736.22,217.54,-231.90]
+      - [2739.45,217.68,-224.94]
+      - [2744.55,221.31,-222.12]
+      - [2736.54,229.76,-208.07]
+      - [2733.37,230.97,-187.95]
+      - [2740.71,233.96,-186.93]
+      - [2740.70,238.32,-191.58]
+      - _Korok::UZ41::End
+    _UZ41:
+      Start:
+        coord: [2751.80,215.75,-251.41]
+      End:
+        coord: [2744.01,242.77,-199.66]
+    UZ42:
+      presets: _Korok<UZ42 Pull Plug,korok-pull-plug>
+      coord: [2782.66,186.91,197.79]
+    UZ43:
+      presets: _Korok<UZ43 Block Puzzle,korok-ultrahand>
+      coord: [4219.85,385.11,158.61]
+    UZ44:
+      presets: _Korok<UZ44 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UZ44::Start
+      - _Korok::UZ44::End
+    _UZ44:
+      Start:
+        presets: _KorokFriendStart<UZ44>
+        coord: [2242.82,120.00,243.97]
+      End:
+        presets: _KorokFriendEnd<UZ44>
+        coord: [2201.54,140.11,158.58]
+    UZ45:
+      presets: _Korok<UZ45 Lift Rock,korok-rock>
+      coord: [2471.85,184.82,150.50]
+    UZ46:
+      presets: _Korok<UZ46 Block Puzzle,korok-ultrahand>
+      coord: [4271.50,211.50,137.00]
+    UZ47:
+      presets: _Korok<UZ47 Acorn Hanging,korok-acorn>
+      coord: [2307.60,210.04,132.86]
+    UZ48:
+      presets: _Korok<UZ48 Balloon (Pinwheel\),korok-balloon>
+      coord: [3817.75,318.98,76.09]
+    UZ49:
+      presets: _Korok<UZ49 Lift Rock,korok-rock>
+      coord: [4165.51,455.02,63.29]
+    UZ50:
+      presets: _Korok<UZ50 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UZ50::Start
+      - _Korok::UZ50::End
+    _UZ50:
+      Start:
+        presets: _KorokFriendStart<UZ50>
+        coord: [2808.93,252.00,180.70]
+      End:
+        presets: _KorokFriendEnd<UZ50>
+        coord: [2619.63,224.65,56.19]
+    UZ51:
+      presets: _Korok<UZ51 Block Puzzle,korok-ultrahand>
+      coord: [2211.14,158.20,49.77]
+    UZ52:
+      presets: _Korok<UZ52 Lily Pads,korok-lily>
+      coord: [2306.27,161.94,14.92]
+    UZ53:
+      presets: _Korok<UZ53 Ascend,korok-ascend>
+      coord: [2673.94,212.81,-11.22]
+    UZ54:
+      presets: _Korok<UZ54 Target Landing,korok-target>
+      movements:
+      - _Korok::UZ54::Start
+      - _Korok::UZ54::End
+    _UZ54:
+      Start:
+        coord: [3292.69,399.33,-10.05]
+      End:
+        coord: [3272.69,383.45,-13.03]
+    UZ55:
+      presets: _Korok<UZ55 Lift Rock,korok-rock>
+      coord: [2851.06,186.22,-27.82]
+    UZ56:
+      presets: _Korok<UZ56 Rock Pattern,korok-rock-circle>
+      coord: [2460.03,184.74,-40.90]
+    UZ57:
+      presets: _Korok<UZ57 Confetti,korok-confetti>
+      coord: [2960.88,249.96,-53.34]
+    UZ58:
+      presets: _Korok<UZ58 Balloon (Pinwheel\),korok-balloon>
+      coord: [2951.33,422.71,-78.58]
+    UZ59:
+      presets: _Korok<UZ59 Catch Seed,korok-catch-seed>
+      coord: [4325.01,155.66,-141.69]
+    UZ60:
+      presets: _Korok<UZ60 Race,korok-race>
+      movements:
+      - _Korok::UZ60::Start
+      - _Korok::UZ60::End
+    _UZ60:
+      Start:
+        coord: [4185.00,129.84,-443.75]
+      End:
+        coord: [4231.38,109.90,-311.05]
+    UZ61:
+      presets: _Korok<UZ61 Lift Rock,korok-rock>
+      coord: [4459.47,162.18,-357.05]
+    UZ62:
+      presets: _Korok<UZ62 Block Puzzle,korok-ultrahand>
+      coord: [3526.78,255.87,-367.99]
+    UZ63:
+      presets: _Korok<UZ63 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::UZ63::Start
+      - [2963.98,287.09,364.02]
+      - [2989.67,287.56,361.03]
+      - [3001.31,294.48,373.07]
+      - _Korok::UZ63::End
+    _UZ63:
+      Start:
+        coord: [2944.25,285.80,349.75]
+      End:
+        coord: [3009.32,297.91,373.12]
+    UZ64:
+      presets: _Korok<UZ64 Rock Pattern,korok-rock-circle>
+      coord: [3944.02,143.60,-413.10]
+    UZ65:
+      presets: _Korok<UZ65 Lily Pads,korok-lily>
+      coord: [3135.05,119.00,-432.78]
+    UZ66:
+      presets: _Korok<UZ66 Lift Rock,korok-rock>
+      coord: [3321.48,127.47,-475.24]
+    UZ67:
+      presets: _Korok<UZ67 Ascend,korok-ascend>
+      coord: [4441.34,176.75,-480.19]
+    UZ68:
+      presets: _Korok<UZ68 Block Puzzle,korok-ultrahand>
+      coord: [4395.41,167.11,-535.14]
+    UZ69:
+      presets: _Korok<UZ69 Confetti,korok-confetti>
+      coord: [4142.34,112.02,-557.37]
+    UZ70:
+      presets: _Korok<UZ70 Five-Flower Chase,korok-flower>
+      movements:
+      - _Korok::UZ70::Start
+      - [3732.01,109.12,619.96]
+      - [3739.83,107.05,616.08]
+      - [3734.00,114.59,631.43]
+      - _Korok::UZ70::End
+    _UZ70:
+      Start:
+        coord: [3711.79,106.79,621.90]
+      End:
+        coord: [3720.34,107.51,620.92]
+    UZ71:
+      presets: _Korok<UZ71 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UZ71::Start
+      - _Korok::UZ71::End
+    _UZ71:
+      Start:
+        presets: _KorokFriendStart<UZ71>
+        coord: [4001.55,281.50,-184.31]
+      End:
+        presets: _KorokFriendEnd<UZ71>
+        coord: [4499.93,181.19,-648.07]
+    UZ72:
+      presets: _Korok<UZ72 Offer Roasted Porgy,korok-offer>
+      coord: [3203.27,106.43,-661.71]
+    UZ73:
+      presets: _Korok<UZ73 Friends,korok-friends>
+      vars:
+        counter-korok: .add(1)
+        korok-seed: .add(2)
+      movements:
+      - _Korok::UZ73::Start
+      - _Korok::UZ73::End
+    _UZ73:
+      Start:
+        presets: _KorokFriendStart<UZ73>
+        coord: [3655.03,109.00,-607.32]
+      End:
+        presets: _KorokFriendEnd<UZ73>
+        coord: [3304.90,116.15,-773.61]
+    UZS01:
+      presets: _Korok<UZS01 Balloon (Pinwheel\),korok-balloon>
+      coord: [3413.71,1656.06,617.88]
+    UZS02:
+      presets: _Korok<UZS02 Light Chase,korok-light-chase>
+      coord: [3496.58,1299.49,579.41]
+    UZS03:
+      presets: _Korok<UZS03 Catch Light,korok-catch-light>
+      coord: [3234.39,1046.80,461.52]
+    
