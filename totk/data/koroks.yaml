@@ -24,9 +24,7 @@
 
 # TODO:
 # Through the Roof" -> Ascend (Start/Finish, maybe)
-  # Flower Trail" -> Flower Chase (Movements)
   # Korok Friends" -> Friends (Start/End)
-  # Offering Plate" -> Offer Apple/Pepper/Banana/Durian/PalmFruit/Egg/Shield/?
   # Rock Lift" -> Lift Rock ////?
 
 meta:
@@ -103,6 +101,18 @@ meta:
     FlowerChaseTen:
       name: Ten-Flower Chase
       icon: korok-flower
+    OfferPot:
+      name: Offer Pot
+      icon: korok-offer
+    OfferGoldenApple:
+      name: Offer Golden Apple
+      icon: korok-offer
+    OfferIceFruit:
+      name: Offer Ice Fruit
+      icon: korok-offer
+    OfferRoastedPorgy:
+      name: Offer Roasted Porgy
+      icon: korok-offer
   regions:
     EC:
       name: Eldin Canyon
@@ -3314,6 +3324,82 @@ data:
     - "0x00b260459e778c35"
     - "0x96f8b6d2925bb124"
     - "0xc55701b220e5a055"
+  EC17:
+    type: OfferPot
+    move: [1806.49, 509.74, 2530.36]
+    hash: "0x3ac924a859b0023d"
+  EC58:
+    type: OfferApple
+    move: [1580.9, 186.93, 723.16]
+    hash: "0x4e432eb11662ebf8"
+  GH40:
+    type: OfferBanana
+    move: [-3921.17, 347.59, -1590.68]
+    hash: "0x2d0c418488b3138a"
+  HF24:
+    type: OfferGoldenApple
+    move: [-1816.16, 249.44, -971.92]
+    hash: "0xddd947bcb47a9909"
+  HF34:
+    type: OfferApple
+    move: [-1316.49, 139.34, -1261.08]
+    hash: "0xc118da0d74b7f025"
+  HF73:
+    type: OfferBanana
+    move: [-790.08, 193.59, -2229.78]
+    hash: "0xb01bba97c1acc336"
+  LB03:
+    type: OfferBanana
+    move: [-669.65, 239.33, 1966.72]
+    hash: "0x7a53c47712b65188"
+  LB17:
+    type: OfferApple
+    move: [-1074.8, 227.59, 1277.17]
+    hash: "0xf56bd7ce68ec4506"
+  LB28:
+    type: OfferApple
+    move: [-4059.4, 211.85, 773.91]
+    hash: "0xbb4fc2cd8d3505d0"
+  PF19:
+    type: OfferApple
+    move: [163.54, 151.31, -1940.1]
+    hash: "0x14a3db2c6ac8d31f"
+  PF25:
+    type: OfferApple
+    move: [637.17, 165.79, -2314.63]
+    hash: "0x3dfdff3002a2cbc9"
+  PF64:
+    type: OfferBanana
+    move: [1847.43, 164.32, -3342.59]
+    hash: "0xd01748274126a19f"
+  PS19:
+    type: OfferIceFruit
+    move: [-1652.96, 346.02, 2437.38]
+    hash: "0xe069ae025a22a2a7"
+  RW03:
+    type: OfferApple
+    move: [2724.81, 256, -2122.34]
+    hash: "0x0f5148941f612562"
+  RW12:
+    type: OfferApple
+    move: [2142.33, 365.19, -2603.62]
+    hash: "0xd65850fc2e6b5c1d"
+  SS31:
+    type: OfferApple
+    move: [2239.74, 338.14, -726.32]
+    hash: "0x3d5708df9b97afc1"
+  UM12:
+    type: OfferBanana
+    move: [4492.4, 352.24, 3147.97]
+    hash: "0x01af5890d7adea14"
+  UM14:
+    type: OfferApple
+    move: [3350.31, 164.96, 3074.14]
+    hash: "0xc2e135225b7000a5"
+  UZ72:
+    type: OfferRoastedPorgy
+    move: [3203.27, 106.43, -661.71]
+    hash: "0x7e8afaf6e7a7138d"
 presets:
  _Korok:
     RP08:
@@ -3336,10 +3422,6 @@ presets:
       coord: [-4169.55, 215.86, 1695.96]
       hash_id: "0x93e0f34cdc9713f1"
       text: RP59 Rock Lift"
-    LB28:
-      coord: [-4059.4, 211.85, 773.91]
-      hash_id: "0xbb4fc2cd8d3505d0"
-      text: LB28 Offering Plate"
     GH09:
       coord: [-4376.99, 557.19, -524.72]
       hash_id: "0x5471ca07565b90d0"
@@ -3508,10 +3590,6 @@ presets:
       coord: [-3011.19, 683.03, -1501.24]
       hash_id: "0x26a7a4c54799c4a0"
       text: GH35 Rock Lift"
-    GH40:
-      coord: [-3921.17, 347.59, -1590.68]
-      hash_id: "0x2d0c418488b3138a"
-      text: GH40 Offering Plate"
     GC22:
       coord: [-2982.4, 131, -2327.5]
       hash_id: "0x15a4b1c5a6171c78"
@@ -3656,10 +3734,6 @@ presets:
       coord: [-1541.8, 344, 2555.93]
       hash_id: "0x86b0ca748d9a5f3f"
       text: PS14 Korok Friends"
-    PS19:
-      coord: [-1652.96, 346.02, 2437.38]
-      hash_id: "0xe069ae025a22a2a7"
-      text: PS19 Offering Plate"
     PS17:
       coord: [-1720.44, 347.54, 2556.73]
       hash_id: "0x32bd0aa3cb454c6f"
@@ -3672,10 +3746,6 @@ presets:
       coord: [-1433.48, 299, 1478.95]
       hash_id: "0xb78127c69fdc72a9"
       text: TR17 Korok Friends"
-    LB17:
-      coord: [-1074.8, 227.59, 1277.17]
-      hash_id: "0xf56bd7ce68ec4506"
-      text: LB17 Offering Plate"
     LB18:
       coord: [-1730.12, 353.34, 1162.47]
       hash_id: "0xd9fc88ea902e5b12"
@@ -3700,10 +3770,6 @@ presets:
       coord: [-1742, 226.56, -400.97]
       hash_id: "0x4ca9cfca028b4ae5"
       text: HF02 Rock Lift"
-    HF24:
-      coord: [-1816.16, 249.44, -971.92]
-      hash_id: "0xddd947bcb47a9909"
-      text: HF24 Offering Plate"
     HF01:
       coord: [-1797.98, 225, -323.45]
       hash_id: "0xc7a6a3a3ac49a14c"
@@ -3716,10 +3782,6 @@ presets:
       coord: [-1968.59, 254.26, -594.93]
       hash_id: "0xb7eaa3cc2d1f74c6"
       text: HF11 Rock Lift"
-    HF34:
-      coord: [-1316.49, 139.34, -1261.08]
-      hash_id: "0xc118da0d74b7f025"
-      text: HF34 Offering Plate"
     HF38:
       coord: [-1356.41, 151.86, -1307.46]
       hash_id: "0x3291538fa06bdcc6"
@@ -3780,10 +3842,6 @@ presets:
       coord: [-546, 373.5, 2223]
       hash_id: "0x45e3b3b7e746ec48"
       text: LB02 Korok Friends"
-    LB03:
-      coord: [-669.65, 239.33, 1966.72]
-      hash_id: "0x7a53c47712b65188"
-      text: LB03 Offering Plate"
     LL24:
       coord: [-128.31, 202.34, 813.76]
       hash_id: "0xa4d884bd5e8f57b8"
@@ -3888,10 +3946,6 @@ presets:
       coord: [-711.64, 204.77, -2624.98]
       hash_id: "0x6b759a709a6be904"
       text: PF35 Rock Lift"
-    HF73:
-      coord: [-790.08, 193.59, -2229.78]
-      hash_id: "0xb01bba97c1acc336"
-      text: HF73 Offering Plate"
     PF63:
       coord: [-224.58, 177.19, -3340.61]
       hash_id: "0xcdcb4fa83a6d9116"
@@ -3972,10 +4026,6 @@ presets:
       coord: [501, 168.46, -470.17]
       hash_id: "0x7208da5aa56fc6a4"
       text: LL58 Rock Lift"
-    PF19:
-      coord: [163.54, 151.31, -1940.1]
-      hash_id: "0x14a3db2c6ac8d31f"
-      text: PF19 Offering Plate"
     PF14:
       coord: [293, 133.17, -1204.5]
       hash_id: "0x6f15b03752685eb5"
@@ -4016,10 +4066,6 @@ presets:
       coord: [770.53, 241.5, -2138.18]
       hash_id: "0x49884ebc4c874727"
       text: SS72 Korok Friends"
-    PF25:
-      coord: [637.17, 165.79, -2314.63]
-      hash_id: "0x3dfdff3002a2cbc9"
-      text: PF25 Offering Plate"
     PF40:
       coord: [339.97, 90.53, -2832.5]
       hash_id: "0x5a8c0f0e980cb7da"
@@ -4044,10 +4090,6 @@ presets:
       coord: [1025, 216.5, 3671]
       hash_id: "0x2b954ce40e323553"
       text: TR02 Korok Friends"
-    EC17:
-      coord: [1806.49, 509.74, 2530.36]
-      hash_id: "0x3ac924a859b0023d"
-      text: EC17 Offering Plate"
     EC06:
       coord: [1720.1, 535.93, 2610.61]
       hash_id: "0x9979049cb93468c4"
@@ -4096,10 +4138,6 @@ presets:
       coord: [1182.32, 263.4, 379.5]
       hash_id: "0x0fd6922f3df3bfd5"
       text: SS11 Rock Lift"
-    EC58:
-      coord: [1580.9, 186.93, 723.16]
-      hash_id: "0x4e432eb11662ebf8"
-      text: EC58 Offering Plate"
     SS15:
       coord: [1396.74, 132.18, 127.86]
       hash_id: "0x34e0b8e62170b922"
@@ -4192,10 +4230,6 @@ presets:
       coord: [1397.62, 107.61, -3642.26]
       hash_id: "0x4e314676408880ec"
       text: PF82 Korok Friends"
-    PF64:
-      coord: [1847.43, 164.32, -3342.59]
-      hash_id: "0xd01748274126a19f"
-      text: PF64 Offering Plate"
     EC05:
       coord: [2405.97, 520.32, 3327.95]
       hash_id: "0xa18b8abf1cd831de"
@@ -4240,10 +4274,6 @@ presets:
       coord: [2691.3, 217.05, -542.07]
       hash_id: "0x0c3fc1a964ffdccb"
       text: SS28 Korok Friends"
-    SS31:
-      coord: [2239.74, 338.14, -726.32]
-      hash_id: "0x3d5708df9b97afc1"
-      text: SS31 Offering Plate"
     UZ53:
       coord: [2673.94, 212.81, -11.22]
       hash_id: "0x1eb75a19d8331592"
@@ -4280,18 +4310,10 @@ presets:
       coord: [2325.78, 132.95, -1828.58]
       hash_id: "0x2b749fc4ae1e4a25"
       text: SS62 Rock Lift"
-    RW03:
-      coord: [2724.81, 256, -2122.34]
-      hash_id: "0x0f5148941f612562"
-      text: RW03 Offering Plate"
     ML35:
       coord: [2809.94, 231.43, -2247.73]
       hash_id: "0x3d6b5550593877ef"
       text: ML35 Rock Lift"
-    RW12:
-      coord: [2142.33, 365.19, -2603.62]
-      hash_id: "0xd65850fc2e6b5c1d"
-      text: RW12 Offering Plate"
     ML24:
       coord: [2644.97, 233, -2120.32]
       hash_id: "0xb24a6b32763e0046"
@@ -4324,10 +4346,6 @@ presets:
       coord: [3267.37, 139.69, 3396.78]
       hash_id: "0xbf15b41c0e0b0060"
       text: UM04 Rock Lift"
-    UM14:
-      coord: [3350.31, 164.96, 3074.14]
-      hash_id: "0xc2e135225b7000a5"
-      text: UM14 Offering Plate"
     EC03:
       coord: [3349.6, 327, 3664.5]
       hash_id: "0xcc9b683cea8d43ce"
@@ -4384,10 +4402,6 @@ presets:
       coord: [3321.48, 127.47, -475.24]
       hash_id: "0xfc8f3891d24efa80"
       text: UZ66 Rock Lift"
-    UZ72:
-      coord: [3203.27, 106.43, -661.71]
-      hash_id: "0x7e8afaf6e7a7138d"
-      text: UZ72 Offering Plate"
     UZ73:
       coord: [3655.03, 109, -607.32]
       hash_id: "0xcba991805f62c47b"
@@ -4444,10 +4458,6 @@ presets:
       coord: [4157.26, 355.83, 3167.72]
       hash_id: "0x4bdeebd9cf53e12f"
       text: UM10 Rock Lift"
-    UM12:
-      coord: [4492.4, 352.24, 3147.97]
-      hash_id: "0x01af5890d7adea14"
-      text: UM12 Offering Plate"
     UM21:
       coord: [4202.73, 233.18, 2739.48]
       hash_id: "0x822da7cd47b4be51"
