@@ -15,23 +15,37 @@
 # main korok data:
 # .data[<ID>]:
 #   type: string
+#   hash: string
+#   extra_hashes?: arrayof string
 #   move: arrayof [x, y, z] - movements.
 #                single point for lift rock, confetti, etc
 #                2 points for races, etc
 #                more points for flowers, etc
 
-  # Acorn in a Hole" -> AcornLog/AcornTree
+# TODO:
+# Through the Roof" -> Ascend (Start/Finish, maybe)
   # Flower Trail" -> Flower Chase (Movements)
-  # Goal Ring (Race)" -> Race (Start/End)
-  # Hanging Acorn" -> Acorn Hanging
   # Korok Friends" -> Friends (Start/End)
-  # Land on Target" -> Target Landing (need check)
   # Offering Plate" -> Offer Apple/Pepper/Banana/Durian/PalmFruit/Egg/Shield/?
   # Rock Lift" -> Lift Rock ////?
-  # Through the Roof" -> Ascend (Start/Finish)
-  # Touch the Target" -> Target Touch (need check)
+
 meta:
   type:
+    Acorn:
+      name: Acorn
+      icon: korok-acorn
+    AcornLog:
+      name: Acorn Log
+      icon: korok-acorn
+    AcornTree:
+      name: Acorn Tree
+      icon: korok-acorn
+    AcornHanging:
+      name: Acorn Hanging
+      icon: korok-acorn
+    Ascend:
+      name: Ascend
+      icon: korok-ascend
     BoulderStand:
       name: Boulder Stand
       icon: korok-boulder-stand
@@ -74,6 +88,15 @@ meta:
     RockCircle:
       name: Rock Pattern
       icon: korok-rock-circle
+    TargetLand:
+      name: Target Landing
+      icon: korok-target
+    TargetTouch:
+      name: Target Touch
+      icon: korok-target
+    Race:
+      name: Race
+      icon: korok-race
   regions:
     EC:
       name: Eldin Canyon
@@ -1836,16 +1859,686 @@ data:
     type: RockCircle
     move: [[3944.02, 143.6, -413.1]]
     hash: "0x29cd804630cdbf87"
+  EC28:
+    type: TargetLand
+    move:
+    - [1799.1125, 602.5315, 2210.1826]
+    - [1755.41, 589.82, 2224.93]
+    hash: "0x5cd2b42649138cba"
+    extra_hashes: ["0x2fa3d3ab8e22534b"]
+  GC07:
+    type: TargetLand
+    move:
+    - [-4482.3975, 173.75514, -2133.9216]
+    - [-4438.02, 155.27, -2113.6]
+    hash: "0x9a10c3532ffe0382"
+    extra_hashes: ["0x6d014390a2454b97"]
+  GC37:
+    type: TargetLand
+    move:
+    - [-3422.277, 189.82967, -3119.4795]
+    - [-3430.75, 177.97, -3128.03]
+    hash: "0x67cfc5dc4bc18d95"
+    extra_hashes: ["0x385fc190045fd188"]
+  GCS01:
+    type: TargetLand
+    move:
+    - [-1829.7241, 1305.1661, -1917.683]
+    - [-1929.45, 1255.55, -1823.98]
+    hash: "0x4b4cf8229544ed05"
+    extra_hashes: ["0x7cfd14afc5d3f1f3"]
+  GH08:
+    type: TargetLand
+    move:
+    - [-2838.84, 157.51921, -437.44037]
+    - [-2921.34, 120.85, -481.79]
+    hash: "0xdb1ba47d6acb664e"
+    extra_hashes: ["0xf40378c62c7976e8"]
+  GHS01:
+    type: TargetLand
+    move:
+    - [-3374.1436, 2429.1707, 12.182842]
+    - [-3369.14, 2392.14, -50.82]
+    hash: "0x197cbf3c97ef82c1"
+    extra_hashes: ["0xca231fc8b354d2cf"]
+  HF08:
+    type: TargetLand
+    move:
+    - [-2479.1802, 327.3595, -509.34348]
+    - [-2437.12, 311.42, -554.49]
+    hash: "0xd4fab6d907e2214b"
+    extra_hashes: ["0xa544172dcb8c94ad"]
+  HF54:
+    type: TargetLand
+    move:
+    - [-683.0397, 199.895, -1842.7732]
+    - [-668.02, 183.74, -1779.63]
+    hash: "0xb6ed06e7d4ed4ea5"
+    extra_hashes: ["0x193d8663fe576e93"]
+  LB12:
+    type: TargetLand
+    move:
+    - [-3820.739, 392.2829, 1319.2434]
+    - [-3848.26, 377.5, 1326.62]
+    hash: "0x515915c5fd347757"
+    extra_hashes: ["0x26497901852e774d"]
+  LB32:
+    type: TargetLand
+    move:
+    - [-3966.2583, 293.95923, 625.1185]
+    - [-3976.49, 231.85, 731.85]
+    hash: "0x441a0cbb614486d9"
+    extra_hashes: ["0x132a88276daff6cb"]
+  LBS01:
+    type: TargetLand
+    move:
+    - [-3612.4023, 1919.9645, 1030.2777]
+    - [-3645.03, 1900.55, 1048.27]
+    hash: "0x96819f6fe87ddf68"
+    extra_hashes: ["0xabb200e4e311de16"]
+  LBS05:
+    type: TargetLand
+    move:
+    - [-3960.0098, 1610.8092, 649.9073]
+    - [-3959.79, 1608.93, 691.91]
+    hash: "0x722109ee22de15c7"
+    extra_hashes: ["0x06f18c5af9b5c95d"]
+  LL02:
+    type: TargetLand
+    move:
+    - [-302.85684, 195.56221, 1123.4033]
+    - [-282.17, 182.85, 1125.08]
+    hash: "0x75835b25478a6a10"
+    extra_hashes: ["0x8694fbb91b986a22"]
+  LL08:
+    type: TargetLand
+    move:
+    - [-1034.5939, 167.11671, 1083.3956]
+    - [-891.73, 118.24, 1037.22]
+    hash: "0x84170a0729746bab"
+    extra_hashes: ["0x57068a48edde6bf9"]
+  LL55:
+    type: TargetLand
+    move:
+    - [-1109.6677, 167.69904, -420.4692]
+    - [-1146.03, 144.77, -381.29]
+    hash: "0x10cd744d28343061"
+    extra_hashes: ["0xefbe9181ae0b84be"]
+  ML23:
+    type: TargetLand
+    move:
+    - [3017.9158, 155.37685, -2033.4019]
+    - [2975.55, 124.76, -2025.2]
+    hash: "0xb246ac55489a75b1"
+    extra_hashes: ["0x1ef6209912a47983"]
+  PS10:
+    type: TargetLand
+    move:
+    - [-2001.6475, 490.19452, 3147.144]
+    - [-1969.17, 459.29, 3113.43]
+    hash: "0x3acc5fe5dd251272"
+    extra_hashes: ["0x07ddff20fd6cea84"]
+  RP03:
+    type: TargetLand
+    move:
+    - [-3992.954, 325.2816, 3836.3223]
+    - [-4176.05, 325.76, 3816.11]
+    hash: "0x7d76677d1f060023"
+    extra_hashes: ["0x4cc6e0e9fb0c4c71"]
+  RPS04:
+    type: TargetLand
+    move:
+    - [-3063.676, 798.42267, 2136.8135]
+    - [-3101.78, 755.45, 2142.18]
+    hash: "0x56a3a11a7a80395d"
+    extra_hashes: ["0x859226568791bcd8"]
+  RW26:
+    type: TargetLand
+    move:
+    - [2549.0205, 197.43681, -3208.3757]
+    - [2540.08, 170.88, -3291.42]
+    hash: "0x56f7ff3c7190bac9"
+    extra_hashes: ["0x23461c2855a23a2b"]
+  SS70:
+    type: TargetLand
+    move:
+    - [1243.5424, 541.57715, -1941.4088]
+    - [1279.87, 526.11, -1962.67]
+    hash: "0x4c1969dae6181205"
+    extra_hashes: ["0x83092526e17dda1f"]
+  SSS07:
+    type: TargetLand
+    move:
+    - [1300.1216, 733.69025, -1977.4686]
+    - [1336.72, 700.42, -2061.9]
+    hash: "0x23ea491f726cdfca"
+    extra_hashes: ["0xf61bc5a15fd31fc8"]
+  TR06:
+    type: TargetLand
+    move:
+    - [60.63513, 295.64548, 3113.627]
+    - [52.11, 281.83, 3147.03]
+    hash: "0x91e0eaf38b83de4a"
+    extra_hashes: ["0x6231621657929ecc"]
+  UM03:
+    type: TargetLand
+    move:
+    - [3152.9626, 241.96596, 3430.8613]
+    - [3186.2, 196.22, 3458.82]
+    hash: "0xb101113fece9677b"
+    extra_hashes: ["0x8270bd20ce9a76b9"]
+  UM15:
+    type: TargetLand
+    move:
+    - [3575.3577, 215.09973, 3046.1062]
+    - [3544.47, 187.87, 3023.96]
+    hash: "0x4c0759622af1da1b"
+    extra_hashes: ["0x15173de1ad629b19"]
+  UMS02:
+    type: TargetLand
+    move:
+    - [4613.211, 1404.4047, 2283.7642]
+    - [4653.96, 1344.99, 2137.07]
+    hash: "0xf9ea5281c2f35aca"
+    extra_hashes: ["0x9894b2c2394c6244"]
+  UZ21:
+    type: TargetLand
+    move:
+    - [4697.5713, 335.53656, 546.6145]
+    - [4635.29, 323.17, 566.09]
+    hash: "0xd7f3fd658d143424"
+    extra_hashes: ["0xaa421e1ec1e2407e"]
+  UZ54:
+    type: TargetLand
+    move:
+    - [3292.6885, 399.3302, -10.050842]
+    - [3272.69, 383.45, -13.03]
+    hash: "0x08e8992879723b79"
+    extra_hashes: ["0xd9be35dc41a1b3be"]
+  EC07:
+    type: Race
+    move:
+    - [2194.4329, 613.07745, 3008.747]
+    - [2155.55, 582.98, 3055.78]
+    hash: "0xe817b25b07474ca1"
+    extra_hashes: ["0x86dd409b2dc1659f"]
+  EC41:
+    type: Race
+    move:
+    - [778.3894, 253.552, 1529.545]
+    - [758.7, 259.31, 1643.56]
+    hash: "0x4a46475d791463b2"
+    extra_hashes: ["0x2470b70164964eeb"]
+  EC47:
+    type: Race
+    move:
+    - [2678.449, 232.60712, 1351.0221]
+    - [2751.78, 234.77, 1373.53]
+    hash: "0x9a7779752b4e3fa9"
+    extra_hashes: ["0xcc7e453dc0c83243"]
+  GC16:
+    type: Race
+    move:
+    - [-2251.932, 380.69324, -2358.593]
+    - [-2261.63, 398.02, -2341.1]
+    hash: "0xd160e850f10dcea4"
+    extra_hashes: ["0x5d8bdb25ea8ccb7a"]
+  GC28:
+    type: Race
+    move:
+    - [-2731.9685, 140.68227, -2820.4087]
+    - [-2820.52, 173.6, -2831.7]
+    hash: "0x965d962e8c2c3657"
+    extra_hashes: ["0xd55a846951ae39a1"]
+  GC32:
+    type: Race
+    move:
+    - [-3859.299, 190.1936, -3017.5464]
+    - [-3934.83, 192.37, -2940.99]
+    hash: "0x67ae8a9d9858fb59"
+    extra_hashes: ["0x03047bd5f3d9f0cf"]
+  GH07:
+    type: Race
+    move:
+    - [-3621.3655, 344.82315, -403.02692]
+    - [-3653.91, 381.98, -392.4]
+    hash: "0x0a1d391869c86d8d"
+    extra_hashes: ["0x649b6e2e4b4676a3"]
+  GH16:
+    type: Race
+    move:
+    - [-3721.9202, 746.7953, -803.172]
+    - [-3674.24, 740, -798.67]
+    hash: "0x8b02e554bcc8847d"
+    extra_hashes: ["0x1ff529d9584aa592"]
+  GH31:
+    type: Race
+    move:
+    - [-2696.3423, 647.9116, -1446.2136]
+    - [-2961.95, 550.34, -1400.13]
+    hash: "0x15ac51bd47119a12"
+    extra_hashes: ["0x4607dd65199797eb"]
+  GH33:
+    type: Race
+    move:
+    - [-3845.8823, 471.0191, -1465.4277]
+    - [-3806.28, 423.22, -1474.82]
+    hash: "0x0ec371efc2b3740b"
+    extra_hashes: ["0x54a944272b0e7f31"]
+  HF39:
+    type: Race
+    move:
+    - [-657.09283, 158.01842, -1389.6357]
+    - [-594.84, 144.57, -1414.73]
+    hash: "0x5a9018784c1e29b8"
+    extra_hashes: ["0x171a0eaa61982ec6"]
+  LB16:
+    type: Race
+    move:
+    - [-2580.1965, 321.09964, 1249.3685]
+    - [-2653.77, 312.25, 1283.25]
+    hash: "0x3c74abe3d89f5f29"
+    extra_hashes: ["0x324efb33fd005273"]
+  LB48:
+    type: Race
+    move:
+    - [-3206.9158, 5.80232, 333.75772]
+    - [-3200.54, 36.58, 343.28]
+    hash: "0xa9f0009e7175601a"
+    extra_hashes: ["0xb1fa33641fea890c"]
+  LB49:
+    type: Race
+    move:
+    - [-2918.771, 312.00162, 285.45898]
+    - [-2913.73, 310.02, 240.41]
+    hash: "0x99971f1367b1b36c"
+    extra_hashes: ["0x21dd6f424d33a85a"]
+  LL23:
+    type: Race
+    move:
+    - [-947.6899, 160.68588, 681.72736]
+    - [-941.9, 134.97, 819.68]
+    hash: "0x3494a515ad3afec9"
+    extra_hashes: ["0x2addd0cdcbbcf15f"]
+  PF01:
+    type: Race
+    move:
+    - [1086.8496, 115.20428, -1048.1511]
+    - [1040.53, 118.5, -1068.5]
+    hash: "0x7de66884408148fc"
+    extra_hashes: ["0xea133abe6d06a1d7"]
+  PF21:
+    type: Race
+    move:
+    - [350.49136, 167.94385, -2158.3345]
+    - [458.95, 117.62, -2141.78]
+    hash: "0x50169f466004791a"
+    extra_hashes: ["0x0e988f680485760c"]
+  PF29:
+    type: Race
+    move:
+    - [885.4566, 170.08229, -2424.9167]
+    - [889.11, 183.79, -2394.23]
+    hash: "0xb281a2f987bcb44f"
+    extra_hashes: ["0x581b533cac3e3536"]
+  PF37:
+    type: Race
+    move:
+    - [50.490906, 185.89465, -2719.2075]
+    - [25.32, 187.89, -2728.3]
+    hash: "0x6e9824184ab88917"
+    extra_hashes: ["0x00061bca723b620a"]
+  RP02:
+    type: Race
+    move:
+    - [-3428.2388, 350.17368, 3799.8184]
+    - [-3507.85, 344.64, 3836.26]
+    hash: "0xb448cedb7612dfdc"
+    extra_hashes: ["0xaea6b86b0d90e346"]
+  RP21:
+    type: Race
+    move:
+    - [-4422.6353, 496.87067, 3216.0068]
+    - [-4418.91, 477.48, 3181.17]
+    hash: "0xc4f70c6b778afaca"
+    extra_hashes: ["0x9afd3e8b5c08fff0"]
+  RP37:
+    type: Race
+    move:
+    - [-3328.7896, 508.49338, 2301.9705]
+    - [-3292.94, 511.75, 2442.47]
+    hash: "0xfd1fc4791b466476"
+    extra_hashes: ["0x89994ab7c0c4732c"]
+  RPS02:
+    type: Race
+    move:
+    - [-3103.9016, 970.77747, 3259.923]
+    - [-2989.52, 950.15, 3141.73]
+    hash: "0x5d4a1aa8a1f9c2e8"
+    extra_hashes: ["0xe94c0b45c778a702"]
+  RW17:
+    type: Race
+    move:
+    - [2410.0715, 363.23575, -2671.1926]
+    - [2579.32, 365.29, -2729.39]
+    hash: "0x51d31a2da3ec412f"
+    extra_hashes: ["0x09d96c414c6e2819"]
+  RW29:
+    type: Race
+    move:
+    - [3081.9324, 154.20091, -3385.9102]
+    - [3064.48, 126.04, -3395.47]
+    hash: "0x133abfb7b6706179"
+    extra_hashes: ["0x57338e6fd2f20e93"]
+  RW32:
+    type: Race
+    move:
+    - [2199.049, 188.50555, -3492.5225]
+    - [2363.39, 194.47, -3437.92]
+    hash: "0x02cf11c67360bdbd"
+    extra_hashes: ["0xa7f5008f52ee82e7"]
+  RW43:
+    type: Race
+    move:
+    - [1972.9893, 108.60973, -3922.255]
+    - [2011.18, 110.53, -3957.02]
+    hash: "0x9880ef2ac1965948"
+    extra_hashes: ["0xc21e3f0bea68503e"]
+  SS17:
+    type: Race
+    move:
+    - [808.57654, 116.2936, -27.228188]
+    - [838.28, 121.05, -30.17]
+    hash: "0x84f594534858b793"
+    extra_hashes: ["0xeee3e6832cc74cf9"]
+  SSS04:
+    type: Race
+    move:
+    - [2409.1194, 1675.1582, -1821.4792]
+    - [2430.36, 1622.59, -1783.23]
+    hash: "0xc2a022fe9b384466"
+    extra_hashes: ["0x184ef034f4be6b88"]
+  UZ07:
+    type: Race
+    move:
+    - [4477.155, 201.9499, 937.4553]
+    - [4561.24, 284.57, 940.81]
+    hash: "0xb89f7d67bdf4b58c"
+    extra_hashes: ["0xb6d1ad2f2776a4fb"]
+  UZ26:
+    type: Race
+    move:
+    - [2565.4326, 289.5719, 467.49023]
+    - [2580.38, 287.95, 488.18]
+    hash: "0x1bd56230b4281fd4"
+    extra_hashes: ["0x46235c62d0a9d4fe"]
+  UZ29:
+    type: Race
+    move:
+    - [3105.0623, 278.16647, 461.79727]
+    - [3069.79, 379.76, 456.6]
+    hash: "0x6938008b636b9c0a"
+    extra_hashes: ["0x01a61eab82e9971c"]
+  UZ38:
+    type: Race
+    move:
+    - [3069.5825, 367.52542, 177.36194]
+    - [2954.93, 327.91, 256.16]
+    hash: "0xe88b9aeef786c7c0"
+    extra_hashes: ["0x72eda8348d04f0f6"]
+  UZ60:
+    type: Race
+    move:
+    - [4185.002, 129.83522, -443.75098]
+    - [4231.38, 109.9, -311.05]
+    hash: "0xd5200f8502156812"
+    extra_hashes: ["0x5aca3fa865969338"]
+  ECS01:
+    type: TargetTouch
+    move: [2049.99, 1396.16, 1201.01]
+    hash: "0x801643bbb927b8ae"
+  HFS01:
+    type: TargetTouch
+    move: [-1402.8, 1138.36, -1522.87]
+    hash: "0x1fb9be21384fb6a9"
+  PSS03:
+    type: TargetTouch
+    move: [-1662.7, 1082.28, 3285.3]
+    hash: "0x057c9fd8a6e475cb"
+  RPS03:
+    type: TargetTouch
+    move: [-3917.26, 840.22, 2880.21]
+    hash: "0xcccc7e5ace85c246"
+  RWS02:
+    type: TargetTouch
+    move: [2932.88, 1363.61, -2991.81]
+    hash: "0x1c8d77e74a772598"
+  TRS01:
+    type: TargetTouch
+    move: [524.49, 1967.67, 2748.37]
+    hash: "0xec3ce9e972abf911"
+  EC48:
+    type: AcornTree
+    move: [1334.47, 277.29, 1317.58]
+    hash: "0x21a0c1ea1acd0fbc"
+  EC60:
+    type: AcornTree
+    move: [1466.56, 133.82, 677.61]
+    hash: "0x18c21efaf334333d"
+  HF04:
+    type: AcornTree
+    move: [-1955.85, 312.91, -410.11]
+    hash: "0xdecb228e16e0d21c"
+  HF07:
+    type: AcornTree
+    move: [-311.14, 131.03, -550.09]
+    hash: "0xb6d6dfe59019e605"
+  HF35:
+    type: AcornLog
+    move: [-1428.09, 142.35, -1297.98]
+    hash: "0xe02b22e64c15faf5"
+  LB04:
+    type: AcornLog
+    move: [-2298.03, 403.48, 1908.36]
+    hash: "0xaddec8dbaf6b1da8"
+  LL32:
+    type: AcornLog
+    move: [133.31, 134.04, 599.7]
+    hash: "0x96e1861fe71bedf7"
+  LL44:
+    type: AcornTree
+    move: [-748.18, 136.49, 200.28]
+    hash: "0x781f1b41c9c2a39b"
+  LL53:
+    type: AcornLog
+    move: [289.89, 133.23, -246.79]
+    hash: "0x9662bf80ffa514ed"
+  PF02:
+    type: AcornLog
+    move: [627.54, 120.3, -1161.56]
+    hash: "0x536160272d49959c"
+  PF11:
+    type: AcornTree
+    move: [734.7, 148.72, -1503.51]
+    hash: "0x6b7cfa6438b02e31"
+  PS09:
+    type: AcornTree
+    move: [-873.9, 333.16, 3313.1]
+    hash: "0x487fe6c2221ef12e"
+  RW06:
+    type: AcornLog
+    move: [1999.11, 116.46, -2281.76]
+    hash: "0xd2b2e7fc38e6ccf5"
+  RW27:
+    type: AcornTree
+    move: [3495.78, 332.65, -3311.49]
+    hash: "0x09e727a91b073e06"
+  SS51:
+    type: AcornTree
+    move: [1291.45, 269.65, -1330.91]
+    hash: "0xf543848c315bb272"
+  TR19:
+    type: AcornTree
+    move: [-665.9, 179.47, 1190.94]
+    hash: "0x75720e1a74403956"
+  UZ40:
+    type: AcornLog
+    move: [2941.59, 312.48, 210.35]
+    hash: "0x7252cd2805c3e811"
+  EC08:
+    type: Acorn Hanging
+    move: [2231.74, 551.66, 3042.21]
+    hash: "0x0388af9f5240c043"
+  EC11:
+    type: Acorn Hanging
+    move: [1567.5, 507.23, 2946.09]
+    hash: "0x40e719bfab8370b2"
+  EC44:
+    type: Acorn Hanging
+    move: [951.05, 266.22, 1536.43]
+    hash: "0x75e25564ea2ad398"
+  ECS02:
+    type: Acorn Hanging
+    move: [1690.65, 1260.48, 1199.49]
+    hash: "0x735c8b810bd78ce6"
+  GC03:
+    type: Acorn Hanging
+    move: [-2329.3, 244.83, -1825.36]
+    hash: "0x80b9c9fde2db8871"
+  GC18:
+    type: Acorn Hanging
+    move: [-2712.97, 235.09, -2355.53]
+    hash: "0xc1ba15fcd1a97eb7"
+  GC23:
+    type: Acorn Hanging
+    move: [-2011.91, 327.74, -2469.91]
+    hash: "0xe1e1aafdb1ebe09c"
+  GH43:
+    type: Acorn Hanging
+    move: [-3193.17, 459.39, -1744.5]
+    hash: "0x49c0815855f1021d"
+  GH44:
+    type: Acorn Hanging
+    move: [-4363.35, 201.83, -1845.61]
+    hash: "0xf00b28f0afd80c18"
+  GH50:
+    type: Acorn Hanging
+    move: [-3581.69, 310.59, -1985.41]
+    hash: "0xe6c0f12c27dc1b77"
+  HF26:
+    type: Acorn Hanging
+    move: [-1598.19, 123.75, -1015.71]
+    hash: "0xb8bb9d53ead817a6"
+  HF42:
+    type: Acorn Hanging
+    move: [-611.77, 179.39, -1525.45]
+    hash: "0x30e6acae3ec006ab"
+  LB13:
+    type: Acorn Hanging
+    move: [-3102.67, 315.57, 1316.05]
+    hash: "0x523d843537984052"
+  LB42:
+    type: Acorn Hanging
+    move: [-1346.61, 201.07, 530.54]
+    hash: "0x713a6e09d2b3064d"
+  LB52:
+    type: Acorn Hanging
+    move: [-1148.64, 145.27, 221.75]
+    hash: "0x39eb0aa92810ec2d"
+  LBS03:
+    type: Acorn Hanging
+    move: [-3598.97, 1927.86, 978.57]
+    hash: "0x6735acdfbbf17801"
+  LL01:
+    type: Acorn Hanging
+    move: [-124.41, 141.89, 1192.74]
+    hash: "0xee47cb5909591760"
+  LL12:
+    type: Acorn Hanging
+    move: [-666.31, 115.67, 962.91]
+    hash: "0x59be5b86dda12799"
+  LL27:
+    type: Acorn Hanging
+    move: [269.73, 116.41, 701.14]
+    hash: "0x6608da933614f324"
+  LL59:
+    type: Acorn Hanging
+    move: [-1088.66, 165.67, -514.06]
+    hash: "0x291ad1a54d9cb5dc"
+  PF31:
+    type: Acorn Hanging
+    move: [-65.67, 123.2, -2441.01]
+    hash: "0xfb215b8ed2d76766"
+  PF56:
+    type: Acorn Hanging
+    move: [-800.75, 199.21, -3257.71]
+    hash: "0x6e95a7fdad85fe11"
+  PF87:
+    type: Acorn Hanging
+    move: [272.37, 109.52, -3905.6]
+    hash: "0xccb2720dc9a3794e"
+  PS23:
+    type: Acorn Hanging
+    move: [-2739.09, 450.44, 2267.73]
+    hash: "0x86a97c98f7f25813"
+  PS28:
+    type: Acorn Hanging
+    move: [-2074.54, 395.47, 2077.93]
+    hash: "0xb385d9517b4b590c"
+  PS30:
+    type: Acorn Hanging
+    move: [-2530.6, 409.06, 1854.96]
+    hash: "0xdcc0703c889fd11f"
+  RW13:
+    type: Acorn Hanging
+    move: [1959.98, 356.99, -2627.81]
+    hash: "0x4c7f2227f6dfa1ea"
+  SS09:
+    type: Acorn Hanging
+    move: [1482.68, 116.75, 443.37]
+    hash: "0xed1e5973a85751d7"
+  SS22:
+    type: Acorn Hanging
+    move: [2638, 264.89, -368.31]
+    hash: "0x016fa4a1b7c5252d"
+  SS32:
+    type: Acorn Hanging
+    move: [1115.5, 172, -731.75]
+    hash: "0x1051d3122f2a747b"
+  SS36:
+    type: Acorn Hanging
+    move: [1791.37, 223.62, -852.94]
+    hash: "0x29802b86e0991251"
+  SS40:
+    type: Acorn Hanging
+    move: [1997.13, 281.93, -958.93]
+    hash: "0x2e316859614d8088"
+  SS46:
+    type: Acorn Hanging
+    move: [2545.85, 217.1, -1077.35]
+    hash: "0xb64a256427fccd2a"
+  TR18:
+    type: Acorn Hanging
+    move: [656.79, 144.95, 1371.21]
+    hash: "0x0e45f9b03f3eb3f4"
+  TR20:
+    type: Acorn Hanging
+    move: [399, 115.27, 1174.28]
+    hash: "0x020feb59b20954c5"
+  UM06:
+    type: Acorn Hanging
+    move: [4117.8, 308.58, 3286.25]
+    hash: "0xacbb5e7282f548f6"
+  UZ47:
+    type: Acorn Hanging
+    move: [2307.6, 210.04, 132.86]
+    hash: "0x58e19a61805beae7"
 presets:
  _Korok:
     RP08:
       coord: [-4004.7, 630.48, 3622.87]
       hash_id: "0x552e3762db40dc25"
       text: RP08 Rock Lift"
-    RP21:
-      coord: [-4418.91, 477.48, 3181.17]
-      hash_id: "0xc4f70c6b778afaca"
-      text: RP21 Goal Ring (Race)"
     RP07:
       coord: [-4430.51, 412.55, 3682.64]
       hash_id: "0xc5e6febce2a7e832"
@@ -1886,10 +2579,6 @@ presets:
       coord: [-4540.5, 633.5, -1344]
       hash_id: "0xba0dbba90c1a9a19"
       text: GH10 Korok Friends"
-    GH44:
-      coord: [-4363.35, 201.83, -1845.61]
-      hash_id: "0xf00b28f0afd80c18"
-      text: GH44 Hanging Acorn"
     GC14:
       coord: [-4425.7, 168.63, -2262.22]
       hash_id: "0x70674caec943291d"
@@ -1898,10 +2587,6 @@ presets:
       coord: [-4138.99, 151.36, -2259.98]
       hash_id: "0x9c6ce54cb8aa0d77"
       text: GH47 Korok Friends"
-    GC07:
-      coord: [-4438.02, 155.27, -2113.6]
-      hash_id: "0x9a10c3532ffe0382"
-      text: GC07 Land on Target"
     GC17:
       coord: [-4591.88, 151.75, -2349.1]
       hash_id: "0xca57fba1dfa9474b"
@@ -1918,10 +2603,6 @@ presets:
       coord: [-3772.03, 447.56, 3344.37]
       hash_id: "0xe81e90070f7c7b4e"
       text: RP17 Flower Trail"
-    RP03:
-      coord: [-4176.05, 325.76, 3816.11]
-      hash_id: "0x7d76677d1f060023"
-      text: RP03 Land on Target"
     RP14:
       coord: [-3839.74, 392.37, 3416.9]
       hash_id: "0x527e8949c9d6badf"
@@ -1930,10 +2611,6 @@ presets:
       coord: [-3670.76, 429, 3383.01]
       hash_id: "0xc8de69e1d4d01529"
       text: RP13 Korok Friends"
-    RP02:
-      coord: [-3507.85, 344.64, 3836.26]
-      hash_id: "0xb448cedb7612dfdc"
-      text: RP02 Goal Ring (Race)"
     RP16:
       coord: [-4038.38, 370.99, 3364.97]
       hash_id: "0x9fd381e9d8a29b78"
@@ -1958,10 +2635,6 @@ presets:
       coord: [-3958.43, 313.89, 2035.99]
       hash_id: "0x604788e1599c96ca"
       text: RP46 Rock Lift"
-    RP37:
-      coord: [-3292.94, 511.75, 2442.47]
-      hash_id: "0xfd1fc4791b466476"
-      text: RP37 Goal Ring (Race)"
     RP25:
       coord: [-3350.7, 621.29, 2992.55]
       hash_id: "0x50b98467625ced72"
@@ -1982,10 +2655,6 @@ presets:
       coord: [-3944.54, 315.05, 1969.23]
       hash_id: "0x3ad25e46595f630f"
       text: RP47 Rock Lift"
-    LB13:
-      coord: [-3102.67, 315.57, 1316.05]
-      hash_id: "0x523d843537984052"
-      text: LB13 Hanging Acorn"
     RP51:
       coord: [-3613.7, 507.69, 1880.03]
       hash_id: "0x354ad574acff4aa7"
@@ -1994,10 +2663,6 @@ presets:
       coord: [-3634.49, 273.06, 1808.9]
       hash_id: "0x0b4cb5c134f6e5ee"
       text: RP53 Rock Lift"
-    LB12:
-      coord: [-3848.26, 377.5, 1326.62]
-      hash_id: "0x515915c5fd347757"
-      text: LB12 Land on Target"
     RP54:
       coord: [-4062.35, 261.99, 1793.69]
       hash_id: "0x9af06c0d78dac507"
@@ -2034,10 +2699,6 @@ presets:
       coord: [-3614.14, 395.17, 983]
       hash_id: "0x8464b2a0e6538974"
       text: LB30 Korok Friends"
-    LB32:
-      coord: [-3976.49, 231.85, 731.85]
-      hash_id: "0x441a0cbb614486d9"
-      text: LB32 Land on Target"
     GH02:
       coord: [-3600.14, 15.32, 110.9]
       hash_id: "0x175cc755836bd41b"
@@ -2046,10 +2707,6 @@ presets:
       coord: [-3011.53, 237.62, 584.29]
       hash_id: "0x6ceb26714f5a0ca4"
       text: LB38 Rock Lift"
-    LB48:
-      coord: [-3200.54, 36.58, 343.28]
-      hash_id: "0xa9f0009e7175601a"
-      text: LB48 Goal Ring (Race)"
     LB33:
       coord: [-3434.75, 279.69, 708.36]
       hash_id: "0x38ffa9a68d9edee7"
@@ -2074,10 +2731,6 @@ presets:
       coord: [-3812.11, 654.04, -789.98]
       hash_id: "0x5c78e1a8ff5d6583"
       text: GH15 Rock Lift"
-    GH07:
-      coord: [-3653.91, 381.98, -392.4]
-      hash_id: "0x0a1d391869c86d8d"
-      text: GH07 Goal Ring (Race)"
     LB54:
       coord: [-2962, 249.5, 84.5]
       hash_id: "0x109d5c3cfc1cdbb3"
@@ -2090,10 +2743,6 @@ presets:
       coord: [-3600.73, 612.08, -916.12]
       hash_id: "0x1b1937e9b655414c"
       text: GH17 Rock Lift"
-    GH16:
-      coord: [-3674.24, 740, -798.67]
-      hash_id: "0x8b02e554bcc8847d"
-      text: GH16 Goal Ring (Race)"
     GH18:
       coord: [-4002.98, 820.09, -969.15]
       hash_id: "0xfc817200d5d513ae"
@@ -2102,10 +2751,6 @@ presets:
       coord: [-3249.08, 506.96, -1463.79]
       hash_id: "0x02b7be4f6807a9c2"
       text: GH32 Rock Lift"
-    GH33:
-      coord: [-3806.28, 423.22, -1474.82]
-      hash_id: "0x0ec371efc2b3740b"
-      text: GH33 Goal Ring (Race)"
     GH23:
       coord: [-3163.34, 544.35, -1037.72]
       hash_id: "0x6608a68c185b0c01"
@@ -2118,22 +2763,10 @@ presets:
       coord: [-3921.17, 347.59, -1590.68]
       hash_id: "0x2d0c418488b3138a"
       text: GH40 Offering Plate"
-    GH43:
-      coord: [-3193.17, 459.39, -1744.5]
-      hash_id: "0x49c0815855f1021d"
-      text: GH43 Hanging Acorn"
-    GH50:
-      coord: [-3581.69, 310.59, -1985.41]
-      hash_id: "0xe6c0f12c27dc1b77"
-      text: GH50 Hanging Acorn"
     GH20:
       coord: [-3737.1, 640.96, -996.46]
       hash_id: "0xdb45f15031ccb253"
       text: GH20 Flower Trail"
-    GC32:
-      coord: [-3934.83, 192.37, -2940.99]
-      hash_id: "0x67ae8a9d9858fb59"
-      text: GC32 Goal Ring (Race)"
     GC22:
       coord: [-2982.4, 131, -2327.5]
       hash_id: "0x15a4b1c5a6171c78"
@@ -2162,10 +2795,6 @@ presets:
       coord: [-3588.62, 158.14, -3029.56]
       hash_id: "0xa2ea9d03cb18c242"
       text: GC34 Flower Trail"
-    GC37:
-      coord: [-3430.75, 177.97, -3128.03]
-      hash_id: "0x67cfc5dc4bc18d95"
-      text: GC37 Land on Target"
     PS13:
       coord: [-2339.82, 509.5, 2955.47]
       hash_id: "0x1ca9c1898ede247d"
@@ -2186,34 +2815,10 @@ presets:
       coord: [-2795.5, 459.72, 2304.9]
       hash_id: "0x6400888dba389d0a"
       text: PS21 Korok Friends"
-    PS23:
-      coord: [-2739.09, 450.44, 2267.73]
-      hash_id: "0x86a97c98f7f25813"
-      text: PS23 Hanging Acorn"
-    PS10:
-      coord: [-1969.17, 459.29, 3113.43]
-      hash_id: "0x3acc5fe5dd251272"
-      text: PS10 Land on Target"
-    PS28:
-      coord: [-2074.54, 395.47, 2077.93]
-      hash_id: "0xb385d9517b4b590c"
-      text: PS28 Hanging Acorn"
-    LB04:
-      coord: [-2298.03, 403.48, 1908.36]
-      hash_id: "0xaddec8dbaf6b1da8"
-      text: LB04 Acorn in a Hole"
     LB07:
       coord: [-2221.22, 275.5, 1580.39]
       hash_id: "0xa6b1c6c0bc0165a0"
       text: LB07 Rock Lift"
-    PS30:
-      coord: [-2530.6, 409.06, 1854.96]
-      hash_id: "0xdcc0703c889fd11f"
-      text: PS30 Hanging Acorn"
-    LB16:
-      coord: [-2653.77, 312.25, 1283.25]
-      hash_id: "0x3c74abe3d89f5f29"
-      text: LB16 Goal Ring (Race)"
     LB41:
       coord: [-2919.95, 302.06, 546.2]
       hash_id: "0xecfa87cf2f39c358"
@@ -2230,10 +2835,6 @@ presets:
       coord: [-2871.88, 284.77, 494.62]
       hash_id: "0xec2195519e8cdba3"
       text: LB53 Korok Friends"
-    LB49:
-      coord: [-2913.73, 310.02, 240.41]
-      hash_id: "0x99971f1367b1b36c"
-      text: LB49 Goal Ring (Race)"
     LB23:
       coord: [-2341.68, 211.13, 939.24]
       hash_id: "0xf08da43e0532ff50"
@@ -2258,22 +2859,6 @@ presets:
       coord: [-2279.53, 503.77, -402.49]
       hash_id: "0x6afd8452447f54d4"
       text: HF03 Rock Lift"
-    GH08:
-      coord: [-2921.34, 120.85, -481.79]
-      hash_id: "0xdb1ba47d6acb664e"
-      text: GH08 Land on Target"
-    HF08:
-      coord: [-2437.12, 311.42, -554.49]
-      hash_id: "0xd4fab6d907e2214b"
-      text: HF08 Land on Target"
-    GH31:
-      coord: [-2961.95, 550.34, -1400.13]
-      hash_id: "0x15ac51bd47119a12"
-      text: GH31 Goal Ring (Race)"
-    GC03:
-      coord: [-2329.3, 244.83, -1825.36]
-      hash_id: "0x80b9c9fde2db8871"
-      text: GC03 Hanging Acorn"
     GC01:
       coord: [-2198.34, 167.21, -1679.96]
       hash_id: "0x81ada27f9633bbc7"
@@ -2306,26 +2891,10 @@ presets:
       coord: [-2264.59, 356.96, -2163.4]
       hash_id: "0xf203598f31e957d3"
       text: GC11 Rock Lift"
-    GC23:
-      coord: [-2011.91, 327.74, -2469.91]
-      hash_id: "0xe1e1aafdb1ebe09c"
-      text: GC23 Hanging Acorn"
-    GC16:
-      coord: [-2261.63, 398.02, -2341.1]
-      hash_id: "0xd160e850f10dcea4"
-      text: GC16 Goal Ring (Race)"
     GH54:
       coord: [-2936.8, 314.38, -2214.41]
       hash_id: "0xd0f485ba5905f0ea"
       text: GH54 Flower Trail"
-    GC28:
-      coord: [-2820.52, 173.6, -2831.7]
-      hash_id: "0x965d962e8c2c3657"
-      text: GC28 Goal Ring (Race)"
-    GC18:
-      coord: [-2712.97, 235.09, -2355.53]
-      hash_id: "0xc1ba15fcd1a97eb7"
-      text: GC18 Hanging Acorn"
     GC06:
       coord: [-2486.11, 227.06, -2054.55]
       hash_id: "0x0f69cec7b5105a3f"
@@ -2378,18 +2947,10 @@ presets:
       coord: [-1074.8, 227.59, 1277.17]
       hash_id: "0xf56bd7ce68ec4506"
       text: LB17 Offering Plate"
-    LL08:
-      coord: [-891.73, 118.24, 1037.22]
-      hash_id: "0x84170a0729746bab"
-      text: LL08 Land on Target"
     LB18:
       coord: [-1730.12, 353.34, 1162.47]
       hash_id: "0xd9fc88ea902e5b12"
       text: LB18 Through the Roof"
-    LB42:
-      coord: [-1346.61, 201.07, 530.54]
-      hash_id: "0x713a6e09d2b3064d"
-      text: LB42 Hanging Acorn"
     LB25:
       coord: [-1287.87, 204.7, 897.48]
       hash_id: "0x7d957f94d0365184"
@@ -2398,14 +2959,6 @@ presets:
       coord: [-1130.87, 144.74, 18.5]
       hash_id: "0x5584497f14f4ccd0"
       text: LL45 Rock Lift"
-    LB52:
-      coord: [-1148.64, 145.27, 221.75]
-      hash_id: "0x39eb0aa92810ec2d"
-      text: LB52 Hanging Acorn"
-    LL59:
-      coord: [-1088.66, 165.67, -514.06]
-      hash_id: "0x291ad1a54d9cb5dc"
-      text: LL59 Hanging Acorn"
     HF10:
       coord: [-1550.65, 133.5, -1000.09]
       hash_id: "0x7deb7883ac348bcf"
@@ -2418,14 +2971,6 @@ presets:
       coord: [-1742, 226.56, -400.97]
       hash_id: "0x4ca9cfca028b4ae5"
       text: HF02 Rock Lift"
-    LL55:
-      coord: [-1146.03, 144.77, -381.29]
-      hash_id: "0x10cd744d28343061"
-      text: LL55 Land on Target"
-    HF04:
-      coord: [-1955.85, 312.91, -410.11]
-      hash_id: "0xdecb228e16e0d21c"
-      text: HF04 Acorn in a Hole"
     HF24:
       coord: [-1816.16, 249.44, -971.92]
       hash_id: "0xddd947bcb47a9909"
@@ -2462,10 +3007,6 @@ presets:
       coord: [-1771.4, 115.7, -1243.44]
       hash_id: "0x8deeafa8a1181258"
       text: HF33 Rock Lift"
-    HF35:
-      coord: [-1428.09, 142.35, -1297.98]
-      hash_id: "0xe02b22e64c15faf5"
-      text: HF35 Acorn in a Hole"
     HF49:
       coord: [-1202.35, 189.39, -1690.78]
       hash_id: "0xbbcdd3dfff43d7a4"
@@ -2474,10 +3015,6 @@ presets:
       coord: [-1967.9, 203.88, -1090.5]
       hash_id: "0xb8960219505a8593"
       text: HF29 Flower Trail"
-    HF26:
-      coord: [-1598.19, 123.75, -1015.71]
-      hash_id: "0xb8bb9d53ead817a6"
-      text: HF26 Hanging Acorn"
     GC19:
       coord: [-1615.44, 100.53, -2403.14]
       hash_id: "0xa5ac2e959b3cf697"
@@ -2518,18 +3055,10 @@ presets:
       coord: [-322.37, 205.52, 3161.93]
       hash_id: "0x93c7e6b9fd7e6e7c"
       text: TR09 Korok Friends"
-    PS09:
-      coord: [-873.9, 333.16, 3313.1]
-      hash_id: "0x487fe6c2221ef12e"
-      text: PS09 Acorn in a Hole"
     LB02:
       coord: [-546, 373.5, 2223]
       hash_id: "0x45e3b3b7e746ec48"
       text: LB02 Korok Friends"
-    TR19:
-      coord: [-665.9, 179.47, 1190.94]
-      hash_id: "0x75720e1a74403956"
-      text: TR19 Acorn in a Hole"
     LB03:
       coord: [-669.65, 239.33, 1966.72]
       hash_id: "0x7a53c47712b65188"
@@ -2538,10 +3067,6 @@ presets:
       coord: [-128.31, 202.34, 813.76]
       hash_id: "0xa4d884bd5e8f57b8"
       text: LL24 Rock Lift"
-    LL01:
-      coord: [-124.41, 141.89, 1192.74]
-      hash_id: "0xee47cb5909591760"
-      text: LL01 Hanging Acorn"
     LL30:
       coord: [-237.41, 185.36, 632.46]
       hash_id: "0xfabc2096c0af7025"
@@ -2554,14 +3079,6 @@ presets:
       coord: [-426.95, 223.03, 890.66]
       hash_id: "0xeee2af2e4df05a7b"
       text: LL16 Flower Trail"
-    LL02:
-      coord: [-282.17, 182.85, 1125.08]
-      hash_id: "0x75835b25478a6a10"
-      text: LL02 Land on Target"
-    LL44:
-      coord: [-748.18, 136.49, 200.28]
-      hash_id: "0x781f1b41c9c2a39b"
-      text: LL44 Acorn in a Hole"
     LL05:
       coord: [-779.44, 122.85, 938.84]
       hash_id: "0x86b688f4417e6e8c"
@@ -2570,14 +3087,6 @@ presets:
       coord: [-254.28, 151.89, 257.24]
       hash_id: "0xb3a04ef3d6fe86e8"
       text: LL42 Rock Lift"
-    LL23:
-      coord: [-941.9, 134.97, 819.68]
-      hash_id: "0x3494a515ad3afec9"
-      text: LL23 Goal Ring (Race)"
-    LL12:
-      coord: [-666.31, 115.67, 962.91]
-      hash_id: "0x59be5b86dda12799"
-      text: LL12 Hanging Acorn"
     LL37:
       coord: [-253.97, 134.92, 425.91]
       hash_id: "0x8b639e8e061957c6"
@@ -2618,18 +3127,10 @@ presets:
       coord: [-764.75, 135.04, -673.62]
       hash_id: "0x4616e6f7caab28b0"
       text: HF13 Rock Lift"
-    HF07:
-      coord: [-311.14, 131.03, -550.09]
-      hash_id: "0xb6d6dfe59019e605"
-      text: HF07 Acorn in a Hole"
     LL56:
       coord: [-217.75, 157.85, -383.11]
       hash_id: "0x033443a6a909d730"
       text: LL56 Rock Lift"
-    HF39:
-      coord: [-594.84, 144.57, -1414.73]
-      hash_id: "0x5a9018784c1e29b8"
-      text: HF39 Goal Ring (Race)"
     HF60:
       coord: [-889.49, 212.09, -1907.83]
       hash_id: "0x90bf00482aee36fd"
@@ -2650,14 +3151,6 @@ presets:
       coord: [-950.71, 197.31, -1839.77]
       hash_id: "0x654859ee55bc31c7"
       text: HF57 Through the Roof"
-    HF42:
-      coord: [-611.77, 179.39, -1525.45]
-      hash_id: "0x30e6acae3ec006ab"
-      text: HF42 Hanging Acorn"
-    HF54:
-      coord: [-668.02, 183.74, -1779.63]
-      hash_id: "0xb6ed06e7d4ed4ea5"
-      text: HF54 Land on Target"
     HF58:
       coord: [-694.28, 172, -1576.46]
       hash_id: "0xcde0858addf5840e"
@@ -2686,18 +3179,10 @@ presets:
       coord: [-711.64, 204.77, -2624.98]
       hash_id: "0x6b759a709a6be904"
       text: PF35 Rock Lift"
-    PF31:
-      coord: [-65.67, 123.2, -2441.01]
-      hash_id: "0xfb215b8ed2d76766"
-      text: PF31 Hanging Acorn"
     HF73:
       coord: [-790.08, 193.59, -2229.78]
       hash_id: "0xb01bba97c1acc336"
       text: HF73 Offering Plate"
-    PF37:
-      coord: [25.32, 187.89, -2728.3]
-      hash_id: "0x6e9824184ab88917"
-      text: PF37 Goal Ring (Race)"
     PF63:
       coord: [-224.58, 177.19, -3340.61]
       hash_id: "0xcdcb4fa83a6d9116"
@@ -2706,10 +3191,6 @@ presets:
       coord: [-150.91, 143.29, -3068.25]
       hash_id: "0x4591d3d81f56b8f8"
       text: PF51 Rock Lift"
-    PF56:
-      coord: [-800.75, 199.21, -3257.71]
-      hash_id: "0x6e95a7fdad85fe11"
-      text: PF56 Hanging Acorn"
     GC39:
       coord: [-994.92, 356.58, -3254.33]
       hash_id: "0xa2eb9ec95c99f353"
@@ -2730,10 +3211,6 @@ presets:
       coord: [127.9, 286.82, 3151.01]
       hash_id: "0x761aa04b1bb09961"
       text: TR05 Rock Lift"
-    TR06:
-      coord: [52.11, 281.83, 3147.03]
-      hash_id: "0x91e0eaf38b83de4a"
-      text: TR06 Land on Target"
     TR12:
       coord: [785.73, 387.74, 2953.05]
       hash_id: "0x0f52a4fe25499f09"
@@ -2754,22 +3231,6 @@ presets:
       coord: [770.25, 193.08, 1415.68]
       hash_id: "0x06b1e1eaac6a4912"
       text: EC46 Rock Lift"
-    TR20:
-      coord: [399, 115.27, 1174.28]
-      hash_id: "0x020feb59b20954c5"
-      text: TR20 Hanging Acorn"
-    TR18:
-      coord: [656.79, 144.95, 1371.21]
-      hash_id: "0x0e45f9b03f3eb3f4"
-      text: TR18 Hanging Acorn"
-    EC44:
-      coord: [951.05, 266.22, 1536.43]
-      hash_id: "0x75e25564ea2ad398"
-      text: EC44 Hanging Acorn"
-    EC41:
-      coord: [758.7, 259.31, 1643.56]
-      hash_id: "0x4a46475d791463b2"
-      text: EC41 Goal Ring (Race)"
     SS01:
       coord: [966.93, 115.9, 1027.06]
       hash_id: "0xb87bce7e3ba1a303"
@@ -2778,10 +3239,6 @@ presets:
       coord: [966.37, 194.27, 627.79]
       hash_id: "0x185229637b156984"
       text: SS05 Flower Trail"
-    LL27:
-      coord: [269.73, 116.41, 701.14]
-      hash_id: "0x6608da933614f324"
-      text: LL27 Hanging Acorn"
     LL36:
       coord: [384.34, 159.78, 462.41]
       hash_id: "0x744470ee054e17b3"
@@ -2794,22 +3251,10 @@ presets:
       coord: [849.97, 223.85, 792.65]
       hash_id: "0x6bf7ea4fb1d30ba0"
       text: SS03 Flower Trail"
-    LL32:
-      coord: [133.31, 134.04, 599.7]
-      hash_id: "0x96e1861fe71bedf7"
-      text: LL32 Acorn in a Hole"
     SS10:
       coord: [919.22, 195.13, 410.38]
       hash_id: "0x10da3261b7a6a07c"
       text: SS10 Through the Roof"
-    LL53:
-      coord: [289.89, 133.23, -246.79]
-      hash_id: "0x9662bf80ffa514ed"
-      text: LL53 Acorn in a Hole"
-    SS17:
-      coord: [838.28, 121.05, -30.17]
-      hash_id: "0x84f594534858b793"
-      text: SS17 Goal Ring (Race)"
     LL57:
       coord: [754.16, 135.87, -450.53]
       hash_id: "0x78ffbf9763eb6581"
@@ -2838,10 +3283,6 @@ presets:
       coord: [163.54, 151.31, -1940.1]
       hash_id: "0x14a3db2c6ac8d31f"
       text: PF19 Offering Plate"
-    PF11:
-      coord: [734.7, 148.72, -1503.51]
-      hash_id: "0x6b7cfa6438b02e31"
-      text: PF11 Acorn in a Hole"
     PF14:
       coord: [293, 133.17, -1204.5]
       hash_id: "0x6f15b03752685eb5"
@@ -2862,10 +3303,6 @@ presets:
       coord: [459.18, 133.34, -1698.69]
       hash_id: "0xcd7a6dd8a2c3ce73"
       text: PF15 Flower Trail"
-    PF02:
-      coord: [627.54, 120.3, -1161.56]
-      hash_id: "0x536160272d49959c"
-      text: PF02 Acorn in a Hole"
     HF59:
       coord: [-0.83, 214.49, -1900.32]
       hash_id: "0x795cac82ff0edebb"
@@ -2882,10 +3319,6 @@ presets:
       coord: [228.68, 120.52, -1608.88]
       hash_id: "0x71332bf40218b494"
       text: PF13 Through the Roof"
-    PF21:
-      coord: [458.95, 117.62, -2141.78]
-      hash_id: "0x50169f466004791a"
-      text: PF21 Goal Ring (Race)"
     PF28:
       coord: [567.27, 218.06, -2384.24]
       hash_id: "0x99d3f119204f7e1c"
@@ -2910,10 +3343,6 @@ presets:
       coord: [339.97, 90.53, -2832.5]
       hash_id: "0x5a8c0f0e980cb7da"
       text: PF40 Rock Lift"
-    PF29:
-      coord: [889.11, 183.79, -2394.23]
-      hash_id: "0xb281a2f987bcb44f"
-      text: PF29 Goal Ring (Race)"
     PF79:
       coord: [814.09, 210.74, -3704.93]
       hash_id: "0xc37df8786dfa71d7"
@@ -2934,10 +3363,6 @@ presets:
       coord: [67.88, 111, -3759.13]
       hash_id: "0xb7d876fb848a007c"
       text: PF86 Korok Friends"
-    PF87:
-      coord: [272.37, 109.52, -3905.6]
-      hash_id: "0xccb2720dc9a3794e"
-      text: PF87 Hanging Acorn"
     TR02:
       coord: [1025, 216.5, 3671]
       hash_id: "0x2b954ce40e323553"
@@ -2958,10 +3383,6 @@ presets:
       coord: [1816.66, 507, 2645.48]
       hash_id: "0xe75f2ba499cca6a8"
       text: EC15 Korok Friends"
-    EC28:
-      coord: [1755.41, 589.82, 2224.93]
-      hash_id: "0x5cd2b42649138cba"
-      text: EC28 Land on Target"
     EC16:
       coord: [1724.5, 604.77, 2554.51]
       hash_id: "0x7f18fb748c5e4fdd"
@@ -2974,10 +3395,6 @@ presets:
       coord: [1250.28, 527.5, 3002.6]
       hash_id: "0x7ccf289a445a9a99"
       text: TR13 Korok Friends"
-    EC11:
-      coord: [1567.5, 507.23, 2946.09]
-      hash_id: "0x40e719bfab8370b2"
-      text: EC11 Hanging Acorn"
     EC36:
       coord: [1544.5, 388.5, 1808.51]
       hash_id: "0xdb7033b58af655e4"
@@ -2986,18 +3403,10 @@ presets:
       coord: [1671.23, 447.4, 1981.33]
       hash_id: "0x9b004503f2f600c7"
       text: EC31 Rock Lift"
-    EC48:
-      coord: [1334.47, 277.29, 1317.58]
-      hash_id: "0x21a0c1ea1acd0fbc"
-      text: EC48 Acorn in a Hole"
     EC42:
       coord: [1534, 411.5, 1609]
       hash_id: "0xcae5e6a73bbeac22"
       text: EC42 Korok Friends"
-    EC60:
-      coord: [1466.56, 133.82, 677.61]
-      hash_id: "0x18c21efaf334333d"
-      text: EC60 Acorn in a Hole"
     SS13:
       coord: [1537.1, 115.5, 511.5]
       hash_id: "0x6c107fb060500012"
@@ -3022,10 +3431,6 @@ presets:
       coord: [1857.98, 197.29, 786.15]
       hash_id: "0x305c614a1f34bae9"
       text: EC57 Rock Lift"
-    SS09:
-      coord: [1482.68, 116.75, 443.37]
-      hash_id: "0xed1e5973a85751d7"
-      text: SS09 Hanging Acorn"
     SS30:
       coord: [960.98, 137.07, -201.78]
       hash_id: "0x8476fce426d4833c"
@@ -3054,26 +3459,10 @@ presets:
       coord: [1824.72, 118.19, -459.5]
       hash_id: "0x54106121dab36edc"
       text: SS24 Rock Lift"
-    SS32:
-      coord: [1115.5, 172, -731.75]
-      hash_id: "0x1051d3122f2a747b"
-      text: SS32 Hanging Acorn"
     SS38:
       coord: [1694.6, 416.18, -929.15]
       hash_id: "0x1d948b9fec609676"
       text: SS38 Rock Lift"
-    PF01:
-      coord: [1040.53, 118.5, -1068.5]
-      hash_id: "0x7de66884408148fc"
-      text: PF01 Goal Ring (Race)"
-    SS36:
-      coord: [1791.37, 223.62, -852.94]
-      hash_id: "0x29802b86e0991251"
-      text: SS36 Hanging Acorn"
-    SS40:
-      coord: [1997.13, 281.93, -958.93]
-      hash_id: "0x2e316859614d8088"
-      text: SS40 Hanging Acorn"
     SS63:
       coord: [1169.4, 115.5, -1883]
       hash_id: "0x3e5f8f162d00ae26"
@@ -3086,10 +3475,6 @@ presets:
       coord: [1537.07, 167.65, -1301.75]
       hash_id: "0xc911408c73a82c97"
       text: SS50 Rock Lift"
-    SS51:
-      coord: [1291.45, 269.65, -1330.91]
-      hash_id: "0xf543848c315bb272"
-      text: SS51 Acorn in a Hole"
     SS57:
       coord: [1786.58, 116.21, -1551.79]
       hash_id: "0x75b000d32ab87851"
@@ -3102,18 +3487,6 @@ presets:
       coord: [1925.51, 187.32, -1489.51]
       hash_id: "0xd3a6cd423e176fef"
       text: SS55 Rock Lift"
-    SS70:
-      coord: [1279.87, 526.11, -1962.67]
-      hash_id: "0x4c1969dae6181205"
-      text: SS70 Land on Target"
-    RW13:
-      coord: [1959.98, 356.99, -2627.81]
-      hash_id: "0x4c7f2227f6dfa1ea"
-      text: RW13 Hanging Acorn"
-    RW06:
-      coord: [1999.11, 116.46, -2281.76]
-      hash_id: "0xd2b2e7fc38e6ccf5"
-      text: RW06 Acorn in a Hole"
     PF49:
       coord: [1777.18, 188.45, -2990.83]
       hash_id: "0x2a4d578800c04075"
@@ -3158,26 +3531,14 @@ presets:
       coord: [1397.62, 107.61, -3642.26]
       hash_id: "0x4e314676408880ec"
       text: PF82 Korok Friends"
-    RW43:
-      coord: [2011.18, 110.53, -3957.02]
-      hash_id: "0x9880ef2ac1965948"
-      text: RW43 Goal Ring (Race)"
     PF64:
       coord: [1847.43, 164.32, -3342.59]
       hash_id: "0xd01748274126a19f"
       text: PF64 Offering Plate"
-    EC08:
-      coord: [2231.74, 551.66, 3042.21]
-      hash_id: "0x0388af9f5240c043"
-      text: EC08 Hanging Acorn"
     EC05:
       coord: [2405.97, 520.32, 3327.95]
       hash_id: "0xa18b8abf1cd831de"
       text: EC05 Through the Roof"
-    EC07:
-      coord: [2155.55, 582.98, 3055.78]
-      hash_id: "0xe817b25b07474ca1"
-      text: EC07 Goal Ring (Race)"
     EC22:
       coord: [2238.55, 635.53, 2363.35]
       hash_id: "0xbf5ac6a86815ec33"
@@ -3198,10 +3559,6 @@ presets:
       coord: [2268.56, 438.41, 1837.02]
       hash_id: "0xaef46f1ee419acad"
       text: EC34 Flower Trail"
-    EC47:
-      coord: [2751.78, 234.77, 1373.53]
-      hash_id: "0x9a7779752b4e3fa9"
-      text: EC47 Goal Ring (Race)"
     EC53:
       coord: [2313.57, 295.22, 1132.86]
       hash_id: "0xdddb7bf9de3a1a95"
@@ -3226,18 +3583,6 @@ presets:
       coord: [2242.82, 120, 243.97]
       hash_id: "0x970d75f6ffc93a9f"
       text: UZ44 Korok Friends"
-    UZ47:
-      coord: [2307.6, 210.04, 132.86]
-      hash_id: "0x58e19a61805beae7"
-      text: UZ47 Hanging Acorn"
-    UZ26:
-      coord: [2580.38, 287.95, 488.18]
-      hash_id: "0x1bd56230b4281fd4"
-      text: UZ26 Goal Ring (Race)"
-    UZ40:
-      coord: [2941.59, 312.48, 210.35]
-      hash_id: "0x7252cd2805c3e811"
-      text: UZ40 Acorn in a Hole"
     UZ45:
       coord: [2471.85, 184.82, 150.5]
       hash_id: "0xa187ec5351ebd3b6"
@@ -3250,10 +3595,6 @@ presets:
       coord: [2691.3, 217.05, -542.07]
       hash_id: "0x0c3fc1a964ffdccb"
       text: SS28 Korok Friends"
-    SS22:
-      coord: [2638, 264.89, -368.31]
-      hash_id: "0x016fa4a1b7c5252d"
-      text: SS22 Hanging Acorn"
     SS31:
       coord: [2239.74, 338.14, -726.32]
       hash_id: "0x3d5708df9b97afc1"
@@ -3278,10 +3619,6 @@ presets:
       coord: [2029.73, 265.68, -1166.69]
       hash_id: "0x35397a59967e4e58"
       text: SS49 Rock Lift"
-    SS46:
-      coord: [2545.85, 217.1, -1077.35]
-      hash_id: "0xb64a256427fccd2a"
-      text: SS46 Hanging Acorn"
     ML19:
       coord: [2478.43, 116.16, -1740.21]
       hash_id: "0xfd132df124d41952"
@@ -3302,10 +3639,6 @@ presets:
       coord: [2325.78, 132.95, -1828.58]
       hash_id: "0x2b749fc4ae1e4a25"
       text: SS62 Rock Lift"
-    RW17:
-      coord: [2579.32, 365.29, -2729.39]
-      hash_id: "0x51d31a2da3ec412f"
-      text: RW17 Goal Ring (Race)"
     RW03:
       coord: [2724.81, 256, -2122.34]
       hash_id: "0x0f5148941f612562"
@@ -3334,18 +3667,10 @@ presets:
       coord: [2489.61, 138.97, -2122.53]
       hash_id: "0x8d3de9430aaf4589"
       text: ML28 Rock Lift"
-    RW32:
-      coord: [2363.39, 194.47, -3437.92]
-      hash_id: "0x02cf11c67360bdbd"
-      text: RW32 Goal Ring (Race)"
     RW41:
       coord: [2245.49, 135, -3469.26]
       hash_id: "0x2a2ce4df12954054"
       text: RW41 Korok Friends"
-    RW26:
-      coord: [2540.08, 170.88, -3291.42]
-      hash_id: "0x56f7ff3c7190bac9"
-      text: RW26 Land on Target"
     RW42:
       coord: [2828.52, 106.5, -3886.45]
       hash_id: "0x5e009362d5eac4a3"
@@ -3362,14 +3687,6 @@ presets:
       coord: [3350.31, 164.96, 3074.14]
       hash_id: "0xc2e135225b7000a5"
       text: UM14 Offering Plate"
-    UM03:
-      coord: [3186.2, 196.22, 3458.82]
-      hash_id: "0xb101113fece9677b"
-      text: UM03 Land on Target"
-    UM15:
-      coord: [3544.47, 187.87, 3023.96]
-      hash_id: "0x4c0759622af1da1b"
-      text: UM15 Land on Target"
     EC03:
       coord: [3349.6, 327, 3664.5]
       hash_id: "0xcc9b683cea8d43ce"
@@ -3410,10 +3727,6 @@ presets:
       coord: [3882.46, 353.24, 1341.74]
       hash_id: "0x7915126d76cca4fb"
       text: UZ03 Flower Trail"
-    UZ29:
-      coord: [3069.79, 379.76, 456.6]
-      hash_id: "0x6938008b636b9c0a"
-      text: UZ29 Goal Ring (Race)"
     UZ35:
       coord: [3219.53, 184.17, 282.01]
       hash_id: "0x99f0cb5eefabe27d"
@@ -3434,10 +3747,6 @@ presets:
       coord: [3678.04, 363.36, 450.1]
       hash_id: "0x937b22d749936ce6"
       text: UZ30 Flower Trail"
-    UZ38:
-      coord: [2954.93, 327.91, 256.16]
-      hash_id: "0xe88b9aeef786c7c0"
-      text: UZ38 Goal Ring (Race)"
     UZ23:
       coord: [3329.76, 217.88, 532.85]
       hash_id: "0xd30c5caa1f0a8670"
@@ -3458,10 +3767,6 @@ presets:
       coord: [4001.55, 281.5, -184.31]
       hash_id: "0xdd5da6276f00a45f"
       text: UZ71 Korok Friends"
-    UZ54:
-      coord: [3272.69, 383.45, -13.03]
-      hash_id: "0x08e8992879723b79"
-      text: UZ54 Land on Target"
     UZ70:
       coord: [3711.97, 106.93, -622.12]
       hash_id: "0x561014c04a918a30"
@@ -3478,10 +3783,6 @@ presets:
       coord: [3749.07, 126.55, -2629.29]
       hash_id: "0x0741610897698b52"
       text: ML45 Rock Lift"
-    ML23:
-      coord: [2975.55, 124.76, -2025.2]
-      hash_id: "0xb246ac55489a75b1"
-      text: ML23 Land on Target"
     ML39:
       coord: [3248, 236.5, -2283]
       hash_id: "0x1b71d003da4baf6e"
@@ -3498,10 +3799,6 @@ presets:
       coord: [3264.48, 212.46, -2225.93]
       hash_id: "0x50ccb18cd3a99fad"
       text: ML34 Rock Lift"
-    RW27:
-      coord: [3495.78, 332.65, -3311.49]
-      hash_id: "0x09e727a91b073e06"
-      text: RW27 Acorn in a Hole"
     RW25:
       coord: [3665.76, 311.54, -3277.42]
       hash_id: "0xcce3348a0785214a"
@@ -3514,18 +3811,10 @@ presets:
       coord: [3544.68, 106.16, -3456.24]
       hash_id: "0x179c18302eece651"
       text: RW40 Korok Friends"
-    RW29:
-      coord: [3064.48, 126.04, -3395.47]
-      hash_id: "0x133abfb7b6706179"
-      text: RW29 Goal Ring (Race)"
     UM07:
       coord: [4282, 277.5, 3270.5]
       hash_id: "0x8179acfb6c1a014b"
       text: UM07 Korok Friends"
-    UM06:
-      coord: [4117.8, 308.58, 3286.25]
-      hash_id: "0xacbb5e7282f548f6"
-      text: UM06 Hanging Acorn"
     UM10:
       coord: [4157.26, 355.83, 3167.72]
       hash_id: "0x4bdeebd9cf53e12f"
@@ -3570,10 +3859,6 @@ presets:
       coord: [4165.51, 455.02, 63.29]
       hash_id: "0x888bb5465e0fb942"
       text: UZ49 Rock Lift"
-    UZ07:
-      coord: [4561.24, 284.57, 940.81]
-      hash_id: "0xb89f7d67bdf4b58c"
-      text: UZ07 Goal Ring (Race)"
     UZ12:
       coord: [4054.92, 381.75, 947.96]
       hash_id: "0x092ea2b579cab4aa"
@@ -3582,10 +3867,6 @@ presets:
       coord: [4077.58, 340.83, 821.02]
       hash_id: "0xf6ad8ace15b02a4c"
       text: UZ10 Through the Roof"
-    UZ21:
-      coord: [4635.29, 323.17, 566.09]
-      hash_id: "0xd7f3fd658d143424"
-      text: UZ21 Land on Target"
     UZ27:
       coord: [4101.72, 368.68, 474.36]
       hash_id: "0x43215f45979c6622"
@@ -3602,10 +3883,6 @@ presets:
       coord: [4441.34, 176.75, -480.19]
       hash_id: "0x5882b0baf4cbb284"
       text: UZ67 Through the Roof"
-    UZ60:
-      coord: [4231.38, 109.9, -311.05]
-      hash_id: "0xd5200f8502156812"
-      text: UZ60 Goal Ring (Race)"
     UZ61:
       coord: [4459.47, 162.18, -357.05]
       hash_id: "0xb3c234840466577c"
@@ -3634,38 +3911,14 @@ presets:
       coord: [-3218.41, 1477.8, 3376.99]
       hash_id: "0x75cc90ceb2c122d7"
       text: RPS01 Rock Lift"
-    RPS02:
-      coord: [-2989.52, 950.15, 3141.73]
-      hash_id: "0x5d4a1aa8a1f9c2e8"
-      text: RPS02 Goal Ring (Race)"
-    UMS02:
-      coord: [4653.96, 1344.99, 2137.07]
-      hash_id: "0xf9ea5281c2f35aca"
-      text: UMS02 Land on Target"
     HFS02:
       coord: [-793.57, 1041.82, -1601.78]
       hash_id: "0x0d44491367c38d92"
       text: HFS02 Rock Lift"
-    HFS01:
-      coord: [-1402.8, 1138.36, -1522.87]
-      hash_id: "0x1fb9be21384fb6a9"
-      text: HFS01 Touch the Target"
-    ECS02:
-      coord: [1690.65, 1260.48, 1199.49]
-      hash_id: "0x735c8b810bd78ce6"
-      text: ECS02 Hanging Acorn"
-    ECS01:
-      coord: [2049.99, 1396.16, 1201.01]
-      hash_id: "0x801643bbb927b8ae"
-      text: ECS01 Touch the Target"
     PFS01:
       coord: [126.06, 796.91, -2502.47]
       hash_id: "0x0b0f272dece7471f"
       text: PFS01 Rock Lift"
-    SSS07:
-      coord: [1336.72, 700.42, -2061.9]
-      hash_id: "0x23ea491f726cdfca"
-      text: SSS07 Land on Target"
     SSS03:
       coord: [2344.92, 1991.43, -1752.77]
       hash_id: "0xc201f396c3622317"
@@ -3674,58 +3927,14 @@ presets:
       coord: [2332.08, 1822.21, -1827.36]
       hash_id: "0xfebcd969d8ce6a32"
       text: SSS05 Flower Trail"
-    SSS04:
-      coord: [2430.36, 1622.59, -1783.23]
-      hash_id: "0xc2a022fe9b384466"
-      text: SSS04 Goal Ring (Race)"
-    RWS02:
-      coord: [2932.88, 1363.61, -2991.81]
-      hash_id: "0x1c8d77e74a772598"
-      text: RWS02 Touch the Target"
     RWS01:
       coord: [2719.47, 1328.37, -2739.68]
       hash_id: "0x5c5eb9bd003a50f3"
       text: RWS01 Rock Lift"
-    GCS01:
-      coord: [-1929.45, 1255.55, -1823.98]
-      hash_id: "0x4b4cf8229544ed05"
-      text: GCS01 Land on Target"
     PSS01:
       coord: [-1683.65, 1091.84, 3572.73]
       hash_id: "0xa7dabc07c454a6c5"
       text: PSS01 Flower Trail"
-    PSS03:
-      coord: [-1662.7, 1082.28, 3285.3]
-      hash_id: "0x057c9fd8a6e475cb"
-      text: PSS03 Touch the Target"
-    TRS01:
-      coord: [524.49, 1967.67, 2748.37]
-      hash_id: "0xec3ce9e972abf911"
-      text: TRS01 Touch the Target"
-    RPS03:
-      coord: [-3917.26, 840.22, 2880.21]
-      hash_id: "0xcccc7e5ace85c246"
-      text: RPS03 Touch the Target"
-    RPS04:
-      coord: [-3101.78, 755.45, 2142.18]
-      hash_id: "0x56a3a11a7a80395d"
-      text: RPS04 Land on Target"
-    LBS05:
-      coord: [-3959.79, 1608.93, 691.91]
-      hash_id: "0x722109ee22de15c7"
-      text: LBS05 Land on Target"
-    LBS01:
-      coord: [-3645.03, 1900.55, 1048.27]
-      hash_id: "0x96819f6fe87ddf68"
-      text: LBS01 Land on Target"
-    LBS03:
-      coord: [-3598.97, 1927.86, 978.57]
-      hash_id: "0x6735acdfbbf17801"
-      text: LBS03 Hanging Acorn"
-    GHS01:
-      coord: [-3369.14, 2392.14, -50.82]
-      hash_id: "0x197cbf3c97ef82c1"
-      text: GHS01 Land on Target"
     GSI05:
       coord: [512.73, 1525.46, -1317.84]
       hash_id: "0x19d0c9ba930c53c1"
