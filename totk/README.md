@@ -18,8 +18,8 @@ config:
 # See `Layers` below on what to use here
 # `full` includes everything. Most routes can use `most`, which is `full` without koroks
 - use: Pistonight/celer-presets/totk/full.yaml
-plugins:
-- use: variables # required
+- plugins:
+  - use: variables # required
 ```
 
 ### Layers
