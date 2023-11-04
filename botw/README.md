@@ -47,15 +47,15 @@ Each layer also includes everything in the previous layer
         - important
         - dir
         - terrain
-    - Time of Day (Tod)
-    - Chest
-    - Equipment
-    - Shop
-    - Npc
-    - Cook
-    - Discover
-    - Snap
-    - Material
+    - [Time of Day (Tod)](#tod)
+    - [Chest](#chest)
+    - [Equipment](#equipment)
+    - [Shop](#shop)
+    - [Npc](#npc)
+    - [Cook](#cook)
+    - [Discover](#discover)
+    - [Snap](#snap)
+    - [Material](#material)
     ```yaml
     - use: Pistonight/celer-presets/botw/mini.yaml
     ```
@@ -195,10 +195,10 @@ Preset for NPC icon. Currently does not provide coordinates for each NPC.
 - _Npc::Rito<Kass>
 - _Npc::Goron<Bludo>
 - _Npc::Gerudo<Riju>
-- _Npc::SheikaMale<Pumpkin>
-- _Npc::SheikaFemale<Impa>
-- _Npc::ZoraMale<Muzu>
-- _Npc::ZoraFemale<Mipha>
+- _Npc::Sheika::Male<Pumpkin>
+- _Npc::Sheika::Female<Impa>
+- _Npc::Zora::Male<Muzu>
+- _Npc::Zora::Female<Mipha>
 ```
 #### `Cook`
 Preset for a cook icon

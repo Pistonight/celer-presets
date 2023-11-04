@@ -133,8 +133,10 @@ presets:
       Male:
         text: ".npc($(0))"
         icon: npc-sheika-male
-    Sheika:
-      presets: [_Npc::Sheika::Female]
+    SheikaFemale:
+      presets: _Npc::Sheika::Female<$(0)>
+    SheikaMale:
+      presets: _Npc::Sheika::Male<$(0)>
     _Zora:
       Female:
         text: ".npc($(0))"
@@ -142,8 +144,10 @@ presets:
       Male:
         text: ".npc($(0))"
         icon: npc-zora-male
-    Zora:
-      presets: [_Npc::Zora::Female]
+    ZoraFemale:
+      presets: _Npc::Zora::Female<$(0)>
+    ZoraMale:
+      presets: _Npc::Zora::Male<$(0)>
   Cook:
     text: ".item($(0))"
     icon: cook
