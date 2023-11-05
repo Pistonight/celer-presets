@@ -3,27 +3,33 @@ presets:
     _TechLab:
       Hateno:
         presets: _Warp3<Hateno Tech Lab,3779,370,-2111>
+        icon: warp
     _Mine:
       Central:
         presets:
         - _Warp3<Abandoned Central Mine,-821,-403,-1940>
-        - _WarpDepth
+        icon: warp-depth
     _Temple:
       Wind:
         presets: _Warp3<Wind Temple,-2859,1738,2957>
+        icon: warp
       Water:
         presets: _Warp3<Water Temple,3357,1862,770>
+        icon: warp
       Fire: 
         presets:
         - _Warp3<Fire Temple,1301,-683,2847>
-        - _WarpDepth
+        icon: warp-depth
       Lightning:
         presets: _Warp3<Lightning Temple,-4532,147,-3625>
+        icon: warp
       Spirit:
         presets:
         - _Warp3<Spirit Temple,1402,-3094,-0597>
-        - _WarpDepth
+        icon: warp-depth
     ROA:
       presets: _Warp3<RoA,369,2400,-1752>
+      icon: warp
     TravelMedallion:
       presets: _Warp3<Travel Medallion,$(0),$(1),$(2)>
+      icon: warp

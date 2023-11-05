@@ -3,18 +3,26 @@ presets:
     _TechLab:
       Akkala:
         presets: _Warp<Akkala Tech Lab,4522.01,3166.63>
+        icon: warp
       Hateno:
         presets: _Warp<Hateno Tech Lab,3777.71,2127.36>
+        icon: warp
     _Beast:
       Medoh:
         presets: _Warp<Vah Medoh,-3614.10,-1862.06>
+        icon: warp
       Naboris:
         presets: _Warp<Vah Naboris,-2110.15,2616.95>
+        icon: warp
       Rudania: 
         presets: _Warp<Vah Rudania,2451.85,-2559.08>
+        icon: warp
       Ruta:
         presets: _Warp<Vah Ruta,2970.18,235.47>
+        icon: warp
     SOR:
       presets: _Warp<SoR,-1096.05,1879.34>
+      icon: warp
     TravelMedallion:
       presets: _Warp<Travel Medallion,$(0),$(1)>
+      icon: warp
