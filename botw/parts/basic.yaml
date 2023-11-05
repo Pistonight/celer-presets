@@ -67,6 +67,35 @@ icons:
   make-noon: https://icons.pistonite.org/icon/misc.pot.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
   make-night: https://icons.pistonite.org/icon/misc.pot.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
   warp: https://icons.pistonite.org/icon/location.travel_medallion.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+  calamity: https://icons.pistonite.org/icon/shrine.double_sword.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  camera-elite: https://icons.pistonite.org/icon/rune.camera.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  camera-plus: https://icons.pistonite.org/icon/rune.camera.plus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  ganon: https://icons.pistonite.org/icon/character.ganon.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+  hestu: https://icons.pistonite.org/icon/character.hestu.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  house-plus: https://icons.pistonite.org/icon/location.house.plus.8c5e28.ff9900.8c5e28.ff9900.8c5e28.fdfdfd.png
+  king: https://icons.pistonite.org/icon/character.king.none.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  link: https://icons.pistonite.org/icon/character.link.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+  master-cycle: https://icons.pistonite.org/icon/rune.master_cycle_zero.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.pn
+  maz: https://icons.pistonite.org/icon/character.maz_koshia.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+  medoh-done: https://icons.pistonite.org/icon/location.medoh.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  medoh-enter: https://icons.pistonite.org/icon/location.medoh.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  medoh-memory: https://icons.pistonite.org/icon/character.revali.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  medoh-plus: https://icons.pistonite.org/icon/location.medoh.plus.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  naboris-done: https://icons.pistonite.org/icon/location.naboris.none.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  naboris-enter: https://icons.pistonite.org/icon/location.naboris.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  naboris-memory: https://icons.pistonite.org/icon/character.urbosa.none.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  naboris-plus: https://icons.pistonite.org/icon/location.naboris.plus.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  rudania-done: https://icons.pistonite.org/icon/location.rudania.none.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+  rudania-enter: https://icons.pistonite.org/icon/location.rudania.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  rudania-memory: https://icons.pistonite.org/icon/character.daruk.none.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+  rudania-plus: https://icons.pistonite.org/icon/location.rudania.plus.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+  ruta-done: https://icons.pistonite.org/icon/location.ruta.none.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  ruta-enter: https://icons.pistonite.org/icon/location.ruta.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  ruta-memory: https://icons.pistonite.org/icon/character.mipha.none.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  ruta-plus: https://icons.pistonite.org/icon/location.ruta.plus.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  snap: https://icons.pistonite.org/icon/rune.camera.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+  sor: https://icons.pistonite.org/icon/location.sor.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+  tots: https://icons.pistonite.org/icon/shrine.double_sword.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
 
 presets:
   Warp3:
