@@ -27,5 +27,5 @@ presets:
     icon: $(1)
     icon-priority: 0
     counter: .counter-dlc-shrine(EX)
-    coord: [$(1), $(2), $(3)]
+    coord: [$(2), $(3), $(4)]
   #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml

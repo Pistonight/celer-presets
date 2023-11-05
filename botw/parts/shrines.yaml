@@ -37,7 +37,7 @@ presets:
     icon: $(1)
     icon-priority: 0
     counter: .counter-dlc-shrine(EX)
-    coord: [$(1), $(2), $(3)]
+    coord: [$(2), $(3), $(4)]
   _Shrine:
     JaBaij:
       presets: _Shrine<Ja Baij,shrine,-446.7,180.02,1990.18>
