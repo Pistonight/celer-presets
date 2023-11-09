@@ -86,7 +86,7 @@ presets:
     _EC03:
       Start:
         presets: _KorokFriendStart<EC03>
-        coord: [3349.60,327.00,3664.50]
+        coord: [3349.50,326.94,3667.50]
       End:
         presets: _KorokFriendEnd<EC03>
         coord: [2968.30,330.35,3648.06]
@@ -107,7 +107,7 @@ presets:
     _EC06:
       Start:
         presets: _KorokFriendStart<EC06>
-        coord: [1720.10,535.93,2610.61]
+        coord: [1723.10,536.21,2610.61]
       End:
         presets: _KorokFriendEnd<EC06>
         coord: [1714.46,499.18,3060.56]
@@ -138,7 +138,7 @@ presets:
     _EC10:
       Start:
         presets: _KorokFriendStart<EC10>
-        coord: [2176.44,628.50,2783.00]
+        coord: [2178.03,628.63,2780.46]
       End:
         presets: _KorokFriendEnd<EC10>
         coord: [2510.56,628.92,2985.01]
@@ -165,7 +165,7 @@ presets:
     _EC15:
       Start:
         presets: _KorokFriendStart<EC15>
-        coord: [1816.66,507.00,2645.48]
+        coord: [1816.94,506.82,2642.47]
       End:
         presets: _KorokFriendEnd<EC15>
         coord: [1990.80,562.50,2596.79]
@@ -191,15 +191,15 @@ presets:
       presets: _Korok<EC22 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::EC22::Start
-      - [2223.54,627.87,-2376.67]
-      - [2222.15,635.01,-2379.82]
-      - [2229.31,635.46,-2376.54]
+      - [2223.54,627.87,2376.67]
+      - [2222.15,635.01,2379.82]
+      - [2229.31,635.46,2376.54]
       - _Korok::EC22::End
     _EC22:
       Start:
-        coord: [2223.67,626.07,-2368.83]
+        coord: [2223.67,626.07,2368.83]
       End:
-        coord: [2235.57,634.96,-2367.22]
+        coord: [2235.57,634.96,2367.22]
     EC23:
       presets: _Korok<EC23 Light Chase,korok-light-chase>
       coord: [2702.24,726.23,2347.98]
@@ -248,7 +248,7 @@ presets:
     _EC33:
       Start:
         presets: _KorokFriendStart<EC33>
-        coord: [1982.51,528.50,2037.77]
+        coord: [1980.50,528.82,2040.00]
       End:
         presets: _KorokFriendEnd<EC33>
         coord: [1832.47,448.00,1904.19]
@@ -256,15 +256,15 @@ presets:
       presets: _Korok<EC34 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::EC34::Start
-      - [2274.02,431.52,-1823.03]
-      - [2280.44,430.63,-1826.03]
-      - [2274.96,433.65,-1833.39]
+      - [2274.02,431.52,1823.03]
+      - [2280.44,430.63,1826.03]
+      - [2274.96,433.65,1833.39]
       - _Korok::EC34::End
     _EC34:
       Start:
-        coord: [2267.78,429.45,-1827.44]
+        coord: [2267.78,429.45,1827.44]
       End:
-        coord: [2264.82,437.36,-1836.83]
+        coord: [2264.82,437.36,1836.83]
     EC35:
       presets: _Korok<EC35 Balloon (Pinwheel\),korok-balloon>
       coord: [985.68,317.42,1804.81]
@@ -279,7 +279,7 @@ presets:
     _EC36:
       Start:
         presets: _KorokFriendStart<EC36>
-        coord: [1544.50,388.50,1808.51]
+        coord: [1541.50,388.82,1808.50]
       End:
         presets: _KorokFriendEnd<EC36>
         coord: [1504.40,415.45,1802.26]
@@ -316,7 +316,7 @@ presets:
     _EC42:
       Start:
         presets: _KorokFriendStart<EC42>
-        coord: [1534.00,411.50,1609.00]
+        coord: [1534.05,411.47,1605.99]
       End:
         presets: _KorokFriendEnd<EC42>
         coord: [1876.71,407.96,1629.50]
@@ -371,7 +371,7 @@ presets:
     _EC54:
       Start:
         presets: _KorokFriendStart<EC54>
-        coord: [2375.05,236.68,1403.28]
+        coord: [2372.34,236.69,1404.55]
       End:
         presets: _KorokFriendEnd<EC54>
         coord: [2129.27,237.61,1083.12]
@@ -422,7 +422,7 @@ presets:
     _GC05:
       Start:
         presets: _KorokFriendStart<GC05>
-        coord: [-1971.86,139.55,-2085.11]
+        coord: [-1984.43,138.96,-2079.17]
       End:
         presets: _KorokFriendEnd<GC05>
         coord: [-2050.82,147.47,-1995.14]
@@ -453,7 +453,7 @@ presets:
     _GC09:
       Start:
         presets: _KorokFriendStart<GC09>
-        coord: [-2430.60,340.19,-2119.28]
+        coord: [-2433.50,340.14,-2118.50]
       End:
         presets: _KorokFriendEnd<GC09>
         coord: [-2439.74,370.49,-2144.16]
@@ -473,15 +473,15 @@ presets:
       presets: _Korok<GC14 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::GC14::Start
-      - [-4432.99,183.18,2265.62]
-      - [-4433.13,179.10,2275.43]
-      - [-4424.37,174.57,2276.56]
+      - [-4432.99,183.18,-2265.62]
+      - [-4433.13,179.10,-2275.43]
+      - [-4424.37,174.57,-2276.56]
       - _Korok::GC14::End
     _GC14:
       Start:
-        coord: [-4442.97,185.82,2274.18]
+        coord: [-4442.97,185.82,-2274.18]
       End:
-        coord: [-4424.25,166.44,2263.67]
+        coord: [-4424.25,166.44,-2263.67]
     GC15:
       presets: _Korok<GC15 Lift Rock,korok-rock>
       coord: [-3749.12,183.57,-2287.38]
@@ -512,7 +512,7 @@ presets:
     _GC19:
       Start:
         presets: _KorokFriendStart<GC19>
-        coord: [-1615.44,100.53,-2403.14]
+        coord: [-1708.00,91.15,-2341.18]
       End:
         presets: _KorokFriendEnd<GC19>
         coord: [-1640.75,112.56,-2359.43]
@@ -530,7 +530,7 @@ presets:
     _GC21:
       Start:
         presets: _KorokFriendStart<GC21>
-        coord: [-1019.00,304.50,-2640.60]
+        coord: [-1017.98,305.77,-2632.50]
       End:
         presets: _KorokFriendEnd<GC21>
         coord: [-1374.11,210.96,-2443.93]
@@ -545,7 +545,7 @@ presets:
     _GC22:
       Start:
         presets: _KorokFriendStart<GC22>
-        coord: [-2982.40,131.00,-2327.50]
+        coord: [-2985.00,131.11,-2326.00]
       End:
         presets: _KorokFriendEnd<GC22>
         coord: [-3316.00,134.86,-2461.54]
@@ -600,20 +600,20 @@ presets:
       presets: _Korok<GC34 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::GC34::Start
-      - [-3579.84,143.22,3005.44]
-      - [-3574.95,145.12,3015.71]
-      - [-3582.24,151.59,3022.04]
-      - [-3585.43,147.72,3034.49]
-      - [-3601.19,139.38,3032.65]
-      - [-3601.43,146.51,3029.31]
-      - [-3598.05,150.41,3018.13]
-      - [-3595.57,154.14,3020.07]
+      - [-3579.84,143.22,-3005.44]
+      - [-3574.95,145.12,-3015.71]
+      - [-3582.24,151.59,-3022.04]
+      - [-3585.43,147.72,-3034.49]
+      - [-3601.19,139.38,-3032.65]
+      - [-3601.43,146.51,-3029.31]
+      - [-3598.05,150.41,-3018.13]
+      - [-3595.57,154.14,-3020.07]
       - _Korok::GC34::End
     _GC34:
       Start:
-        coord: [-3592.10,141.32,3006.34]
+        coord: [-3592.10,141.32,-3006.34]
       End:
-        coord: [-3586.61,158.22,3027.01]
+        coord: [-3586.61,158.22,-3027.01]
     GC35:
       presets: _Korok<GC35 Friends,korok-friends>
       vars:
@@ -625,7 +625,7 @@ presets:
     _GC35:
       Start:
         presets: _KorokFriendStart<GC35>
-        coord: [-3344.99,146.59,-3058.17]
+        coord: [-3344.82,146.65,-3055.67]
       End:
         presets: _KorokFriendEnd<GC35>
         coord: [-3078.85,120.30,-3044.77]
@@ -649,15 +649,15 @@ presets:
       presets: _Korok<GC39 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::GC39::Start
-      - [-978.65,357.81,3201.23]
-      - [-935.05,356.98,3236.81]
-      - [-1002.73,356.80,3232.35]
+      - [-978.65,357.81,-3201.23]
+      - [-935.05,356.98,-3236.81]
+      - [-1002.73,356.80,-3232.35]
       - _Korok::GC39::End
     _GC39:
       Start:
-        coord: [-966.96,356.57,3231.61]
+        coord: [-966.96,356.57,-3231.61]
       End:
-        coord: [-985.76,360.54,3248.13]
+        coord: [-985.76,360.54,-3248.13]
     GC40:
       presets: _Korok<GC40 Light Chase,korok-light-chase>
       coord: [-2428.18,149.73,-3263.90]
@@ -675,7 +675,7 @@ presets:
     _GC42:
       Start:
         presets: _KorokFriendStart<GC42>
-        coord: [-3818.56,157.54,-3126.49]
+        coord: [-3820.41,157.41,-3125.90]
       End:
         presets: _KorokFriendEnd<GC42>
         coord: [-3742.41,121.79,-3478.25]
@@ -696,7 +696,7 @@ presets:
     _GC45:
       Start:
         presets: _KorokFriendStart<GC45>
-        coord: [-4610.90,143.50,-3198.50]
+        coord: [-4613.50,143.57,-3197.00]
       End:
         presets: _KorokFriendEnd<GC45>
         coord: [-4877.10,145.49,-3564.94]
@@ -723,7 +723,7 @@ presets:
     _GC50:
       Start:
         presets: _KorokFriendStart<GC50>
-        coord: [-2491.40,131.75,-3348.47]
+        coord: [-2494.40,131.76,-3348.47]
       End:
         presets: _KorokFriendEnd<GC50>
         coord: [-2546.00,119.96,-3930.70]
@@ -760,7 +760,7 @@ presets:
     _GH03:
       Start:
         presets: _KorokFriendStart<GH03>
-        coord: [-3580.60,176.50,12.50]
+        coord: [-3583.55,175.75,14.15]
       End:
         presets: _KorokFriendEnd<GH03>
         coord: [-4074.89,162.56,35.31]
@@ -807,7 +807,7 @@ presets:
     _GH10:
       Start:
         presets: _KorokFriendStart<GH10>
-        coord: [-4540.50,633.50,-1344.00]
+        coord: [-4537.50,633.76,-1344.00]
       End:
         presets: _KorokFriendEnd<GH10>
         coord: [-4507.60,616.63,-589.92]
@@ -825,7 +825,7 @@ presets:
     _GH12:
       Start:
         presets: _KorokFriendStart<GH12>
-        coord: [-3199.49,584.89,-1169.53]
+        coord: [-3196.50,585.00,-1169.79]
       End:
         presets: _KorokFriendEnd<GH12>
         coord: [-3142.14,305.32,-619.74]
@@ -861,15 +861,15 @@ presets:
       presets: _Korok<GH20 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::GH20::Start
-      - [-3750.29,635.35,1070.77]
-      - [-3744.84,636.96,1056.40]
-      - [-3737.46,638.47,1018.08]
+      - [-3750.29,635.35,-1070.77]
+      - [-3744.84,636.96,-1056.40]
+      - [-3737.46,638.47,-1018.08]
       - _Korok::GH20::End
     _GH20:
       Start:
-        coord: [-3751.59,629.82,1081.14]
+        coord: [-3751.59,629.82,-1081.14]
       End:
-        coord: [-3737.09,640.67,1000.51]
+        coord: [-3737.09,640.67,-1000.51]
     GH21:
       presets: _Korok<GH21 Balloon (Pinwheel\),korok-balloon>
       coord: [-3245.85,677.74,-1030.86]
@@ -973,7 +973,7 @@ presets:
     _GH47:
       Start:
         presets: _KorokFriendStart<GH47>
-        coord: [-4138.99,151.36,-2259.98]
+        coord: [-4135.99,151.10,-2259.98]
       End:
         presets: _KorokFriendEnd<GH47>
         coord: [-4320.72,171.10,-1861.35]
@@ -999,20 +999,20 @@ presets:
       presets: _Korok<GH54 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::GH54::Start
-      - [-2929.79,309.22,2228.15]
-      - [-2918.39,305.79,2241.73]
-      - [-2890.22,308.54,2245.03]
-      - [-2875.62,305.06,2235.46]
-      - [-2870.49,303.22,2217.19]
-      - [-2875.06,303.13,2198.47]
-      - [-2895.02,303.37,2183.89]
-      - [-2912.47,310.54,2190.35]
+      - [-2929.79,309.22,-2228.15]
+      - [-2918.39,305.79,-2241.73]
+      - [-2890.22,308.54,-2245.03]
+      - [-2875.62,305.06,-2235.46]
+      - [-2870.49,303.22,-2217.19]
+      - [-2875.06,303.13,-2198.47]
+      - [-2895.02,303.37,-2183.89]
+      - [-2912.47,310.54,-2190.35]
       - _Korok::GH54::End
     _GH54:
       Start:
-        coord: [-2931.36,314.48,2216.55]
+        coord: [-2931.36,314.48,-2216.55]
       End:
-        coord: [-2933.68,314.63,2216.18]
+        coord: [-2933.68,314.63,-2216.18]
     GH55:
       presets: _Korok<GH55 Rock Pattern,korok-rock-circle>
       coord: [-3320.43,181.53,-2274.87]
@@ -1046,7 +1046,7 @@ presets:
     _GSI04:
       Start:
         presets: _KorokFriendStart<GSI04>
-        coord: [29.30,1521.26,-1254.91]
+        coord: [18.85,1524.10,-1262.96]
       End:
         presets: _KorokFriendEnd<GSI04>
         coord: [-90.85,1511.66,-1241.28]
@@ -1054,15 +1054,15 @@ presets:
       presets: _Korok<GSI05 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::GSI05::Start
-      - [517.22,1525.05,1329.30]
-      - [511.26,1527.11,1328.84]
-      - [507.02,1527.03,1322.02]
+      - [517.22,1525.05,-1329.30]
+      - [511.26,1527.11,-1328.84]
+      - [507.02,1527.03,-1322.02]
       - _Korok::GSI05::End
     _GSI05:
       Start:
-        coord: [521.33,1524.02,1323.55]
+        coord: [521.33,1524.02,-1323.55]
       End:
-        coord: [510.23,1525.72,1317.51]
+        coord: [510.23,1525.72,-1317.51]
     GSI06:
       presets: _Korok<GSI06 Rock Pattern,korok-rock-circle>
       coord: [760.46,1708.80,-1341.14]
@@ -1107,7 +1107,7 @@ presets:
     _GSI17:
       Start:
         presets: _KorokFriendStart<GSI17>
-        coord: [475.46,1548.39,-1698.93]
+        coord: [474.25,1548.47,-1694.75]
       End:
         presets: _KorokFriendEnd<GSI17>
         coord: [445.40,1551.59,-1786.62]
@@ -1122,7 +1122,7 @@ presets:
     _HF01:
       Start:
         presets: _KorokFriendStart<HF01>
-        coord: [-1797.98,225.00,-323.45]
+        coord: [-1798.50,225.08,-320.50]
       End:
         presets: _KorokFriendEnd<HF01>
         coord: [-1849.08,267.60,-329.20]
@@ -1158,20 +1158,20 @@ presets:
       presets: _Korok<HF09 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::HF09::Start
-      - [-2532.00,306.46,632.93]
-      - [-2517.58,306.02,645.63]
-      - [-2510.84,306.91,639.51]
-      - [-2511.32,310.66,627.44]
-      - [-2502.74,306.90,623.52]
-      - [-2494.30,308.88,600.35]
-      - [-2488.30,307.26,591.28]
-      - [-2496.41,307.47,585.92]
+      - [-2532.00,306.46,-632.93]
+      - [-2517.58,306.02,-645.63]
+      - [-2510.84,306.91,-639.51]
+      - [-2511.32,310.66,-627.44]
+      - [-2502.74,306.90,-623.52]
+      - [-2494.30,308.88,-600.35]
+      - [-2488.30,307.26,-591.28]
+      - [-2496.41,307.47,-585.92]
       - _Korok::HF09::End
     _HF09:
       Start:
-        coord: [-2536.78,307.75,629.07]
+        coord: [-2536.78,307.75,-629.07]
       End:
-        coord: [-2496.20,310.70,570.26]
+        coord: [-2496.20,310.70,-570.26]
     HF10:
       presets: _Korok<HF10 Friends,korok-friends>
       vars:
@@ -1183,7 +1183,7 @@ presets:
     _HF10:
       Start:
         presets: _KorokFriendStart<HF10>
-        coord: [-1550.65,133.50,-1000.09]
+        coord: [-1548.00,133.46,-1001.50]
       End:
         presets: _KorokFriendEnd<HF10>
         coord: [-1321.34,116.41,-570.09]
@@ -1231,7 +1231,7 @@ presets:
     _HF22:
       Start:
         presets: _KorokFriendStart<HF22>
-        coord: [-776.07,123.50,-500.62]
+        coord: [-779.00,123.29,-500.00]
       End:
         presets: _KorokFriendEnd<HF22>
         coord: [-880.59,125.21,-929.71]
@@ -1257,15 +1257,15 @@ presets:
       presets: _Korok<HF29 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::HF29::Start
-      - [-1970.42,205.67,1089.18]
-      - [-1970.39,204.22,1086.58]
-      - [-1972.79,203.75,1090.74]
+      - [-1970.42,205.67,-1089.18]
+      - [-1970.39,204.22,-1086.58]
+      - [-1972.79,203.75,-1090.74]
       - _Korok::HF29::End
     _HF29:
       Start:
-        coord: [-1967.74,203.79,1090.34]
+        coord: [-1967.74,203.79,-1090.34]
       End:
-        coord: [-1967.74,203.79,1090.34]
+        coord: [-1967.74,203.79,-1090.34]
     HF30:
       presets: _Korok<HF30 Lift Rock,korok-rock>
       coord: [-2340.50,249.69,-1104.35]
@@ -1301,7 +1301,7 @@ presets:
     _HF38:
       Start:
         presets: _KorokFriendStart<HF38>
-        coord: [-1356.41,151.86,-1307.46]
+        coord: [-1356.41,151.97,-1310.46]
       End:
         presets: _KorokFriendEnd<HF38>
         coord: [-1302.20,243.50,-1331.72]
@@ -1335,7 +1335,7 @@ presets:
     _HF43:
       Start:
         presets: _KorokFriendStart<HF43>
-        coord: [-39.05,128.00,-1112.52]
+        coord: [-42.00,128.06,-1112.00]
       End:
         presets: _KorokFriendEnd<HF43>
         coord: [-152.74,126.05,-1530.73]
@@ -1358,20 +1358,20 @@ presets:
       presets: _Korok<HF49 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::HF49::Start
-      - [-1166.72,188.06,1648.13]
-      - [-1173.04,187.78,1640.79]
-      - [-1188.09,187.70,1648.43]
-      - [-1197.30,187.56,1648.26]
-      - [-1203.02,189.15,1655.97]
-      - [-1207.40,190.95,1662.77]
-      - [-1208.30,190.30,1669.02]
-      - [-1206.24,188.01,1683.20]
+      - [-1166.72,188.06,-1648.13]
+      - [-1173.04,187.78,-1640.79]
+      - [-1188.09,187.70,-1648.43]
+      - [-1197.30,187.56,-1648.26]
+      - [-1203.02,189.15,-1655.97]
+      - [-1207.40,190.95,-1662.77]
+      - [-1208.30,190.30,-1669.02]
+      - [-1206.24,188.01,-1683.20]
       - _Korok::HF49::End
     _HF49:
       Start:
-        coord: [-1173.44,187.54,1655.07]
+        coord: [-1173.44,187.54,-1655.07]
       End:
-        coord: [-1210.81,187.80,1689.23]
+        coord: [-1210.81,187.80,-1689.23]
     HF50:
       presets: _Korok<HF50 Friends,korok-friends>
       vars:
@@ -1383,7 +1383,7 @@ presets:
     _HF50:
       Start:
         presets: _KorokFriendStart<HF50>
-        coord: [-452.00,125.50,-1649.60]
+        coord: [-455.13,125.06,-1647.94]
       End:
         presets: _KorokFriendEnd<HF50>
         coord: [-509.35,170.96,-1696.41]
@@ -1426,7 +1426,7 @@ presets:
     _HF58:
       Start:
         presets: _KorokFriendStart<HF58>
-        coord: [-694.28,172.00,-1576.46]
+        coord: [-696.00,172.01,-1574.00]
       End:
         presets: _KorokFriendEnd<HF58>
         coord: [-1025.00,247.55,-1857.00]
@@ -1434,15 +1434,15 @@ presets:
       presets: _Korok<HF59 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::HF59::Start
-      - [7.97,208.32,1891.46]
-      - [7.69,212.15,1892.69]
-      - [7.77,214.24,1900.46]
+      - [7.97,208.32,-1891.46]
+      - [7.69,212.15,-1892.69]
+      - [7.77,214.24,-1900.46]
       - _Korok::HF59::End
     _HF59:
       Start:
-        coord: [3.78,207.41,1891.32]
+        coord: [3.78,207.41,-1891.32]
       End:
-        coord: [0.75,213.19,1900.44]
+        coord: [0.75,213.19,-1900.44]
     HF60:
       presets: _Korok<HF60 Lift Rock,korok-rock>
       coord: [-889.49,212.09,-1907.83]
@@ -1478,7 +1478,7 @@ presets:
     _HF68:
       Start:
         presets: _KorokFriendStart<HF68>
-        coord: [-1126.81,249.73,-1970.13]
+        coord: [-1129.54,249.79,-1970.78]
       End:
         presets: _KorokFriendEnd<HF68>
         coord: [-1178.43,250.51,-2088.73]
@@ -1523,7 +1523,7 @@ presets:
     _LB02:
       Start:
         presets: _KorokFriendStart<LB02>
-        coord: [-546.00,373.50,2223.00]
+        coord: [-546.00,373.26,2226.00]
       End:
         presets: _KorokFriendEnd<LB02>
         coord: [-981.23,225.85,2239.98]
@@ -1552,20 +1552,20 @@ presets:
       presets: _Korok<LB10 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::LB10::Start
-      - [-3621.97,254.26,-1518.70]
-      - [-3625.01,255.79,-1505.02]
-      - [-3617.55,253.22,-1502.74]
-      - [-3609.74,246.95,-1500.86]
-      - [-3601.49,247.46,-1499.19]
-      - [-3596.78,246.83,-1509.71]
-      - [-3592.46,248.62,-1524.82]
-      - [-3589.97,246.03,-1532.33]
+      - [-3621.97,254.26,1518.70]
+      - [-3625.01,255.79,1505.02]
+      - [-3617.55,253.22,1502.74]
+      - [-3609.74,246.95,1500.86]
+      - [-3601.49,247.46,1499.19]
+      - [-3596.78,246.83,1509.71]
+      - [-3592.46,248.62,1524.82]
+      - [-3589.97,246.03,1532.33]
       - _Korok::LB10::End
     _LB10:
       Start:
-        coord: [-3621.34,250.44,-1522.18]
+        coord: [-3621.34,250.44,1522.18]
       End:
-        coord: [-3597.97,248.43,-1535.52]
+        coord: [-3597.97,248.43,1535.52]
     LB11:
       presets: _Korok<LB11 Lift Rock,korok-rock>
       coord: [-3284.53,293.75,1340.56]
@@ -1648,7 +1648,7 @@ presets:
     _LB30:
       Start:
         presets: _KorokFriendStart<LB30>
-        coord: [-3614.14,395.17,983.00]
+        coord: [-3613.35,394.54,985.37]
       End:
         presets: _KorokFriendEnd<LB30>
         coord: [-3557.28,292.84,767.68]
@@ -1693,15 +1693,15 @@ presets:
       presets: _Korok<LB41 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::LB41::Start
-      - [-2908.71,314.59,-552.61]
-      - [-2935.23,306.85,-548.10]
-      - [-2928.45,304.62,-547.27]
+      - [-2908.71,314.59,552.61]
+      - [-2935.23,306.85,548.10]
+      - [-2928.45,304.62,547.27]
       - _Korok::LB41::End
     _LB41:
       Start:
-        coord: [-2897.41,313.59,-557.82]
+        coord: [-2897.41,313.59,557.82]
       End:
-        coord: [-2920.36,298.94,-546.25]
+        coord: [-2920.36,298.94,546.25]
     LB42:
       presets: _Korok<LB42 Acorn Hanging,korok-acorn>
       coord: [-1346.61,201.07,530.54]
@@ -1716,7 +1716,7 @@ presets:
     _LB43:
       Start:
         presets: _KorokFriendStart<LB43>
-        coord: [-2084.43,209.50,482.30]
+        coord: [-2082.50,209.56,480.00]
       End:
         presets: _KorokFriendEnd<LB43>
         coord: [-2056.14,244.43,512.51]
@@ -1730,20 +1730,20 @@ presets:
       presets: _Korok<LB46 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::LB46::Start
-      - [-3635.74,391.04,-502.86]
-      - [-3602.73,390.47,-471.35]
-      - [-3595.02,388.64,-460.86]
-      - [-3551.68,386.28,-423.83]
-      - [-3556.48,394.99,-399.80]
-      - [-3582.36,391.93,-380.26]
-      - [-3578.42,402.84,-369.31]
-      - [-3592.05,403.18,-364.65]
+      - [-3635.74,391.04,502.86]
+      - [-3602.73,390.47,471.35]
+      - [-3595.02,388.64,460.86]
+      - [-3551.68,386.28,423.83]
+      - [-3556.48,394.99,399.80]
+      - [-3582.36,391.93,380.26]
+      - [-3578.42,402.84,369.31]
+      - [-3592.05,403.18,364.65]
       - _Korok::LB46::End
     _LB46:
       Start:
-        coord: [-3649.74,392.25,-511.11]
+        coord: [-3649.74,392.25,511.11]
       End:
-        coord: [-3607.35,402.73,-357.95]
+        coord: [-3607.35,402.73,357.95]
     LB47:
       presets: _Korok<LB47 Confetti,korok-confetti>
       coord: [-2202.22,256.00,355.66]
@@ -1771,15 +1771,15 @@ presets:
       presets: _Korok<LB50 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::LB50::Start
-      - [-3136.81,212.55,-248.88]
-      - [-3122.05,213.27,-255.18]
-      - [-3130.34,214.32,-240.73]
+      - [-3136.81,212.55,248.88]
+      - [-3122.05,213.27,255.18]
+      - [-3130.34,214.32,240.73]
       - _Korok::LB50::End
     _LB50:
       Start:
-        coord: [-3109.00,216.74,-241.98]
+        coord: [-3109.00,216.74,241.98]
       End:
-        coord: [-3118.96,217.17,-236.28]
+        coord: [-3118.96,217.17,236.28]
     LB51:
       presets: _Korok<LB51 Confetti,korok-confetti>
       coord: [-1588.95,216.21,228.90]
@@ -1797,7 +1797,7 @@ presets:
     _LB53:
       Start:
         presets: _KorokFriendStart<LB53>
-        coord: [-2871.88,284.77,494.62]
+        coord: [-2872.99,285.31,496.97]
       End:
         presets: _KorokFriendEnd<LB53>
         coord: [-2599.68,253.24,189.10]
@@ -1812,7 +1812,7 @@ presets:
     _LB54:
       Start:
         presets: _KorokFriendStart<LB54>
-        coord: [-2962.00,249.50,84.50]
+        coord: [-2961.94,249.42,87.53]
       End:
         presets: _KorokFriendEnd<LB54>
         coord: [-3017.75,311.23,104.81]
@@ -1896,7 +1896,7 @@ presets:
     _LL05:
       Start:
         presets: _KorokFriendStart<LL05>
-        coord: [-779.44,122.85,938.84]
+        coord: [-776.46,122.95,938.51]
       End:
         presets: _KorokFriendEnd<LL05>
         coord: [-752.69,150.42,1070.67]
@@ -1941,15 +1941,15 @@ presets:
       presets: _Korok<LL16 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::LL16::Start
-      - [-465.42,208.56,-856.42]
-      - [-454.37,207.03,-863.23]
-      - [-453.68,216.43,-864.01]
+      - [-465.42,208.56,856.42]
+      - [-454.37,207.03,863.23]
+      - [-453.68,216.43,864.01]
       - _Korok::LL16::End
     _LL16:
       Start:
-        coord: [-466.64,206.01,-851.15]
+        coord: [-466.64,206.01,851.15]
       End:
-        coord: [-428.59,221.57,-889.84]
+        coord: [-428.59,221.57,889.84]
     LL17:
       presets: _Korok<LL17 Balloon (Pinwheel\),korok-balloon>
       coord: [-360.42,384.47,885.02]
@@ -2018,15 +2018,15 @@ presets:
       presets: _Korok<LL36 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::LL36::Start
-      - [359.08,151.87,-483.36]
-      - [370.33,140.72,-473.93]
-      - [379.42,157.67,-466.18]
+      - [359.08,151.87,483.36]
+      - [370.33,140.72,473.93]
+      - [379.42,157.67,466.18]
       - _Korok::LL36::End
     _LL36:
       Start:
-        coord: [347.39,146.96,-493.17]
+        coord: [347.39,146.96,493.17]
       End:
-        coord: [382.36,158.47,-463.47]
+        coord: [382.36,158.47,463.47]
     LL37:
       presets: _Korok<LL37 Lift Rock,korok-rock>
       coord: [-253.97,134.92,425.91]
@@ -2049,20 +2049,20 @@ presets:
       presets: _Korok<LL43 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::LL43::Start
-      - [-519.66,171.29,-206.84]
-      - [-514.30,168.77,-207.16]
-      - [-501.96,149.86,-220.03]
-      - [-485.27,141.12,-230.03]
-      - [-476.15,141.63,-231.65]
-      - [-462.62,143.06,-237.64]
-      - [-451.84,139.27,-241.26]
-      - [-442.26,139.27,-244.39]
+      - [-519.66,171.29,206.84]
+      - [-514.30,168.77,207.16]
+      - [-501.96,149.86,220.03]
+      - [-485.27,141.12,230.03]
+      - [-476.15,141.63,231.65]
+      - [-462.62,143.06,237.64]
+      - [-451.84,139.27,241.26]
+      - [-442.26,139.27,244.39]
       - _Korok::LL43::End
     _LL43:
       Start:
-        coord: [-526.67,167.71,-188.48]
+        coord: [-526.67,167.71,188.48]
       End:
-        coord: [-430.25,142.92,-248.33]
+        coord: [-430.25,142.92,248.33]
     LL44:
       presets: _Korok<LL44 Acorn Tree,korok-acorn>
       coord: [-748.18,136.49,200.28]
@@ -2134,15 +2134,15 @@ presets:
       presets: _Korok<ML02 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::ML02::Start
-      - [4457.72,173.18,784.35]
-      - [4486.63,171.22,782.22]
-      - [4477.44,164.26,806.01]
+      - [4457.72,173.18,-784.35]
+      - [4486.63,171.22,-782.22]
+      - [4477.44,164.26,-806.01]
       - _Korok::ML02::End
     _ML02:
       Start:
-        coord: [4448.19,173.96,743.37]
+        coord: [4448.19,173.96,-743.37]
       End:
-        coord: [4462.50,168.47,842.27]
+        coord: [4462.50,168.47,-842.27]
     ML03:
       presets: _Korok<ML03 Light Chase,korok-light-chase>
       coord: [4523.79,112.53,-1004.58]
@@ -2169,7 +2169,7 @@ presets:
     _ML08:
       Start:
         presets: _KorokFriendStart<ML08>
-        coord: [3498.97,268.21,-1454.68]
+        coord: [3500.00,268.01,-1457.50]
       End:
         presets: _KorokFriendEnd<ML08>
         coord: [3667.33,402.57,-1385.63]
@@ -2183,15 +2183,15 @@ presets:
       presets: _Korok<ML11 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::ML11::Start
-      - [4530.17,110.75,1518.48]
-      - [4527.13,108.12,1533.55]
-      - [4518.36,108.88,1530.82]
+      - [4530.17,110.75,-1518.48]
+      - [4527.13,108.12,-1533.55]
+      - [4518.36,108.88,-1530.82]
       - _Korok::ML11::End
     _ML11:
       Start:
-        coord: [4526.15,117.32,1514.83]
+        coord: [4526.15,117.32,-1514.83]
       End:
-        coord: [4508.20,106.98,1519.86]
+        coord: [4508.20,106.98,-1519.86]
     ML12:
       presets: _Korok<ML12 Rock Pattern,korok-rock-circle>
       coord: [3237.13,302.99,-1545.17]
@@ -2224,7 +2224,7 @@ presets:
     _ML19:
       Start:
         presets: _KorokFriendStart<ML19>
-        coord: [2478.43,116.16,-1740.21]
+        coord: [2476.52,116.21,-1742.53]
       End:
         presets: _KorokFriendEnd<ML19>
         coord: [2613.64,124.65,-1868.34]
@@ -2258,7 +2258,7 @@ presets:
     _ML24:
       Start:
         presets: _KorokFriendStart<ML24>
-        coord: [2644.97,233.00,-2120.32]
+        coord: [2646.00,233.06,-2117.50]
       End:
         presets: _KorokFriendEnd<ML24>
         coord: [2482.28,115.33,-2048.74]
@@ -2276,7 +2276,7 @@ presets:
     _ML26:
       Start:
         presets: _KorokFriendStart<ML26>
-        coord: [2859.77,146.00,-1910.28]
+        coord: [2858.53,145.86,-1912.98]
       End:
         presets: _KorokFriendEnd<ML26>
         coord: [3251.26,205.26,-2114.16]
@@ -2327,7 +2327,7 @@ presets:
     _ML39:
       Start:
         presets: _KorokFriendStart<ML39>
-        coord: [3248.00,236.50,-2283.00]
+        coord: [3245.04,236.54,-2283.04]
       End:
         presets: _KorokFriendEnd<ML39>
         coord: [3260.64,322.55,-2396.73]
@@ -2348,7 +2348,7 @@ presets:
     _ML42:
       Start:
         presets: _KorokFriendStart<ML42>
-        coord: [3729.10,307.00,-2159.00]
+        coord: [3726.50,307.21,-2160.50]
       End:
         presets: _KorokFriendEnd<ML42>
         coord: [3898.72,106.33,-2505.77]
@@ -2400,7 +2400,7 @@ presets:
     _PF03:
       Start:
         presets: _KorokFriendStart<PF03>
-        coord: [630.03,117.82,-961.98]
+        coord: [628.53,117.82,-964.58]
       End:
         presets: _KorokFriendEnd<PF03>
         coord: [1018.62,115.04,-1185.32]
@@ -2439,7 +2439,7 @@ presets:
     _PF12:
       Start:
         presets: _KorokFriendStart<PF12>
-        coord: [47.48,163.50,-1691.05]
+        coord: [48.00,163.52,-1694.00]
       End:
         presets: _KorokFriendEnd<PF12>
         coord: [587.75,117.11,-1580.60]
@@ -2457,7 +2457,7 @@ presets:
     _PF14:
       Start:
         presets: _KorokFriendStart<PF14>
-        coord: [293.00,133.17,-1204.50]
+        coord: [290.00,133.26,-1204.50]
       End:
         presets: _KorokFriendEnd<PF14>
         coord: [342.00,123.63,-1662.20]
@@ -2465,15 +2465,15 @@ presets:
       presets: _Korok<PF15 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::PF15::Start
-      - [491.81,160.51,1780.27]
-      - [479.24,149.96,1759.45]
-      - [473.37,141.50,1735.03]
+      - [491.81,160.51,-1780.27]
+      - [479.24,149.96,-1759.45]
+      - [473.37,141.50,-1735.03]
       - _Korok::PF15::End
     _PF15:
       Start:
-        coord: [514.35,166.74,1790.94]
+        coord: [514.35,166.74,-1790.94]
       End:
-        coord: [465.61,132.56,1697.51]
+        coord: [465.61,132.56,-1697.51]
     PF16:
       presets: _Korok<PF16 Catch Seed,korok-catch-seed>
       coord: [312.65,180.44,-1765.50]
@@ -2510,7 +2510,7 @@ presets:
     _PF22:
       Start:
         presets: _KorokFriendStart<PF22>
-        coord: [523.00,161.50,-2199.00]
+        coord: [522.99,161.42,-2196.00]
       End:
         presets: _KorokFriendEnd<PF22>
         coord: [343.62,163.15,-2182.51]
@@ -2518,15 +2518,15 @@ presets:
       presets: _Korok<PF23 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::PF23::Start
-      - [291.21,142.14,2256.11]
-      - [278.12,142.13,2219.83]
-      - [273.06,142.45,2236.57]
+      - [291.21,142.14,-2256.11]
+      - [278.12,142.13,-2219.83]
+      - [273.06,142.45,-2236.57]
       - _Korok::PF23::End
     _PF23:
       Start:
-        coord: [282.40,141.84,2240.99]
+        coord: [282.40,141.84,-2240.99]
       End:
-        coord: [265.75,142.43,2216.22]
+        coord: [265.75,142.43,-2216.22]
     PF24:
       presets: _Korok<PF24 Boulder Stand,korok-boulder-stand>
       coord: [895.11,259.32,-2217.55]
@@ -2575,7 +2575,7 @@ presets:
     _PF34:
       Start:
         presets: _KorokFriendStart<PF34>
-        coord: [-188.50,125.00,-2243.66]
+        coord: [-189.86,125.84,-2249.39]
       End:
         presets: _KorokFriendEnd<PF34>
         coord: [-216.05,94.41,-2595.01]
@@ -2629,15 +2629,15 @@ presets:
       presets: _Korok<PF48 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::PF48::Start
-      - [-53.52,213.67,2953.80]
-      - [-35.61,213.96,2944.21]
-      - [-22.44,214.37,2959.49]
+      - [-53.52,213.67,-2953.80]
+      - [-35.61,213.96,-2944.21]
+      - [-22.44,214.37,-2959.49]
       - _Korok::PF48::End
     _PF48:
       Start:
-        coord: [-40.00,217.78,2961.41]
+        coord: [-40.00,217.78,-2961.41]
       End:
-        coord: [-16.93,221.58,2975.96]
+        coord: [-16.93,221.58,-2975.96]
     PF49:
       presets: _Korok<PF49 Lift Rock (Leaves\),korok-rock-under>
       coord: [1777.18,188.45,-2990.83]
@@ -2666,15 +2666,15 @@ presets:
       presets: _Korok<PF57 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::PF57::Start
-      - [1538.76,200.29,3246.13]
-      - [1535.88,202.44,3252.61]
-      - [1531.78,207.23,3262.01]
+      - [1538.76,200.29,-3246.13]
+      - [1535.88,202.44,-3252.61]
+      - [1531.78,207.23,-3262.01]
       - _Korok::PF57::End
     _PF57:
       Start:
-        coord: [1539.24,200.02,3238.76]
+        coord: [1539.24,200.02,-3238.76]
       End:
-        coord: [1531.83,201.75,3263.82]
+        coord: [1531.83,201.75,-3263.82]
     PF58:
       presets: _Korok<PF58 Lift Rock,korok-rock>
       coord: [1475.61,191.94,-3263.53]
@@ -2698,7 +2698,7 @@ presets:
     _PF62:
       Start:
         presets: _KorokFriendStart<PF62>
-        coord: [-304.48,130.27,-3292.94]
+        coord: [-306.82,129.87,-3290.00]
       End:
         presets: _KorokFriendEnd<PF62>
         coord: [-593.83,244.31,-3335.99]
@@ -2725,7 +2725,7 @@ presets:
     _PF67:
       Start:
         presets: _KorokFriendStart<PF67>
-        coord: [1611.22,166.50,-3490.60]
+        coord: [1611.94,166.91,-3493.28]
       End:
         presets: _KorokFriendEnd<PF67>
         coord: [1979.18,155.27,-3390.53]
@@ -2740,7 +2740,7 @@ presets:
     _PF68:
       Start:
         presets: _KorokFriendStart<PF68>
-        coord: [221.57,175.50,-3533.80]
+        coord: [223.47,175.16,-3531.37]
       End:
         presets: _KorokFriendEnd<PF68>
         coord: [47.99,130.45,-3393.38]
@@ -2767,7 +2767,7 @@ presets:
     _PF73:
       Start:
         presets: _KorokFriendStart<PF73>
-        coord: [522.00,156.26,-3464.00]
+        coord: [519.75,155.13,-3483.66]
       End:
         presets: _KorokFriendEnd<PF73>
         coord: [517.48,177.02,-3513.77]
@@ -2790,15 +2790,15 @@ presets:
       presets: _Korok<PF79 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::PF79::Start
-      - [821.74,210.85,3732.09]
-      - [804.12,212.74,3727.86]
-      - [800.84,212.31,3708.90]
+      - [821.74,210.85,-3732.09]
+      - [804.12,212.74,-3727.86]
+      - [800.84,212.31,-3708.90]
       - _Korok::PF79::End
     _PF79:
       Start:
-        coord: [812.76,213.38,3717.78]
+        coord: [812.76,213.38,-3717.78]
       End:
-        coord: [817.50,209.51,3700.65]
+        coord: [817.50,209.51,-3700.65]
     PF80:
       presets: _Korok<PF80 Lily Pads,korok-lily>
       coord: [588.99,140.00,-3740.00]
@@ -2816,7 +2816,7 @@ presets:
     _PF82:
       Start:
         presets: _KorokFriendStart<PF82>
-        coord: [1397.62,107.61,-3642.26]
+        coord: [1397.15,107.23,-3641.25]
       End:
         presets: _KorokFriendEnd<PF82>
         coord: [994.71,107.05,-3804.74]
@@ -2840,7 +2840,7 @@ presets:
     _PF86:
       Start:
         presets: _KorokFriendStart<PF86>
-        coord: [67.88,111.00,-3759.13]
+        coord: [67.00,111.27,-3762.00]
       End:
         presets: _KorokFriendEnd<PF86>
         coord: [397.65,106.42,-3861.71]
@@ -2888,7 +2888,7 @@ presets:
     _PS07:
       Start:
         presets: _KorokFriendStart<PS07>
-        coord: [-1382.98,361.50,3632.45]
+        coord: [-1383.50,361.62,3629.50]
       End:
         presets: _KorokFriendEnd<PS07>
         coord: [-1032.69,335.72,3517.76]
@@ -2925,7 +2925,7 @@ presets:
     _PS13:
       Start:
         presets: _KorokFriendStart<PS13>
-        coord: [-2339.82,509.50,2955.47]
+        coord: [-2337.04,509.52,2956.54]
       End:
         presets: _KorokFriendEnd<PS13>
         coord: [-2372.83,547.18,3018.04]
@@ -2940,7 +2940,7 @@ presets:
     _PS14:
       Start:
         presets: _KorokFriendStart<PS14>
-        coord: [-1541.80,344.00,2555.93]
+        coord: [-1539.50,344.30,2554.00]
       End:
         presets: _KorokFriendEnd<PS14>
         coord: [-1347.10,309.02,2791.65]
@@ -2973,7 +2973,7 @@ presets:
     _PS21:
       Start:
         presets: _KorokFriendStart<PS21>
-        coord: [-2795.50,459.72,2304.90]
+        coord: [-2794.00,459.72,2307.50]
       End:
         presets: _KorokFriendEnd<PS21>
         coord: [-2837.95,497.46,2317.45]
@@ -3008,15 +3008,15 @@ presets:
       presets: _Korok<PSS01 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::PSS01::Start
-      - [-1713.11,1097.77,-3557.54]
-      - [-1696.60,1093.08,-3552.35]
-      - [-1682.23,1091.94,-3564.65]
+      - [-1713.11,1097.77,3557.54]
+      - [-1696.60,1093.08,3552.35]
+      - [-1682.23,1091.94,3564.65]
       - _Korok::PSS01::End
     _PSS01:
       Start:
-        coord: [-1716.86,1092.73,-3561.22]
+        coord: [-1716.86,1092.73,3561.22]
       End:
-        coord: [-1683.55,1091.93,-3571.14]
+        coord: [-1683.55,1091.93,3571.14]
     PSS02:
       presets: _Korok<PSS02 Catch Light,korok-catch-light>
       coord: [-681.92,1291.82,3534.95]
@@ -3063,7 +3063,7 @@ presets:
     _RP06:
       Start:
         presets: _KorokFriendStart<RP06>
-        coord: [-2890.94,352.40,3491.44]
+        coord: [-2891.97,352.58,3494.02]
       End:
         presets: _KorokFriendEnd<RP06>
         coord: [-3238.18,348.81,3688.72]
@@ -3096,7 +3096,7 @@ presets:
     _RP13:
       Start:
         presets: _KorokFriendStart<RP13>
-        coord: [-3670.76,429.00,3383.01]
+        coord: [-3670.50,429.02,3386.00]
       End:
         presets: _KorokFriendEnd<RP13>
         coord: [-4124.63,328.40,3430.57]
@@ -3113,15 +3113,15 @@ presets:
       presets: _Korok<RP17 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::RP17::Start
-      - [-3834.66,422.04,-3351.20]
-      - [-3816.69,429.61,-3350.79]
-      - [-3776.79,442.93,-3330.25]
+      - [-3834.66,422.04,3351.20]
+      - [-3816.69,429.61,3350.79]
+      - [-3776.79,442.93,3330.25]
       - _Korok::RP17::End
     _RP17:
       Start:
-        coord: [-3842.34,417.40,-3347.19]
+        coord: [-3842.34,417.40,3347.19]
       End:
-        coord: [-3771.81,446.03,-3342.19]
+        coord: [-3771.81,446.03,3342.19]
     RP18:
       presets: _Korok<RP18 Lift Rock (Ice\),korok-ice>
       coord: [-3576.41,493.87,3266.75]
@@ -3164,7 +3164,7 @@ presets:
     _RP26:
       Start:
         presets: _KorokFriendStart<RP26>
-        coord: [-2834.80,687.50,2841.93]
+        coord: [-2832.50,687.20,2840.00]
       End:
         presets: _KorokFriendEnd<RP26>
         coord: [-2795.93,706.56,2877.67]
@@ -3219,7 +3219,7 @@ presets:
     _RP38:
       Start:
         presets: _KorokFriendStart<RP38>
-        coord: [-4263.10,95.00,2176.50]
+        coord: [-4260.50,94.76,2175.00]
       End:
         presets: _KorokFriendEnd<RP38>
         coord: [-4116.12,92.23,2416.05]
@@ -3230,15 +3230,15 @@ presets:
       presets: _Korok<RP40 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::RP40::Start
-      - [-3796.33,276.27,-2314.93]
-      - [-3789.21,276.10,-2314.91]
-      - [-3790.84,280.15,-2317.44]
+      - [-3796.33,276.27,2314.93]
+      - [-3789.21,276.10,2314.91]
+      - [-3790.84,280.15,2317.44]
       - _Korok::RP40::End
     _RP40:
       Start:
-        coord: [-3796.74,276.37,-2322.58]
+        coord: [-3796.74,276.37,2322.58]
       End:
-        coord: [-3792.59,283.36,-2319.13]
+        coord: [-3792.59,283.36,2319.13]
     RP41:
       presets: _Korok<RP41 Confetti,korok-confetti>
       coord: [-3565.22,258.16,2256.53]
@@ -3270,15 +3270,15 @@ presets:
       presets: _Korok<RP50 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::RP50::Start
-      - [-4123.89,304.77,-1928.66]
-      - [-4123.65,304.11,-1942.26]
-      - [-4118.23,304.04,-1931.42]
+      - [-4123.89,304.77,1928.66]
+      - [-4123.65,304.11,1942.26]
+      - [-4118.23,304.04,1931.42]
       - _Korok::RP50::End
     _RP50:
       Start:
-        coord: [-4124.04,303.50,-1935.25]
+        coord: [-4124.04,303.50,1935.25]
       End:
-        coord: [-4129.37,304.74,-1939.21]
+        coord: [-4129.37,304.74,1939.21]
     RP51:
       presets: _Korok<RP51 Lift Rock,korok-rock>
       coord: [-3613.70,507.69,1880.03]
@@ -3301,15 +3301,15 @@ presets:
       presets: _Korok<RP57 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::RP57::Start
-      - [-4229.07,222.42,-1745.24]
-      - [-4227.10,224.09,-1748.56]
-      - [-4223.73,230.70,-1744.50]
+      - [-4229.07,222.42,1745.24]
+      - [-4227.10,224.09,1748.56]
+      - [-4223.73,230.70,1744.50]
       - _Korok::RP57::End
     _RP57:
       Start:
-        coord: [-4227.12,216.64,-1748.25]
+        coord: [-4227.12,216.64,1748.25]
       End:
-        coord: [-4225.31,229.99,-1739.74]
+        coord: [-4225.31,229.99,1739.74]
     RP58:
       presets: _Korok<RP58 Lift Rock,korok-rock>
       coord: [-3985.51,285.22,1708.93]
@@ -3373,15 +3373,15 @@ presets:
       presets: _Korok<RW08 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::RW08::Start
-      - [1899.27,144.79,2411.05]
-      - [1913.13,144.97,2407.45]
-      - [1928.66,143.71,2390.54]
+      - [1899.27,144.79,-2411.05]
+      - [1913.13,144.97,-2407.45]
+      - [1928.66,143.71,-2390.54]
       - _Korok::RW08::End
     _RW08:
       Start:
-        coord: [1885.19,145.43,2418.31]
+        coord: [1885.19,145.43,-2418.31]
       End:
-        coord: [1943.83,144.57,2382.40]
+        coord: [1943.83,144.57,-2382.40]
     RW09:
       presets: _Korok<RW09 Block Puzzle,korok-ultrahand>
       coord: [2558.57,360.67,-2484.76]
@@ -3445,7 +3445,7 @@ presets:
     _RW24:
       Start:
         presets: _KorokFriendStart<RW24>
-        coord: [2458.03,325.50,-2911.18]
+        coord: [2453.00,326.36,-2912.00]
       End:
         presets: _KorokFriendEnd<RW24>
         coord: [2919.29,252.44,-3083.12]
@@ -3514,7 +3514,7 @@ presets:
     _RW36:
       Start:
         presets: _KorokFriendStart<RW36>
-        coord: [3688.03,350.50,-3314.68]
+        coord: [3686.96,350.35,-3317.51]
       End:
         presets: _KorokFriendEnd<RW36>
         coord: [4496.81,106.26,-3616.38]
@@ -3538,7 +3538,7 @@ presets:
     _RW40:
       Start:
         presets: _KorokFriendStart<RW40>
-        coord: [3544.68,106.16,-3456.24]
+        coord: [3541.73,106.07,-3458.29]
       End:
         presets: _KorokFriendEnd<RW40>
         coord: [3599.66,106.79,-3780.41]
@@ -3553,7 +3553,7 @@ presets:
     _RW41:
       Start:
         presets: _KorokFriendStart<RW41>
-        coord: [2245.49,135.00,-3469.26]
+        coord: [2242.50,135.07,-3469.00]
       End:
         presets: _KorokFriendEnd<RW41>
         coord: [2226.81,107.45,-3834.39]
@@ -3568,7 +3568,7 @@ presets:
     _RW42:
       Start:
         presets: _KorokFriendStart<RW42>
-        coord: [2828.52,106.50,-3886.45]
+        coord: [2828.00,106.48,-3883.50]
       End:
         presets: _KorokFriendEnd<RW42>
         coord: [2427.82,106.23,-3944.69]
@@ -3598,15 +3598,15 @@ presets:
       presets: _Korok<SS03 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::SS03::Start
-      - [839.56,229.90,-721.41]
-      - [836.85,231.99,-736.75]
-      - [837.28,229.18,-753.97]
+      - [839.56,229.90,721.41]
+      - [836.85,231.99,736.75]
+      - [837.28,229.18,753.97]
       - _Korok::SS03::End
     _SS03:
       Start:
-        coord: [841.44,233.70,-693.83]
+        coord: [841.44,233.70,693.83]
       End:
-        coord: [841.31,223.05,-787.91]
+        coord: [841.31,223.05,787.91]
     SS04:
       presets: _Korok<SS04 Light Chase,korok-light-chase>
       coord: [617.42,183.25,754.28]
@@ -3614,15 +3614,15 @@ presets:
       presets: _Korok<SS05 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::SS05::Start
-      - [960.80,194.51,-674.41]
-      - [965.82,194.18,-660.56]
-      - [955.97,198.46,-652.75]
+      - [960.80,194.51,674.41]
+      - [965.82,194.18,660.56]
+      - [955.97,198.46,652.75]
       - _Korok::SS05::End
     _SS05:
       Start:
-        coord: [974.47,189.49,-673.95]
+        coord: [974.47,189.49,673.95]
       End:
-        coord: [951.83,197.58,-636.01]
+        coord: [951.83,197.58,636.01]
     SS06:
       presets: _Korok<SS06 Catch Seed,korok-catch-seed>
       coord: [691.29,167.03,624.99]
@@ -3637,7 +3637,7 @@ presets:
     _SS07:
       Start:
         presets: _KorokFriendStart<SS07>
-        coord: [428.00,132.50,501.00]
+        coord: [434.03,134.61,483.98]
       End:
         presets: _KorokFriendEnd<SS07>
         coord: [432.00,115.27,596.71]
@@ -3667,7 +3667,7 @@ presets:
     _SS13:
       Start:
         presets: _KorokFriendStart<SS13>
-        coord: [1537.10,115.50,511.50]
+        coord: [1534.50,115.74,510.00]
       End:
         presets: _KorokFriendEnd<SS13>
         coord: [1686.10,121.50,255.55]
@@ -3688,7 +3688,7 @@ presets:
     _SS16:
       Start:
         presets: _KorokFriendStart<SS16>
-        coord: [1502.18,119.50,-334.47]
+        coord: [1505.00,119.30,-335.50]
       End:
         presets: _KorokFriendEnd<SS16>
         coord: [1701.22,116.27,9.74]
@@ -3737,7 +3737,7 @@ presets:
     _SS26:
       Start:
         presets: _KorokFriendStart<SS26>
-        coord: [795.00,116.00,-507.90]
+        coord: [793.50,116.07,-510.50]
       End:
         presets: _KorokFriendEnd<SS26>
         coord: [889.20,115.21,-556.10]
@@ -3752,7 +3752,7 @@ presets:
     _SS27:
       Start:
         presets: _KorokFriendStart<SS27>
-        coord: [1872.51,344.07,-813.88]
+        coord: [1876.50,344.57,-806.00]
       End:
         presets: _KorokFriendEnd<SS27>
         coord: [2174.65,317.02,-567.56]
@@ -3767,7 +3767,7 @@ presets:
     _SS28:
       Start:
         presets: _KorokFriendStart<SS28>
-        coord: [2691.30,217.05,-542.07]
+        coord: [2689.00,217.01,-544.00]
       End:
         presets: _KorokFriendEnd<SS28>
         coord: [2760.14,238.67,-582.83]
@@ -3785,7 +3785,7 @@ presets:
     _SS30:
       Start:
         presets: _KorokFriendStart<SS30>
-        coord: [960.98,137.07,-201.78]
+        coord: [958.26,137.08,-203.05]
       End:
         presets: _KorokFriendEnd<SS30>
         coord: [1195.87,125.62,-649.25]
@@ -3832,15 +3832,15 @@ presets:
       presets: _Korok<SS44 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::SS44::Start
-      - [1254.55,256.94,1017.26]
-      - [1233.12,246.09,1022.94]
-      - [1238.94,246.11,1031.07]
+      - [1254.55,256.94,-1017.26]
+      - [1233.12,246.09,-1022.94]
+      - [1238.94,246.11,-1031.07]
       - _Korok::SS44::End
     _SS44:
       Start:
-        coord: [1259.77,258.30,1006.09]
+        coord: [1259.77,258.30,-1006.09]
       End:
-        coord: [1246.37,250.52,1033.06]
+        coord: [1246.37,250.52,-1033.06]
     SS45:
       presets: _Korok<SS45 Catch Seed,korok-catch-seed>
       coord: [1574.92,259.79,-1044.85]
@@ -3854,20 +3854,20 @@ presets:
       presets: _Korok<SS48 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::SS48::Start
-      - [2774.26,277.80,1214.41]
-      - [2802.64,283.07,1200.33]
-      - [2825.72,294.14,1204.33]
-      - [2830.66,289.34,1194.95]
-      - [2830.18,280.76,1185.39]
-      - [2814.19,250.84,1184.60]
-      - [2765.16,253.08,1174.94]
-      - [2736.64,225.20,1175.77]
+      - [2774.26,277.80,-1214.41]
+      - [2802.64,283.07,-1200.33]
+      - [2825.72,294.14,-1204.33]
+      - [2830.66,289.34,-1194.95]
+      - [2830.18,280.76,-1185.39]
+      - [2814.19,250.84,-1184.60]
+      - [2765.16,253.08,-1174.94]
+      - [2736.64,225.20,-1175.77]
       - _Korok::SS48::End
     _SS48:
       Start:
-        coord: [2766.35,272.34,1217.46]
+        coord: [2766.35,272.34,-1217.46]
       End:
-        coord: [2706.13,202.36,1163.42]
+        coord: [2706.13,202.36,-1163.42]
     SS49:
       presets: _Korok<SS49 Lift Rock,korok-rock>
       coord: [2029.73,265.68,-1166.69]
@@ -3887,15 +3887,15 @@ presets:
       presets: _Korok<SS54 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::SS54::Start
-      - [1609.03,119.70,1348.01]
-      - [1600.39,116.03,1355.77]
-      - [1597.56,121.61,1375.63]
+      - [1609.03,119.70,-1348.01]
+      - [1600.39,116.03,-1355.77]
+      - [1597.56,121.61,-1375.63]
       - _Korok::SS54::End
     _SS54:
       Start:
-        coord: [1626.41,117.39,1359.99]
+        coord: [1626.41,117.39,-1359.99]
       End:
-        coord: [1598.38,131.17,1392.76]
+        coord: [1598.38,131.17,-1392.76]
     SS55:
       presets: _Korok<SS55 Lift Rock,korok-rock>
       coord: [1925.51,187.32,-1489.51]
@@ -3922,7 +3922,7 @@ presets:
     _SS60:
       Start:
         presets: _KorokFriendStart<SS60>
-        coord: [1767.23,120.76,-1864.98]
+        coord: [1768.50,120.84,-1867.70]
       End:
         presets: _KorokFriendEnd<SS60>
         coord: [2190.59,129.22,-1701.39]
@@ -3943,7 +3943,7 @@ presets:
     _SS63:
       Start:
         presets: _KorokFriendStart<SS63>
-        coord: [1169.40,115.50,-1883.00]
+        coord: [1172.00,115.28,-1884.50]
       End:
         presets: _KorokFriendEnd<SS63>
         coord: [1196.10,116.67,-1842.76]
@@ -3989,7 +3989,7 @@ presets:
     _SS72:
       Start:
         presets: _KorokFriendStart<SS72>
-        coord: [770.53,241.50,-2138.18]
+        coord: [769.50,241.61,-2141.00]
       End:
         presets: _KorokFriendEnd<SS72>
         coord: [1149.79,315.61,-2282.46]
@@ -4016,20 +4016,20 @@ presets:
       presets: _Korok<SSS05 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::SSS05::Start
-      - [2334.05,1796.78,1836.55]
-      - [2327.47,1796.87,1844.85]
-      - [2330.76,1793.42,1859.32]
-      - [2338.50,1796.48,1859.67]
-      - [2344.87,1801.31,1855.94]
-      - [2349.30,1807.26,1849.48]
-      - [2348.99,1810.89,1841.39]
-      - [2341.00,1816.84,1831.24]
+      - [2334.05,1796.78,-1836.55]
+      - [2327.47,1796.87,-1844.85]
+      - [2330.76,1793.42,-1859.32]
+      - [2338.50,1796.48,-1859.67]
+      - [2344.87,1801.31,-1855.94]
+      - [2349.30,1807.26,-1849.48]
+      - [2348.99,1810.89,-1841.39]
+      - [2341.00,1816.84,-1831.24]
       - _Korok::SSS05::End
     _SSS05:
       Start:
-        coord: [2334.86,1791.03,1845.45]
+        coord: [2334.86,1791.03,-1845.45]
       End:
-        coord: [2332.18,1821.92,1829.56]
+        coord: [2332.18,1821.92,-1829.56]
     SSS06:
       presets: _Korok<SSS06 Rock Pattern,korok-rock-circle>
       coord: [1677.28,798.66,-1897.96]
@@ -4057,7 +4057,7 @@ presets:
     _TR02:
       Start:
         presets: _KorokFriendStart<TR02>
-        coord: [1025.00,216.50,3671.00]
+        coord: [1025.00,216.37,3674.00]
       End:
         presets: _KorokFriendEnd<TR02>
         coord: [549.76,195.49,3690.18]
@@ -4072,7 +4072,7 @@ presets:
     _TR03:
       Start:
         presets: _KorokFriendStart<TR03>
-        coord: [514.22,288.50,3396.60]
+        coord: [523.00,289.82,3398.50]
       End:
         presets: _KorokFriendEnd<TR03>
         coord: [55.76,180.35,3554.23]
@@ -4109,7 +4109,7 @@ presets:
     _TR09:
       Start:
         presets: _KorokFriendStart<TR09>
-        coord: [-322.37,205.52,3161.93]
+        coord: [-323.05,205.51,3159.04]
       End:
         presets: _KorokFriendEnd<TR09>
         coord: [18.89,273.60,3099.23]
@@ -4124,7 +4124,7 @@ presets:
     _TR10:
       Start:
         presets: _KorokFriendStart<TR10>
-        coord: [489.00,280.85,3057.50]
+        coord: [489.00,280.85,3054.50]
       End:
         presets: _KorokFriendEnd<TR10>
         coord: [594.22,293.83,3043.84]
@@ -4145,7 +4145,7 @@ presets:
     _TR13:
       Start:
         presets: _KorokFriendStart<TR13>
-        coord: [1250.28,527.50,3002.60]
+        coord: [1249.48,527.35,3005.47]
       End:
         presets: _KorokFriendEnd<TR13>
         coord: [772.68,321.01,2857.31]
@@ -4169,7 +4169,7 @@ presets:
     _TR17:
       Start:
         presets: _KorokFriendStart<TR17>
-        coord: [-1433.48,299.00,1478.95]
+        coord: [-1434.00,299.11,1476.00]
       End:
         presets: _KorokFriendEnd<TR17>
         coord: [-768.48,241.68,1413.51]
@@ -4193,7 +4193,7 @@ presets:
     _TR21:
       Start:
         presets: _KorokFriendStart<TR21>
-        coord: [543.20,122.48,1098.43]
+        coord: [534.64,122.57,1108.05]
       End:
         presets: _KorokFriendEnd<TR21>
         coord: [631.82,115.50,1167.14]
@@ -4239,7 +4239,7 @@ presets:
     _UM07:
       Start:
         presets: _KorokFriendStart<UM07>
-        coord: [4282.00,277.50,3270.50]
+        coord: [4282.00,277.53,3267.50]
       End:
         presets: _KorokFriendEnd<UM07>
         coord: [4417.28,311.77,3264.65]
@@ -4247,15 +4247,15 @@ presets:
       presets: _Korok<UM08 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::UM08::Start
-      - [4438.77,352.53,-3194.61]
-      - [4424.13,352.73,-3188.46]
-      - [4432.80,352.29,-3179.92]
+      - [4438.77,352.53,3194.61]
+      - [4424.13,352.73,3188.46]
+      - [4432.80,352.29,3179.92]
       - _Korok::UM08::End
     _UM08:
       Start:
-        coord: [4435.77,355.38,-3187.56]
+        coord: [4435.77,355.38,3187.56]
       End:
-        coord: [4435.77,355.38,-3187.56]
+        coord: [4435.77,355.38,3187.56]
     UM09:
       presets: _Korok<UM09 Friends,korok-friends>
       vars:
@@ -4267,7 +4267,7 @@ presets:
     _UM09:
       Start:
         presets: _KorokFriendStart<UM09>
-        coord: [3965.74,284.50,3097.01]
+        coord: [3959.00,285.50,3118.50]
       End:
         presets: _KorokFriendEnd<UM09>
         coord: [3446.36,159.80,3173.07]
@@ -4310,7 +4310,7 @@ presets:
     _UM17:
       Start:
         presets: _KorokFriendStart<UM17>
-        coord: [4353.20,184.06,2537.93]
+        coord: [4355.50,182.94,2536.00]
       End:
         presets: _KorokFriendEnd<UM17>
         coord: [4627.84,108.14,2861.12]
@@ -4334,7 +4334,7 @@ presets:
     _UM21:
       Start:
         presets: _KorokFriendStart<UM21>
-        coord: [4202.73,233.18,2739.48]
+        coord: [4201.71,233.20,2742.30]
       End:
         presets: _KorokFriendEnd<UM21>
         coord: [3854.73,155.04,2685.24]
@@ -4358,7 +4358,7 @@ presets:
     _UM25:
       Start:
         presets: _KorokFriendStart<UM25>
-        coord: [3747.84,199.50,2307.50]
+        coord: [3748.00,199.45,2304.50]
       End:
         presets: _KorokFriendEnd<UM25>
         coord: [4280.26,125.88,2338.83]
@@ -4373,7 +4373,7 @@ presets:
     _UM26:
       Start:
         presets: _KorokFriendStart<UM26>
-        coord: [3088.60,302.00,1757.78]
+        coord: [3092.00,302.21,1755.38]
       End:
         presets: _KorokFriendEnd<UM26>
         coord: [3223.39,233.82,2169.83]
@@ -4394,7 +4394,7 @@ presets:
     _UM29:
       Start:
         presets: _KorokFriendStart<UM29>
-        coord: [4290.57,258.50,1610.80]
+        coord: [4292.50,258.55,1608.50]
       End:
         presets: _KorokFriendEnd<UM29>
         coord: [4747.62,106.20,1986.34]
@@ -4423,15 +4423,15 @@ presets:
       presets: _Korok<UM37 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::UM37::Start
-      - [3676.33,200.33,-1455.31]
-      - [3675.21,197.37,-1440.25]
-      - [3656.17,197.17,-1448.57]
+      - [3676.33,200.33,1455.31]
+      - [3675.21,197.37,1440.25]
+      - [3656.17,197.17,1448.57]
       - _Korok::UM37::End
     _UM37:
       Start:
-        coord: [3670.08,201.74,-1467.89]
+        coord: [3670.08,201.74,1467.89]
       End:
-        coord: [3644.92,201.68,-1458.49]
+        coord: [3644.92,201.68,1458.49]
     UM38:
       presets: _Korok<UM38 Lift Rock,korok-rock>
       coord: [3273.64,390.99,1397.95]
@@ -4473,15 +4473,15 @@ presets:
       presets: _Korok<UZ03 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::UZ03::Start
-      - [3878.35,353.20,-1340.41]
-      - [3886.83,354.13,-1339.62]
-      - [3882.61,356.42,-1340.24]
+      - [3878.35,353.20,1340.41]
+      - [3886.83,354.13,1339.62]
+      - [3882.61,356.42,1340.24]
       - _Korok::UZ03::End
     _UZ03:
       Start:
-        coord: [3882.68,353.26,-1338.28]
+        coord: [3882.68,353.26,1338.28]
       End:
-        coord: [3881.37,350.65,-1349.81]
+        coord: [3881.37,350.65,1349.81]
     UZ04:
       presets: _Korok<UZ04 Confetti,korok-confetti>
       coord: [3073.90,389.11,1140.20]
@@ -4524,7 +4524,7 @@ presets:
     _UZ12:
       Start:
         presets: _KorokFriendStart<UZ12>
-        coord: [4054.92,381.75,947.96]
+        coord: [4053.42,381.76,945.36]
       End:
         presets: _KorokFriendEnd<UZ12>
         coord: [4361.00,386.27,776.25]
@@ -4539,7 +4539,7 @@ presets:
     _UZ13:
       Start:
         presets: _KorokFriendStart<UZ13>
-        coord: [2640.73,263.38,1111.53]
+        coord: [2637.91,263.55,1110.50]
       End:
         presets: _KorokFriendEnd<UZ13>
         coord: [2760.16,305.10,773.76]
@@ -4566,7 +4566,7 @@ presets:
     _UZ18:
       Start:
         presets: _KorokFriendStart<UZ18>
-        coord: [2542.26,233.35,641.99]
+        coord: [2543.69,233.48,639.50]
       End:
         presets: _KorokFriendEnd<UZ18>
         coord: [2640.43,283.21,633.11]
@@ -4597,7 +4597,7 @@ presets:
     _UZ22:
       Start:
         presets: _KorokFriendStart<UZ22>
-        coord: [3778.40,636.50,447.00]
+        coord: [3781.00,636.32,445.50]
       End:
         presets: _KorokFriendEnd<UZ22>
         coord: [3920.81,591.24,542.61]
@@ -4640,15 +4640,15 @@ presets:
       presets: _Korok<UZ30 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::UZ30::Start
-      - [3663.09,354.88,-444.39]
-      - [3667.01,358.25,-447.53]
-      - [3671.55,361.63,-450.44]
+      - [3663.09,354.88,444.39]
+      - [3667.01,358.25,447.53]
+      - [3671.55,361.63,450.44]
       - _Korok::UZ30::End
     _UZ30:
       Start:
-        coord: [3663.64,351.92,-449.53]
+        coord: [3663.64,351.92,449.53]
       End:
-        coord: [3675.88,364.32,-452.62]
+        coord: [3675.88,364.32,452.62]
     UZ31:
       presets: _Korok<UZ31 Balloon (Stationary\),korok-balloon>
       coord: [3588.67,312.51,416.07]
@@ -4678,7 +4678,7 @@ presets:
     _UZ37:
       Start:
         presets: _KorokFriendStart<UZ37>
-        coord: [3531.70,317.00,-65.07]
+        coord: [3527.50,316.70,-60.50]
       End:
         presets: _KorokFriendEnd<UZ37>
         coord: [3879.93,317.09,266.62]
@@ -4702,20 +4702,20 @@ presets:
       presets: _Korok<UZ41 Ten-Flower Chase,korok-flower>
       movements:
       - _Korok::UZ41::Start
-      - [2750.60,216.82,-238.38]
-      - [2736.22,217.54,-231.90]
-      - [2739.45,217.68,-224.94]
-      - [2744.55,221.31,-222.12]
-      - [2736.54,229.76,-208.07]
-      - [2733.37,230.97,-187.95]
-      - [2740.71,233.96,-186.93]
-      - [2740.70,238.32,-191.58]
+      - [2750.60,216.82,238.38]
+      - [2736.22,217.54,231.90]
+      - [2739.45,217.68,224.94]
+      - [2744.55,221.31,222.12]
+      - [2736.54,229.76,208.07]
+      - [2733.37,230.97,187.95]
+      - [2740.71,233.96,186.93]
+      - [2740.70,238.32,191.58]
       - _Korok::UZ41::End
     _UZ41:
       Start:
-        coord: [2751.80,215.75,-251.41]
+        coord: [2751.80,215.75,251.41]
       End:
-        coord: [2744.01,242.77,-199.66]
+        coord: [2744.01,242.77,199.66]
     UZ42:
       presets: _Korok<UZ42 Pull Plug,korok-pull-plug>
       coord: [2782.66,186.91,197.79]
@@ -4733,7 +4733,7 @@ presets:
     _UZ44:
       Start:
         presets: _KorokFriendStart<UZ44>
-        coord: [2242.82,120.00,243.97]
+        coord: [2239.98,119.82,245.02]
       End:
         presets: _KorokFriendEnd<UZ44>
         coord: [2201.54,140.11,158.58]
@@ -4763,7 +4763,7 @@ presets:
     _UZ50:
       Start:
         presets: _KorokFriendStart<UZ50>
-        coord: [2808.93,252.00,180.70]
+        coord: [2807.03,252.04,183.04]
       End:
         presets: _KorokFriendEnd<UZ50>
         coord: [2619.63,224.65,56.19]
@@ -4821,15 +4821,15 @@ presets:
       presets: _Korok<UZ63 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::UZ63::Start
-      - [2963.98,287.09,364.02]
-      - [2989.67,287.56,361.03]
-      - [3001.31,294.48,373.07]
+      - [2963.98,287.09,-364.02]
+      - [2989.67,287.56,-361.03]
+      - [3001.31,294.48,-373.07]
       - _Korok::UZ63::End
     _UZ63:
       Start:
-        coord: [2944.25,285.80,349.75]
+        coord: [2944.25,285.80,-349.75]
       End:
-        coord: [3009.32,297.91,373.12]
+        coord: [3009.32,297.91,-373.12]
     UZ64:
       presets: _Korok<UZ64 Rock Pattern,korok-rock-circle>
       coord: [3944.02,143.60,-413.10]
@@ -4852,15 +4852,15 @@ presets:
       presets: _Korok<UZ70 Five-Flower Chase,korok-flower>
       movements:
       - _Korok::UZ70::Start
-      - [3732.01,109.12,619.96]
-      - [3739.83,107.05,616.08]
-      - [3734.00,114.59,631.43]
+      - [3732.01,109.12,-619.96]
+      - [3739.83,107.05,-616.08]
+      - [3734.00,114.59,-631.43]
       - _Korok::UZ70::End
     _UZ70:
       Start:
-        coord: [3711.79,106.79,621.90]
+        coord: [3711.79,106.79,-621.90]
       End:
-        coord: [3720.34,107.51,620.92]
+        coord: [3720.34,107.51,-620.92]
     UZ71:
       presets: _Korok<UZ71 Friends,korok-friends>
       vars:
@@ -4872,7 +4872,7 @@ presets:
     _UZ71:
       Start:
         presets: _KorokFriendStart<UZ71>
-        coord: [4001.55,281.50,-184.31]
+        coord: [3999.50,281.80,-186.50]
       End:
         presets: _KorokFriendEnd<UZ71>
         coord: [4499.93,181.19,-648.07]
@@ -4890,7 +4890,7 @@ presets:
     _UZ73:
       Start:
         presets: _KorokFriendStart<UZ73>
-        coord: [3655.03,109.00,-607.32]
+        coord: [3654.00,109.37,-604.50]
       End:
         presets: _KorokFriendEnd<UZ73>
         coord: [3304.90,116.15,-773.61]

@@ -57,15 +57,24 @@ def find_flowers(korok_hash):
         flowers.append((flower["pos"], flower_hash))
     return flowers
 
-def find_friend_destination(korok_hash):
+def find_friend_passenger_and_destination(korok_hash):
     korok_data = hit_radar(f"/obj_by_hash/{korok_hash}")
     map_name = korok_data["map_name"]
     map_type = korok_data["map_type"]
 
     gen_group = hit_radar(f"/obj/{map_type}/{map_name}/{korok_hash}/gen_group")
+    
+    dest = None
+    source = None
     for obj in gen_group:
-        if obj["name"] == "KorokCarry_Destination":
-            return obj["hash_id"], obj["pos"]
+        if dest is None and obj["name"] == "KorokCarry_Destination":
+            dest = obj["hash_id"], obj["pos"]
+        if source is None and obj["name"] == "KorokCarryPassenger_Pair":
+            source = obj["hash_id"], obj["pos"]
+        if dest is not None and source is not None:
+            return source, dest
+    if source is None:
+        raise ValueError("no source for " + korok_hash)
     raise ValueError("no destination")
 
 def find_lift_rock_type(korok_hash):
@@ -100,8 +109,20 @@ with open("totk/data/koroks.yaml", "r") as f:
 def coord_str(coord):
     return f"[{coord[0]:.2f}, {coord[1]:.2f}, {coord[2]:.2f}]"
 
+def z_inverted(coord):
+    return [coord[0], coord[1], -coord[2]]
+
+for id in tqdm(koroks):
+#     if koroks[id]["type"] == "Friends":
+#         old_hash = koroks[id]["hash"]
+#         source, dest = find_friend_passenger_and_destination(old_hash)
+#         koroks[id]["hash"] = source[0]
+#         koroks[id]["move"] = [z_inverted(source[1]), z_inverted(dest[1])]
+#         print(f"Friends: {id} {old_hash} -> {koroks[id]['hash']}")
+    if koroks[id]["type"].startswith("FlowerChase"):
+        koroks[id]["move"] = [z_inverted(x) for x in koroks[id]["move"]]
+
 with open("out", "w") as f:
-    s = set()
     for id in sorted(koroks):
         f.write(f"  {id}:\n")
         f.write(f"    type: {koroks[id]['type']}\n")
@@ -112,9 +133,6 @@ with open("out", "w") as f:
         if len(m) == 1:
             f.write(f"    move: [{coord_str(m[0])}]\n")
         else:
-            if koroks[id]["type"] not in s:
-                s.add(koroks[id]["type"])
-                print(koroks[id]["type"])
             f.write(f"    move:\n")
             for coord in m:
                 f.write(f"    - {coord_str(coord)}\n")
