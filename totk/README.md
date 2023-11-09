@@ -8,6 +8,8 @@ See [Usage](#usage) for how to use the presets in the route
 
 ### Example
 Here is an example of a typical `project.yaml` that uses TOTK presets:
+
+**Make sure you add the `variables` plugins for the counters to work properly!!!**
 ```yaml
 # project.yaml
 title: Example Route
