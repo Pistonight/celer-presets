@@ -113,15 +113,16 @@ def z_inverted(coord):
     return [coord[0], coord[1], -coord[2]]
 
 for id in tqdm(koroks):
-    if koroks[id]["type"] == "Friends":
-        old_hash = koroks[id]["hash"]
-        source, dest = find_friend_passenger_and_destination(old_hash)
-        koroks[id]["hash"] = source[0]
-        koroks[id]["move"] = [z_inverted(source[1]), z_inverted(dest[1])]
-        print(f"Friends: {id} {old_hash} -> {koroks[id]['hash']}")
+#     if koroks[id]["type"] == "Friends":
+#         old_hash = koroks[id]["hash"]
+#         source, dest = find_friend_passenger_and_destination(old_hash)
+#         koroks[id]["hash"] = source[0]
+#         koroks[id]["move"] = [z_inverted(source[1]), z_inverted(dest[1])]
+#         print(f"Friends: {id} {old_hash} -> {koroks[id]['hash']}")
+    if koroks[id]["type"].startswith("FlowerChase"):
+        koroks[id]["move"] = [z_inverted(x) for x in koroks[id]["move"]]
 
 with open("out", "w") as f:
-    s = set()
     for id in sorted(koroks):
         f.write(f"  {id}:\n")
         f.write(f"    type: {koroks[id]['type']}\n")
@@ -132,9 +133,6 @@ with open("out", "w") as f:
         if len(m) == 1:
             f.write(f"    move: [{coord_str(m[0])}]\n")
         else:
-            if koroks[id]["type"] not in s:
-                s.add(koroks[id]["type"])
-                print(koroks[id]["type"])
             f.write(f"    move:\n")
             for coord in m:
                 f.write(f"    - {coord_str(coord)}\n")
