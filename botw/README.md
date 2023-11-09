@@ -12,6 +12,8 @@ The following features from the old celer do not work yet:
 
 ### Example
 Here is an example of a typical `project.yaml` that uses BOTW presets:
+
+**Make sure you add the `variables` plugins for the counters to work properly!!!**
 ```yaml
 # project.yaml
 title: Example Route
