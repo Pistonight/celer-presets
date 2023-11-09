@@ -86,7 +86,7 @@ presets:
     _EC03:
       Start:
         presets: _KorokFriendStart<EC03>
-        coord: [3349.60,327.00,3664.50]
+        coord: [3349.50,326.94,3667.50]
       End:
         presets: _KorokFriendEnd<EC03>
         coord: [2968.30,330.35,3648.06]
@@ -107,7 +107,7 @@ presets:
     _EC06:
       Start:
         presets: _KorokFriendStart<EC06>
-        coord: [1720.10,535.93,2610.61]
+        coord: [1723.10,536.21,2610.61]
       End:
         presets: _KorokFriendEnd<EC06>
         coord: [1714.46,499.18,3060.56]
@@ -138,7 +138,7 @@ presets:
     _EC10:
       Start:
         presets: _KorokFriendStart<EC10>
-        coord: [2176.44,628.50,2783.00]
+        coord: [2178.03,628.63,2780.46]
       End:
         presets: _KorokFriendEnd<EC10>
         coord: [2510.56,628.92,2985.01]
@@ -165,7 +165,7 @@ presets:
     _EC15:
       Start:
         presets: _KorokFriendStart<EC15>
-        coord: [1816.66,507.00,2645.48]
+        coord: [1816.94,506.82,2642.47]
       End:
         presets: _KorokFriendEnd<EC15>
         coord: [1990.80,562.50,2596.79]
@@ -248,7 +248,7 @@ presets:
     _EC33:
       Start:
         presets: _KorokFriendStart<EC33>
-        coord: [1982.51,528.50,2037.77]
+        coord: [1980.50,528.82,2040.00]
       End:
         presets: _KorokFriendEnd<EC33>
         coord: [1832.47,448.00,1904.19]
@@ -279,7 +279,7 @@ presets:
     _EC36:
       Start:
         presets: _KorokFriendStart<EC36>
-        coord: [1544.50,388.50,1808.51]
+        coord: [1541.50,388.82,1808.50]
       End:
         presets: _KorokFriendEnd<EC36>
         coord: [1504.40,415.45,1802.26]
@@ -316,7 +316,7 @@ presets:
     _EC42:
       Start:
         presets: _KorokFriendStart<EC42>
-        coord: [1534.00,411.50,1609.00]
+        coord: [1534.05,411.47,1605.99]
       End:
         presets: _KorokFriendEnd<EC42>
         coord: [1876.71,407.96,1629.50]
@@ -371,7 +371,7 @@ presets:
     _EC54:
       Start:
         presets: _KorokFriendStart<EC54>
-        coord: [2375.05,236.68,1403.28]
+        coord: [2372.34,236.69,1404.55]
       End:
         presets: _KorokFriendEnd<EC54>
         coord: [2129.27,237.61,1083.12]
@@ -422,7 +422,7 @@ presets:
     _GC05:
       Start:
         presets: _KorokFriendStart<GC05>
-        coord: [-1971.86,139.55,-2085.11]
+        coord: [-1984.43,138.96,-2079.17]
       End:
         presets: _KorokFriendEnd<GC05>
         coord: [-2050.82,147.47,-1995.14]
@@ -453,7 +453,7 @@ presets:
     _GC09:
       Start:
         presets: _KorokFriendStart<GC09>
-        coord: [-2430.60,340.19,-2119.28]
+        coord: [-2433.50,340.14,-2118.50]
       End:
         presets: _KorokFriendEnd<GC09>
         coord: [-2439.74,370.49,-2144.16]
@@ -512,7 +512,7 @@ presets:
     _GC19:
       Start:
         presets: _KorokFriendStart<GC19>
-        coord: [-1615.44,100.53,-2403.14]
+        coord: [-1708.00,91.15,-2341.18]
       End:
         presets: _KorokFriendEnd<GC19>
         coord: [-1640.75,112.56,-2359.43]
@@ -530,7 +530,7 @@ presets:
     _GC21:
       Start:
         presets: _KorokFriendStart<GC21>
-        coord: [-1019.00,304.50,-2640.60]
+        coord: [-1017.98,305.77,-2632.50]
       End:
         presets: _KorokFriendEnd<GC21>
         coord: [-1374.11,210.96,-2443.93]
@@ -545,7 +545,7 @@ presets:
     _GC22:
       Start:
         presets: _KorokFriendStart<GC22>
-        coord: [-2982.40,131.00,-2327.50]
+        coord: [-2985.00,131.11,-2326.00]
       End:
         presets: _KorokFriendEnd<GC22>
         coord: [-3316.00,134.86,-2461.54]
@@ -625,7 +625,7 @@ presets:
     _GC35:
       Start:
         presets: _KorokFriendStart<GC35>
-        coord: [-3344.99,146.59,-3058.17]
+        coord: [-3344.82,146.65,-3055.67]
       End:
         presets: _KorokFriendEnd<GC35>
         coord: [-3078.85,120.30,-3044.77]
@@ -675,7 +675,7 @@ presets:
     _GC42:
       Start:
         presets: _KorokFriendStart<GC42>
-        coord: [-3818.56,157.54,-3126.49]
+        coord: [-3820.41,157.41,-3125.90]
       End:
         presets: _KorokFriendEnd<GC42>
         coord: [-3742.41,121.79,-3478.25]
@@ -696,7 +696,7 @@ presets:
     _GC45:
       Start:
         presets: _KorokFriendStart<GC45>
-        coord: [-4610.90,143.50,-3198.50]
+        coord: [-4613.50,143.57,-3197.00]
       End:
         presets: _KorokFriendEnd<GC45>
         coord: [-4877.10,145.49,-3564.94]
@@ -723,7 +723,7 @@ presets:
     _GC50:
       Start:
         presets: _KorokFriendStart<GC50>
-        coord: [-2491.40,131.75,-3348.47]
+        coord: [-2494.40,131.76,-3348.47]
       End:
         presets: _KorokFriendEnd<GC50>
         coord: [-2546.00,119.96,-3930.70]
@@ -760,7 +760,7 @@ presets:
     _GH03:
       Start:
         presets: _KorokFriendStart<GH03>
-        coord: [-3580.60,176.50,12.50]
+        coord: [-3583.55,175.75,14.15]
       End:
         presets: _KorokFriendEnd<GH03>
         coord: [-4074.89,162.56,35.31]
@@ -807,7 +807,7 @@ presets:
     _GH10:
       Start:
         presets: _KorokFriendStart<GH10>
-        coord: [-4540.50,633.50,-1344.00]
+        coord: [-4537.50,633.76,-1344.00]
       End:
         presets: _KorokFriendEnd<GH10>
         coord: [-4507.60,616.63,-589.92]
@@ -825,7 +825,7 @@ presets:
     _GH12:
       Start:
         presets: _KorokFriendStart<GH12>
-        coord: [-3199.49,584.89,-1169.53]
+        coord: [-3196.50,585.00,-1169.79]
       End:
         presets: _KorokFriendEnd<GH12>
         coord: [-3142.14,305.32,-619.74]
@@ -973,7 +973,7 @@ presets:
     _GH47:
       Start:
         presets: _KorokFriendStart<GH47>
-        coord: [-4138.99,151.36,-2259.98]
+        coord: [-4135.99,151.10,-2259.98]
       End:
         presets: _KorokFriendEnd<GH47>
         coord: [-4320.72,171.10,-1861.35]
@@ -1046,7 +1046,7 @@ presets:
     _GSI04:
       Start:
         presets: _KorokFriendStart<GSI04>
-        coord: [29.30,1521.26,-1254.91]
+        coord: [18.85,1524.10,-1262.96]
       End:
         presets: _KorokFriendEnd<GSI04>
         coord: [-90.85,1511.66,-1241.28]
@@ -1107,7 +1107,7 @@ presets:
     _GSI17:
       Start:
         presets: _KorokFriendStart<GSI17>
-        coord: [475.46,1548.39,-1698.93]
+        coord: [474.25,1548.47,-1694.75]
       End:
         presets: _KorokFriendEnd<GSI17>
         coord: [445.40,1551.59,-1786.62]
@@ -1122,7 +1122,7 @@ presets:
     _HF01:
       Start:
         presets: _KorokFriendStart<HF01>
-        coord: [-1797.98,225.00,-323.45]
+        coord: [-1798.50,225.08,-320.50]
       End:
         presets: _KorokFriendEnd<HF01>
         coord: [-1849.08,267.60,-329.20]
@@ -1183,7 +1183,7 @@ presets:
     _HF10:
       Start:
         presets: _KorokFriendStart<HF10>
-        coord: [-1550.65,133.50,-1000.09]
+        coord: [-1548.00,133.46,-1001.50]
       End:
         presets: _KorokFriendEnd<HF10>
         coord: [-1321.34,116.41,-570.09]
@@ -1231,7 +1231,7 @@ presets:
     _HF22:
       Start:
         presets: _KorokFriendStart<HF22>
-        coord: [-776.07,123.50,-500.62]
+        coord: [-779.00,123.29,-500.00]
       End:
         presets: _KorokFriendEnd<HF22>
         coord: [-880.59,125.21,-929.71]
@@ -1301,7 +1301,7 @@ presets:
     _HF38:
       Start:
         presets: _KorokFriendStart<HF38>
-        coord: [-1356.41,151.86,-1307.46]
+        coord: [-1356.41,151.97,-1310.46]
       End:
         presets: _KorokFriendEnd<HF38>
         coord: [-1302.20,243.50,-1331.72]
@@ -1335,7 +1335,7 @@ presets:
     _HF43:
       Start:
         presets: _KorokFriendStart<HF43>
-        coord: [-39.05,128.00,-1112.52]
+        coord: [-42.00,128.06,-1112.00]
       End:
         presets: _KorokFriendEnd<HF43>
         coord: [-152.74,126.05,-1530.73]
@@ -1383,7 +1383,7 @@ presets:
     _HF50:
       Start:
         presets: _KorokFriendStart<HF50>
-        coord: [-452.00,125.50,-1649.60]
+        coord: [-455.13,125.06,-1647.94]
       End:
         presets: _KorokFriendEnd<HF50>
         coord: [-509.35,170.96,-1696.41]
@@ -1426,7 +1426,7 @@ presets:
     _HF58:
       Start:
         presets: _KorokFriendStart<HF58>
-        coord: [-694.28,172.00,-1576.46]
+        coord: [-696.00,172.01,-1574.00]
       End:
         presets: _KorokFriendEnd<HF58>
         coord: [-1025.00,247.55,-1857.00]
@@ -1478,7 +1478,7 @@ presets:
     _HF68:
       Start:
         presets: _KorokFriendStart<HF68>
-        coord: [-1126.81,249.73,-1970.13]
+        coord: [-1129.54,249.79,-1970.78]
       End:
         presets: _KorokFriendEnd<HF68>
         coord: [-1178.43,250.51,-2088.73]
@@ -1523,7 +1523,7 @@ presets:
     _LB02:
       Start:
         presets: _KorokFriendStart<LB02>
-        coord: [-546.00,373.50,2223.00]
+        coord: [-546.00,373.26,2226.00]
       End:
         presets: _KorokFriendEnd<LB02>
         coord: [-981.23,225.85,2239.98]
@@ -1648,7 +1648,7 @@ presets:
     _LB30:
       Start:
         presets: _KorokFriendStart<LB30>
-        coord: [-3614.14,395.17,983.00]
+        coord: [-3613.35,394.54,985.37]
       End:
         presets: _KorokFriendEnd<LB30>
         coord: [-3557.28,292.84,767.68]
@@ -1716,7 +1716,7 @@ presets:
     _LB43:
       Start:
         presets: _KorokFriendStart<LB43>
-        coord: [-2084.43,209.50,482.30]
+        coord: [-2082.50,209.56,480.00]
       End:
         presets: _KorokFriendEnd<LB43>
         coord: [-2056.14,244.43,512.51]
@@ -1797,7 +1797,7 @@ presets:
     _LB53:
       Start:
         presets: _KorokFriendStart<LB53>
-        coord: [-2871.88,284.77,494.62]
+        coord: [-2872.99,285.31,496.97]
       End:
         presets: _KorokFriendEnd<LB53>
         coord: [-2599.68,253.24,189.10]
@@ -1812,7 +1812,7 @@ presets:
     _LB54:
       Start:
         presets: _KorokFriendStart<LB54>
-        coord: [-2962.00,249.50,84.50]
+        coord: [-2961.94,249.42,87.53]
       End:
         presets: _KorokFriendEnd<LB54>
         coord: [-3017.75,311.23,104.81]
@@ -1896,7 +1896,7 @@ presets:
     _LL05:
       Start:
         presets: _KorokFriendStart<LL05>
-        coord: [-779.44,122.85,938.84]
+        coord: [-776.46,122.95,938.51]
       End:
         presets: _KorokFriendEnd<LL05>
         coord: [-752.69,150.42,1070.67]
@@ -2169,7 +2169,7 @@ presets:
     _ML08:
       Start:
         presets: _KorokFriendStart<ML08>
-        coord: [3498.97,268.21,-1454.68]
+        coord: [3500.00,268.01,-1457.50]
       End:
         presets: _KorokFriendEnd<ML08>
         coord: [3667.33,402.57,-1385.63]
@@ -2224,7 +2224,7 @@ presets:
     _ML19:
       Start:
         presets: _KorokFriendStart<ML19>
-        coord: [2478.43,116.16,-1740.21]
+        coord: [2476.52,116.21,-1742.53]
       End:
         presets: _KorokFriendEnd<ML19>
         coord: [2613.64,124.65,-1868.34]
@@ -2258,7 +2258,7 @@ presets:
     _ML24:
       Start:
         presets: _KorokFriendStart<ML24>
-        coord: [2644.97,233.00,-2120.32]
+        coord: [2646.00,233.06,-2117.50]
       End:
         presets: _KorokFriendEnd<ML24>
         coord: [2482.28,115.33,-2048.74]
@@ -2276,7 +2276,7 @@ presets:
     _ML26:
       Start:
         presets: _KorokFriendStart<ML26>
-        coord: [2859.77,146.00,-1910.28]
+        coord: [2858.53,145.86,-1912.98]
       End:
         presets: _KorokFriendEnd<ML26>
         coord: [3251.26,205.26,-2114.16]
@@ -2327,7 +2327,7 @@ presets:
     _ML39:
       Start:
         presets: _KorokFriendStart<ML39>
-        coord: [3248.00,236.50,-2283.00]
+        coord: [3245.04,236.54,-2283.04]
       End:
         presets: _KorokFriendEnd<ML39>
         coord: [3260.64,322.55,-2396.73]
@@ -2348,7 +2348,7 @@ presets:
     _ML42:
       Start:
         presets: _KorokFriendStart<ML42>
-        coord: [3729.10,307.00,-2159.00]
+        coord: [3726.50,307.21,-2160.50]
       End:
         presets: _KorokFriendEnd<ML42>
         coord: [3898.72,106.33,-2505.77]
@@ -2400,7 +2400,7 @@ presets:
     _PF03:
       Start:
         presets: _KorokFriendStart<PF03>
-        coord: [630.03,117.82,-961.98]
+        coord: [628.53,117.82,-964.58]
       End:
         presets: _KorokFriendEnd<PF03>
         coord: [1018.62,115.04,-1185.32]
@@ -2439,7 +2439,7 @@ presets:
     _PF12:
       Start:
         presets: _KorokFriendStart<PF12>
-        coord: [47.48,163.50,-1691.05]
+        coord: [48.00,163.52,-1694.00]
       End:
         presets: _KorokFriendEnd<PF12>
         coord: [587.75,117.11,-1580.60]
@@ -2457,7 +2457,7 @@ presets:
     _PF14:
       Start:
         presets: _KorokFriendStart<PF14>
-        coord: [293.00,133.17,-1204.50]
+        coord: [290.00,133.26,-1204.50]
       End:
         presets: _KorokFriendEnd<PF14>
         coord: [342.00,123.63,-1662.20]
@@ -2510,7 +2510,7 @@ presets:
     _PF22:
       Start:
         presets: _KorokFriendStart<PF22>
-        coord: [523.00,161.50,-2199.00]
+        coord: [522.99,161.42,-2196.00]
       End:
         presets: _KorokFriendEnd<PF22>
         coord: [343.62,163.15,-2182.51]
@@ -2575,7 +2575,7 @@ presets:
     _PF34:
       Start:
         presets: _KorokFriendStart<PF34>
-        coord: [-188.50,125.00,-2243.66]
+        coord: [-189.86,125.84,-2249.39]
       End:
         presets: _KorokFriendEnd<PF34>
         coord: [-216.05,94.41,-2595.01]
@@ -2698,7 +2698,7 @@ presets:
     _PF62:
       Start:
         presets: _KorokFriendStart<PF62>
-        coord: [-304.48,130.27,-3292.94]
+        coord: [-306.82,129.87,-3290.00]
       End:
         presets: _KorokFriendEnd<PF62>
         coord: [-593.83,244.31,-3335.99]
@@ -2725,7 +2725,7 @@ presets:
     _PF67:
       Start:
         presets: _KorokFriendStart<PF67>
-        coord: [1611.22,166.50,-3490.60]
+        coord: [1611.94,166.91,-3493.28]
       End:
         presets: _KorokFriendEnd<PF67>
         coord: [1979.18,155.27,-3390.53]
@@ -2740,7 +2740,7 @@ presets:
     _PF68:
       Start:
         presets: _KorokFriendStart<PF68>
-        coord: [221.57,175.50,-3533.80]
+        coord: [223.47,175.16,-3531.37]
       End:
         presets: _KorokFriendEnd<PF68>
         coord: [47.99,130.45,-3393.38]
@@ -2767,7 +2767,7 @@ presets:
     _PF73:
       Start:
         presets: _KorokFriendStart<PF73>
-        coord: [522.00,156.26,-3464.00]
+        coord: [519.75,155.13,-3483.66]
       End:
         presets: _KorokFriendEnd<PF73>
         coord: [517.48,177.02,-3513.77]
@@ -2816,7 +2816,7 @@ presets:
     _PF82:
       Start:
         presets: _KorokFriendStart<PF82>
-        coord: [1397.62,107.61,-3642.26]
+        coord: [1397.15,107.23,-3641.25]
       End:
         presets: _KorokFriendEnd<PF82>
         coord: [994.71,107.05,-3804.74]
@@ -2840,7 +2840,7 @@ presets:
     _PF86:
       Start:
         presets: _KorokFriendStart<PF86>
-        coord: [67.88,111.00,-3759.13]
+        coord: [67.00,111.27,-3762.00]
       End:
         presets: _KorokFriendEnd<PF86>
         coord: [397.65,106.42,-3861.71]
@@ -2888,7 +2888,7 @@ presets:
     _PS07:
       Start:
         presets: _KorokFriendStart<PS07>
-        coord: [-1382.98,361.50,3632.45]
+        coord: [-1383.50,361.62,3629.50]
       End:
         presets: _KorokFriendEnd<PS07>
         coord: [-1032.69,335.72,3517.76]
@@ -2925,7 +2925,7 @@ presets:
     _PS13:
       Start:
         presets: _KorokFriendStart<PS13>
-        coord: [-2339.82,509.50,2955.47]
+        coord: [-2337.04,509.52,2956.54]
       End:
         presets: _KorokFriendEnd<PS13>
         coord: [-2372.83,547.18,3018.04]
@@ -2940,7 +2940,7 @@ presets:
     _PS14:
       Start:
         presets: _KorokFriendStart<PS14>
-        coord: [-1541.80,344.00,2555.93]
+        coord: [-1539.50,344.30,2554.00]
       End:
         presets: _KorokFriendEnd<PS14>
         coord: [-1347.10,309.02,2791.65]
@@ -2973,7 +2973,7 @@ presets:
     _PS21:
       Start:
         presets: _KorokFriendStart<PS21>
-        coord: [-2795.50,459.72,2304.90]
+        coord: [-2794.00,459.72,2307.50]
       End:
         presets: _KorokFriendEnd<PS21>
         coord: [-2837.95,497.46,2317.45]
@@ -3063,7 +3063,7 @@ presets:
     _RP06:
       Start:
         presets: _KorokFriendStart<RP06>
-        coord: [-2890.94,352.40,3491.44]
+        coord: [-2891.97,352.58,3494.02]
       End:
         presets: _KorokFriendEnd<RP06>
         coord: [-3238.18,348.81,3688.72]
@@ -3096,7 +3096,7 @@ presets:
     _RP13:
       Start:
         presets: _KorokFriendStart<RP13>
-        coord: [-3670.76,429.00,3383.01]
+        coord: [-3670.50,429.02,3386.00]
       End:
         presets: _KorokFriendEnd<RP13>
         coord: [-4124.63,328.40,3430.57]
@@ -3164,7 +3164,7 @@ presets:
     _RP26:
       Start:
         presets: _KorokFriendStart<RP26>
-        coord: [-2834.80,687.50,2841.93]
+        coord: [-2832.50,687.20,2840.00]
       End:
         presets: _KorokFriendEnd<RP26>
         coord: [-2795.93,706.56,2877.67]
@@ -3219,7 +3219,7 @@ presets:
     _RP38:
       Start:
         presets: _KorokFriendStart<RP38>
-        coord: [-4263.10,95.00,2176.50]
+        coord: [-4260.50,94.76,2175.00]
       End:
         presets: _KorokFriendEnd<RP38>
         coord: [-4116.12,92.23,2416.05]
@@ -3445,7 +3445,7 @@ presets:
     _RW24:
       Start:
         presets: _KorokFriendStart<RW24>
-        coord: [2458.03,325.50,-2911.18]
+        coord: [2453.00,326.36,-2912.00]
       End:
         presets: _KorokFriendEnd<RW24>
         coord: [2919.29,252.44,-3083.12]
@@ -3514,7 +3514,7 @@ presets:
     _RW36:
       Start:
         presets: _KorokFriendStart<RW36>
-        coord: [3688.03,350.50,-3314.68]
+        coord: [3686.96,350.35,-3317.51]
       End:
         presets: _KorokFriendEnd<RW36>
         coord: [4496.81,106.26,-3616.38]
@@ -3538,7 +3538,7 @@ presets:
     _RW40:
       Start:
         presets: _KorokFriendStart<RW40>
-        coord: [3544.68,106.16,-3456.24]
+        coord: [3541.73,106.07,-3458.29]
       End:
         presets: _KorokFriendEnd<RW40>
         coord: [3599.66,106.79,-3780.41]
@@ -3553,7 +3553,7 @@ presets:
     _RW41:
       Start:
         presets: _KorokFriendStart<RW41>
-        coord: [2245.49,135.00,-3469.26]
+        coord: [2242.50,135.07,-3469.00]
       End:
         presets: _KorokFriendEnd<RW41>
         coord: [2226.81,107.45,-3834.39]
@@ -3568,7 +3568,7 @@ presets:
     _RW42:
       Start:
         presets: _KorokFriendStart<RW42>
-        coord: [2828.52,106.50,-3886.45]
+        coord: [2828.00,106.48,-3883.50]
       End:
         presets: _KorokFriendEnd<RW42>
         coord: [2427.82,106.23,-3944.69]
@@ -3637,7 +3637,7 @@ presets:
     _SS07:
       Start:
         presets: _KorokFriendStart<SS07>
-        coord: [428.00,132.50,501.00]
+        coord: [434.03,134.61,483.98]
       End:
         presets: _KorokFriendEnd<SS07>
         coord: [432.00,115.27,596.71]
@@ -3667,7 +3667,7 @@ presets:
     _SS13:
       Start:
         presets: _KorokFriendStart<SS13>
-        coord: [1537.10,115.50,511.50]
+        coord: [1534.50,115.74,510.00]
       End:
         presets: _KorokFriendEnd<SS13>
         coord: [1686.10,121.50,255.55]
@@ -3688,7 +3688,7 @@ presets:
     _SS16:
       Start:
         presets: _KorokFriendStart<SS16>
-        coord: [1502.18,119.50,-334.47]
+        coord: [1505.00,119.30,-335.50]
       End:
         presets: _KorokFriendEnd<SS16>
         coord: [1701.22,116.27,9.74]
@@ -3737,7 +3737,7 @@ presets:
     _SS26:
       Start:
         presets: _KorokFriendStart<SS26>
-        coord: [795.00,116.00,-507.90]
+        coord: [793.50,116.07,-510.50]
       End:
         presets: _KorokFriendEnd<SS26>
         coord: [889.20,115.21,-556.10]
@@ -3752,7 +3752,7 @@ presets:
     _SS27:
       Start:
         presets: _KorokFriendStart<SS27>
-        coord: [1872.51,344.07,-813.88]
+        coord: [1876.50,344.57,-806.00]
       End:
         presets: _KorokFriendEnd<SS27>
         coord: [2174.65,317.02,-567.56]
@@ -3767,7 +3767,7 @@ presets:
     _SS28:
       Start:
         presets: _KorokFriendStart<SS28>
-        coord: [2691.30,217.05,-542.07]
+        coord: [2689.00,217.01,-544.00]
       End:
         presets: _KorokFriendEnd<SS28>
         coord: [2760.14,238.67,-582.83]
@@ -3785,7 +3785,7 @@ presets:
     _SS30:
       Start:
         presets: _KorokFriendStart<SS30>
-        coord: [960.98,137.07,-201.78]
+        coord: [958.26,137.08,-203.05]
       End:
         presets: _KorokFriendEnd<SS30>
         coord: [1195.87,125.62,-649.25]
@@ -3922,7 +3922,7 @@ presets:
     _SS60:
       Start:
         presets: _KorokFriendStart<SS60>
-        coord: [1767.23,120.76,-1864.98]
+        coord: [1768.50,120.84,-1867.70]
       End:
         presets: _KorokFriendEnd<SS60>
         coord: [2190.59,129.22,-1701.39]
@@ -3943,7 +3943,7 @@ presets:
     _SS63:
       Start:
         presets: _KorokFriendStart<SS63>
-        coord: [1169.40,115.50,-1883.00]
+        coord: [1172.00,115.28,-1884.50]
       End:
         presets: _KorokFriendEnd<SS63>
         coord: [1196.10,116.67,-1842.76]
@@ -3989,7 +3989,7 @@ presets:
     _SS72:
       Start:
         presets: _KorokFriendStart<SS72>
-        coord: [770.53,241.50,-2138.18]
+        coord: [769.50,241.61,-2141.00]
       End:
         presets: _KorokFriendEnd<SS72>
         coord: [1149.79,315.61,-2282.46]
@@ -4057,7 +4057,7 @@ presets:
     _TR02:
       Start:
         presets: _KorokFriendStart<TR02>
-        coord: [1025.00,216.50,3671.00]
+        coord: [1025.00,216.37,3674.00]
       End:
         presets: _KorokFriendEnd<TR02>
         coord: [549.76,195.49,3690.18]
@@ -4072,7 +4072,7 @@ presets:
     _TR03:
       Start:
         presets: _KorokFriendStart<TR03>
-        coord: [514.22,288.50,3396.60]
+        coord: [523.00,289.82,3398.50]
       End:
         presets: _KorokFriendEnd<TR03>
         coord: [55.76,180.35,3554.23]
@@ -4109,7 +4109,7 @@ presets:
     _TR09:
       Start:
         presets: _KorokFriendStart<TR09>
-        coord: [-322.37,205.52,3161.93]
+        coord: [-323.05,205.51,3159.04]
       End:
         presets: _KorokFriendEnd<TR09>
         coord: [18.89,273.60,3099.23]
@@ -4124,7 +4124,7 @@ presets:
     _TR10:
       Start:
         presets: _KorokFriendStart<TR10>
-        coord: [489.00,280.85,3057.50]
+        coord: [489.00,280.85,3054.50]
       End:
         presets: _KorokFriendEnd<TR10>
         coord: [594.22,293.83,3043.84]
@@ -4145,7 +4145,7 @@ presets:
     _TR13:
       Start:
         presets: _KorokFriendStart<TR13>
-        coord: [1250.28,527.50,3002.60]
+        coord: [1249.48,527.35,3005.47]
       End:
         presets: _KorokFriendEnd<TR13>
         coord: [772.68,321.01,2857.31]
@@ -4169,7 +4169,7 @@ presets:
     _TR17:
       Start:
         presets: _KorokFriendStart<TR17>
-        coord: [-1433.48,299.00,1478.95]
+        coord: [-1434.00,299.11,1476.00]
       End:
         presets: _KorokFriendEnd<TR17>
         coord: [-768.48,241.68,1413.51]
@@ -4193,7 +4193,7 @@ presets:
     _TR21:
       Start:
         presets: _KorokFriendStart<TR21>
-        coord: [543.20,122.48,1098.43]
+        coord: [534.64,122.57,1108.05]
       End:
         presets: _KorokFriendEnd<TR21>
         coord: [631.82,115.50,1167.14]
@@ -4239,7 +4239,7 @@ presets:
     _UM07:
       Start:
         presets: _KorokFriendStart<UM07>
-        coord: [4282.00,277.50,3270.50]
+        coord: [4282.00,277.53,3267.50]
       End:
         presets: _KorokFriendEnd<UM07>
         coord: [4417.28,311.77,3264.65]
@@ -4267,7 +4267,7 @@ presets:
     _UM09:
       Start:
         presets: _KorokFriendStart<UM09>
-        coord: [3965.74,284.50,3097.01]
+        coord: [3959.00,285.50,3118.50]
       End:
         presets: _KorokFriendEnd<UM09>
         coord: [3446.36,159.80,3173.07]
@@ -4310,7 +4310,7 @@ presets:
     _UM17:
       Start:
         presets: _KorokFriendStart<UM17>
-        coord: [4353.20,184.06,2537.93]
+        coord: [4355.50,182.94,2536.00]
       End:
         presets: _KorokFriendEnd<UM17>
         coord: [4627.84,108.14,2861.12]
@@ -4334,7 +4334,7 @@ presets:
     _UM21:
       Start:
         presets: _KorokFriendStart<UM21>
-        coord: [4202.73,233.18,2739.48]
+        coord: [4201.71,233.20,2742.30]
       End:
         presets: _KorokFriendEnd<UM21>
         coord: [3854.73,155.04,2685.24]
@@ -4358,7 +4358,7 @@ presets:
     _UM25:
       Start:
         presets: _KorokFriendStart<UM25>
-        coord: [3747.84,199.50,2307.50]
+        coord: [3748.00,199.45,2304.50]
       End:
         presets: _KorokFriendEnd<UM25>
         coord: [4280.26,125.88,2338.83]
@@ -4373,7 +4373,7 @@ presets:
     _UM26:
       Start:
         presets: _KorokFriendStart<UM26>
-        coord: [3088.60,302.00,1757.78]
+        coord: [3092.00,302.21,1755.38]
       End:
         presets: _KorokFriendEnd<UM26>
         coord: [3223.39,233.82,2169.83]
@@ -4394,7 +4394,7 @@ presets:
     _UM29:
       Start:
         presets: _KorokFriendStart<UM29>
-        coord: [4290.57,258.50,1610.80]
+        coord: [4292.50,258.55,1608.50]
       End:
         presets: _KorokFriendEnd<UM29>
         coord: [4747.62,106.20,1986.34]
@@ -4524,7 +4524,7 @@ presets:
     _UZ12:
       Start:
         presets: _KorokFriendStart<UZ12>
-        coord: [4054.92,381.75,947.96]
+        coord: [4053.42,381.76,945.36]
       End:
         presets: _KorokFriendEnd<UZ12>
         coord: [4361.00,386.27,776.25]
@@ -4539,7 +4539,7 @@ presets:
     _UZ13:
       Start:
         presets: _KorokFriendStart<UZ13>
-        coord: [2640.73,263.38,1111.53]
+        coord: [2637.91,263.55,1110.50]
       End:
         presets: _KorokFriendEnd<UZ13>
         coord: [2760.16,305.10,773.76]
@@ -4566,7 +4566,7 @@ presets:
     _UZ18:
       Start:
         presets: _KorokFriendStart<UZ18>
-        coord: [2542.26,233.35,641.99]
+        coord: [2543.69,233.48,639.50]
       End:
         presets: _KorokFriendEnd<UZ18>
         coord: [2640.43,283.21,633.11]
@@ -4597,7 +4597,7 @@ presets:
     _UZ22:
       Start:
         presets: _KorokFriendStart<UZ22>
-        coord: [3778.40,636.50,447.00]
+        coord: [3781.00,636.32,445.50]
       End:
         presets: _KorokFriendEnd<UZ22>
         coord: [3920.81,591.24,542.61]
@@ -4678,7 +4678,7 @@ presets:
     _UZ37:
       Start:
         presets: _KorokFriendStart<UZ37>
-        coord: [3531.70,317.00,-65.07]
+        coord: [3527.50,316.70,-60.50]
       End:
         presets: _KorokFriendEnd<UZ37>
         coord: [3879.93,317.09,266.62]
@@ -4733,7 +4733,7 @@ presets:
     _UZ44:
       Start:
         presets: _KorokFriendStart<UZ44>
-        coord: [2242.82,120.00,243.97]
+        coord: [2239.98,119.82,245.02]
       End:
         presets: _KorokFriendEnd<UZ44>
         coord: [2201.54,140.11,158.58]
@@ -4763,7 +4763,7 @@ presets:
     _UZ50:
       Start:
         presets: _KorokFriendStart<UZ50>
-        coord: [2808.93,252.00,180.70]
+        coord: [2807.03,252.04,183.04]
       End:
         presets: _KorokFriendEnd<UZ50>
         coord: [2619.63,224.65,56.19]
@@ -4872,7 +4872,7 @@ presets:
     _UZ71:
       Start:
         presets: _KorokFriendStart<UZ71>
-        coord: [4001.55,281.50,-184.31]
+        coord: [3999.50,281.80,-186.50]
       End:
         presets: _KorokFriendEnd<UZ71>
         coord: [4499.93,181.19,-648.07]
@@ -4890,7 +4890,7 @@ presets:
     _UZ73:
       Start:
         presets: _KorokFriendStart<UZ73>
-        coord: [3655.03,109.00,-607.32]
+        coord: [3654.00,109.37,-604.50]
       End:
         presets: _KorokFriendEnd<UZ73>
         coord: [3304.90,116.15,-773.61]
