@@ -14,6 +14,7 @@ project["config"] = [
     {
         "plugins": [
             { "use": "variables" },
+            { "use": "botw-ability-unstable", "with": { "estimate-recharge": True } },
             { "use": "metrics", "with": { "detailed": True } },
         ]
     },

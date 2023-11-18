@@ -15,5 +15,6 @@ presets:
     counter: .var(counter-korok)
     vars:
       korok-seed: .add(1)
+    time-override: $(2)
   _Korok:
     #TXTPP#run python ../../scripts/koroks.py ../data/koroks.yaml 900

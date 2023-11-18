@@ -32,285 +32,287 @@ presets:
     icon-priority: 0
     counter: .var(counter-shrine)
     coord: [$(2), $(3), $(4)]
+    time-override: $(5)
   ShrineDlc:
     text: ".shrine-dlc($(0))"
     icon: $(1)
     icon-priority: 0
     counter: .counter-dlc-shrine(EX)
     coord: [$(2), $(3), $(4)]
+    time-override: $(5)
   _Shrine:
     JaBaij:
-      presets: _Shrine<Ja Baij,shrine,-446.7,180.02,1990.18>
+      presets: _Shrine<Ja Baij,shrine,-446.7,180.02,1990.18,10>
     OmanAu:
-      presets: _Shrine<Oman Au,shrine,-673.25,173.09,1513.01>
+      presets: _Shrine<Oman Au,shrine,-673.25,173.09,1513.01,10>
     OwaDaim:
-      presets: _Shrine<Owa Daim,shrine,-925.03,274.17,2321.23>
+      presets: _Shrine<Owa Daim,shrine,-925.03,274.17,2321.23,10>
     KehNamut:
-      presets: _Shrine<Keh Namut,shrine,-1436.35,337.58,1990.99>
+      presets: _Shrine<Keh Namut,shrine,-1436.35,337.58,1990.99,10>
     AkhVaquot:
-      presets: _Shrine<Akh Va'quot,shrine,-3656.13,321.74,-1756.7>
+      presets: _Shrine<Akh Va'quot,shrine,-3656.13,321.74,-1756.7,10>
     BareedaNaag:
-      presets: _Shrine<Bareeda Naag,shrine,-3609.19,246.74,-1515.4>
+      presets: _Shrine<Bareeda Naag,shrine,-3609.19,246.74,-1515.4,10>
     BoshKala:
-      presets: _Shrine<Bosh Kala,shrine,87.02,122.52,1658.71>
+      presets: _Shrine<Bosh Kala,shrine,87.02,122.52,1658.71,10>
     ChaasQeta:
-      presets: _Shrine<Chaas Qeta,shrine-double-sword,4012.19,107.18,2990.54>
+      presets: _Shrine<Chaas Qeta,shrine-double-sword,4012.19,107.18,2990.54,10>
     DaagChokah:
-      presets: _Shrine<Daag Chokah,shrine-blessing,-26.43,280.34,-2458.63>
+      presets: _Shrine<Daag Chokah,shrine-blessing,-26.43,280.34,-2458.63,10>
     DagahKeek:
-      presets: _Shrine<Dagah Keek,shrine-blessing,3149.7,280.0,-416.8>
+      presets: _Shrine<Dagah Keek,shrine-blessing,3149.7,280.0,-416.8,10>
     DahHesho:
-      presets: _Shrine<Dah Hesho,shrine-sword,3899.52,354.77,-1302.81>
+      presets: _Shrine<Dah Hesho,shrine-sword,3899.52,354.77,-1302.81,10>
     DahKaso:
-      presets: _Shrine<Dah Kaso,shrine-sword,-1695.29,68.84,1700.12>
+      presets: _Shrine<Dah Kaso,shrine-sword,-1695.29,68.84,1700.12,10>
     DakaTuss:
-      presets: _Shrine<Daka Tuss,shrine,1601.0,117.7,462.2>
+      presets: _Shrine<Daka Tuss,shrine,1601.0,117.7,462.2,10>
     DaqaKoh:
-      presets: _Shrine<Daqa Koh,shrine,2065.85,598.01,-2328.36>
+      presets: _Shrine<Daqa Koh,shrine,2065.85,598.01,-2328.36,10>
     DaqoChisay:
-      presets: _Shrine<Daqo Chisay,shrine,-3817.03,150.45,2819.85>
+      presets: _Shrine<Daqo Chisay,shrine,-3817.03,150.45,2819.85,10>
     DakoTah:
-      presets: _Shrine<Dako Tah,shrine,-3317.78,146.11,2162.48>
+      presets: _Shrine<Dako Tah,shrine,-3317.78,146.11,2162.48,10>
     DilaMaag:
-      presets: _Shrine<Dila Maag,shrine-blessing,-1795.0,164.18,3465.39>
+      presets: _Shrine<Dila Maag,shrine-blessing,-1795.0,164.18,3465.39,10>
     DowNaeh:
-      presets: _Shrine<Dow Na'eh,shrine,2697.65,220.94,1333.48>
+      presets: _Shrine<Dow Na'eh,shrine,2697.65,220.94,1333.48,10>
     DunbaTaag:
-      presets: _Shrine<Dunba Taag,shrine,-2832.47,79.88,-1578.04>
+      presets: _Shrine<Dunba Taag,shrine,-2832.47,79.88,-1578.04,10>
     EtsuKorima:
-      presets: _ShrineDlc<Etsu Korima,shrine-dlc,-1216.12,340.5,2109.9>
+      presets: _ShrineDlc<Etsu Korima,shrine-dlc,-1216.12,340.5,2109.9,10>
     GeeHarah:
-      presets: _Shrine<Gee Ha'rah,shrine,-2379.84,278.11,-2254.59>
+      presets: _Shrine<Gee Ha'rah,shrine,-2379.84,278.11,-2254.59,10>
     GomaAsaagh:
-      presets: _Shrine<Goma Asaagh,shrine-double-sword,-2792.31,671.02,-2882.31>
+      presets: _Shrine<Goma Asaagh,shrine-double-sword,-2792.31,671.02,-2882.31,10>
     GoraeTorr:
-      presets: _Shrine<Gorae Torr,shrine-blessing,2662.0,470.0,-3456.5>
+      presets: _Shrine<Gorae Torr,shrine-blessing,2662.0,470.0,-3456.5,10>
     HaDahamar:
-      presets: _Shrine<Ha Dahamar,shrine,1662.36,115.52,1921.6>
+      presets: _Shrine<Ha Dahamar,shrine,1662.36,115.52,1921.6,10>
     HawaKoth:
-      presets: _Shrine<Hawa Koth,shrine,-4847.04,123.74,3772.63>
+      presets: _Shrine<Hawa Koth,shrine,-4847.04,123.74,3772.63,10>
     HiaMiu:
-      presets: _Shrine<Hia Miu,shrine-double-sword,-4446.8,329.85,-3803.04>
+      presets: _Shrine<Hia Miu,shrine-double-sword,-4446.8,329.85,-3803.04,10>
     HilaRao:
-      presets: _Shrine<Hila Rao,shrine,854.73,116.93,838.06>
+      presets: _Shrine<Hila Rao,shrine,854.73,116.93,838.06,10>
     IshtoSoh:
-      presets: _Shrine<Ishto Soh,shrine,-984.79,321.22,3564.99>
+      presets: _Shrine<Ishto Soh,shrine,-984.79,321.22,3564.99,10>
     JeeNoh:
-      presets: _Shrine<Jee Noh,shrine,-1792.83,112.85,2423.39>
+      presets: _Shrine<Jee Noh,shrine,-1792.83,112.85,2423.39,10>
     JitanSami:
-      presets: _Shrine<Jitan Sa'mi,shrine-blessing,3882.12,572.81,1314.94>
+      presets: _Shrine<Jitan Sa'mi,shrine-blessing,3882.12,572.81,1314.94,10>
     JolooNah:
-      presets: _Shrine<Joloo Nah,shrine,-2004.01,231.65,1674.26>
+      presets: _Shrine<Joloo Nah,shrine,-2004.01,231.65,1674.26,10>
     KaamYatak:
-      presets: _Shrine<Kaam Ya'tak,shrine,-967.8,127.67,715.89>
+      presets: _Shrine<Kaam Ya'tak,shrine,-967.8,127.67,715.89,10>
     KahMael:
-      presets: _Shrine<Kah Mael,shrine,4709.2,242.5,-1310.29>
+      presets: _Shrine<Kah Mael,shrine,4709.2,242.5,-1310.29,10>
     KahOkeo:
-      presets: _Shrine<Kah Okeo,shrine,-4120.41,184.29,-414.37>
+      presets: _Shrine<Kah Okeo,shrine,-4120.41,184.29,-414.37,10>
     KahYah:
-      presets: _Shrine<Kah Yah,shrine,3436.89,120.68,3316.28>
+      presets: _Shrine<Kah Yah,shrine,3436.89,120.68,3316.28,10>
     KamUrog:
-      presets: _Shrine<Kam Urog,shrine,2501.03,119.17,1494.84>
+      presets: _Shrine<Kam Urog,shrine,2501.03,119.17,1494.84,10>
     KamiaOmuna:
-      presets: _ShrineDlc<Kamia Omuna,shrine-dlc,2128.36,509.92,-3228.81>
+      presets: _ShrineDlc<Kamia Omuna,shrine-dlc,2128.36,509.92,-3228.81,10>
     KaoMakagh:
-      presets: _Shrine<Ka'o Makagh,shrine,523.29,178.91,3526.27>
+      presets: _Shrine<Ka'o Makagh,shrine,523.29,178.91,3526.27,10>
     KatahChuki:
-      presets: _Shrine<Katah Chuki,shrine-sword,-636.41,128.87,-345.11>
+      presets: _Shrine<Katah Chuki,shrine-sword,-636.41,128.87,-345.11,10>
     KatosaAug:
-      presets: _Shrine<Katosa Aug,shrine,4295.79,237.42,-2730.34>
+      presets: _Shrine<Katosa Aug,shrine,4295.79,237.42,-2730.34,10>
     KayNoh:
-      presets: _Shrine<Kay Noh,shrine,-2810.96,172.01,2300.08>
+      presets: _Shrine<Kay Noh,shrine,-2810.96,172.01,2300.08,10>
     KayaWan:
-      presets: _Shrine<Kaya Wan,shrine,824.21,132.88,187.79>
+      presets: _Shrine<Kaya Wan,shrine,824.21,132.88,187.79,10>
     KayraMah:
-      presets: _Shrine<Kayra Mah,shrine,2076.82,520.77,-2039.77>
+      presets: _Shrine<Kayra Mah,shrine,2076.82,520.77,-2039.77,10>
     KeeDafunia:
-      presets: _ShrineDlc<Kee Dafunia,shrine-dlc,4935.17,106.8,-1002.4>
+      presets: _ShrineDlc<Kee Dafunia,shrine-dlc,4935.17,106.8,-1002.4,10>
     KeehaYoog:
-      presets: _Shrine<Keeha Yoog,shrine-blessing,-3853.4,640.3,716.7>
+      presets: _Shrine<Keeha Yoog,shrine-blessing,-3853.4,640.3,716.7,10>
     KeiveTala:
-      presets: _ShrineDlc<Keive Tala,shrine-dlc,-2339.53,129.5,3901.64>
+      presets: _ShrineDlc<Keive Tala,shrine-dlc,-2339.53,129.5,3901.64,10>
     KemaKosassa:
-      presets: _Shrine<Kema Kosassa,shrine-double-sword,-4658.48,619.49,904.84>
+      presets: _Shrine<Kema Kosassa,shrine-double-sword,-4658.48,619.49,904.84,10>
     KemaZoos:
-      presets: _Shrine<Kema Zoos,shrine,-4673.53,132.12,1967.79>
+      presets: _Shrine<Kema Zoos,shrine,-4673.53,132.12,1967.79,10>
     KenaiShakah:
-      presets: _Shrine<Ke'nai Shakah,shrine-double-sword,4194.49,323.11,-856.88>
+      presets: _Shrine<Ke'nai Shakah,shrine-double-sword,4194.49,323.11,-856.88,10>
     KeoRuug:
-      presets: _Shrine<Keo Ruug,shrine,470.7,250.15,-2168.79>
+      presets: _Shrine<Keo Ruug,shrine,470.7,250.15,-2168.79,10>
     KetohWawai:
-      presets: _Shrine<Ketoh Wawai,shrine-blessing,283.4,285.3,-3119.6>
+      presets: _Shrine<Ketoh Wawai,shrine-blessing,283.4,285.3,-3119.6,10>
     KiahToza:
-      presets: _ShrineDlc<Kiah Toza,shrine-dlc,-2155.49,450.4,-3188.48>
+      presets: _ShrineDlc<Kiah Toza,shrine-dlc,-2155.49,450.4,-3188.48,10>
     KihiroMoh:
-      presets: _ShrineDlc<Kihiro Moh,shrine-dlc,-3391.23,441.98,1347.84>
+      presets: _ShrineDlc<Kihiro Moh,shrine-dlc,-3391.23,441.98,1347.84,10>
     KorguChideh:
-      presets: _Shrine<Korgu Chideh,shrine-blessing,4737.48,218.0,3772.09>
+      presets: _Shrine<Korgu Chideh,shrine-blessing,4737.48,218.0,3772.09,10>
     KorshOhu:
-      presets: _Shrine<Korsh O'hu,shrine-blessing,-2688.6,105.01,2811.2>
+      presets: _Shrine<Korsh O'hu,shrine-blessing,-2688.6,105.01,2811.2,10>
     KuhTakkar:
-      presets: _Shrine<Kuh Takkar,shrine,-3083.0,571.55,1221.0>
+      presets: _Shrine<Kuh Takkar,shrine,-3083.0,571.55,1221.0,10>
     KuhnSidajj:
-      presets: _Shrine<Kuhn Sidajj,shrine-blessing,17.73,281.4,-1944.4>
+      presets: _Shrine<Kuhn Sidajj,shrine-blessing,17.73,281.4,-1944.4,10>
     LaknaRokee:
-      presets: _Shrine<Lakna Rokee,shrine-blessing,2040.49,286.03,972.22>
+      presets: _Shrine<Lakna Rokee,shrine-blessing,2040.49,286.03,972.22,10>
     LannoKooh:
-      presets: _Shrine<Lanno Kooh,shrine-blessing,-2636.37,446.03,-2060.36>
+      presets: _Shrine<Lanno Kooh,shrine-blessing,-2636.37,446.03,-2060.36,10>
     MaagHalan:
-      presets: _Shrine<Maag Halan,shrine-blessing,837.06,282.2,-2419.72>
+      presets: _Shrine<Maag Halan,shrine-blessing,837.06,282.2,-2419.72,10>
     MaagNorah:
-      presets: _Shrine<Maag No'rah,shrine-blessing,-1939.9,249.88,-1458.2>
+      presets: _Shrine<Maag No'rah,shrine-blessing,-1939.9,249.88,-1458.2,10>
     MahEliya:
-      presets: _ShrineDlc<Mah Eliya,shrine-dlc,3762.2,547.78,-646.45>
+      presets: _ShrineDlc<Mah Eliya,shrine-dlc,3762.2,547.78,-646.45,10>
     MakaRah:
-      presets: _Shrine<Maka Rah,shrine,-4057.84,94.89,-2508.37>
+      presets: _Shrine<Maka Rah,shrine,-4057.84,94.89,-2508.37,10>
     MezzaLo:
-      presets: _Shrine<Mezza Lo,shrine,2621.6,249.39,378.23>
+      presets: _Shrine<Mezza Lo,shrine,2621.6,249.39,378.23,10>
     MijahRokee:
-      presets: _Shrine<Mijah Rokee,shrine-double-sword,-2743.27,309.39,226.44>
+      presets: _Shrine<Mijah Rokee,shrine-double-sword,-2743.27,309.39,226.44,10>
     MirroShaz:
-      presets: _Shrine<Mirro Shaz,shrine,1232.0,127.55,-1212.75>
+      presets: _Shrine<Mirro Shaz,shrine,1232.0,127.55,-1212.75,10>
     MisaeSuma:
-      presets: _Shrine<Misae Suma,shrine-blessing,-2970.3,137.67,3781.5>
+      presets: _Shrine<Misae Suma,shrine-blessing,-2970.3,137.67,3781.5,10>
     MoaKeet:
-      presets: _Shrine<Mo'a Keet,shrine,2723.5,285.41,-1166.08>
+      presets: _Shrine<Mo'a Keet,shrine,2723.5,285.41,-1166.08,10>
     MoggLatan:
-      presets: _Shrine<Mogg Latan,shrine,-2297.43,439.57,460.73>
+      presets: _Shrine<Mogg Latan,shrine,-2297.43,439.57,460.73,10>
     MonyaToma:
-      presets: _Shrine<Monya Toma,shrine,-1488.6,275.22,-1473.03>
+      presets: _Shrine<Monya Toma,shrine,-1488.6,275.22,-1473.03,10>
     MozoShenno:
-      presets: _Shrine<Mozo Shenno,shrine-double-sword,-3627.71,420.82,-3038.22>
+      presets: _Shrine<Mozo Shenno,shrine-double-sword,-3627.71,420.82,-3038.22,10>
     MuwoJeem:
-      presets: _Shrine<Muwo Jeem,shrine-double-sword,3658.13,350.34,3308.26>
+      presets: _Shrine<Muwo Jeem,shrine-double-sword,3658.13,350.34,3308.26,10>
     MyahmAgana:
-      presets: _Shrine<Myahm Agana,shrine,3388.41,242.59,2215.84>
+      presets: _Shrine<Myahm Agana,shrine,3388.41,242.59,2215.84,10>
     NamikaOzz:
-      presets: _Shrine<Namika Ozz,shrine-double-sword,761.29,188.72,-821.3>
+      presets: _Shrine<Namika Ozz,shrine-double-sword,761.29,188.72,-821.3,10>
     NeezYohma:
-      presets: _Shrine<Ne'ez Yohma,shrine,3323.58,239.28,-518.83>
+      presets: _Shrine<Ne'ez Yohma,shrine,3323.58,239.28,-518.83,10>
     NoeRajee:
-      presets: _ShrineDlc<Noe Rajee,shrine-dlc,-3820.27,89.77,-2311.2>
+      presets: _ShrineDlc<Noe Rajee,shrine-dlc,-3820.27,89.77,-2311.2,10>
     NoyaNeha:
-      presets: _Shrine<Noya Neha,shrine-sword,-951.18,134.36,-623.76>
+      presets: _Shrine<Noya Neha,shrine-sword,-951.18,134.36,-623.76,10>
     PumaagNitae:
-      presets: _Shrine<Pumaag Nitae,shrine-sword,559.53,118.04,2990.19>
+      presets: _Shrine<Pumaag Nitae,shrine-sword,559.53,118.04,2990.19,10>
     QazaTokki:
-      presets: _Shrine<Qaza Tokki,shrine-blessing,-820.5,341.3,-3535.0>
+      presets: _Shrine<Qaza Tokki,shrine-blessing,-820.5,341.3,-3535.0,10>
     QuaRaym:
-      presets: _Shrine<Qua Raym,shrine,1820.74,388.29,-1517.04>
+      presets: _Shrine<Qua Raym,shrine,1820.74,388.29,-1517.04,10>
     QukahNata:
-      presets: _Shrine<Qukah Nata,shrine-blessing,2007.0,301.5,3285.0>
+      presets: _Shrine<Qukah Nata,shrine-blessing,2007.0,301.5,3285.0,10>
     RaqaZunzo:
-      presets: _Shrine<Raqa Zunzo,shrine-blessing,-3810.5,159.3,3127.2>
+      presets: _Shrine<Raqa Zunzo,shrine-blessing,-3810.5,159.3,3127.2,10>
     ReeDahee:
-      presets: _Shrine<Ree Dahee,shrine,1271.93,137.68,1843.74>
+      presets: _Shrine<Ree Dahee,shrine,1271.93,137.68,1843.74,10>
     RinOyaa:
-      presets: _Shrine<Rin Oyaa,shrine,-1721.37,335.74,-2554.46>
+      presets: _Shrine<Rin Oyaa,shrine,-1721.37,335.74,-2554.46,10>
     RinuHonika:
-      presets: _ShrineDlc<Rinu Honika,shrine-dlc,2241.35,541.82,-1995.7>
+      presets: _ShrineDlc<Rinu Honika,shrine-dlc,2241.35,541.82,-1995.7,10>
     RitaagZumo:
-      presets: _Shrine<Ritaag Zumo,shrine-blessing,4524.6,107.77,-2127.5>
+      presets: _Shrine<Ritaag Zumo,shrine-blessing,4524.6,107.77,-2127.5,10>
     RohtaChigah:
-      presets: _ShrineDlc<Rohta Chigah,shrine-dlc,-517.17,173.8,1798.4>
+      presets: _ShrineDlc<Rohta Chigah,shrine-dlc,-517.17,173.8,1798.4,10>
     RokUwog:
-      presets: _Shrine<Rok Uwog,shrine,-2378.01,485.91,-3224.74>
+      presets: _Shrine<Rok Uwog,shrine,-2378.01,485.91,-3224.74,10>
     RonaKachta:
-      presets: _Shrine<Rona Kachta,shrine-blessing,-1088.16,22.05,-2661.51>
+      presets: _Shrine<Rona Kachta,shrine-blessing,-1088.16,22.05,-2661.51,10>
     RotaOoh:
-      presets: _Shrine<Rota Ooh,shrine,-1563.25,186.73,1310.07>
+      presets: _Shrine<Rota Ooh,shrine,-1563.25,186.73,1310.07,10>
     RuccoMaag:
-      presets: _Shrine<Rucco Maag,shrine,3333.5,119.0,401.5>
+      presets: _Shrine<Rucco Maag,shrine,3333.5,119.0,401.5,10>
     RuvoKorbah:
-      presets: _ShrineDlc<Ruvo Korbah,shrine-dlc,-834.56,189.8,2145.07>
+      presets: _ShrineDlc<Ruvo Korbah,shrine-dlc,-834.56,189.8,2145.07,10>
     SaasKosah:
-      presets: _Shrine<Saas Ko'sah,shrine-double-sword,-147.4,144.22,-1159.35>
+      presets: _Shrine<Saas Ko'sah,shrine-double-sword,-147.4,144.22,-1159.35,10>
     SahDahaj:
-      presets: _Shrine<Sah Dahaj,shrine,2665.21,247.91,-1580.75>
+      presets: _Shrine<Sah Dahaj,shrine,2665.21,247.91,-1580.75,10>
     SasaKai:
-      presets: _Shrine<Sasa Kai,shrine-double-sword,-3559.8,352.78,1953.0>
+      presets: _Shrine<Sasa Kai,shrine-double-sword,-3559.8,352.78,1953.0,10>
     SatoKoda:
-      presets: _ShrineDlc<Sato Koda,shrine-dlc,3102.94,542.91,-833.22>
+      presets: _ShrineDlc<Sato Koda,shrine-dlc,3102.94,542.91,-833.22,10>
     ShaGehma:
-      presets: _Shrine<Sha Gehma,shrine,-1673.17,346.57,-3758.45>
+      presets: _Shrine<Sha Gehma,shrine,-1673.17,346.57,-3758.45,10>
     ShaWarvo:
-      presets: _Shrine<Sha Warvo,shrine,-3823.08,265.12,-2206.36>
+      presets: _Shrine<Sha Warvo,shrine,-3823.08,265.12,-2206.36,10>
     ShadaNaw:
-      presets: _Shrine<Shada Naw,shrine,-2998.62,667.75,-3221.58>
+      presets: _Shrine<Shada Naw,shrine,-2998.62,667.75,-3221.58,10>
     ShaeKatha:
-      presets: _Shrine<Shae Katha,shrine-blessing,870.34,122.99,2328.54>
+      presets: _Shrine<Shae Katha,shrine-blessing,870.34,122.99,2328.54,10>
     ShaeLoya:
-      presets: _Shrine<Shae Loya,shrine,-2930.92,306.45,-432.05>
+      presets: _Shrine<Shae Loya,shrine,-2930.92,306.45,-432.05,10>
     ShaeMosah:
-      presets: _Shrine<Shae Mo'sah,shrine,1757.22,535.32,-2562.46>
+      presets: _Shrine<Shae Mo'sah,shrine,1757.22,535.32,-2562.46,10>
     ShaiUtoh:
-      presets: _Shrine<Shai Utoh,shrine,1586.72,166.99,3614.93>
+      presets: _Shrine<Shai Utoh,shrine,1586.72,166.99,3614.93,10>
     ShaiYota:
-      presets: _Shrine<Shai Yota,shrine-blessing,4245.54,110.92,252.95>
+      presets: _Shrine<Shai Yota,shrine-blessing,4245.54,110.92,252.95,10>
     SharoLun:
-      presets: _ShrineDlc<Sharo Lun,shrine-dlc,2932.71,630.51,-2418.1>
+      presets: _ShrineDlc<Sharo Lun,shrine-dlc,2932.71,630.51,-2418.1,10>
     SheeVaneer:
-      presets: _Shrine<Shee Vaneer,shrine,1265.27,525.87,1938.7>
+      presets: _Shrine<Shee Vaneer,shrine,1265.27,525.87,1938.7,10>
     SheeVenath:
-      presets: _Shrine<Shee Venath,shrine,1244.13,443.37,1850.3>
+      presets: _Shrine<Shee Venath,shrine,1244.13,443.37,1850.3,10>
     SheemDagoze:
-      presets: _Shrine<Sheem Dagoze,shrine,-1893.3,212.4,91.5>
+      presets: _Shrine<Sheem Dagoze,shrine,-1893.3,212.4,91.5,10>
     ShehRata:
-      presets: _Shrine<Sheh Rata,shrine,1510.45,128.41,-376.96>
+      presets: _Shrine<Sheh Rata,shrine,1510.45,128.41,-376.96,10>
     ShiraGomar:
-      presets: _ShrineDlc<Shira Gomar,shrine-dlc,-2376.74,264.97,-1382.98>
+      presets: _ShrineDlc<Shira Gomar,shrine-dlc,-2376.74,264.97,-1382.98,10>
     ShoDantu:
-      presets: _Shrine<Sho Dantu,shrine,-3911.26,396.0,1653.8>
+      presets: _Shrine<Sho Dantu,shrine,-3911.26,396.0,1653.8,10>
     ShodaSah:
-      presets: _Shrine<Shoda Sah,shrine,1790.48,189.8,2991.89>
+      presets: _Shrine<Shoda Sah,shrine,1790.48,189.8,2991.89,10>
     ShoqaTatone:
-      presets: _Shrine<Shoqa Tatone,shrine-double-sword,94.0,110.67,3841.0>
+      presets: _Shrine<Shoqa Tatone,shrine-double-sword,94.0,110.67,3841.0,10>
     ShoraHah:
-      presets: _Shrine<Shora Hah,shrine,1535.38,507.33,-3118.03>
+      presets: _Shrine<Shora Hah,shrine,1535.38,507.33,-3118.03,10>
     SohKofi:
-      presets: _Shrine<Soh Kofi,shrine-sword,2238.42,148.48,-293.04>
+      presets: _Shrine<Soh Kofi,shrine-sword,2238.42,148.48,-293.04,10>
     SumaSahma:
-      presets: _Shrine<Suma Sahma,shrine-blessing,-1418.2,545.4,3448.3>
+      presets: _Shrine<Suma Sahma,shrine-blessing,-1418.2,545.4,3448.3,10>
     TahMuhl:
-      presets: _Shrine<Tah Muhl,shrine,2300.66,213.35,-941.32>
+      presets: _Shrine<Tah Muhl,shrine,2300.66,213.35,-941.32,10>
     TakamaShiri:
-      presets: _ShrineDlc<Takama Shiri,shrine-dlc,-4895.49,141.98,2155.5>
+      presets: _ShrineDlc<Takama Shiri,shrine-dlc,-4895.49,141.98,2155.5,10>
     TalohNaeg:
-      presets: _Shrine<Ta'loh Naeg,shrine-sword,1841.92,260.1,890.4>
+      presets: _Shrine<Ta'loh Naeg,shrine-sword,1841.92,260.1,890.4,10>
     TahnoOah:
-      presets: _Shrine<Tahno O'ah,shrine-blessing,4181.78,288.15,1686.73>
+      presets: _Shrine<Tahno O'ah,shrine-blessing,4181.78,288.15,1686.73,10>
     TawaJinn:
-      presets: _Shrine<Tawa Jinn,shrine-blessing,2637.53,318.17,2834.39>
+      presets: _Shrine<Tawa Jinn,shrine-blessing,2637.53,318.17,2834.39,10>
     TenaKosah:
-      presets: _Shrine<Tena Ko'sah,shrine-double-sword,-3465.47,384.49,-447.97>
+      presets: _Shrine<Tena Ko'sah,shrine-double-sword,-3465.47,384.49,-447.97,10>
     ThoKayu:
-      presets: _Shrine<Tho Kayu,shrine-blessing,-4799.14,135.13,2800.18>
+      presets: _Shrine<Tho Kayu,shrine-blessing,-4799.14,135.13,2800.18,10>
     ToQuomo:
-      presets: _Shrine<To Quomo,shrine-blessing,-4023.13,288.09,-3711.64>
+      presets: _Shrine<To Quomo,shrine-blessing,-4023.13,288.09,-3711.64,10>
     TohYahsa:
-      presets: _Shrine<Toh Yahsa,shrine,-2269.1,216.58,-900.1>
+      presets: _Shrine<Toh Yahsa,shrine,-2269.1,216.58,-900.1,10>
     TotoSah:
-      presets: _Shrine<Toto Sah,shrine,1845.65,131.51,2474.15>
+      presets: _Shrine<Toto Sah,shrine,1845.65,131.51,2474.15,10>
     TuKaloh:
-      presets: _Shrine<Tu Ka'loh,shrine-blessing,4655.0,237.4,-3710.0>
+      presets: _Shrine<Tu Ka'loh,shrine-blessing,4655.0,237.4,-3710.0,10>
     TutsuwaNima:
-      presets: _Shrine<Tutsuwa Nima,shrine-double-sword,3777.82,108.89,-2704.89>
+      presets: _Shrine<Tutsuwa Nima,shrine-double-sword,3777.82,108.89,-2704.89,10>
     VooLota:
-      presets: _Shrine<Voo Lota,shrine,-4016.18,275.2,-1721.91>
+      presets: _Shrine<Voo Lota,shrine,-4016.18,275.2,-1721.91,10>
     WahgoKatta:
-      presets: _Shrine<Wahgo Katta,shrine,344.91,123.08,1007.03>
+      presets: _Shrine<Wahgo Katta,shrine,344.91,123.08,1007.03,10>
     YaNaga:
-      presets: _Shrine<Ya Naga,shrine,-328.18,68.02,2600.29>
+      presets: _Shrine<Ya Naga,shrine,-328.18,68.02,2600.29,10>
     YahRin:
-      presets: _Shrine<Yah Rin,shrine,2833.36,152.75,3310.97>
+      presets: _Shrine<Yah Rin,shrine,2833.36,152.75,3310.97,10>
     YowakaIta:
-      presets: _ShrineDlc<Yowaka Ita,shrine-dlc,-941.14,187.7,1672.45>
+      presets: _ShrineDlc<Yowaka Ita,shrine-dlc,-941.14,187.7,1672.45,10>
     ZaltaWa:
-      presets: _Shrine<Zalta Wa,shrine,-1432.3,138.32,-594.19>
+      presets: _Shrine<Zalta Wa,shrine,-1432.3,138.32,-594.19,10>
     ZeKasho:
-      presets: _Shrine<Ze Kasho,shrine,3027.31,348.65,-1667.85>
+      presets: _Shrine<Ze Kasho,shrine,3027.31,348.65,-1667.85,10>
     ZunaKai:
-      presets: _Shrine<Zuna Kai,shrine-blessing,3324.46,298.69,-3420.44>
+      presets: _Shrine<Zuna Kai,shrine-blessing,3324.46,298.69,-3420.44,10>
   _Warp:
     _Shrine:
       JaBaij:

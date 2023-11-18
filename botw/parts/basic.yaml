@@ -43,6 +43,14 @@ tags:
   counter-warp:
     color: black
     background: cyan
+  fury:
+    color:
+      light: "#884400"
+      dark: orange
+  gale:
+    color:
+      light: green
+      dark: "#00ff00"
 
 icons:
   chest: https://icons.pistonite.org/icon/shrine.blessing.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png

@@ -22,10 +22,12 @@ presets:
     icon-priority: 0
     counter: .var(counter-shrine)
     coord: [$(2), $(3), $(4)]
+    time-override: $(5)
   ShrineDlc:
     text: ".shrine-dlc($(0))"
     icon: $(1)
     icon-priority: 0
     counter: .counter-dlc-shrine(EX)
     coord: [$(2), $(3), $(4)]
+    time-override: $(5)
   #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml

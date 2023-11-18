@@ -4,16 +4,12 @@ See [Config](#config) for what to include in `project.yaml` to use these presets
 
 See [Usage](#usage) for how to use the presets in the route
 
-**Parity Notice**
-The following features from the old celer do not work yet:
-- [ ] Champion ability/time estimation
-
 ## Config
 
 ### Example
 Here is an example of a typical `project.yaml` that uses BOTW presets:
 
-**Make sure you add the `variables` plugins for the counters to work properly!!!**
+**Make sure you add the `variables` and `botw-ability-unstable` plugins for the counters and fury/gale to work properly!!!** See [below](#champion-abilities) for how fury/gale works
 ```yaml
 # project.yaml
 title: Example Route
@@ -25,7 +21,8 @@ config:
 # `full` includes everything. Most routes can use `most`, which is `full` without koroks
 - use: Pistonight/celer-presets/botw/full.yaml
 - plugins:
-  - use: variables # required
+  - use: variables             # required
+  - use: botw-ability-unstable # required
 ```
 
 ### Layers
@@ -225,3 +222,64 @@ Preset for collecting materials
 # the example below adds 10 to the `material<Lizalfos Tail>` variable
 - _Material::Counted<Lizalfos Tail, 10>
 ```
+
+### Champion Abilities
+The presets uses a plugin to automatically manage fury/gale counts (and cooldown if needed). By default, it does not estimate cooldowns for you and it assumes the cooldown is instant. It will be up to you to make sure you don't use an ability when it's on cooldown.
+
+#### Counts
+Examples:
+```yaml
+- Examples:
+  - do something # 3 furies and 3 gales here
+  - use .gale(1) # displays `use GALE 1`, 2 gales left
+
+  # can also use the old celer format by specifying the count with a property
+  # this is only for compability, the new format is recommended
+  - use .gale(): 
+      gale: 2    # displays `use GALE 2-3`, no gales left
+  
+  # IMPORTANT: different from old celer, if you have more than 1 .gale() or .fury(), all occruences will use the ability
+  # the line below will be `use FURY 1 here then FURY 2-3 there`
+  - use .fury(1) here then .fury(2) there
+
+  # if you are trying to use more than you have, there will be a warning
+  - use .fury(1)
+  - use .fury(3) # warning! only 2 furies left
+  
+```
+#### Cooldown estimate
+If you want the plugin to also estimate cooldown and give warning when the ability may not be ready, you need to turn it on in the config:
+```yaml
+plugins:
+- use: botw-ability-unstable
+  with:
+    estimate-recharge: true
+    # optionally, you can give a multiplier for the recharge
+    # - use number greater than one if your execution is slower than estimate
+    # - (unlikely, but) use number less than one if your execution is faster than estimate
+    # for example, 2.0 means abilities recharges twice as fast
+    multiplier: 1.0 # 1.0 is default
+```
+Shrines and koroks have a predefined "time passed" based on their type. Each step also costs time based on the number of `dir` tags in them.
+
+If you need to override the time for a step, use the `time-override` property to specify the seconds the step should take.
+```yaml
+- Example:
+  - this step takes 5 minutes:
+      time-override: 300
+```
+
+###### Castle
+The abilities recharge 3x as fast in Hyrule Castle. The plugin automatically handles that using the coordinates.
+
+###### DLC Upgrades
+Use `gale-plus: true` or `fury-plus: true` on the line when you obtain the upgraded ability.
+```yaml
+- Example:
+  - get gale plus:
+      gale-plus: true
+  - get fury plus:
+      fury-plus: true
+
+```
+This will cut down the cooldown of the abilities by 1/3 just like the game

@@ -30,7 +30,11 @@ for shrine_id in data:
         preset = "ShrineDlc"
     else:
         preset = "Shrine"
-    print(f"    presets: _{preset}<{name},{icon_id},{coord_str}>")
+    if "time" in types[shrine_type]:
+        time_str = f",{types[shrine_type]['time']}"
+    else:
+        time_str = ""
+    print(f"    presets: _{preset}<{name},{icon_id},{coord_str}{time_str}>")
     warp_output.append(f"    {shrine_id}:")
     warp_output.append(f"      presets: _Warp3<{name},{coord_str}>")
 print("_Warp:")

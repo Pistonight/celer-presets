@@ -63,7 +63,11 @@ for korok_id in sorted(data):
     korok = data[korok_id]
     icon = types[korok["type"]]["icon"]
     name = types[korok["type"]]["name"].replace(")", "\\)")
-    print(f"  presets: _Korok<{korok_id} {name},{icon}>")
+    if "time" in types[korok["type"]]:
+        time_str = f",{types[korok['type']]['time']}"
+    else:
+        time_str = ""
+    print(f"  presets: _Korok<{korok_id} {name},{icon}{time_str}>")
     if korok["type"] == "Friends":
         print(f"  vars:")
         print(f"    counter-korok: .add(1)")
