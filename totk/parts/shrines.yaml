@@ -33,6 +33,11 @@ tags:
     background: "#ff9900"
     split-type: Shrines
 
+splits:
+- counter-shrine
+- counter-shrine-sky
+- counter-shrine-cave
+
 presets:
   Shrine:
     text: ".loc($(0))"
