@@ -6,6 +6,7 @@ import yaml
 
 preset_path = sys.argv[1]
 game = preset_path.split("/")[0]
+randomize = "--randomize" in sys.argv
 
 project = {}
 project["title"] = f"Test {preset_path}"
@@ -43,7 +44,13 @@ def process_file(file_path, route):
             process_namespace(id, presets[id], route)
 
 for file_path in sys.argv[1:]:
+    if file_path.startswith("--"):
+        continue
     process_file(file_path, route)
+
+if randomize:
+    import random
+    random.shuffle(route)
 
 project["route"] = route
 

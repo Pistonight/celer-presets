@@ -6,6 +6,10 @@ tags:
   counter-memory:
     color: black
     background: orange
+    split-type: Memories
+
+splits:
+- counter-memory
 
 presets:
   Memory:

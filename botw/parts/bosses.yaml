@@ -17,15 +17,19 @@ tags:
   counter-talus:
     color: black
     background: orange
+    split-type: Bosses
   counter-hinox:
     color: black
     background: orange
+    split-type: Bosses
   counter-molduga:
     color: black
     background: orange
+    split-type: Bosses
   counter-boss-dlc:
     color: black
     background: orange
+    split-type: Bosses
 
 presets:
   _Boss:

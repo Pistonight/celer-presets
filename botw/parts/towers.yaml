@@ -2,6 +2,10 @@ tags:
   counter-tower:
     color: black
     background: cyan
+    split-type: Towers
+
+splits:
+- counter-tower
 
 icons:
   tower: https://icons.pistonite.org/icon/location.tower.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png

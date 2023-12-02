@@ -3,15 +3,13 @@ includes:
 
 tags:
   boss-totk:
-    color: "#4AD59C"
-    background:
-      dark: inherit
-      light: black
+    color:
+      dark: "#4AD59C"
+      light: "#0D250D"
   boss-depth:
-    color: magenta
-    background:
-      dark: inherit
-      light: black
+    color:
+      dark: magenta
+      light: "#4C1945"
 
 icons:
   warp-depth: https://icons.pistonite.org/icon/location.travel_medallion.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png

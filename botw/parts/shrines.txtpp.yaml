@@ -11,9 +11,15 @@ tags:
   counter-shrine:
     color: black
     background: cyan
+    split-type: Shrines
   counter-dlc-shrine:
     color: black
     background: orange
+    split-type: Shrines
+
+splits:
+- counter-shrine
+- counter-dlc-shrine
 
 presets:
   Shrine:
