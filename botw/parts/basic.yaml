@@ -4,29 +4,25 @@ tags:
       dark: yellow
       light: black
   loc:
-    color: cyan
-    background:
-      dark: inherit
-      light: black
+    color:
+      dark: cyan
+      light: "#234242"
   npc:
     color:
       dark: "#0f0"
       light: darkgreen
   rune:
-    color: orange
-    background:
-      dark: inherit
-      light: black
+    color:
+      dark: orange
+      light: "#4C3319"
   boss:
-    color: orange
-    background:
-      dark: inherit
-      light: black
+    color:
+      dark: orange
+      light: "#4C3319"
   enemy:
-    color: cyan
-    background:
-      dark: inherit
-      light: black
+    color:
+      dark: cyan
+      light: "#234242"
   important:
     color: magenta
     background:
@@ -43,6 +39,7 @@ tags:
   counter-warp:
     color: black
     background: cyan
+    split-type: Warps
   fury:
     color:
       light: "#884400"
@@ -51,6 +48,9 @@ tags:
     color:
       light: green
       dark: "#00ff00"
+
+splits:
+- counter-warp
 
 icons:
   chest: https://icons.pistonite.org/icon/shrine.blessing.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png

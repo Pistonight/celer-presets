@@ -6,6 +6,10 @@ tags:
   counter-lightroot:
     color: black
     background: "#4AD59C"
+    split-type: Lightroots
+
+splits:
+- counter-lightroot
 
 presets:
   Lightroot:

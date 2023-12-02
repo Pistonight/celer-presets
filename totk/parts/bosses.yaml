@@ -31,12 +31,15 @@ tags:
   counter-flux-construct:
     color: black
     background: "#4AD59C"
+    split-type: Bosses
   counter-frox:
     color: black
     background: "#4AD59C"
+    split-type: Bosses
   counter-gleeok:
     color: black
     background: "#4AD59C"
+    split-type: Bosses
 
 presets:
   _Boss:

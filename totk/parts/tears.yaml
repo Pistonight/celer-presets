@@ -5,6 +5,10 @@ tags:
   counter-tear:
     color: black
     background: orange
+    split-type: Tears
+
+splits:
+- counter-tear
 
 presets:
   Tear:

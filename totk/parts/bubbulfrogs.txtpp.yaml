@@ -6,6 +6,7 @@ tags:
   counter-bubbulfrog:
     color: black
     background: cyan
+    split-type: Bubbulfrogs
 presets:
   Bubbulfrog:
     text: .enemy(Bubbulfrog)

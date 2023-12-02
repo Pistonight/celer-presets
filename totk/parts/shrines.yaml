@@ -23,12 +23,20 @@ tags:
   counter-shrine:
     color: black
     background: cyan
+    split-type: Shrines
   counter-shrine-sky:
     color: black
     background: "#ffd700"
+    split-type: Shrines
   counter-shrine-cave:
     color: black
     background: "#ff9900"
+    split-type: Shrines
+
+splits:
+- counter-shrine
+- counter-shrine-sky
+- counter-shrine-cave
 
 presets:
   Shrine:

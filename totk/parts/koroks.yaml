@@ -48,6 +48,7 @@ tags:
   counter-korok:
     color: black
     background: "#0f0"
+    split-type: Koroks
 
 presets:
   Korok:
