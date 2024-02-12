@@ -5,7 +5,7 @@ import sys
 import yaml
 
 preset_path = sys.argv[1]
-game = preset_path.split("/")[0]
+game = "totk" if "totk" in preset_path else "botw"
 randomize = "--randomize" in sys.argv
 
 project = {}
