@@ -79,6 +79,17 @@ for korok_id in sorted(data):
     if len(movements) == 1:
         coord_str = fmt_coord(movements[0])
         print(f"  coord: {coord_str}")
+        # Away offset for those with only one coord
+        print(f"_{korok_id}:")
+        print(f"  Away:")
+        print(f"    presets: _Korok::{korok_id}")
+        print(f"    icon-map: null")
+        print(f"    movements:")
+        print(f"    - push")
+        print(f"    - to: {coord_str}")
+        print(f"      color: $(0)")
+        print(f"      icon: {icon}")
+        print(f"    - pop")
     else:
         print(f"  movements:")
         print(f"  - _Korok::{korok_id}::Start")
