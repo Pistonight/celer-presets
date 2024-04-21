@@ -85,6 +85,10 @@ Also displays the number of koroks collected.
 # Simple usage
 - _Korok::A12
 
+# If you can get a korok from far away, you can use the ::Away suffix and give a color
+# of the line. For example, shooting a balloon from far away
+- _Korok::W33::Away<white>
+
 # Race/Flower koroks have ::Start and ::End coordinates available separately
 - Start A05:
     movements:

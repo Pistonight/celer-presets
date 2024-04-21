@@ -74,6 +74,10 @@ Also displays the number of koroks collected.
 # Simple usage
 - _Korok::EC12
 
+# If you can get a korok from far away, you can use the ::Away suffix and give a color
+# of the line
+- _Korok::EC12::Away<white>
+
 # Race/Flower/Target koroks have ::Start and ::End coordinates available separately
 - Start GC07:
     movements:
