@@ -107,14 +107,14 @@ icons:
 
 presets:
   Warp3:
-    text: ".loc($(0))"
+    text: "Warp .loc($(0))"
     icon-doc: warp
     counter: .var(counter-warp)
     movements:
     - to: [$(1), $(2), $(3)]
       warp: true
   Warp:
-    text: ".loc($(0))"
+    text: "Warp .loc($(0))"
     icon-doc: warp
     counter: .var(counter-warp)
     movements:
