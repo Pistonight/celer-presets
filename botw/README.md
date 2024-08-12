@@ -242,7 +242,9 @@ Examples:
   - use .gale(): 
       gale: 2    # displays `use GALE 2-3`, no gales left
   
-  # IMPORTANT: different from old celer, if you have more than 1 .gale() or .fury(), all occruences will use the ability
+  # IMPORTANT: different from old celer:
+  # in old celer, if you have more than 1 .gale() or .fury(), all occruences will use the ability
+  # in new celer, two instances can be set to two distinct uses
   # the line below will be `use FURY 1 here then FURY 2-3 there`
   - use .fury(1) here then .fury(2) there
 
