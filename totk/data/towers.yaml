@@ -1,0 +1,66 @@
+# main tower data:
+# .data[<ID>]:
+#   name: string
+#   abbr: string
+#   coord: [x,y,z] (y is height)
+data:
+  RosproPass:
+    name: Rospro Pass
+    abbr: R. Pass
+    coord: [-3679.58,331.74,2346.4]
+  GerudoHighlands:
+    name: Gerudo Highlands
+    abbr: G. Highl.
+    coord: [-3960.88,521.37,-1305.6]
+  PikidaStonegrove:
+    name: Pikida Stonegrove
+    abbr: P. Stoneg.
+    coord: [-2311.49,542,3062.49]
+  GerudoCanyon:
+    name: Gerudo Canyon
+    abbr: Gerudo.
+    coord: [-2438.85,405.62,-2182.76]
+  LindorsBrow:
+    name: Lindor's Brow
+    abbr: L. Brow
+    coord: [-1909.59,395.71,1245.3]
+  LookoutLanding:
+    name: Lookout Landing
+    abbr: L. Ldng.
+    coord: [-298.85,123.94,142.85]
+  HyruleField:
+    name: Hyrule Field
+    abbr: H. Fld.
+    coord: [-761.28,163.42,-1019.23]
+  ThyphloRuins:
+    name: Thyphlo Ruins
+    abbr: T. Ruins
+    coord: [343.67,278.56,3141.65]
+  PoplaFoothills:
+    name: Popla Foothills
+    abbr: Popla.
+    coord: [604.84,197.33,-2126.88]
+  EldinCanyon:
+    name: Eldin Canyon
+    abbr: Eldin.
+    coord: [1641.81,324.42,1190.82]
+  SahasraSlope:
+    name: Sahasra Slope
+    abbr: Sahas.
+    coord: [1341.11,265.26,-1177.86]
+  UplandZorana:
+    name: Upland Zorana
+    abbr: U. Zorana
+    coord: [2866.06,478.33,581.19]
+  RabellaWetlands:
+    name: Rabella Wetlands
+    abbr: Rabel.
+    coord: [2420,321,-2754.89]
+  UlriMountain:
+    name: Ulri Mountain
+    abbr: Ulri.
+    coord: [3499,286.86,2026]
+  MountLanayru:
+    name: Mount Lanayru
+    abbr: M. Lanay.
+    coord: [3847.64,637.81,-1314.91]

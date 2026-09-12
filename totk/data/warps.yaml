@@ -1,0 +1,35 @@
+# main warp data:
+# .data[<ID>]:
+#   type: string
+#   name: string[]
+#   abbr: string
+#   coord: [x,y,z] (y is height)
+data:
+- name: [TechLab, Hateno]
+  type: Warp
+  abbr: Hat. Tech Lab
+  coord: [3777.71,370.00,-2111]
+- name: [Temple, Wind]
+  type: Warp
+  abbr: Wind Temple
+  coord: [-2859,1738,2957]
+- name: [Temple, Water]
+  type: Warp
+  abbr: Water Temple
+  coord: [3357,1862,770]
+- name: [Temple, Fire]
+  type: WarpDepth
+  abbr: Fire Temple
+  coord: [1301,-683,2847]
+- name: [Temple, Lightning]
+  type: Warp
+  abbr: Light. Temple
+  coord: [-4532,147,-3625]
+- name: [Temple, Spirit]
+  type: WarpDepth
+  abbr: Spirit Temple
+  coord: [1402,-3094,-597]
+- name: [ROA]
+  type: Warp
+  abbr: R.o. Awake.
+  coord: [369,2400,-1752]

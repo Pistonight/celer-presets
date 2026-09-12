@@ -18,4 +18,4 @@ presets:
       korok-seed: .add(1)
     time-override: $(2)
   _Korok:
-    #TXTPP#run python ../../scripts/koroks.py ../data/koroks.yaml 900
+    #TXTPP#run uv run ../../scripts/koroks.py ../data/koroks.yaml 900

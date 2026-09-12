@@ -323,274 +323,1226 @@ presets:
     _Shrine:
       JaBaij:
         presets: _Warp3<Ja Baij,-446.7,180.02,1990.18>
+      _JaBaij:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ja Baij,-446.7,180.02,1990.18>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ja Baij,-446.7,180.02,1990.18>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ja Baij,-446.7,180.02,1990.18>
       OmanAu:
         presets: _Warp3<Oman Au,-673.25,173.09,1513.01>
+      _OmanAu:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Oman Au,-673.25,173.09,1513.01>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Oman Au,-673.25,173.09,1513.01>
+        NoSplit:
+          presets: _Warp3::NoSplit<Oman Au,-673.25,173.09,1513.01>
       OwaDaim:
         presets: _Warp3<Owa Daim,-925.03,274.17,2321.23>
+      _OwaDaim:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Owa Daim,-925.03,274.17,2321.23>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Owa Daim,-925.03,274.17,2321.23>
+        NoSplit:
+          presets: _Warp3::NoSplit<Owa Daim,-925.03,274.17,2321.23>
       KehNamut:
         presets: _Warp3<Keh Namut,-1436.35,337.58,1990.99>
+      _KehNamut:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Keh Namut,-1436.35,337.58,1990.99>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Keh Namut,-1436.35,337.58,1990.99>
+        NoSplit:
+          presets: _Warp3::NoSplit<Keh Namut,-1436.35,337.58,1990.99>
       AkhVaquot:
         presets: _Warp3<Akh Va'quot,-3656.13,321.74,-1756.7>
+      _AkhVaquot:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Akh Va'quot,-3656.13,321.74,-1756.7>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Akh Va'quot,-3656.13,321.74,-1756.7>
+        NoSplit:
+          presets: _Warp3::NoSplit<Akh Va'quot,-3656.13,321.74,-1756.7>
       BareedaNaag:
         presets: _Warp3<Bareeda Naag,-3609.19,246.74,-1515.4>
+      _BareedaNaag:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Bareeda Naag,-3609.19,246.74,-1515.4>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Bareeda Naag,-3609.19,246.74,-1515.4>
+        NoSplit:
+          presets: _Warp3::NoSplit<Bareeda Naag,-3609.19,246.74,-1515.4>
       BoshKala:
         presets: _Warp3<Bosh Kala,87.02,122.52,1658.71>
+      _BoshKala:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Bosh Kala,87.02,122.52,1658.71>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Bosh Kala,87.02,122.52,1658.71>
+        NoSplit:
+          presets: _Warp3::NoSplit<Bosh Kala,87.02,122.52,1658.71>
       ChaasQeta:
         presets: _Warp3<Chaas Qeta,4012.19,107.18,2990.54>
+      _ChaasQeta:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Chaas Qeta,4012.19,107.18,2990.54>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Chaas Qeta,4012.19,107.18,2990.54>
+        NoSplit:
+          presets: _Warp3::NoSplit<Chaas Qeta,4012.19,107.18,2990.54>
       DaagChokah:
         presets: _Warp3<Daag Chokah,-26.43,280.34,-2458.63>
+      _DaagChokah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Daag Chokah,-26.43,280.34,-2458.63>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Daag Chokah,-26.43,280.34,-2458.63>
+        NoSplit:
+          presets: _Warp3::NoSplit<Daag Chokah,-26.43,280.34,-2458.63>
       DagahKeek:
         presets: _Warp3<Dagah Keek,3149.7,280.0,-416.8>
+      _DagahKeek:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Dagah Keek,3149.7,280.0,-416.8>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Dagah Keek,3149.7,280.0,-416.8>
+        NoSplit:
+          presets: _Warp3::NoSplit<Dagah Keek,3149.7,280.0,-416.8>
       DahHesho:
         presets: _Warp3<Dah Hesho,3899.52,354.77,-1302.81>
+      _DahHesho:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Dah Hesho,3899.52,354.77,-1302.81>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Dah Hesho,3899.52,354.77,-1302.81>
+        NoSplit:
+          presets: _Warp3::NoSplit<Dah Hesho,3899.52,354.77,-1302.81>
       DahKaso:
         presets: _Warp3<Dah Kaso,-1695.29,68.84,1700.12>
+      _DahKaso:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Dah Kaso,-1695.29,68.84,1700.12>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Dah Kaso,-1695.29,68.84,1700.12>
+        NoSplit:
+          presets: _Warp3::NoSplit<Dah Kaso,-1695.29,68.84,1700.12>
       DakaTuss:
         presets: _Warp3<Daka Tuss,1601.0,117.7,462.2>
+      _DakaTuss:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Daka Tuss,1601.0,117.7,462.2>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Daka Tuss,1601.0,117.7,462.2>
+        NoSplit:
+          presets: _Warp3::NoSplit<Daka Tuss,1601.0,117.7,462.2>
       DaqaKoh:
         presets: _Warp3<Daqa Koh,2065.85,598.01,-2328.36>
+      _DaqaKoh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Daqa Koh,2065.85,598.01,-2328.36>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Daqa Koh,2065.85,598.01,-2328.36>
+        NoSplit:
+          presets: _Warp3::NoSplit<Daqa Koh,2065.85,598.01,-2328.36>
       DaqoChisay:
         presets: _Warp3<Daqo Chisay,-3817.03,150.45,2819.85>
+      _DaqoChisay:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Daqo Chisay,-3817.03,150.45,2819.85>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Daqo Chisay,-3817.03,150.45,2819.85>
+        NoSplit:
+          presets: _Warp3::NoSplit<Daqo Chisay,-3817.03,150.45,2819.85>
       DakoTah:
         presets: _Warp3<Dako Tah,-3317.78,146.11,2162.48>
+      _DakoTah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Dako Tah,-3317.78,146.11,2162.48>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Dako Tah,-3317.78,146.11,2162.48>
+        NoSplit:
+          presets: _Warp3::NoSplit<Dako Tah,-3317.78,146.11,2162.48>
       DilaMaag:
         presets: _Warp3<Dila Maag,-1795.0,164.18,3465.39>
+      _DilaMaag:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Dila Maag,-1795.0,164.18,3465.39>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Dila Maag,-1795.0,164.18,3465.39>
+        NoSplit:
+          presets: _Warp3::NoSplit<Dila Maag,-1795.0,164.18,3465.39>
       DowNaeh:
         presets: _Warp3<Dow Na'eh,2697.65,220.94,1333.48>
+      _DowNaeh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Dow Na'eh,2697.65,220.94,1333.48>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Dow Na'eh,2697.65,220.94,1333.48>
+        NoSplit:
+          presets: _Warp3::NoSplit<Dow Na'eh,2697.65,220.94,1333.48>
       DunbaTaag:
         presets: _Warp3<Dunba Taag,-2832.47,79.88,-1578.04>
+      _DunbaTaag:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Dunba Taag,-2832.47,79.88,-1578.04>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Dunba Taag,-2832.47,79.88,-1578.04>
+        NoSplit:
+          presets: _Warp3::NoSplit<Dunba Taag,-2832.47,79.88,-1578.04>
       EtsuKorima:
         presets: _Warp3<Etsu Korima,-1216.12,340.5,2109.9>
+      _EtsuKorima:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Etsu Korima,-1216.12,340.5,2109.9>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Etsu Korima,-1216.12,340.5,2109.9>
+        NoSplit:
+          presets: _Warp3::NoSplit<Etsu Korima,-1216.12,340.5,2109.9>
       GeeHarah:
         presets: _Warp3<Gee Ha'rah,-2379.84,278.11,-2254.59>
+      _GeeHarah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Gee Ha'rah,-2379.84,278.11,-2254.59>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Gee Ha'rah,-2379.84,278.11,-2254.59>
+        NoSplit:
+          presets: _Warp3::NoSplit<Gee Ha'rah,-2379.84,278.11,-2254.59>
       GomaAsaagh:
         presets: _Warp3<Goma Asaagh,-2792.31,671.02,-2882.31>
+      _GomaAsaagh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Goma Asaagh,-2792.31,671.02,-2882.31>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Goma Asaagh,-2792.31,671.02,-2882.31>
+        NoSplit:
+          presets: _Warp3::NoSplit<Goma Asaagh,-2792.31,671.02,-2882.31>
       GoraeTorr:
         presets: _Warp3<Gorae Torr,2662.0,470.0,-3456.5>
+      _GoraeTorr:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Gorae Torr,2662.0,470.0,-3456.5>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Gorae Torr,2662.0,470.0,-3456.5>
+        NoSplit:
+          presets: _Warp3::NoSplit<Gorae Torr,2662.0,470.0,-3456.5>
       HaDahamar:
         presets: _Warp3<Ha Dahamar,1662.36,115.52,1921.6>
+      _HaDahamar:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ha Dahamar,1662.36,115.52,1921.6>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ha Dahamar,1662.36,115.52,1921.6>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ha Dahamar,1662.36,115.52,1921.6>
       HawaKoth:
         presets: _Warp3<Hawa Koth,-4847.04,123.74,3772.63>
+      _HawaKoth:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Hawa Koth,-4847.04,123.74,3772.63>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Hawa Koth,-4847.04,123.74,3772.63>
+        NoSplit:
+          presets: _Warp3::NoSplit<Hawa Koth,-4847.04,123.74,3772.63>
       HiaMiu:
         presets: _Warp3<Hia Miu,-4446.8,329.85,-3803.04>
+      _HiaMiu:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Hia Miu,-4446.8,329.85,-3803.04>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Hia Miu,-4446.8,329.85,-3803.04>
+        NoSplit:
+          presets: _Warp3::NoSplit<Hia Miu,-4446.8,329.85,-3803.04>
       HilaRao:
         presets: _Warp3<Hila Rao,854.73,116.93,838.06>
+      _HilaRao:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Hila Rao,854.73,116.93,838.06>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Hila Rao,854.73,116.93,838.06>
+        NoSplit:
+          presets: _Warp3::NoSplit<Hila Rao,854.73,116.93,838.06>
       IshtoSoh:
         presets: _Warp3<Ishto Soh,-984.79,321.22,3564.99>
+      _IshtoSoh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ishto Soh,-984.79,321.22,3564.99>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ishto Soh,-984.79,321.22,3564.99>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ishto Soh,-984.79,321.22,3564.99>
       JeeNoh:
         presets: _Warp3<Jee Noh,-1792.83,112.85,2423.39>
+      _JeeNoh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Jee Noh,-1792.83,112.85,2423.39>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Jee Noh,-1792.83,112.85,2423.39>
+        NoSplit:
+          presets: _Warp3::NoSplit<Jee Noh,-1792.83,112.85,2423.39>
       JitanSami:
         presets: _Warp3<Jitan Sa'mi,3882.12,572.81,1314.94>
+      _JitanSami:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Jitan Sa'mi,3882.12,572.81,1314.94>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Jitan Sa'mi,3882.12,572.81,1314.94>
+        NoSplit:
+          presets: _Warp3::NoSplit<Jitan Sa'mi,3882.12,572.81,1314.94>
       JolooNah:
         presets: _Warp3<Joloo Nah,-2004.01,231.65,1674.26>
+      _JolooNah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Joloo Nah,-2004.01,231.65,1674.26>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Joloo Nah,-2004.01,231.65,1674.26>
+        NoSplit:
+          presets: _Warp3::NoSplit<Joloo Nah,-2004.01,231.65,1674.26>
       KaamYatak:
         presets: _Warp3<Kaam Ya'tak,-967.8,127.67,715.89>
+      _KaamYatak:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kaam Ya'tak,-967.8,127.67,715.89>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kaam Ya'tak,-967.8,127.67,715.89>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kaam Ya'tak,-967.8,127.67,715.89>
       KahMael:
         presets: _Warp3<Kah Mael,4709.2,242.5,-1310.29>
+      _KahMael:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kah Mael,4709.2,242.5,-1310.29>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kah Mael,4709.2,242.5,-1310.29>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kah Mael,4709.2,242.5,-1310.29>
       KahOkeo:
         presets: _Warp3<Kah Okeo,-4120.41,184.29,-414.37>
+      _KahOkeo:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kah Okeo,-4120.41,184.29,-414.37>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kah Okeo,-4120.41,184.29,-414.37>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kah Okeo,-4120.41,184.29,-414.37>
       KahYah:
         presets: _Warp3<Kah Yah,3436.89,120.68,3316.28>
+      _KahYah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kah Yah,3436.89,120.68,3316.28>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kah Yah,3436.89,120.68,3316.28>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kah Yah,3436.89,120.68,3316.28>
       KamUrog:
         presets: _Warp3<Kam Urog,2501.03,119.17,1494.84>
+      _KamUrog:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kam Urog,2501.03,119.17,1494.84>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kam Urog,2501.03,119.17,1494.84>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kam Urog,2501.03,119.17,1494.84>
       KamiaOmuna:
         presets: _Warp3<Kamia Omuna,2128.36,509.92,-3228.81>
+      _KamiaOmuna:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kamia Omuna,2128.36,509.92,-3228.81>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kamia Omuna,2128.36,509.92,-3228.81>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kamia Omuna,2128.36,509.92,-3228.81>
       KaoMakagh:
         presets: _Warp3<Ka'o Makagh,523.29,178.91,3526.27>
+      _KaoMakagh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ka'o Makagh,523.29,178.91,3526.27>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ka'o Makagh,523.29,178.91,3526.27>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ka'o Makagh,523.29,178.91,3526.27>
       KatahChuki:
         presets: _Warp3<Katah Chuki,-636.41,128.87,-345.11>
+      _KatahChuki:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Katah Chuki,-636.41,128.87,-345.11>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Katah Chuki,-636.41,128.87,-345.11>
+        NoSplit:
+          presets: _Warp3::NoSplit<Katah Chuki,-636.41,128.87,-345.11>
       KatosaAug:
         presets: _Warp3<Katosa Aug,4295.79,237.42,-2730.34>
+      _KatosaAug:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Katosa Aug,4295.79,237.42,-2730.34>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Katosa Aug,4295.79,237.42,-2730.34>
+        NoSplit:
+          presets: _Warp3::NoSplit<Katosa Aug,4295.79,237.42,-2730.34>
       KayNoh:
         presets: _Warp3<Kay Noh,-2810.96,172.01,2300.08>
+      _KayNoh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kay Noh,-2810.96,172.01,2300.08>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kay Noh,-2810.96,172.01,2300.08>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kay Noh,-2810.96,172.01,2300.08>
       KayaWan:
         presets: _Warp3<Kaya Wan,824.21,132.88,187.79>
+      _KayaWan:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kaya Wan,824.21,132.88,187.79>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kaya Wan,824.21,132.88,187.79>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kaya Wan,824.21,132.88,187.79>
       KayraMah:
         presets: _Warp3<Kayra Mah,2076.82,520.77,-2039.77>
+      _KayraMah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kayra Mah,2076.82,520.77,-2039.77>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kayra Mah,2076.82,520.77,-2039.77>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kayra Mah,2076.82,520.77,-2039.77>
       KeeDafunia:
         presets: _Warp3<Kee Dafunia,4935.17,106.8,-1002.4>
+      _KeeDafunia:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kee Dafunia,4935.17,106.8,-1002.4>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kee Dafunia,4935.17,106.8,-1002.4>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kee Dafunia,4935.17,106.8,-1002.4>
       KeehaYoog:
         presets: _Warp3<Keeha Yoog,-3853.4,640.3,716.7>
+      _KeehaYoog:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Keeha Yoog,-3853.4,640.3,716.7>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Keeha Yoog,-3853.4,640.3,716.7>
+        NoSplit:
+          presets: _Warp3::NoSplit<Keeha Yoog,-3853.4,640.3,716.7>
       KeiveTala:
         presets: _Warp3<Keive Tala,-2339.53,129.5,3901.64>
+      _KeiveTala:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Keive Tala,-2339.53,129.5,3901.64>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Keive Tala,-2339.53,129.5,3901.64>
+        NoSplit:
+          presets: _Warp3::NoSplit<Keive Tala,-2339.53,129.5,3901.64>
       KemaKosassa:
         presets: _Warp3<Kema Kosassa,-4658.48,619.49,904.84>
+      _KemaKosassa:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kema Kosassa,-4658.48,619.49,904.84>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kema Kosassa,-4658.48,619.49,904.84>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kema Kosassa,-4658.48,619.49,904.84>
       KemaZoos:
         presets: _Warp3<Kema Zoos,-4673.53,132.12,1967.79>
+      _KemaZoos:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kema Zoos,-4673.53,132.12,1967.79>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kema Zoos,-4673.53,132.12,1967.79>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kema Zoos,-4673.53,132.12,1967.79>
       KenaiShakah:
         presets: _Warp3<Ke'nai Shakah,4194.49,323.11,-856.88>
+      _KenaiShakah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ke'nai Shakah,4194.49,323.11,-856.88>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ke'nai Shakah,4194.49,323.11,-856.88>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ke'nai Shakah,4194.49,323.11,-856.88>
       KeoRuug:
         presets: _Warp3<Keo Ruug,470.7,250.15,-2168.79>
+      _KeoRuug:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Keo Ruug,470.7,250.15,-2168.79>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Keo Ruug,470.7,250.15,-2168.79>
+        NoSplit:
+          presets: _Warp3::NoSplit<Keo Ruug,470.7,250.15,-2168.79>
       KetohWawai:
         presets: _Warp3<Ketoh Wawai,283.4,285.3,-3119.6>
+      _KetohWawai:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ketoh Wawai,283.4,285.3,-3119.6>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ketoh Wawai,283.4,285.3,-3119.6>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ketoh Wawai,283.4,285.3,-3119.6>
       KiahToza:
         presets: _Warp3<Kiah Toza,-2155.49,450.4,-3188.48>
+      _KiahToza:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kiah Toza,-2155.49,450.4,-3188.48>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kiah Toza,-2155.49,450.4,-3188.48>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kiah Toza,-2155.49,450.4,-3188.48>
       KihiroMoh:
         presets: _Warp3<Kihiro Moh,-3391.23,441.98,1347.84>
+      _KihiroMoh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kihiro Moh,-3391.23,441.98,1347.84>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kihiro Moh,-3391.23,441.98,1347.84>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kihiro Moh,-3391.23,441.98,1347.84>
       KorguChideh:
         presets: _Warp3<Korgu Chideh,4737.48,218.0,3772.09>
+      _KorguChideh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Korgu Chideh,4737.48,218.0,3772.09>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Korgu Chideh,4737.48,218.0,3772.09>
+        NoSplit:
+          presets: _Warp3::NoSplit<Korgu Chideh,4737.48,218.0,3772.09>
       KorshOhu:
         presets: _Warp3<Korsh O'hu,-2688.6,105.01,2811.2>
+      _KorshOhu:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Korsh O'hu,-2688.6,105.01,2811.2>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Korsh O'hu,-2688.6,105.01,2811.2>
+        NoSplit:
+          presets: _Warp3::NoSplit<Korsh O'hu,-2688.6,105.01,2811.2>
       KuhTakkar:
         presets: _Warp3<Kuh Takkar,-3083.0,571.55,1221.0>
+      _KuhTakkar:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kuh Takkar,-3083.0,571.55,1221.0>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kuh Takkar,-3083.0,571.55,1221.0>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kuh Takkar,-3083.0,571.55,1221.0>
       KuhnSidajj:
         presets: _Warp3<Kuhn Sidajj,17.73,281.4,-1944.4>
+      _KuhnSidajj:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Kuhn Sidajj,17.73,281.4,-1944.4>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Kuhn Sidajj,17.73,281.4,-1944.4>
+        NoSplit:
+          presets: _Warp3::NoSplit<Kuhn Sidajj,17.73,281.4,-1944.4>
       LaknaRokee:
         presets: _Warp3<Lakna Rokee,2040.49,286.03,972.22>
+      _LaknaRokee:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Lakna Rokee,2040.49,286.03,972.22>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Lakna Rokee,2040.49,286.03,972.22>
+        NoSplit:
+          presets: _Warp3::NoSplit<Lakna Rokee,2040.49,286.03,972.22>
       LannoKooh:
         presets: _Warp3<Lanno Kooh,-2636.37,446.03,-2060.36>
+      _LannoKooh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Lanno Kooh,-2636.37,446.03,-2060.36>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Lanno Kooh,-2636.37,446.03,-2060.36>
+        NoSplit:
+          presets: _Warp3::NoSplit<Lanno Kooh,-2636.37,446.03,-2060.36>
       MaagHalan:
         presets: _Warp3<Maag Halan,837.06,282.2,-2419.72>
+      _MaagHalan:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Maag Halan,837.06,282.2,-2419.72>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Maag Halan,837.06,282.2,-2419.72>
+        NoSplit:
+          presets: _Warp3::NoSplit<Maag Halan,837.06,282.2,-2419.72>
       MaagNorah:
         presets: _Warp3<Maag No'rah,-1939.9,249.88,-1458.2>
+      _MaagNorah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Maag No'rah,-1939.9,249.88,-1458.2>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Maag No'rah,-1939.9,249.88,-1458.2>
+        NoSplit:
+          presets: _Warp3::NoSplit<Maag No'rah,-1939.9,249.88,-1458.2>
       MahEliya:
         presets: _Warp3<Mah Eliya,3762.2,547.78,-646.45>
+      _MahEliya:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Mah Eliya,3762.2,547.78,-646.45>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Mah Eliya,3762.2,547.78,-646.45>
+        NoSplit:
+          presets: _Warp3::NoSplit<Mah Eliya,3762.2,547.78,-646.45>
       MakaRah:
         presets: _Warp3<Maka Rah,-4057.84,94.89,-2508.37>
+      _MakaRah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Maka Rah,-4057.84,94.89,-2508.37>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Maka Rah,-4057.84,94.89,-2508.37>
+        NoSplit:
+          presets: _Warp3::NoSplit<Maka Rah,-4057.84,94.89,-2508.37>
       MezzaLo:
         presets: _Warp3<Mezza Lo,2621.6,249.39,378.23>
+      _MezzaLo:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Mezza Lo,2621.6,249.39,378.23>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Mezza Lo,2621.6,249.39,378.23>
+        NoSplit:
+          presets: _Warp3::NoSplit<Mezza Lo,2621.6,249.39,378.23>
       MijahRokee:
         presets: _Warp3<Mijah Rokee,-2743.27,309.39,226.44>
+      _MijahRokee:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Mijah Rokee,-2743.27,309.39,226.44>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Mijah Rokee,-2743.27,309.39,226.44>
+        NoSplit:
+          presets: _Warp3::NoSplit<Mijah Rokee,-2743.27,309.39,226.44>
       MirroShaz:
         presets: _Warp3<Mirro Shaz,1232.0,127.55,-1212.75>
+      _MirroShaz:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Mirro Shaz,1232.0,127.55,-1212.75>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Mirro Shaz,1232.0,127.55,-1212.75>
+        NoSplit:
+          presets: _Warp3::NoSplit<Mirro Shaz,1232.0,127.55,-1212.75>
       MisaeSuma:
         presets: _Warp3<Misae Suma,-2970.3,137.67,3781.5>
+      _MisaeSuma:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Misae Suma,-2970.3,137.67,3781.5>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Misae Suma,-2970.3,137.67,3781.5>
+        NoSplit:
+          presets: _Warp3::NoSplit<Misae Suma,-2970.3,137.67,3781.5>
       MoaKeet:
         presets: _Warp3<Mo'a Keet,2723.5,285.41,-1166.08>
+      _MoaKeet:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Mo'a Keet,2723.5,285.41,-1166.08>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Mo'a Keet,2723.5,285.41,-1166.08>
+        NoSplit:
+          presets: _Warp3::NoSplit<Mo'a Keet,2723.5,285.41,-1166.08>
       MoggLatan:
         presets: _Warp3<Mogg Latan,-2297.43,439.57,460.73>
+      _MoggLatan:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Mogg Latan,-2297.43,439.57,460.73>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Mogg Latan,-2297.43,439.57,460.73>
+        NoSplit:
+          presets: _Warp3::NoSplit<Mogg Latan,-2297.43,439.57,460.73>
       MonyaToma:
         presets: _Warp3<Monya Toma,-1488.6,275.22,-1473.03>
+      _MonyaToma:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Monya Toma,-1488.6,275.22,-1473.03>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Monya Toma,-1488.6,275.22,-1473.03>
+        NoSplit:
+          presets: _Warp3::NoSplit<Monya Toma,-1488.6,275.22,-1473.03>
       MozoShenno:
         presets: _Warp3<Mozo Shenno,-3627.71,420.82,-3038.22>
+      _MozoShenno:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Mozo Shenno,-3627.71,420.82,-3038.22>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Mozo Shenno,-3627.71,420.82,-3038.22>
+        NoSplit:
+          presets: _Warp3::NoSplit<Mozo Shenno,-3627.71,420.82,-3038.22>
       MuwoJeem:
         presets: _Warp3<Muwo Jeem,3658.13,350.34,3308.26>
+      _MuwoJeem:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Muwo Jeem,3658.13,350.34,3308.26>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Muwo Jeem,3658.13,350.34,3308.26>
+        NoSplit:
+          presets: _Warp3::NoSplit<Muwo Jeem,3658.13,350.34,3308.26>
       MyahmAgana:
         presets: _Warp3<Myahm Agana,3388.41,242.59,2215.84>
+      _MyahmAgana:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Myahm Agana,3388.41,242.59,2215.84>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Myahm Agana,3388.41,242.59,2215.84>
+        NoSplit:
+          presets: _Warp3::NoSplit<Myahm Agana,3388.41,242.59,2215.84>
       NamikaOzz:
         presets: _Warp3<Namika Ozz,761.29,188.72,-821.3>
+      _NamikaOzz:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Namika Ozz,761.29,188.72,-821.3>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Namika Ozz,761.29,188.72,-821.3>
+        NoSplit:
+          presets: _Warp3::NoSplit<Namika Ozz,761.29,188.72,-821.3>
       NeezYohma:
         presets: _Warp3<Ne'ez Yohma,3323.58,239.28,-518.83>
+      _NeezYohma:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ne'ez Yohma,3323.58,239.28,-518.83>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ne'ez Yohma,3323.58,239.28,-518.83>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ne'ez Yohma,3323.58,239.28,-518.83>
       NoeRajee:
         presets: _Warp3<Noe Rajee,-3820.27,89.77,-2311.2>
+      _NoeRajee:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Noe Rajee,-3820.27,89.77,-2311.2>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Noe Rajee,-3820.27,89.77,-2311.2>
+        NoSplit:
+          presets: _Warp3::NoSplit<Noe Rajee,-3820.27,89.77,-2311.2>
       NoyaNeha:
         presets: _Warp3<Noya Neha,-951.18,134.36,-623.76>
+      _NoyaNeha:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Noya Neha,-951.18,134.36,-623.76>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Noya Neha,-951.18,134.36,-623.76>
+        NoSplit:
+          presets: _Warp3::NoSplit<Noya Neha,-951.18,134.36,-623.76>
       PumaagNitae:
         presets: _Warp3<Pumaag Nitae,559.53,118.04,2990.19>
+      _PumaagNitae:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Pumaag Nitae,559.53,118.04,2990.19>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Pumaag Nitae,559.53,118.04,2990.19>
+        NoSplit:
+          presets: _Warp3::NoSplit<Pumaag Nitae,559.53,118.04,2990.19>
       QazaTokki:
         presets: _Warp3<Qaza Tokki,-820.5,341.3,-3535.0>
+      _QazaTokki:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Qaza Tokki,-820.5,341.3,-3535.0>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Qaza Tokki,-820.5,341.3,-3535.0>
+        NoSplit:
+          presets: _Warp3::NoSplit<Qaza Tokki,-820.5,341.3,-3535.0>
       QuaRaym:
         presets: _Warp3<Qua Raym,1820.74,388.29,-1517.04>
+      _QuaRaym:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Qua Raym,1820.74,388.29,-1517.04>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Qua Raym,1820.74,388.29,-1517.04>
+        NoSplit:
+          presets: _Warp3::NoSplit<Qua Raym,1820.74,388.29,-1517.04>
       QukahNata:
         presets: _Warp3<Qukah Nata,2007.0,301.5,3285.0>
+      _QukahNata:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Qukah Nata,2007.0,301.5,3285.0>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Qukah Nata,2007.0,301.5,3285.0>
+        NoSplit:
+          presets: _Warp3::NoSplit<Qukah Nata,2007.0,301.5,3285.0>
       RaqaZunzo:
         presets: _Warp3<Raqa Zunzo,-3810.5,159.3,3127.2>
+      _RaqaZunzo:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Raqa Zunzo,-3810.5,159.3,3127.2>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Raqa Zunzo,-3810.5,159.3,3127.2>
+        NoSplit:
+          presets: _Warp3::NoSplit<Raqa Zunzo,-3810.5,159.3,3127.2>
       ReeDahee:
         presets: _Warp3<Ree Dahee,1271.93,137.68,1843.74>
+      _ReeDahee:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ree Dahee,1271.93,137.68,1843.74>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ree Dahee,1271.93,137.68,1843.74>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ree Dahee,1271.93,137.68,1843.74>
       RinOyaa:
         presets: _Warp3<Rin Oyaa,-1721.37,335.74,-2554.46>
+      _RinOyaa:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Rin Oyaa,-1721.37,335.74,-2554.46>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Rin Oyaa,-1721.37,335.74,-2554.46>
+        NoSplit:
+          presets: _Warp3::NoSplit<Rin Oyaa,-1721.37,335.74,-2554.46>
       RinuHonika:
         presets: _Warp3<Rinu Honika,2241.35,541.82,-1995.7>
+      _RinuHonika:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Rinu Honika,2241.35,541.82,-1995.7>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Rinu Honika,2241.35,541.82,-1995.7>
+        NoSplit:
+          presets: _Warp3::NoSplit<Rinu Honika,2241.35,541.82,-1995.7>
       RitaagZumo:
         presets: _Warp3<Ritaag Zumo,4524.6,107.77,-2127.5>
+      _RitaagZumo:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ritaag Zumo,4524.6,107.77,-2127.5>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ritaag Zumo,4524.6,107.77,-2127.5>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ritaag Zumo,4524.6,107.77,-2127.5>
       RohtaChigah:
         presets: _Warp3<Rohta Chigah,-517.17,173.8,1798.4>
+      _RohtaChigah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Rohta Chigah,-517.17,173.8,1798.4>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Rohta Chigah,-517.17,173.8,1798.4>
+        NoSplit:
+          presets: _Warp3::NoSplit<Rohta Chigah,-517.17,173.8,1798.4>
       RokUwog:
         presets: _Warp3<Rok Uwog,-2378.01,485.91,-3224.74>
+      _RokUwog:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Rok Uwog,-2378.01,485.91,-3224.74>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Rok Uwog,-2378.01,485.91,-3224.74>
+        NoSplit:
+          presets: _Warp3::NoSplit<Rok Uwog,-2378.01,485.91,-3224.74>
       RonaKachta:
         presets: _Warp3<Rona Kachta,-1088.16,22.05,-2661.51>
+      _RonaKachta:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Rona Kachta,-1088.16,22.05,-2661.51>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Rona Kachta,-1088.16,22.05,-2661.51>
+        NoSplit:
+          presets: _Warp3::NoSplit<Rona Kachta,-1088.16,22.05,-2661.51>
       RotaOoh:
         presets: _Warp3<Rota Ooh,-1563.25,186.73,1310.07>
+      _RotaOoh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Rota Ooh,-1563.25,186.73,1310.07>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Rota Ooh,-1563.25,186.73,1310.07>
+        NoSplit:
+          presets: _Warp3::NoSplit<Rota Ooh,-1563.25,186.73,1310.07>
       RuccoMaag:
         presets: _Warp3<Rucco Maag,3333.5,119.0,401.5>
+      _RuccoMaag:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Rucco Maag,3333.5,119.0,401.5>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Rucco Maag,3333.5,119.0,401.5>
+        NoSplit:
+          presets: _Warp3::NoSplit<Rucco Maag,3333.5,119.0,401.5>
       RuvoKorbah:
         presets: _Warp3<Ruvo Korbah,-834.56,189.8,2145.07>
+      _RuvoKorbah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ruvo Korbah,-834.56,189.8,2145.07>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ruvo Korbah,-834.56,189.8,2145.07>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ruvo Korbah,-834.56,189.8,2145.07>
       SaasKosah:
         presets: _Warp3<Saas Ko'sah,-147.4,144.22,-1159.35>
+      _SaasKosah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Saas Ko'sah,-147.4,144.22,-1159.35>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Saas Ko'sah,-147.4,144.22,-1159.35>
+        NoSplit:
+          presets: _Warp3::NoSplit<Saas Ko'sah,-147.4,144.22,-1159.35>
       SahDahaj:
         presets: _Warp3<Sah Dahaj,2665.21,247.91,-1580.75>
+      _SahDahaj:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Sah Dahaj,2665.21,247.91,-1580.75>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Sah Dahaj,2665.21,247.91,-1580.75>
+        NoSplit:
+          presets: _Warp3::NoSplit<Sah Dahaj,2665.21,247.91,-1580.75>
       SasaKai:
         presets: _Warp3<Sasa Kai,-3559.8,352.78,1953.0>
+      _SasaKai:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Sasa Kai,-3559.8,352.78,1953.0>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Sasa Kai,-3559.8,352.78,1953.0>
+        NoSplit:
+          presets: _Warp3::NoSplit<Sasa Kai,-3559.8,352.78,1953.0>
       SatoKoda:
         presets: _Warp3<Sato Koda,3102.94,542.91,-833.22>
+      _SatoKoda:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Sato Koda,3102.94,542.91,-833.22>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Sato Koda,3102.94,542.91,-833.22>
+        NoSplit:
+          presets: _Warp3::NoSplit<Sato Koda,3102.94,542.91,-833.22>
       ShaGehma:
         presets: _Warp3<Sha Gehma,-1673.17,346.57,-3758.45>
+      _ShaGehma:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Sha Gehma,-1673.17,346.57,-3758.45>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Sha Gehma,-1673.17,346.57,-3758.45>
+        NoSplit:
+          presets: _Warp3::NoSplit<Sha Gehma,-1673.17,346.57,-3758.45>
       ShaWarvo:
         presets: _Warp3<Sha Warvo,-3823.08,265.12,-2206.36>
+      _ShaWarvo:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Sha Warvo,-3823.08,265.12,-2206.36>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Sha Warvo,-3823.08,265.12,-2206.36>
+        NoSplit:
+          presets: _Warp3::NoSplit<Sha Warvo,-3823.08,265.12,-2206.36>
       ShadaNaw:
         presets: _Warp3<Shada Naw,-2998.62,667.75,-3221.58>
+      _ShadaNaw:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shada Naw,-2998.62,667.75,-3221.58>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shada Naw,-2998.62,667.75,-3221.58>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shada Naw,-2998.62,667.75,-3221.58>
       ShaeKatha:
         presets: _Warp3<Shae Katha,870.34,122.99,2328.54>
+      _ShaeKatha:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shae Katha,870.34,122.99,2328.54>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shae Katha,870.34,122.99,2328.54>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shae Katha,870.34,122.99,2328.54>
       ShaeLoya:
         presets: _Warp3<Shae Loya,-2930.92,306.45,-432.05>
+      _ShaeLoya:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shae Loya,-2930.92,306.45,-432.05>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shae Loya,-2930.92,306.45,-432.05>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shae Loya,-2930.92,306.45,-432.05>
       ShaeMosah:
         presets: _Warp3<Shae Mo'sah,1757.22,535.32,-2562.46>
+      _ShaeMosah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shae Mo'sah,1757.22,535.32,-2562.46>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shae Mo'sah,1757.22,535.32,-2562.46>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shae Mo'sah,1757.22,535.32,-2562.46>
       ShaiUtoh:
         presets: _Warp3<Shai Utoh,1586.72,166.99,3614.93>
+      _ShaiUtoh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shai Utoh,1586.72,166.99,3614.93>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shai Utoh,1586.72,166.99,3614.93>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shai Utoh,1586.72,166.99,3614.93>
       ShaiYota:
         presets: _Warp3<Shai Yota,4245.54,110.92,252.95>
+      _ShaiYota:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shai Yota,4245.54,110.92,252.95>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shai Yota,4245.54,110.92,252.95>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shai Yota,4245.54,110.92,252.95>
       SharoLun:
         presets: _Warp3<Sharo Lun,2932.71,630.51,-2418.1>
+      _SharoLun:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Sharo Lun,2932.71,630.51,-2418.1>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Sharo Lun,2932.71,630.51,-2418.1>
+        NoSplit:
+          presets: _Warp3::NoSplit<Sharo Lun,2932.71,630.51,-2418.1>
       SheeVaneer:
         presets: _Warp3<Shee Vaneer,1265.27,525.87,1938.7>
+      _SheeVaneer:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shee Vaneer,1265.27,525.87,1938.7>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shee Vaneer,1265.27,525.87,1938.7>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shee Vaneer,1265.27,525.87,1938.7>
       SheeVenath:
         presets: _Warp3<Shee Venath,1244.13,443.37,1850.3>
+      _SheeVenath:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shee Venath,1244.13,443.37,1850.3>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shee Venath,1244.13,443.37,1850.3>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shee Venath,1244.13,443.37,1850.3>
       SheemDagoze:
         presets: _Warp3<Sheem Dagoze,-1893.3,212.4,91.5>
+      _SheemDagoze:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Sheem Dagoze,-1893.3,212.4,91.5>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Sheem Dagoze,-1893.3,212.4,91.5>
+        NoSplit:
+          presets: _Warp3::NoSplit<Sheem Dagoze,-1893.3,212.4,91.5>
       ShehRata:
         presets: _Warp3<Sheh Rata,1510.45,128.41,-376.96>
+      _ShehRata:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Sheh Rata,1510.45,128.41,-376.96>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Sheh Rata,1510.45,128.41,-376.96>
+        NoSplit:
+          presets: _Warp3::NoSplit<Sheh Rata,1510.45,128.41,-376.96>
       ShiraGomar:
         presets: _Warp3<Shira Gomar,-2376.74,264.97,-1382.98>
+      _ShiraGomar:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shira Gomar,-2376.74,264.97,-1382.98>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shira Gomar,-2376.74,264.97,-1382.98>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shira Gomar,-2376.74,264.97,-1382.98>
       ShoDantu:
         presets: _Warp3<Sho Dantu,-3911.26,396.0,1653.8>
+      _ShoDantu:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Sho Dantu,-3911.26,396.0,1653.8>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Sho Dantu,-3911.26,396.0,1653.8>
+        NoSplit:
+          presets: _Warp3::NoSplit<Sho Dantu,-3911.26,396.0,1653.8>
       ShodaSah:
         presets: _Warp3<Shoda Sah,1790.48,189.8,2991.89>
+      _ShodaSah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shoda Sah,1790.48,189.8,2991.89>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shoda Sah,1790.48,189.8,2991.89>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shoda Sah,1790.48,189.8,2991.89>
       ShoqaTatone:
         presets: _Warp3<Shoqa Tatone,94.0,110.67,3841.0>
+      _ShoqaTatone:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shoqa Tatone,94.0,110.67,3841.0>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shoqa Tatone,94.0,110.67,3841.0>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shoqa Tatone,94.0,110.67,3841.0>
       ShoraHah:
         presets: _Warp3<Shora Hah,1535.38,507.33,-3118.03>
+      _ShoraHah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Shora Hah,1535.38,507.33,-3118.03>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Shora Hah,1535.38,507.33,-3118.03>
+        NoSplit:
+          presets: _Warp3::NoSplit<Shora Hah,1535.38,507.33,-3118.03>
       SohKofi:
         presets: _Warp3<Soh Kofi,2238.42,148.48,-293.04>
+      _SohKofi:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Soh Kofi,2238.42,148.48,-293.04>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Soh Kofi,2238.42,148.48,-293.04>
+        NoSplit:
+          presets: _Warp3::NoSplit<Soh Kofi,2238.42,148.48,-293.04>
       SumaSahma:
         presets: _Warp3<Suma Sahma,-1418.2,545.4,3448.3>
+      _SumaSahma:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Suma Sahma,-1418.2,545.4,3448.3>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Suma Sahma,-1418.2,545.4,3448.3>
+        NoSplit:
+          presets: _Warp3::NoSplit<Suma Sahma,-1418.2,545.4,3448.3>
       TahMuhl:
         presets: _Warp3<Tah Muhl,2300.66,213.35,-941.32>
+      _TahMuhl:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Tah Muhl,2300.66,213.35,-941.32>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Tah Muhl,2300.66,213.35,-941.32>
+        NoSplit:
+          presets: _Warp3::NoSplit<Tah Muhl,2300.66,213.35,-941.32>
       TakamaShiri:
         presets: _Warp3<Takama Shiri,-4895.49,141.98,2155.5>
+      _TakamaShiri:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Takama Shiri,-4895.49,141.98,2155.5>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Takama Shiri,-4895.49,141.98,2155.5>
+        NoSplit:
+          presets: _Warp3::NoSplit<Takama Shiri,-4895.49,141.98,2155.5>
       TalohNaeg:
         presets: _Warp3<Ta'loh Naeg,1841.92,260.1,890.4>
+      _TalohNaeg:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ta'loh Naeg,1841.92,260.1,890.4>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ta'loh Naeg,1841.92,260.1,890.4>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ta'loh Naeg,1841.92,260.1,890.4>
       TahnoOah:
         presets: _Warp3<Tahno O'ah,4181.78,288.15,1686.73>
+      _TahnoOah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Tahno O'ah,4181.78,288.15,1686.73>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Tahno O'ah,4181.78,288.15,1686.73>
+        NoSplit:
+          presets: _Warp3::NoSplit<Tahno O'ah,4181.78,288.15,1686.73>
       TawaJinn:
         presets: _Warp3<Tawa Jinn,2637.53,318.17,2834.39>
+      _TawaJinn:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Tawa Jinn,2637.53,318.17,2834.39>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Tawa Jinn,2637.53,318.17,2834.39>
+        NoSplit:
+          presets: _Warp3::NoSplit<Tawa Jinn,2637.53,318.17,2834.39>
       TenaKosah:
         presets: _Warp3<Tena Ko'sah,-3465.47,384.49,-447.97>
+      _TenaKosah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Tena Ko'sah,-3465.47,384.49,-447.97>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Tena Ko'sah,-3465.47,384.49,-447.97>
+        NoSplit:
+          presets: _Warp3::NoSplit<Tena Ko'sah,-3465.47,384.49,-447.97>
       ThoKayu:
         presets: _Warp3<Tho Kayu,-4799.14,135.13,2800.18>
+      _ThoKayu:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Tho Kayu,-4799.14,135.13,2800.18>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Tho Kayu,-4799.14,135.13,2800.18>
+        NoSplit:
+          presets: _Warp3::NoSplit<Tho Kayu,-4799.14,135.13,2800.18>
       ToQuomo:
         presets: _Warp3<To Quomo,-4023.13,288.09,-3711.64>
+      _ToQuomo:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<To Quomo,-4023.13,288.09,-3711.64>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<To Quomo,-4023.13,288.09,-3711.64>
+        NoSplit:
+          presets: _Warp3::NoSplit<To Quomo,-4023.13,288.09,-3711.64>
       TohYahsa:
         presets: _Warp3<Toh Yahsa,-2269.1,216.58,-900.1>
+      _TohYahsa:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Toh Yahsa,-2269.1,216.58,-900.1>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Toh Yahsa,-2269.1,216.58,-900.1>
+        NoSplit:
+          presets: _Warp3::NoSplit<Toh Yahsa,-2269.1,216.58,-900.1>
       TotoSah:
         presets: _Warp3<Toto Sah,1845.65,131.51,2474.15>
+      _TotoSah:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Toto Sah,1845.65,131.51,2474.15>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Toto Sah,1845.65,131.51,2474.15>
+        NoSplit:
+          presets: _Warp3::NoSplit<Toto Sah,1845.65,131.51,2474.15>
       TuKaloh:
         presets: _Warp3<Tu Ka'loh,4655.0,237.4,-3710.0>
+      _TuKaloh:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Tu Ka'loh,4655.0,237.4,-3710.0>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Tu Ka'loh,4655.0,237.4,-3710.0>
+        NoSplit:
+          presets: _Warp3::NoSplit<Tu Ka'loh,4655.0,237.4,-3710.0>
       TutsuwaNima:
         presets: _Warp3<Tutsuwa Nima,3777.82,108.89,-2704.89>
+      _TutsuwaNima:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Tutsuwa Nima,3777.82,108.89,-2704.89>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Tutsuwa Nima,3777.82,108.89,-2704.89>
+        NoSplit:
+          presets: _Warp3::NoSplit<Tutsuwa Nima,3777.82,108.89,-2704.89>
       VooLota:
         presets: _Warp3<Voo Lota,-4016.18,275.2,-1721.91>
+      _VooLota:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Voo Lota,-4016.18,275.2,-1721.91>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Voo Lota,-4016.18,275.2,-1721.91>
+        NoSplit:
+          presets: _Warp3::NoSplit<Voo Lota,-4016.18,275.2,-1721.91>
       WahgoKatta:
         presets: _Warp3<Wahgo Katta,344.91,123.08,1007.03>
+      _WahgoKatta:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Wahgo Katta,344.91,123.08,1007.03>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Wahgo Katta,344.91,123.08,1007.03>
+        NoSplit:
+          presets: _Warp3::NoSplit<Wahgo Katta,344.91,123.08,1007.03>
       YaNaga:
         presets: _Warp3<Ya Naga,-328.18,68.02,2600.29>
+      _YaNaga:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ya Naga,-328.18,68.02,2600.29>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ya Naga,-328.18,68.02,2600.29>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ya Naga,-328.18,68.02,2600.29>
       YahRin:
         presets: _Warp3<Yah Rin,2833.36,152.75,3310.97>
+      _YahRin:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Yah Rin,2833.36,152.75,3310.97>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Yah Rin,2833.36,152.75,3310.97>
+        NoSplit:
+          presets: _Warp3::NoSplit<Yah Rin,2833.36,152.75,3310.97>
       YowakaIta:
         presets: _Warp3<Yowaka Ita,-941.14,187.7,1672.45>
+      _YowakaIta:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Yowaka Ita,-941.14,187.7,1672.45>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Yowaka Ita,-941.14,187.7,1672.45>
+        NoSplit:
+          presets: _Warp3::NoSplit<Yowaka Ita,-941.14,187.7,1672.45>
       ZaltaWa:
         presets: _Warp3<Zalta Wa,-1432.3,138.32,-594.19>
+      _ZaltaWa:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Zalta Wa,-1432.3,138.32,-594.19>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Zalta Wa,-1432.3,138.32,-594.19>
+        NoSplit:
+          presets: _Warp3::NoSplit<Zalta Wa,-1432.3,138.32,-594.19>
       ZeKasho:
         presets: _Warp3<Ze Kasho,3027.31,348.65,-1667.85>
+      _ZeKasho:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Ze Kasho,3027.31,348.65,-1667.85>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Ze Kasho,3027.31,348.65,-1667.85>
+        NoSplit:
+          presets: _Warp3::NoSplit<Ze Kasho,3027.31,348.65,-1667.85>
       ZunaKai:
         presets: _Warp3<Zuna Kai,3324.46,298.69,-3420.44>
+      _ZunaKai:
+        SplitByDefault:
+          presets: _Warp3::SplitByDefault<Zuna Kai,3324.46,298.69,-3420.44>
+        NoSplitByDefault:
+          presets: _Warp3::NoSplitByDefault<Zuna Kai,3324.46,298.69,-3420.44>
+        NoSplit:
+          presets: _Warp3::NoSplit<Zuna Kai,3324.46,298.69,-3420.44>
 

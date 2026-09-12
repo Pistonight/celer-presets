@@ -40,5 +40,5 @@ presets:
       counter-korok: .add(1)
       korok-seed: .add(2)
   _Korok:
-    #TXTPP#run python ../../scripts/koroks.py ../data/koroks.yaml 1000
+    #TXTPP#run uv run ../../scripts/koroks.py ../data/koroks.yaml 1000
     

@@ -1,0 +1,72 @@
+# main memory data:
+# .data[<ID>]:
+#   type: string
+#   name: string
+#   comment: string
+#   coord: [x,y,z] (y is height)
+data:
+  LanayruRoad:
+    type: Memory
+    name: Lanayru Road
+    comment: Return of Calamity Ganon
+    coord: [3143.34,263.09,1148.49]
+  SacredGrounds:
+    type: Memory
+    name: Sacred Grounds
+    comment: Subdued Ceremony
+    coord: [-254.14,127.42,-97.91]
+  LakeKolomo:
+    type: Memory
+    name: Lake Kolomo
+    comment: Resolve and Grief
+    coord: [-681.08,131.59,1223.99]
+  AncientColumns:
+    type: Memory
+    name: Ancient Columns
+    comment: Zelda's Resentment
+    coord: [-3501.04,383.73,-421.26]
+  KaraKaraBazaar:
+    type: Memory
+    name: Kara Kara Bazaar
+    comment: Blades of the Yiga
+    coord: [-3193.41,129.51,2536.24]
+  EldinCanyon:
+    type: Memory
+    name: Eldin Canyon
+    comment: A Premonition
+    coord: [1417.29,466.78,-1537.95]
+  IrchPlain:
+    type: Memory
+    name: Irch Plain
+    comment: Silent Princess
+    coord: [-1091.22,232.47,-1301.68]
+  WestNecluda:
+    type: Memory
+    name: West Necluda
+    comment: Shelter from the Storm
+    coord: [173.27,150.50,1935.49]
+  HyruleCastle:
+    type: Memory
+    name: Hyrule Castle
+    comment: Father and Daughter
+    coord: [-364.47,269.88,-995.87]
+  SpringofPower:
+    type: Memory
+    name: Spring of Power
+    comment: Slumbering Power
+    coord: [3744.00,109.06,-2655.89]
+  SanidinPark:
+    type: Memory
+    name: Sanidin Park
+    comment: To Mount Lanayru
+    coord: [-1612.42,246.33,688.02]
+  HyruleField:
+    type: Memory
+    name: Hyrule Field
+    comment: Despair
+    coord: [700.66,115.96,434.43]
+  AshSwamp:
+    type: MemoryFinal
+    name: Ash Swamp
+    comment: Zelda's Awakening
+    coord: [1983.90,124.12,1912.69]

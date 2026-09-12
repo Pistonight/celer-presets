@@ -18,4 +18,4 @@ presets:
     icon-priority: 0
     counter: .var(counter-lightroot)
     coord: [$(1), $(2), $(3)]
-  #TXTPP#run python ../../scripts/lightroots.py ../data/lightroots.yaml
+  #TXTPP#run uv run ../../scripts/lightroots.py ../data/lightroots.yaml

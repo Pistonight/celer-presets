@@ -55,6 +55,7 @@ Each layer also includes everything in the previous layer
     - [Discover](#discover)
     - [Snap](#snap)
     - [Material](#material)
+    - [Warp](#warp) syntax, but not the locations
     ```yaml
     - use: Pistonight/celer-presets/botw/mini.yaml
     ```
@@ -64,7 +65,7 @@ Each layer also includes everything in the previous layer
     - [Shrines](#shrine)
     - [Towers](#tower)
     - [Memories](#memory)
-    - [Warp](#warp)
+    - [Warp](#warp) locations
     ```yaml
     - use: Pistonight/celer-presets/botw/most.yaml
     ```
@@ -109,30 +110,70 @@ The Korok preset also increments the `korok-seed` variable. You can use this to 
     vars:
       korok-seed: .sub(5)
 ```
+
+
 #### `Memory`
-Provides memory location, coordinates and title (in game name of the memory). Also displays the number of memories collected.
+Provides memory location, coordinates and title (in-game name of the memory).
+Also displays the number of memories collected.
+
 ```yaml
 # Memories are identified by the landmark/location
 - _Memory::LanayruRoad
 ```
-See [here](./memories.yaml) for the full list of memories
+
+By default, memories adds splits. You can change it at each memory:
+```yaml
+
+#   e.g. Split at this memory, users can turn it off themselves
+- _Memory::LanayruRoad::SplitByDefault
+#   e.g. Don't split at this memory, users can turn it on themselves
+- _Memory::LanayruRoad::NoSplitByDefault
+#   don't split - users cannot turn it on
+- _Memory::LanayruRoad::NoSplit
+```
+Or, override the default globally in your config:
+```yaml
+# This makes the default (e.g. _Memory::LanayruRoad) to not split by default
+config:
+  - presets:
+      _Memory:
+        _Parts:
+          DefaultSplitConfig:
+            presets: _Memory::Parts::NoSplitByDefault
+    
+```
+
+See [here](./parts/memories.yaml) for the full list of memories
+
+
 #### `Tower`
+Provides tower name and coordinates, and displays the number of towers activated.
+
 ```yaml
 # Towers are identified by the region
 - _Tower::GreatPlateau
 ```
-See [here](./towers.yaml) for the full list of towers
+
+See [here](./parts/towers.yaml) for the full list of towers.
+
+Tower also contributes to warp locations, see [warp](#warp).
+
 #### `Shrine`
-Provides shrine name and coordinates and displays the number of shrines completed.
+Provides shrine name and coordinates, and displays the number of shrines completed.
+
 ```yaml
 # Shrines are identified by the (English) name without spaces or apostrophes (')
 - _Shrine::OwaDaim
 # DLC shrines are also available
 - _Shrine::KamiaOmuna
 ```
+
+Shrines also contributes to warp locations, see [warp](#warp).
+
 #### `Warp`
-Provides coordinates for all warp points available. Also displays the number of warps
-executed.
+Provides coordinates for all warp points available.
+Also displays the number of warps executed.
+
 ```yaml
 # Warping to a shrine
 - _Warp::Shrine::OwaDaim
@@ -148,6 +189,30 @@ executed.
 # Warping to travel medallion. Coordinates are X,Z
 - _Warp::TravelMedallion<123.45,678.90>
 ```
+
+By default, warps adds splits. You can change it at each warp:
+```yaml
+# Each warp supports these split types:
+# SplitByDefault: split at the warp, users can turn it off themselves
+# NoSplitByDefault: don't split, users can turn it on themselves
+# NoSplit: don't split and users cannot turn it on
+
+- _Warp::Shrine::OwaDaim::NoSplit
+- _Warp::Tower::Akkala::NoSplitByDefault
+- _Warp::Beast::Naboris::SplitByDefault
+```
+Or, override the default globally in your config:
+```yaml
+# This makes all the default warps (e.g. _Warp::Shrine::OwaDaim) to not split by default
+config:
+  - presets:
+      _Warp:
+        _Parts:
+          DefaultSplitConfig:
+            presets: _Warp::Parts::NoSplitByDefault
+    
+```
+
 #### `Boss`
 Provides presets for all types of overworld bosses. Also displays the number of bosses of that type defeated. Currently does not provide the coordinates for each boss
 ```yaml

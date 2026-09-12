@@ -1,6 +1,6 @@
 #TXTPP#include ../../GENERATED
 icons:
-  #TXTPP#run python ../../scripts/icons.py ../data/shrines.yaml
+  #TXTPP#run uv run ../../scripts/icons.py ../data/shrines.yaml
 
 tags:
   shrine-dlc:
@@ -36,4 +36,4 @@ presets:
     counter: .counter-dlc-shrine(EX)
     coord: [$(2), $(3), $(4)]
     time-override: $(5)
-  #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml
+  #TXTPP#run uv run ../../scripts/shrines.py ../data/shrines.yaml
