@@ -136,10 +136,10 @@ Or, override the default globally in your config:
 # This makes the default (e.g. _Memory::LanayruRoad) to not split by default
 config:
   - presets:
-     _Memory:
-       _Parts:
-         DefaultSplitConfig:
-           presets: _Memory::Parts::NoSplitByDefault
+      _Memory:
+        _Parts:
+          DefaultSplitConfig:
+            presets: _Memory::Parts::NoSplitByDefault
     
 ```
 
@@ -206,10 +206,10 @@ Or, override the default globally in your config:
 # This makes all the default warps (e.g. _Warp::Shrine::OwaDaim) to not split by default
 config:
   - presets:
-     _Warp:
-       _Parts:
-         DefaultSplitConfig:
-           presets: _Warp::Parts::NoSplitByDefault
+      _Warp:
+        _Parts:
+          DefaultSplitConfig:
+            presets: _Warp::Parts::NoSplitByDefault
     
 ```
 
