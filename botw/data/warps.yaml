@@ -1,0 +1,35 @@
+# main warp data:
+# .data[<ID>]:
+#   type: string
+#   name: string[]
+#   abbr: string
+#   coord: [x,y,z] (y is height)
+data:
+- name: [TechLab, Akkala]
+  type: Warp
+  abbr: Akk. Tech Lab
+  coord: [4522.01,352.96,3166.63]
+- name: [TechLab, Hateno]
+  type: Warp
+  abbr: Hat. Tech Lab
+  coord: [3777.71,357.00,2127.36]
+- name: [Beast, Medoh]
+  type: Warp
+  abbr: Vah Medoh
+  coord: [-3614.10,571.16,-1862.06]
+- name: [Beast, Naboris]
+  type: Warp
+  abbr: Vah Naboris
+  coord: [-2154.00,545.51,2600.50]
+- name: [Beast, Rudania]
+  type: Warp
+  abbr: Vah Rudania
+  coord: [2451.85, 1007.58, -2559.08]
+- name: [Beast, Ruta]
+  type: Warp
+  abbr: Vah Ruta
+  coord: [2957.00, 462.28, 137.00]
+- name: [SOR]
+  type: Warp
+  abbr: S.o. Resur.
+  coord: [-1096.05,0,1879.34] # 0 placeholder Y, shouldn't matter

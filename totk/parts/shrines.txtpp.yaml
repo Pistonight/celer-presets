@@ -1,6 +1,6 @@
 #TXTPP#include ../../GENERATED
 icons:
-  #TXTPP#run python ../../scripts/icons.py ../data/shrines.yaml
+  #TXTPP#run uv run ../../scripts/icons.py ../data/shrines.yaml
 
 tags:
   counter-shrine:
@@ -49,4 +49,4 @@ presets:
       counter-shrine-sky: .add(1)
       counter-shrine: .add(1)
     coord: [$(2), $(3), $(4)]
-  #TXTPP#run python ../../scripts/shrines.py ../data/shrines.yaml
+  #TXTPP#run uv run ../../scripts/shrines.py ../data/shrines.yaml

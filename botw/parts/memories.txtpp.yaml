@@ -1,0 +1,58 @@
+#TXTPP#include ../../GENERATED
+icons:
+  memory: https://icons.pistonite.org/icon/character.zelda.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+  memory-final: https://icons.pistonite.org/icon/character.zelda.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+
+tags:
+  counter-memory:
+    color: black
+    background: orange
+    split-type: Memories
+  counter-memory-default-nosplit:
+    color: black
+    background: orange
+    split-type: Memories (off-by-default)
+  counter-memory-nosplit:
+    color: black
+    background: orange
+
+splits:
+- counter-memory
+
+presets:
+  _Memory:
+    _Parts:
+      _Base:
+        Memory:
+          text: ".loc($(0))"
+          comment: $(1)
+          icon: memory
+          icon-priority: 0
+          coord: [$(2), $(3), $(4)]
+        MemoryFinal:
+          text: ".loc($(0))"
+          comment: $(1)
+          icon: memory-final
+          icon-priority: 0
+          coord: [$(2), $(3), $(4)]
+      DefaultSplitConfig:
+        presets: _Memory::Parts::SplitByDefault
+      SplitByDefault:
+        counter: .var-roman-upper(counter-memory)
+        vars:
+          counter-memory-default-nosplit: .add(1)
+          counter-memory-nosplit: .add(1)
+      NoSplitByDefault:
+        counter: .var-roman-upper(counter-memory-default-nosplit)
+        vars:
+          counter-memory: .add(1)
+          counter-memory-nosplit: .add(1)
+      NoSplit:
+        counter: .var-roman-upper(counter-memory-nosplit)
+        vars:
+          counter-memory: .add(1)
+          counter-memory-default-nosplit: .add(1)
+
+
+  #TXTPP#run uv run ../../scripts/memories.py ../data/memories.yaml
+

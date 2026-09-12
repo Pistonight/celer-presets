@@ -1,3 +1,10 @@
+##########################################################################
+# GENERATED FILE 
+# 
+# DO NOT EDIT!
+# 
+# Edit the .txtpp file in the same directory instead
+##########################################################################
 tags:
   counter-tower:
     color: black
@@ -17,6 +24,7 @@ presets:
     icon-priority: 0
     counter: .var(counter-tower)
     coord: [$(1), $(2), $(3)]
+
   _Tower:
     RosproPass:
       presets: _Tower<Rospro Pass,-3679.58,331.74,2346.4>
@@ -48,3 +56,246 @@ presets:
       presets: _Tower<Ulri Mountain,3499,286.86,2026>
     MountLanayru:
       presets: _Tower<Mount Lanayru,3847.64,637.81,-1314.91>
+  _Warp:
+    _Tower:
+      RosproPass:
+        presets:
+          - _Warp::Tower::RosproPass::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _RosproPass:
+        Base:
+          presets: _Warp::Parts::Base3<R. Pass Twr.,-3679.58,331.74,2346.4>
+        SplitByDefault:
+          - _Warp::RosproPass::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::RosproPass::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::RosproPass::Base
+          - _Warp::Parts::NoSplit
+      GerudoHighlands:
+        presets:
+          - _Warp::Tower::GerudoHighlands::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _GerudoHighlands:
+        Base:
+          presets: _Warp::Parts::Base3<G. Highl. Twr.,-3960.88,521.37,-1305.6>
+        SplitByDefault:
+          - _Warp::GerudoHighlands::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::GerudoHighlands::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::GerudoHighlands::Base
+          - _Warp::Parts::NoSplit
+      PikidaStonegrove:
+        presets:
+          - _Warp::Tower::PikidaStonegrove::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _PikidaStonegrove:
+        Base:
+          presets: _Warp::Parts::Base3<P. Stoneg. Twr.,-2311.49,542,3062.49>
+        SplitByDefault:
+          - _Warp::PikidaStonegrove::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::PikidaStonegrove::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::PikidaStonegrove::Base
+          - _Warp::Parts::NoSplit
+      GerudoCanyon:
+        presets:
+          - _Warp::Tower::GerudoCanyon::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _GerudoCanyon:
+        Base:
+          presets: _Warp::Parts::Base3<Gerudo. Twr.,-2438.85,405.62,-2182.76>
+        SplitByDefault:
+          - _Warp::GerudoCanyon::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::GerudoCanyon::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::GerudoCanyon::Base
+          - _Warp::Parts::NoSplit
+      LindorsBrow:
+        presets:
+          - _Warp::Tower::LindorsBrow::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _LindorsBrow:
+        Base:
+          presets: _Warp::Parts::Base3<L. Brow Twr.,-1909.59,395.71,1245.3>
+        SplitByDefault:
+          - _Warp::LindorsBrow::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::LindorsBrow::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::LindorsBrow::Base
+          - _Warp::Parts::NoSplit
+      LookoutLanding:
+        presets:
+          - _Warp::Tower::LookoutLanding::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _LookoutLanding:
+        Base:
+          presets: _Warp::Parts::Base3<L. Ldng. Twr.,-298.85,123.94,142.85>
+        SplitByDefault:
+          - _Warp::LookoutLanding::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::LookoutLanding::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::LookoutLanding::Base
+          - _Warp::Parts::NoSplit
+      HyruleField:
+        presets:
+          - _Warp::Tower::HyruleField::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _HyruleField:
+        Base:
+          presets: _Warp::Parts::Base3<H. Fld. Twr.,-761.28,163.42,-1019.23>
+        SplitByDefault:
+          - _Warp::HyruleField::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::HyruleField::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::HyruleField::Base
+          - _Warp::Parts::NoSplit
+      ThyphloRuins:
+        presets:
+          - _Warp::Tower::ThyphloRuins::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _ThyphloRuins:
+        Base:
+          presets: _Warp::Parts::Base3<T. Ruins Twr.,343.67,278.56,3141.65>
+        SplitByDefault:
+          - _Warp::ThyphloRuins::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::ThyphloRuins::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::ThyphloRuins::Base
+          - _Warp::Parts::NoSplit
+      PoplaFoothills:
+        presets:
+          - _Warp::Tower::PoplaFoothills::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _PoplaFoothills:
+        Base:
+          presets: _Warp::Parts::Base3<Popla. Twr.,604.84,197.33,-2126.88>
+        SplitByDefault:
+          - _Warp::PoplaFoothills::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::PoplaFoothills::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::PoplaFoothills::Base
+          - _Warp::Parts::NoSplit
+      EldinCanyon:
+        presets:
+          - _Warp::Tower::EldinCanyon::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _EldinCanyon:
+        Base:
+          presets: _Warp::Parts::Base3<Eldin. Twr.,1641.81,324.42,1190.82>
+        SplitByDefault:
+          - _Warp::EldinCanyon::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::EldinCanyon::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::EldinCanyon::Base
+          - _Warp::Parts::NoSplit
+      SahasraSlope:
+        presets:
+          - _Warp::Tower::SahasraSlope::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _SahasraSlope:
+        Base:
+          presets: _Warp::Parts::Base3<Sahas. Twr.,1341.11,265.26,-1177.86>
+        SplitByDefault:
+          - _Warp::SahasraSlope::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::SahasraSlope::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::SahasraSlope::Base
+          - _Warp::Parts::NoSplit
+      UplandZorana:
+        presets:
+          - _Warp::Tower::UplandZorana::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _UplandZorana:
+        Base:
+          presets: _Warp::Parts::Base3<U. Zorana Twr.,2866.06,478.33,581.19>
+        SplitByDefault:
+          - _Warp::UplandZorana::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::UplandZorana::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::UplandZorana::Base
+          - _Warp::Parts::NoSplit
+      RabellaWetlands:
+        presets:
+          - _Warp::Tower::RabellaWetlands::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _RabellaWetlands:
+        Base:
+          presets: _Warp::Parts::Base3<Rabel. Twr.,2420,321,-2754.89>
+        SplitByDefault:
+          - _Warp::RabellaWetlands::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::RabellaWetlands::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::RabellaWetlands::Base
+          - _Warp::Parts::NoSplit
+      UlriMountain:
+        presets:
+          - _Warp::Tower::UlriMountain::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _UlriMountain:
+        Base:
+          presets: _Warp::Parts::Base3<Ulri. Twr.,3499,286.86,2026>
+        SplitByDefault:
+          - _Warp::UlriMountain::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::UlriMountain::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::UlriMountain::Base
+          - _Warp::Parts::NoSplit
+      MountLanayru:
+        presets:
+          - _Warp::Tower::MountLanayru::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _MountLanayru:
+        Base:
+          presets: _Warp::Parts::Base3<M. Lanay. Twr.,3847.64,637.81,-1314.91>
+        SplitByDefault:
+          - _Warp::MountLanayru::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::MountLanayru::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::MountLanayru::Base
+          - _Warp::Parts::NoSplit
+

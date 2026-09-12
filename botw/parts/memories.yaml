@@ -1,3 +1,10 @@
+##########################################################################
+# GENERATED FILE 
+# 
+# DO NOT EDIT!
+# 
+# Edit the .txtpp file in the same directory instead
+##########################################################################
 icons:
   memory: https://icons.pistonite.org/icon/character.zelda.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
   memory-final: https://icons.pistonite.org/icon/character.zelda.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
@@ -7,44 +14,310 @@ tags:
     color: black
     background: orange
     split-type: Memories
+  counter-memory-default-nosplit:
+    color: black
+    background: orange
+    split-type: Memories (off-by-default)
+  counter-memory-nosplit:
+    color: black
+    background: orange
 
 splits:
 - counter-memory
 
 presets:
-  Memory:
-    text: ".loc($(0))"
-    comment: $(1)
-    icon: memory
-    icon-priority: 0
-    counter: .var-roman-upper(counter-memory)
-    coord: [$(2), $(3), $(4)]
   _Memory:
+    _Parts:
+      _Base:
+        Memory:
+          text: ".loc($(0))"
+          comment: $(1)
+          icon: memory
+          icon-priority: 0
+          coord: [$(2), $(3), $(4)]
+        MemoryFinal:
+          text: ".loc($(0))"
+          comment: $(1)
+          icon: memory-final
+          icon-priority: 0
+          coord: [$(2), $(3), $(4)]
+      DefaultSplitConfig:
+        presets: _Memory::Parts::SplitByDefault
+      SplitByDefault:
+        counter: .var-roman-upper(counter-memory)
+        vars:
+          counter-memory-default-nosplit: .add(1)
+          counter-memory-nosplit: .add(1)
+      NoSplitByDefault:
+        counter: .var-roman-upper(counter-memory-default-nosplit)
+        vars:
+          counter-memory: .add(1)
+          counter-memory-nosplit: .add(1)
+      NoSplit:
+        counter: .var-roman-upper(counter-memory-nosplit)
+        vars:
+          counter-memory: .add(1)
+          counter-memory-default-nosplit: .add(1)
+
+
     LanayruRoad:
-      presets: _Memory<Lanayru Road,Return of Calamity Ganon,3143.34,263.09,1148.49>
+      presets:
+        - _Memory::LanayruRoad::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _LanayruRoad:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Lanayru Road,Return of Calamity Ganon,3143.34,263.09,1148.49>
+      SplitByDefault:
+        presets:
+          - _Memory::LanayruRoad::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::LanayruRoad::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::LanayruRoad::Base
+          - _Memory::Parts::NoSplit
     SacredGrounds:
-      presets: _Memory<Sacred Grounds,Subdued Ceremony,-254.14,127.42,-97.91>
+      presets:
+        - _Memory::SacredGrounds::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _SacredGrounds:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Sacred Grounds,Subdued Ceremony,-254.14,127.42,-97.91>
+      SplitByDefault:
+        presets:
+          - _Memory::SacredGrounds::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::SacredGrounds::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::SacredGrounds::Base
+          - _Memory::Parts::NoSplit
     LakeKolomo:
-      presets: _Memory<Lake Kolomo,Resolve and Grief,-681.08,131.59,1223.99>
+      presets:
+        - _Memory::LakeKolomo::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _LakeKolomo:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Lake Kolomo,Resolve and Grief,-681.08,131.59,1223.99>
+      SplitByDefault:
+        presets:
+          - _Memory::LakeKolomo::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::LakeKolomo::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::LakeKolomo::Base
+          - _Memory::Parts::NoSplit
     AncientColumns:
-      presets: _Memory<Ancient Columns,Zelda's Resentment,-3501.04,383.73,-421.26>
+      presets:
+        - _Memory::AncientColumns::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _AncientColumns:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Ancient Columns,Zelda's Resentment,-3501.04,383.73,-421.26>
+      SplitByDefault:
+        presets:
+          - _Memory::AncientColumns::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::AncientColumns::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::AncientColumns::Base
+          - _Memory::Parts::NoSplit
     KaraKaraBazaar:
-      presets: _Memory<Kara Kara Bazaar,Blades of the Yiga,-3193.41,129.51,2536.24>
+      presets:
+        - _Memory::KaraKaraBazaar::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _KaraKaraBazaar:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Kara Kara Bazaar,Blades of the Yiga,-3193.41,129.51,2536.24>
+      SplitByDefault:
+        presets:
+          - _Memory::KaraKaraBazaar::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::KaraKaraBazaar::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::KaraKaraBazaar::Base
+          - _Memory::Parts::NoSplit
     EldinCanyon:
-      presets: _Memory<Eldin Canyon,A Premonition,1417.29,466.78,-1537.95>
+      presets:
+        - _Memory::EldinCanyon::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _EldinCanyon:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Eldin Canyon,A Premonition,1417.29,466.78,-1537.95>
+      SplitByDefault:
+        presets:
+          - _Memory::EldinCanyon::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::EldinCanyon::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::EldinCanyon::Base
+          - _Memory::Parts::NoSplit
     IrchPlain:
-      presets: _Memory<Irch Plain,Silent Princess,-1091.22,232.47,-1301.68>
+      presets:
+        - _Memory::IrchPlain::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _IrchPlain:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Irch Plain,Silent Princess,-1091.22,232.47,-1301.68>
+      SplitByDefault:
+        presets:
+          - _Memory::IrchPlain::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::IrchPlain::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::IrchPlain::Base
+          - _Memory::Parts::NoSplit
     WestNecluda:
-      presets: _Memory<West Necluda,Shelter from the Storm,173.27,150.50,1935.49>
+      presets:
+        - _Memory::WestNecluda::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _WestNecluda:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<West Necluda,Shelter from the Storm,173.27,150.5,1935.49>
+      SplitByDefault:
+        presets:
+          - _Memory::WestNecluda::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::WestNecluda::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::WestNecluda::Base
+          - _Memory::Parts::NoSplit
     HyruleCastle:
-      presets: _Memory<Hyrule Castle,Father and Daughter,-364.47,269.88,-995.87>
+      presets:
+        - _Memory::HyruleCastle::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _HyruleCastle:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Hyrule Castle,Father and Daughter,-364.47,269.88,-995.87>
+      SplitByDefault:
+        presets:
+          - _Memory::HyruleCastle::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::HyruleCastle::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::HyruleCastle::Base
+          - _Memory::Parts::NoSplit
     SpringofPower:
-      presets: _Memory<Spring of Power,Slumbering Power,3744.00,109.06,-2655.89>
+      presets:
+        - _Memory::SpringofPower::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _SpringofPower:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Spring of Power,Slumbering Power,3744.0,109.06,-2655.89>
+      SplitByDefault:
+        presets:
+          - _Memory::SpringofPower::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::SpringofPower::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::SpringofPower::Base
+          - _Memory::Parts::NoSplit
     SanidinPark:
-      presets: _Memory<Sanidin Park,To Mount Lanayru,-1612.42,246.33,688.02>
+      presets:
+        - _Memory::SanidinPark::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _SanidinPark:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Sanidin Park,To Mount Lanayru,-1612.42,246.33,688.02>
+      SplitByDefault:
+        presets:
+          - _Memory::SanidinPark::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::SanidinPark::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::SanidinPark::Base
+          - _Memory::Parts::NoSplit
     HyruleField:
-      presets: _Memory<Hyrule Field,Despair,700.66,115.96,434.43>
+      presets:
+        - _Memory::HyruleField::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _HyruleField:
+      Base:
+        presets:
+          - _Memory::Parts::Base::Memory<Hyrule Field,Despair,700.66,115.96,434.43>
+      SplitByDefault:
+        presets:
+          - _Memory::HyruleField::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::HyruleField::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::HyruleField::Base
+          - _Memory::Parts::NoSplit
     AshSwamp:
-      presets: _Memory<Ash Swamp,Zelda's Awakening,1983.90,124.12,1912.69>
-      icon: memory-final
-      icon-priority: 0
+      presets:
+        - _Memory::AshSwamp::Base
+        - _Memory::Parts::DefaultSplitConfig
+    _AshSwamp:
+      Base:
+        presets:
+          - _Memory::Parts::Base::MemoryFinal<Ash Swamp,Zelda's Awakening,1983.9,124.12,1912.69>
+      SplitByDefault:
+        presets:
+          - _Memory::AshSwamp::Base
+          - _Memory::Parts::SplitByDefault
+      NoSplitByDefault:
+        presets:
+          - _Memory::AshSwamp::Base
+          - _Memory::Parts::NoSplitByDefault
+      NoSplit:
+        presets:
+          - _Memory::AshSwamp::Base
+          - _Memory::Parts::NoSplit
+

@@ -1,3 +1,10 @@
+##########################################################################
+# GENERATED FILE 
+# 
+# DO NOT EDIT!
+# 
+# Edit the .txtpp file in the same directory instead
+##########################################################################
 tags:
   counter-tower:
     color: black
@@ -17,34 +24,278 @@ presets:
     icon-priority: 0
     counter: .var(counter-tower)
     coord: [$(1), $(2), $(3)]
+
   _Tower:
     GreatPlateau:
       presets: _Tower<Great Plateau,-560.03,177.64,1694.86>
     Central:
       presets: _Tower<Central,-788.64,197.64,442.03>
     Lake:
-      presets: _Tower<Lake,-31.82,280.48,2961.60>
+      presets: _Tower<Lake,-31.82,280.48,2961.6>
     DuelingPeaks:
       presets: _Tower<Dueling Peaks,1016.78,184.01,1714.08>
     Faron:
-      presets: _Tower<Faron,1331.20,269.93,3273.72>
+      presets: _Tower<Faron,1331.2,269.93,3273.72>
     Hateno:
-      presets: _Tower<Hateno,2735.50,336.18,2133.50>
+      presets: _Tower<Hateno,2735.5,336.18,2133.5>
     Lanayru:
-      presets: _Tower<Lanayru,2258.00,310.92,-109.00>
+      presets: _Tower<Lanayru,2258.0,310.92,-109.0>
     Eldin:
       presets: _Tower<Eldin,2174.15,508.73,-1556.78>
     Woodland:
       presets: _Tower<Woodland,883.88,350.22,-1605.71>
     Akkala:
-      presets: _Tower<Akkala,3308.00,593.78,-1500.10>
+      presets: _Tower<Akkala,3308.0,593.78,-1500.1>
     Tabantha:
       presets: _Tower<Tabantha,-3613.75,445.04,-990.16>
     Gerudo:
-      presets: _Tower<Gerudo,-3666.00,470.98,1828.60>
+      presets: _Tower<Gerudo,-3666.0,470.98,1828.6>
     Wasteland:
       presets: _Tower<Wasteland,-2306.84,530.18,2437.32>
     Hebra:
-      presets: _Tower<Hebra,-2173.00,529.18,-2034.00>
+      presets: _Tower<Hebra,-2173.0,529.18,-2034.0>
     Ridgeland:
-      presets: _Tower<Ridgeland,-1755.30,328.58,-774.30>
+      presets: _Tower<Ridgeland,-1755.3,328.58,-774.3>
+  _Warp:
+    _Tower:
+      GreatPlateau:
+        presets:
+          - _Warp::Tower::GreatPlateau::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _GreatPlateau:
+        Base:
+          presets: _Warp::Parts::Base3<Plat. Twr.,-560.03,177.64,1694.86>
+        SplitByDefault:
+          - _Warp::GreatPlateau::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::GreatPlateau::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::GreatPlateau::Base
+          - _Warp::Parts::NoSplit
+      Central:
+        presets:
+          - _Warp::Tower::Central::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Central:
+        Base:
+          presets: _Warp::Parts::Base3<Centr. Twr.,-788.64,197.64,442.03>
+        SplitByDefault:
+          - _Warp::Central::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Central::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Central::Base
+          - _Warp::Parts::NoSplit
+      Lake:
+        presets:
+          - _Warp::Tower::Lake::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Lake:
+        Base:
+          presets: _Warp::Parts::Base3<Lake Twr.,-31.82,280.48,2961.6>
+        SplitByDefault:
+          - _Warp::Lake::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Lake::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Lake::Base
+          - _Warp::Parts::NoSplit
+      DuelingPeaks:
+        presets:
+          - _Warp::Tower::DuelingPeaks::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _DuelingPeaks:
+        Base:
+          presets: _Warp::Parts::Base3<D. Peaks Twr.,1016.78,184.01,1714.08>
+        SplitByDefault:
+          - _Warp::DuelingPeaks::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::DuelingPeaks::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::DuelingPeaks::Base
+          - _Warp::Parts::NoSplit
+      Faron:
+        presets:
+          - _Warp::Tower::Faron::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Faron:
+        Base:
+          presets: _Warp::Parts::Base3<Faron Twr.,1331.2,269.93,3273.72>
+        SplitByDefault:
+          - _Warp::Faron::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Faron::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Faron::Base
+          - _Warp::Parts::NoSplit
+      Hateno:
+        presets:
+          - _Warp::Tower::Hateno::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Hateno:
+        Base:
+          presets: _Warp::Parts::Base3<Hateno Twr.,2735.5,336.18,2133.5>
+        SplitByDefault:
+          - _Warp::Hateno::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Hateno::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Hateno::Base
+          - _Warp::Parts::NoSplit
+      Lanayru:
+        presets:
+          - _Warp::Tower::Lanayru::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Lanayru:
+        Base:
+          presets: _Warp::Parts::Base3<Lanay. Twr.,2258.0,310.92,-109.0>
+        SplitByDefault:
+          - _Warp::Lanayru::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Lanayru::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Lanayru::Base
+          - _Warp::Parts::NoSplit
+      Eldin:
+        presets:
+          - _Warp::Tower::Eldin::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Eldin:
+        Base:
+          presets: _Warp::Parts::Base3<Eldin Twr.,2174.15,508.73,-1556.78>
+        SplitByDefault:
+          - _Warp::Eldin::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Eldin::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Eldin::Base
+          - _Warp::Parts::NoSplit
+      Woodland:
+        presets:
+          - _Warp::Tower::Woodland::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Woodland:
+        Base:
+          presets: _Warp::Parts::Base3<Woodl. Twr.,883.88,350.22,-1605.71>
+        SplitByDefault:
+          - _Warp::Woodland::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Woodland::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Woodland::Base
+          - _Warp::Parts::NoSplit
+      Akkala:
+        presets:
+          - _Warp::Tower::Akkala::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Akkala:
+        Base:
+          presets: _Warp::Parts::Base3<Akkala Twr.,3308.0,593.78,-1500.1>
+        SplitByDefault:
+          - _Warp::Akkala::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Akkala::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Akkala::Base
+          - _Warp::Parts::NoSplit
+      Tabantha:
+        presets:
+          - _Warp::Tower::Tabantha::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Tabantha:
+        Base:
+          presets: _Warp::Parts::Base3<Taban. Twr.,-3613.75,445.04,-990.16>
+        SplitByDefault:
+          - _Warp::Tabantha::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Tabantha::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Tabantha::Base
+          - _Warp::Parts::NoSplit
+      Gerudo:
+        presets:
+          - _Warp::Tower::Gerudo::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Gerudo:
+        Base:
+          presets: _Warp::Parts::Base3<Gerudo Twr.,-3666.0,470.98,1828.6>
+        SplitByDefault:
+          - _Warp::Gerudo::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Gerudo::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Gerudo::Base
+          - _Warp::Parts::NoSplit
+      Wasteland:
+        presets:
+          - _Warp::Tower::Wasteland::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Wasteland:
+        Base:
+          presets: _Warp::Parts::Base3<Wastel. Twr.,-2306.84,530.18,2437.32>
+        SplitByDefault:
+          - _Warp::Wasteland::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Wasteland::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Wasteland::Base
+          - _Warp::Parts::NoSplit
+      Hebra:
+        presets:
+          - _Warp::Tower::Hebra::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Hebra:
+        Base:
+          presets: _Warp::Parts::Base3<Hebra Twr.,-2173.0,529.18,-2034.0>
+        SplitByDefault:
+          - _Warp::Hebra::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Hebra::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Hebra::Base
+          - _Warp::Parts::NoSplit
+      Ridgeland:
+        presets:
+          - _Warp::Tower::Ridgeland::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Ridgeland:
+        Base:
+          presets: _Warp::Parts::Base3<Ridgel. Twr.,-1755.3,328.58,-774.3>
+        SplitByDefault:
+          - _Warp::Ridgeland::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Ridgeland::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Ridgeland::Base
+          - _Warp::Parts::NoSplit
+

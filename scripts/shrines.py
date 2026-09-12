@@ -37,6 +37,14 @@ for shrine_id in data:
     print(f"    presets: _{preset}<{name},{icon_id},{coord_str}{time_str}>")
     warp_output.append(f"    {shrine_id}:")
     warp_output.append(f"      presets: _Warp3<{name},{coord_str}>")
+    warp_output.append(f"    _{shrine_id}:")
+    warp_output.append(f"      SplitByDefault:")
+    warp_output.append(f"        presets: _Warp3::SplitByDefault<{name},{coord_str}>")
+    warp_output.append(f"      NoSplitByDefault:")
+    warp_output.append(f"        presets: _Warp3::NoSplitByDefault<{name},{coord_str}>")
+    warp_output.append(f"      NoSplit:")
+    warp_output.append(f"        presets: _Warp3::NoSplit<{name},{coord_str}>")
+
 print("_Warp:")
 print("  _Shrine:")
 for x in warp_output:

@@ -1,28 +1,145 @@
+##########################################################################
+# GENERATED FILE 
+# 
+# DO NOT EDIT!
+# 
+# Edit the .txtpp file in the same directory instead
+##########################################################################
 presets:
   _Warp:
-    _TechLab:
-      Akkala:
-        presets: _Warp<Akkala Tech Lab,4522.01,3166.63>
-        icon: warp
-      Hateno:
-        presets: _Warp<Hateno Tech Lab,3777.71,2127.36>
-        icon: warp
-    _Beast:
-      Medoh:
-        presets: _Warp<Vah Medoh,-3614.10,-1862.06>
-        icon: warp
-      Naboris:
-        presets: _Warp<Vah Naboris,-2110.15,2616.95>
-        icon: warp
-      Rudania: 
-        presets: _Warp<Vah Rudania,2451.85,-2559.08>
-        icon: warp
-      Ruta:
-        presets: _Warp<Vah Ruta,2970.18,235.47>
-        icon: warp
-    SOR:
-      presets: _Warp<SoR,-1096.05,1879.34>
-      icon: warp
     TravelMedallion:
       presets: _Warp<Travel Medallion,$(0),$(1)>
       icon: warp
+    _TravelMedallion:
+      SplitByDefault:
+        presets: _Warp::SplitByDefault<Travel Medallion,$(0),$(1)>
+        icon: warp
+      NoSplitByDefault:
+        presets: _Warp::NoSplitByDefault<Travel Medallion,$(0),$(1)>
+        icon: warp
+      NoSplit:
+        presets: _Warp::NoSplit<Travel Medallion,$(0),$(1)>
+        icon: warp
+
+    _TechLab:
+      Akkala:
+        presets:
+          - _Warp::TechLab::Akkala::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Akkala:
+        Base:
+          presets: _Warp::Parts::Base3<Akk. Tech Lab,4522.01,352.96,3166.63>
+          icon: warp
+        SplitByDefault:
+          - _Warp::TechLab::Akkala::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::TechLab::Akkala::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::TechLab::Akkala::Base
+          - _Warp::Parts::NoSplit
+      Hateno:
+        presets:
+          - _Warp::TechLab::Hateno::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Hateno:
+        Base:
+          presets: _Warp::Parts::Base3<Hat. Tech Lab,3777.71,357.0,2127.36>
+          icon: warp
+        SplitByDefault:
+          - _Warp::TechLab::Hateno::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::TechLab::Hateno::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::TechLab::Hateno::Base
+          - _Warp::Parts::NoSplit
+    _Beast:
+      Medoh:
+        presets:
+          - _Warp::Beast::Medoh::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Medoh:
+        Base:
+          presets: _Warp::Parts::Base3<Vah Medoh,-3614.1,571.16,-1862.06>
+          icon: warp
+        SplitByDefault:
+          - _Warp::Beast::Medoh::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Beast::Medoh::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Beast::Medoh::Base
+          - _Warp::Parts::NoSplit
+      Naboris:
+        presets:
+          - _Warp::Beast::Naboris::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Naboris:
+        Base:
+          presets: _Warp::Parts::Base3<Vah Naboris,-2154.0,545.51,2600.5>
+          icon: warp
+        SplitByDefault:
+          - _Warp::Beast::Naboris::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Beast::Naboris::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Beast::Naboris::Base
+          - _Warp::Parts::NoSplit
+      Rudania:
+        presets:
+          - _Warp::Beast::Rudania::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Rudania:
+        Base:
+          presets: _Warp::Parts::Base3<Vah Rudania,2451.85,1007.58,-2559.08>
+          icon: warp
+        SplitByDefault:
+          - _Warp::Beast::Rudania::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Beast::Rudania::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Beast::Rudania::Base
+          - _Warp::Parts::NoSplit
+      Ruta:
+        presets:
+          - _Warp::Beast::Ruta::Base
+          - _Warp::Parts::DefaultSplitConfig
+      _Ruta:
+        Base:
+          presets: _Warp::Parts::Base3<Vah Ruta,2957.0,462.28,137.0>
+          icon: warp
+        SplitByDefault:
+          - _Warp::Beast::Ruta::Base
+          - _Warp::Parts::SplitByDefault
+        NoSplitByDefault:
+          - _Warp::Beast::Ruta::Base
+          - _Warp::Parts::NoSplitByDefault
+        NoSplit:
+          - _Warp::Beast::Ruta::Base
+          - _Warp::Parts::NoSplit
+    SOR:
+      presets:
+        - _Warp::SOR::Base
+        - _Warp::Parts::DefaultSplitConfig
+    _SOR:
+      Base:
+        presets: _Warp::Parts::Base3<S.o. Resur.,-1096.05,0,1879.34>
+        icon: warp
+      SplitByDefault:
+        - _Warp::SOR::Base
+        - _Warp::Parts::SplitByDefault
+      NoSplitByDefault:
+        - _Warp::SOR::Base
+        - _Warp::Parts::NoSplitByDefault
+      NoSplit:
+        - _Warp::SOR::Base
+        - _Warp::Parts::NoSplit
+

@@ -15,4 +15,4 @@ presets:
     icon-priority: 2
     coord: [$(1), $(2), $(3)]
     counter: .var(counter-bubbulfrog)
-  #TXTPP#run python ../../scripts/bubbulfrogs.py ../data/bubbulfrogs.yaml ../data/caves.yaml
+  #TXTPP#run uv run ../../scripts/bubbulfrogs.py ../data/bubbulfrogs.yaml ../data/caves.yaml

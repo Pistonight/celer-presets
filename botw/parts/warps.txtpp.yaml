@@ -1,0 +1,18 @@
+#TXTPP#include ../../GENERATED
+presets:
+  _Warp:
+    TravelMedallion:
+      presets: _Warp<Travel Medallion,$(0),$(1)>
+      icon: warp
+    _TravelMedallion:
+      SplitByDefault:
+        presets: _Warp::SplitByDefault<Travel Medallion,$(0),$(1)>
+        icon: warp
+      NoSplitByDefault:
+        presets: _Warp::NoSplitByDefault<Travel Medallion,$(0),$(1)>
+        icon: warp
+      NoSplit:
+        presets: _Warp::NoSplit<Travel Medallion,$(0),$(1)>
+        icon: warp
+
+    #TXTPP#run uv run ../../scripts/warps.py ../data/warps.yaml

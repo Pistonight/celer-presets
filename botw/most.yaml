@@ -1,7 +1,6 @@
 includes:
 - use: ./mini.yaml
 - use: ./parts/towers.yaml
-- use: ./parts/tower-warps.yaml
 - use: ./parts/memories.yaml
 - use: ./parts/shrines.yaml
 - use: ./parts/warps.yaml

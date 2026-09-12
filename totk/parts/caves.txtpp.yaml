@@ -20,4 +20,4 @@ presets:
     movements: 
     - to: [$(1), $(2), $(3)]
       icon: cave-map
-  #TXTPP#run python ../../scripts/caves.py ../data/caves.yaml
+  #TXTPP#run uv run ../../scripts/caves.py ../data/caves.yaml

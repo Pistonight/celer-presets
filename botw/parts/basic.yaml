@@ -40,6 +40,13 @@ tags:
     color: black
     background: cyan
     split-type: Warps
+  counter-warp-default-nosplit:
+    color: black
+    background: cyan
+    split-type: Warps (off-by-default)
+  counter-warp-nosplit:
+    color: black
+    background: cyan
   fury:
     color:
       light: "#884400"
@@ -107,19 +114,73 @@ icons:
 
 presets:
   Warp3:
-    text: "Warp .loc($(0))"
-    icon-doc: warp
-    counter: .var(counter-warp)
-    movements:
-    - to: [$(1), $(2), $(3)]
-      warp: true
+    presets:
+      - _Warp::Parts::Base3<$(0),$(1),$(2)>
+      - _Warp::Parts::DefaultSplitConfig
   Warp:
-    text: "Warp .loc($(0))"
-    icon-doc: warp
-    counter: .var(counter-warp)
-    movements:
-    - to: [$(1), $(2)]
-      warp: true
+    presets:
+      - _Warp::Parts::Base<$(0),$(1),$(2)>
+      - _Warp::Parts::DefaultSplitConfig
+  _Warp:
+    _Parts:
+      Base:
+        text: "Warp .loc($(0))"
+        icon-doc: warp
+        movements:
+          - to: [$(1), $(2)]
+            warp: true
+      Base3:
+        text: "Warp .loc($(0))"
+        icon-doc: warp
+        movements:
+          - to: [$(1), $(2), $(3)]
+            warp: true
+      DefaultSplitConfig:
+        presets: _Warp::Parts::SplitByDefault
+      SplitByDefault:
+        counter: .var(counter-warp)
+        vars:
+          counter-warp-default-nosplit: .add(1)
+          counter-warp-nosplit: .add(1)
+      NoSplitByDefault:
+        counter: .var(counter-warp-default-nosplit)
+        vars:
+          counter-warp: .add(1)
+          counter-warp-nosplit: .add(1)
+      NoSplit:
+        counter: .var(counter-warp-nosplit)
+        vars:
+          counter-warp: .add(1)
+          counter-warp-default-nosplit: .add(1)
+
+  # use like _Warp::SplitByDefault<Loc,X,Y>
+    SplitByDefault:
+      presets:
+        - _Warp::Parts::Base<$(0),$(1),$(2)>
+        - _Warp::Parts::SplitByDefault
+    NoSplitByDefault:
+      presets:
+        - _Warp::Parts::Base<$(0),$(1),$(2)>
+        - _Warp::Parts::NoSplitByDefault
+    NoSplit:
+      presets:
+        - _Warp::Parts::Base<$(0),$(1),$(2)>
+        - _Warp::Parts::NoSplit
+  _Warp3:
+  # use like _Warp3::SplitByDefault<Loc,X,Y>
+    SplitByDefault:
+      presets:
+        - _Warp::Parts::Base3<$(0),$(1),$(2)>
+        - _Warp::Parts::SplitByDefault
+    NoSplitByDefault:
+      presets:
+        - _Warp::Parts::Base3<$(0),$(1),$(2)>
+        - _Warp::Parts::NoSplitByDefault
+    NoSplit:
+      presets:
+        - _Warp::Parts::Base3<$(0),$(1),$(2)>
+        - _Warp::Parts::NoSplit
+    
   _Tod:
     Morning:
       text: Make Morning

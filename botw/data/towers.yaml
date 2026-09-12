@@ -1,0 +1,66 @@
+# main tower data:
+# .data[<ID>]:
+#   name: string
+#   abbr: string
+#   coord: [x,y,z] (y is height)
+data:
+  GreatPlateau:
+    name: Great Plateau
+    abbr: Plat.
+    coord: [-560.03,177.64,1694.86]
+  Central:
+    name: Central
+    abbr: Centr.
+    coord: [-788.64,197.64,442.03]
+  Lake:
+    name: Lake
+    abbr: Lake
+    coord: [-31.82,280.48,2961.60]
+  DuelingPeaks:
+    name: Dueling Peaks
+    abbr: D. Peaks
+    coord: [1016.78,184.01,1714.08]
+  Faron:
+    name: Faron
+    abbr: Faron
+    coord: [1331.20,269.93,3273.72]
+  Hateno:
+    name: Hateno
+    abbr: Hateno
+    coord: [2735.50,336.18,2133.50]
+  Lanayru:
+    name: Lanayru
+    abbr: Lanay.
+    coord: [2258.00,310.92,-109.00]
+  Eldin:
+    name: Eldin
+    abbr: Eldin
+    coord: [2174.15,508.73,-1556.78]
+  Woodland:
+    name: Woodland
+    abbr: Woodl.
+    coord: [883.88,350.22,-1605.71]
+  Akkala:
+    name: Akkala
+    abbr: Akkala
+    coord: [3308.00,593.78,-1500.10]
+  Tabantha:
+    name: Tabantha
+    abbr: Taban.
+    coord: [-3613.75,445.04,-990.16]
+  Gerudo:
+    name: Gerudo
+    abbr: Gerudo
+    coord: [-3666.00,470.98,1828.60]
+  Wasteland:
+    name: Wasteland
+    abbr: Wastel.
+    coord: [-2306.84,530.18,2437.32]
+  Hebra:
+    name: Hebra
+    abbr: Hebra
+    coord: [-2173.00,529.18,-2034.00]
+  Ridgeland:
+    name: Ridgeland
+    abbr: Ridgel.
+    coord: [-1755.30,328.58,-774.30]

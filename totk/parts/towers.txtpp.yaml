@@ -1,0 +1,23 @@
+#TXTPP#include ../../GENERATED
+tags:
+  counter-tower:
+    color: black
+    background: cyan
+    split-type: Towers
+
+splits:
+- counter-tower
+
+icons:
+  tower: https://icons.pistonite.org/icon/location.skyview_tower.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+
+presets:
+  Tower:
+    text: ".loc($(0) Tower)"
+    icon: tower
+    icon-priority: 0
+    counter: .var(counter-tower)
+    coord: [$(1), $(2), $(3)]
+
+  #TXTPP#run uv run ../../scripts/towers.py ../data/towers.yaml
+
