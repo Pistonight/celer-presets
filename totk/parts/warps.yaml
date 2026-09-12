@@ -31,14 +31,17 @@ presets:
           presets: _Warp::Parts::Base3<Hat. Tech Lab,3777.71,370.0,-2111>
           icon: warp
         SplitByDefault:
-          - _Warp::TechLab::Hateno::Base
-          - _Warp::Parts::SplitByDefault
+          presets:
+            - _Warp::TechLab::Hateno::Base
+            - _Warp::Parts::SplitByDefault
         NoSplitByDefault:
-          - _Warp::TechLab::Hateno::Base
-          - _Warp::Parts::NoSplitByDefault
+          presets:
+            - _Warp::TechLab::Hateno::Base
+            - _Warp::Parts::NoSplitByDefault
         NoSplit:
-          - _Warp::TechLab::Hateno::Base
-          - _Warp::Parts::NoSplit
+          presets:
+            - _Warp::TechLab::Hateno::Base
+            - _Warp::Parts::NoSplit
     _Temple:
       Wind:
         presets:
@@ -49,14 +52,17 @@ presets:
           presets: _Warp::Parts::Base3<Wind Temple,-2859,1738,2957>
           icon: warp
         SplitByDefault:
-          - _Warp::Temple::Wind::Base
-          - _Warp::Parts::SplitByDefault
+          presets:
+            - _Warp::Temple::Wind::Base
+            - _Warp::Parts::SplitByDefault
         NoSplitByDefault:
-          - _Warp::Temple::Wind::Base
-          - _Warp::Parts::NoSplitByDefault
+          presets:
+            - _Warp::Temple::Wind::Base
+            - _Warp::Parts::NoSplitByDefault
         NoSplit:
-          - _Warp::Temple::Wind::Base
-          - _Warp::Parts::NoSplit
+          presets:
+            - _Warp::Temple::Wind::Base
+            - _Warp::Parts::NoSplit
       Water:
         presets:
           - _Warp::Temple::Water::Base
@@ -66,14 +72,17 @@ presets:
           presets: _Warp::Parts::Base3<Water Temple,3357,1862,770>
           icon: warp
         SplitByDefault:
-          - _Warp::Temple::Water::Base
-          - _Warp::Parts::SplitByDefault
+          presets:
+            - _Warp::Temple::Water::Base
+            - _Warp::Parts::SplitByDefault
         NoSplitByDefault:
-          - _Warp::Temple::Water::Base
-          - _Warp::Parts::NoSplitByDefault
+          presets:
+            - _Warp::Temple::Water::Base
+            - _Warp::Parts::NoSplitByDefault
         NoSplit:
-          - _Warp::Temple::Water::Base
-          - _Warp::Parts::NoSplit
+          presets:
+            - _Warp::Temple::Water::Base
+            - _Warp::Parts::NoSplit
       Fire:
         presets:
           - _Warp::Temple::Fire::Base
@@ -83,14 +92,17 @@ presets:
           presets: _Warp::Parts::Base3<Fire Temple,1301,-683,2847>
           icon: warp-depth
         SplitByDefault:
-          - _Warp::Temple::Fire::Base
-          - _Warp::Parts::SplitByDefault
+          presets:
+            - _Warp::Temple::Fire::Base
+            - _Warp::Parts::SplitByDefault
         NoSplitByDefault:
-          - _Warp::Temple::Fire::Base
-          - _Warp::Parts::NoSplitByDefault
+          presets:
+            - _Warp::Temple::Fire::Base
+            - _Warp::Parts::NoSplitByDefault
         NoSplit:
-          - _Warp::Temple::Fire::Base
-          - _Warp::Parts::NoSplit
+          presets:
+            - _Warp::Temple::Fire::Base
+            - _Warp::Parts::NoSplit
       Lightning:
         presets:
           - _Warp::Temple::Lightning::Base
@@ -100,14 +112,17 @@ presets:
           presets: _Warp::Parts::Base3<Light. Temple,-4532,147,-3625>
           icon: warp
         SplitByDefault:
-          - _Warp::Temple::Lightning::Base
-          - _Warp::Parts::SplitByDefault
+          presets:
+            - _Warp::Temple::Lightning::Base
+            - _Warp::Parts::SplitByDefault
         NoSplitByDefault:
-          - _Warp::Temple::Lightning::Base
-          - _Warp::Parts::NoSplitByDefault
+          presets:
+            - _Warp::Temple::Lightning::Base
+            - _Warp::Parts::NoSplitByDefault
         NoSplit:
-          - _Warp::Temple::Lightning::Base
-          - _Warp::Parts::NoSplit
+          presets:
+            - _Warp::Temple::Lightning::Base
+            - _Warp::Parts::NoSplit
       Spirit:
         presets:
           - _Warp::Temple::Spirit::Base
@@ -117,14 +132,17 @@ presets:
           presets: _Warp::Parts::Base3<Spirit Temple,1402,-3094,-597>
           icon: warp-depth
         SplitByDefault:
-          - _Warp::Temple::Spirit::Base
-          - _Warp::Parts::SplitByDefault
+          presets:
+            - _Warp::Temple::Spirit::Base
+            - _Warp::Parts::SplitByDefault
         NoSplitByDefault:
-          - _Warp::Temple::Spirit::Base
-          - _Warp::Parts::NoSplitByDefault
+          presets:
+            - _Warp::Temple::Spirit::Base
+            - _Warp::Parts::NoSplitByDefault
         NoSplit:
-          - _Warp::Temple::Spirit::Base
-          - _Warp::Parts::NoSplit
+          presets:
+            - _Warp::Temple::Spirit::Base
+            - _Warp::Parts::NoSplit
     ROA:
       presets:
         - _Warp::ROA::Base
@@ -134,12 +152,15 @@ presets:
         presets: _Warp::Parts::Base3<R.o. Awake.,369,2400,-1752>
         icon: warp
       SplitByDefault:
-        - _Warp::ROA::Base
-        - _Warp::Parts::SplitByDefault
+        presets:
+          - _Warp::ROA::Base
+          - _Warp::Parts::SplitByDefault
       NoSplitByDefault:
-        - _Warp::ROA::Base
-        - _Warp::Parts::NoSplitByDefault
+        presets:
+          - _Warp::ROA::Base
+          - _Warp::Parts::NoSplitByDefault
       NoSplit:
-        - _Warp::ROA::Base
-        - _Warp::Parts::NoSplit
+        presets:
+          - _Warp::ROA::Base
+          - _Warp::Parts::NoSplit
 
