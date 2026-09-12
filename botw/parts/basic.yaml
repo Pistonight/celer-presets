@@ -115,7 +115,7 @@ icons:
 presets:
   Warp3:
     presets:
-      - _Warp::Parts::Base3<$(0),$(1),$(2)>
+      - _Warp::Parts::Base3<$(0),$(1),$(2),$(3)>
       - _Warp::Parts::DefaultSplitConfig
   Warp:
     presets:
@@ -170,15 +170,15 @@ presets:
   # use like _Warp3::SplitByDefault<Loc,X,Y>
     SplitByDefault:
       presets:
-        - _Warp::Parts::Base3<$(0),$(1),$(2)>
+        - _Warp::Parts::Base3<$(0),$(1),$(2),$(3)>
         - _Warp::Parts::SplitByDefault
     NoSplitByDefault:
       presets:
-        - _Warp::Parts::Base3<$(0),$(1),$(2)>
+        - _Warp::Parts::Base3<$(0),$(1),$(2),$(3)>
         - _Warp::Parts::NoSplitByDefault
     NoSplit:
       presets:
-        - _Warp::Parts::Base3<$(0),$(1),$(2)>
+        - _Warp::Parts::Base3<$(0),$(1),$(2),$(3)>
         - _Warp::Parts::NoSplit
     
   _Tod:
