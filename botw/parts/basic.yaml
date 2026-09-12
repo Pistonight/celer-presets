@@ -167,7 +167,7 @@ presets:
         - _Warp::Parts::Base<$(0),$(1),$(2)>
         - _Warp::Parts::NoSplit
   _Warp3:
-  # use like _Warp3::SplitByDefault<Loc,X,Y>
+  # use like _Warp3::SplitByDefault<Loc,X,Y,Z>
     SplitByDefault:
       presets:
         - _Warp::Parts::Base3<$(0),$(1),$(2),$(3)>
